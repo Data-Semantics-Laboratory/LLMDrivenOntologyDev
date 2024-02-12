@@ -1,0 +1,200 @@
+Quadro was Nvidia's brand for graphics cards intended for use in workstations running professional computer-aided design (CAD), computer-generated imagery (CGI), digital content creation (DCC) applications, scientific calculations and machine learning from 2000 to 2020.
+
+Quadro-branded graphics cards differed from the mainstream GeForce lines in that the Quadro cards included the use of ECC memory and enhanced floating point precision. These are desirable properties when the cards are used for calculations which require greater reliability and precision compared to graphics rendering for video games.
+Nvidia has moved away from the Quadro branding for new products, starting with the Turing architecture-based RTX 4000 released in November 13, 2018 and then phasing it out entirely with launch of the Ampere architecture-based RTX A6000 on October 5, 2020. To indicate the upgrade to the Nvidia Ampere architecture for their graphics cards technology, Nvidia RTX is the product line being produced and developed moving forward for use in professional workstations.
+The Nvidia Quadro product line directly competed with AMD's Radeon Pro (formerly FirePro/FireGL) line of professional workstation cards.
+
+
+== History ==
+The Quadro line of GPU cards emerged in an effort towards market segmentation by Nvidia. In introducing Quadro, Nvidia was able to charge a premium for essentially the same graphics hardware in professional markets, and direct resources to properly serve the needs of those markets. To differentiate their offerings, Nvidia used driver software and firmware to selectively enable features vital to segments of the workstation market, such as high-performance anti-aliased lines and two-sided lighting, in the Quadro product. These features were of little value to the gamers that Nvidia's products already sold to, but their lack prevented high-end customers from using the less expensive products. The Quadro line also received improved support through a certified driver program.There are parallels between the market segmentation used to sell the Quadro line of products to workstation (DCC) markets and the Tesla line of products to engineering and HPC markets.
+In a settlement of a patent infringement lawsuit between SGI and Nvidia, SGI acquired rights to speed-binned Nvidia graphics chips which they shipped under the VPro product label. These designs were completely separate from the SGI Odyssey based VPro products initially sold on their IRIX workstations which used a completely different bus. SGI's Nvidia-based VPro line included the VPro V3 (Geforce 256), VPro VR3 (Quadro), VPro V7 (Quadro2 MXR), and VPro VR7 (Quadro2 Pro).
+
+
+== Quadro SDI ==
+Actual extra cards only for Quadro 4000 cards and higher:
+
+SDI Capture:
+SDI Output:
+
+
+== Quadro Plex ==
+
+Quadro Plex consists of a line of external servers for rendering videos. A Quadro Plex contains multiple Quadro FX video cards. A client computer connects to Quadro Plex (using PCI Express ×8 or ×16 interface card with interconnect cable) to initiate rendering.
+
+
+== Quadro SLI and Sync ==
+
+Scalable Link Interface, or SLI, has been considered as the next generation of Plex. It is a multi-GPU technology that uses two or more video cards to produce a single output. SLI can improve Frame Rendering and FSAA. Quadro SLI supports Mosaic technology for multiple displays using two cards in parallel and up to 8 possible monitors. Most cards have an SLI bridge slot for up to four cards on one motherboard. With Quadro Sync technology, cards can support up to a maximum of 16 possible monitors (using four cards in parallel).Nvidia has 4 types of SLI bridges:
+
+Standard Bridge (400 MHz Pixel Clock and 1GB/s bandwidth)
+LED Bridge (540 MHz Pixel Clock)
+High-Bandwidth Bridge (650 MHz Pixel Clock)
+PCI-e lanes only reserved for SLIIn both SLI and SYNC technologies, acceleration of scientific calculations is possible with CUDA and OpenCL.
+
+
+== Quadro VCA ==
+
+Nvidia supports SLI and supercomputing with its 8-GPU Visual Computing Appliance. Nvidia Iray, Chaosgroup V-Ray and Nvidia OptiX accelerate Raytracing for Maya, 3DS Max, Cinema4D, Rhinoceros and others. All software with CUDA or OpenCL, such as ANSYS, NASTRAN, ABAQUS, and OpenFoam, can benefit from VCA.
+The DGX-1 is available with 8 GP100 Cards.
+
+
+== Quadro RTX ==
+
+The Quadro RTX series is based on the Turing microarchitecture, and features real-time raytracing. This is accelerated by the use of new RT cores, which are designed to process quadtrees and spherical hierarchies, and speed up collision tests with individual triangles. The Turing microarchitecture debuted with the Quadro RTX series before the mainstream consumer GeForce RTX line.The raytracing performed by the RT cores can be used to produce reflections, refractions and shadows, replacing traditional raster techniques such as cube maps and depth maps. Instead of replacing rasterization entirely, however, the information gathered from ray-tracing can be used to augment the shading with information that is much more physically correct, especially regarding off-camera action.
+Tensor cores further enhance the image produced by raytracing, and are used to de-noise a partially rendered image.RTX is also the name of the development platform introduced for the Quadro RTX series. RTX leverages Microsoft's DXR, OptiX and Vulkan for access to raytracing.Turing is manufactured using TSMC's 12 nm FinFET fabrication process. Quadro RTX also uses GDDR6 memory from Samsung Electronics.
+
+
+== Video cards ==
+
+
+=== GeForce ===
+Many of the Quadro line of video cards use the same GPU cores as Nvidia's consumer-and-gaming-oriented GeForce brand of video cards. The cards that are nearly identical to the desktop cards can be modified to identify themselves as the equivalent Quadro card to the operating system, allowing optimized drivers intended for the Quadro cards to be installed on the system. While this may not offer all of the performance of the equivalent Quadro card, it can improve performance in certain applications, but may require installing the MAXtreme driver for comparable speed.
+The performance difference comes in the firmware controlling the card. Given the importance of speed in a game, a system used for gaming can shut down textures, shading, or rendering after only approximating a final output—in order to keep the overall frame rate high. The algorithms on a CAD-oriented card tend rather to complete all rendering operations, even if that introduces delays or variations in the timing, prioritising accuracy and rendering quality over speed. A Geforce card focuses more on texture fillrates and high framerates with lighting and sound, but Quadro cards prioritize wireframe rendering and object interactions.
+
+
+== Desktop AGP ==
+Architecture Celsius (NV1x): DirectX 7, OpenGL 1.2 (1.3)
+Architecture Kelvin (NV2x): DirectX 8 (8.1), OpenGL 1.3 (1.5), Pixel Shader 1.1 (1.3)
+Architecture Rankine (NV3x): DirectX 9.0a, OpenGL 1.5 (2.1), Shader Model 2.0a
+Architecture Curie (NV4x): DirectX 9.0c, OpenGL 2.1, Shader Model 3.0
+
+
+== Desktop PCI ==
+Architecture Rankine (NV3x): DirectX 9.0a, OpenGL 1.5 (2.1), Shader Model 2.0a
+
+
+== Desktop PCI Express ==
+
+
+=== Quadro FX (without CUDA, OpenCL, or Vulkan) ===
+Rankine (NV3x): DirectX 9.0a, Shader Model 2.0a, OpenGL 2.1
+Curie (NV4x, G7x): DirectX 9.0c, Shader Model 3.0, OpenGL 2.1
+
+
+=== Quadro FX (with CUDA and OpenCL, but no Vulkan) ===
+Architecture Tesla (G80+, GT2xx) with OpenGL 3.3 and OpenCL 1.1
+Tesla (G80+): DirectX 10, Shader Model 4.0, only Single Precision (FP32) available for CUDA and OpenCL
+Tesla 2 (GT2xx): DirectX 10.1, Shader Model 4.1, Single Precision (FP32) available for CUDA and OpenCL (Double Precision (FP64) available for CUDA and OpenCL only for GT200 with CUDA Compute Capability 1.3 )
+
+
+=== Quadro ===
+Architecture Fermi (GFxxx), Kepler (GKxxx), Maxwell (GMxxx), Pascal (GPxxx), Volta (GVxxx) (except Quadro 400 with Tesla 2)
+All Cards with Display Port 1.1+ can support 10bit per Channel for OpenGL (HDR for Graphics Professional (Adobe Photoshop and more))
+Vulkan 1.2 available with Driver Windows 456.38, Linux 455.23.04 for Kepler, Maxwell, Pascal, Volta
+All Kepler, Maxwell, Pascal, Volta and later can do OpenGL 4.6 with Driver 418+
+All Quadro can do OpenCL 1.1. Kepler can do OpenCL 1.2, Maxwell and later can do OpenCL 3.0
+All can do Double Precision with Compute Capability 2.0 and higher (see CUDA)1 Nvidia Quadro 342.01 WHQL: support of OpenGL 3.3 and OpenCL 1.1 for legacy Tesla microarchitecture Quadros.2 Nvidia Quadro 377.83 WHQL: support of OpenGL 4.5, OpenCL 1.1 for legacy Fermi microarchitecture Quadros.3 Nvidia Quadro 474.64 WHQL: support of OpenGL 4.6, OpenCL 1.2, Vulkan 1.2 for legacy Kepler microarchitecture Quadros.4 Nvidia Quadro 538.15 WHQL: support of OpenGL 4.6, OpenCL 3.0, Vulkan 1.3 for Maxwell, Pascal & Volta microarchitecture Quadros.5 OpenCL 1.1 is available for Tesla-Chips, OpenCL 1.0 for some Cards with G8x, G9x and GT200 by MAC OS X
+
+
+=== T/RTX ===
+Turing (TU10x) microarchitecture
+Ampere (GA10x) microarchitecture
+Ada Lovelace (AD10x) microarchitecture
+Quadro naming dropped
+RTX series GPUs have tensor cores and hardware support for real-time ray tracing
+
+
+== For business NVS ==
+The Nvidia Quadro NVS graphics processing units (GPUs) provide business graphics solutions for manufacturers of small, medium, and enterprise-level business workstations. The Nvidia Quadro NVS desktop solutions enable multi-display graphics for businesses such as financial traders.
+
+Architecture Celsius (NV1x): DirectX 7, OpenGL 1.2 (1.3)
+Architecture Kelvin (NV2x): DirectX 8 (8.1), OpenGL 1.3 (1.5), Pixel Shader 1.1 (1.3)
+Architecture Rankine (NV3x): DirectX 9.0a, OpenGL 1.5 (2.1), Shader Model 2.0a
+Architecture Curie (NV4x): DirectX 9.0c, OpenGL 2.1, Shader Model 3.0
+Architecture Tesla (G80+): DirectX 10.0, OpenGL 3.3, Shader Model 4.0, CUDA 1.0 or 1.1, OpenCL 1.1
+Architecture Tesla 2 (GT2xx): DirectX 10.1, OpenGL 3.3, Shader Model 4.1, CUDA 1.2 or 1.3, OpenCL 1.1
+Architecture Fermi (GFxxx): DirectX 11.0, OpenGL 4.6, Shader Model 5.0, CUDA 2.x, OpenCL 1.1
+Architecture Kepler (GKxxx): DirectX 11.2, OpenGL 4.6, Shader Model 5.0, CUDA 3.x, OpenCL 1.2, Vulkan 1.2
+Architecture Maxwell 1 (GM1xx): DirectX 12.0, OpenGL 4.6, Shader Model 5.0, CUDA 5.0, OpenCL 3.0, Vulkan 1.3
+
+
+== Mobile applications ==
+
+
+=== Quadro FX M (without Vulkan) ===
+Architecture Rankine (NV3x), Curie (NV4x, G7x) and Tesla (G80+, GT2xx)
+
+
+=== Quadro NVS M ===
+Architecture Curie (NV4x, G7x): DirectX 9.0c, OpenGL 2.1, Shader Model 3.0
+Architecture Tesla (G80+): DirectX 10.0, OpenGL 3.3, Shader Model 4.0, CUDA 1.0 or 1.1, OpenCL 1.1
+Architecture Tesla 2 (GT2xx): DirectX 10.1, OpenGL 3.3, Shader Model 4.1, CUDA 1.2 or 1.3, OpenCL 1.1
+Architecture Fermi (GFxxx): DirectX 11.0, OpenGL 4.6, Shader Model 5.0, CUDA 2.x, OpenCL 1.1
+Architecture Kepler (GKxxx): DirectX 11.2, OpenGL 4.6, Shader Model 5.0, CUDA 3.x, OpenCL 1.2, Vulkan 1.1
+Architecture Maxwell 1 (GM1xx): DirectX 12.0, OpenGL 4.6, Shader Model 5.0, CUDA 5.0, OpenCL 1.2, Vulkan 1.1
+
+
+=== Quadro M ===
+Architecture Fermi, Kepler, Maxwell, Pascal
+Fermi, Kepler, Maxwell, and Pascal support OpenGL 4.6 with driver versions 381+ on Linux or 390+ on Windows
+All can do Double Precision with compute Capability 1.3 and higher
+Vulkan 1.2 on Kepler and 1.3 on Maxwell and later
+Quadro 5000M has 2048MB of VRAM, of which 1792MB is usable with ECC enabled.
+
+
+=== Quadro/Quadro RTX/RTX Mobile ===
+Turing (TU10x) microarchitecture
+Ampere (GA10x) microarchitecture
+Ada Lovelace (AD10x) microarchitecture
+Quadro naming dropped beginning with Ampere-based GPUs and later Turing-based GPUs (T500, T600, T1200)
+Quadro RTX/RTX series GPUs have tensor cores and hardware support for realtime ray tracing
+
+
+== NVENC and NVDEC support matrix ==
+Hardware accelerated video encoding (via NVENC) and decoding (via NVDEC) is supported on NVIDIA Quadro products with Kepler, Maxwell, Pascal, Turing, Ampere and Ada generation GPUs. Fermi based GPUs support decoding only.
+
+
+== Driver and SDK Software ==
+With Caps Viewer (1.38 in 2018) all Windows Users can see data of the graphic Card, the installed Driver and can test some Features. 
+GPU-Z reads also data of the graphic cards and the user can send some data for better database.
+
+
+=== Quadro/RTX drivers ===
+Curie-Architecture Last drivers see Driver Portal of Nvidia (End-of-Life)
+Tesla-Architecture (G80+, GT2xx) in Legacy Mode Quadro Driver 340: OpenGL 3.3, OpenCL 1.1, DirectX 10.0/10.1 (End-of-Life)
+Fermi (GFxxx): OpenCL 1.1, OpenGL 4.5, some OpenGL 2016 Features with Quadro Driver 375, in legacy mode with version 391.74 (End-of-Life)
+Kepler (GKxxx): OpenCL 1.2, OpenGL 4.6, Vulkan 1.2 with RTX Enterprise/Quadro Driver 470 (End-of-Life)
+Maxwell (GMxxx): OpenCL 3.0, OpenGL 4.6, Vulkan 1.3 with RTX Enterprise/Quadro Driver 535+
+Pascal (GPxxx): OpenCL 3.0, OpenGL 4.6, Vulkan 1.3 with RTX Enterprise/Quadro driver 535+
+Volta (GVxxx): OpenCL 3.0, OpenGL 4.6, Vulkan 1.3 with RTX Enterprise/Quadro driver 535+
+Turing (TUxxx): OpenCL 3.0, OpenGL 4.6, Vulkan 1.3 with RTX Enterprise/Quadro driver 535+
+Ampere (GAxxx): OpenCL 3.0, OpenGL 4.6, Vulkan 1.3 with RTX Enterprise/Quadro driver 535+
+Ada Lovelace (ADxxx): OpenCL 3.0, OpenGL 4.6, Vulkan 1.3 with RTX Enterprise/Quadro driver 535+
+
+
+=== CUDA ===
+Tesla Architecture and laterSupported CUDA Level of GPU and Card.
+CUDA SDK 6.5 support for Compute Capability 1.0 – 5.x (Tesla, Fermi, Kepler, Maxwell) Last Version with support for Tesla-Architecture with Compute Capability 1.x
+CUDA SDK 7.5 support for Compute Capability 2.0 – 5.x (Fermi, Kepler, Maxwell)
+CUDA SDK 8.0 support for Compute Capability 2.0 – 6.x (Fermi, Kepler, Maxwell, Pascal) Last version with support for compute capability 2.x (Fermi)
+CUDA SDK 9.0/9.1/9.2 support for Compute Capability 3.0 – 7.2 (Kepler, Maxwell, Pascal, Volta)
+CUDA SDK 10.0/10.1/10.2 support for Compute Capability 3.0 – 7.5 (Kepler, Maxwell, Pascal, Volta, Turing) Last version with support for compute capability 3.x (Kepler).
+CUDA SDK 11.0/11.1/11.2/11.3/11.4/11.5/11.6/11.7 support for Compute Capability 3.5 – 8.9 (Kepler(GK110, GK208, GK210 only), Maxwell, Pascal, Volta, Turing, Ampere, Ada Lovelace)
+CUDA SDK 11.8 support for Compute Capability 3.5 – 8.9 (Kepler(GK110, GK208, GK210 only), Maxwell, Pascal, Volta, Turing, Ampere, Ada Lovelace)
+CUDA SDK 12.0 support for Compute Capability 5.0 – 8.9 (Maxwell, Pascal, Volta, Turing, Ampere, Ada Lovelace)For own Card Test see CUDA-Z Tool
+
+
+== See also ==
+Comparison of Nvidia graphics processing units
+List of Nvidia graphics processing units
+CUDA – Nvidia CUDA technology
+Nvidia Tesla – Nvidia's first dedicated general purpose graphics processing unit (GPGPU)
+Nvidia RTX – Nvidia's latest high-end graphics rendering development platform
+Sun Visualization System – uses Nvidia Quadro FX for 3D rendering and graphics acceleration
+Nvidia NVDEC
+Nvidia NVENC
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+
+Quadro Professional Workstation Solutions
+Nvidia.com – Quadro vs. GeForce GPUs Technical Brief
+Nvidia.com – NvidiaQuadro Plex
+Nvidia Nsight
+Quadro NVS Mobile – Tech Specs
