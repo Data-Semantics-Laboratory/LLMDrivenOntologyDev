@@ -1,0 +1,1286 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6277136 a schema:Dataset ;
+	schema:about wd:Q6277136 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1783926673"^^xsd:integer ;
+	schema:dateModified "2022-12-04T05:31:30Z"^^xsd:dateTime ;
+	wikibase:statements "18"^^xsd:integer ;
+	wikibase:sitelinks "1"^^xsd:integer ;
+	wikibase:identifiers "8"^^xsd:integer .
+
+wd:Q6277136 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Jordan_Winston_Early> a schema:Article ;
+	schema:about wd:Q6277136 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Jordan Winston Early"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6277136 wdt:P31 wd:Q5 ;
+	wdt:P569 "1814-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P21 wd:Q6581097 ;
+	wdt:P735 wd:Q14021944 ;
+	wdt:P3716 wd:Q12773225 ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Jordan%20Early.jpg> ;
+	wdt:P140 wd:Q384121 ;
+	wdt:P648 "OL7180531A" ;
+	wdtn:P648 <http://openlibrary.org/works/OL7180531A> ;
+	wdt:P214 "39080840" ;
+	wdtn:P214 <http://viaf.org/viaf/39080840> ;
+	wdt:P244 "no2004015475" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/no2004015475> ;
+	wdt:P2163 "1816867" ;
+	wdtn:P2163 <http://id.worldcat.org/fast/1816867> ;
+	wdt:P4823 "0800422" ;
+	wdtn:P4823 <http://dx.doi.org/10.1093/anb/9780198606697.article.0800422> ;
+	wdt:P570 "1903-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P106 wd:Q1423891 ;
+	wdt:P5008 wd:Q15304953 ;
+	wdt:P7859 "lccn-no2004015475" ;
+	wdt:P646 "/m/0lpwmzy" ;
+	wdt:P2949 "Early-1689" ;
+	p:P31 s:Q6277136-A8B31B2F-569E-4D75-8CDC-80AF8C7BEE67 .
+
+s:Q6277136-A8B31B2F-569E-4D75-8CDC-80AF8C7BEE67 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P31 wd:Q5 .
+
+wd:Q6277136 p:P569 s:Q6277136-923E6D09-2C60-4AE6-B74A-04AFD8C6FC2B .
+
+s:Q6277136-923E6D09-2C60-4AE6-B74A-04AFD8C6FC2B a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P569 "1814-01-01T00:00:00Z"^^xsd:dateTime ;
+	psv:P569 v:b1db4a29062b477e6c4c05d8f5867ee7 ;
+	prov:wasDerivedFrom ref:fa278ebfc458360e5aed63d5058cca83c46134f1,
+		ref:01d2c6cb5923bdd6600734321a4ffba001051fce .
+
+wd:Q6277136 p:P21 s:Q6277136-A7249BF9-AFFD-4209-95D9-EECDBAF908E2 .
+
+s:Q6277136-A7249BF9-AFFD-4209-95D9-EECDBAF908E2 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q6581097 .
+
+wd:Q6277136 p:P735 s:Q6277136-9341B394-78B8-41DB-A0F0-486C9E5C2409 .
+
+s:Q6277136-9341B394-78B8-41DB-A0F0-486C9E5C2409 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P735 wd:Q14021944 .
+
+wd:Q6277136 p:P3716 s:Q6277136-BCD49881-AA0A-48C2-9255-2EB079E055D6 .
+
+s:Q6277136-BCD49881-AA0A-48C2-9255-2EB079E055D6 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3716 wd:Q12773225 .
+
+wd:Q6277136 p:P18 s:Q6277136-08C066A4-D915-4258-9F92-D236479378EA .
+
+s:Q6277136-08C066A4-D915-4258-9F92-D236479378EA a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Jordan%20Early.jpg> .
+
+wd:Q6277136 p:P140 s:Q6277136-63510AB8-34C6-4B5F-9F85-C17880E3E68C .
+
+s:Q6277136-63510AB8-34C6-4B5F-9F85-C17880E3E68C a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P140 wd:Q384121 .
+
+wd:Q6277136 p:P648 s:Q6277136-7D909C6E-877B-4F89-858C-30EE441F59BD .
+
+s:Q6277136-7D909C6E-877B-4F89-858C-30EE441F59BD a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P648 "OL7180531A" ;
+	psn:P648 <http://openlibrary.org/works/OL7180531A> .
+
+wd:Q6277136 p:P214 s:Q6277136-5FC7D9CB-8E6B-4A2D-96AE-376B2B483AA5 .
+
+s:Q6277136-5FC7D9CB-8E6B-4A2D-96AE-376B2B483AA5 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P214 "39080840" ;
+	psn:P214 <http://viaf.org/viaf/39080840> ;
+	prov:wasDerivedFrom ref:fa278ebfc458360e5aed63d5058cca83c46134f1 .
+
+wd:Q6277136 p:P244 s:Q6277136-96A57AC9-0427-4874-B6EA-09D675F1D87C .
+
+s:Q6277136-96A57AC9-0427-4874-B6EA-09D675F1D87C a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P244 "no2004015475" ;
+	psn:P244 <http://id.loc.gov/authorities/names/no2004015475> .
+
+wd:Q6277136 p:P2163 s:Q6277136-75CAE43F-CEB4-4CA4-B86C-63C98E8E0B49 .
+
+s:Q6277136-75CAE43F-CEB4-4CA4-B86C-63C98E8E0B49 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P2163 "1816867" ;
+	psn:P2163 <http://id.worldcat.org/fast/1816867> .
+
+wd:Q6277136 p:P4823 s:Q6277136-6520F1FF-92ED-4D89-B7BA-B7C9F86ECDE7 .
+
+s:Q6277136-6520F1FF-92ED-4D89-B7BA-B7C9F86ECDE7 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P4823 "0800422" ;
+	psn:P4823 <http://dx.doi.org/10.1093/anb/9780198606697.article.0800422> .
+
+wd:Q6277136 p:P570 s:Q6277136-D92D69A6-1CD8-41D4-B444-8C8EA45CB38E .
+
+s:Q6277136-D92D69A6-1CD8-41D4-B444-8C8EA45CB38E a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P570 "1903-01-01T00:00:00Z"^^xsd:dateTime ;
+	psv:P570 v:95bb402e41da4b3c4bde40fc940fc7ff ;
+	prov:wasDerivedFrom ref:01d2c6cb5923bdd6600734321a4ffba001051fce .
+
+wd:Q6277136 p:P106 s:Q6277136-C36F3E36-924D-4F46-B8F9-C9BA9F2CBC43 .
+
+s:Q6277136-C36F3E36-924D-4F46-B8F9-C9BA9F2CBC43 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P106 wd:Q1423891 ;
+	prov:wasDerivedFrom ref:6825a0a270d2af564b53f51f0f98dfe5de9b082a .
+
+wd:Q6277136 p:P5008 s:Q6277136-039A0B79-21E9-4019-A080-DD8993F49A73 .
+
+s:Q6277136-039A0B79-21E9-4019-A080-DD8993F49A73 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P5008 wd:Q15304953 .
+
+wd:Q6277136 p:P7859 s:Q6277136-04B9E099-8440-410B-8BF8-B1962479F6AC .
+
+s:Q6277136-04B9E099-8440-410B-8BF8-B1962479F6AC a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P7859 "lccn-no2004015475" ;
+	prov:wasDerivedFrom ref:6565e2a63a616b59b6f2c4d42cbcd55c7e4ce5a4 .
+
+wd:Q6277136 p:P646 s:Q6277136-54457135-4E8C-4507-A793-E70257310E21 .
+
+s:Q6277136-54457135-4E8C-4507-A793-E70257310E21 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P646 "/m/0lpwmzy" .
+
+wd:Q6277136 p:P2949 s:Q6277136-2DFF7001-2CAD-481C-8885-45FA88DD0E39 .
+
+s:Q6277136-2DFF7001-2CAD-481C-8885-45FA88DD0E39 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P2949 "Early-1689" ;
+	pq:P1810 "Rev Jordan Winston Early (17 Jun 1814 - 19 Nov 1903)" .
+
+wd:Q6277136 rdfs:label "Jordan Winston Early"@en ;
+	skos:prefLabel "Jordan Winston Early"@en ;
+	schema:name "Jordan Winston Early"@en ;
+	rdfs:label "Jordan Winston Early"@it ;
+	skos:prefLabel "Jordan Winston Early"@it ;
+	schema:name "Jordan Winston Early"@it ;
+	rdfs:label "Jordan Winston Early"@de ;
+	skos:prefLabel "Jordan Winston Early"@de ;
+	schema:name "Jordan Winston Early"@de ;
+	rdfs:label "Jordan Winston Early"@nl ;
+	skos:prefLabel "Jordan Winston Early"@nl ;
+	schema:name "Jordan Winston Early"@nl ;
+	rdfs:label "Jordan Winston Early"@es ;
+	skos:prefLabel "Jordan Winston Early"@es ;
+	schema:name "Jordan Winston Early"@es ;
+	rdfs:label "Jordan Winston Early"@ast ;
+	skos:prefLabel "Jordan Winston Early"@ast ;
+	schema:name "Jordan Winston Early"@ast ;
+	rdfs:label "Jordan Winston Early"@sq ;
+	skos:prefLabel "Jordan Winston Early"@sq ;
+	schema:name "Jordan Winston Early"@sq ;
+	schema:description "American slave"@en .
+
+wd:Q5 a wikibase:Item ;
+	rdfs:label "human"@en ;
+	skos:prefLabel "human"@en ;
+	schema:name "human"@en ;
+	schema:description "any member of Homo sapiens, unique extant species of the genus Homo, from embryo to adult"@en .
+
+wd:P31 a wikibase:Property ;
+	rdfs:label "instance of"@en ;
+	skos:prefLabel "instance of"@en ;
+	schema:name "instance of"@en ;
+	schema:description "that class of which this subject is a particular example and member; different from P279 (subclass of); for example: K2 is an instance of mountain; volcano is a subclass of mountain (and an instance of volcanic landform)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P31 ;
+	wikibase:claim p:P31 ;
+	wikibase:statementProperty ps:P31 ;
+	wikibase:statementValue psv:P31 ;
+	wikibase:qualifier pq:P31 ;
+	wikibase:qualifierValue pqv:P31 ;
+	wikibase:reference pr:P31 ;
+	wikibase:referenceValue prv:P31 ;
+	wikibase:novalue wdno:P31 .
+
+p:P31 a owl:ObjectProperty .
+
+psv:P31 a owl:ObjectProperty .
+
+pqv:P31 a owl:ObjectProperty .
+
+prv:P31 a owl:ObjectProperty .
+
+wdt:P31 a owl:ObjectProperty .
+
+ps:P31 a owl:ObjectProperty .
+
+pq:P31 a owl:ObjectProperty .
+
+pr:P31 a owl:ObjectProperty .
+
+wdno:P31 a owl:Class ;
+	owl:complementOf _:0b8bd71b926a65ca3fa72e5d9103e4d6 .
+
+_:0b8bd71b926a65ca3fa72e5d9103e4d6 a owl:Restriction ;
+	owl:onProperty wdt:P31 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P569 a wikibase:Property ;
+	rdfs:label "date of birth"@en ;
+	skos:prefLabel "date of birth"@en ;
+	schema:name "date of birth"@en ;
+	schema:description "date on which the subject was born"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#Time> ;
+	wikibase:directClaim wdt:P569 ;
+	wikibase:claim p:P569 ;
+	wikibase:statementProperty ps:P569 ;
+	wikibase:statementValue psv:P569 ;
+	wikibase:qualifier pq:P569 ;
+	wikibase:qualifierValue pqv:P569 ;
+	wikibase:reference pr:P569 ;
+	wikibase:referenceValue prv:P569 ;
+	wikibase:novalue wdno:P569 .
+
+p:P569 a owl:ObjectProperty .
+
+psv:P569 a owl:ObjectProperty .
+
+pqv:P569 a owl:ObjectProperty .
+
+prv:P569 a owl:ObjectProperty .
+
+wdt:P569 a owl:DatatypeProperty .
+
+ps:P569 a owl:DatatypeProperty .
+
+pq:P569 a owl:DatatypeProperty .
+
+pr:P569 a owl:DatatypeProperty .
+
+wdno:P569 a owl:Class ;
+	owl:complementOf _:4bfb48d5a3bb3600187722aa6901d2c3 .
+
+_:4bfb48d5a3bb3600187722aa6901d2c3 a owl:Restriction ;
+	owl:onProperty wdt:P569 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q6581097 a wikibase:Item ;
+	rdfs:label "male"@en ;
+	skos:prefLabel "male"@en ;
+	schema:name "male"@en ;
+	schema:description "to be used in \"sex or gender\" (P21) to indicate that the human subject is a male or \"semantic gender\" (P10339) to indicate that a word refers to a male person"@en .
+
+wd:P21 a wikibase:Property ;
+	rdfs:label "sex or gender"@en ;
+	skos:prefLabel "sex or gender"@en ;
+	schema:name "sex or gender"@en ;
+	schema:description "sex or gender identity of human or animal. For human: male, female, non-binary, intersex, transgender female, transgender male, agender, etc. For animal: male organism, female organism. Groups of same gender use subclass of (P279)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P21 ;
+	wikibase:claim p:P21 ;
+	wikibase:statementProperty ps:P21 ;
+	wikibase:statementValue psv:P21 ;
+	wikibase:qualifier pq:P21 ;
+	wikibase:qualifierValue pqv:P21 ;
+	wikibase:reference pr:P21 ;
+	wikibase:referenceValue prv:P21 ;
+	wikibase:novalue wdno:P21 .
+
+p:P21 a owl:ObjectProperty .
+
+psv:P21 a owl:ObjectProperty .
+
+pqv:P21 a owl:ObjectProperty .
+
+prv:P21 a owl:ObjectProperty .
+
+wdt:P21 a owl:ObjectProperty .
+
+ps:P21 a owl:ObjectProperty .
+
+pq:P21 a owl:ObjectProperty .
+
+pr:P21 a owl:ObjectProperty .
+
+wdno:P21 a owl:Class ;
+	owl:complementOf _:8543f188a73d6ea7a6705f0835ae332d .
+
+_:8543f188a73d6ea7a6705f0835ae332d a owl:Restriction ;
+	owl:onProperty wdt:P21 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q14021944 a wikibase:Item ;
+	rdfs:label "Jordan"@en ;
+	skos:prefLabel "Jordan"@en ;
+	schema:name "Jordan"@en ;
+	schema:description "unisex given name"@en .
+
+wd:P735 a wikibase:Property ;
+	rdfs:label "given name"@en ;
+	skos:prefLabel "given name"@en ;
+	schema:name "given name"@en ;
+	schema:description "first name or another given name of this person; values used with the property should not link disambiguations nor family names"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P735 ;
+	wikibase:claim p:P735 ;
+	wikibase:statementProperty ps:P735 ;
+	wikibase:statementValue psv:P735 ;
+	wikibase:qualifier pq:P735 ;
+	wikibase:qualifierValue pqv:P735 ;
+	wikibase:reference pr:P735 ;
+	wikibase:referenceValue prv:P735 ;
+	wikibase:novalue wdno:P735 .
+
+p:P735 a owl:ObjectProperty .
+
+psv:P735 a owl:ObjectProperty .
+
+pqv:P735 a owl:ObjectProperty .
+
+prv:P735 a owl:ObjectProperty .
+
+wdt:P735 a owl:ObjectProperty .
+
+ps:P735 a owl:ObjectProperty .
+
+pq:P735 a owl:ObjectProperty .
+
+pr:P735 a owl:ObjectProperty .
+
+wdno:P735 a owl:Class ;
+	owl:complementOf _:7cd44173f1681fd19dd103a28fda54a8 .
+
+_:7cd44173f1681fd19dd103a28fda54a8 a owl:Restriction ;
+	owl:onProperty wdt:P735 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q12773225 a wikibase:Item ;
+	rdfs:label "enslaved person"@en ;
+	skos:prefLabel "enslaved person"@en ;
+	schema:name "enslaved person"@en ;
+	schema:description "person in a state of slavery"@en .
+
+wd:P3716 a wikibase:Property ;
+	rdfs:label "social classification"@en ;
+	skos:prefLabel "social classification"@en ;
+	schema:name "social classification"@en ;
+	schema:description "social class as recognized in traditional or state law"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P3716 ;
+	wikibase:claim p:P3716 ;
+	wikibase:statementProperty ps:P3716 ;
+	wikibase:statementValue psv:P3716 ;
+	wikibase:qualifier pq:P3716 ;
+	wikibase:qualifierValue pqv:P3716 ;
+	wikibase:reference pr:P3716 ;
+	wikibase:referenceValue prv:P3716 ;
+	wikibase:novalue wdno:P3716 .
+
+p:P3716 a owl:ObjectProperty .
+
+psv:P3716 a owl:ObjectProperty .
+
+pqv:P3716 a owl:ObjectProperty .
+
+prv:P3716 a owl:ObjectProperty .
+
+wdt:P3716 a owl:ObjectProperty .
+
+ps:P3716 a owl:ObjectProperty .
+
+pq:P3716 a owl:ObjectProperty .
+
+pr:P3716 a owl:ObjectProperty .
+
+wdno:P3716 a owl:Class ;
+	owl:complementOf _:7b801f23f0140f08085d39ba4d8d0390 .
+
+_:7b801f23f0140f08085d39ba4d8d0390 a owl:Restriction ;
+	owl:onProperty wdt:P3716 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P18 a wikibase:Property ;
+	rdfs:label "image"@en ;
+	skos:prefLabel "image"@en ;
+	schema:name "image"@en ;
+	schema:description "image of relevant illustration of the subject; if available, also use more specific properties (sample: coat of arms image, locator map, flag image, signature image, logo image, collage image)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#CommonsMedia> ;
+	wikibase:directClaim wdt:P18 ;
+	wikibase:claim p:P18 ;
+	wikibase:statementProperty ps:P18 ;
+	wikibase:statementValue psv:P18 ;
+	wikibase:qualifier pq:P18 ;
+	wikibase:qualifierValue pqv:P18 ;
+	wikibase:reference pr:P18 ;
+	wikibase:referenceValue prv:P18 ;
+	wikibase:novalue wdno:P18 .
+
+p:P18 a owl:ObjectProperty .
+
+psv:P18 a owl:ObjectProperty .
+
+pqv:P18 a owl:ObjectProperty .
+
+prv:P18 a owl:ObjectProperty .
+
+wdt:P18 a owl:ObjectProperty .
+
+ps:P18 a owl:ObjectProperty .
+
+pq:P18 a owl:ObjectProperty .
+
+pr:P18 a owl:ObjectProperty .
+
+wdno:P18 a owl:Class ;
+	owl:complementOf _:90353c5ec33a5dc569985590a17a3551 .
+
+_:90353c5ec33a5dc569985590a17a3551 a owl:Restriction ;
+	owl:onProperty wdt:P18 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q384121 a wikibase:Item ;
+	rdfs:label "African Methodist Episcopal Church"@en ;
+	skos:prefLabel "African Methodist Episcopal Church"@en ;
+	schema:name "African Methodist Episcopal Church"@en ;
+	schema:description "African American Protestant denomination"@en .
+
+wd:P140 a wikibase:Property ;
+	rdfs:label "religion or worldview"@en ;
+	skos:prefLabel "religion or worldview"@en ;
+	schema:name "religion or worldview"@en ;
+	schema:description "religion of a person, organization or religious building, or associated with this subject"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P140 ;
+	wikibase:claim p:P140 ;
+	wikibase:statementProperty ps:P140 ;
+	wikibase:statementValue psv:P140 ;
+	wikibase:qualifier pq:P140 ;
+	wikibase:qualifierValue pqv:P140 ;
+	wikibase:reference pr:P140 ;
+	wikibase:referenceValue prv:P140 ;
+	wikibase:novalue wdno:P140 .
+
+p:P140 a owl:ObjectProperty .
+
+psv:P140 a owl:ObjectProperty .
+
+pqv:P140 a owl:ObjectProperty .
+
+prv:P140 a owl:ObjectProperty .
+
+wdt:P140 a owl:ObjectProperty .
+
+ps:P140 a owl:ObjectProperty .
+
+pq:P140 a owl:ObjectProperty .
+
+pr:P140 a owl:ObjectProperty .
+
+wdno:P140 a owl:Class ;
+	owl:complementOf _:3bbbd7673af9946aba0ac3fb78805fae .
+
+_:3bbbd7673af9946aba0ac3fb78805fae a owl:Restriction ;
+	owl:onProperty wdt:P140 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P648 a wikibase:Property ;
+	rdfs:label "Open Library ID"@en ;
+	skos:prefLabel "Open Library ID"@en ;
+	schema:name "Open Library ID"@en ;
+	schema:description "identifier for a work (\"W\"), edition (\"M\") or author (\"A\") for book data of the Internet Archive"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P648 ;
+	wikibase:claim p:P648 ;
+	wikibase:statementProperty ps:P648 ;
+	wikibase:statementValue psv:P648 ;
+	wikibase:qualifier pq:P648 ;
+	wikibase:qualifierValue pqv:P648 ;
+	wikibase:reference pr:P648 ;
+	wikibase:referenceValue prv:P648 ;
+	wikibase:novalue wdno:P648 ;
+	wikibase:directClaimNormalized wdtn:P648 ;
+	wikibase:statementValueNormalized psn:P648 ;
+	wikibase:qualifierValueNormalized pqn:P648 ;
+	wikibase:referenceValueNormalized prn:P648 .
+
+p:P648 a owl:ObjectProperty .
+
+psv:P648 a owl:ObjectProperty .
+
+pqv:P648 a owl:ObjectProperty .
+
+prv:P648 a owl:ObjectProperty .
+
+wdt:P648 a owl:DatatypeProperty .
+
+ps:P648 a owl:DatatypeProperty .
+
+pq:P648 a owl:DatatypeProperty .
+
+pr:P648 a owl:DatatypeProperty .
+
+psn:P648 a owl:ObjectProperty .
+
+pqn:P648 a owl:ObjectProperty .
+
+prn:P648 a owl:ObjectProperty .
+
+wdtn:P648 a owl:ObjectProperty .
+
+wdno:P648 a owl:Class ;
+	owl:complementOf _:77764e4c47fec97d0c5bb4562bf6e826 .
+
+_:77764e4c47fec97d0c5bb4562bf6e826 a owl:Restriction ;
+	owl:onProperty wdt:P648 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P214 a wikibase:Property ;
+	rdfs:label "VIAF ID"@en ;
+	skos:prefLabel "VIAF ID"@en ;
+	schema:name "VIAF ID"@en ;
+	schema:description "identifier for the Virtual International Authority File database [format: up to 22 digits]"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P214 ;
+	wikibase:claim p:P214 ;
+	wikibase:statementProperty ps:P214 ;
+	wikibase:statementValue psv:P214 ;
+	wikibase:qualifier pq:P214 ;
+	wikibase:qualifierValue pqv:P214 ;
+	wikibase:reference pr:P214 ;
+	wikibase:referenceValue prv:P214 ;
+	wikibase:novalue wdno:P214 ;
+	wikibase:directClaimNormalized wdtn:P214 ;
+	wikibase:statementValueNormalized psn:P214 ;
+	wikibase:qualifierValueNormalized pqn:P214 ;
+	wikibase:referenceValueNormalized prn:P214 .
+
+p:P214 a owl:ObjectProperty .
+
+psv:P214 a owl:ObjectProperty .
+
+pqv:P214 a owl:ObjectProperty .
+
+prv:P214 a owl:ObjectProperty .
+
+wdt:P214 a owl:DatatypeProperty .
+
+ps:P214 a owl:DatatypeProperty .
+
+pq:P214 a owl:DatatypeProperty .
+
+pr:P214 a owl:DatatypeProperty .
+
+psn:P214 a owl:ObjectProperty .
+
+pqn:P214 a owl:ObjectProperty .
+
+prn:P214 a owl:ObjectProperty .
+
+wdtn:P214 a owl:ObjectProperty .
+
+wdno:P214 a owl:Class ;
+	owl:complementOf _:29da2ca818bc08f93ddc0a2be66197e9 .
+
+_:29da2ca818bc08f93ddc0a2be66197e9 a owl:Restriction ;
+	owl:onProperty wdt:P214 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P244 a wikibase:Property ;
+	rdfs:label "Library of Congress authority ID"@en ;
+	skos:prefLabel "Library of Congress authority ID"@en ;
+	schema:name "Library of Congress authority ID"@en ;
+	schema:description "Library of Congress name authority (persons, families, corporate bodies, events, places, works and expressions) and subject authority identifier [Format: 1-2 specific letters followed by 8-10 digits (see regex). For manifestations, use P1144]"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P244 ;
+	wikibase:claim p:P244 ;
+	wikibase:statementProperty ps:P244 ;
+	wikibase:statementValue psv:P244 ;
+	wikibase:qualifier pq:P244 ;
+	wikibase:qualifierValue pqv:P244 ;
+	wikibase:reference pr:P244 ;
+	wikibase:referenceValue prv:P244 ;
+	wikibase:novalue wdno:P244 ;
+	wikibase:directClaimNormalized wdtn:P244 ;
+	wikibase:statementValueNormalized psn:P244 ;
+	wikibase:qualifierValueNormalized pqn:P244 ;
+	wikibase:referenceValueNormalized prn:P244 .
+
+p:P244 a owl:ObjectProperty .
+
+psv:P244 a owl:ObjectProperty .
+
+pqv:P244 a owl:ObjectProperty .
+
+prv:P244 a owl:ObjectProperty .
+
+wdt:P244 a owl:DatatypeProperty .
+
+ps:P244 a owl:DatatypeProperty .
+
+pq:P244 a owl:DatatypeProperty .
+
+pr:P244 a owl:DatatypeProperty .
+
+psn:P244 a owl:ObjectProperty .
+
+pqn:P244 a owl:ObjectProperty .
+
+prn:P244 a owl:ObjectProperty .
+
+wdtn:P244 a owl:ObjectProperty .
+
+wdno:P244 a owl:Class ;
+	owl:complementOf _:590c65ffccb1a1851cc444e4370c7714 .
+
+_:590c65ffccb1a1851cc444e4370c7714 a owl:Restriction ;
+	owl:onProperty wdt:P244 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P2163 a wikibase:Property ;
+	rdfs:label "FAST ID"@en ;
+	skos:prefLabel "FAST ID"@en ;
+	schema:name "FAST ID"@en ;
+	schema:description "authority control identifier in WorldCat's “FAST Linked Data” authority file"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P2163 ;
+	wikibase:claim p:P2163 ;
+	wikibase:statementProperty ps:P2163 ;
+	wikibase:statementValue psv:P2163 ;
+	wikibase:qualifier pq:P2163 ;
+	wikibase:qualifierValue pqv:P2163 ;
+	wikibase:reference pr:P2163 ;
+	wikibase:referenceValue prv:P2163 ;
+	wikibase:novalue wdno:P2163 ;
+	wikibase:directClaimNormalized wdtn:P2163 ;
+	wikibase:statementValueNormalized psn:P2163 ;
+	wikibase:qualifierValueNormalized pqn:P2163 ;
+	wikibase:referenceValueNormalized prn:P2163 .
+
+p:P2163 a owl:ObjectProperty .
+
+psv:P2163 a owl:ObjectProperty .
+
+pqv:P2163 a owl:ObjectProperty .
+
+prv:P2163 a owl:ObjectProperty .
+
+wdt:P2163 a owl:DatatypeProperty .
+
+ps:P2163 a owl:DatatypeProperty .
+
+pq:P2163 a owl:DatatypeProperty .
+
+pr:P2163 a owl:DatatypeProperty .
+
+psn:P2163 a owl:ObjectProperty .
+
+pqn:P2163 a owl:ObjectProperty .
+
+prn:P2163 a owl:ObjectProperty .
+
+wdtn:P2163 a owl:ObjectProperty .
+
+wdno:P2163 a owl:Class ;
+	owl:complementOf _:be15783f018d2abc361b1b2183fe8448 .
+
+_:be15783f018d2abc361b1b2183fe8448 a owl:Restriction ;
+	owl:onProperty wdt:P2163 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P4823 a wikibase:Property ;
+	rdfs:label "American National Biography ID"@en ;
+	skos:prefLabel "American National Biography ID"@en ;
+	schema:name "American National Biography ID"@en ;
+	schema:description "identifier of a person in the scholarly biographical encyclopedia"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P4823 ;
+	wikibase:claim p:P4823 ;
+	wikibase:statementProperty ps:P4823 ;
+	wikibase:statementValue psv:P4823 ;
+	wikibase:qualifier pq:P4823 ;
+	wikibase:qualifierValue pqv:P4823 ;
+	wikibase:reference pr:P4823 ;
+	wikibase:referenceValue prv:P4823 ;
+	wikibase:novalue wdno:P4823 ;
+	wikibase:directClaimNormalized wdtn:P4823 ;
+	wikibase:statementValueNormalized psn:P4823 ;
+	wikibase:qualifierValueNormalized pqn:P4823 ;
+	wikibase:referenceValueNormalized prn:P4823 .
+
+p:P4823 a owl:ObjectProperty .
+
+psv:P4823 a owl:ObjectProperty .
+
+pqv:P4823 a owl:ObjectProperty .
+
+prv:P4823 a owl:ObjectProperty .
+
+wdt:P4823 a owl:DatatypeProperty .
+
+ps:P4823 a owl:DatatypeProperty .
+
+pq:P4823 a owl:DatatypeProperty .
+
+pr:P4823 a owl:DatatypeProperty .
+
+psn:P4823 a owl:ObjectProperty .
+
+pqn:P4823 a owl:ObjectProperty .
+
+prn:P4823 a owl:ObjectProperty .
+
+wdtn:P4823 a owl:ObjectProperty .
+
+wdno:P4823 a owl:Class ;
+	owl:complementOf _:68bc4b130bb7345286a8cb6f6f39da6c .
+
+_:68bc4b130bb7345286a8cb6f6f39da6c a owl:Restriction ;
+	owl:onProperty wdt:P4823 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P570 a wikibase:Property ;
+	rdfs:label "date of death"@en ;
+	skos:prefLabel "date of death"@en ;
+	schema:name "date of death"@en ;
+	schema:description "date on which the subject died"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#Time> ;
+	wikibase:directClaim wdt:P570 ;
+	wikibase:claim p:P570 ;
+	wikibase:statementProperty ps:P570 ;
+	wikibase:statementValue psv:P570 ;
+	wikibase:qualifier pq:P570 ;
+	wikibase:qualifierValue pqv:P570 ;
+	wikibase:reference pr:P570 ;
+	wikibase:referenceValue prv:P570 ;
+	wikibase:novalue wdno:P570 .
+
+p:P570 a owl:ObjectProperty .
+
+psv:P570 a owl:ObjectProperty .
+
+pqv:P570 a owl:ObjectProperty .
+
+prv:P570 a owl:ObjectProperty .
+
+wdt:P570 a owl:DatatypeProperty .
+
+ps:P570 a owl:DatatypeProperty .
+
+pq:P570 a owl:DatatypeProperty .
+
+pr:P570 a owl:DatatypeProperty .
+
+wdno:P570 a owl:Class ;
+	owl:complementOf _:69635c1f0b0b26e68131d8b4c428b7e5 .
+
+_:69635c1f0b0b26e68131d8b4c428b7e5 a owl:Restriction ;
+	owl:onProperty wdt:P570 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q1423891 a wikibase:Item ;
+	rdfs:label "Christian minister"@en ;
+	skos:prefLabel "Christian minister"@en ;
+	schema:name "Christian minister"@en ;
+	schema:description "function of service in Christianity"@en .
+
+wd:P106 a wikibase:Property ;
+	rdfs:label "occupation"@en ;
+	skos:prefLabel "occupation"@en ;
+	schema:name "occupation"@en ;
+	schema:description "occupation of a person; see also \"field of work\" (Property:P101), \"position held\" (Property:P39)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P106 ;
+	wikibase:claim p:P106 ;
+	wikibase:statementProperty ps:P106 ;
+	wikibase:statementValue psv:P106 ;
+	wikibase:qualifier pq:P106 ;
+	wikibase:qualifierValue pqv:P106 ;
+	wikibase:reference pr:P106 ;
+	wikibase:referenceValue prv:P106 ;
+	wikibase:novalue wdno:P106 .
+
+p:P106 a owl:ObjectProperty .
+
+psv:P106 a owl:ObjectProperty .
+
+pqv:P106 a owl:ObjectProperty .
+
+prv:P106 a owl:ObjectProperty .
+
+wdt:P106 a owl:ObjectProperty .
+
+ps:P106 a owl:ObjectProperty .
+
+pq:P106 a owl:ObjectProperty .
+
+pr:P106 a owl:ObjectProperty .
+
+wdno:P106 a owl:Class ;
+	owl:complementOf _:cfa3a75a3525fa319d07757b53d28076 .
+
+_:cfa3a75a3525fa319d07757b53d28076 a owl:Restriction ;
+	owl:onProperty wdt:P106 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q15304953 a wikibase:Item ;
+	rdfs:label "WikiProject African diaspora"@en ;
+	skos:prefLabel "WikiProject African diaspora"@en ;
+	schema:name "WikiProject African diaspora"@en ;
+	schema:description "Wikiproject improving coverage of  cultural contributions of people of African descent"@en .
+
+wd:P5008 a wikibase:Property ;
+	rdfs:label "on focus list of Wikimedia project"@en ;
+	skos:prefLabel "on focus list of Wikimedia project"@en ;
+	schema:name "on focus list of Wikimedia project"@en ;
+	schema:description "property to indicate that an item is of particular interest for a Wikimedia project. This property does not add notability. Items should not be created with this property if they are not notable for Wikidata. See also P6104, P972, P2354."@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P5008 ;
+	wikibase:claim p:P5008 ;
+	wikibase:statementProperty ps:P5008 ;
+	wikibase:statementValue psv:P5008 ;
+	wikibase:qualifier pq:P5008 ;
+	wikibase:qualifierValue pqv:P5008 ;
+	wikibase:reference pr:P5008 ;
+	wikibase:referenceValue prv:P5008 ;
+	wikibase:novalue wdno:P5008 .
+
+p:P5008 a owl:ObjectProperty .
+
+psv:P5008 a owl:ObjectProperty .
+
+pqv:P5008 a owl:ObjectProperty .
+
+prv:P5008 a owl:ObjectProperty .
+
+wdt:P5008 a owl:ObjectProperty .
+
+ps:P5008 a owl:ObjectProperty .
+
+pq:P5008 a owl:ObjectProperty .
+
+pr:P5008 a owl:ObjectProperty .
+
+wdno:P5008 a owl:Class ;
+	owl:complementOf _:ccd0828df5e103c905abf7e82e607008 .
+
+_:ccd0828df5e103c905abf7e82e607008 a owl:Restriction ;
+	owl:onProperty wdt:P5008 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P7859 a wikibase:Property ;
+	rdfs:label "WorldCat Identities ID (superseded)"@en ;
+	skos:prefLabel "WorldCat Identities ID (superseded)"@en ;
+	schema:name "WorldCat Identities ID (superseded)"@en ;
+	schema:description "former ID for a bibliographic page of an entity on WorldCat. Use P243 (OCLC control number) for books, and P10832 (WorldCat Entities ID) for authority control for people, places, and works"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P7859 ;
+	wikibase:claim p:P7859 ;
+	wikibase:statementProperty ps:P7859 ;
+	wikibase:statementValue psv:P7859 ;
+	wikibase:qualifier pq:P7859 ;
+	wikibase:qualifierValue pqv:P7859 ;
+	wikibase:reference pr:P7859 ;
+	wikibase:referenceValue prv:P7859 ;
+	wikibase:novalue wdno:P7859 ;
+	wikibase:directClaimNormalized wdtn:P7859 ;
+	wikibase:statementValueNormalized psn:P7859 ;
+	wikibase:qualifierValueNormalized pqn:P7859 ;
+	wikibase:referenceValueNormalized prn:P7859 .
+
+p:P7859 a owl:ObjectProperty .
+
+psv:P7859 a owl:ObjectProperty .
+
+pqv:P7859 a owl:ObjectProperty .
+
+prv:P7859 a owl:ObjectProperty .
+
+wdt:P7859 a owl:DatatypeProperty .
+
+ps:P7859 a owl:DatatypeProperty .
+
+pq:P7859 a owl:DatatypeProperty .
+
+pr:P7859 a owl:DatatypeProperty .
+
+psn:P7859 a owl:ObjectProperty .
+
+pqn:P7859 a owl:ObjectProperty .
+
+prn:P7859 a owl:ObjectProperty .
+
+wdtn:P7859 a owl:ObjectProperty .
+
+wdno:P7859 a owl:Class ;
+	owl:complementOf _:14e32ccfc87dd0c16155859b25e37d30 .
+
+_:14e32ccfc87dd0c16155859b25e37d30 a owl:Restriction ;
+	owl:onProperty wdt:P7859 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P646 a wikibase:Property ;
+	rdfs:label "Freebase ID"@en ;
+	skos:prefLabel "Freebase ID"@en ;
+	schema:name "Freebase ID"@en ;
+	schema:description "identifier for a page in the Freebase database. Format: \"/m/0\" followed by 2 to 7 characters. For IDs starting with \"/g/\", use Google Knowledge Graph ID (P2671)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P646 ;
+	wikibase:claim p:P646 ;
+	wikibase:statementProperty ps:P646 ;
+	wikibase:statementValue psv:P646 ;
+	wikibase:qualifier pq:P646 ;
+	wikibase:qualifierValue pqv:P646 ;
+	wikibase:reference pr:P646 ;
+	wikibase:referenceValue prv:P646 ;
+	wikibase:novalue wdno:P646 ;
+	wikibase:directClaimNormalized wdtn:P646 ;
+	wikibase:statementValueNormalized psn:P646 ;
+	wikibase:qualifierValueNormalized pqn:P646 ;
+	wikibase:referenceValueNormalized prn:P646 .
+
+p:P646 a owl:ObjectProperty .
+
+psv:P646 a owl:ObjectProperty .
+
+pqv:P646 a owl:ObjectProperty .
+
+prv:P646 a owl:ObjectProperty .
+
+wdt:P646 a owl:DatatypeProperty .
+
+ps:P646 a owl:DatatypeProperty .
+
+pq:P646 a owl:DatatypeProperty .
+
+pr:P646 a owl:DatatypeProperty .
+
+psn:P646 a owl:ObjectProperty .
+
+pqn:P646 a owl:ObjectProperty .
+
+prn:P646 a owl:ObjectProperty .
+
+wdtn:P646 a owl:ObjectProperty .
+
+wdno:P646 a owl:Class ;
+	owl:complementOf _:38db277a4b10d59fd38a3fd995cbe570 .
+
+_:38db277a4b10d59fd38a3fd995cbe570 a owl:Restriction ;
+	owl:onProperty wdt:P646 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P2949 a wikibase:Property ;
+	rdfs:label "WikiTree person ID"@en ;
+	skos:prefLabel "WikiTree person ID"@en ;
+	schema:name "WikiTree person ID"@en ;
+	schema:description "identifier for a person in the WikiTree genealogy website"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P2949 ;
+	wikibase:claim p:P2949 ;
+	wikibase:statementProperty ps:P2949 ;
+	wikibase:statementValue psv:P2949 ;
+	wikibase:qualifier pq:P2949 ;
+	wikibase:qualifierValue pqv:P2949 ;
+	wikibase:reference pr:P2949 ;
+	wikibase:referenceValue prv:P2949 ;
+	wikibase:novalue wdno:P2949 ;
+	wikibase:directClaimNormalized wdtn:P2949 ;
+	wikibase:statementValueNormalized psn:P2949 ;
+	wikibase:qualifierValueNormalized pqn:P2949 ;
+	wikibase:referenceValueNormalized prn:P2949 .
+
+p:P2949 a owl:ObjectProperty .
+
+psv:P2949 a owl:ObjectProperty .
+
+pqv:P2949 a owl:ObjectProperty .
+
+prv:P2949 a owl:ObjectProperty .
+
+wdt:P2949 a owl:DatatypeProperty .
+
+ps:P2949 a owl:DatatypeProperty .
+
+pq:P2949 a owl:DatatypeProperty .
+
+pr:P2949 a owl:DatatypeProperty .
+
+psn:P2949 a owl:ObjectProperty .
+
+pqn:P2949 a owl:ObjectProperty .
+
+prn:P2949 a owl:ObjectProperty .
+
+wdtn:P2949 a owl:ObjectProperty .
+
+wdno:P2949 a owl:Class ;
+	owl:complementOf _:13009834bc64a0e1b21f662dd1cae0e6 .
+
+_:13009834bc64a0e1b21f662dd1cae0e6 a owl:Restriction ;
+	owl:onProperty wdt:P2949 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q328 a wikibase:Item ;
+	rdfs:label "English Wikipedia"@en ;
+	skos:prefLabel "English Wikipedia"@en ;
+	schema:name "English Wikipedia"@en ;
+	schema:description "English-language edition of Wikipedia"@en .
+
+wd:P143 a wikibase:Property ;
+	rdfs:label "imported from Wikimedia project"@en ;
+	skos:prefLabel "imported from Wikimedia project"@en ;
+	schema:name "imported from Wikimedia project"@en ;
+	schema:description "source of this claim's value; used in references section by bots or humans importing data from Wikimedia projects"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P143 ;
+	wikibase:claim p:P143 ;
+	wikibase:statementProperty ps:P143 ;
+	wikibase:statementValue psv:P143 ;
+	wikibase:qualifier pq:P143 ;
+	wikibase:qualifierValue pqv:P143 ;
+	wikibase:reference pr:P143 ;
+	wikibase:referenceValue prv:P143 ;
+	wikibase:novalue wdno:P143 .
+
+p:P143 a owl:ObjectProperty .
+
+psv:P143 a owl:ObjectProperty .
+
+pqv:P143 a owl:ObjectProperty .
+
+prv:P143 a owl:ObjectProperty .
+
+wdt:P143 a owl:ObjectProperty .
+
+ps:P143 a owl:ObjectProperty .
+
+pq:P143 a owl:ObjectProperty .
+
+pr:P143 a owl:ObjectProperty .
+
+wdno:P143 a owl:Class ;
+	owl:complementOf _:66a2156e9cbfe8d655274b862fca1b59 .
+
+_:66a2156e9cbfe8d655274b862fca1b59 a owl:Restriction ;
+	owl:onProperty wdt:P143 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q103856047 a wikibase:Item ;
+	rdfs:label "Early, Jordan Winston (1814-1903), minister"@en ;
+	skos:prefLabel "Early, Jordan Winston (1814-1903), minister"@en ;
+	schema:name "Early, Jordan Winston (1814-1903), minister"@en ;
+	schema:description "encyclopedia article"@en .
+
+wd:P248 a wikibase:Property ;
+	rdfs:label "stated in"@en ;
+	skos:prefLabel "stated in"@en ;
+	schema:name "stated in"@en ;
+	schema:description "to be used in the references field to refer to the information document or database in which a claim is made; for qualifiers use P805; for the type of document in which a claim is made use P3865"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P248 ;
+	wikibase:claim p:P248 ;
+	wikibase:statementProperty ps:P248 ;
+	wikibase:statementValue psv:P248 ;
+	wikibase:qualifier pq:P248 ;
+	wikibase:qualifierValue pqv:P248 ;
+	wikibase:reference pr:P248 ;
+	wikibase:referenceValue prv:P248 ;
+	wikibase:novalue wdno:P248 .
+
+p:P248 a owl:ObjectProperty .
+
+psv:P248 a owl:ObjectProperty .
+
+pqv:P248 a owl:ObjectProperty .
+
+prv:P248 a owl:ObjectProperty .
+
+wdt:P248 a owl:ObjectProperty .
+
+ps:P248 a owl:ObjectProperty .
+
+pq:P248 a owl:ObjectProperty .
+
+pr:P248 a owl:ObjectProperty .
+
+wdno:P248 a owl:Class ;
+	owl:complementOf _:a2b31078afaf5caae811f4ac846f5f35 .
+
+_:a2b31078afaf5caae811f4ac846f5f35 a owl:Restriction ;
+	owl:onProperty wdt:P248 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P1810 a wikibase:Property ;
+	rdfs:label "subject named as"@en ;
+	skos:prefLabel "subject named as"@en ;
+	schema:name "subject named as"@en ;
+	schema:description "name by which a subject is recorded in a database, mentioned as a contributor of a work, or is referred to in a particular context"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#String> ;
+	wikibase:directClaim wdt:P1810 ;
+	wikibase:claim p:P1810 ;
+	wikibase:statementProperty ps:P1810 ;
+	wikibase:statementValue psv:P1810 ;
+	wikibase:qualifier pq:P1810 ;
+	wikibase:qualifierValue pqv:P1810 ;
+	wikibase:reference pr:P1810 ;
+	wikibase:referenceValue prv:P1810 ;
+	wikibase:novalue wdno:P1810 .
+
+p:P1810 a owl:ObjectProperty .
+
+psv:P1810 a owl:ObjectProperty .
+
+pqv:P1810 a owl:ObjectProperty .
+
+prv:P1810 a owl:ObjectProperty .
+
+wdt:P1810 a owl:DatatypeProperty .
+
+ps:P1810 a owl:DatatypeProperty .
+
+pq:P1810 a owl:DatatypeProperty .
+
+pr:P1810 a owl:DatatypeProperty .
+
+wdno:P1810 a owl:Class ;
+	owl:complementOf _:1d6e1ecf4f0164f6a3471dd66d38c9d8 .
+
+_:1d6e1ecf4f0164f6a3471dd66d38c9d8 a owl:Restriction ;
+	owl:onProperty wdt:P1810 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P813 a wikibase:Property ;
+	rdfs:label "retrieved"@en ;
+	skos:prefLabel "retrieved"@en ;
+	schema:name "retrieved"@en ;
+	schema:description "date or point in time that information was retrieved from a database or website (for use in online sources)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#Time> ;
+	wikibase:directClaim wdt:P813 ;
+	wikibase:claim p:P813 ;
+	wikibase:statementProperty ps:P813 ;
+	wikibase:statementValue psv:P813 ;
+	wikibase:qualifier pq:P813 ;
+	wikibase:qualifierValue pqv:P813 ;
+	wikibase:reference pr:P813 ;
+	wikibase:referenceValue prv:P813 ;
+	wikibase:novalue wdno:P813 .
+
+p:P813 a owl:ObjectProperty .
+
+psv:P813 a owl:ObjectProperty .
+
+pqv:P813 a owl:ObjectProperty .
+
+prv:P813 a owl:ObjectProperty .
+
+wdt:P813 a owl:DatatypeProperty .
+
+ps:P813 a owl:DatatypeProperty .
+
+pq:P813 a owl:DatatypeProperty .
+
+pr:P813 a owl:DatatypeProperty .
+
+wdno:P813 a owl:Class ;
+	owl:complementOf _:a84dea0fd38ed74f926ea4bdef778770 .
+
+_:a84dea0fd38ed74f926ea4bdef778770 a owl:Restriction ;
+	owl:onProperty wdt:P813 ;
+	owl:someValuesFrom owl:Thing .
+
+v:b1db4a29062b477e6c4c05d8f5867ee7 a wikibase:TimeValue ;
+	wikibase:timeValue "1814-01-01T00:00:00Z"^^xsd:dateTime ;
+	wikibase:timePrecision "9"^^xsd:integer ;
+	wikibase:timeTimezone "0"^^xsd:integer ;
+	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
+
+v:b3795d3425e0bbdd474f3138cad4a069 a wikibase:TimeValue ;
+	wikibase:timeValue "2017-10-09T00:00:00Z"^^xsd:dateTime ;
+	wikibase:timePrecision "11"^^xsd:integer ;
+	wikibase:timeTimezone "0"^^xsd:integer ;
+	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
+
+v:95bb402e41da4b3c4bde40fc940fc7ff a wikibase:TimeValue ;
+	wikibase:timeValue "1903-01-01T00:00:00Z"^^xsd:dateTime ;
+	wikibase:timePrecision "9"^^xsd:integer ;
+	wikibase:timeTimezone "0"^^xsd:integer ;
+	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
+
+v:57a8013257df8cb38aeb9f4df84b4bb8 a wikibase:TimeValue ;
+	wikibase:timeValue "2019-03-17T00:00:00Z"^^xsd:dateTime ;
+	wikibase:timePrecision "11"^^xsd:integer ;
+	wikibase:timeTimezone "0"^^xsd:integer ;
+	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
+
+ref:fa278ebfc458360e5aed63d5058cca83c46134f1 a wikibase:Reference ;
+	pr:P143 wd:Q328 .
+
+ref:01d2c6cb5923bdd6600734321a4ffba001051fce a wikibase:Reference ;
+	pr:P248 wd:Q103856047 ;
+	pr:P1810 "Jordan Winston Early" ;
+	pr:P813 "2017-10-09T00:00:00Z"^^xsd:dateTime ;
+	prv:P813 v:b3795d3425e0bbdd474f3138cad4a069 .
+
+ref:6825a0a270d2af564b53f51f0f98dfe5de9b082a a wikibase:Reference ;
+	pr:P813 "2019-03-17T00:00:00Z"^^xsd:dateTime ;
+	prv:P813 v:57a8013257df8cb38aeb9f4df84b4bb8 ;
+	pr:P248 wd:Q103856047 .
+
+ref:6565e2a63a616b59b6f2c4d42cbcd55c7e4ce5a4 a wikibase:Reference ;
+	pr:P214 "39080840" ;
+	prn:P214 <http://viaf.org/viaf/39080840> .

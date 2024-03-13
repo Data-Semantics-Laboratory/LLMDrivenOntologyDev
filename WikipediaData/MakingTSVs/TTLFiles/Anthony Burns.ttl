@@ -1,0 +1,3199 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q4773433 a schema:Dataset ;
+	schema:about wd:Q4773433 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "2045300146"^^xsd:integer ;
+	schema:dateModified "2024-01-04T11:35:44Z"^^xsd:dateTime ;
+	wikibase:statements "44"^^xsd:integer ;
+	wikibase:sitelinks "4"^^xsd:integer ;
+	wikibase:identifiers "27"^^xsd:integer .
+
+wd:Q4773433 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Anthony_Scott_Burns> a schema:Article ;
+	schema:about wd:Q4773433 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Anthony Scott Burns"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A3%D9%86%D8%AA%D9%88%D9%86%D9%8A_%D8%B3%D9%83%D9%88%D8%AA_%D8%A8%D9%88%D8%B1%D9%86%D8%B3> a schema:Article ;
+	schema:about wd:Q4773433 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "أنتوني سكوت بورنس"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arz.wikipedia.org/wiki/%D8%A7%D9%86%D8%AA%D9%88%D9%86%D9%89_%D8%B3%D9%83%D9%88%D8%AA_%D8%A8%D9%88%D8%B1%D9%86%D8%B3> a schema:Article ;
+	schema:about wd:Q4773433 ;
+	schema:inLanguage "arz" ;
+	schema:isPartOf <https://arz.wikipedia.org/> ;
+	schema:name "انتونى سكوت بورنس"@arz .
+
+<https://arz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Anthony_Scott_Burns> a schema:Article ;
+	schema:about wd:Q4773433 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Anthony Scott Burns"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q4773433 wdt:P31 wd:Q5 ;
+	wdt:P569 "1977-05-09T00:00:00Z"^^xsd:dateTime ;
+	wdt:P21 wd:Q6581097 ;
+	wdt:P106 wd:Q2526255,
+		wd:Q55960555,
+		wd:Q28389 ;
+	wdt:P345 "nm2227980" ;
+	wdt:P735 wd:Q12241622,
+		wd:Q2260734 ;
+	wdt:P2019 "p749926" ;
+	wdt:P2605 "96784" ;
+	wdt:P2604 "3297838" ;
+	wdt:P1266 "649360" ;
+	wdt:P19 wd:Q200166 ;
+	wdt:P27 wd:Q16 ;
+	wdt:P551 wd:Q172 ;
+	wdt:P734 wd:Q1408775 ;
+	wdt:P358 wd:Q19787253 ;
+	wdt:P434 "2927232a-cae7-4b71-a572-0f13041963ba" ;
+	wdtn:P434 <http://musicbrainz.org/artist/2927232a-cae7-4b71-a572-0f13041963ba> ;
+	wdt:P434 "85ea3c91-f4a3-40f3-9681-e57853ce7ceb" ;
+	wdtn:P434 <http://musicbrainz.org/artist/85ea3c91-f4a3-40f3-9681-e57853ce7ceb> ;
+	wdt:P4015 "pilotpriest" ;
+	wdt:P2002 "realpilotpriest" ;
+	wdt:P1477 "Anthony Scott Burns"@en ;
+	wdt:P742 "Pilotpriest" ;
+	wdt:P1953 "1607545",
+		"2697284" ;
+	wdt:P1559 "Anthony Burns"@en ;
+	wdt:P5404 "anthony_scott_burns",
+		"pilotpriest" ;
+	wdt:P3283 "pilotpriest" ;
+	wdt:P646 "/m/0gx28y6" ;
+	wdt:P8687 "+3091"^^xsd:decimal ;
+	wdt:P4985 "1412121" ;
+	wdt:P2013 "Realpilotpriest" ;
+	wdt:P1902 "6WedqgL53vbco33SU3sVAX" ;
+	wdt:P2722 "3216901" ;
+	wdt:P3040 "pilotpriest-1" ;
+	wdt:P9463 "1412121" ;
+	wdt:P10266 "649360" ;
+	wdt:P244 "no2021083550" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/no2021083550> ;
+	wdt:P10302 "entoni-skott-berns" ;
+	wdt:P11683 "entoni-skott-byorns" ;
+	wdt:P12098 "1581864" ;
+	wdt:P214 "6096162608695849820000" ;
+	wdtn:P214 <http://viaf.org/viaf/6096162608695849820000> ;
+	p:P31 s:Q4773433-A00F0238-1662-434C-8641-276E59F2DEAD .
+
+s:Q4773433-A00F0238-1662-434C-8641-276E59F2DEAD a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P31 wd:Q5 ;
+	prov:wasDerivedFrom ref:fa278ebfc458360e5aed63d5058cca83c46134f1 .
+
+wd:Q4773433 p:P569 s:Q4773433-BA509D8A-EB38-47A0-B6F8-FB3C447BE125 .
+
+s:Q4773433-BA509D8A-EB38-47A0-B6F8-FB3C447BE125 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P569 "1977-05-09T00:00:00Z"^^xsd:dateTime ;
+	psv:P569 v:aac8d6ba010827a96092d114ce238935 ;
+	prov:wasDerivedFrom ref:fa278ebfc458360e5aed63d5058cca83c46134f1 .
+
+wd:Q4773433 p:P21 s:Q4773433-F7313717-365E-4F09-A8E8-ABA7259E43D5 .
+
+s:Q4773433-F7313717-365E-4F09-A8E8-ABA7259E43D5 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q6581097 .
+
+wd:Q4773433 p:P106 s:Q4773433-5CD9F7C3-36D3-4408-8A05-1F5ED6E1351E .
+
+s:Q4773433-5CD9F7C3-36D3-4408-8A05-1F5ED6E1351E a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P106 wd:Q2526255 .
+
+wd:Q4773433 p:P106 s:Q4773433-4e85f267-439b-4bc3-f423-2f8ad2fe9c5a .
+
+s:Q4773433-4e85f267-439b-4bc3-f423-2f8ad2fe9c5a a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P106 wd:Q55960555 .
+
+wd:Q4773433 p:P106 s:Q4773433-08603a9c-487e-f98c-d1d7-a45dcb83d1a0 .
+
+s:Q4773433-08603a9c-487e-f98c-d1d7-a45dcb83d1a0 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P106 wd:Q28389 .
+
+wd:Q4773433 p:P345 s:Q4773433-4458AF2C-B9FA-4741-BA8B-A53AE5993883 .
+
+s:Q4773433-4458AF2C-B9FA-4741-BA8B-A53AE5993883 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P345 "nm2227980" ;
+	prov:wasDerivedFrom ref:fa278ebfc458360e5aed63d5058cca83c46134f1,
+		ref:5157c118e1e89a3ed66b34f03e6e2c0d5455d2e3 .
+
+wd:Q4773433 p:P735 s:Q4773433-A96AD8B6-3415-4E24-BD8D-D508F349D556 .
+
+s:Q4773433-A96AD8B6-3415-4E24-BD8D-D508F349D556 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P735 wd:Q12241622 ;
+	pq:P1545 "1" .
+
+wd:Q4773433 p:P735 s:Q4773433-66c25be2-4857-ee04-cad5-57a44a24cf1e .
+
+s:Q4773433-66c25be2-4857-ee04-cad5-57a44a24cf1e a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P735 wd:Q2260734 ;
+	pq:P1545 "2" .
+
+wd:Q4773433 p:P2019 s:Q4773433-1dd2ee84-41b5-7ea9-4d2f-dabf78e77e56 .
+
+s:Q4773433-1dd2ee84-41b5-7ea9-4d2f-dabf78e77e56 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P2019 "p749926" .
+
+wd:Q4773433 p:P2605 s:Q4773433-3a6b2ace-446f-3c53-2454-1c7a31f26343 .
+
+s:Q4773433-3a6b2ace-446f-3c53-2454-1c7a31f26343 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P2605 "96784" .
+
+wd:Q4773433 p:P2604 s:Q4773433-8d448e72-413e-9bf2-548b-db8984907d1e .
+
+s:Q4773433-8d448e72-413e-9bf2-548b-db8984907d1e a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P2604 "3297838" .
+
+wd:Q4773433 p:P1266 s:Q4773433-1a6e2365-4158-e3ea-6a70-91111af05701 .
+
+s:Q4773433-1a6e2365-4158-e3ea-6a70-91111af05701 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1266 "649360" .
+
+wd:Q4773433 p:P19 s:Q4773433-27CE9BBB-DE5A-4D31-A24C-4B8308E71403 .
+
+s:Q4773433-27CE9BBB-DE5A-4D31-A24C-4B8308E71403 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P19 wd:Q200166 ;
+	prov:wasDerivedFrom ref:fa278ebfc458360e5aed63d5058cca83c46134f1 .
+
+wd:Q4773433 p:P27 s:Q4773433-DC6F9073-AEE3-4D5B-91E0-29BFCECB0DB2 .
+
+s:Q4773433-DC6F9073-AEE3-4D5B-91E0-29BFCECB0DB2 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P27 wd:Q16 .
+
+wd:Q4773433 p:P551 s:Q4773433-297FBE7C-AE67-4B05-82A5-473890A90FC2 .
+
+s:Q4773433-297FBE7C-AE67-4B05-82A5-473890A90FC2 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P551 wd:Q172 ;
+	prov:wasDerivedFrom ref:fa278ebfc458360e5aed63d5058cca83c46134f1 .
+
+wd:Q4773433 p:P734 s:Q4773433-BFCF79D0-3486-460F-B030-C935EEB8D1DB .
+
+s:Q4773433-BFCF79D0-3486-460F-B030-C935EEB8D1DB a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P734 wd:Q1408775 .
+
+wd:Q4773433 p:P358 s:Q4773433-a137d247-4c31-4826-6e3f-1df38eb233fa .
+
+s:Q4773433-a137d247-4c31-4826-6e3f-1df38eb233fa a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P358 wd:Q19787253 .
+
+wd:Q4773433 p:P434 s:Q4773433-9cef94e4-442e-284d-0b44-87fd4a9ab434 .
+
+s:Q4773433-9cef94e4-442e-284d-0b44-87fd4a9ab434 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P434 "2927232a-cae7-4b71-a572-0f13041963ba" ;
+	psn:P434 <http://musicbrainz.org/artist/2927232a-cae7-4b71-a572-0f13041963ba> ;
+	pq:P742 "Pilotpriest" ;
+	prov:wasDerivedFrom ref:e7cf61cfbb9d48aed126dddda40c1562f1e651fe .
+
+wd:Q4773433 p:P434 s:Q4773433-8bdff28b-4dad-d8ba-ef88-fb1b7ec8d11b .
+
+s:Q4773433-8bdff28b-4dad-d8ba-ef88-fb1b7ec8d11b a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P434 "85ea3c91-f4a3-40f3-9681-e57853ce7ceb" ;
+	psn:P434 <http://musicbrainz.org/artist/85ea3c91-f4a3-40f3-9681-e57853ce7ceb> ;
+	pq:P1810 "Anthony Scott Burns" ;
+	prov:wasDerivedFrom ref:e7cf61cfbb9d48aed126dddda40c1562f1e651fe .
+
+wd:Q4773433 p:P4015 s:Q4773433-c8acfd5b-4c0b-380b-6860-2375e02bfbc5 .
+
+s:Q4773433-c8acfd5b-4c0b-380b-6860-2375e02bfbc5 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P4015 "pilotpriest" ;
+	pq:P580 "2009-11-02T00:00:00Z"^^xsd:dateTime ;
+	pqv:P580 v:7ed26685f1dddff34b7900affef07f4b ;
+	pq:P1810 "Anthony Scott Burns" ;
+	pq:P3740 "+15"^^xsd:decimal ;
+	pqv:P3740 v:8d126596288e63852b7f0b16609aa79f ;
+	pq:P3744 "+4113"^^xsd:decimal ;
+	pqv:P3744 v:c2260ac398432754e08d5942175993f3 ;
+	prov:wasDerivedFrom ref:ec28a71e275177a9ba93a582d6e6427b7d0b1705 .
+
+wd:Q4773433 p:P2002 s:Q4773433-7859b46e-4492-5ac7-5b55-0e38dd009def .
+
+s:Q4773433-7859b46e-4492-5ac7-5b55-0e38dd009def a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P2002 "realpilotpriest" ;
+	pq:P6552 "50498805" ;
+	pq:P580 "2009-06-25T00:00:00Z"^^xsd:dateTime ;
+	pqv:P580 v:8fcb384fc4124e2c9196f0e61780fe5c ;
+	pq:P585 "2020-12-27T00:00:00Z"^^xsd:dateTime ;
+	pqv:P585 v:dc32f9387e6b361ff84b3b3a03a40c73 ;
+	prov:wasDerivedFrom ref:775dd4e23a3830b29fe8db695e21e506f4b63ed6 .
+
+wd:Q4773433 p:P1477 s:Q4773433-6220aedc-4cec-ea2e-7306-4102e621a227 .
+
+s:Q4773433-6220aedc-4cec-ea2e-7306-4102e621a227 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1477 "Anthony Scott Burns"@en .
+
+wd:Q4773433 p:P742 s:Q4773433-8f6fc239-45a2-2353-8525-acf6bff340b9 .
+
+s:Q4773433-8f6fc239-45a2-2353-8525-acf6bff340b9 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P742 "Pilotpriest" ;
+	pq:P282 wd:Q8229 ;
+	pq:P3831 wd:Q1055303 .
+
+wd:Q4773433 p:P1953 s:Q4773433-92a09e1b-4512-20ca-4d90-5a6755b35014 .
+
+s:Q4773433-92a09e1b-4512-20ca-4d90-5a6755b35014 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1953 "1607545" ;
+	pq:P742 "Pilotpriest" ;
+	prov:wasDerivedFrom ref:3fca7197e9ce118c00e73791a66d61fa325fb79a .
+
+wd:Q4773433 p:P1953 s:Q4773433-30b20074-4723-c068-1e4f-fc9abe3e67d0 .
+
+s:Q4773433-30b20074-4723-c068-1e4f-fc9abe3e67d0 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1953 "2697284" ;
+	pq:P1810 "Anthony Burns (3)" ;
+	prov:wasDerivedFrom ref:3fca7197e9ce118c00e73791a66d61fa325fb79a .
+
+wd:Q4773433 p:P1559 s:Q4773433-90cfa112-4634-541f-7f96-7e04adcc97fb .
+
+s:Q4773433-90cfa112-4634-541f-7f96-7e04adcc97fb a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1559 "Anthony Burns"@en .
+
+wd:Q4773433 p:P5404 s:Q4773433-68827065-4535-d699-35d9-145643fe2f6a .
+
+s:Q4773433-68827065-4535-d699-35d9-145643fe2f6a a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P5404 "anthony_scott_burns" ;
+	pq:P1810 "Anthony Scott Burns" ;
+	prov:wasDerivedFrom ref:5b7b84d7e5e3c60138bacdb0bc96c7a96a618655 .
+
+wd:Q4773433 p:P5404 s:Q4773433-133bb695-424e-f797-3362-ddd71047f7eb .
+
+s:Q4773433-133bb695-424e-f797-3362-ddd71047f7eb a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P5404 "pilotpriest" ;
+	pq:P742 "Pilotpriest" ;
+	prov:wasDerivedFrom ref:5b7b84d7e5e3c60138bacdb0bc96c7a96a618655 .
+
+wd:Q4773433 p:P3283 s:Q4773433-b3c24744-4681-d4a3-bd0e-31110d61356f .
+
+s:Q4773433-b3c24744-4681-d4a3-bd0e-31110d61356f a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3283 "pilotpriest" ;
+	prov:wasDerivedFrom ref:08c270ed3d99fd53dfca684572c95bd96db5ca01,
+		ref:5157c118e1e89a3ed66b34f03e6e2c0d5455d2e3 .
+
+wd:Q4773433 p:P646 s:Q4773433-77A3BEFE-AA38-4D7F-9F57-3B259EA25242 .
+
+s:Q4773433-77A3BEFE-AA38-4D7F-9F57-3B259EA25242 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P646 "/m/0gx28y6" .
+
+wd:Q4773433 p:P8687 s:Q4773433-96340bba-a927-4f56-90ca-2a3d75a4231a .
+
+s:Q4773433-96340bba-a927-4f56-90ca-2a3d75a4231a a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P8687 "+3091"^^xsd:decimal ;
+	psv:P8687 v:573eaa11a25a84a037e9efd40858e28a ;
+	pq:P6552 "50498805" ;
+	pq:P585 "2021-01-07T00:00:00Z"^^xsd:dateTime ;
+	pqv:P585 v:d40cb13acf8001d779efbb0c45cb42f0 .
+
+wd:Q4773433 p:P4985 s:Q4773433-A05BD620-1119-4A0D-84D0-69CA75E477A3 .
+
+s:Q4773433-A05BD620-1119-4A0D-84D0-69CA75E477A3 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P4985 "1412121" .
+
+wd:Q4773433 p:P2013 s:Q4773433-abae692e-5825-4c44-9c8e-c6925a321364 .
+
+s:Q4773433-abae692e-5825-4c44-9c8e-c6925a321364 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P2013 "Realpilotpriest" ;
+	prov:wasDerivedFrom ref:5157c118e1e89a3ed66b34f03e6e2c0d5455d2e3 .
+
+wd:Q4773433 p:P1902 s:Q4773433-38935730-483b-47f5-ac64-aa3b0c012a37 .
+
+s:Q4773433-38935730-483b-47f5-ac64-aa3b0c012a37 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1902 "6WedqgL53vbco33SU3sVAX" ;
+	prov:wasDerivedFrom ref:5157c118e1e89a3ed66b34f03e6e2c0d5455d2e3 .
+
+wd:Q4773433 p:P2722 s:Q4773433-48439991-2159-4c5e-bc51-307be50553ef .
+
+s:Q4773433-48439991-2159-4c5e-bc51-307be50553ef a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P2722 "3216901" ;
+	prov:wasDerivedFrom ref:5157c118e1e89a3ed66b34f03e6e2c0d5455d2e3 .
+
+wd:Q4773433 p:P3040 s:Q4773433-3fd4ab26-8959-48e9-a57b-75f480ff0a54 .
+
+s:Q4773433-3fd4ab26-8959-48e9-a57b-75f480ff0a54 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3040 "pilotpriest-1" ;
+	prov:wasDerivedFrom ref:5157c118e1e89a3ed66b34f03e6e2c0d5455d2e3 .
+
+wd:Q4773433 p:P9463 s:Q4773433-EAABCE14-476F-440B-B0B4-6D16DB8AD438 .
+
+s:Q4773433-EAABCE14-476F-440B-B0B4-6D16DB8AD438 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P9463 "1412121" .
+
+wd:Q4773433 p:P10266 s:Q4773433-ADBB7F6C-36EF-4674-9975-E048AD18A4F7 .
+
+s:Q4773433-ADBB7F6C-36EF-4674-9975-E048AD18A4F7 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P10266 "649360" .
+
+wd:Q4773433 p:P244 s:Q4773433-9166fc81-4f87-3071-d9f2-90374a86bb31 .
+
+s:Q4773433-9166fc81-4f87-3071-d9f2-90374a86bb31 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P244 "no2021083550" ;
+	psn:P244 <http://id.loc.gov/authorities/names/no2021083550> .
+
+wd:Q4773433 p:P10302 s:Q4773433-049f62ac-7955-4f5e-b868-fa678d6daf74 .
+
+s:Q4773433-049f62ac-7955-4f5e-b868-fa678d6daf74 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P10302 "entoni-skott-berns" .
+
+wd:Q4773433 p:P11683 s:Q4773433-A973F7FC-3F85-42A9-993C-BA679829255B .
+
+s:Q4773433-A973F7FC-3F85-42A9-993C-BA679829255B a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11683 "entoni-skott-byorns" .
+
+wd:Q4773433 p:P12098 s:Q4773433-9C4669EE-9F4A-4122-A358-0B8D2B573385 .
+
+s:Q4773433-9C4669EE-9F4A-4122-A358-0B8D2B573385 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P12098 "1581864" .
+
+wd:Q4773433 p:P214 s:Q4773433-5d5d468c-1431-45a1-93cc-b3b0e6ad7e9d .
+
+s:Q4773433-5d5d468c-1431-45a1-93cc-b3b0e6ad7e9d a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P214 "6096162608695849820000" ;
+	psn:P214 <http://viaf.org/viaf/6096162608695849820000> ;
+	prov:wasDerivedFrom ref:1f4f299532e79e784dd4dbef86075a30d447f645 .
+
+wd:Q4773433 rdfs:label "Anthony Scott Burns"@en ;
+	skos:prefLabel "Anthony Scott Burns"@en ;
+	schema:name "Anthony Scott Burns"@en ;
+	rdfs:label "Anthony Scott Burns"@es ;
+	skos:prefLabel "Anthony Scott Burns"@es ;
+	schema:name "Anthony Scott Burns"@es ;
+	rdfs:label "Anthony Scott Burns"@it ;
+	skos:prefLabel "Anthony Scott Burns"@it ;
+	schema:name "Anthony Scott Burns"@it ;
+	rdfs:label "Anthony Scott Burns"@nl ;
+	skos:prefLabel "Anthony Scott Burns"@nl ;
+	schema:name "Anthony Scott Burns"@nl ;
+	rdfs:label "Anthony Scott Burns"@fr ;
+	skos:prefLabel "Anthony Scott Burns"@fr ;
+	schema:name "Anthony Scott Burns"@fr ;
+	rdfs:label "Anthony Scott Burns"@de ;
+	skos:prefLabel "Anthony Scott Burns"@de ;
+	schema:name "Anthony Scott Burns"@de ;
+	rdfs:label "Anthony Scott Burns"@hu ;
+	skos:prefLabel "Anthony Scott Burns"@hu ;
+	schema:name "Anthony Scott Burns"@hu ;
+	rdfs:label "Anthony Scott Burns"@sl ;
+	skos:prefLabel "Anthony Scott Burns"@sl ;
+	schema:name "Anthony Scott Burns"@sl ;
+	rdfs:label "Anthony Scott Burns"@ca ;
+	skos:prefLabel "Anthony Scott Burns"@ca ;
+	schema:name "Anthony Scott Burns"@ca ;
+	rdfs:label "Anthony Scott Burns"@ast ;
+	skos:prefLabel "Anthony Scott Burns"@ast ;
+	schema:name "Anthony Scott Burns"@ast ;
+	rdfs:label "أنتوني سكوت بورنس"@ar ;
+	skos:prefLabel "أنتوني سكوت بورنس"@ar ;
+	schema:name "أنتوني سكوت بورنس"@ar ;
+	rdfs:label "Anthony Scott Burns"@sq ;
+	skos:prefLabel "Anthony Scott Burns"@sq ;
+	schema:name "Anthony Scott Burns"@sq ;
+	rdfs:label "Anthony Scott Burns"@ga ;
+	skos:prefLabel "Anthony Scott Burns"@ga ;
+	schema:name "Anthony Scott Burns"@ga ;
+	rdfs:label "انتونى سكوت بورنس"@arz ;
+	skos:prefLabel "انتونى سكوت بورنس"@arz ;
+	schema:name "انتونى سكوت بورنس"@arz ;
+	rdfs:label "Anthony Scott Burns"@da ;
+	skos:prefLabel "Anthony Scott Burns"@da ;
+	schema:name "Anthony Scott Burns"@da ;
+	rdfs:label "Anthony Scott Burns"@eu ;
+	skos:prefLabel "Anthony Scott Burns"@eu ;
+	schema:name "Anthony Scott Burns"@eu ;
+	rdfs:label "Anthony Scott Burns"@fi ;
+	skos:prefLabel "Anthony Scott Burns"@fi ;
+	schema:name "Anthony Scott Burns"@fi ;
+	rdfs:label "Anthony Scott Burns"@nb ;
+	skos:prefLabel "Anthony Scott Burns"@nb ;
+	schema:name "Anthony Scott Burns"@nb ;
+	rdfs:label "Anthony Scott Burns"@nn ;
+	skos:prefLabel "Anthony Scott Burns"@nn ;
+	schema:name "Anthony Scott Burns"@nn ;
+	rdfs:label "Anthony Scott Burns"@pl ;
+	skos:prefLabel "Anthony Scott Burns"@pl ;
+	schema:name "Anthony Scott Burns"@pl ;
+	rdfs:label "Anthony Scott Burns"@pt ;
+	skos:prefLabel "Anthony Scott Burns"@pt ;
+	schema:name "Anthony Scott Burns"@pt ;
+	rdfs:label "Anthony Scott Burns"@ro ;
+	skos:prefLabel "Anthony Scott Burns"@ro ;
+	schema:name "Anthony Scott Burns"@ro ;
+	rdfs:label "Anthony Scott Burns"@se ;
+	skos:prefLabel "Anthony Scott Burns"@se ;
+	schema:name "Anthony Scott Burns"@se ;
+	rdfs:label "Anthony Scott Burns"@sv ;
+	skos:prefLabel "Anthony Scott Burns"@sv ;
+	schema:name "Anthony Scott Burns"@sv ;
+	rdfs:label "Anthony Scott Burns"@tr ;
+	skos:prefLabel "Anthony Scott Burns"@tr ;
+	schema:name "Anthony Scott Burns"@tr ;
+	rdfs:label "Anthony Scott Burns"@pt-br ;
+	skos:prefLabel "Anthony Scott Burns"@pt-br ;
+	schema:name "Anthony Scott Burns"@pt-br ;
+	rdfs:label "Anthony Scott Burns"@pap ;
+	skos:prefLabel "Anthony Scott Burns"@pap ;
+	schema:name "Anthony Scott Burns"@pap ;
+	rdfs:label "אנתוני סקוט ברנס"@he ;
+	skos:prefLabel "אנתוני סקוט ברנס"@he ;
+	schema:name "אנתוני סקוט ברנס"@he ;
+	rdfs:label "Энтони Скотт Бернс"@ru ;
+	skos:prefLabel "Энтони Скотт Бернс"@ru ;
+	schema:name "Энтони Скотт Бернс"@ru ;
+	schema:description "Canadian filmmaker; recording artist"@en,
+		"مخرج أفلام كندي"@ar,
+		"Canadees filmregisseur"@nl,
+		"kanadischer Filmregisseur"@de,
+		"direutor de cine canadianu"@ast,
+		"stiúrthóir scannán Ceanadach"@ga,
+		"director de cine canadiense"@es,
+		"director de cinema canadenc"@ca,
+		"director de cinema canadense"@gl,
+		"réalisateur canadien"@fr,
+		"regista cinematografico canadese"@it,
+		"diretor de cinema canadiano"@pt,
+		"zinema zuzendari kanadarra"@eu,
+		"direktor di sine kanades"@pap,
+		"Canada kpiɛrikpiɛrita ŋun nyɛ doo"@dag,
+		"cyfarwyddwr ffilm a sgriptiwr ffilm a aned yn Kitchener yn 1977"@cy ;
+	skos:altLabel "Pilotpriest"@ast,
+		"Anthony Burns"@ast,
+		"Pilotpriest"@ca,
+		"Anthony Burns"@ca,
+		"Pilotpriest"@da,
+		"Anthony Burns"@da,
+		"Pilotpriest"@de,
+		"Anthony Burns"@de,
+		"Pilotpriest"@en,
+		"Anthony Burns"@en,
+		"Pilotpriest"@es,
+		"Anthony Burns"@es,
+		"Pilotpriest"@eu,
+		"Anthony Burns"@eu,
+		"Pilotpriest"@fi,
+		"Anthony Burns"@fi,
+		"Pilotpriest"@fr,
+		"Anthony Burns"@fr,
+		"Pilotpriest"@hu,
+		"Anthony Burns"@hu,
+		"Pilotpriest"@it,
+		"Anthony Burns"@it,
+		"Pilotpriest"@nb,
+		"Anthony Burns"@nb,
+		"Pilotpriest"@nl,
+		"Anthony Burns"@nl,
+		"Pilotpriest"@nn,
+		"Anthony Burns"@nn,
+		"Pilotpriest"@pl,
+		"Anthony Burns"@pl,
+		"Pilotpriest"@pt,
+		"Anthony Burns"@pt,
+		"Pilotpriest"@ro,
+		"Anthony Burns"@ro,
+		"Pilotpriest"@se,
+		"Anthony Burns"@se,
+		"Pilotpriest"@sq,
+		"Anthony Burns"@sq,
+		"Pilotpriest"@sv,
+		"Anthony Burns"@sv,
+		"Pilotpriest"@tr,
+		"Anthony Burns"@tr .
+
+wd:Q5 a wikibase:Item ;
+	rdfs:label "human"@en ;
+	skos:prefLabel "human"@en ;
+	schema:name "human"@en ;
+	schema:description "any member of Homo sapiens, unique extant species of the genus Homo, from embryo to adult"@en .
+
+wd:P31 a wikibase:Property ;
+	rdfs:label "instance of"@en ;
+	skos:prefLabel "instance of"@en ;
+	schema:name "instance of"@en ;
+	schema:description "that class of which this subject is a particular example and member; different from P279 (subclass of); for example: K2 is an instance of mountain; volcano is a subclass of mountain (and an instance of volcanic landform)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P31 ;
+	wikibase:claim p:P31 ;
+	wikibase:statementProperty ps:P31 ;
+	wikibase:statementValue psv:P31 ;
+	wikibase:qualifier pq:P31 ;
+	wikibase:qualifierValue pqv:P31 ;
+	wikibase:reference pr:P31 ;
+	wikibase:referenceValue prv:P31 ;
+	wikibase:novalue wdno:P31 .
+
+p:P31 a owl:ObjectProperty .
+
+psv:P31 a owl:ObjectProperty .
+
+pqv:P31 a owl:ObjectProperty .
+
+prv:P31 a owl:ObjectProperty .
+
+wdt:P31 a owl:ObjectProperty .
+
+ps:P31 a owl:ObjectProperty .
+
+pq:P31 a owl:ObjectProperty .
+
+pr:P31 a owl:ObjectProperty .
+
+wdno:P31 a owl:Class ;
+	owl:complementOf _:0b8bd71b926a65ca3fa72e5d9103e4d6 .
+
+_:0b8bd71b926a65ca3fa72e5d9103e4d6 a owl:Restriction ;
+	owl:onProperty wdt:P31 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P569 a wikibase:Property ;
+	rdfs:label "date of birth"@en ;
+	skos:prefLabel "date of birth"@en ;
+	schema:name "date of birth"@en ;
+	schema:description "date on which the subject was born"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#Time> ;
+	wikibase:directClaim wdt:P569 ;
+	wikibase:claim p:P569 ;
+	wikibase:statementProperty ps:P569 ;
+	wikibase:statementValue psv:P569 ;
+	wikibase:qualifier pq:P569 ;
+	wikibase:qualifierValue pqv:P569 ;
+	wikibase:reference pr:P569 ;
+	wikibase:referenceValue prv:P569 ;
+	wikibase:novalue wdno:P569 .
+
+p:P569 a owl:ObjectProperty .
+
+psv:P569 a owl:ObjectProperty .
+
+pqv:P569 a owl:ObjectProperty .
+
+prv:P569 a owl:ObjectProperty .
+
+wdt:P569 a owl:DatatypeProperty .
+
+ps:P569 a owl:DatatypeProperty .
+
+pq:P569 a owl:DatatypeProperty .
+
+pr:P569 a owl:DatatypeProperty .
+
+wdno:P569 a owl:Class ;
+	owl:complementOf _:4bfb48d5a3bb3600187722aa6901d2c3 .
+
+_:4bfb48d5a3bb3600187722aa6901d2c3 a owl:Restriction ;
+	owl:onProperty wdt:P569 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q6581097 a wikibase:Item ;
+	rdfs:label "male"@en ;
+	skos:prefLabel "male"@en ;
+	schema:name "male"@en ;
+	schema:description "to be used in \"sex or gender\" (P21) to indicate that the human subject is a male or \"semantic gender\" (P10339) to indicate that a word refers to a male person"@en .
+
+wd:P21 a wikibase:Property ;
+	rdfs:label "sex or gender"@en ;
+	skos:prefLabel "sex or gender"@en ;
+	schema:name "sex or gender"@en ;
+	schema:description "sex or gender identity of human or animal. For human: male, female, non-binary, intersex, transgender female, transgender male, agender, etc. For animal: male organism, female organism. Groups of same gender use subclass of (P279)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P21 ;
+	wikibase:claim p:P21 ;
+	wikibase:statementProperty ps:P21 ;
+	wikibase:statementValue psv:P21 ;
+	wikibase:qualifier pq:P21 ;
+	wikibase:qualifierValue pqv:P21 ;
+	wikibase:reference pr:P21 ;
+	wikibase:referenceValue prv:P21 ;
+	wikibase:novalue wdno:P21 .
+
+p:P21 a owl:ObjectProperty .
+
+psv:P21 a owl:ObjectProperty .
+
+pqv:P21 a owl:ObjectProperty .
+
+prv:P21 a owl:ObjectProperty .
+
+wdt:P21 a owl:ObjectProperty .
+
+ps:P21 a owl:ObjectProperty .
+
+pq:P21 a owl:ObjectProperty .
+
+pr:P21 a owl:ObjectProperty .
+
+wdno:P21 a owl:Class ;
+	owl:complementOf _:8543f188a73d6ea7a6705f0835ae332d .
+
+_:8543f188a73d6ea7a6705f0835ae332d a owl:Restriction ;
+	owl:onProperty wdt:P21 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q2526255 a wikibase:Item ;
+	rdfs:label "film director"@en ;
+	skos:prefLabel "film director"@en ;
+	schema:name "film director"@en ;
+	schema:description "person who directs a film"@en .
+
+wd:P106 a wikibase:Property ;
+	rdfs:label "occupation"@en ;
+	skos:prefLabel "occupation"@en ;
+	schema:name "occupation"@en ;
+	schema:description "occupation of a person; see also \"field of work\" (Property:P101), \"position held\" (Property:P39)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P106 ;
+	wikibase:claim p:P106 ;
+	wikibase:statementProperty ps:P106 ;
+	wikibase:statementValue psv:P106 ;
+	wikibase:qualifier pq:P106 ;
+	wikibase:qualifierValue pqv:P106 ;
+	wikibase:reference pr:P106 ;
+	wikibase:referenceValue prv:P106 ;
+	wikibase:novalue wdno:P106 .
+
+p:P106 a owl:ObjectProperty .
+
+psv:P106 a owl:ObjectProperty .
+
+pqv:P106 a owl:ObjectProperty .
+
+prv:P106 a owl:ObjectProperty .
+
+wdt:P106 a owl:ObjectProperty .
+
+ps:P106 a owl:ObjectProperty .
+
+pq:P106 a owl:ObjectProperty .
+
+pr:P106 a owl:ObjectProperty .
+
+wdno:P106 a owl:Class ;
+	owl:complementOf _:cfa3a75a3525fa319d07757b53d28076 .
+
+_:cfa3a75a3525fa319d07757b53d28076 a owl:Restriction ;
+	owl:onProperty wdt:P106 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q55960555 a wikibase:Item ;
+	rdfs:label "recording artist"@en ;
+	skos:prefLabel "recording artist"@en ;
+	schema:name "recording artist"@en ;
+	schema:description "person, musician who performs music for recordings"@en .
+
+wd:Q28389 a wikibase:Item ;
+	rdfs:label "screenwriter"@en ;
+	skos:prefLabel "screenwriter"@en ;
+	schema:name "screenwriter"@en ;
+	schema:description "writer who writes for films, TV shows, comics and games"@en .
+
+wd:P345 a wikibase:Property ;
+	rdfs:label "IMDb ID"@en ;
+	skos:prefLabel "IMDb ID"@en ;
+	schema:name "IMDb ID"@en ;
+	schema:description "identifier for the IMDb [with prefix 'tt', 'nm', 'co', 'ev', 'ch' or 'ni']"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P345 ;
+	wikibase:claim p:P345 ;
+	wikibase:statementProperty ps:P345 ;
+	wikibase:statementValue psv:P345 ;
+	wikibase:qualifier pq:P345 ;
+	wikibase:qualifierValue pqv:P345 ;
+	wikibase:reference pr:P345 ;
+	wikibase:referenceValue prv:P345 ;
+	wikibase:novalue wdno:P345 ;
+	wikibase:directClaimNormalized wdtn:P345 ;
+	wikibase:statementValueNormalized psn:P345 ;
+	wikibase:qualifierValueNormalized pqn:P345 ;
+	wikibase:referenceValueNormalized prn:P345 .
+
+p:P345 a owl:ObjectProperty .
+
+psv:P345 a owl:ObjectProperty .
+
+pqv:P345 a owl:ObjectProperty .
+
+prv:P345 a owl:ObjectProperty .
+
+wdt:P345 a owl:DatatypeProperty .
+
+ps:P345 a owl:DatatypeProperty .
+
+pq:P345 a owl:DatatypeProperty .
+
+pr:P345 a owl:DatatypeProperty .
+
+psn:P345 a owl:ObjectProperty .
+
+pqn:P345 a owl:ObjectProperty .
+
+prn:P345 a owl:ObjectProperty .
+
+wdtn:P345 a owl:ObjectProperty .
+
+wdno:P345 a owl:Class ;
+	owl:complementOf _:3a4e6350bce9f8651aa60101dacb63de .
+
+_:3a4e6350bce9f8651aa60101dacb63de a owl:Restriction ;
+	owl:onProperty wdt:P345 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q12241622 a wikibase:Item ;
+	rdfs:label "Anthony"@en ;
+	skos:prefLabel "Anthony"@en ;
+	schema:name "Anthony"@en ;
+	schema:description "male given name"@en .
+
+wd:P735 a wikibase:Property ;
+	rdfs:label "given name"@en ;
+	skos:prefLabel "given name"@en ;
+	schema:name "given name"@en ;
+	schema:description "first name or another given name of this person; values used with the property should not link disambiguations nor family names"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P735 ;
+	wikibase:claim p:P735 ;
+	wikibase:statementProperty ps:P735 ;
+	wikibase:statementValue psv:P735 ;
+	wikibase:qualifier pq:P735 ;
+	wikibase:qualifierValue pqv:P735 ;
+	wikibase:reference pr:P735 ;
+	wikibase:referenceValue prv:P735 ;
+	wikibase:novalue wdno:P735 .
+
+p:P735 a owl:ObjectProperty .
+
+psv:P735 a owl:ObjectProperty .
+
+pqv:P735 a owl:ObjectProperty .
+
+prv:P735 a owl:ObjectProperty .
+
+wdt:P735 a owl:ObjectProperty .
+
+ps:P735 a owl:ObjectProperty .
+
+pq:P735 a owl:ObjectProperty .
+
+pr:P735 a owl:ObjectProperty .
+
+wdno:P735 a owl:Class ;
+	owl:complementOf _:7cd44173f1681fd19dd103a28fda54a8 .
+
+_:7cd44173f1681fd19dd103a28fda54a8 a owl:Restriction ;
+	owl:onProperty wdt:P735 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q2260734 a wikibase:Item ;
+	rdfs:label "Scott"@en ;
+	skos:prefLabel "Scott"@en ;
+	schema:name "Scott"@en ;
+	schema:description "male given name"@en .
+
+wd:P2019 a wikibase:Property ;
+	rdfs:label "AllMovie person ID"@en ;
+	skos:prefLabel "AllMovie person ID"@en ;
+	schema:name "AllMovie person ID"@en ;
+	schema:description "identifier for a person on the AllMovie film database"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P2019 ;
+	wikibase:claim p:P2019 ;
+	wikibase:statementProperty ps:P2019 ;
+	wikibase:statementValue psv:P2019 ;
+	wikibase:qualifier pq:P2019 ;
+	wikibase:qualifierValue pqv:P2019 ;
+	wikibase:reference pr:P2019 ;
+	wikibase:referenceValue prv:P2019 ;
+	wikibase:novalue wdno:P2019 ;
+	wikibase:directClaimNormalized wdtn:P2019 ;
+	wikibase:statementValueNormalized psn:P2019 ;
+	wikibase:qualifierValueNormalized pqn:P2019 ;
+	wikibase:referenceValueNormalized prn:P2019 .
+
+p:P2019 a owl:ObjectProperty .
+
+psv:P2019 a owl:ObjectProperty .
+
+pqv:P2019 a owl:ObjectProperty .
+
+prv:P2019 a owl:ObjectProperty .
+
+wdt:P2019 a owl:DatatypeProperty .
+
+ps:P2019 a owl:DatatypeProperty .
+
+pq:P2019 a owl:DatatypeProperty .
+
+pr:P2019 a owl:DatatypeProperty .
+
+psn:P2019 a owl:ObjectProperty .
+
+pqn:P2019 a owl:ObjectProperty .
+
+prn:P2019 a owl:ObjectProperty .
+
+wdtn:P2019 a owl:ObjectProperty .
+
+wdno:P2019 a owl:Class ;
+	owl:complementOf _:e195a2b4a5546556b03174275f04b189 .
+
+_:e195a2b4a5546556b03174275f04b189 a owl:Restriction ;
+	owl:onProperty wdt:P2019 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P2605 a wikibase:Property ;
+	rdfs:label "ČSFD person ID"@en ;
+	skos:prefLabel "ČSFD person ID"@en ;
+	schema:name "ČSFD person ID"@en ;
+	schema:description "identifier for a person in the Czecho-Slovak film database ČSFD"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P2605 ;
+	wikibase:claim p:P2605 ;
+	wikibase:statementProperty ps:P2605 ;
+	wikibase:statementValue psv:P2605 ;
+	wikibase:qualifier pq:P2605 ;
+	wikibase:qualifierValue pqv:P2605 ;
+	wikibase:reference pr:P2605 ;
+	wikibase:referenceValue prv:P2605 ;
+	wikibase:novalue wdno:P2605 ;
+	wikibase:directClaimNormalized wdtn:P2605 ;
+	wikibase:statementValueNormalized psn:P2605 ;
+	wikibase:qualifierValueNormalized pqn:P2605 ;
+	wikibase:referenceValueNormalized prn:P2605 .
+
+p:P2605 a owl:ObjectProperty .
+
+psv:P2605 a owl:ObjectProperty .
+
+pqv:P2605 a owl:ObjectProperty .
+
+prv:P2605 a owl:ObjectProperty .
+
+wdt:P2605 a owl:DatatypeProperty .
+
+ps:P2605 a owl:DatatypeProperty .
+
+pq:P2605 a owl:DatatypeProperty .
+
+pr:P2605 a owl:DatatypeProperty .
+
+psn:P2605 a owl:ObjectProperty .
+
+pqn:P2605 a owl:ObjectProperty .
+
+prn:P2605 a owl:ObjectProperty .
+
+wdtn:P2605 a owl:ObjectProperty .
+
+wdno:P2605 a owl:Class ;
+	owl:complementOf _:dd5a2924da0b3df5fbdee83c8ffc9c09 .
+
+_:dd5a2924da0b3df5fbdee83c8ffc9c09 a owl:Restriction ;
+	owl:onProperty wdt:P2605 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P2604 a wikibase:Property ;
+	rdfs:label "Kinopoisk person ID"@en ;
+	skos:prefLabel "Kinopoisk person ID"@en ;
+	schema:name "Kinopoisk person ID"@en ;
+	schema:description "identifier for a person in the Kinopoisk.ru database"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P2604 ;
+	wikibase:claim p:P2604 ;
+	wikibase:statementProperty ps:P2604 ;
+	wikibase:statementValue psv:P2604 ;
+	wikibase:qualifier pq:P2604 ;
+	wikibase:qualifierValue pqv:P2604 ;
+	wikibase:reference pr:P2604 ;
+	wikibase:referenceValue prv:P2604 ;
+	wikibase:novalue wdno:P2604 ;
+	wikibase:directClaimNormalized wdtn:P2604 ;
+	wikibase:statementValueNormalized psn:P2604 ;
+	wikibase:qualifierValueNormalized pqn:P2604 ;
+	wikibase:referenceValueNormalized prn:P2604 .
+
+p:P2604 a owl:ObjectProperty .
+
+psv:P2604 a owl:ObjectProperty .
+
+pqv:P2604 a owl:ObjectProperty .
+
+prv:P2604 a owl:ObjectProperty .
+
+wdt:P2604 a owl:DatatypeProperty .
+
+ps:P2604 a owl:DatatypeProperty .
+
+pq:P2604 a owl:DatatypeProperty .
+
+pr:P2604 a owl:DatatypeProperty .
+
+psn:P2604 a owl:ObjectProperty .
+
+pqn:P2604 a owl:ObjectProperty .
+
+prn:P2604 a owl:ObjectProperty .
+
+wdtn:P2604 a owl:ObjectProperty .
+
+wdno:P2604 a owl:Class ;
+	owl:complementOf _:10b904d65291ca01c8a9832fec26cd49 .
+
+_:10b904d65291ca01c8a9832fec26cd49 a owl:Restriction ;
+	owl:onProperty wdt:P2604 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P1266 a wikibase:Property ;
+	rdfs:label "AlloCiné person ID"@en ;
+	skos:prefLabel "AlloCiné person ID"@en ;
+	schema:name "AlloCiné person ID"@en ;
+	schema:description "identifier for a person on the AlloCiné film database"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P1266 ;
+	wikibase:claim p:P1266 ;
+	wikibase:statementProperty ps:P1266 ;
+	wikibase:statementValue psv:P1266 ;
+	wikibase:qualifier pq:P1266 ;
+	wikibase:qualifierValue pqv:P1266 ;
+	wikibase:reference pr:P1266 ;
+	wikibase:referenceValue prv:P1266 ;
+	wikibase:novalue wdno:P1266 ;
+	wikibase:directClaimNormalized wdtn:P1266 ;
+	wikibase:statementValueNormalized psn:P1266 ;
+	wikibase:qualifierValueNormalized pqn:P1266 ;
+	wikibase:referenceValueNormalized prn:P1266 .
+
+p:P1266 a owl:ObjectProperty .
+
+psv:P1266 a owl:ObjectProperty .
+
+pqv:P1266 a owl:ObjectProperty .
+
+prv:P1266 a owl:ObjectProperty .
+
+wdt:P1266 a owl:DatatypeProperty .
+
+ps:P1266 a owl:DatatypeProperty .
+
+pq:P1266 a owl:DatatypeProperty .
+
+pr:P1266 a owl:DatatypeProperty .
+
+psn:P1266 a owl:ObjectProperty .
+
+pqn:P1266 a owl:ObjectProperty .
+
+prn:P1266 a owl:ObjectProperty .
+
+wdtn:P1266 a owl:ObjectProperty .
+
+wdno:P1266 a owl:Class ;
+	owl:complementOf _:da32dfdafd2a556ecbe718f87b36703d .
+
+_:da32dfdafd2a556ecbe718f87b36703d a owl:Restriction ;
+	owl:onProperty wdt:P1266 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q200166 a wikibase:Item ;
+	rdfs:label "Kitchener"@en ;
+	skos:prefLabel "Kitchener"@en ;
+	schema:name "Kitchener"@en ;
+	schema:description "city in Ontario, Canada"@en .
+
+wd:P19 a wikibase:Property ;
+	rdfs:label "place of birth"@en ;
+	skos:prefLabel "place of birth"@en ;
+	schema:name "place of birth"@en ;
+	schema:description "most specific known (e.g. city instead of country, or hospital instead of city) birth location of a person, animal or fictional character"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P19 ;
+	wikibase:claim p:P19 ;
+	wikibase:statementProperty ps:P19 ;
+	wikibase:statementValue psv:P19 ;
+	wikibase:qualifier pq:P19 ;
+	wikibase:qualifierValue pqv:P19 ;
+	wikibase:reference pr:P19 ;
+	wikibase:referenceValue prv:P19 ;
+	wikibase:novalue wdno:P19 .
+
+p:P19 a owl:ObjectProperty .
+
+psv:P19 a owl:ObjectProperty .
+
+pqv:P19 a owl:ObjectProperty .
+
+prv:P19 a owl:ObjectProperty .
+
+wdt:P19 a owl:ObjectProperty .
+
+ps:P19 a owl:ObjectProperty .
+
+pq:P19 a owl:ObjectProperty .
+
+pr:P19 a owl:ObjectProperty .
+
+wdno:P19 a owl:Class ;
+	owl:complementOf _:79c4b5dd8e675d763a3f05a7c9e9d549 .
+
+_:79c4b5dd8e675d763a3f05a7c9e9d549 a owl:Restriction ;
+	owl:onProperty wdt:P19 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q16 a wikibase:Item ;
+	rdfs:label "Canada"@en ;
+	skos:prefLabel "Canada"@en ;
+	schema:name "Canada"@en ;
+	schema:description "country in North America"@en .
+
+wd:P27 a wikibase:Property ;
+	rdfs:label "country of citizenship"@en ;
+	skos:prefLabel "country of citizenship"@en ;
+	schema:name "country of citizenship"@en ;
+	schema:description "the object is a country that recognizes the subject as its citizen"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P27 ;
+	wikibase:claim p:P27 ;
+	wikibase:statementProperty ps:P27 ;
+	wikibase:statementValue psv:P27 ;
+	wikibase:qualifier pq:P27 ;
+	wikibase:qualifierValue pqv:P27 ;
+	wikibase:reference pr:P27 ;
+	wikibase:referenceValue prv:P27 ;
+	wikibase:novalue wdno:P27 .
+
+p:P27 a owl:ObjectProperty .
+
+psv:P27 a owl:ObjectProperty .
+
+pqv:P27 a owl:ObjectProperty .
+
+prv:P27 a owl:ObjectProperty .
+
+wdt:P27 a owl:ObjectProperty .
+
+ps:P27 a owl:ObjectProperty .
+
+pq:P27 a owl:ObjectProperty .
+
+pr:P27 a owl:ObjectProperty .
+
+wdno:P27 a owl:Class ;
+	owl:complementOf _:10b960483099011464f84586b88d281b .
+
+_:10b960483099011464f84586b88d281b a owl:Restriction ;
+	owl:onProperty wdt:P27 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q172 a wikibase:Item ;
+	rdfs:label "Toronto"@en ;
+	skos:prefLabel "Toronto"@en ;
+	schema:name "Toronto"@en ;
+	schema:description "capital and largest city of the province of Ontario, Canada"@en .
+
+wd:P551 a wikibase:Property ;
+	rdfs:label "residence"@en ;
+	skos:prefLabel "residence"@en ;
+	schema:name "residence"@en ;
+	schema:description "the place where the person is or has been, resident"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P551 ;
+	wikibase:claim p:P551 ;
+	wikibase:statementProperty ps:P551 ;
+	wikibase:statementValue psv:P551 ;
+	wikibase:qualifier pq:P551 ;
+	wikibase:qualifierValue pqv:P551 ;
+	wikibase:reference pr:P551 ;
+	wikibase:referenceValue prv:P551 ;
+	wikibase:novalue wdno:P551 .
+
+p:P551 a owl:ObjectProperty .
+
+psv:P551 a owl:ObjectProperty .
+
+pqv:P551 a owl:ObjectProperty .
+
+prv:P551 a owl:ObjectProperty .
+
+wdt:P551 a owl:ObjectProperty .
+
+ps:P551 a owl:ObjectProperty .
+
+pq:P551 a owl:ObjectProperty .
+
+pr:P551 a owl:ObjectProperty .
+
+wdno:P551 a owl:Class ;
+	owl:complementOf _:2e2ac5e9a91f653ff0c0823b43723840 .
+
+_:2e2ac5e9a91f653ff0c0823b43723840 a owl:Restriction ;
+	owl:onProperty wdt:P551 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q1408775 a wikibase:Item ;
+	rdfs:label "Burns"@en ;
+	skos:prefLabel "Burns"@en ;
+	schema:name "Burns"@en ;
+	schema:description "family name"@en .
+
+wd:P734 a wikibase:Property ;
+	rdfs:label "family name"@en ;
+	skos:prefLabel "family name"@en ;
+	schema:name "family name"@en ;
+	schema:description "part of full name of person"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P734 ;
+	wikibase:claim p:P734 ;
+	wikibase:statementProperty ps:P734 ;
+	wikibase:statementValue psv:P734 ;
+	wikibase:qualifier pq:P734 ;
+	wikibase:qualifierValue pqv:P734 ;
+	wikibase:reference pr:P734 ;
+	wikibase:referenceValue prv:P734 ;
+	wikibase:novalue wdno:P734 .
+
+p:P734 a owl:ObjectProperty .
+
+psv:P734 a owl:ObjectProperty .
+
+pqv:P734 a owl:ObjectProperty .
+
+prv:P734 a owl:ObjectProperty .
+
+wdt:P734 a owl:ObjectProperty .
+
+ps:P734 a owl:ObjectProperty .
+
+pq:P734 a owl:ObjectProperty .
+
+pr:P734 a owl:ObjectProperty .
+
+wdno:P734 a owl:Class ;
+	owl:complementOf _:80fa0a4abf09baad42c1554bbfc82b00 .
+
+_:80fa0a4abf09baad42c1554bbfc82b00 a owl:Restriction ;
+	owl:onProperty wdt:P734 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q19787253 a wikibase:Item ;
+	rdfs:label "Pilotpriest discography"@en ;
+	skos:prefLabel "Pilotpriest discography"@en ;
+	schema:name "Pilotpriest discography"@en ;
+	schema:description "artist discography"@en .
+
+wd:P358 a wikibase:Property ;
+	rdfs:label "discography"@en ;
+	skos:prefLabel "discography"@en ;
+	schema:name "discography"@en ;
+	schema:description "item for list pages with discography of artist or band"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P358 ;
+	wikibase:claim p:P358 ;
+	wikibase:statementProperty ps:P358 ;
+	wikibase:statementValue psv:P358 ;
+	wikibase:qualifier pq:P358 ;
+	wikibase:qualifierValue pqv:P358 ;
+	wikibase:reference pr:P358 ;
+	wikibase:referenceValue prv:P358 ;
+	wikibase:novalue wdno:P358 .
+
+p:P358 a owl:ObjectProperty .
+
+psv:P358 a owl:ObjectProperty .
+
+pqv:P358 a owl:ObjectProperty .
+
+prv:P358 a owl:ObjectProperty .
+
+wdt:P358 a owl:ObjectProperty .
+
+ps:P358 a owl:ObjectProperty .
+
+pq:P358 a owl:ObjectProperty .
+
+pr:P358 a owl:ObjectProperty .
+
+wdno:P358 a owl:Class ;
+	owl:complementOf _:57fa2eb247ab5d529f80b479b73fbc89 .
+
+_:57fa2eb247ab5d529f80b479b73fbc89 a owl:Restriction ;
+	owl:onProperty wdt:P358 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P434 a wikibase:Property ;
+	rdfs:label "MusicBrainz artist ID"@en ;
+	skos:prefLabel "MusicBrainz artist ID"@en ;
+	schema:name "MusicBrainz artist ID"@en ;
+	schema:description "identifier for an artist in the MusicBrainz open music encyclopedia"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P434 ;
+	wikibase:claim p:P434 ;
+	wikibase:statementProperty ps:P434 ;
+	wikibase:statementValue psv:P434 ;
+	wikibase:qualifier pq:P434 ;
+	wikibase:qualifierValue pqv:P434 ;
+	wikibase:reference pr:P434 ;
+	wikibase:referenceValue prv:P434 ;
+	wikibase:novalue wdno:P434 ;
+	wikibase:directClaimNormalized wdtn:P434 ;
+	wikibase:statementValueNormalized psn:P434 ;
+	wikibase:qualifierValueNormalized pqn:P434 ;
+	wikibase:referenceValueNormalized prn:P434 .
+
+p:P434 a owl:ObjectProperty .
+
+psv:P434 a owl:ObjectProperty .
+
+pqv:P434 a owl:ObjectProperty .
+
+prv:P434 a owl:ObjectProperty .
+
+wdt:P434 a owl:DatatypeProperty .
+
+ps:P434 a owl:DatatypeProperty .
+
+pq:P434 a owl:DatatypeProperty .
+
+pr:P434 a owl:DatatypeProperty .
+
+psn:P434 a owl:ObjectProperty .
+
+pqn:P434 a owl:ObjectProperty .
+
+prn:P434 a owl:ObjectProperty .
+
+wdtn:P434 a owl:ObjectProperty .
+
+wdno:P434 a owl:Class ;
+	owl:complementOf _:d14f406f7399e30628f1731deb160709 .
+
+_:d14f406f7399e30628f1731deb160709 a owl:Restriction ;
+	owl:onProperty wdt:P434 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P4015 a wikibase:Property ;
+	rdfs:label "Vimeo ID"@en ;
+	skos:prefLabel "Vimeo ID"@en ;
+	schema:name "Vimeo ID"@en ;
+	schema:description "this item's username or ID on Vimeo"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P4015 ;
+	wikibase:claim p:P4015 ;
+	wikibase:statementProperty ps:P4015 ;
+	wikibase:statementValue psv:P4015 ;
+	wikibase:qualifier pq:P4015 ;
+	wikibase:qualifierValue pqv:P4015 ;
+	wikibase:reference pr:P4015 ;
+	wikibase:referenceValue prv:P4015 ;
+	wikibase:novalue wdno:P4015 ;
+	wikibase:directClaimNormalized wdtn:P4015 ;
+	wikibase:statementValueNormalized psn:P4015 ;
+	wikibase:qualifierValueNormalized pqn:P4015 ;
+	wikibase:referenceValueNormalized prn:P4015 .
+
+p:P4015 a owl:ObjectProperty .
+
+psv:P4015 a owl:ObjectProperty .
+
+pqv:P4015 a owl:ObjectProperty .
+
+prv:P4015 a owl:ObjectProperty .
+
+wdt:P4015 a owl:DatatypeProperty .
+
+ps:P4015 a owl:DatatypeProperty .
+
+pq:P4015 a owl:DatatypeProperty .
+
+pr:P4015 a owl:DatatypeProperty .
+
+psn:P4015 a owl:ObjectProperty .
+
+pqn:P4015 a owl:ObjectProperty .
+
+prn:P4015 a owl:ObjectProperty .
+
+wdtn:P4015 a owl:ObjectProperty .
+
+wdno:P4015 a owl:Class ;
+	owl:complementOf _:19ed830fef872b38be5bf33dd9f648bb .
+
+_:19ed830fef872b38be5bf33dd9f648bb a owl:Restriction ;
+	owl:onProperty wdt:P4015 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P2002 a wikibase:Property ;
+	rdfs:label "X username"@en ;
+	skos:prefLabel "X username"@en ;
+	schema:name "X username"@en ;
+	schema:description "this item's username on X (formerly Twitter); do not include the “@” symbol"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P2002 ;
+	wikibase:claim p:P2002 ;
+	wikibase:statementProperty ps:P2002 ;
+	wikibase:statementValue psv:P2002 ;
+	wikibase:qualifier pq:P2002 ;
+	wikibase:qualifierValue pqv:P2002 ;
+	wikibase:reference pr:P2002 ;
+	wikibase:referenceValue prv:P2002 ;
+	wikibase:novalue wdno:P2002 ;
+	wikibase:directClaimNormalized wdtn:P2002 ;
+	wikibase:statementValueNormalized psn:P2002 ;
+	wikibase:qualifierValueNormalized pqn:P2002 ;
+	wikibase:referenceValueNormalized prn:P2002 .
+
+p:P2002 a owl:ObjectProperty .
+
+psv:P2002 a owl:ObjectProperty .
+
+pqv:P2002 a owl:ObjectProperty .
+
+prv:P2002 a owl:ObjectProperty .
+
+wdt:P2002 a owl:DatatypeProperty .
+
+ps:P2002 a owl:DatatypeProperty .
+
+pq:P2002 a owl:DatatypeProperty .
+
+pr:P2002 a owl:DatatypeProperty .
+
+psn:P2002 a owl:ObjectProperty .
+
+pqn:P2002 a owl:ObjectProperty .
+
+prn:P2002 a owl:ObjectProperty .
+
+wdtn:P2002 a owl:ObjectProperty .
+
+wdno:P2002 a owl:Class ;
+	owl:complementOf _:7627994c044f2cccb9df9aad725b0dcd .
+
+_:7627994c044f2cccb9df9aad725b0dcd a owl:Restriction ;
+	owl:onProperty wdt:P2002 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P1477 a wikibase:Property ;
+	rdfs:label "birth name"@en ;
+	skos:prefLabel "birth name"@en ;
+	schema:name "birth name"@en ;
+	schema:description "full name of a person at birth, if different from their current, generally used name"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#Monolingualtext> ;
+	wikibase:directClaim wdt:P1477 ;
+	wikibase:claim p:P1477 ;
+	wikibase:statementProperty ps:P1477 ;
+	wikibase:statementValue psv:P1477 ;
+	wikibase:qualifier pq:P1477 ;
+	wikibase:qualifierValue pqv:P1477 ;
+	wikibase:reference pr:P1477 ;
+	wikibase:referenceValue prv:P1477 ;
+	wikibase:novalue wdno:P1477 .
+
+p:P1477 a owl:ObjectProperty .
+
+psv:P1477 a owl:ObjectProperty .
+
+pqv:P1477 a owl:ObjectProperty .
+
+prv:P1477 a owl:ObjectProperty .
+
+wdt:P1477 a owl:DatatypeProperty .
+
+ps:P1477 a owl:DatatypeProperty .
+
+pq:P1477 a owl:DatatypeProperty .
+
+pr:P1477 a owl:DatatypeProperty .
+
+wdno:P1477 a owl:Class ;
+	owl:complementOf _:181933ff5f682f9559057d62c24ead56 .
+
+_:181933ff5f682f9559057d62c24ead56 a owl:Restriction ;
+	owl:onProperty wdt:P1477 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P742 a wikibase:Property ;
+	rdfs:label "pseudonym"@en ;
+	skos:prefLabel "pseudonym"@en ;
+	schema:name "pseudonym"@en ;
+	schema:description "alias used by someone (for nickname use P1449)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#String> ;
+	wikibase:directClaim wdt:P742 ;
+	wikibase:claim p:P742 ;
+	wikibase:statementProperty ps:P742 ;
+	wikibase:statementValue psv:P742 ;
+	wikibase:qualifier pq:P742 ;
+	wikibase:qualifierValue pqv:P742 ;
+	wikibase:reference pr:P742 ;
+	wikibase:referenceValue prv:P742 ;
+	wikibase:novalue wdno:P742 .
+
+p:P742 a owl:ObjectProperty .
+
+psv:P742 a owl:ObjectProperty .
+
+pqv:P742 a owl:ObjectProperty .
+
+prv:P742 a owl:ObjectProperty .
+
+wdt:P742 a owl:DatatypeProperty .
+
+ps:P742 a owl:DatatypeProperty .
+
+pq:P742 a owl:DatatypeProperty .
+
+pr:P742 a owl:DatatypeProperty .
+
+wdno:P742 a owl:Class ;
+	owl:complementOf _:b389cd42eff1360c71b8a4fb6ed9492b .
+
+_:b389cd42eff1360c71b8a4fb6ed9492b a owl:Restriction ;
+	owl:onProperty wdt:P742 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P1953 a wikibase:Property ;
+	rdfs:label "Discogs artist ID"@en ;
+	skos:prefLabel "Discogs artist ID"@en ;
+	schema:name "Discogs artist ID"@en ;
+	schema:description "identifier for a band or person in the Discogs database"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P1953 ;
+	wikibase:claim p:P1953 ;
+	wikibase:statementProperty ps:P1953 ;
+	wikibase:statementValue psv:P1953 ;
+	wikibase:qualifier pq:P1953 ;
+	wikibase:qualifierValue pqv:P1953 ;
+	wikibase:reference pr:P1953 ;
+	wikibase:referenceValue prv:P1953 ;
+	wikibase:novalue wdno:P1953 ;
+	wikibase:directClaimNormalized wdtn:P1953 ;
+	wikibase:statementValueNormalized psn:P1953 ;
+	wikibase:qualifierValueNormalized pqn:P1953 ;
+	wikibase:referenceValueNormalized prn:P1953 .
+
+p:P1953 a owl:ObjectProperty .
+
+psv:P1953 a owl:ObjectProperty .
+
+pqv:P1953 a owl:ObjectProperty .
+
+prv:P1953 a owl:ObjectProperty .
+
+wdt:P1953 a owl:DatatypeProperty .
+
+ps:P1953 a owl:DatatypeProperty .
+
+pq:P1953 a owl:DatatypeProperty .
+
+pr:P1953 a owl:DatatypeProperty .
+
+psn:P1953 a owl:ObjectProperty .
+
+pqn:P1953 a owl:ObjectProperty .
+
+prn:P1953 a owl:ObjectProperty .
+
+wdtn:P1953 a owl:ObjectProperty .
+
+wdno:P1953 a owl:Class ;
+	owl:complementOf _:4dd1fe3fa1719551dddfd2e48366594c .
+
+_:4dd1fe3fa1719551dddfd2e48366594c a owl:Restriction ;
+	owl:onProperty wdt:P1953 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P1559 a wikibase:Property ;
+	rdfs:label "name in native language"@en ;
+	skos:prefLabel "name in native language"@en ;
+	schema:name "name in native language"@en ;
+	schema:description "name of a person in their native language"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#Monolingualtext> ;
+	wikibase:directClaim wdt:P1559 ;
+	wikibase:claim p:P1559 ;
+	wikibase:statementProperty ps:P1559 ;
+	wikibase:statementValue psv:P1559 ;
+	wikibase:qualifier pq:P1559 ;
+	wikibase:qualifierValue pqv:P1559 ;
+	wikibase:reference pr:P1559 ;
+	wikibase:referenceValue prv:P1559 ;
+	wikibase:novalue wdno:P1559 .
+
+p:P1559 a owl:ObjectProperty .
+
+psv:P1559 a owl:ObjectProperty .
+
+pqv:P1559 a owl:ObjectProperty .
+
+prv:P1559 a owl:ObjectProperty .
+
+wdt:P1559 a owl:DatatypeProperty .
+
+ps:P1559 a owl:DatatypeProperty .
+
+pq:P1559 a owl:DatatypeProperty .
+
+pr:P1559 a owl:DatatypeProperty .
+
+wdno:P1559 a owl:Class ;
+	owl:complementOf _:10797c27ae4368790f83843fcd7206c2 .
+
+_:10797c27ae4368790f83843fcd7206c2 a owl:Restriction ;
+	owl:onProperty wdt:P1559 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P5404 a wikibase:Property ;
+	rdfs:label "Rate Your Music artist ID"@en ;
+	skos:prefLabel "Rate Your Music artist ID"@en ;
+	schema:name "Rate Your Music artist ID"@en ;
+	schema:description "identifier for an artist or group on the website Rate Your Music"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P5404 ;
+	wikibase:claim p:P5404 ;
+	wikibase:statementProperty ps:P5404 ;
+	wikibase:statementValue psv:P5404 ;
+	wikibase:qualifier pq:P5404 ;
+	wikibase:qualifierValue pqv:P5404 ;
+	wikibase:reference pr:P5404 ;
+	wikibase:referenceValue prv:P5404 ;
+	wikibase:novalue wdno:P5404 ;
+	wikibase:directClaimNormalized wdtn:P5404 ;
+	wikibase:statementValueNormalized psn:P5404 ;
+	wikibase:qualifierValueNormalized pqn:P5404 ;
+	wikibase:referenceValueNormalized prn:P5404 .
+
+p:P5404 a owl:ObjectProperty .
+
+psv:P5404 a owl:ObjectProperty .
+
+pqv:P5404 a owl:ObjectProperty .
+
+prv:P5404 a owl:ObjectProperty .
+
+wdt:P5404 a owl:DatatypeProperty .
+
+ps:P5404 a owl:DatatypeProperty .
+
+pq:P5404 a owl:DatatypeProperty .
+
+pr:P5404 a owl:DatatypeProperty .
+
+psn:P5404 a owl:ObjectProperty .
+
+pqn:P5404 a owl:ObjectProperty .
+
+prn:P5404 a owl:ObjectProperty .
+
+wdtn:P5404 a owl:ObjectProperty .
+
+wdno:P5404 a owl:Class ;
+	owl:complementOf _:ad78f88660b4be6b625d7a76400c0cfb .
+
+_:ad78f88660b4be6b625d7a76400c0cfb a owl:Restriction ;
+	owl:onProperty wdt:P5404 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P3283 a wikibase:Property ;
+	rdfs:label "Bandcamp profile ID"@en ;
+	skos:prefLabel "Bandcamp profile ID"@en ;
+	schema:name "Bandcamp profile ID"@en ;
+	schema:description "identifier for an artist (person or group) or record label, in the Bandcamp database"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P3283 ;
+	wikibase:claim p:P3283 ;
+	wikibase:statementProperty ps:P3283 ;
+	wikibase:statementValue psv:P3283 ;
+	wikibase:qualifier pq:P3283 ;
+	wikibase:qualifierValue pqv:P3283 ;
+	wikibase:reference pr:P3283 ;
+	wikibase:referenceValue prv:P3283 ;
+	wikibase:novalue wdno:P3283 ;
+	wikibase:directClaimNormalized wdtn:P3283 ;
+	wikibase:statementValueNormalized psn:P3283 ;
+	wikibase:qualifierValueNormalized pqn:P3283 ;
+	wikibase:referenceValueNormalized prn:P3283 .
+
+p:P3283 a owl:ObjectProperty .
+
+psv:P3283 a owl:ObjectProperty .
+
+pqv:P3283 a owl:ObjectProperty .
+
+prv:P3283 a owl:ObjectProperty .
+
+wdt:P3283 a owl:DatatypeProperty .
+
+ps:P3283 a owl:DatatypeProperty .
+
+pq:P3283 a owl:DatatypeProperty .
+
+pr:P3283 a owl:DatatypeProperty .
+
+psn:P3283 a owl:ObjectProperty .
+
+pqn:P3283 a owl:ObjectProperty .
+
+prn:P3283 a owl:ObjectProperty .
+
+wdtn:P3283 a owl:ObjectProperty .
+
+wdno:P3283 a owl:Class ;
+	owl:complementOf _:91041751801d2303f8ac186334c88d44 .
+
+_:91041751801d2303f8ac186334c88d44 a owl:Restriction ;
+	owl:onProperty wdt:P3283 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P646 a wikibase:Property ;
+	rdfs:label "Freebase ID"@en ;
+	skos:prefLabel "Freebase ID"@en ;
+	schema:name "Freebase ID"@en ;
+	schema:description "identifier for a page in the Freebase database. Format: \"/m/0\" followed by 2 to 7 characters. For IDs starting with \"/g/\", use Google Knowledge Graph ID (P2671)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P646 ;
+	wikibase:claim p:P646 ;
+	wikibase:statementProperty ps:P646 ;
+	wikibase:statementValue psv:P646 ;
+	wikibase:qualifier pq:P646 ;
+	wikibase:qualifierValue pqv:P646 ;
+	wikibase:reference pr:P646 ;
+	wikibase:referenceValue prv:P646 ;
+	wikibase:novalue wdno:P646 ;
+	wikibase:directClaimNormalized wdtn:P646 ;
+	wikibase:statementValueNormalized psn:P646 ;
+	wikibase:qualifierValueNormalized pqn:P646 ;
+	wikibase:referenceValueNormalized prn:P646 .
+
+p:P646 a owl:ObjectProperty .
+
+psv:P646 a owl:ObjectProperty .
+
+pqv:P646 a owl:ObjectProperty .
+
+prv:P646 a owl:ObjectProperty .
+
+wdt:P646 a owl:DatatypeProperty .
+
+ps:P646 a owl:DatatypeProperty .
+
+pq:P646 a owl:DatatypeProperty .
+
+pr:P646 a owl:DatatypeProperty .
+
+psn:P646 a owl:ObjectProperty .
+
+pqn:P646 a owl:ObjectProperty .
+
+prn:P646 a owl:ObjectProperty .
+
+wdtn:P646 a owl:ObjectProperty .
+
+wdno:P646 a owl:Class ;
+	owl:complementOf _:38db277a4b10d59fd38a3fd995cbe570 .
+
+_:38db277a4b10d59fd38a3fd995cbe570 a owl:Restriction ;
+	owl:onProperty wdt:P646 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P8687 a wikibase:Property ;
+	rdfs:label "social media followers"@en ;
+	skos:prefLabel "social media followers"@en ;
+	schema:name "social media followers"@en ;
+	schema:description "number of subscribers on a particular social media website (use as main statement only; see P3744 instead for qualifier). Qualify with \"point in time\" and property for account. For Twitter, use numeric id."@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#Quantity> ;
+	wikibase:directClaim wdt:P8687 ;
+	wikibase:claim p:P8687 ;
+	wikibase:statementProperty ps:P8687 ;
+	wikibase:statementValue psv:P8687 ;
+	wikibase:qualifier pq:P8687 ;
+	wikibase:qualifierValue pqv:P8687 ;
+	wikibase:reference pr:P8687 ;
+	wikibase:referenceValue prv:P8687 ;
+	wikibase:novalue wdno:P8687 ;
+	wikibase:directClaimNormalized wdtn:P8687 ;
+	wikibase:statementValueNormalized psn:P8687 ;
+	wikibase:qualifierValueNormalized pqn:P8687 ;
+	wikibase:referenceValueNormalized prn:P8687 .
+
+p:P8687 a owl:ObjectProperty .
+
+psv:P8687 a owl:ObjectProperty .
+
+pqv:P8687 a owl:ObjectProperty .
+
+prv:P8687 a owl:ObjectProperty .
+
+wdt:P8687 a owl:DatatypeProperty .
+
+ps:P8687 a owl:DatatypeProperty .
+
+pq:P8687 a owl:DatatypeProperty .
+
+pr:P8687 a owl:DatatypeProperty .
+
+psn:P8687 a owl:ObjectProperty .
+
+pqn:P8687 a owl:ObjectProperty .
+
+prn:P8687 a owl:ObjectProperty .
+
+wdtn:P8687 a owl:DatatypeProperty .
+
+wdno:P8687 a owl:Class ;
+	owl:complementOf _:a85b7a7d84c6ca47664d85d6aac21055 .
+
+_:a85b7a7d84c6ca47664d85d6aac21055 a owl:Restriction ;
+	owl:onProperty wdt:P8687 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P4985 a wikibase:Property ;
+	rdfs:label "TMDB person ID"@en ;
+	skos:prefLabel "TMDB person ID"@en ;
+	schema:name "TMDB person ID"@en ;
+	schema:description "identifier for a person at The Movie Database"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P4985 ;
+	wikibase:claim p:P4985 ;
+	wikibase:statementProperty ps:P4985 ;
+	wikibase:statementValue psv:P4985 ;
+	wikibase:qualifier pq:P4985 ;
+	wikibase:qualifierValue pqv:P4985 ;
+	wikibase:reference pr:P4985 ;
+	wikibase:referenceValue prv:P4985 ;
+	wikibase:novalue wdno:P4985 ;
+	wikibase:directClaimNormalized wdtn:P4985 ;
+	wikibase:statementValueNormalized psn:P4985 ;
+	wikibase:qualifierValueNormalized pqn:P4985 ;
+	wikibase:referenceValueNormalized prn:P4985 .
+
+p:P4985 a owl:ObjectProperty .
+
+psv:P4985 a owl:ObjectProperty .
+
+pqv:P4985 a owl:ObjectProperty .
+
+prv:P4985 a owl:ObjectProperty .
+
+wdt:P4985 a owl:DatatypeProperty .
+
+ps:P4985 a owl:DatatypeProperty .
+
+pq:P4985 a owl:DatatypeProperty .
+
+pr:P4985 a owl:DatatypeProperty .
+
+psn:P4985 a owl:ObjectProperty .
+
+pqn:P4985 a owl:ObjectProperty .
+
+prn:P4985 a owl:ObjectProperty .
+
+wdtn:P4985 a owl:ObjectProperty .
+
+wdno:P4985 a owl:Class ;
+	owl:complementOf _:747680c9f44386c33d0aafd575fd157e .
+
+_:747680c9f44386c33d0aafd575fd157e a owl:Restriction ;
+	owl:onProperty wdt:P4985 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P2013 a wikibase:Property ;
+	rdfs:label "Facebook username"@en ;
+	skos:prefLabel "Facebook username"@en ;
+	schema:name "Facebook username"@en ;
+	schema:description "identifier for an official (preferably) Facebook person, product or organization page (everything that follows URL part 'https://www.facebook.com/')"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P2013 ;
+	wikibase:claim p:P2013 ;
+	wikibase:statementProperty ps:P2013 ;
+	wikibase:statementValue psv:P2013 ;
+	wikibase:qualifier pq:P2013 ;
+	wikibase:qualifierValue pqv:P2013 ;
+	wikibase:reference pr:P2013 ;
+	wikibase:referenceValue prv:P2013 ;
+	wikibase:novalue wdno:P2013 ;
+	wikibase:directClaimNormalized wdtn:P2013 ;
+	wikibase:statementValueNormalized psn:P2013 ;
+	wikibase:qualifierValueNormalized pqn:P2013 ;
+	wikibase:referenceValueNormalized prn:P2013 .
+
+p:P2013 a owl:ObjectProperty .
+
+psv:P2013 a owl:ObjectProperty .
+
+pqv:P2013 a owl:ObjectProperty .
+
+prv:P2013 a owl:ObjectProperty .
+
+wdt:P2013 a owl:DatatypeProperty .
+
+ps:P2013 a owl:DatatypeProperty .
+
+pq:P2013 a owl:DatatypeProperty .
+
+pr:P2013 a owl:DatatypeProperty .
+
+psn:P2013 a owl:ObjectProperty .
+
+pqn:P2013 a owl:ObjectProperty .
+
+prn:P2013 a owl:ObjectProperty .
+
+wdtn:P2013 a owl:ObjectProperty .
+
+wdno:P2013 a owl:Class ;
+	owl:complementOf _:c54c4afd4b28b335a949e6209c9f8c77 .
+
+_:c54c4afd4b28b335a949e6209c9f8c77 a owl:Restriction ;
+	owl:onProperty wdt:P2013 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P1902 a wikibase:Property ;
+	rdfs:label "Spotify artist ID"@en ;
+	skos:prefLabel "Spotify artist ID"@en ;
+	schema:name "Spotify artist ID"@en ;
+	schema:description "identifier for an artist on Spotify"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P1902 ;
+	wikibase:claim p:P1902 ;
+	wikibase:statementProperty ps:P1902 ;
+	wikibase:statementValue psv:P1902 ;
+	wikibase:qualifier pq:P1902 ;
+	wikibase:qualifierValue pqv:P1902 ;
+	wikibase:reference pr:P1902 ;
+	wikibase:referenceValue prv:P1902 ;
+	wikibase:novalue wdno:P1902 ;
+	wikibase:directClaimNormalized wdtn:P1902 ;
+	wikibase:statementValueNormalized psn:P1902 ;
+	wikibase:qualifierValueNormalized pqn:P1902 ;
+	wikibase:referenceValueNormalized prn:P1902 .
+
+p:P1902 a owl:ObjectProperty .
+
+psv:P1902 a owl:ObjectProperty .
+
+pqv:P1902 a owl:ObjectProperty .
+
+prv:P1902 a owl:ObjectProperty .
+
+wdt:P1902 a owl:DatatypeProperty .
+
+ps:P1902 a owl:DatatypeProperty .
+
+pq:P1902 a owl:DatatypeProperty .
+
+pr:P1902 a owl:DatatypeProperty .
+
+psn:P1902 a owl:ObjectProperty .
+
+pqn:P1902 a owl:ObjectProperty .
+
+prn:P1902 a owl:ObjectProperty .
+
+wdtn:P1902 a owl:ObjectProperty .
+
+wdno:P1902 a owl:Class ;
+	owl:complementOf _:a271db8e71516ca4497dd781f880490f .
+
+_:a271db8e71516ca4497dd781f880490f a owl:Restriction ;
+	owl:onProperty wdt:P1902 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P2722 a wikibase:Property ;
+	rdfs:label "Deezer artist ID"@en ;
+	skos:prefLabel "Deezer artist ID"@en ;
+	schema:name "Deezer artist ID"@en ;
+	schema:description "identifier for an artist on Deezer"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P2722 ;
+	wikibase:claim p:P2722 ;
+	wikibase:statementProperty ps:P2722 ;
+	wikibase:statementValue psv:P2722 ;
+	wikibase:qualifier pq:P2722 ;
+	wikibase:qualifierValue pqv:P2722 ;
+	wikibase:reference pr:P2722 ;
+	wikibase:referenceValue prv:P2722 ;
+	wikibase:novalue wdno:P2722 ;
+	wikibase:directClaimNormalized wdtn:P2722 ;
+	wikibase:statementValueNormalized psn:P2722 ;
+	wikibase:qualifierValueNormalized pqn:P2722 ;
+	wikibase:referenceValueNormalized prn:P2722 .
+
+p:P2722 a owl:ObjectProperty .
+
+psv:P2722 a owl:ObjectProperty .
+
+pqv:P2722 a owl:ObjectProperty .
+
+prv:P2722 a owl:ObjectProperty .
+
+wdt:P2722 a owl:DatatypeProperty .
+
+ps:P2722 a owl:DatatypeProperty .
+
+pq:P2722 a owl:DatatypeProperty .
+
+pr:P2722 a owl:DatatypeProperty .
+
+psn:P2722 a owl:ObjectProperty .
+
+pqn:P2722 a owl:ObjectProperty .
+
+prn:P2722 a owl:ObjectProperty .
+
+wdtn:P2722 a owl:ObjectProperty .
+
+wdno:P2722 a owl:Class ;
+	owl:complementOf _:66764795419cbc0be7a05ec5deff0921 .
+
+_:66764795419cbc0be7a05ec5deff0921 a owl:Restriction ;
+	owl:onProperty wdt:P2722 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P3040 a wikibase:Property ;
+	rdfs:label "SoundCloud ID"@en ;
+	skos:prefLabel "SoundCloud ID"@en ;
+	schema:name "SoundCloud ID"@en ;
+	schema:description "identifier for a person, band, radio station, album, or other entity, on SoundCloud"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P3040 ;
+	wikibase:claim p:P3040 ;
+	wikibase:statementProperty ps:P3040 ;
+	wikibase:statementValue psv:P3040 ;
+	wikibase:qualifier pq:P3040 ;
+	wikibase:qualifierValue pqv:P3040 ;
+	wikibase:reference pr:P3040 ;
+	wikibase:referenceValue prv:P3040 ;
+	wikibase:novalue wdno:P3040 ;
+	wikibase:directClaimNormalized wdtn:P3040 ;
+	wikibase:statementValueNormalized psn:P3040 ;
+	wikibase:qualifierValueNormalized pqn:P3040 ;
+	wikibase:referenceValueNormalized prn:P3040 .
+
+p:P3040 a owl:ObjectProperty .
+
+psv:P3040 a owl:ObjectProperty .
+
+pqv:P3040 a owl:ObjectProperty .
+
+prv:P3040 a owl:ObjectProperty .
+
+wdt:P3040 a owl:DatatypeProperty .
+
+ps:P3040 a owl:DatatypeProperty .
+
+pq:P3040 a owl:DatatypeProperty .
+
+pr:P3040 a owl:DatatypeProperty .
+
+psn:P3040 a owl:ObjectProperty .
+
+pqn:P3040 a owl:ObjectProperty .
+
+prn:P3040 a owl:ObjectProperty .
+
+wdtn:P3040 a owl:ObjectProperty .
+
+wdno:P3040 a owl:Class ;
+	owl:complementOf _:eb8b4447f52c94a4e2f5d726731a8976 .
+
+_:eb8b4447f52c94a4e2f5d726731a8976 a owl:Restriction ;
+	owl:onProperty wdt:P3040 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P9463 a wikibase:Property ;
+	rdfs:label "MovieMeter person ID"@en ;
+	skos:prefLabel "MovieMeter person ID"@en ;
+	schema:name "MovieMeter person ID"@en ;
+	schema:description "identifier for a person on the MovieMeter film database"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P9463 ;
+	wikibase:claim p:P9463 ;
+	wikibase:statementProperty ps:P9463 ;
+	wikibase:statementValue psv:P9463 ;
+	wikibase:qualifier pq:P9463 ;
+	wikibase:qualifierValue pqv:P9463 ;
+	wikibase:reference pr:P9463 ;
+	wikibase:referenceValue prv:P9463 ;
+	wikibase:novalue wdno:P9463 ;
+	wikibase:directClaimNormalized wdtn:P9463 ;
+	wikibase:statementValueNormalized psn:P9463 ;
+	wikibase:qualifierValueNormalized pqn:P9463 ;
+	wikibase:referenceValueNormalized prn:P9463 .
+
+p:P9463 a owl:ObjectProperty .
+
+psv:P9463 a owl:ObjectProperty .
+
+pqv:P9463 a owl:ObjectProperty .
+
+prv:P9463 a owl:ObjectProperty .
+
+wdt:P9463 a owl:DatatypeProperty .
+
+ps:P9463 a owl:DatatypeProperty .
+
+pq:P9463 a owl:DatatypeProperty .
+
+pr:P9463 a owl:DatatypeProperty .
+
+psn:P9463 a owl:ObjectProperty .
+
+pqn:P9463 a owl:ObjectProperty .
+
+prn:P9463 a owl:ObjectProperty .
+
+wdtn:P9463 a owl:ObjectProperty .
+
+wdno:P9463 a owl:Class ;
+	owl:complementOf _:6e625373ee1aea7749cae474fa62d95d .
+
+_:6e625373ee1aea7749cae474fa62d95d a owl:Restriction ;
+	owl:onProperty wdt:P9463 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P10266 a wikibase:Property ;
+	rdfs:label "AdoroCinema person ID"@en ;
+	skos:prefLabel "AdoroCinema person ID"@en ;
+	schema:name "AdoroCinema person ID"@en ;
+	schema:description "identifier for a person in AdoroCinema database"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P10266 ;
+	wikibase:claim p:P10266 ;
+	wikibase:statementProperty ps:P10266 ;
+	wikibase:statementValue psv:P10266 ;
+	wikibase:qualifier pq:P10266 ;
+	wikibase:qualifierValue pqv:P10266 ;
+	wikibase:reference pr:P10266 ;
+	wikibase:referenceValue prv:P10266 ;
+	wikibase:novalue wdno:P10266 ;
+	wikibase:directClaimNormalized wdtn:P10266 ;
+	wikibase:statementValueNormalized psn:P10266 ;
+	wikibase:qualifierValueNormalized pqn:P10266 ;
+	wikibase:referenceValueNormalized prn:P10266 .
+
+p:P10266 a owl:ObjectProperty .
+
+psv:P10266 a owl:ObjectProperty .
+
+pqv:P10266 a owl:ObjectProperty .
+
+prv:P10266 a owl:ObjectProperty .
+
+wdt:P10266 a owl:DatatypeProperty .
+
+ps:P10266 a owl:DatatypeProperty .
+
+pq:P10266 a owl:DatatypeProperty .
+
+pr:P10266 a owl:DatatypeProperty .
+
+psn:P10266 a owl:ObjectProperty .
+
+pqn:P10266 a owl:ObjectProperty .
+
+prn:P10266 a owl:ObjectProperty .
+
+wdtn:P10266 a owl:ObjectProperty .
+
+wdno:P10266 a owl:Class ;
+	owl:complementOf _:a4f219a5b755f583fdf7c7f8b5fe6e9f .
+
+_:a4f219a5b755f583fdf7c7f8b5fe6e9f a owl:Restriction ;
+	owl:onProperty wdt:P10266 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P244 a wikibase:Property ;
+	rdfs:label "Library of Congress authority ID"@en ;
+	skos:prefLabel "Library of Congress authority ID"@en ;
+	schema:name "Library of Congress authority ID"@en ;
+	schema:description "Library of Congress name authority (persons, families, corporate bodies, events, places, works and expressions) and subject authority identifier [Format: 1-2 specific letters followed by 8-10 digits (see regex). For manifestations, use P1144]"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P244 ;
+	wikibase:claim p:P244 ;
+	wikibase:statementProperty ps:P244 ;
+	wikibase:statementValue psv:P244 ;
+	wikibase:qualifier pq:P244 ;
+	wikibase:qualifierValue pqv:P244 ;
+	wikibase:reference pr:P244 ;
+	wikibase:referenceValue prv:P244 ;
+	wikibase:novalue wdno:P244 ;
+	wikibase:directClaimNormalized wdtn:P244 ;
+	wikibase:statementValueNormalized psn:P244 ;
+	wikibase:qualifierValueNormalized pqn:P244 ;
+	wikibase:referenceValueNormalized prn:P244 .
+
+p:P244 a owl:ObjectProperty .
+
+psv:P244 a owl:ObjectProperty .
+
+pqv:P244 a owl:ObjectProperty .
+
+prv:P244 a owl:ObjectProperty .
+
+wdt:P244 a owl:DatatypeProperty .
+
+ps:P244 a owl:DatatypeProperty .
+
+pq:P244 a owl:DatatypeProperty .
+
+pr:P244 a owl:DatatypeProperty .
+
+psn:P244 a owl:ObjectProperty .
+
+pqn:P244 a owl:ObjectProperty .
+
+prn:P244 a owl:ObjectProperty .
+
+wdtn:P244 a owl:ObjectProperty .
+
+wdno:P244 a owl:Class ;
+	owl:complementOf _:590c65ffccb1a1851cc444e4370c7714 .
+
+_:590c65ffccb1a1851cc444e4370c7714 a owl:Restriction ;
+	owl:onProperty wdt:P244 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P10302 a wikibase:Property ;
+	rdfs:label "Film.ru person ID"@en ;
+	skos:prefLabel "Film.ru person ID"@en ;
+	schema:name "Film.ru person ID"@en ;
+	schema:description "identifier for people in the Russian film database on film.ru"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P10302 ;
+	wikibase:claim p:P10302 ;
+	wikibase:statementProperty ps:P10302 ;
+	wikibase:statementValue psv:P10302 ;
+	wikibase:qualifier pq:P10302 ;
+	wikibase:qualifierValue pqv:P10302 ;
+	wikibase:reference pr:P10302 ;
+	wikibase:referenceValue prv:P10302 ;
+	wikibase:novalue wdno:P10302 ;
+	wikibase:directClaimNormalized wdtn:P10302 ;
+	wikibase:statementValueNormalized psn:P10302 ;
+	wikibase:qualifierValueNormalized pqn:P10302 ;
+	wikibase:referenceValueNormalized prn:P10302 .
+
+p:P10302 a owl:ObjectProperty .
+
+psv:P10302 a owl:ObjectProperty .
+
+pqv:P10302 a owl:ObjectProperty .
+
+prv:P10302 a owl:ObjectProperty .
+
+wdt:P10302 a owl:DatatypeProperty .
+
+ps:P10302 a owl:DatatypeProperty .
+
+pq:P10302 a owl:DatatypeProperty .
+
+pr:P10302 a owl:DatatypeProperty .
+
+psn:P10302 a owl:ObjectProperty .
+
+pqn:P10302 a owl:ObjectProperty .
+
+prn:P10302 a owl:ObjectProperty .
+
+wdtn:P10302 a owl:ObjectProperty .
+
+wdno:P10302 a owl:Class ;
+	owl:complementOf _:c1de788fdcccac1c4ffb944d4af649e3 .
+
+_:c1de788fdcccac1c4ffb944d4af649e3 a owl:Restriction ;
+	owl:onProperty wdt:P10302 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P11683 a wikibase:Property ;
+	rdfs:label "Ivi person ID"@en ;
+	skos:prefLabel "Ivi person ID"@en ;
+	schema:name "Ivi person ID"@en ;
+	schema:description "ID of an actor on Ivi.ru"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P11683 ;
+	wikibase:claim p:P11683 ;
+	wikibase:statementProperty ps:P11683 ;
+	wikibase:statementValue psv:P11683 ;
+	wikibase:qualifier pq:P11683 ;
+	wikibase:qualifierValue pqv:P11683 ;
+	wikibase:reference pr:P11683 ;
+	wikibase:referenceValue prv:P11683 ;
+	wikibase:novalue wdno:P11683 ;
+	wikibase:directClaimNormalized wdtn:P11683 ;
+	wikibase:statementValueNormalized psn:P11683 ;
+	wikibase:qualifierValueNormalized pqn:P11683 ;
+	wikibase:referenceValueNormalized prn:P11683 .
+
+p:P11683 a owl:ObjectProperty .
+
+psv:P11683 a owl:ObjectProperty .
+
+pqv:P11683 a owl:ObjectProperty .
+
+prv:P11683 a owl:ObjectProperty .
+
+wdt:P11683 a owl:DatatypeProperty .
+
+ps:P11683 a owl:DatatypeProperty .
+
+pq:P11683 a owl:DatatypeProperty .
+
+pr:P11683 a owl:DatatypeProperty .
+
+psn:P11683 a owl:ObjectProperty .
+
+pqn:P11683 a owl:ObjectProperty .
+
+prn:P11683 a owl:ObjectProperty .
+
+wdtn:P11683 a owl:ObjectProperty .
+
+wdno:P11683 a owl:Class ;
+	owl:complementOf _:7cb52341b3d1626aad37379531c53e44 .
+
+_:7cb52341b3d1626aad37379531c53e44 a owl:Restriction ;
+	owl:onProperty wdt:P11683 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P12098 a wikibase:Property ;
+	rdfs:label "Kinobox person ID"@en ;
+	skos:prefLabel "Kinobox person ID"@en ;
+	schema:name "Kinobox person ID"@en ;
+	schema:description "identifier for a person on the Kinobox.cz website"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P12098 ;
+	wikibase:claim p:P12098 ;
+	wikibase:statementProperty ps:P12098 ;
+	wikibase:statementValue psv:P12098 ;
+	wikibase:qualifier pq:P12098 ;
+	wikibase:qualifierValue pqv:P12098 ;
+	wikibase:reference pr:P12098 ;
+	wikibase:referenceValue prv:P12098 ;
+	wikibase:novalue wdno:P12098 ;
+	wikibase:directClaimNormalized wdtn:P12098 ;
+	wikibase:statementValueNormalized psn:P12098 ;
+	wikibase:qualifierValueNormalized pqn:P12098 ;
+	wikibase:referenceValueNormalized prn:P12098 .
+
+p:P12098 a owl:ObjectProperty .
+
+psv:P12098 a owl:ObjectProperty .
+
+pqv:P12098 a owl:ObjectProperty .
+
+prv:P12098 a owl:ObjectProperty .
+
+wdt:P12098 a owl:DatatypeProperty .
+
+ps:P12098 a owl:DatatypeProperty .
+
+pq:P12098 a owl:DatatypeProperty .
+
+pr:P12098 a owl:DatatypeProperty .
+
+psn:P12098 a owl:ObjectProperty .
+
+pqn:P12098 a owl:ObjectProperty .
+
+prn:P12098 a owl:ObjectProperty .
+
+wdtn:P12098 a owl:ObjectProperty .
+
+wdno:P12098 a owl:Class ;
+	owl:complementOf _:854cea722e6927c5e713161f0615957f .
+
+_:854cea722e6927c5e713161f0615957f a owl:Restriction ;
+	owl:onProperty wdt:P12098 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P214 a wikibase:Property ;
+	rdfs:label "VIAF ID"@en ;
+	skos:prefLabel "VIAF ID"@en ;
+	schema:name "VIAF ID"@en ;
+	schema:description "identifier for the Virtual International Authority File database [format: up to 22 digits]"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P214 ;
+	wikibase:claim p:P214 ;
+	wikibase:statementProperty ps:P214 ;
+	wikibase:statementValue psv:P214 ;
+	wikibase:qualifier pq:P214 ;
+	wikibase:qualifierValue pqv:P214 ;
+	wikibase:reference pr:P214 ;
+	wikibase:referenceValue prv:P214 ;
+	wikibase:novalue wdno:P214 ;
+	wikibase:directClaimNormalized wdtn:P214 ;
+	wikibase:statementValueNormalized psn:P214 ;
+	wikibase:qualifierValueNormalized pqn:P214 ;
+	wikibase:referenceValueNormalized prn:P214 .
+
+p:P214 a owl:ObjectProperty .
+
+psv:P214 a owl:ObjectProperty .
+
+pqv:P214 a owl:ObjectProperty .
+
+prv:P214 a owl:ObjectProperty .
+
+wdt:P214 a owl:DatatypeProperty .
+
+ps:P214 a owl:DatatypeProperty .
+
+pq:P214 a owl:DatatypeProperty .
+
+pr:P214 a owl:DatatypeProperty .
+
+psn:P214 a owl:ObjectProperty .
+
+pqn:P214 a owl:ObjectProperty .
+
+prn:P214 a owl:ObjectProperty .
+
+wdtn:P214 a owl:ObjectProperty .
+
+wdno:P214 a owl:Class ;
+	owl:complementOf _:29da2ca818bc08f93ddc0a2be66197e9 .
+
+_:29da2ca818bc08f93ddc0a2be66197e9 a owl:Restriction ;
+	owl:onProperty wdt:P214 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q328 a wikibase:Item ;
+	rdfs:label "English Wikipedia"@en ;
+	skos:prefLabel "English Wikipedia"@en ;
+	schema:name "English Wikipedia"@en ;
+	schema:description "English-language edition of Wikipedia"@en .
+
+wd:P143 a wikibase:Property ;
+	rdfs:label "imported from Wikimedia project"@en ;
+	skos:prefLabel "imported from Wikimedia project"@en ;
+	schema:name "imported from Wikimedia project"@en ;
+	schema:description "source of this claim's value; used in references section by bots or humans importing data from Wikimedia projects"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P143 ;
+	wikibase:claim p:P143 ;
+	wikibase:statementProperty ps:P143 ;
+	wikibase:statementValue psv:P143 ;
+	wikibase:qualifier pq:P143 ;
+	wikibase:qualifierValue pqv:P143 ;
+	wikibase:reference pr:P143 ;
+	wikibase:referenceValue prv:P143 ;
+	wikibase:novalue wdno:P143 .
+
+p:P143 a owl:ObjectProperty .
+
+psv:P143 a owl:ObjectProperty .
+
+pqv:P143 a owl:ObjectProperty .
+
+prv:P143 a owl:ObjectProperty .
+
+wdt:P143 a owl:ObjectProperty .
+
+ps:P143 a owl:ObjectProperty .
+
+pq:P143 a owl:ObjectProperty .
+
+pr:P143 a owl:ObjectProperty .
+
+wdno:P143 a owl:Class ;
+	owl:complementOf _:66a2156e9cbfe8d655274b862fca1b59 .
+
+_:66a2156e9cbfe8d655274b862fca1b59 a owl:Restriction ;
+	owl:onProperty wdt:P143 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q1266546 a wikibase:Item ;
+	rdfs:label "record linkage"@en ;
+	skos:prefLabel "record linkage"@en ;
+	schema:name "record linkage"@en ;
+	schema:description "task of finding records in a data set that refer to same entity across different sources"@en .
+
+wd:P887 a wikibase:Property ;
+	rdfs:label "based on heuristic"@en ;
+	skos:prefLabel "based on heuristic"@en ;
+	schema:name "based on heuristic"@en ;
+	schema:description "indicates that the property value is determined based on some heuristic (Q201413); to be used as source"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P887 ;
+	wikibase:claim p:P887 ;
+	wikibase:statementProperty ps:P887 ;
+	wikibase:statementValue psv:P887 ;
+	wikibase:qualifier pq:P887 ;
+	wikibase:qualifierValue pqv:P887 ;
+	wikibase:reference pr:P887 ;
+	wikibase:referenceValue prv:P887 ;
+	wikibase:novalue wdno:P887 .
+
+p:P887 a owl:ObjectProperty .
+
+psv:P887 a owl:ObjectProperty .
+
+pqv:P887 a owl:ObjectProperty .
+
+prv:P887 a owl:ObjectProperty .
+
+wdt:P887 a owl:ObjectProperty .
+
+ps:P887 a owl:ObjectProperty .
+
+pq:P887 a owl:ObjectProperty .
+
+pr:P887 a owl:ObjectProperty .
+
+wdno:P887 a owl:Class ;
+	owl:complementOf _:e011110d3fc77cb743b2b08b63c4f19a .
+
+_:e011110d3fc77cb743b2b08b63c4f19a a owl:Restriction ;
+	owl:onProperty wdt:P887 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q14005 a wikibase:Item ;
+	rdfs:label "MusicBrainz"@en ;
+	skos:prefLabel "MusicBrainz"@en ;
+	schema:name "MusicBrainz"@en ;
+	schema:description "online music metadata database"@en .
+
+wd:P248 a wikibase:Property ;
+	rdfs:label "stated in"@en ;
+	skos:prefLabel "stated in"@en ;
+	schema:name "stated in"@en ;
+	schema:description "to be used in the references field to refer to the information document or database in which a claim is made; for qualifiers use P805; for the type of document in which a claim is made use P3865"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P248 ;
+	wikibase:claim p:P248 ;
+	wikibase:statementProperty ps:P248 ;
+	wikibase:statementValue psv:P248 ;
+	wikibase:qualifier pq:P248 ;
+	wikibase:qualifierValue pqv:P248 ;
+	wikibase:reference pr:P248 ;
+	wikibase:referenceValue prv:P248 ;
+	wikibase:novalue wdno:P248 .
+
+p:P248 a owl:ObjectProperty .
+
+psv:P248 a owl:ObjectProperty .
+
+pqv:P248 a owl:ObjectProperty .
+
+prv:P248 a owl:ObjectProperty .
+
+wdt:P248 a owl:ObjectProperty .
+
+ps:P248 a owl:ObjectProperty .
+
+pq:P248 a owl:ObjectProperty .
+
+pr:P248 a owl:ObjectProperty .
+
+wdno:P248 a owl:Class ;
+	owl:complementOf _:a2b31078afaf5caae811f4ac846f5f35 .
+
+_:a2b31078afaf5caae811f4ac846f5f35 a owl:Restriction ;
+	owl:onProperty wdt:P248 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P813 a wikibase:Property ;
+	rdfs:label "retrieved"@en ;
+	skos:prefLabel "retrieved"@en ;
+	schema:name "retrieved"@en ;
+	schema:description "date or point in time that information was retrieved from a database or website (for use in online sources)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#Time> ;
+	wikibase:directClaim wdt:P813 ;
+	wikibase:claim p:P813 ;
+	wikibase:statementProperty ps:P813 ;
+	wikibase:statementValue psv:P813 ;
+	wikibase:qualifier pq:P813 ;
+	wikibase:qualifierValue pqv:P813 ;
+	wikibase:reference pr:P813 ;
+	wikibase:referenceValue prv:P813 ;
+	wikibase:novalue wdno:P813 .
+
+p:P813 a owl:ObjectProperty .
+
+psv:P813 a owl:ObjectProperty .
+
+pqv:P813 a owl:ObjectProperty .
+
+prv:P813 a owl:ObjectProperty .
+
+wdt:P813 a owl:DatatypeProperty .
+
+ps:P813 a owl:DatatypeProperty .
+
+pq:P813 a owl:DatatypeProperty .
+
+pr:P813 a owl:DatatypeProperty .
+
+wdno:P813 a owl:Class ;
+	owl:complementOf _:a84dea0fd38ed74f926ea4bdef778770 .
+
+_:a84dea0fd38ed74f926ea4bdef778770 a owl:Restriction ;
+	owl:onProperty wdt:P813 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P1545 a wikibase:Property ;
+	rdfs:label "series ordinal"@en ;
+	skos:prefLabel "series ordinal"@en ;
+	schema:name "series ordinal"@en ;
+	schema:description "position of an item in its parent series (most frequently a 1-based index), generally to be used as a qualifier (different from \"rank\" defined as a class, and from \"ranking\" defined as a property for evaluating a quality)."@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#String> ;
+	wikibase:directClaim wdt:P1545 ;
+	wikibase:claim p:P1545 ;
+	wikibase:statementProperty ps:P1545 ;
+	wikibase:statementValue psv:P1545 ;
+	wikibase:qualifier pq:P1545 ;
+	wikibase:qualifierValue pqv:P1545 ;
+	wikibase:reference pr:P1545 ;
+	wikibase:referenceValue prv:P1545 ;
+	wikibase:novalue wdno:P1545 .
+
+p:P1545 a owl:ObjectProperty .
+
+psv:P1545 a owl:ObjectProperty .
+
+pqv:P1545 a owl:ObjectProperty .
+
+prv:P1545 a owl:ObjectProperty .
+
+wdt:P1545 a owl:DatatypeProperty .
+
+ps:P1545 a owl:DatatypeProperty .
+
+pq:P1545 a owl:DatatypeProperty .
+
+pr:P1545 a owl:DatatypeProperty .
+
+wdno:P1545 a owl:Class ;
+	owl:complementOf _:85ef66947fb62ff87e243e582e862fe4 .
+
+_:85ef66947fb62ff87e243e582e862fe4 a owl:Restriction ;
+	owl:onProperty wdt:P1545 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P1810 a wikibase:Property ;
+	rdfs:label "subject named as"@en ;
+	skos:prefLabel "subject named as"@en ;
+	schema:name "subject named as"@en ;
+	schema:description "name by which a subject is recorded in a database, mentioned as a contributor of a work, or is referred to in a particular context"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#String> ;
+	wikibase:directClaim wdt:P1810 ;
+	wikibase:claim p:P1810 ;
+	wikibase:statementProperty ps:P1810 ;
+	wikibase:statementValue psv:P1810 ;
+	wikibase:qualifier pq:P1810 ;
+	wikibase:qualifierValue pqv:P1810 ;
+	wikibase:reference pr:P1810 ;
+	wikibase:referenceValue prv:P1810 ;
+	wikibase:novalue wdno:P1810 .
+
+p:P1810 a owl:ObjectProperty .
+
+psv:P1810 a owl:ObjectProperty .
+
+pqv:P1810 a owl:ObjectProperty .
+
+prv:P1810 a owl:ObjectProperty .
+
+wdt:P1810 a owl:DatatypeProperty .
+
+ps:P1810 a owl:DatatypeProperty .
+
+pq:P1810 a owl:DatatypeProperty .
+
+pr:P1810 a owl:DatatypeProperty .
+
+wdno:P1810 a owl:Class ;
+	owl:complementOf _:1d6e1ecf4f0164f6a3471dd66d38c9d8 .
+
+_:1d6e1ecf4f0164f6a3471dd66d38c9d8 a owl:Restriction ;
+	owl:onProperty wdt:P1810 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P580 a wikibase:Property ;
+	rdfs:label "start time"@en ;
+	skos:prefLabel "start time"@en ;
+	schema:name "start time"@en ;
+	schema:description "time an entity begins to exist or a statement starts being valid"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#Time> ;
+	wikibase:directClaim wdt:P580 ;
+	wikibase:claim p:P580 ;
+	wikibase:statementProperty ps:P580 ;
+	wikibase:statementValue psv:P580 ;
+	wikibase:qualifier pq:P580 ;
+	wikibase:qualifierValue pqv:P580 ;
+	wikibase:reference pr:P580 ;
+	wikibase:referenceValue prv:P580 ;
+	wikibase:novalue wdno:P580 .
+
+p:P580 a owl:ObjectProperty .
+
+psv:P580 a owl:ObjectProperty .
+
+pqv:P580 a owl:ObjectProperty .
+
+prv:P580 a owl:ObjectProperty .
+
+wdt:P580 a owl:DatatypeProperty .
+
+ps:P580 a owl:DatatypeProperty .
+
+pq:P580 a owl:DatatypeProperty .
+
+pr:P580 a owl:DatatypeProperty .
+
+wdno:P580 a owl:Class ;
+	owl:complementOf _:a4f53844ef049c00e67a7c9b973324e1 .
+
+_:a4f53844ef049c00e67a7c9b973324e1 a owl:Restriction ;
+	owl:onProperty wdt:P580 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P3740 a wikibase:Property ;
+	rdfs:label "number of works"@en ;
+	skos:prefLabel "number of works"@en ;
+	schema:name "number of works"@en ;
+	schema:description "qualifier on identifiers, e.g. for creators or locations, giving the number of works in the external database associated with the subject of the identifier"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#Quantity> ;
+	wikibase:directClaim wdt:P3740 ;
+	wikibase:claim p:P3740 ;
+	wikibase:statementProperty ps:P3740 ;
+	wikibase:statementValue psv:P3740 ;
+	wikibase:qualifier pq:P3740 ;
+	wikibase:qualifierValue pqv:P3740 ;
+	wikibase:reference pr:P3740 ;
+	wikibase:referenceValue prv:P3740 ;
+	wikibase:novalue wdno:P3740 ;
+	wikibase:directClaimNormalized wdtn:P3740 ;
+	wikibase:statementValueNormalized psn:P3740 ;
+	wikibase:qualifierValueNormalized pqn:P3740 ;
+	wikibase:referenceValueNormalized prn:P3740 .
+
+p:P3740 a owl:ObjectProperty .
+
+psv:P3740 a owl:ObjectProperty .
+
+pqv:P3740 a owl:ObjectProperty .
+
+prv:P3740 a owl:ObjectProperty .
+
+wdt:P3740 a owl:DatatypeProperty .
+
+ps:P3740 a owl:DatatypeProperty .
+
+pq:P3740 a owl:DatatypeProperty .
+
+pr:P3740 a owl:DatatypeProperty .
+
+psn:P3740 a owl:ObjectProperty .
+
+pqn:P3740 a owl:ObjectProperty .
+
+prn:P3740 a owl:ObjectProperty .
+
+wdtn:P3740 a owl:DatatypeProperty .
+
+wdno:P3740 a owl:Class ;
+	owl:complementOf _:b89c865ea338e53f13bd3abfb1cfc1f4 .
+
+_:b89c865ea338e53f13bd3abfb1cfc1f4 a owl:Restriction ;
+	owl:onProperty wdt:P3740 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P3744 a wikibase:Property ;
+	rdfs:label "number of subscribers"@en ;
+	skos:prefLabel "number of subscribers"@en ;
+	schema:name "number of subscribers"@en ;
+	schema:description "number of subscribers for subscription-based companies, e.g. telecommunication companies, newspapers, pay-TV channels, software, etc."@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#Quantity> ;
+	wikibase:directClaim wdt:P3744 ;
+	wikibase:claim p:P3744 ;
+	wikibase:statementProperty ps:P3744 ;
+	wikibase:statementValue psv:P3744 ;
+	wikibase:qualifier pq:P3744 ;
+	wikibase:qualifierValue pqv:P3744 ;
+	wikibase:reference pr:P3744 ;
+	wikibase:referenceValue prv:P3744 ;
+	wikibase:novalue wdno:P3744 ;
+	wikibase:directClaimNormalized wdtn:P3744 ;
+	wikibase:statementValueNormalized psn:P3744 ;
+	wikibase:qualifierValueNormalized pqn:P3744 ;
+	wikibase:referenceValueNormalized prn:P3744 .
+
+p:P3744 a owl:ObjectProperty .
+
+psv:P3744 a owl:ObjectProperty .
+
+pqv:P3744 a owl:ObjectProperty .
+
+prv:P3744 a owl:ObjectProperty .
+
+wdt:P3744 a owl:DatatypeProperty .
+
+ps:P3744 a owl:DatatypeProperty .
+
+pq:P3744 a owl:DatatypeProperty .
+
+pr:P3744 a owl:DatatypeProperty .
+
+psn:P3744 a owl:ObjectProperty .
+
+pqn:P3744 a owl:ObjectProperty .
+
+prn:P3744 a owl:ObjectProperty .
+
+wdtn:P3744 a owl:DatatypeProperty .
+
+wdno:P3744 a owl:Class ;
+	owl:complementOf _:227e42cdd167c376ee1e02ace7092ab2 .
+
+_:227e42cdd167c376ee1e02ace7092ab2 a owl:Restriction ;
+	owl:onProperty wdt:P3744 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q156376 a wikibase:Item ;
+	rdfs:label "Vimeo"@en ;
+	skos:prefLabel "Vimeo"@en ;
+	schema:name "Vimeo"@en ;
+	schema:description "American video hosting platform"@en .
+
+wd:P6552 a wikibase:Property ;
+	rdfs:label "Twitter numeric user ID"@en ;
+	skos:prefLabel "Twitter numeric user ID"@en ;
+	schema:name "Twitter numeric user ID"@en ;
+	schema:description "numeric identifier for a user on X; use as qualifier for P2002 \"X username\""@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;
+	wikibase:directClaim wdt:P6552 ;
+	wikibase:claim p:P6552 ;
+	wikibase:statementProperty ps:P6552 ;
+	wikibase:statementValue psv:P6552 ;
+	wikibase:qualifier pq:P6552 ;
+	wikibase:qualifierValue pqv:P6552 ;
+	wikibase:reference pr:P6552 ;
+	wikibase:referenceValue prv:P6552 ;
+	wikibase:novalue wdno:P6552 ;
+	wikibase:directClaimNormalized wdtn:P6552 ;
+	wikibase:statementValueNormalized psn:P6552 ;
+	wikibase:qualifierValueNormalized pqn:P6552 ;
+	wikibase:referenceValueNormalized prn:P6552 .
+
+p:P6552 a owl:ObjectProperty .
+
+psv:P6552 a owl:ObjectProperty .
+
+pqv:P6552 a owl:ObjectProperty .
+
+prv:P6552 a owl:ObjectProperty .
+
+wdt:P6552 a owl:DatatypeProperty .
+
+ps:P6552 a owl:DatatypeProperty .
+
+pq:P6552 a owl:DatatypeProperty .
+
+pr:P6552 a owl:DatatypeProperty .
+
+psn:P6552 a owl:ObjectProperty .
+
+pqn:P6552 a owl:ObjectProperty .
+
+prn:P6552 a owl:ObjectProperty .
+
+wdtn:P6552 a owl:ObjectProperty .
+
+wdno:P6552 a owl:Class ;
+	owl:complementOf _:9b44e08569f3de9e0e3c39da2a80ab89 .
+
+_:9b44e08569f3de9e0e3c39da2a80ab89 a owl:Restriction ;
+	owl:onProperty wdt:P6552 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P585 a wikibase:Property ;
+	rdfs:label "point in time"@en ;
+	skos:prefLabel "point in time"@en ;
+	schema:name "point in time"@en ;
+	schema:description "date something took place, existed or a statement was true; for providing time use the \"refine date\" property (P4241)"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#Time> ;
+	wikibase:directClaim wdt:P585 ;
+	wikibase:claim p:P585 ;
+	wikibase:statementProperty ps:P585 ;
+	wikibase:statementValue psv:P585 ;
+	wikibase:qualifier pq:P585 ;
+	wikibase:qualifierValue pqv:P585 ;
+	wikibase:reference pr:P585 ;
+	wikibase:referenceValue prv:P585 ;
+	wikibase:novalue wdno:P585 .
+
+p:P585 a owl:ObjectProperty .
+
+psv:P585 a owl:ObjectProperty .
+
+pqv:P585 a owl:ObjectProperty .
+
+prv:P585 a owl:ObjectProperty .
+
+wdt:P585 a owl:DatatypeProperty .
+
+ps:P585 a owl:DatatypeProperty .
+
+pq:P585 a owl:DatatypeProperty .
+
+pr:P585 a owl:DatatypeProperty .
+
+wdno:P585 a owl:Class ;
+	owl:complementOf _:dd1c08307a09e1466ce90c482ad42ea9 .
+
+_:dd1c08307a09e1466ce90c482ad42ea9 a owl:Restriction ;
+	owl:onProperty wdt:P585 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q8229 a wikibase:Item ;
+	rdfs:label "Latin script"@en ;
+	skos:prefLabel "Latin script"@en ;
+	schema:name "Latin script"@en ;
+	schema:description "writing system used to write most Western, Northern and Central European languages"@en .
+
+wd:P282 a wikibase:Property ;
+	rdfs:label "writing system"@en ;
+	skos:prefLabel "writing system"@en ;
+	schema:name "writing system"@en ;
+	schema:description "alphabet, character set or other system of writing used by a language, word, or text, supported by a typeface"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P282 ;
+	wikibase:claim p:P282 ;
+	wikibase:statementProperty ps:P282 ;
+	wikibase:statementValue psv:P282 ;
+	wikibase:qualifier pq:P282 ;
+	wikibase:qualifierValue pqv:P282 ;
+	wikibase:reference pr:P282 ;
+	wikibase:referenceValue prv:P282 ;
+	wikibase:novalue wdno:P282 .
+
+p:P282 a owl:ObjectProperty .
+
+psv:P282 a owl:ObjectProperty .
+
+pqv:P282 a owl:ObjectProperty .
+
+prv:P282 a owl:ObjectProperty .
+
+wdt:P282 a owl:ObjectProperty .
+
+ps:P282 a owl:ObjectProperty .
+
+pq:P282 a owl:ObjectProperty .
+
+pr:P282 a owl:ObjectProperty .
+
+wdno:P282 a owl:Class ;
+	owl:complementOf _:f91260615838c98f5e311aef6cb855eb .
+
+_:f91260615838c98f5e311aef6cb855eb a owl:Restriction ;
+	owl:onProperty wdt:P282 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q1055303 a wikibase:Item ;
+	rdfs:label "stage name"@en ;
+	skos:prefLabel "stage name"@en ;
+	schema:name "stage name"@en ;
+	schema:description "pseudonym or name variant used by performing artist"@en .
+
+wd:P3831 a wikibase:Property ;
+	rdfs:label "object has role"@en ;
+	skos:prefLabel "object has role"@en ;
+	schema:name "object has role"@en ;
+	schema:description "(qualifier) role or generic identity of the value of a statement (\"object\") in the context of that statement; for the role of the item the statement is on (\"subject\"), use P2868"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P3831 ;
+	wikibase:claim p:P3831 ;
+	wikibase:statementProperty ps:P3831 ;
+	wikibase:statementValue psv:P3831 ;
+	wikibase:qualifier pq:P3831 ;
+	wikibase:qualifierValue pqv:P3831 ;
+	wikibase:reference pr:P3831 ;
+	wikibase:referenceValue prv:P3831 ;
+	wikibase:novalue wdno:P3831 .
+
+p:P3831 a owl:ObjectProperty .
+
+psv:P3831 a owl:ObjectProperty .
+
+pqv:P3831 a owl:ObjectProperty .
+
+prv:P3831 a owl:ObjectProperty .
+
+wdt:P3831 a owl:ObjectProperty .
+
+ps:P3831 a owl:ObjectProperty .
+
+pq:P3831 a owl:ObjectProperty .
+
+pr:P3831 a owl:ObjectProperty .
+
+wdno:P3831 a owl:Class ;
+	owl:complementOf _:4941dbdb9a38c5a500b05366e45fe45d .
+
+_:4941dbdb9a38c5a500b05366e45fe45d a owl:Restriction ;
+	owl:onProperty wdt:P3831 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q504063 a wikibase:Item ;
+	rdfs:label "Discogs"@en ;
+	skos:prefLabel "Discogs"@en ;
+	schema:name "Discogs"@en ;
+	schema:description "website and database about audio recordings"@en .
+
+wd:Q1145963 a wikibase:Item ;
+	rdfs:label "Rate Your Music"@en ;
+	skos:prefLabel "Rate Your Music"@en ;
+	schema:name "Rate Your Music"@en ;
+	schema:description "social music and film cataloging, rating and reviewing website"@en .
+
+wd:Q545966 a wikibase:Item ;
+	rdfs:label "Bandcamp"@en ;
+	skos:prefLabel "Bandcamp"@en ;
+	schema:name "Bandcamp"@en ;
+	schema:description "American online music distributor"@en .
+
+wd:Q54919 a wikibase:Item ;
+	rdfs:label "Virtual International Authority File"@en ;
+	skos:prefLabel "Virtual International Authority File"@en ;
+	schema:name "Virtual International Authority File"@en ;
+	schema:description "OCLC dataset and service that virtually combines multiple name authority files into a single name authority service"@en .
+
+wd:Q115111315 a wikibase:Item ;
+	rdfs:label "inferred from VIAF ID containing an ID already present in the item"@en ;
+	skos:prefLabel "inferred from VIAF ID containing an ID already present in the item"@en ;
+	schema:name "inferred from VIAF ID containing an ID already present in the item"@en ;
+	schema:description "heuristic for sourcing Wikidata statements using a database lookup using a VIAF ID"@en .
+
+v:8d126596288e63852b7f0b16609aa79f a wikibase:QuantityValue ;
+	wikibase:quantityAmount "+15"^^xsd:decimal ;
+	wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+v:c2260ac398432754e08d5942175993f3 a wikibase:QuantityValue ;
+	wikibase:quantityAmount "+4113"^^xsd:decimal ;
+	wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+v:573eaa11a25a84a037e9efd40858e28a a wikibase:QuantityValue ;
+	wikibase:quantityAmount "+3091"^^xsd:decimal ;
+	wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+v:aac8d6ba010827a96092d114ce238935 a wikibase:TimeValue ;
+	wikibase:timeValue "1977-05-09T00:00:00Z"^^xsd:dateTime ;
+	wikibase:timePrecision "11"^^xsd:integer ;
+	wikibase:timeTimezone "0"^^xsd:integer ;
+	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
+
+v:2732b600d97f7f458c95cb652216ddf0 a wikibase:TimeValue ;
+	wikibase:timeValue "2021-10-04T00:00:00Z"^^xsd:dateTime ;
+	wikibase:timePrecision "11"^^xsd:integer ;
+	wikibase:timeTimezone "0"^^xsd:integer ;
+	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
+
+v:9b30a2607b1333fc667626c334915370 a wikibase:TimeValue ;
+	wikibase:timeValue "2020-09-19T00:00:00Z"^^xsd:dateTime ;
+	wikibase:timePrecision "11"^^xsd:integer ;
+	wikibase:timeTimezone "0"^^xsd:integer ;
+	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
+
+v:7ed26685f1dddff34b7900affef07f4b a wikibase:TimeValue ;
+	wikibase:timeValue "2009-11-02T00:00:00Z"^^xsd:dateTime ;
+	wikibase:timePrecision "11"^^xsd:integer ;
+	wikibase:timeTimezone "0"^^xsd:integer ;
+	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
+
+v:8fcb384fc4124e2c9196f0e61780fe5c a wikibase:TimeValue ;
+	wikibase:timeValue "2009-06-25T00:00:00Z"^^xsd:dateTime ;
+	wikibase:timePrecision "11"^^xsd:integer ;
+	wikibase:timeTimezone "0"^^xsd:integer ;
+	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
+
+v:dc32f9387e6b361ff84b3b3a03a40c73 a wikibase:TimeValue ;
+	wikibase:timeValue "2020-12-27T00:00:00Z"^^xsd:dateTime ;
+	wikibase:timePrecision "11"^^xsd:integer ;
+	wikibase:timeTimezone "0"^^xsd:integer ;
+	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
+
+v:d40cb13acf8001d779efbb0c45cb42f0 a wikibase:TimeValue ;
+	wikibase:timeValue "2021-01-07T00:00:00Z"^^xsd:dateTime ;
+	wikibase:timePrecision "11"^^xsd:integer ;
+	wikibase:timeTimezone "0"^^xsd:integer ;
+	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
+
+v:36ee5ebd64fa453678c24057bb7b413c a wikibase:TimeValue ;
+	wikibase:timeValue "2024-01-04T00:00:00Z"^^xsd:dateTime ;
+	wikibase:timePrecision "11"^^xsd:integer ;
+	wikibase:timeTimezone "0"^^xsd:integer ;
+	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
+
+ref:fa278ebfc458360e5aed63d5058cca83c46134f1 a wikibase:Reference ;
+	pr:P143 wd:Q328 .
+
+ref:5157c118e1e89a3ed66b34f03e6e2c0d5455d2e3 a wikibase:Reference ;
+	pr:P887 wd:Q1266546 ;
+	pr:P248 wd:Q14005 ;
+	pr:P434 "2927232a-cae7-4b71-a572-0f13041963ba" ;
+	prn:P434 <http://musicbrainz.org/artist/2927232a-cae7-4b71-a572-0f13041963ba> ;
+	pr:P813 "2021-10-04T00:00:00Z"^^xsd:dateTime ;
+	prv:P813 v:2732b600d97f7f458c95cb652216ddf0 .
+
+ref:e7cf61cfbb9d48aed126dddda40c1562f1e651fe a wikibase:Reference ;
+	pr:P248 wd:Q14005 ;
+	pr:P813 "2020-09-19T00:00:00Z"^^xsd:dateTime ;
+	prv:P813 v:9b30a2607b1333fc667626c334915370 .
+
+ref:ec28a71e275177a9ba93a582d6e6427b7d0b1705 a wikibase:Reference ;
+	pr:P248 wd:Q156376 ;
+	pr:P813 "2020-09-19T00:00:00Z"^^xsd:dateTime ;
+	prv:P813 v:9b30a2607b1333fc667626c334915370 .
+
+ref:775dd4e23a3830b29fe8db695e21e506f4b63ed6 a wikibase:Reference ;
+	pr:P813 "2020-09-19T00:00:00Z"^^xsd:dateTime ;
+	prv:P813 v:9b30a2607b1333fc667626c334915370 .
+
+ref:3fca7197e9ce118c00e73791a66d61fa325fb79a a wikibase:Reference ;
+	pr:P248 wd:Q504063 ;
+	pr:P813 "2020-09-19T00:00:00Z"^^xsd:dateTime ;
+	prv:P813 v:9b30a2607b1333fc667626c334915370 .
+
+ref:5b7b84d7e5e3c60138bacdb0bc96c7a96a618655 a wikibase:Reference ;
+	pr:P248 wd:Q1145963 ;
+	pr:P813 "2020-09-19T00:00:00Z"^^xsd:dateTime ;
+	prv:P813 v:9b30a2607b1333fc667626c334915370 .
+
+ref:08c270ed3d99fd53dfca684572c95bd96db5ca01 a wikibase:Reference ;
+	pr:P248 wd:Q545966 ;
+	pr:P813 "2020-09-19T00:00:00Z"^^xsd:dateTime ;
+	prv:P813 v:9b30a2607b1333fc667626c334915370 .
+
+ref:1f4f299532e79e784dd4dbef86075a30d447f645 a wikibase:Reference ;
+	pr:P248 wd:Q54919 ;
+	pr:P214 "6096162608695849820000" ;
+	prn:P214 <http://viaf.org/viaf/6096162608695849820000> ;
+	pr:P813 "2024-01-04T00:00:00Z"^^xsd:dateTime ;
+	prv:P813 v:36ee5ebd64fa453678c24057bb7b413c ;
+	pr:P887 wd:Q115111315 .
