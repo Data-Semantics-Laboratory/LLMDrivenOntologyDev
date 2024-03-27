@@ -22,8 +22,8 @@ Wikibase
 
 <details>
 <summary>Prompting Techniques</summary>
-Using modules one by one<br>
-Using all the relations alltogether<br>
+Passing the realtions module by module<br>
+Passing the relations alltogether<br>
 Other
 </details>
 
