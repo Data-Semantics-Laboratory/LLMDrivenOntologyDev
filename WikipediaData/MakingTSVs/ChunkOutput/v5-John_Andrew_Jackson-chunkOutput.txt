@@ -1,0 +1,89 @@
+wd:Q16849232 a wikibase:Item . 
+wd:Q16849232 wdt:P31 wd:Q5 ;  wdt:P21 wd:Q6581097 ;  wdt:P735 wd:Q4925477 ;  wdt:P3716 wd:Q12773225 ;  wdt:P734 wd:Q2732758 ;  wdt:P646 "/m/04n4w0v" ;  p:P31 s:Q16849232-7C62EDB9-F8F7-4823-AB10-75C1931C5C00 . 
+s:Q16849232-7C62EDB9-F8F7-4823-AB10-75C1931C5C00 a wikibase:Statement,   wikibase:BestRank ;  wikibase:rank wikibase:NormalRank ;  ps:P31 wd:Q5 . 
+wd:Q16849232 p:P21 s:Q16849232-2EC865D9-5ACC-4A0C-BD55-FB9BDD0C2605 . 
+s:Q16849232-2EC865D9-5ACC-4A0C-BD55-FB9BDD0C2605 a wikibase:Statement,   wikibase:BestRank ;  wikibase:rank wikibase:NormalRank ;  ps:P21 wd:Q6581097 . 
+wd:Q16849232 p:P735 s:Q16849232-023BC85A-144D-495A-B581-051DBD4662C2 . 
+s:Q16849232-023BC85A-144D-495A-B581-051DBD4662C2 a wikibase:Statement,   wikibase:BestRank ;  wikibase:rank wikibase:NormalRank ;  ps:P735 wd:Q4925477 . 
+wd:Q16849232 p:P3716 s:Q16849232-E94C97ED-31F0-4947-8D52-D1408E05634D . 
+s:Q16849232-E94C97ED-31F0-4947-8D52-D1408E05634D a wikibase:Statement,   wikibase:BestRank ;  wikibase:rank wikibase:NormalRank ;  ps:P3716 wd:Q12773225 . 
+wd:Q16849232 p:P734 s:Q16849232-DA5D3781-DBE2-474A-A1FD-1C670CFD4F82 . 
+s:Q16849232-DA5D3781-DBE2-474A-A1FD-1C670CFD4F82 a wikibase:Statement,   wikibase:BestRank ;  wikibase:rank wikibase:NormalRank ;  ps:P734 wd:Q2732758 . 
+wd:Q16849232 p:P646 s:Q16849232-81951B5A-86E0-4585-B429-6763C21E7366 . 
+s:Q16849232-81951B5A-86E0-4585-B429-6763C21E7366 a wikibase:Statement,   wikibase:BestRank ;  wikibase:rank wikibase:NormalRank ;  ps:P646 "/m/04n4w0v" . 
+wd:Q16849232 rdfs:label "John Andrew Jackson"@en ;  skos:prefLabel "John Andrew Jackson"@en ;  schema:name "John Andrew Jackson"@en ;  rdfs:label "John Andrew Jackson"@de ;  skos:prefLabel "John Andrew Jackson"@de ;  schema:name "John Andrew Jackson"@de ;  rdfs:label "John Andrew Jackson"@fr ;  skos:prefLabel "John Andrew Jackson"@fr ;  schema:name "John Andrew Jackson"@fr ;  rdfs:label "John Andrew Jackson"@es ;  skos:prefLabel "John Andrew Jackson"@es ;  schema:name "John Andrew Jackson"@es ;  rdfs:label "John Andrew Jackson"@ast ;  skos:prefLabel "John Andrew Jackson"@ast ;  schema:name "John Andrew Jackson"@ast ;  schema:description "American slave"@en . 
+wd:Q5 a wikibase:Item ;  rdfs:label "human"@en ;  skos:prefLabel "human"@en ;  schema:name "human"@en ;  schema:description "any member of Homo sapiens, unique extant species of the genus Homo, from embryo to adult"@en . 
+wd:P31 a wikibase:Property ;  rdfs:label "instance of"@en ;  skos:prefLabel "instance of"@en ;  schema:name "instance of"@en ;  schema:description "that class of which this subject is a particular example and member; different from P279 (subclass of); for example: K2 is an instance of mountain; volcano is a subclass of mountain (and an instance of volcanic landform)"@en ;  wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;  wikibase:directClaim wdt:P31 ;  wikibase:claim p:P31 ;  wikibase:statementProperty ps:P31 ;  wikibase:statementValue psv:P31 ;  wikibase:qualifier pq:P31 ;  wikibase:qualifierValue pqv:P31 ;  wikibase:reference pr:P31 ;  wikibase:referenceValue prv:P31 ;  wikibase:novalue wdno:P31 . 
+p:P31 a owl:ObjectProperty . 
+psv:P31 a owl:ObjectProperty . 
+pqv:P31 a owl:ObjectProperty . 
+prv:P31 a owl:ObjectProperty . 
+wdt:P31 a owl:ObjectProperty . 
+ps:P31 a owl:ObjectProperty . 
+pq:P31 a owl:ObjectProperty . 
+pr:P31 a owl:ObjectProperty . 
+wdno:P31 a owl:Class ;  owl:complementOf _:0b8bd71b926a65ca3fa72e5d9103e4d6 . 
+_:0b8bd71b926a65ca3fa72e5d9103e4d6 a owl:Restriction ;  owl:onProperty wdt:P31 ;  owl:someValuesFrom owl:Thing . 
+wd:Q6581097 a wikibase:Item ;  rdfs:label "male"@en ;  skos:prefLabel "male"@en ;  schema:name "male"@en ;  schema:description "to be used in \"sex or gender\" (P21) to indicate that the human subject is a male or \"semantic gender\" (P10339) to indicate that a word refers to a male person"@en . 
+wd:P21 a wikibase:Property ;  rdfs:label "sex or gender"@en ;  skos:prefLabel "sex or gender"@en ;  schema:name "sex or gender"@en ;  schema:description "sex or gender identity of human or animal. For human: male, female, non-binary, intersex, transgender female, transgender male, agender, etc. For animal: male organism, female organism. Groups of same gender use subclass of (P279)"@en ;  wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;  wikibase:directClaim wdt:P21 ;  wikibase:claim p:P21 ;  wikibase:statementProperty ps:P21 ;  wikibase:statementValue psv:P21 ;  wikibase:qualifier pq:P21 ;  wikibase:qualifierValue pqv:P21 ;  wikibase:reference pr:P21 ;  wikibase:referenceValue prv:P21 ;  wikibase:novalue wdno:P21 . 
+p:P21 a owl:ObjectProperty . 
+psv:P21 a owl:ObjectProperty . 
+pqv:P21 a owl:ObjectProperty . 
+prv:P21 a owl:ObjectProperty . 
+wdt:P21 a owl:ObjectProperty . 
+ps:P21 a owl:ObjectProperty . 
+pq:P21 a owl:ObjectProperty . 
+pr:P21 a owl:ObjectProperty . 
+wdno:P21 a owl:Class ;  owl:complementOf _:8543f188a73d6ea7a6705f0835ae332d . 
+_:8543f188a73d6ea7a6705f0835ae332d a owl:Restriction ;  owl:onProperty wdt:P21 ;  owl:someValuesFrom owl:Thing . 
+wd:Q4925477 a wikibase:Item ;  rdfs:label "John"@en ;  skos:prefLabel "John"@en ;  schema:name "John"@en ;  schema:description "male given name"@en . 
+wd:P735 a wikibase:Property ;  rdfs:label "given name"@en ;  skos:prefLabel "given name"@en ;  schema:name "given name"@en ;  schema:description "first name or another given name of this person; values used with the property should not link disambiguations nor family names"@en ;  wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;  wikibase:directClaim wdt:P735 ;  wikibase:claim p:P735 ;  wikibase:statementProperty ps:P735 ;  wikibase:statementValue psv:P735 ;  wikibase:qualifier pq:P735 ;  wikibase:qualifierValue pqv:P735 ;  wikibase:reference pr:P735 ;  wikibase:referenceValue prv:P735 ;  wikibase:novalue wdno:P735 . 
+p:P735 a owl:ObjectProperty . 
+psv:P735 a owl:ObjectProperty . 
+pqv:P735 a owl:ObjectProperty . 
+prv:P735 a owl:ObjectProperty . 
+wdt:P735 a owl:ObjectProperty . 
+ps:P735 a owl:ObjectProperty . 
+pq:P735 a owl:ObjectProperty . 
+pr:P735 a owl:ObjectProperty . 
+wdno:P735 a owl:Class ;  owl:complementOf _:7cd44173f1681fd19dd103a28fda54a8 . 
+_:7cd44173f1681fd19dd103a28fda54a8 a owl:Restriction ;  owl:onProperty wdt:P735 ;  owl:someValuesFrom owl:Thing . 
+wd:Q12773225 a wikibase:Item ;  rdfs:label "enslaved person"@en ;  skos:prefLabel "enslaved person"@en ;  schema:name "enslaved person"@en ;  schema:description "person in a state of slavery"@en . 
+wd:P3716 a wikibase:Property ;  rdfs:label "social classification"@en ;  skos:prefLabel "social classification"@en ;  schema:name "social classification"@en ;  schema:description "social class as recognized in traditional or state law"@en ;  wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;  wikibase:directClaim wdt:P3716 ;  wikibase:claim p:P3716 ;  wikibase:statementProperty ps:P3716 ;  wikibase:statementValue psv:P3716 ;  wikibase:qualifier pq:P3716 ;  wikibase:qualifierValue pqv:P3716 ;  wikibase:reference pr:P3716 ;  wikibase:referenceValue prv:P3716 ;  wikibase:novalue wdno:P3716 . 
+p:P3716 a owl:ObjectProperty . 
+psv:P3716 a owl:ObjectProperty . 
+pqv:P3716 a owl:ObjectProperty . 
+prv:P3716 a owl:ObjectProperty . 
+wdt:P3716 a owl:ObjectProperty . 
+ps:P3716 a owl:ObjectProperty . 
+pq:P3716 a owl:ObjectProperty . 
+pr:P3716 a owl:ObjectProperty . 
+wdno:P3716 a owl:Class ;  owl:complementOf _:7b801f23f0140f08085d39ba4d8d0390 . 
+_:7b801f23f0140f08085d39ba4d8d0390 a owl:Restriction ;  owl:onProperty wdt:P3716 ;  owl:someValuesFrom owl:Thing . 
+wd:Q2732758 a wikibase:Item ;  rdfs:label "Jackson"@en ;  skos:prefLabel "Jackson"@en ;  schema:name "Jackson"@en ;  schema:description "family name"@en . 
+wd:P734 a wikibase:Property ;  rdfs:label "family name"@en ;  skos:prefLabel "family name"@en ;  schema:name "family name"@en ;  schema:description "part of full name of person"@en ;  wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;  wikibase:directClaim wdt:P734 ;  wikibase:claim p:P734 ;  wikibase:statementProperty ps:P734 ;  wikibase:statementValue psv:P734 ;  wikibase:qualifier pq:P734 ;  wikibase:qualifierValue pqv:P734 ;  wikibase:reference pr:P734 ;  wikibase:referenceValue prv:P734 ;  wikibase:novalue wdno:P734 . 
+p:P734 a owl:ObjectProperty . 
+psv:P734 a owl:ObjectProperty . 
+pqv:P734 a owl:ObjectProperty . 
+prv:P734 a owl:ObjectProperty . 
+wdt:P734 a owl:ObjectProperty . 
+ps:P734 a owl:ObjectProperty . 
+pq:P734 a owl:ObjectProperty . 
+pr:P734 a owl:ObjectProperty . 
+wdno:P734 a owl:Class ;  owl:complementOf _:80fa0a4abf09baad42c1554bbfc82b00 . 
+_:80fa0a4abf09baad42c1554bbfc82b00 a owl:Restriction ;  owl:onProperty wdt:P734 ;  owl:someValuesFrom owl:Thing . 
+wd:P646 a wikibase:Property ;  rdfs:label "Freebase ID"@en ;  skos:prefLabel "Freebase ID"@en ;  schema:name "Freebase ID"@en ;  schema:description "identifier for a page in the Freebase database. Format: \"/m/0\" followed by 2 to 7 characters. For IDs starting with \"/g/\", use Google Knowledge Graph ID (P2671)"@en ;  wikibase:propertyType <http://wikiba.se/ontology#ExternalId> ;  wikibase:directClaim wdt:P646 ;  wikibase:claim p:P646 ;  wikibase:statementProperty ps:P646 ;  wikibase:statementValue psv:P646 ;  wikibase:qualifier pq:P646 ;  wikibase:qualifierValue pqv:P646 ;  wikibase:reference pr:P646 ;  wikibase:referenceValue prv:P646 ;  wikibase:novalue wdno:P646 ;  wikibase:directClaimNormalized wdtn:P646 ;  wikibase:statementValueNormalized psn:P646 ;  wikibase:qualifierValueNormalized pqn:P646 ;  wikibase:referenceValueNormalized prn:P646 . 
+p:P646 a owl:ObjectProperty . 
+psv:P646 a owl:ObjectProperty . 
+pqv:P646 a owl:ObjectProperty . 
+prv:P646 a owl:ObjectProperty . 
+wdt:P646 a owl:DatatypeProperty . 
+ps:P646 a owl:DatatypeProperty . 
+pq:P646 a owl:DatatypeProperty . 
+pr:P646 a owl:DatatypeProperty . 
+psn:P646 a owl:ObjectProperty . 
+pqn:P646 a owl:ObjectProperty . 
+prn:P646 a owl:ObjectProperty . 
+wdtn:P646 a owl:ObjectProperty . 
+wdno:P646 a owl:Class ;  owl:complementOf _:38db277a4b10d59fd38a3fd995cbe570 . 
+_:38db277a4b10d59fd38a3fd995cbe570 a owl:Restriction ;  owl:onProperty wdt:P646 ;  owl:someValuesFrom owl:Thing . 
