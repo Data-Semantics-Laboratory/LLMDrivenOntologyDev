@@ -8,7 +8,7 @@ import os
 import openai
 
 # Define your OpenAI API key
-api_key = "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"
+api_key = "Your Open AI Key"
 openai.api_key = api_key
 
 # Function to generate summaries based on a query prompt using GPT-3
