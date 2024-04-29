@@ -10,7 +10,7 @@ Other
 <details>
 <summary>LLM Model</summary>
 GPT-4<br>
-LLMA-2<br>
+LLaMA-2<br>
 Other
 </details>
 
