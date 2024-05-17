@@ -1,0 +1,573 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ed: <https://lod.enslaved.org/entity/> .
+@prefix edata: <https://lod.enslaved.org/wiki/Special:EntityData/> .
+@prefix eds: <https://lod.enslaved.org/entity/statement/> .
+@prefix edref: <https://lod.enslaved.org/reference/> .
+@prefix edv: <https://lod.enslaved.org/value/> .
+@prefix edt: <https://lod.enslaved.org/prop/direct/> .
+@prefix edtn: <https://lod.enslaved.org/prop/direct-normalized/> .
+@prefix ep: <https://lod.enslaved.org/prop/> .
+@prefix eps: <https://lod.enslaved.org/prop/statement/> .
+@prefix epsv: <https://lod.enslaved.org/prop/statement/value/> .
+@prefix epsn: <https://lod.enslaved.org/prop/statement/value-normalized/> .
+@prefix epq: <https://lod.enslaved.org/prop/qualifier/> .
+@prefix epqv: <https://lod.enslaved.org/prop/qualifier/value/> .
+@prefix epqn: <https://lod.enslaved.org/prop/qualifier/value-normalized/> .
+@prefix epr: <https://lod.enslaved.org/prop/reference/> .
+@prefix eprv: <https://lod.enslaved.org/prop/reference/value/> .
+@prefix eprn: <https://lod.enslaved.org/prop/reference/value-normalized/> .
+@prefix edno: <https://lod.enslaved.org/prop/novalue/> .
+
+edata:Q490490 a schema:Dataset ;
+	schema:about ed:Q490490 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "3664429"^^xsd:integer ;
+	schema:dateModified "2021-01-13T15:49:25Z"^^xsd:dateTime ;
+	wikibase:statements "8"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+ed:Q490490 a wikibase:Item ;
+	rdfs:label "George Freeman Bragg Jr"@en ;
+	skos:prefLabel "George Freeman Bragg Jr"@en ;
+	schema:name "George Freeman Bragg Jr"@en ;
+	schema:description "HC-PER-34251"@en ;
+	skos:altLabel "HC-PER-34251"@en ;
+	edt:P1 ed:Q410 ;
+	edt:P31 ed:Q296 ;
+	edt:P17 ed:Q456,
+		ed:Q195 ;
+	edt:P78 "Episcopalian Clergy" ;
+	edt:P73 "George Freeman" ;
+	edt:P72 "Bragg, Jr." ;
+	edt:P20 "George Freeman Bragg, Jr." ;
+	ep:P1 eds:Q490490-1D8D3841-115F-4612-92DA-C334F7FFE453 .
+
+eds:Q490490-1D8D3841-115F-4612-92DA-C334F7FFE453 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	eps:P1 ed:Q410 .
+
+ed:Q490490 ep:P31 eds:Q490490-70F97645-6AAF-48A2-854F-3DFC3884AB16 .
+
+eds:Q490490-70F97645-6AAF-48A2-854F-3DFC3884AB16 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	eps:P31 ed:Q296 ;
+	prov:wasDerivedFrom edref:e8d69d796977d3925dfb081b00af70a6d0746a07 .
+
+ed:Q490490 ep:P17 eds:Q490490-7C02ECE3-0612-44BC-84C0-E2545FD79286 .
+
+eds:Q490490-7C02ECE3-0612-44BC-84C0-E2545FD79286 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	eps:P17 ed:Q456 ;
+	epq:P19 ed:Q488506 ;
+	prov:wasDerivedFrom edref:e8d69d796977d3925dfb081b00af70a6d0746a07 .
+
+ed:Q490490 ep:P17 eds:Q490490-07C971B3-B1E2-49A0-BEED-8C0FDE38F7FC .
+
+eds:Q490490-07C971B3-B1E2-49A0-BEED-8C0FDE38F7FC a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	eps:P17 ed:Q195 ;
+	epq:P19 ed:Q489809 ;
+	prov:wasDerivedFrom edref:e8d69d796977d3925dfb081b00af70a6d0746a07 .
+
+ed:Q490490 ep:P78 eds:Q490490-9AEC35F7-5A64-477F-9EF2-E6A30C10B672 .
+
+eds:Q490490-9AEC35F7-5A64-477F-9EF2-E6A30C10B672 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	eps:P78 "Episcopalian Clergy" ;
+	prov:wasDerivedFrom edref:e8d69d796977d3925dfb081b00af70a6d0746a07 .
+
+ed:Q490490 ep:P73 eds:Q490490-43BDA3A6-D6E2-44D2-B882-282B2623F90D .
+
+eds:Q490490-43BDA3A6-D6E2-44D2-B882-282B2623F90D a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	eps:P73 "George Freeman" ;
+	prov:wasDerivedFrom edref:e8d69d796977d3925dfb081b00af70a6d0746a07 .
+
+ed:Q490490 ep:P72 eds:Q490490-97D613E2-C4CD-4021-B452-E2CDCC05F8E5 .
+
+eds:Q490490-97D613E2-C4CD-4021-B452-E2CDCC05F8E5 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	eps:P72 "Bragg, Jr." ;
+	prov:wasDerivedFrom edref:e8d69d796977d3925dfb081b00af70a6d0746a07 .
+
+ed:Q490490 ep:P20 eds:Q490490-D47F0162-56D0-435D-ABA5-9C6C7972E0B5 .
+
+eds:Q490490-D47F0162-56D0-435D-ABA5-9C6C7972E0B5 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	eps:P20 "George Freeman Bragg, Jr." ;
+	prov:wasDerivedFrom edref:e8d69d796977d3925dfb081b00af70a6d0746a07 .
+
+ed:Q410 a wikibase:Item ;
+	rdfs:label "Person"@en ;
+	skos:prefLabel "Person"@en ;
+	schema:name "Person"@en ;
+	schema:description "A person. Subclass of Agent"@en .
+
+ed:P1 a wikibase:Property,
+		wikibase:Property ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim edt:P1 ;
+	wikibase:claim ep:P1 ;
+	wikibase:statementProperty eps:P1 ;
+	wikibase:statementValue epsv:P1 ;
+	wikibase:qualifier epq:P1 ;
+	wikibase:qualifierValue epqv:P1 ;
+	wikibase:reference epr:P1 ;
+	wikibase:referenceValue eprv:P1 ;
+	wikibase:novalue edno:P1 .
+
+ep:P1 a owl:ObjectProperty .
+
+epsv:P1 a owl:ObjectProperty .
+
+epqv:P1 a owl:ObjectProperty .
+
+eprv:P1 a owl:ObjectProperty .
+
+edt:P1 a owl:ObjectProperty .
+
+eps:P1 a owl:ObjectProperty .
+
+epq:P1 a owl:ObjectProperty .
+
+epr:P1 a owl:ObjectProperty .
+
+edno:P1 a owl:Class ;
+	owl:complementOf _:b96ec5135b6832e1d84209d72460276b .
+
+_:b96ec5135b6832e1d84209d72460276b a owl:Restriction ;
+	owl:onProperty edt:P1 ;
+	owl:someValuesFrom owl:Thing .
+
+ed:P1 rdfs:label "instance of"@en ;
+	skos:prefLabel "instance of"@en ;
+	schema:name "instance of"@en ;
+	schema:description "that class of which this subject is a particular example and member. (Subject typically an individual member with Proper Name label.) Different from P2 (subclass of)"@en .
+
+ed:Q296 a wikibase:Item ;
+	rdfs:label "Male"@en ;
+	skos:prefLabel "Male"@en ;
+	schema:name "Male"@en ;
+	schema:description "Person identified to be male."@en .
+
+ed:P31 a wikibase:Property,
+		wikibase:Property ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim edt:P31 ;
+	wikibase:claim ep:P31 ;
+	wikibase:statementProperty eps:P31 ;
+	wikibase:statementValue epsv:P31 ;
+	wikibase:qualifier epq:P31 ;
+	wikibase:qualifierValue epqv:P31 ;
+	wikibase:reference epr:P31 ;
+	wikibase:referenceValue eprv:P31 ;
+	wikibase:novalue edno:P31 .
+
+ep:P31 a owl:ObjectProperty .
+
+epsv:P31 a owl:ObjectProperty .
+
+epqv:P31 a owl:ObjectProperty .
+
+eprv:P31 a owl:ObjectProperty .
+
+edt:P31 a owl:ObjectProperty .
+
+eps:P31 a owl:ObjectProperty .
+
+epq:P31 a owl:ObjectProperty .
+
+epr:P31 a owl:ObjectProperty .
+
+edno:P31 a owl:Class ;
+	owl:complementOf _:3d66a9a972a16b3583effd41e5f2aff4 .
+
+_:3d66a9a972a16b3583effd41e5f2aff4 a owl:Restriction ;
+	owl:onProperty edt:P31 ;
+	owl:someValuesFrom owl:Thing .
+
+ed:P31 rdfs:label "hasSex"@en ;
+	skos:prefLabel "hasSex"@en ;
+	schema:name "hasSex"@en ;
+	schema:description "property to obtain the sex record of a person"@en .
+
+ed:Q456 a wikibase:Item ;
+	rdfs:label "Child"@en ;
+	skos:prefLabel "Child"@en ;
+	schema:name "Child"@en ;
+	schema:description "The biological or adopted offspring of a parent."@en .
+
+ed:P17 a wikibase:Property,
+		wikibase:Property ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim edt:P17 ;
+	wikibase:claim ep:P17 ;
+	wikibase:statementProperty eps:P17 ;
+	wikibase:statementValue epsv:P17 ;
+	wikibase:qualifier epq:P17 ;
+	wikibase:qualifierValue epqv:P17 ;
+	wikibase:reference epr:P17 ;
+	wikibase:referenceValue eprv:P17 ;
+	wikibase:novalue edno:P17 .
+
+ep:P17 a owl:ObjectProperty .
+
+epsv:P17 a owl:ObjectProperty .
+
+epqv:P17 a owl:ObjectProperty .
+
+eprv:P17 a owl:ObjectProperty .
+
+edt:P17 a owl:ObjectProperty .
+
+eps:P17 a owl:ObjectProperty .
+
+epq:P17 a owl:ObjectProperty .
+
+epr:P17 a owl:ObjectProperty .
+
+edno:P17 a owl:Class ;
+	owl:complementOf _:2239e2b1bcf15b06180ded3580bd0cef .
+
+_:2239e2b1bcf15b06180ded3580bd0cef a owl:Restriction ;
+	owl:onProperty edt:P17 ;
+	owl:someValuesFrom owl:Thing .
+
+ed:P17 rdfs:label "hasParticipantRole"@en ;
+	skos:prefLabel "hasParticipantRole"@en ;
+	schema:name "hasParticipantRole"@en ;
+	schema:description "property to describe participant role record"@en .
+
+ed:Q195 a wikibase:Item ;
+	rdfs:label "Deceased Person"@en ;
+	skos:prefLabel "Deceased Person"@en ;
+	schema:name "Deceased Person"@en ;
+	schema:description "Person who ceases to live or is buried."@en .
+
+ed:P78 a wikibase:Property,
+		wikibase:Property ;
+	wikibase:propertyType <http://wikiba.se/ontology#String> ;
+	wikibase:directClaim edt:P78 ;
+	wikibase:claim ep:P78 ;
+	wikibase:statementProperty eps:P78 ;
+	wikibase:statementValue epsv:P78 ;
+	wikibase:qualifier epq:P78 ;
+	wikibase:qualifierValue epqv:P78 ;
+	wikibase:reference epr:P78 ;
+	wikibase:referenceValue eprv:P78 ;
+	wikibase:novalue edno:P78 .
+
+ep:P78 a owl:ObjectProperty .
+
+epsv:P78 a owl:ObjectProperty .
+
+epqv:P78 a owl:ObjectProperty .
+
+eprv:P78 a owl:ObjectProperty .
+
+edt:P78 a owl:DatatypeProperty .
+
+eps:P78 a owl:DatatypeProperty .
+
+epq:P78 a owl:DatatypeProperty .
+
+epr:P78 a owl:DatatypeProperty .
+
+edno:P78 a owl:Class ;
+	owl:complementOf _:2710e6edcea8e899ac7ae90ea2f8757a .
+
+_:2710e6edcea8e899ac7ae90ea2f8757a a owl:Restriction ;
+	owl:onProperty edt:P78 ;
+	owl:someValuesFrom owl:Thing .
+
+ed:P78 rdfs:label "hasDescriptiveOccupation"@en ;
+	skos:prefLabel "hasDescriptiveOccupation"@en ;
+	schema:name "hasDescriptiveOccupation"@en ;
+	schema:description "Non included occupation in the control vocabulary."@en .
+
+ed:P73 a wikibase:Property,
+		wikibase:Property ;
+	wikibase:propertyType <http://wikiba.se/ontology#String> ;
+	wikibase:directClaim edt:P73 ;
+	wikibase:claim ep:P73 ;
+	wikibase:statementProperty eps:P73 ;
+	wikibase:statementValue epsv:P73 ;
+	wikibase:qualifier epq:P73 ;
+	wikibase:qualifierValue epqv:P73 ;
+	wikibase:reference epr:P73 ;
+	wikibase:referenceValue eprv:P73 ;
+	wikibase:novalue edno:P73 .
+
+ep:P73 a owl:ObjectProperty .
+
+epsv:P73 a owl:ObjectProperty .
+
+epqv:P73 a owl:ObjectProperty .
+
+eprv:P73 a owl:ObjectProperty .
+
+edt:P73 a owl:DatatypeProperty .
+
+eps:P73 a owl:DatatypeProperty .
+
+epq:P73 a owl:DatatypeProperty .
+
+epr:P73 a owl:DatatypeProperty .
+
+edno:P73 a owl:Class ;
+	owl:complementOf _:f212081338666af1c007453708d951a4 .
+
+_:f212081338666af1c007453708d951a4 a owl:Restriction ;
+	owl:onProperty edt:P73 ;
+	owl:someValuesFrom owl:Thing .
+
+ed:P73 rdfs:label "hasFirstName"@en ;
+	skos:prefLabel "hasFirstName"@en ;
+	schema:name "hasFirstName"@en ;
+	schema:description "property for first name of agent"@en .
+
+ed:P72 a wikibase:Property,
+		wikibase:Property ;
+	wikibase:propertyType <http://wikiba.se/ontology#String> ;
+	wikibase:directClaim edt:P72 ;
+	wikibase:claim ep:P72 ;
+	wikibase:statementProperty eps:P72 ;
+	wikibase:statementValue epsv:P72 ;
+	wikibase:qualifier epq:P72 ;
+	wikibase:qualifierValue epqv:P72 ;
+	wikibase:reference epr:P72 ;
+	wikibase:referenceValue eprv:P72 ;
+	wikibase:novalue edno:P72 .
+
+ep:P72 a owl:ObjectProperty .
+
+epsv:P72 a owl:ObjectProperty .
+
+epqv:P72 a owl:ObjectProperty .
+
+eprv:P72 a owl:ObjectProperty .
+
+edt:P72 a owl:DatatypeProperty .
+
+eps:P72 a owl:DatatypeProperty .
+
+epq:P72 a owl:DatatypeProperty .
+
+epr:P72 a owl:DatatypeProperty .
+
+edno:P72 a owl:Class ;
+	owl:complementOf _:1070765210b1df4f8a5a24bda966f93e .
+
+_:1070765210b1df4f8a5a24bda966f93e a owl:Restriction ;
+	owl:onProperty edt:P72 ;
+	owl:someValuesFrom owl:Thing .
+
+ed:P72 rdfs:label "hasSurname"@en ;
+	skos:prefLabel "hasSurname"@en ;
+	schema:name "hasSurname"@en ;
+	schema:description "property for surname/last name of agent"@en .
+
+ed:P20 a wikibase:Property,
+		wikibase:Property ;
+	wikibase:propertyType <http://wikiba.se/ontology#String> ;
+	wikibase:directClaim edt:P20 ;
+	wikibase:claim ep:P20 ;
+	wikibase:statementProperty eps:P20 ;
+	wikibase:statementValue epsv:P20 ;
+	wikibase:qualifier epq:P20 ;
+	wikibase:qualifierValue epqv:P20 ;
+	wikibase:reference epr:P20 ;
+	wikibase:referenceValue eprv:P20 ;
+	wikibase:novalue edno:P20 .
+
+ep:P20 a owl:ObjectProperty .
+
+epsv:P20 a owl:ObjectProperty .
+
+epqv:P20 a owl:ObjectProperty .
+
+eprv:P20 a owl:ObjectProperty .
+
+edt:P20 a owl:DatatypeProperty .
+
+eps:P20 a owl:DatatypeProperty .
+
+epq:P20 a owl:DatatypeProperty .
+
+epr:P20 a owl:DatatypeProperty .
+
+edno:P20 a owl:Class ;
+	owl:complementOf _:6f11a7ff45d39ac1d265d9c7dc9ce8e9 .
+
+_:6f11a7ff45d39ac1d265d9c7dc9ce8e9 a owl:Restriction ;
+	owl:onProperty edt:P20 ;
+	owl:someValuesFrom owl:Thing .
+
+ed:P20 rdfs:label "hasName"@en ;
+	skos:prefLabel "hasName"@en ;
+	schema:name "hasName"@en ;
+	schema:description "property to describe name record"@en .
+
+ed:Q280768 a wikibase:Item ;
+	rdfs:label "Data excerpts from African American National Biography"@en ;
+	skos:prefLabel "Data excerpts from African American National Biography"@en ;
+	schema:name "Data excerpts from African American National Biography"@en ;
+	schema:description "HC-SRC-AANB"@en .
+
+ed:P6 a wikibase:Property,
+		wikibase:Property ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim edt:P6 ;
+	wikibase:claim ep:P6 ;
+	wikibase:statementProperty eps:P6 ;
+	wikibase:statementValue epsv:P6 ;
+	wikibase:qualifier epq:P6 ;
+	wikibase:qualifierValue epqv:P6 ;
+	wikibase:reference epr:P6 ;
+	wikibase:referenceValue eprv:P6 ;
+	wikibase:novalue edno:P6 .
+
+ep:P6 a owl:ObjectProperty .
+
+epsv:P6 a owl:ObjectProperty .
+
+epqv:P6 a owl:ObjectProperty .
+
+eprv:P6 a owl:ObjectProperty .
+
+edt:P6 a owl:ObjectProperty .
+
+eps:P6 a owl:ObjectProperty .
+
+epq:P6 a owl:ObjectProperty .
+
+epr:P6 a owl:ObjectProperty .
+
+edno:P6 a owl:Class ;
+	owl:complementOf _:756f10bc5f45e99cc0b50f82c4769b77 .
+
+_:756f10bc5f45e99cc0b50f82c4769b77 a owl:Restriction ;
+	owl:onProperty edt:P6 ;
+	owl:someValuesFrom owl:Thing .
+
+ed:P6 rdfs:label "isDirectlyBasedOn"@en ;
+	skos:prefLabel "isDirectlyBasedOn"@en ;
+	schema:name "isDirectlyBasedOn"@en ;
+	schema:description "reference"@en .
+
+ed:P21 a wikibase:Property,
+		wikibase:Property ;
+	wikibase:propertyType <http://wikiba.se/ontology#Url> ;
+	wikibase:directClaim edt:P21 ;
+	wikibase:claim ep:P21 ;
+	wikibase:statementProperty eps:P21 ;
+	wikibase:statementValue epsv:P21 ;
+	wikibase:qualifier epq:P21 ;
+	wikibase:qualifierValue epqv:P21 ;
+	wikibase:reference epr:P21 ;
+	wikibase:referenceValue eprv:P21 ;
+	wikibase:novalue edno:P21 .
+
+ep:P21 a owl:ObjectProperty .
+
+epsv:P21 a owl:ObjectProperty .
+
+epqv:P21 a owl:ObjectProperty .
+
+eprv:P21 a owl:ObjectProperty .
+
+edt:P21 a owl:ObjectProperty .
+
+eps:P21 a owl:ObjectProperty .
+
+epq:P21 a owl:ObjectProperty .
+
+epr:P21 a owl:ObjectProperty .
+
+edno:P21 a owl:Class ;
+	owl:complementOf _:b7ce489725b88be3120150aea852ad48 .
+
+_:b7ce489725b88be3120150aea852ad48 a owl:Restriction ;
+	owl:onProperty edt:P21 ;
+	owl:someValuesFrom owl:Thing .
+
+ed:P21 rdfs:label "hasExternalReference"@en ;
+	skos:prefLabel "hasExternalReference"@en ;
+	schema:name "hasExternalReference"@en ;
+	schema:description "property with URL to external reference"@en .
+
+ed:Q488506 a wikibase:Item ;
+	rdfs:label "Birth of George Freeman Bragg Jr"@en ;
+	skos:prefLabel "Birth of George Freeman Bragg Jr"@en ;
+	schema:name "Birth of George Freeman Bragg Jr"@en ;
+	schema:description "HC-EVE-BIR-34251"@en .
+
+ed:P19 a wikibase:Property,
+		wikibase:Property ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim edt:P19 ;
+	wikibase:claim ep:P19 ;
+	wikibase:statementProperty eps:P19 ;
+	wikibase:statementValue epsv:P19 ;
+	wikibase:qualifier epq:P19 ;
+	wikibase:qualifierValue epqv:P19 ;
+	wikibase:reference epr:P19 ;
+	wikibase:referenceValue eprv:P19 ;
+	wikibase:novalue edno:P19 .
+
+ep:P19 a owl:ObjectProperty .
+
+epsv:P19 a owl:ObjectProperty .
+
+epqv:P19 a owl:ObjectProperty .
+
+eprv:P19 a owl:ObjectProperty .
+
+edt:P19 a owl:ObjectProperty .
+
+eps:P19 a owl:ObjectProperty .
+
+epq:P19 a owl:ObjectProperty .
+
+epr:P19 a owl:ObjectProperty .
+
+edno:P19 a owl:Class ;
+	owl:complementOf _:427a1cf7aa76aeba0fa0d95411406bf8 .
+
+_:427a1cf7aa76aeba0fa0d95411406bf8 a owl:Restriction ;
+	owl:onProperty edt:P19 ;
+	owl:someValuesFrom owl:Thing .
+
+ed:P19 rdfs:label "roleProvidedBy"@en ;
+	skos:prefLabel "roleProvidedBy"@en ;
+	schema:name "roleProvidedBy"@en ;
+	schema:description "property to connect a role to a particular event. inverse property of providesParticipantRole"@en .
+
+ed:Q489809 a wikibase:Item ;
+	rdfs:label "Death of George Freeman Bragg Jr"@en ;
+	skos:prefLabel "Death of George Freeman Bragg Jr"@en ;
+	schema:name "Death of George Freeman Bragg Jr"@en ;
+	schema:description "HC-EVE-DEA-34251"@en .
+
+edref:e8d69d796977d3925dfb081b00af70a6d0746a07 a wikibase:Reference ;
+	epr:P6 ed:Q280768 ;
+	epr:P21 <http://www.oxfordaasc.com/article/opr/t0001/e0063> .
