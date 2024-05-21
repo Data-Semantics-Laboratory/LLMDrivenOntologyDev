@@ -9,7 +9,7 @@ import os
 import openai
 
 # Define your OpenAI API key
-api_key = "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"
+api_key = "your openAI key"
 openai.api_key = api_key
 
 # Function to generate summaries based on a query prompt using GPT-3
@@ -22,7 +22,7 @@ def generate_summary_with_modules(query, text_chunks, module_file_path):
     chunk = ""
     for paragraph in text_chunks:
         # Check if adding the next paragraph will exceed the chunk size limit
-        if len(chunk) + len(paragraph) <= 8000:
+        if len(chunk) + len(paragraph) <= 7000: #change the chunk size limit based on your text file
             # Add the paragraph to the current chunk
             chunk += paragraph + "\n"
         else:
@@ -147,9 +147,6 @@ import openai
 def read_text_file(file_path):
     with open(file_path, 'r') as file:
         return file.read()
-
-# Replace 'YOUR_OPENAI_API_KEY' with your actual OpenAI API key
-openai.api_key = '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'
 
 # Function to interact with ChatGPT and ask questions
 def populate_ontology(file_name, text_file, module_content, query):
