@@ -4,7 +4,7 @@ import openai
 import time
 
 # Define your OpenAI API key
-api_key = "sk-proj-ubS0yXkdcbS919SL0iqxT3BlbkFJ8QnPPfMCnpbYZRR2bUGM"
+api_key = ""
 openai.api_key = api_key
 
 # Function to read the text file
@@ -25,14 +25,14 @@ def populate_ontology(file_name, text_file, module_content, query):
     response_text = response.choices[0].message.content.strip()
 
     # Save the holistic summary to a file
-    response_file_path = os.path.join("OntoLLM/responses", f"{os.path.splitext(file_name)[0]}_response.txt")
+    response_file_path = os.path.join("EnslavedOntoLLM/responses", f"{os.path.splitext(file_name)[0]}_response.txt")
     with open(response_file_path, "w", encoding="utf-8") as response_file:
         response_file.write(response_text)
 
 # Main function to process text files and generate summaries
 def process_text_files(folder_path, module_file_path):
     # Create the responses folder if it doesn't exist
-    os.makedirs("OntoLLM/responses", exist_ok=True)
+    os.makedirs("EnslavedOntoLLM/responses", exist_ok=True)
 
     # Read module file content
     with open(module_file_path, "r", encoding="utf-8") as module_file:

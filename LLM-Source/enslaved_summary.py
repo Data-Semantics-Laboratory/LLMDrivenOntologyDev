@@ -4,7 +4,7 @@ import openai
 import time
 
 # Define your OpenAI API key
-api_key = "sk-proj-ubS0yXkdcbS919SL0iqxT3BlbkFJ8QnPPfMCnpbYZRR2bUGM"
+api_key = ""
 openai.api_key = api_key
 
 # Function to generate summaries based on a query prompt using GPT-3
