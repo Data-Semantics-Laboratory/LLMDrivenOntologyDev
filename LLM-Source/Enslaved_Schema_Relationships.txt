@@ -1,0 +1,30 @@
+Name Record Module:
+Is-a(NameRecord,AgentRecord), fullNameAsString(NameVariant,xsd:string), hasSurnameAsString(NameVariant,xsd:string), hasFirstnameAsString(NameVariant,xsd:string), hasNameVariant(NameRecord,NameVariant), hasPerferredNameVariant(NameRecord, NameVariant)
+Description Module:
+asText(Description,xsd:string),Is-a(Description,EntityWithProvenance),Is-a(Match,EntityWithProvenance),Is-a(Place,EntityWithProvenance),Is-a(AgentRecord,EntityWithProvenance),Is-a(Description,EntityWithProvenance),hasOriginalSourceType(EntityWithProvenance,DocumentTypes),isDirectlyBasedOn(EntityWithProvenance,EntityWithProvenance),generatedBy(EntityWithProvenance,ProvenanceActivity),performedBy(ProvenanceActivity,Agent),attributedTo(EntityWithProvenance,Agent),availableFrom(EntityWithProvenance,xsd:string),used(EntityWithProvenance,EntityWithProvenance),used(ProvenanceActivity,EntityWithProvenance)
+Origin Record Module:
+Is-a(OriginRecord,AgentRecord),refersToPlaceOfOrigin(OriginRecord,Place),hasECVO(OriginRecord,ECVO),Is-a(Place,EntityWithProvenance),refersToPlaceOfOrigin(OriginRecord,Place)
+Race Record Module:
+Is-a(RaceRecord,AgentRecord)
+Age Record Module:
+Is-a(AgeRecord,AgentRecord),hasValue(AgeRecord,AgeCategory),hasAgeValue(AgeRecord,xsd:double)
+Sex Record Module:
+Is-a(SexRecord,AgentRecord)
+Person Status Record Module: 
+Is-a(PersonStatusRecord,AgentRecord),hasStatusGeneratedEvent(PersonStatusRecord,Event),hasValue(PersonStatusRecord,PSCategories)
+Occupation Record Module: 
+Is-a(OccupationRecord,AgentRecord), hasValue(OccupationRecord, Occupations)
+InterAgent Relationship Record Module:
+hasInterAgentRelationshipType(InterAgentRelationshipRecord,InterAgentRelationshipTypes)
+External Reference Module:
+withID(ExternalReference,xsd:string), refersTo(ExternalReference,ExternalReferent)
+Provenance Module:
+Is-a(Match,EntityWithProvenance),Is-a(Place,EntityWithProvenance),Is-a(AgentRecord,EntityWithProvenance),Is-a(Description,EntityWithProvenance),hasOriginalSourceType(EntityWithProvenance,DocumentTypes),hasLicenseInformation(EntityWithProvenance,LicenseInformation),sDirectlyBasedOn(EntityWithProvenance,EntityWithProvenance),generatedBy(EntityWithProvenance,ProvenanceActivity),attributedTo(EntityWithProvenance,Agent),availableFrom(EntityWithProvenance,xsd:string),used(EntityWithProvenance,EntityWithProvenance),used(ProvenanceActivity,EntityWithProvenance),Is-a(Person,Agent),Is-a(Organization,Agent),isRelationshipFrom(InterAgentRelationshipRecord,Agent),performedBy(ProvenanceActivity,Agent),attributedTo(EntityWithProvenance,Agent),isRelationshipTo(InterAgentRelationshipRecord,Agent)
+Participant Role Record Module:
+Is-a(ParticipantRoleRecord,AgentRecord),hasParticipantRoleType(ParticipantRoleRecord,ParticipantRoleTypes)
+Event Module:
+Is-a(ResearchProject,Event),hasEventType(Event,EventTypes),hasStatusGeneratedEvent(PersonStatusRecord,Event),Is-a(Description,EntityWithProvenance),withID(ExternalReference,xsd:string),refersTo(ExternalReference,ExternalReferent),hasName(Event,xsd:string)
+Place Module:
+Is-a(Place,EntityWithProvenance),refersToPlaceOfOrigin(OriginRecord,Place),Is-a(Description,EntityWithProvenance),Is-a(Coordinates,SpatialExtent),hasDescription(Place,Description),hasPlaceType(Place,PlaceTypes),hasCoordinates(Place,Coordinates),hasName(Place,xsd:string),hasAlternateName(Place,xsd:string),spatiallyLocatedIn(Place,Place),hasLongitude(Coordinates,xsd:double),hasLatitude(Coordinates,xsd:double)
+TemporalExtent Module:
+Is-a(TimeSpan,TemporalExtent),fallsWithin(TemporalExtent,TimeSpan),occursBefore(TemporalExtent,xsd:date),startsAt(TemporalExtent,xsd:date),occursAfter(TemporalExtent,xsd:date),contains(TemporalExtent,xsd:date),endsAt(TemporalExtent,xsd:date),
