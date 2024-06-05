@@ -1,0 +1,44 @@
+Name Record Module:
+Is-a(Anthony Burns,AgentRecord), fullNameAsString(Anthony Burns,xsd:string), hasSurnameAsString(Burns,xsd:string), hasFirstnameAsString(Anthony,xsd:string), hasNameVariant(Anthony Burns,Anthony Burns), hasPerferredNameVariant(Anthony Burns, Anthony Burns)
+
+Description Module:
+asText(Anthony Burns,xsd:string),Is-a(Anthony Burns,EntityWithProvenance),hasOriginalSourceType(Anthony Burns,Text File),attributedTo(Anthony Burns,Unknown),availableFrom(Anthony Burns,xsd:string)
+
+Origin Record Module:
+Is-a(Anthony Burns,AgentRecord),refersToPlaceOfOrigin(Anthony Burns,Virginia)
+
+Race Record Module:
+Is-a(Anthony Burns,AgentRecord)
+
+Age Record Module:
+Is-a(Anthony Burns,AgentRecord),hasValue(Anthony Burns,28),hasAgeValue(Anthony Burns,28)
+
+Sex Record Module:
+Is-a(Anthony Burns,AgentRecord)
+
+Person Status Record Module: 
+Is-a(Anthony Burns,AgentRecord),hasStatusGeneratedEvent(Anthony Burns,Escape from Slavery),hasValue(Anthony Burns,Slave)
+
+Occupation Record Module: 
+Is-a(Anthony Burns,AgentRecord), hasValue(Anthony Burns, Slave)
+
+InterAgent Relationship Record Module:
+hasInterAgentRelationshipType(Anthony Burns,Slave)
+
+External Reference Module:
+withID(Anthony Burns,xsd:string), refersTo(Anthony Burns,Anthony Burns)
+
+Provenance Module:
+Is-a(Anthony Burns,EntityWithProvenance),hasOriginalSourceType(Anthony Burns,Text File),attributedTo(Anthony Burns,Unknown),availableFrom(Anthony Burns,xsd:string)
+
+Participant Role Record Module:
+Is-a(Anthony Burns,AgentRecord),hasParticipantRoleType(Anthony Burns,Slave)
+
+Event Module:
+Is-a(Escape from Slavery,Event),hasEventType(Escape from Slavery,Escape),hasStatusGeneratedEvent(Anthony Burns,Escape from Slavery),hasName(Escape from Slavery,xsd:string)
+
+Place Module:
+Is-a(Virginia,EntityWithProvenance),refersToPlaceOfOrigin(Anthony Burns,Virginia),hasName(Virginia,xsd:string)
+
+TemporalExtent Module:
+Is-a(1854,TemporalExtent),startsAt(1854,1854),endsAt(1854,1854)
