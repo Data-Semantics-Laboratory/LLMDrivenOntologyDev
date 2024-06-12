@@ -16,8 +16,8 @@ Occupation Record Module:
 Is-a(OccupationRecord,AgentRecord), hasValue(OccupationRecord, Occupations)
 InterAgent Relationship Record Module:
 hasInterAgentRelationshipType(InterAgentRelationshipRecord,InterAgentRelationshipTypes)
-External Reference Module:
-withID(ExternalReference,xsd:string), refersTo(ExternalReference,ExternalReferent)
+isRelationshipTo(InterAgentRelationshipRecord, Agent)
+isRelationshipFrom(InterAgentRelationshipRecord, Agent)
 Provenance Module:
 Is-a(Match,EntityWithProvenance),Is-a(Place,EntityWithProvenance),Is-a(AgentRecord,EntityWithProvenance),Is-a(Description,EntityWithProvenance),hasOriginalSourceType(EntityWithProvenance,DocumentTypes),hasLicenseInformation(EntityWithProvenance,LicenseInformation),sDirectlyBasedOn(EntityWithProvenance,EntityWithProvenance),generatedBy(EntityWithProvenance,ProvenanceActivity),attributedTo(EntityWithProvenance,Agent),availableFrom(EntityWithProvenance,xsd:string),used(EntityWithProvenance,EntityWithProvenance),used(ProvenanceActivity,EntityWithProvenance),Is-a(Person,Agent),Is-a(Organization,Agent),isRelationshipFrom(InterAgentRelationshipRecord,Agent),performedBy(ProvenanceActivity,Agent),attributedTo(EntityWithProvenance,Agent),isRelationshipTo(InterAgentRelationshipRecord,Agent)
 Participant Role Record Module:
