@@ -1,0 +1,23 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Jordan Winston Early, "Jordan Winston Early")
+2. has_Surname(Agent, Surname): has_Surname(Jordan Winston Early, "Early")
+3. has_First_Name(Agent, First_Name): has_First_Name(Jordan Winston Early, "Jordan").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Jordan Winston Early, "Spouse") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Jordan Winston Early, "Louisa Carter"), is_Relationship_To(Jordan Winston Early, "Sarah Jane Woodson Early").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Jordan Winston Early, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Jordan Winston Early, "Slave, Methodist Preacher").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Jordan Winston Early, 89)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Jordan Winston Early, "June 17, 1814")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Jordan Winston Early, "November 19, 1903").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Jordan Winston Early, "Enslaved Person, Methodist Preacher")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Emancipation in 1826"), has_Status_Generating_Event(Methodist Preacher, "Ordination as a Deacon").

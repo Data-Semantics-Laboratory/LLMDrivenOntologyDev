@@ -1,0 +1,25 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(George W. Albright, "George W. Albright")
+2. has_Surname(Agent, Surname): has_Surname(George W. Albright, "Albright")
+3. has_First_Name(Agent, First_Name): has_First_Name(George W. Albright, "George").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(George W. Albright, "Son") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(George W. Albright, "Texas Owner").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(George W. Albright, "Member of the Union League"), has_Participant_Role(George W. Albright, "Participant in spreading news of the Emancipation Proclamation among enslaved people").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(George W. Albright, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(George W. Albright, "Farmer, Educator, Politician, Field Hand").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(George W. Albright, "around 1846").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(George W. Albright, "Enslaved Person, Politician")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Emancipation Proclamation"), has_Status_Generating_Event(Politician, "Election to Mississippi State Senate")
+3. recorded_At(Person_Status_information, Event): recorded_At(Enslaved Person, "Emancipation Proclamation"), recorded_At(Politician, "Election to Mississippi State Senate").

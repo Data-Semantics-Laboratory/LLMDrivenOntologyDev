@@ -1,0 +1,29 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(William Wells Brown, "William Wells Brown")
+2. has_Surname(Agent, Surname): has_Surname(William Wells Brown, "Brown")
+3. has_First_Name(Agent, First_Name): has_First_Name(William Wells Brown, "William").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(William Wells Brown, "Enslaved Person") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(William Wells Brown, "Elizabeth"), is_Relationship_To(William Wells Brown, "George W. Higgins").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(William Wells Brown, "Abolitionist"), has_Participant_Role(William Wells Brown, "Participant in the National Convention of Colored Citizens").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(William Wells Brown, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(William Wells Brown, "Slave, Abolitionist, Novelist, Playwright, Historian, Orator").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(William Wells Brown, "Unknown")
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(William Wells Brown, "1814")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(William Wells Brown, "Unknown").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(William Wells Brown, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(William Wells Brown, "Enslaved Person, Fugitive, Free Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Born into Slavery"), has_Status_Generating_Event(Fugitive, "1850 Fugitive Slave Law in the US"), has_Status_Generating_Event(Free Man, "Freedom purchased in 1854 by a British couple").

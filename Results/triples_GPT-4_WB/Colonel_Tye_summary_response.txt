@@ -1,0 +1,26 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Titus Cornelius, "Titus Cornelius")
+2. has_Surname(Agent, Surname): has_Surname(Titus Cornelius, "Cornelius")
+3. has_First_Name(Agent, First_Name): has_First_Name(Titus Cornelius, "Titus")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Titus Cornelius, "Colonel Tye").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Titus Cornelius, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Titus Cornelius, "John Corlies").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Titus Cornelius, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Titus Cornelius, "Slave, Soldier in the Ethiopian Regiment, Leader of the Black Brigade").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Titus Cornelius, "African American").
+
+Ethnolinguistic Descriptor Record Module: 
+1. has_Ethnolinguistic_Descriptor(Agent, Etnolinguistic_Descriptor): has_Ethnolinguistic_Descriptor(Titus Cornelius, "Black Loyalist").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Titus Cornelius, "Enslaved Person, Soldier")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Proclamation offering freedom to all slaves"), has_Status_Generating_Event(Soldier, "Joining the British forces")
+3. recorded_At(Person_Status_information, Event): recorded_At(Enslaved Person, "Proclamation offering freedom to all slaves"), recorded_At(Soldier, "Joining the British forces").

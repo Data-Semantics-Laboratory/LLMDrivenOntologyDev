@@ -1,0 +1,32 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Shields Green, "Shields Green")
+2. has_Surname(Agent, Surname): has_Surname(Shields Green, "Green")
+3. has_First_Name(Agent, First_Name): has_First_Name(Shields Green, "Shields")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Shields Green, "Emperor").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Shields Green, "Friend")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Shields Green, "Frederick Douglass"), is_Relationship_To(Shields Green, "John Brown").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Shields Green, "Participant in John Brown's raid on Harpers Ferry").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Shields Green, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Shields Green, "Slave, Waiter, Launderer, Barber").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Shields Green, 23-30)
+2. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Shields Green, "December 16, 1859").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Shields Green, "Colored").
+
+Ethnolinguistic Descriptor Record Module: 
+1. has_Ethnolinguistic_Descriptor(Agent, Etnolinguistic_Descriptor): has_Ethnolinguistic_Descriptor(Shields Green, "Broken Speech, Possibly indicative of a speech defect").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Shields Green, "Escaped Slave, Participant in John Brown's raid on Harpers Ferry")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Escaped Slave, "Escape from Slavery"), has_Status_Generating_Event(Participant in John Brown's raid on Harpers Ferry, "John Brown's raid on Harpers Ferry").

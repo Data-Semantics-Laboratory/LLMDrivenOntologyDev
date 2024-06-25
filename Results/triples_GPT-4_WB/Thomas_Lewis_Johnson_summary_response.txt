@@ -1,0 +1,22 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Lennox Claudius Lewis, "Lennox Claudius Lewis")
+2. has_Surname(Agent, Surname): has_Surname(Lennox Claudius Lewis, "Lewis")
+3. has_First_Name(Agent, First_Name): has_First_Name(Lennox Claudius Lewis, "Lennox").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Lennox Claudius Lewis, "Boxing Events Participant").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Lennox Claudius Lewis, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Lennox Claudius Lewis, "Professional Boxer, Boxing Commentator, Philanthropist").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Lennox Claudius Lewis, 56)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Lennox Claudius Lewis, "September 2, 1965").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Lennox Claudius Lewis, "Three-time World Heavyweight Champion, Two-time Lineal Champion, Undisputed Championship Holder, Olympic Gold Medallist, Boxing Analyst for HBO, Philanthropist").
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Three-time World Heavyweight Champion, "Boxing Matches"), has_Status_Generating_Event(Two-time Lineal Champion, "Boxing Matches"), has_Status_Generating_Event(Undisputed Championship Holder, "Boxing Matches"), has_Status_Generating_Event(Olympic Gold Medallist, "1988 Olympics"), has_Status_Generating_Event(Boxing Analyst for HBO, "Retirement from Boxing"), has_Status_Generating_Event(Philanthropist, "Establishment of Charitable Foundation").
+3. recorded_At(Person_Status_information, Event): recorded_At(Three-time World Heavyweight Champion, "Boxing Matches"), recorded_At(Two-time Lineal Champion, "Boxing Matches"), recorded_At(Undisputed Championship Holder, "Boxing Matches"), recorded_At(Olympic Gold Medallist, "1988 Olympics"), recorded_At(Boxing Analyst for HBO, "Retirement from Boxing"), recorded_At(Philanthropist, "Establishment of Charitable Foundation").

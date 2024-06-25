@@ -1,0 +1,22 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Peter Barnabas Barrow, "Peter Barnabas Barrow")
+2. has_Surname(Agent, Surname): has_Surname(Peter Barnabas Barrow, "Barrow")
+3. has_First_Name(Agent, First_Name): has_First_Name(Peter Barnabas Barrow, "Peter").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Peter Barnabas Barrow, "Mississippi Senate and House of Representatives"), has_Participant_Role(Peter Barnabas Barrow, "Pastor at the Calvary Baptist Church").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Peter Barnabas Barrow, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Peter Barnabas Barrow, "Slave, Soldier, State Legislator, Minister, Apple Orchard Owner").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Peter Barnabas Barrow, 66)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Peter Barnabas Barrow, "1840")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Peter Barnabas Barrow, "1906").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Peter Barnabas Barrow, "Enslaved Person, Soldier, State Legislator, Minister")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Freed by the Union Army in 1864"), has_Status_Generating_Event(Soldier, "Freed by the Union Army in 1864"), has_Status_Generating_Event(State Legislator, "Freed by the Union Army in 1864"), has_Status_Generating_Event(Minister, "Freed by the Union Army in 1864").

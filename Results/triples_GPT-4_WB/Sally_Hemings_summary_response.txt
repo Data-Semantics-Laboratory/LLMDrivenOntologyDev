@@ -1,0 +1,27 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Sarah "Sally" Hemings, "Sarah 'Sally' Hemings")
+2. has_Surname(Agent, Surname): has_Surname(Sarah "Sally" Hemings, "Hemings")
+3. has_First_Name(Agent, First_Name): has_First_Name(Sarah "Sally" Hemings, "Sarah")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Sarah "Sally" Hemings, "Sally")
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Sarah "Sally" Hemings, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Sarah "Sally" Hemings, "Thomas Jefferson")
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Sarah "Sally" Hemings, "Female")
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Sarah "Sally" Hemings, "Slave, Nursemaid-Companion, Lady's Maid, Chambermaid, Seamstress")
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Sarah "Sally" Hemings, 62)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Sarah "Sally" Hemings, "1773")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Sarah "Sally" Hemings, "1835")
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Sarah "Sally" Hemings, "One-Quarter African Ancestry")
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Sarah "Sally" Hemings, "Enslaved Person, Legally Free and Paid Servant in Paris, Informally Freed by Jefferson's Daughter")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Owned by Thomas Jefferson"), has_Status_Generating_Event(Legally Free and Paid Servant in Paris, "Agreement to Return to Virginia"), has_Status_Generating_Event(Informally Freed by Jefferson's Daughter, "Death of Thomas Jefferson")

@@ -1,0 +1,20 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(John Edward Bruce, "John Edward Bruce")
+2. has_Surname(Agent, Surname): has_Surname(John Edward Bruce, "Bruce")
+3. has_First_Name(Agent, First_Name): has_First_Name(John Edward Bruce, "John")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(John Edward Bruce, "Bruce Grit"), has_Alternate_Name(John Edward Bruce, "J. E. Bruce-Grit").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(John Edward Bruce, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(John Edward Bruce, "Journalist"), has_Occupation(John Edward Bruce, "Historian"), has_Occupation(John Edward Bruce, "Writer"), has_Occupation(John Edward Bruce, "Orator"), has_Occupation(John Edward Bruce, "Civil Rights Activist"), has_Occupation(John Edward Bruce, "Pan-African Nationalist"), has_Occupation(John Edward Bruce, "Worker for the Port of New York Authority").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(John Edward Bruce, 68)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(John Edward Bruce, "February 22, 1856")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(John Edward Bruce, "August 7, 1924").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(John Edward Bruce, "Slave"), has_Person_Status(John Edward Bruce, "Civil Rights Activist"), has_Person_Status(John Edward Bruce, "Pan-African Nationalist")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Slave, "Birth"), has_Status_Generating_Event(Civil Rights Activist, "Self-Education"), has_Status_Generating_Event(Pan-African Nationalist, "Founding of several newspapers").

@@ -1,0 +1,23 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Pierre Toussaint, "Pierre Toussaint")
+2. has_Surname(Agent, Surname): has_Surname(Pierre Toussaint, "Toussaint")
+3. has_First_Name(Agent, First_Name): has_First_Name(Pierre Toussaint, "Pierre").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Pierre Toussaint, "Enslaver or Owner") 
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Pierre Toussaint, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Pierre Toussaint, "Hairdresser, Philanthropist").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Pierre Toussaint, 87)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Pierre Toussaint, "June 27, 1766")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Pierre Toussaint, "June 30, 1853").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Pierre Toussaint, "Enslaved Person, Freed Person, Barber, Philanthropist")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Enslavement"), has_Status_Generating_Event(Freed Person, "Death of mistress in 1807"), has_Status_Generating_Event(Barber, "Freedom"), has_Status_Generating_Event(Philanthropist, "Freedom").
+3. recorded_At(Person_Status_information, Event): recorded_At(Enslaved Person, "Enslavement"), recorded_At(Freed Person, "Death of mistress in 1807"), recorded_At(Barber, "Freedom"), recorded_At(Philanthropist, "Freedom").

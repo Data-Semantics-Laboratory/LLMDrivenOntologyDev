@@ -1,0 +1,24 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(John Swanson Jacobs, "John Swanson Jacobs")
+2. has_Surname(Agent, Surname): has_Surname(John Swanson Jacobs, "Jacobs")
+3. has_First_Name(Agent, First_Name): has_First_Name(John Swanson Jacobs, "John").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(John Swanson Jacobs, "Son"), has_Interagent_Relationship_Type_To(John Swanson Jacobs, "Enslaved Person")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(John Swanson Jacobs, "Delilah Horniblow"), is_Relationship_To(John Swanson Jacobs, "Elijah Knox"), is_Relationship_To(John Swanson Jacobs, "Dr. James Norcom"), is_Relationship_To(John Swanson Jacobs, "Samuel Sawyer").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(John Swanson Jacobs, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(John Swanson Jacobs, "Slave, Author, Abolitionist").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(John Swanson Jacobs, "Between 1815 and 1817").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(John Swanson Jacobs, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(John Swanson Jacobs, "Enslaved Person, Abolitionist, Author")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Sold to Dr. James Norcom after mother's death"), has_Status_Generating_Event(Abolitionist, "Escape to New York in 1838"), has_Status_Generating_Event(Author, "Escape to New York in 1838").

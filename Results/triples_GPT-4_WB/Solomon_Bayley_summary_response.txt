@@ -1,0 +1,22 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Solomon Bayley, "Solomon Bayley")
+2. has_Surname(Agent, Surname): has_Surname(Solomon Bayley, "Bayley")
+3. has_First_Name(Agent, First_Name): has_First_Name(Solomon Bayley, "Solomon").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Solomon Bayley, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Solomon Bayley, "Slave, Farmer, Sawmill Worker, Missionary, Author").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Solomon Bayley, 68)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Solomon Bayley, "Around 1771")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Solomon Bayley, "Around 1839").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Solomon Bayley, "African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Solomon Bayley, "Enslaved Person, Free Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Bought his freedom"), has_Status_Generating_Event(Free Man, "Out-of-court settlement").

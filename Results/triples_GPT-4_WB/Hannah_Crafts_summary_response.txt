@@ -1,0 +1,20 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Hannah Bond, "Hannah Bond")
+2. has_Surname(Agent, Surname): has_Surname(Hannah Bond, "Bond")
+3. has_First_Name(Agent, First_Name): has_First_Name(Hannah Bond, "Hannah")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Hannah Bond, "Hannah Crafts").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Hannah Bond, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Hannah Bond, "John Hill Wheeler").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Hannah Bond, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Hannah Bond, "Slave, Teacher, Novelist").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Hannah Bond, "Enslaved Person, Free Woman, Novelist")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Escape from plantation"), has_Status_Generating_Event(Free Woman, "Moving to the North"), has_Status_Generating_Event(Novelist, "Publication of 'The Bondwoman's Narrative by Hannah Crafts'")
+3. recorded_At(Person_Status_information, Event): recorded_At(Enslaved Person, "Escape from plantation"), recorded_At(Free Woman, "Moving to the North"), recorded_At(Novelist, "Publication of 'The Bondwoman's Narrative by Hannah Crafts'").

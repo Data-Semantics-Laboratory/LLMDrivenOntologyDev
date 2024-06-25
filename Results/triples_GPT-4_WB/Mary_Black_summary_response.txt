@@ -1,0 +1,32 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Mary Black, "Mary Black")
+2. has_Surname(Agent, Surname): has_Surname(Mary Black, "Black")
+3. has_First_Name(Agent, First_Name): has_First_Name(Mary Black, "Mary").
+
+Interagent Relationship Record Module:
+No information available.
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Mary Black, "Folk Singer").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Mary Black, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Mary Black, "Renowned Irish Folk Singer").
+
+Age Record Module: 
+1. has_Age(Agent, Age): No information available.
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Mary Black, "May 23, 1955")
+3. has_DeathDate(Agent, Date_of_Death): No information available.
+
+Race Record Module: 
+No information available.
+
+Ethnolinguistic Descriptor Record Module: 
+No information available.
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Mary Black, "Successful Folk Singer")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Successful Folk Singer, "Albums and Awards").
+3. recorded_At(Person_Status_information, Event): recorded_At(Successful Folk Singer, "Albums and Awards").

@@ -1,0 +1,29 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Frederick Douglass, "Frederick Douglass")
+2. has_Surname(Agent, Surname): has_Surname(Frederick Douglass, "Douglass")
+3. has_First_Name(Agent, First_Name): has_First_Name(Frederick Douglass, "Frederick").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Frederick Douglass, "Professional"), has_Interagent_Relationship_Type_To(Frederick Douglass, "Marital")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Frederick Douglass, "Julia Griffiths"), is_Relationship_To(Frederick Douglass, "Ottilie Assing"), is_Relationship_To(Frederick Douglass, "Anna Murray"), is_Relationship_To(Frederick Douglass, "Helen Pitts").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Frederick Douglass, "Key Participant in the abolitionist movement"), has_Participant_Role(Frederick Douglass, "Key Participant in the African-American civil rights movement").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Frederick Douglass, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Frederick Douglass, "Social Reformer, Abolitionist, Orator, Writer, Statesman, Preacher, President of the Freedman's Savings Bank, United States Marshal for the District of Columbia, Minister Resident and Consul-General to the Republic of Haiti").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Frederick Douglass, 77)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Frederick Douglass, "February 1817 or 1818")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Frederick Douglass, "1895").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Frederick Douglass, "African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Frederick Douglass, "Slave"), has_Person_Status(Frederick Douglass, "Free Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Slave, "Born into Slavery"), has_Status_Generating_Event(Free Man, "Escape from Slavery in 1838").

@@ -1,0 +1,32 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Robert Smalls, "Robert Smalls")
+2. has_Surname(Agent, Surname): has_Surname(Robert Smalls, "Smalls")
+3. has_First_Name(Agent, First_Name): has_First_Name(Robert Smalls, "Robert").
+
+Interagent Relationship Record Module:
+No information provided.
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Robert Smalls, "Participant in the American Civil War")
+2. Role_Provided_by(Agent_Role, Event): Role_Provided_by(Participant in the American Civil War, "Commandeering of CSS Planter").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Robert Smalls, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Robert Smalls, "Slave, Politician, Pilot for the Union Navy, Congressman").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Robert Smalls, 75)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Robert Smalls, "April 5, 1839")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Robert Smalls, "February 23, 1915").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Robert Smalls, "African-American").
+
+Ethnolinguistic Descriptor Record Module: 
+No information provided.
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Robert Smalls, "Enslaved Person, Politician")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "American Civil War"), has_Status_Generating_Event(Politician, "End of Civil War").

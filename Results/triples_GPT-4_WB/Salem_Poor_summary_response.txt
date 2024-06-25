@@ -1,0 +1,29 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Salem Poor, "Salem Poor")
+2. has_Surname(Agent, Surname): has_Surname(Salem Poor, "Poor")
+3. has_First_Name(Agent, First_Name): has_First_Name(Salem Poor, "Salem").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Salem Poor, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Salem Poor, "John Poor Jr").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Salem Poor, "Soldier in the American Revolutionary War").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Salem Poor, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Salem Poor, "Slave, Soldier").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Salem Poor, 55)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Salem Poor, "1747")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Salem Poor, "1802").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Salem Poor, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Salem Poor, "Enslaved Person, Soldier")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Purchase of freedom from John Poor Jr"), has_Status_Generating_Event(Soldier, "Enlisting in the militia").

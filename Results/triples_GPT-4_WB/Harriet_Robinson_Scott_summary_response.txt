@@ -1,0 +1,28 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Harriet Robinson Scott, "Harriet Robinson Scott")
+2. has_Surname(Agent, Surname): has_Surname(Harriet Robinson Scott, "Scott")
+3. has_First_Name(Agent, First_Name): has_First_Name(Harriet Robinson Scott, "Harriet").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Harriet Robinson Scott, "Enslaved by"), has_Interagent_Relationship_Type_To(Harriet Robinson Scott, "Married to")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Harriet Robinson Scott, "Dr. John Emerson"), is_Relationship_To(Harriet Robinson Scott, "Irene Emerson"), is_Relationship_To(Harriet Robinson Scott, "Dred Scott").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Harriet Robinson Scott, "Participant in Dred Scott v. Sandford Supreme Court decision").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Harriet Robinson Scott, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Harriet Robinson Scott, "Slave, Laundress").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Harriet Robinson Scott, "Approximately 38 at the time of emancipation")
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Harriet Robinson Scott, "Around 1820").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Harriet Robinson Scott, "African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Harriet Robinson Scott, "Enslaved Person, Free Person")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Enslavement"), has_Status_Generating_Event(Free Person, "Emancipation on May 26, 1857").

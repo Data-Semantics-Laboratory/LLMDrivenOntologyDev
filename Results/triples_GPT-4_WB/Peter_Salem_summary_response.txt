@@ -1,0 +1,29 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Peter Salem, "Peter Salem")
+2. has_Surname(Agent, Surname): has_Surname(Peter Salem, "Salem")
+3. has_First_Name(Agent, First_Name): has_First_Name(Peter Salem, "Peter").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Peter Salem, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Peter Salem, "Major Lawson Buckminster").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Peter Salem, "Soldier in the Revolutionary War"), has_Participant_Role(Peter Salem, "Member of the Massachusetts militia"), has_Participant_Role(Peter Salem, "Member of the Continental Army").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Peter Salem, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Peter Salem, "Slave"), has_Occupation(Peter Salem, "Soldier in the Continental Army"), has_Occupation(Peter Salem, "Cane Weaver").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Peter Salem, 66)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Peter Salem, "October 1, 1750")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Peter Salem, "August 16, 1816").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Peter Salem, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Peter Salem, "Slave"), has_Person_Status(Peter Salem, "Soldier"), has_Person_Status(Peter Salem, "Cane Weaver")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Slave, "Sold to Major Lawson Buckminster"), has_Status_Generating_Event(Soldier, "Enlistment in the Massachusetts militia"), has_Status_Generating_Event(Cane Weaver, "End of military service").

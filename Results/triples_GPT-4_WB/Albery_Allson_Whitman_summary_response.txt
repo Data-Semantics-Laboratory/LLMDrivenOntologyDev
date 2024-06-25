@@ -1,0 +1,22 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Albery Allson Whitman, "Albery Allson Whitman")
+2. has_Surname(Agent, Surname): has_Surname(Albery Allson Whitman, "Whitman")
+3. has_First_Name(Agent, First_Name): has_First_Name(Albery Allson Whitman, "Albery").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Albery Allson Whitman, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Albery Allson Whitman, "Poet, Minister, Orator, Manual Laborer, School Teacher, Financial Agent, Fundraiser, Pastor").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Albery Allson Whitman, 50)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Albery Allson Whitman, "May 30, 1851")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Albery Allson Whitman, "June 29, 1901").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Albery Allson Whitman, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Albery Allson Whitman, "Enslaved Person, Free Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "End of Slavery"), has_Status_Generating_Event(Free Man, "End of Slavery").

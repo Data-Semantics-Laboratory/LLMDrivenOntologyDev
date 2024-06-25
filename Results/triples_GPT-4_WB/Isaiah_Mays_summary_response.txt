@@ -1,0 +1,23 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Isaiah Mays, "Isaiah Mays")
+2. has_Surname(Agent, Surname): has_Surname(Isaiah Mays, "Mays")
+3. has_First_Name(Agent, First_Name): has_First_Name(Isaiah Mays, "Isaiah").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Isaiah Mays, "Participant in the Wham Paymaster Robbery")
+2. Role_Provided_by(Agent_Role, Event): Role_Provided_by(Participant in the Wham Paymaster Robbery, "Awarded the Medal of Honor").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Isaiah Mays, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Isaiah Mays, "Buffalo Soldier in the United States Army"), has_Occupation(Isaiah Mays, "Laborer in Arizona and New Mexico").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Isaiah Mays, 67)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Isaiah Mays, "February 16, 1858")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Isaiah Mays, "May 2, 1925").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Isaiah Mays, "Slave"), has_Person_Status(Isaiah Mays, "Soldier")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Slave, "Born into slavery"), has_Status_Generating_Event(Soldier, "Joining the Army").

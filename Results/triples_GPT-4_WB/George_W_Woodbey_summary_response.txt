@@ -1,0 +1,22 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(George Washington Woodbey, "George Washington Woodbey")
+2. has_Surname(Agent, Surname): has_Surname(George Washington Woodbey, "Woodbey")
+3. has_First_Name(Agent, First_Name): has_First_Name(George Washington Woodbey, "George").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(George Washington Woodbey, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(George Washington Woodbey, "Minister, Author, Socialist").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(George Washington Woodbey, 82)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(George Washington Woodbey, "October 5, 1854")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(George Washington Woodbey, "August 27, 1937").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(George Washington Woodbey, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(George Washington Woodbey, "Slave, Minister")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Slave, "Birth"), has_Status_Generating_Event(Minister, "Ordination").

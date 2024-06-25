@@ -1,0 +1,29 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Bose Ikard, "Bose Ikard")
+2. has_Surname(Agent, Surname): has_Surname(Bose Ikard, "Ikard")
+3. has_First_Name(Agent, First_Name): has_First_Name(Bose Ikard, "Bose").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Bose Ikard, "Enslaver"), has_Interagent_Relationship_Type_To(Bose Ikard, "Employer")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Bose Ikard, "Charles Goodnight").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Bose Ikard, "Participant in the pioneering cattle drives on the Goodnight–Loving Trail").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Bose Ikard, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Bose Ikard, "Slave, Cowboy, Tracker, De facto banker on cattle drives, Farmer").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Bose Ikard, 86)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Bose Ikard, "1843")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Bose Ikard, "January 4, 1929").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Bose Ikard, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Bose Ikard, "Enslaved Person, Ranch Hand, Cowboy, Farmer")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "American Civil War"), has_Status_Generating_Event(Ranch Hand, "End of American Civil War"), has_Status_Generating_Event(Cowboy, "Employment by Charles Goodnight"), has_Status_Generating_Event(Farmer, "Last cattle drive in 1869").

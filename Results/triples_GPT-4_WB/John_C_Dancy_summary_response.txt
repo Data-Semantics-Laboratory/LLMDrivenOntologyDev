@@ -1,0 +1,22 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(John Campbell Dancy, "John Campbell Dancy")
+2. has_Surname(Agent, Surname): has_Surname(John Campbell Dancy, "Dancy")
+3. has_First_Name(Agent, First_Name): has_First_Name(John Campbell Dancy, "John").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(John Campbell Dancy, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(John Campbell Dancy, "Slave, Politician, Journalist, Educator, Editor, Collector of Customs, Recorder of Deeds, Key Figure in the National Afro-American Council").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(John Campbell Dancy, 63)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(John Campbell Dancy, "May 8, 1857")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(John Campbell Dancy, "December 5, 1920").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(John Campbell Dancy, "African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(John Campbell Dancy, "Enslaved Person, Politician, Journalist, Educator, Editor, Collector of Customs, Recorder of Deeds, Key Figure in the National Afro-American Council")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "American Civil War"), has_Status_Generating_Event(Politician, "American Civil War"), has_Status_Generating_Event(Journalist, "American Civil War"), has_Status_Generating_Event(Educator, "American Civil War"), has_Status_Generating_Event(Editor, "American Civil War"), has_Status_Generating_Event(Collector of Customs, "American Civil War"), has_Status_Generating_Event(Recorder of Deeds, "American Civil War"), has_Status_Generating_Event(Key Figure in the National Afro-American Council, "American Civil War").

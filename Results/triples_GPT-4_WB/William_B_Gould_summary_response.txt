@@ -1,0 +1,29 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(William Benjamin Gould Sr., "William Benjamin Gould Sr.")
+2. has_Surname(Agent, Surname): has_Surname(William Benjamin Gould Sr., "Gould")
+3. has_First_Name(Agent, First_Name): has_First_Name(William Benjamin Gould Sr., "William").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(William Benjamin Gould Sr., "Enslaved by") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(William Benjamin Gould Sr., "Nicholas Nixon").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(William Benjamin Gould Sr., "Served in the U.S. Navy during the American Civil War").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(William Benjamin Gould Sr., "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(William Benjamin Gould Sr., "Slave, Sailor in the U.S. Navy, Building Contractor, Plasterer, Brick Mason").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(William Benjamin Gould Sr., 85)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(William Benjamin Gould Sr., "November 18, 1837")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(William Benjamin Gould Sr., "May 25, 1923").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(William Benjamin Gould Sr., "Black").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(William Benjamin Gould Sr., "Enslaved Person, Veteran of the American Civil War, Prominent Figure in Community, Committed Republican, Literate Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Escaped during the Civil War"), has_Status_Generating_Event(Veteran of the American Civil War, "Service in the U.S. Navy"), has_Status_Generating_Event(Prominent Figure in Community, "Became a Building Contractor, Plasterer, Brick Mason"), has_Status_Generating_Event(Committed Republican, "Political Involvement"), has_Status_Generating_Event(Literate Man, "Kept a diary of his experiences during the Civil War").

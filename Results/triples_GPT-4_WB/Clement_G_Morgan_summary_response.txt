@@ -1,0 +1,23 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Clement Garnett Morgan, "Clement Garnett Morgan")
+2. has_Surname(Agent, Surname): has_Surname(Clement Garnett Morgan, "Morgan")
+3. has_First_Name(Agent, First_Name): has_First_Name(Clement Garnett Morgan, "Clement").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Clement Garnett Morgan, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Clement Garnett Morgan, "Attorney, Civil Rights Activist, City Official, Alderman").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Clement Garnett Morgan, 70)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Clement Garnett Morgan, "1859")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Clement Garnett Morgan, "June 1, 1929").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Clement Garnett Morgan, "African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Clement Garnett Morgan, "Enslaved Person, Attorney")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Emancipation Proclamation"), has_Status_Generating_Event(Attorney, "Education")
+3. recorded_At(Person_Status_information, Event): recorded_At(Enslaved Person, "Emancipation Proclamation"), recorded_At(Attorney, "Education").

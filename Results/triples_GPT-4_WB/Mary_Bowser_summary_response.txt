@@ -1,0 +1,28 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Mary Richards, "Mary Richards")
+2. has_Surname(Agent, Surname): has_Surname(Mary Richards, "Richards")
+3. has_First_Name(Agent, First_Name): has_First_Name(Mary Richards, "Mary")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Mary Richards, "Mary Jane Richards Garvin"), has_Alternate_Name(Mary Richards, "Mary Bowser").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Mary Richards, "Enslaved by"), has_Interagent_Relationship_Type_To(Mary Richards, "Part of espionage ring under")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Mary Richards, "Elizabeth 'Bet' Van Lew").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Mary Richards, "Union spy during the Civil War").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Mary Richards, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Mary Richards, "Spy during the Civil War"), has_Occupation(Mary Richards, "Teacher to former slaves"), has_Occupation(Mary Richards, "Founder of a freedmen's school in St. Marys, Georgia in 1867").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Mary Richards, "Not Mentioned")
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Mary Richards, "1846")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Mary Richards, "Not Mentioned").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Mary Richards, "Enslaved Person"), has_Person_Status(Mary Richards, "Spy")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Enslaved by the household of Elizabeth 'Bet' Van Lew at the age of seven"), has_Status_Generating_Event(Spy, "Start of the Civil War")
+3. recorded_At(Person_Status_information, Event): recorded_At(Enslaved Person, "Enslaved by the household of Elizabeth 'Bet' Van Lew at the age of seven"), recorded_At(Spy, "Start of the Civil War").

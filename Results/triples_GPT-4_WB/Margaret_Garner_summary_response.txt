@@ -1,0 +1,22 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Margaret Garner, "Margaret Garner")
+2. has_Surname(Agent, Surname): has_Surname(Margaret Garner, "Garner")
+3. has_First_Name(Agent, First_Name): has_First_Name(Margaret Garner, "Margaret")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Margaret Garner, "Peggy").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Margaret Garner, "Enslaver or Owner"), has_Interagent_Relationship_Type_To(Margaret Garner, "Spouse")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Margaret Garner, "Robert Garner"), is_Relationship_To(Margaret Garner, "Archibald Gaines").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Margaret Garner, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Margaret Garner, "Slave").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Margaret Garner, "African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Margaret Garner, "Enslaved Person")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Escape from slavery"), has_Status_Generating_Event(Enslaved Person, "Capture under the Fugitive Slave Act of 1850"), has_Status_Generating_Event(Enslaved Person, "Death from typhoid fever in 1858").

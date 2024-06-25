@@ -1,0 +1,23 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Mahommah Gardo Baquaqua, "Mahommah Gardo Baquaqua")
+2. has_Surname(Agent, Surname): has_Surname(Mahommah Gardo Baquaqua, "Baquaqua")
+3. has_First_Name(Agent, First_Name): has_First_Name(Mahommah Gardo Baquaqua, "Mahommah").
+
+Interagent Relationship Record Module:
+No information available.
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Mahommah Gardo Baquaqua, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Mahommah Gardo Baquaqua, "Slave, Servant, Student, Autobiographer").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Mahommah Gardo Baquaqua, "Unknown")
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Mahommah Gardo Baquaqua, "Between 1820 and 1830")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Mahommah Gardo Baquaqua, "Unknown").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Mahommah Gardo Baquaqua, "Enslaved Person, Servant, Free Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Captured during the succession wars in Daboya"), has_Status_Generating_Event(Servant, "Became a servant of a local dignitary in Djougou"), has_Status_Generating_Event(Free Man, "Escaped to New York in 1847 with the help of abolitionists").
+3. recorded_At(Person_Status_information, Event): recorded_At(Enslaved Person, "Captured during the succession wars in Daboya"), recorded_At(Servant, "Became a servant of a local dignitary in Djougou"), recorded_At(Free Man, "Escaped to New York in 1847 with the help of abolitionists").

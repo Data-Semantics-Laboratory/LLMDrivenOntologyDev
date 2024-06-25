@@ -1,0 +1,29 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Henry Box Brown, "Henry Box Brown")
+2. has_Surname(Agent, Surname): has_Surname(Henry Box Brown, "Brown")
+3. has_First_Name(Agent, First_Name): has_First_Name(Henry Box Brown, "Henry")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Henry Box Brown, "Prof. H. Box Brown"), has_Alternate_Name(Henry Box Brown, "African Prince").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Henry Box Brown, "Spouse") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Henry Box Brown, "Nancy"), is_Relationship_To(Henry Box Brown, "Jane Floyd").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Henry Box Brown, "Anti-slavery movement participant"), has_Participant_Role(Henry Box Brown, "Performer in the British show circuit").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Henry Box Brown, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Henry Box Brown, "Slave, Abolitionist Speaker, Magician, Showman").
+
+Age Record Module: 
+1. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Henry Box Brown, "Around 1815")
+2. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Henry Box Brown, "June 15, 1897").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Henry Box Brown, "African").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Henry Box Brown, "Enslaved Person, Free Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Mailing himself in a wooden crate to abolitionists in Philadelphia in 1849"), has_Status_Generating_Event(Free Man, "Escape to freedom").

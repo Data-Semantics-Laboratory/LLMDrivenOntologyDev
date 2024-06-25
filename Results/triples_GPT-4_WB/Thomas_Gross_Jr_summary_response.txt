@@ -1,0 +1,32 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Thomas Midgley Jr., "Thomas Midgley Jr.")
+2. has_Surname(Agent, Surname): has_Surname(Thomas Midgley Jr., "Midgley")
+3. has_First_Name(Agent, First_Name): has_First_Name(Thomas Midgley Jr., "Thomas").
+
+Interagent Relationship Record Module:
+No information provided.
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Thomas Midgley Jr., "Developer of leaded gasoline and CFCs").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Thomas Midgley Jr., "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Thomas Midgley Jr., "Mechanical and Chemical Engineer").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Thomas Midgley Jr., 55)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Thomas Midgley Jr., "May 18, 1889")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Thomas Midgley Jr., "November 2, 1944").
+
+Race Record Module: 
+No information provided.
+
+Ethnolinguistic Descriptor Record Module: 
+No information provided.
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Thomas Midgley Jr., "Disabled Person")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Disabled Person, "Contracting Polio in 1940"), has_Status_Generating_Event(Disabled Person, "Suicide")
+3. recorded_At(Person_Status_information, Event): recorded_At(Disabled Person, "Contracting Polio in 1940"), recorded_At(Disabled Person, "Suicide").

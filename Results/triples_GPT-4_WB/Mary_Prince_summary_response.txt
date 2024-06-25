@@ -1,0 +1,22 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Mary Prince, "Mary Prince")
+2. has_Surname(Agent, Surname): has_Surname(Mary Prince, "Prince")
+3. has_First_Name(Agent, First_Name): has_First_Name(Mary Prince, "Mary").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Mary Prince, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Mary Prince, "Slave, Author").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Mary Prince, "Unknown")
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Mary Prince, "October 1, 1788").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Mary Prince, "African descent").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Mary Prince, "Enslaved Person, Author")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Sold multiple times"), has_Status_Generating_Event(Author, "Publication of her autobiography").
+3. recorded_At(Person_Status_information, Event): recorded_At(Enslaved Person, "Sold multiple times"), recorded_At(Author, "Publication of her autobiography").

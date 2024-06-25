@@ -1,0 +1,29 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Quamina Gladstone, "Quamina Gladstone")
+2. has_Surname(Agent, Surname): has_Surname(Quamina Gladstone, "Gladstone")
+3. has_First_Name(Agent, First_Name): has_First_Name(Quamina Gladstone, "Quamina").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Quamina Gladstone, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Quamina Gladstone, "Sir John Gladstone"), is_Relationship_To(Quamina Gladstone, "Jack Gladstone").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Quamina Gladstone, "Participant in the Demerara rebellion of 1823").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Quamina Gladstone, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Quamina Gladstone, "Slave, Carpenter").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Quamina Gladstone, 45)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Quamina Gladstone, "1778")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Quamina Gladstone, "September 16, 1823").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Quamina Gladstone, "Akan ethnic group from modern-day Ghana").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Quamina Gladstone, "Enslaved Person, National Hero")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Demerara rebellion of 1823"), has_Status_Generating_Event(National Hero, "Demerara rebellion of 1823 and subsequent death").

@@ -1,0 +1,26 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Timothy Thomas Fortune, "Timothy Thomas Fortune")
+2. has_Surname(Agent, Surname): has_Surname(Timothy Thomas Fortune, "Fortune")
+3. has_First_Name(Agent, First_Name): has_First_Name(Timothy Thomas Fortune, "Timothy").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Timothy Thomas Fortune, "Adviser and Editor") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Timothy Thomas Fortune, "Booker T. Washington").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Timothy Thomas Fortune, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Timothy Thomas Fortune, "Orator, Civil Rights Leader, Journalist, Writer, Editor, Publisher").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Timothy Thomas Fortune, 71)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Timothy Thomas Fortune, "October 3, 1856")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Timothy Thomas Fortune, "June 2, 1928").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Timothy Thomas Fortune, "African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Timothy Thomas Fortune, "Enslaved Person, Civil Rights Leader, Journalist, Writer, Editor, Publisher")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Education at the first school for African Americans in Marianna after the Civil War"), has_Status_Generating_Event(Civil Rights Leader, "Move to New York City in 1879"), has_Status_Generating_Event(Journalist, "Editor of The New York Age"), has_Status_Generating_Event(Writer, "Editor of The New York Age"), has_Status_Generating_Event(Editor, "Editor of The New York Age"), has_Status_Generating_Event(Publisher, "Editor of The New York Age").

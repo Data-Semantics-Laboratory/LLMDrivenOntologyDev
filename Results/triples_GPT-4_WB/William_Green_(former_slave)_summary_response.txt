@@ -1,0 +1,26 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(William Green, "William Green")
+2. has_Surname(Agent, Surname): has_Surname(William Green, "Green")
+3. has_First_Name(Agent, First_Name): has_First_Name(William Green, "William").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(William Green, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(William Green, "Mr. Nicholas Singleton"), is_Relationship_To(William Green, "Edward Hamilton"), is_Relationship_To(William Green, "Dr. Solomon Jenkings").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(William Green, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(William Green, "Slave, Whitewasher, Plasterer, Furniture Cleaner and Repairer").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(William Green, 81)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(William Green, "around 1814")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(William Green, "1895").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(William Green, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(William Green, "Enslaved Person, Free Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Sold to Edward Hamilton, Part of dowry to Dr. Solomon Jenkings"), has_Status_Generating_Event(Free Man, "Escape from slavery").

@@ -1,0 +1,26 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Venture Smith, "Venture Smith")
+2. has_Surname(Agent, Surname): has_Surname(Venture Smith, "Smith")
+3. has_First_Name(Agent, First_Name): has_First_Name(Venture Smith, "Venture")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Venture Smith, "Broteer Furro").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Venture Smith, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Venture Smith, "Robinson Mumford"), is_Relationship_To(Venture Smith, "Oliver Smith").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Venture Smith, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Venture Smith, "Farmer, Craftsman, Autobiographer").
+
+Age Record Module: 
+1. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Venture Smith, "Around 1729")
+2. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Venture Smith, "1805").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Venture Smith, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Venture Smith, "Enslaved Person, Free Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Purchase of his own freedom"), has_Status_Generating_Event(Free Man, "Purchase of his own freedom").

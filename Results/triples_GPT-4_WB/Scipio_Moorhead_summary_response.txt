@@ -1,0 +1,22 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Scipio Moorhead, "Scipio Moorhead")
+2. has_Surname(Agent, Surname): has_Surname(Scipio Moorhead, "Moorhead")
+3. has_First_Name(Agent, First_Name): has_First_Name(Scipio Moorhead, "Scipio").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Scipio Moorhead, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Scipio Moorhead, "Reverend John Moorhead").
+3. is_Relationship_To(Agent, Agent): is_Relationship_To(Scipio Moorhead, "Phillis Wheatley").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Scipio Moorhead, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Scipio Moorhead, "Enslaved Artist").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Scipio Moorhead, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Scipio Moorhead, "Enslaved Person")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Auction in January 1775 as part of an estate sale").

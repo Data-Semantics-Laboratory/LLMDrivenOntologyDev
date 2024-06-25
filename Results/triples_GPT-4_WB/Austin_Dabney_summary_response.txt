@@ -1,0 +1,29 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Austin Dabney, "Austin Dabney")
+2. has_Surname(Agent, Surname): has_Surname(Austin Dabney, "Dabney")
+3. has_First_Name(Agent, First_Name): has_First_Name(Austin Dabney, "Austin").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Austin Dabney, "Enslaver"), has_Interagent_Relationship_Type_To(Austin Dabney, "Caretaker")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Austin Dabney, "Richard Aycock"), is_Relationship_To(Austin Dabney, "Harris family").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Austin Dabney, "Soldier in the Georgia Militia").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Austin Dabney, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Austin Dabney, "Slave, Soldier").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Austin Dabney, 65)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Austin Dabney, "Around 1765")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Austin Dabney, "1830").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Austin Dabney, "Mulatto").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Austin Dabney, "Enslaved Person, Free Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Act of the Georgia legislature"), has_Status_Generating_Event(Free Man, "War Service").

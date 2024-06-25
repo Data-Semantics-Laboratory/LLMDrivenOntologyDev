@@ -1,0 +1,30 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Dred Scott, "Dred Scott")
+2. has_Surname(Agent, Surname): has_Surname(Dred Scott, "Scott")
+3. has_First_Name(Agent, First_Name): has_First_Name(Dred Scott, "Dred").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Dred Scott, "Spouse"), has_Interagent_Relationship_Type_To(Dred Scott, "Parent")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Dred Scott, "Harriet"), is_Relationship_To(Dred Scott, "Eliza"), is_Relationship_To(Dred Scott, "Lizzie").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Dred Scott, "Plaintiff")
+2. Role_Provided_by(Agent_Role, Event): Role_Provided_by(Plaintiff, "Dred Scott v. Sandford case of 1857"), Role_Provided_by(Plaintiff, "Scott v. Emerson case of 1847").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Dred Scott, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Dred Scott, "Slave").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Dred Scott, 59)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Dred Scott, "Around 1799")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Dred Scott, "September 17, 1858").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Dred Scott, "African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Dred Scott, "Enslaved Person"), has_Person_Status(Dred Scott, "Freed Person")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Dred Scott v. Sandford case of 1857"), has_Status_Generating_Event(Freed Person, "Private arrangement in May 1857").

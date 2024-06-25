@@ -1,0 +1,23 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Benjamin Sterling Turner, "Benjamin Sterling Turner")
+2. has_Surname(Agent, Surname): has_Surname(Benjamin Sterling Turner, "Turner")
+3. has_First_Name(Agent, First_Name): has_First_Name(Benjamin Sterling Turner, "Benjamin").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Benjamin Sterling Turner, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Benjamin Sterling Turner, "Major W. H. Gee").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Benjamin Sterling Turner, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Benjamin Sterling Turner, "Slave, Businessman, Politician").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Benjamin Sterling Turner, 69)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Benjamin Sterling Turner, "March 17, 1825")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Benjamin Sterling Turner, "March 21, 1894").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Benjamin Sterling Turner, "Enslaved Person, Businessman, Politician")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Sale to Major W. H. Gee"), has_Status_Generating_Event(Businessman, "Emancipation"), has_Status_Generating_Event(Politician, "Emancipation").

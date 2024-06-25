@@ -1,0 +1,30 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Benjamin "Pap" Singleton, "Benjamin 'Pap' Singleton")
+2. has_Surname(Agent, Surname): has_Surname(Benjamin "Pap" Singleton, "Singleton")
+3. has_First_Name(Agent, First_Name): has_First_Name(Benjamin "Pap" Singleton, "Benjamin")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Benjamin "Pap" Singleton, "Pap")
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Benjamin "Pap" Singleton, "Parent"), has_Interagent_Relationship_Type_To(Benjamin "Pap" Singleton, "Grandparent")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Benjamin "Pap" Singleton, "Emily"), is_Relationship_To(Benjamin "Pap" Singleton, "Sarah"), is_Relationship_To(Benjamin "Pap" Singleton, "Joshua W. Singleton"), is_Relationship_To(Benjamin "Pap" Singleton, "John Williams Jr."), is_Relationship_To(Benjamin "Pap" Singleton, "Midge Williams"), is_Relationship_To(Benjamin "Pap" Singleton, "Charles"), is_Relationship_To(Benjamin "Pap" Singleton, "Robert Williams")
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Benjamin "Pap" Singleton, "Significant participant in the establishment of African American settlements in Kansas and the movement of black colonists, known as Exodusters")
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Benjamin "Pap" Singleton, "Male")
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Benjamin "Pap" Singleton, "Slave, Activist, Businessman, Abolitionist, Community Leader, Spokesman for African-American civil rights")
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Benjamin "Pap" Singleton, 91)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Benjamin "Pap" Singleton, "1809")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Benjamin "Pap" Singleton, "February 17, 1900")
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Benjamin "Pap" Singleton, "African American")
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Benjamin "Pap" Singleton, "Slave"), has_Person_Status(Benjamin "Pap" Singleton, "Free Man"), has_Person_Status(Benjamin "Pap" Singleton, "Abolitionist"), has_Person_Status(Benjamin "Pap" Singleton, "Civil Rights Spokesman")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Slave, "Escape to freedom in Ontario, Canada in 1846"), has_Status_Generating_Event(Free Man, "Escape to freedom in Ontario, Canada in 1846"), has_Status_Generating_Event(Abolitionist, "Escape to freedom in Ontario, Canada in 1846"), has_Status_Generating_Event(Civil Rights Spokesman, "Escape to freedom in Ontario, Canada in 1846")

@@ -1,0 +1,29 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Henry Highland Garnet, "Henry Highland Garnet")
+2. has_Surname(Agent, Surname): has_Surname(Henry Highland Garnet, "Garnet")
+3. has_First_Name(Agent, First_Name): has_First_Name(Henry Highland Garnet, "Henry").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Henry Highland Garnet, "Spouse") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Henry Highland Garnet, "Julia Ward Williams"), is_Relationship_To(Henry Highland Garnet, "Sarah Smith Tompkins").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Henry Highland Garnet, "Advocate of militant abolitionism"), has_Participant_Role(Henry Highland Garnet, "Public Speaker"), has_Participant_Role(Henry Highland Garnet, "First African American to speak in the U.S. House of Representatives").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Henry Highland Garnet, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Henry Highland Garnet, "Abolitionist, Minister, Educator, Orator, Diplomat, Supporter of the Cuban independence movement").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Henry Highland Garnet, 66)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Henry Highland Garnet, "December 23, 1815")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Henry Highland Garnet, "February 13, 1882").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Henry Highland Garnet, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Henry Highland Garnet, "Slave, Prominent Abolitionist, Diplomat")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Slave, "Born into slavery"), has_Status_Generating_Event(Prominent Abolitionist, "Escaped slavery in 1824"), has_Status_Generating_Event(Diplomat, "Education").

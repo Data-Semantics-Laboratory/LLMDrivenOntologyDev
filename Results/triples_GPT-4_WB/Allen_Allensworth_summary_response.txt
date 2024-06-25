@@ -1,0 +1,31 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Allen Allensworth, "Allen Allensworth")
+2. has_Surname(Agent, Surname): has_Surname(Allen Allensworth, "Allensworth")
+3. has_First_Name(Agent, First_Name): has_First_Name(Allen Allensworth, "Allen").
+
+Interagent Relationship Record Module:
+No information provided.
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Allen Allensworth, "Union Soldier"), has_Participant_Role(Allen Allensworth, "Public Speaker"), has_Participant_Role(Allen Allensworth, "Teacher"), has_Participant_Role(Allen Allensworth, "Chaplain in the United States Army").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Allen Allensworth, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Allen Allensworth, "Slave"), has_Occupation(Allen Allensworth, "Soldier"), has_Occupation(Allen Allensworth, "Baptist Minister"), has_Occupation(Allen Allensworth, "Teacher"), has_Occupation(Allen Allensworth, "Chaplain"), has_Occupation(Allen Allensworth, "Public Speaker"), has_Occupation(Allen Allensworth, "Community Leader").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Allen Allensworth, 72)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Allen Allensworth, "April 7, 1842")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Allen Allensworth, "September 14, 1914").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Allen Allensworth, "African American").
+
+Ethnolinguistic Descriptor Record Module: 
+No information provided.
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Allen Allensworth, "Enslaved Person"), has_Person_Status(Allen Allensworth, "Soldier"), has_Person_Status(Allen Allensworth, "Minister"), has_Person_Status(Allen Allensworth, "Teacher"), has_Person_Status(Allen Allensworth, "Chaplain"), has_Person_Status(Allen Allensworth, "Public Speaker"), has_Person_Status(Allen Allensworth, "Community Leader")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Escape during the American Civil War"), has_Status_Generating_Event(Soldier, "Participation in the American Civil War"), has_Status_Generating_Event(Minister, "Appointment as a Baptist Minister"), has_Status_Generating_Event(Teacher, "Appointment as a Teacher"), has_Status_Generating_Event(Chaplain, "Appointment as a Chaplain in the United States Army"), has_Status_Generating_Event(Public Speaker, "Appointment as a Public Speaker"), has_Status_Generating_Event(Community Leader, "Appointment as a Community Leader").

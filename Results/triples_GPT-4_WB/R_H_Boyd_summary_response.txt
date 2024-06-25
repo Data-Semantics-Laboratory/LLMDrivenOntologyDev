@@ -1,0 +1,22 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Richard Henry Boyd, "Richard Henry Boyd")
+2. has_Surname(Agent, Surname): has_Surname(Richard Henry Boyd, "Boyd")
+3. has_First_Name(Agent, First_Name): has_First_Name(Richard Henry Boyd, "Richard").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Richard Henry Boyd, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Richard Henry Boyd, "Minister, Businessman, Founder of the National Baptist Publishing Board and the National Baptist Convention of America, Inc.").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Richard Henry Boyd, 79)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Richard Henry Boyd, "March 15, 1843")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Richard Henry Boyd, "August 22, 1922").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Richard Henry Boyd, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Richard Henry Boyd, "Slave, Minister, Businessman")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Slave, "Birth"), has_Status_Generating_Event(Minister, "Self-Education"), has_Status_Generating_Event(Businessman, "Emancipation").

@@ -1,0 +1,26 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(James William Charles Pennington, "James William Charles Pennington")
+2. has_Surname(Agent, Surname): has_Surname(James William Charles Pennington, "Pennington")
+3. has_First_Name(Agent, First_Name): has_First_Name(James William Charles Pennington, "James")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(James William Charles Pennington, "James W.C. Pennington").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(James William Charles Pennington, "Participant in the Second World Conference on Slavery in London"), has_Participant_Role(James William Charles Pennington, "Participant in the desegregation of the New York City public transit system").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(James William Charles Pennington, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(James William Charles Pennington, "Historian, Abolitionist, Orator, Minister, Writer, Social Organizer, Delegate").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(James William Charles Pennington, "Unknown")
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(James William Charles Pennington, "1807")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(James William Charles Pennington, "October 22, 1870").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(James William Charles Pennington, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(James William Charles Pennington, "Student at Yale University, Abolitionist, Minister")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Student at Yale University, "Attending Yale University"), has_Status_Generating_Event(Minister, "Ordination"), has_Status_Generating_Event(Abolitionist, "Participation in the Second World Conference on Slavery"), has_Status_Generating_Event(Abolitionist, "Protesting against segregation"), has_Status_Generating_Event(Abolitionist, "Recruiting black troops for the Union Army"), has_Status_Generating_Event(Minister, "Being awarded an honorary doctorate of divinity by the University of Heidelberg"), has_Status_Generating_Event(Student at Yale University, "Being awarded a posthumous M.A. Privatum by Yale University").

@@ -1,0 +1,32 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(William Henry Heard, "William Henry Heard")
+2. has_Surname(Agent, Surname): has_Surname(William Henry Heard, "Heard")
+3. has_First_Name(Agent, First_Name): has_First_Name(William Henry Heard, "William").
+
+Interagent Relationship Record Module:
+No information available.
+
+Participant Role Record Module:
+No information available.
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(William Henry Heard, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(William Henry Heard, "Malacologist, Professor, Author").
+
+Age Record Module: 
+1. has_Age(Agent, Age): Not available.
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(William Henry Heard, "1935")
+3. has_DeathDate(Agent, Date_of_Death): Not available.
+
+Race Record Module: 
+No information available.
+
+Ethnolinguistic Descriptor Record Module: 
+No information available.
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(William Henry Heard, "Emeritus Professor at Florida State University, Recipient of the Lifetime Achievement Award from the Freshwater Mollusk Conservation Society, Expert on freshwater mollusks, Two species of mayflies named in his honor")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Emeritus Professor at Florida State University, "Retirement"), has_Status_Generating_Event(Recipient of the Lifetime Achievement Award from the Freshwater Mollusk Conservation Society, "Award Ceremony"), has_Status_Generating_Event(Expert on freshwater mollusks, "Research and Publications"), has_Status_Generating_Event(Two species of mayflies named in his honor, "Recognition in the field of malacology").
+3. recorded_At(Person_Status_information, Event): recorded_At(Emeritus Professor at Florida State University, "Retirement"), recorded_At(Recipient of the Lifetime Achievement Award from the Freshwater Mollusk Conservation Society, "Award Ceremony"), recorded_At(Expert on freshwater mollusks, "Research and Publications"), recorded_At(Two species of mayflies named in his honor, "Recognition in the field of malacology").

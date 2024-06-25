@@ -1,0 +1,29 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Anthony Burns, "Anthony Burns")
+2. has_Surname(Agent, Surname): has_Surname(Anthony Burns, "Burns")
+3. has_First_Name(Agent, First_Name): has_First_Name(Anthony Burns, "Anthony").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Anthony Burns, "Enslaver or Owner"), has_Interagent_Relationship_Type_To(Anthony Burns, "Abolitionist") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Anthony Burns, "Millspaugh"), is_Relationship_To(Anthony Burns, "Leonard Grimes").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Anthony Burns, "Trial Participant under the Fugitive Slave Act of 1850").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Anthony Burns, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Anthony Burns, "Small jobs in the city, Cook, Worker in a clothing store, Baptist preacher").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Anthony Burns, 28)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Anthony Burns, "May 31, 1834")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Anthony Burns, "July 17, 1862").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Anthony Burns, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Anthony Burns, "Enslaved Person, Escaped Slave, Tried under the Fugitive Slave Act of 1850, Ransomed from Slavery")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Escape from Slavery"), has_Status_Generating_Event(Escaped Slave, "Trial under the Fugitive Slave Act of 1850"), has_Status_Generating_Event(Tried under the Fugitive Slave Act of 1850, "Ransom from Slavery").

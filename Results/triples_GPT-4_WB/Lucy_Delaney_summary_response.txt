@@ -1,0 +1,27 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Lucy Ann Berry, "Lucy Ann Berry")
+2. has_Surname(Agent, Surname): has_Surname(Lucy Ann Berry, "Delaney")
+3. has_First_Name(Agent, First_Name): has_First_Name(Lucy Ann Berry, "Lucy")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Lucy Ann Berry, "Lucy Delaney")
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Lucy Ann Berry, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Lucy Ann Berry, "Major Taylor Berry"), is_Relationship_To(Lucy Ann Berry, "Judge Robert Wash"), is_Relationship_To(Lucy Ann Berry, "Polly Berry")
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Lucy Ann Berry, "Female")
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Lucy Ann Berry, "Seamstress, Slave Narrator, Community Leader")
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Lucy Ann Berry, "Around 1828-1830")
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Lucy Ann Berry, "Around 1828-1830")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Lucy Ann Berry, "August 31, 1910")
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Lucy Ann Berry, "African American")
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Lucy Ann Berry, "Enslaved Person, Free Person")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Lawsuit filed by Polly Berry"), has_Status_Generating_Event(Free Person, "Trial in February 1844")

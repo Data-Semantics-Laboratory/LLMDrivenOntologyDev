@@ -1,0 +1,29 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Paul Jennings, "Paul Jennings")
+2. has_Surname(Agent, Surname): has_Surname(Paul Jennings, "Jennings")
+3. has_First_Name(Agent, First_Name): has_First_Name(Paul Jennings, "Paul").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Paul Jennings, "Enslaved by"), has_Interagent_Relationship_Type_To(Paul Jennings, "Bought by")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Paul Jennings, "President James Madison"), is_Relationship_To(Paul Jennings, "Senator Daniel Webster").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Paul Jennings, "Saved the Gilbert Stuart portrait of George Washington"), has_Participant_Role(Paul Jennings, "Planned a mass escape of 77 enslaved people").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Paul Jennings, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Paul Jennings, "Slave, Footman, Body Servant, Abolitionist, Writer, Worker at the Pension Bureau").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Paul Jennings, 75)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Paul Jennings, "Around 1799")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Paul Jennings, "1874").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Paul Jennings, "African-Native American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Paul Jennings, "Enslaved Person, Freed Person")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Sold to an insurance agent"), has_Status_Generating_Event(Freed Person, "Bought by Senator Daniel Webster"), has_Status_Generating_Event(Freed Person, "Participated in a mass escape of enslaved people").

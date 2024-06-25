@@ -1,0 +1,42 @@
+Name Record Module: 
+1. has_Name(Primus Hall, "Primus Hall")
+2. has_Surname(Primus Hall, "Hall")
+3. has_First_Name(Primus Hall, "Primus")
+4. has_Alternate_Name(Primus Hall, "Primus Trask")
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Primus Hall, "Owner")
+2. is_Relationship_To(Primus Hall, "Ezra Trask")
+
+Participant Role Record Module:
+1. has_Participant_Role(Primus Hall, "Revolutionary War soldier in the 5th Massachusetts Regiment")
+2. has_Participant_Role(Primus Hall, "Steward for Quartermaster General Timothy Pickering")
+3. Role_Provided_by(Revolutionary War soldier in the 5th Massachusetts Regiment, "Revolutionary War")
+4. Role_Provided_by(Steward for Quartermaster General Timothy Pickering, "Quartermaster General Timothy Pickering")
+
+Sex Record Module:
+1. has_Sex(Primus Hall, "Male")
+
+Occupation Record Module: 
+1. has_Occupation(Primus Hall, "Slave")
+2. has_Occupation(Primus Hall, "Soldier")
+3. has_Occupation(Primus Hall, "Steward")
+4. has_Occupation(Primus Hall, "School Founder")
+5. has_Occupation(Primus Hall, "Property Owner")
+
+Age Record Module: 
+1. has_Age(Primus Hall, 86)
+2. has_BirthDate(Primus Hall, "February 29, 1756")
+3. has_DeathDate(Primus Hall, "March 22, 1842")
+
+Person Status Record Module: 
+1. has_Person_Status (Primus Hall, "Slave")
+2. has_Person_Status (Primus Hall, "Soldier")
+3. has_Person_Status (Primus Hall, "Steward")
+4. has_Person_Status (Primus Hall, "School Founder")
+5. has_Person_Status (Primus Hall, "Property Owner")
+6. has_Status_Generating_Event(Slave, "Born into slavery")
+7. has_Status_Generating_Event(Soldier, "Service in the Revolutionary War")
+8. has_Status_Generating_Event(Steward, "Work for Timothy Pickering")
+9. has_Status_Generating_Event(School Founder, "Establishment of a school")
+10. has_Status_Generating_Event(Property Owner, "Property ownership")

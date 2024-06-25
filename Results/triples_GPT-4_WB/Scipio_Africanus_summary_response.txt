@@ -1,0 +1,27 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Publius Cornelius Scipio Africanus, "Publius Cornelius Scipio Africanus")
+2. has_Surname(Agent, Surname): has_Surname(Publius Cornelius Scipio Africanus, "Scipio")
+3. has_First_Name(Agent, First_Name): has_First_Name(Publius Cornelius Scipio Africanus, "Publius")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Publius Cornelius Scipio Africanus, "Africanus").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Publius Cornelius Scipio Africanus, "Opponent"), has_Interagent_Relationship_Type_To(Publius Cornelius Scipio Africanus, "Victor")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Publius Cornelius Scipio Africanus, "Hannibal"), is_Relationship_To(Publius Cornelius Scipio Africanus, "Cato the Elder").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Publius Cornelius Scipio Africanus, "Participant in the Second Punic War"), has_Participant_Role(Publius Cornelius Scipio Africanus, "Founder of Italica"), has_Participant_Role(Publius Cornelius Scipio Africanus, "Participant in the war with Antiochus").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Publius Cornelius Scipio Africanus, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Publius Cornelius Scipio Africanus, "Roman General"), has_Occupation(Publius Cornelius Scipio Africanus, "Statesman"), has_Occupation(Publius Cornelius Scipio Africanus, "Consul"), has_Occupation(Publius Cornelius Scipio Africanus, "Priest of Mars").
+
+Age Record Module: 
+1. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Publius Cornelius Scipio Africanus, "236/235 BC")
+2. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Publius Cornelius Scipio Africanus, "183 BC").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Publius Cornelius Scipio Africanus, "General"), has_Person_Status(Publius Cornelius Scipio Africanus, "Consul"), has_Person_Status(Publius Cornelius Scipio Africanus, "Priest")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(General, "Victories in wars"), has_Status_Generating_Event(Consul, "Elections"), has_Status_Generating_Event(Priest, "Appointment as Priest of Mars")
+3. recorded_At(Person_Status_information, Event): recorded_At(General, "Victories in wars"), recorded_At(Consul, "Elections"), recorded_At(Priest, "Appointment as Priest of Mars").

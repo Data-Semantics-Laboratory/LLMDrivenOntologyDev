@@ -1,0 +1,24 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Robert Blake, "Robert Blake")
+2. has_Surname(Agent, Surname): has_Surname(Robert Blake, "Blake")
+3. has_First_Name(Agent, First_Name): has_First_Name(Robert Blake, "Robert")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Robert Blake, "Michael James Gubitosi").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Robert Blake, "Spouse"), has_Interagent_Relationship_Type_To(Robert Blake, "Fiancé")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Robert Blake, "Sondra Kerr"), is_Relationship_To(Robert Blake, "Bonny Lee Bakley"), is_Relationship_To(Robert Blake, "Pamela Hudak").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Robert Blake, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Robert Blake, "Actor").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Robert Blake, 89)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Robert Blake, "September 18, 1933")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Robert Blake, "March 9, 2023").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Robert Blake, "Arrested"), has_Person_Status(Robert Blake, "Acquitted"), has_Person_Status(Robert Blake, "Found Liable"), has_Person_Status(Robert Blake, "Bankrupt")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Arrested, "Murder of Bonny Lee Bakley"), has_Status_Generating_Event(Acquitted, "Acquittal from murder charges"), has_Status_Generating_Event(Found Liable, "Civil suit for wrongful death"), has_Status_Generating_Event(Bankrupt, "Ordered to pay a hefty amount").

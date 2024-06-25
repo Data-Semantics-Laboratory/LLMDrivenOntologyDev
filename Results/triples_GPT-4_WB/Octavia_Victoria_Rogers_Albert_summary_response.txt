@@ -1,0 +1,26 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Octavia Rogers Albert, "Octavia Rogers Albert")
+2. has_Surname(Agent, Surname): has_Surname(Octavia Rogers Albert, "Albert")
+3. has_First_Name(Agent, First_Name): has_First_Name(Octavia Rogers Albert, "Octavia").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Octavia Rogers Albert, "Spouse") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Octavia Rogers Albert, "Aristide Elphonso Peter Albert").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Octavia Rogers Albert, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Octavia Rogers Albert, "Slave, Teacher, Author").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Octavia Rogers Albert, 35)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Octavia Rogers Albert, "December 24, 1853")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Octavia Rogers Albert, "August 19, 1889").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Octavia Rogers Albert, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Octavia Rogers Albert, "Enslaved Person, Free Person, Teacher, Author")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Abolition of Slavery"), has_Status_Generating_Event(Free Person, "Abolition of Slavery"), has_Status_Generating_Event(Teacher, "Education"), has_Status_Generating_Event(Author, "Christian Service").

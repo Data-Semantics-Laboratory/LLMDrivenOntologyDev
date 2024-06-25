@@ -1,0 +1,30 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Olaudah Equiano, "Olaudah Equiano")
+2. has_Surname(Agent, Surname): has_Surname(Olaudah Equiano, "Equiano")
+3. has_First_Name(Agent, First_Name): has_First_Name(Olaudah Equiano, "Olaudah")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Olaudah Equiano, "Gustavus Vassa").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Olaudah Equiano, "Enslaver or Owner"), has_Interagent_Relationship_Type_To(Olaudah Equiano, "Spouse"), has_Interagent_Relationship_Type_To(Olaudah Equiano, "Parent")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Olaudah Equiano, "Royal Navy officer"), is_Relationship_To(Olaudah Equiano, "Susannah Cullen"), is_Relationship_To(Olaudah Equiano, "Anna Maria"), is_Relationship_To(Olaudah Equiano, "Joanna").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Olaudah Equiano, "Leading figure in the British abolitionist movement"), has_Participant_Role(Olaudah Equiano, "Member of the Sons of Africa").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Olaudah Equiano, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Olaudah Equiano, "Writer, Abolitionist, Spokesman for the black community in London").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Olaudah Equiano, 52)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Olaudah Equiano, "Around 1745")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Olaudah Equiano, "March 31, 1797").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Olaudah Equiano, "African").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Olaudah Equiano, "Enslaved Person, Free Person, Leading figure in the abolitionist movement")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Sold to a Royal Navy officer"), has_Status_Generating_Event(Free Person, "Purchased his freedom in 1766"), has_Status_Generating_Event(Leading figure in the abolitionist movement, "Becoming a leading figure in the abolitionist movement").

@@ -1,0 +1,30 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Elizabeth Key Grinstead, "Elizabeth Key Grinstead")
+2. has_Surname(Agent, Surname): has_Surname(Elizabeth Key Grinstead, "Grinstead")
+3. has_First_Name(Agent, First_Name): has_First_Name(Elizabeth Key Grinstead, "Elizabeth").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Elizabeth Key Grinstead, "Father"), has_Interagent_Relationship_Type_To(Elizabeth Key Grinstead, "Common-law Husband")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Elizabeth Key Grinstead, "Englishman"), is_Relationship_To(Elizabeth Key Grinstead, "William Grinstead").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Elizabeth Key Grinstead, "Lawsuit Participant").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Elizabeth Key Grinstead, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Elizabeth Key Grinstead, "Slave"), has_Occupation(Elizabeth Key Grinstead, "Free Woman").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Elizabeth Key Grinstead, "Not Mentioned")
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Elizabeth Key Grinstead, "1630")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Elizabeth Key Grinstead, "Not Mentioned").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Elizabeth Key Grinstead, "Mulatto").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Elizabeth Key Grinstead, "Enslaved Person"), has_Person_Status(Elizabeth Key Grinstead, "Free Woman")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Lawsuit for Freedom"), has_Status_Generating_Event(Free Woman, "Lawsuit for Freedom")
+3. recorded_At(Person_Status_information, Event): recorded_At(Enslaved Person, "Lawsuit for Freedom"), recorded_At(Free Woman, "Lawsuit for Freedom").

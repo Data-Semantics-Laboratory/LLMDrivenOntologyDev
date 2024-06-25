@@ -1,0 +1,27 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Cyrus Bustill, "Cyrus Bustill")
+2. has_Surname(Agent, Surname): has_Surname(Cyrus Bustill, "Bustill")
+3. has_First_Name(Agent, First_Name): has_First_Name(Cyrus Bustill, "Cyrus").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Cyrus Bustill, "Son"), has_Interagent_Relationship_Type_To(Cyrus Bustill, "Enslaved Person")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Cyrus Bustill, "Samuel Bustill"), is_Relationship_To(Cyrus Bustill, "Parthenia"), is_Relationship_To(Cyrus Bustill, "Thomas Prior").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Cyrus Bustill, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Cyrus Bustill, "Brewer, Baker, Abolitionist, Community Leader").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Cyrus Bustill, 74)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Cyrus Bustill, "February 2, 1732")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Cyrus Bustill, "1806").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Cyrus Bustill, "African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Cyrus Bustill, "Enslaved Person, Community Leader")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Sale to Thomas Prior"), has_Status_Generating_Event(Community Leader, "Manumission by Prior or Earnings")
+3. recorded_At(Person_Status_information, Event): recorded_At(Enslaved Person, "Sale to Thomas Prior"), recorded_At(Community Leader, "Manumission by Prior or Earnings").

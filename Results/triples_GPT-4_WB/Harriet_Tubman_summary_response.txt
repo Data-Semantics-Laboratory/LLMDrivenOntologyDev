@@ -1,0 +1,30 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Harriet Tubman, "Harriet Tubman")
+2. has_Surname(Agent, Surname): has_Surname(Harriet Tubman, "Tubman")
+3. has_First_Name(Agent, First_Name): has_First_Name(Harriet Tubman, "Harriet")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Harriet Tubman, "Araminta Ross").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Harriet Tubman, "Enslaver or Owner"), has_Interagent_Relationship_Type_To(Harriet Tubman, "Husband")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Harriet Tubman, "Anthony Thompson"), is_Relationship_To(Harriet Tubman, "John Tubman").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Harriet Tubman, "Abolitionist"), has_Participant_Role(Harriet Tubman, "Underground Railroad Participant"), has_Participant_Role(Harriet Tubman, "Civil War Participant"), has_Participant_Role(Harriet Tubman, "Women's Suffrage Movement Participant").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Harriet Tubman, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Harriet Tubman, "Slave, Abolitionist, Social Activist, Armed Scout and Spy for the Union Army, Women's Suffrage Activist").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Harriet Tubman, 91)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Harriet Tubman, "March 1822")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Harriet Tubman, "March 10, 1913").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Harriet Tubman, "African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Harriet Tubman, "Enslaved Person, Abolitionist, Social Activist")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Escape to Philadelphia"), has_Status_Generating_Event(Abolitionist, "Escape to Philadelphia"), has_Status_Generating_Event(Social Activist, "Escape to Philadelphia").

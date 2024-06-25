@@ -1,0 +1,24 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Thomas Sims, "Thomas Sims")
+2. has_Surname(Agent, Surname): has_Surname(Thomas Sims, "Sims")
+3. has_First_Name(Agent, First_Name): has_First_Name(Thomas Sims, "Thomas").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Thomas Sims, "Fugitive Slave"), has_Interagent_Relationship_Type_To(Thomas Sims, "Judge")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Thomas Sims, "Anthony Burns"), is_Relationship_To(Thomas Sims, "Edward G. Loring").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Thomas Sims, "Participant in significant events leading to the American Civil War"), has_Participant_Role(Thomas Sims, "Arrest under the Fugitive Slave Act of 1850"), has_Participant_Role(Thomas Sims, "Forced return to enslavement").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Thomas Sims, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Thomas Sims, "Slave"), has_Occupation(Thomas Sims, "Escaped Slave"), has_Occupation(Thomas Sims, "Employee at U.S. Department of Justice").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Thomas Sims, "African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Thomas Sims, "Slave"), has_Person_Status(Thomas Sims, "Escaped Slave"), has_Person_Status(Thomas Sims, "Recaptured Slave"), has_Person_Status(Thomas Sims, "Employee at U.S. Department of Justice")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Slave, "Born into slavery"), has_Status_Generating_Event(Escaped Slave, "Escape to Boston"), has_Status_Generating_Event(Recaptured Slave, "Recapture under Fugitive Slave Act"), has_Status_Generating_Event(Employee at U.S. Department of Justice, "Appointment in 1877").

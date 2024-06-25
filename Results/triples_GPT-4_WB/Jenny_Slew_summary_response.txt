@@ -1,0 +1,30 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Jenny Slew, "Jenny Slew")
+2. has_Surname(Agent, Surname): has_Surname(Jenny Slew, "Slew")
+3. has_First_Name(Agent, First_Name): has_First_Name(Jenny Slew, "Jenny").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Jenny Slew, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Jenny Slew, "John Whipple Jr.").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Jenny Slew, "Legal Case Participant").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Jenny Slew, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Jenny Slew, "Free Woman"), has_Occupation(Jenny Slew, "Enslaved Person").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Jenny Slew, 46)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Jenny Slew, "1719")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Jenny Slew, "1765").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Jenny Slew, "Black American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Jenny Slew, "Enslaved Person"), has_Person_Status(Jenny Slew, "Free Woman")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Enslavement by John Whipple Jr."), has_Status_Generating_Event(Free Woman, "Jury Trial")
+3. recorded_At(Person_Status_information, Event): recorded_At(Enslaved Person, "Enslavement by John Whipple Jr."), recorded_At(Free Woman, "Jury Trial").

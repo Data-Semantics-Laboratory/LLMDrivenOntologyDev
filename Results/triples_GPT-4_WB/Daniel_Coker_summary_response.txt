@@ -1,0 +1,30 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Daniel Coker, "Daniel Coker")
+2. has_Surname(Agent, Surname): has_Surname(Daniel Coker, "Coker")
+3. has_First_Name(Agent, First_Name): has_First_Name(Daniel Coker, "Daniel")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Daniel Coker, "Isaac Wright").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Daniel Coker, "Son") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Daniel Coker, "Susan Coker"), is_Relationship_To(Daniel Coker, "Edward Wright").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Daniel Coker, "Participant in the establishment of the African Methodist Episcopal Church"), has_Participant_Role(Daniel Coker, "Participant in the establishment of the West Africa Methodist Church").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Daniel Coker, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Daniel Coker, "Slave, Methodist Minister, Abolitionist, Teacher, Deacon, Missionary").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Daniel Coker, "Not Mentioned")
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Daniel Coker, "1780")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Daniel Coker, "Not Mentioned").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Daniel Coker, "Mixed-race African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Daniel Coker, "Slave, Free Man, Opponent of Slavery")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Slave, "Born into Slavery"), has_Status_Generating_Event(Free Man, "Escape to New York"), has_Status_Generating_Event(Free Man, "Purchase of Freedom"), has_Status_Generating_Event(Opponent of Slavery, "Active Opposition to Slavery").

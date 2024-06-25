@@ -1,0 +1,30 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Anna Julia Cooper, "Anna Julia Cooper")
+2. has_Surname(Agent, Surname): has_Surname(Anna Julia Cooper, "Cooper")
+3. has_First_Name(Agent, First_Name): has_First_Name(Anna Julia Cooper, "Anna").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Anna Julia Cooper, "Spouse") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Anna Julia Cooper, "George A. C. Cooper").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Anna Julia Cooper, "Participant"),
+2. Role_Provided_by(Agent_Role, Event): Role_Provided_by(Participant, "World's Congress of Representative Women"), Role_Provided_by(Participant, "First Pan-African Conference"), Role_Provided_by(Participant, "American Negro Academy").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Anna Julia Cooper, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Anna Julia Cooper, "Scholar, Author, Educator, Sociologist, Speaker, Black Liberation Activist, Black Feminist Leader").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Anna Julia Cooper, 105)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Anna Julia Cooper, "August 10, 1858")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Anna Julia Cooper, "February 27, 1964").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Anna Julia Cooper, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Anna Julia Cooper, "Enslaved Person, Scholar, Activist, Leader")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Birth"), has_Status_Generating_Event(Scholar, "Earning a Doctoral Degree"), has_Status_Generating_Event(Activist, "Becoming a Prominent Educator and Activist"), has_Status_Generating_Event(Leader, "Holding Leadership Positions in Various Organizations").

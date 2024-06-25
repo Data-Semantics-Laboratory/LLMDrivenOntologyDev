@@ -1,0 +1,26 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Amanda Smith, "Amanda Smith")
+2. has_Surname(Agent, Surname): has_Surname(Amanda Smith, "Smith")
+3. has_First_Name(Agent, First_Name): has_First_Name(Amanda Smith, "Amanda")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Amanda Smith, "Amanda Berry").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Amanda Smith, "Great Grandmother")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Amanda Smith, "Most Reverend Dr. A. Louise Bonaparte").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Amanda Smith, "Leader"), has_Participant_Role(Amanda Smith, "Preacher").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Amanda Smith, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Amanda Smith, "Methodist Preacher"), has_Occupation(Amanda Smith, "Founder of the Amanda Smith Orphanage and Industrial Home for Abandoned and Destitute Colored Children in Chicago").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Amanda Smith, 78)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Amanda Smith, "January 23, 1837")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Amanda Smith, "February 24, 1915").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Amanda Smith, "Former Slave"), has_Person_Status(Amanda Smith, "Methodist Preacher").

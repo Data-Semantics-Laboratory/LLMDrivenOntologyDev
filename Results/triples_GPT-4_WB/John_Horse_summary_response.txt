@@ -1,0 +1,46 @@
+Name Record Module: 
+1. has_Name(John Horse, "John Horse")
+2. has_Surname(John Horse, "Horse")
+3. has_First_Name(John Horse, "John")
+4. has_Alternate_Name(John Horse, "Juan Caballo")
+5. has_Alternate_Name(John Horse, "Juan Cavallo")
+6. has_Alternate_Name(John Horse, "John Cowaya")
+7. has_Alternate_Name(John Horse, "Gopher John")
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(John Horse, "Son")
+2. is_Relationship_To(John Horse, "Charley Cavallo")
+
+Participant Role Record Module:
+1. has_Participant_Role(John Horse, "Field Officer")
+2. has_Participant_Role(John Horse, "Translator")
+3. Role_Provided_by(Field Officer, "Second Seminole War")
+4. Role_Provided_by(Translator, "Second Seminole War")
+
+Sex Record Module:
+1. has_Sex(John Horse, "Male")
+
+Occupation Record Module: 
+1. has_Occupation(John Horse, "Seminole Slave")
+2. has_Occupation(John Horse, "Field Officer")
+3. has_Occupation(John Horse, "Translator")
+4. has_Occupation(John Horse, "Leader among the Black Seminole")
+
+Age Record Module: 
+1. has_Age(John Horse, 70)
+2. has_BirthDate(John Horse, "1812")
+3. has_DeathDate(John Horse, "1882")
+
+Race Record Module: 
+1. has_Race_or_Color(John Horse, "Mixed African and Seminole ancestry")
+
+Ethnolinguistic Descriptor Record Module: 
+1. has_Ethnolinguistic_Descriptor(John Horse, "English")
+2. has_Ethnolinguistic_Descriptor(John Horse, "Spanish")
+3. has_Ethnolinguistic_Descriptor(John Horse, "Hitchiti tongue")
+
+Person Status Record Module: 
+1. has_Person_Status (John Horse, "Seminole Slave")
+2. has_Person_Status (John Horse, "Free Man")
+3. has_Status_Generating_Event(Seminole Slave, "Services during the Second Seminole War")
+4. has_Status_Generating_Event(Free Man, "Services during the Second Seminole War")

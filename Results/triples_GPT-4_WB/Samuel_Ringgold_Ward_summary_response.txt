@@ -1,0 +1,19 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Samuel Ringgold Ward, "Samuel Ringgold Ward")
+2. has_Surname(Agent, Surname): has_Surname(Samuel Ringgold Ward, "Ward")
+3. has_First_Name(Agent, First_Name): has_First_Name(Samuel Ringgold Ward, "Samuel").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Samuel Ringgold Ward, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Samuel Ringgold Ward, "Slave, Abolitionist, Newspaper Editor, Labor Leader, Congregational Church Minister, Author").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Samuel Ringgold Ward, 49)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Samuel Ringgold Ward, "October 17, 1817")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Samuel Ringgold Ward, "1866").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Samuel Ringgold Ward, "Enslaved Person, Abolitionist")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Escape from Slavery"), has_Status_Generating_Event(Abolitionist, "Escape from Slavery").

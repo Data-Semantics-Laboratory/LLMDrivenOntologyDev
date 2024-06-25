@@ -1,0 +1,30 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Sojourner Truth, "Sojourner Truth")
+2. has_Surname(Agent, Surname): has_Surname(Sojourner Truth, "Baumfree")
+3. has_First_Name(Agent, First_Name): has_First_Name(Sojourner Truth, "Isabella")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Sojourner Truth, "Sojourner Truth")
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Sojourner Truth, "Collaborator") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Sojourner Truth, "Marius Robinson"), is_Relationship_To(Sojourner Truth, "Harriet Beecher Stowe")
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Sojourner Truth, "Abolitionist"), has_Participant_Role(Sojourner Truth, "Women's Rights Activist"), has_Participant_Role(Sojourner Truth, "Civil War Participant")
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Sojourner Truth, "Female")
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Sojourner Truth, "Slave, Abolitionist, Activist for African-American Civil Rights, Women's Rights, Alcohol Temperance, Preacher")
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Sojourner Truth, 86)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Sojourner Truth, "1797")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Sojourner Truth, "1883")
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Sojourner Truth, "African American")
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Sojourner Truth, "Slave"), has_Person_Status(Sojourner Truth, "Free Woman")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Slave, "Born into Slavery"), has_Status_Generating_Event(Free Woman, "Escape in 1826")

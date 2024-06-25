@@ -1,0 +1,26 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Cathay Williams, "Cathay Williams")
+2. has_Surname(Agent, Surname): has_Surname(Cathay Williams, "Williams")
+3. has_First_Name(Agent, First_Name): has_First_Name(Cathay Williams, "Cathay")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Cathay Williams, "William Cathay")
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Cathay Williams, "Participant in the Indian Wars")
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Cathay Williams, "Female")
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Cathay Williams, "House Slave"), has_Occupation(Cathay Williams, "Soldier in the U.S. Army")
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Cathay Williams, "Not Mentioned")
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Cathay Williams, "September 1844")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Cathay Williams, "Not Mentioned")
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Cathay Williams, "African-American")
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Cathay Williams, "Slave"), has_Person_Status(Cathay Williams, "Soldier in the U.S. Army")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Slave, "Not Mentioned"), has_Status_Generating_Event(Soldier in the U.S. Army, "Indian Wars")

@@ -1,0 +1,29 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Harriet Jacobs, "Harriet Jacobs")
+2. has_Surname(Agent, Surname): has_Surname(Harriet Jacobs, "Jacobs")
+3. has_First_Name(Agent, First_Name): has_First_Name(Harriet Jacobs, "Harriet").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Harriet Jacobs, "Enslaver"), has_Interagent_Relationship_Type_To(Harriet Jacobs, "Sibling")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Harriet Jacobs, "Norcom"), is_Relationship_To(Harriet Jacobs, "John").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Harriet Jacobs, "Abolitionist"), has_Participant_Role(Harriet Jacobs, "Civil War Aid Provider"), has_Participant_Role(Harriet Jacobs, "School Founder").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Harriet Jacobs, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Harriet Jacobs, "Slave, Nanny, Abolitionist, Writer, Boarding House Operator").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Harriet Jacobs, "Between 1813 and 1815")
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Harriet Jacobs, "Between 1813 and 1815")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Harriet Jacobs, "March 7, 1897").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Harriet Jacobs, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Harriet Jacobs, "Enslaved Person, Abolitionist, Writer")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Escape to the North"), has_Status_Generating_Event(Enslaved Person, "Purchase of freedom by Cornelia Willis"), has_Status_Generating_Event(Abolitionist, "Escape to the North"), has_Status_Generating_Event(Writer, "Writing and Abolitionist work").

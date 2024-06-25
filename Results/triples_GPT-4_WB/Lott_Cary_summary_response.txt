@@ -1,0 +1,23 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Lott Cary, "Lott Cary")
+2. has_Surname(Agent, Surname): has_Surname(Lott Cary, "Cary")
+3. has_First_Name(Agent, First_Name): has_First_Name(Lott Cary, "Lott")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Lott Cary, "Lott Carey"), has_Alternate_Name(Lott Cary, "Lott Gary").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Lott Cary, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Lott Cary, "Baptist minister, lay physician, missionary leader, acting governor of Liberia").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Lott Cary, 48)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Lott Cary, "1780")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Lott Cary, "November 1828").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Lott Cary, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Lott Cary, "Enslaved Person, Free Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Purchase of his freedom"), has_Status_Generating_Event(Free Man, "Purchase of his freedom").

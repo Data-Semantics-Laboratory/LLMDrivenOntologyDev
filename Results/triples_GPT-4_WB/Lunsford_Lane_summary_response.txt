@@ -1,0 +1,22 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Lunsford Lane, "Lunsford Lane")
+2. has_Surname(Agent, Surname): has_Surname(Lunsford Lane, "Lane")
+3. has_First_Name(Agent, First_Name): has_First_Name(Lunsford Lane, "Lunsford").
+
+Interagent Relationship Record Module:
+No information provided.
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Lunsford Lane, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Lunsford Lane, "Slave, Entrepreneur, Abolitionist, Book Agent, Physician, Manufacturer of Patent Medicines").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Lunsford Lane, 76)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Lunsford Lane, "May 30, 1803")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Lunsford Lane, "June 27, 1879").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Lunsford Lane, "Enslaved Person, Entrepreneur, Abolitionist")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Bought his own freedom for $1000"), has_Status_Generating_Event(Entrepreneur, "Move to New York in 1835"), has_Status_Generating_Event(Abolitionist, "Move to New York in 1835").

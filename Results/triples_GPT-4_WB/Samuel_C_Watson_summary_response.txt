@@ -1,0 +1,26 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Samuel C. Watson, "Samuel C. Watson")
+2. has_Surname(Agent, Surname): has_Surname(Samuel C. Watson, "Watson")
+3. has_First_Name(Agent, First_Name): has_First_Name(Samuel C. Watson, "Samuel").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Samuel C. Watson, "Associate") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Samuel C. Watson, "William Whipper"), is_Relationship_To(Samuel C. Watson, "George DeBaptiste").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Samuel C. Watson, "Participant in the Detroit–Chatham Underground Railroad").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Samuel C. Watson, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Samuel C. Watson, "Medical Doctor, Druggist, Civic Leader").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Samuel C. Watson, 60)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Samuel C. Watson, "around 1832")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Samuel C. Watson, "March 13, 1892").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Samuel C. Watson, "Enslaved Person, Medical Doctor, City Councilman")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Born a slave in South Carolina"), has_Status_Generating_Event(Medical Doctor, "Education"), has_Status_Generating_Event(City Councilman, "Political Activity").

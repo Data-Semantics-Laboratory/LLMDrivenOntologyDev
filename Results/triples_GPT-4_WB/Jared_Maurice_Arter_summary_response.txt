@@ -1,0 +1,20 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Jared Maurice Arter, "Jared Maurice Arter")
+2. has_Surname(Agent, Surname): has_Surname(Jared Maurice Arter, "Arter")
+3. has_First_Name(Agent, First_Name): has_First_Name(Jared Maurice Arter, "Jared").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Jared Maurice Arter, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Jared Maurice Arter, "Slave, Writer, Christian Missionary, Academic").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Jared Maurice Arter, 80)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Jared Maurice Arter, "January 27, 1850")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Jared Maurice Arter, "1930").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Jared Maurice Arter, "Enslaved Person, Writer, Christian Missionary, Academic")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Emancipation Proclamation of 1863"), has_Status_Generating_Event(Writer, "Emancipation"), has_Status_Generating_Event(Christian Missionary, "Emancipation"), has_Status_Generating_Event(Academic, "Emancipation")
+3. recorded_At(Person_Status_information, Event): recorded_At(Enslaved Person, "Emancipation Proclamation of 1863"), recorded_At(Writer, "Emancipation"), recorded_At(Christian Missionary, "Emancipation"), recorded_At(Academic, "Emancipation").

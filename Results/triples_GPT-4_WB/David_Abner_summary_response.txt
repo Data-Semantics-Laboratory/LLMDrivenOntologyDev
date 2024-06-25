@@ -1,0 +1,21 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Abner, "Abner")
+2. has_First_Name(Agent, First_Name): has_First_Name(Abner, "Abner").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Abner, "Cousin"), has_Interagent_Relationship_Type_To(Abner, "Commander-in-chief"), has_Interagent_Relationship_Type_To(Abner, "Opponent"), has_Interagent_Relationship_Type_To(Abner, "Supporter")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Abner, "King Saul"), is_Relationship_To(Abner, "David"), is_Relationship_To(Abner, "Ish-bosheth").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Abner, "Commander"), has_Participant_Role(Abner, "Introducer")
+2. Role_Provided_by(Agent_Role, Event): Role_Provided_by(Commander, "Civil war between David and Ish-bosheth"), Role_Provided_by(Introducer, "Introduction of David to Saul").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Abner, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Abner, "Commander-in-chief of King Saul's army").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Abner, "Significant figure in the Hebrew Bible")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Significant figure in the Hebrew Bible, "Role in the civil war"), has_Status_Generating_Event(Significant figure in the Hebrew Bible, "Relationship with David and King Saul"), has_Status_Generating_Event(Significant figure in the Hebrew Bible, "Tomb near the Cave of the Patriarchs in Hebron").

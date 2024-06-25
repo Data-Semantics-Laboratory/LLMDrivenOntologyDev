@@ -1,0 +1,25 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(John Brown, "John Brown")
+2. has_Surname(Agent, Surname): has_Surname(John Brown, "Brown")
+3. has_First_Name(Agent, First_Name): has_First_Name(John Brown, "John")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(John Brown, "Fed").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(John Brown, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(John Brown, "Thomas Stevens").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(John Brown, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(John Brown, "Slave, Carpenter, Author").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(John Brown, 66)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(John Brown, "around 1810")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(John Brown, "1876").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(John Brown, "Enslaved Person, Free Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Sold to a slave trader"), has_Status_Generating_Event(Free Man, "Escape")
+3. recorded_At(Person_Status_information, Event): recorded_At(Enslaved Person, "Sold to a slave trader"), recorded_At(Free Man, "Escape").

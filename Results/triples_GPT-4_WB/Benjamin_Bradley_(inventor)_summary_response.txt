@@ -1,0 +1,18 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Benjamin Boardley, "Benjamin Boardley")
+2. has_Surname(Agent, Surname): has_Surname(Benjamin Boardley, "Boardley")
+3. has_First_Name(Agent, First_Name): has_First_Name(Benjamin Boardley, "Benjamin").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Benjamin Boardley, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Benjamin Boardley, "Slave, Engineer, Inventor, and Philosophical Lecturer").
+
+Age Record Module: 
+1. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Benjamin Boardley, "March 1830")
+2. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Benjamin Boardley, "1904").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Benjamin Boardley, "Enslaved Person, Free Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Purchase of freedom for $1,000 in 1859"), has_Status_Generating_Event(Free Man, "Purchase of freedom for $1,000 in 1859").

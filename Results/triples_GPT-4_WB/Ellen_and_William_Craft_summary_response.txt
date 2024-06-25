@@ -1,0 +1,43 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Ellen Craft, "Ellen Craft")
+2. has_Surname(Agent, Surname): has_Surname(Ellen Craft, "Craft")
+3. has_First_Name(Agent, First_Name): has_First_Name(Ellen Craft, "Ellen").
+4. has_Name(Agent, Name): has_Name(William Craft, "William Craft")
+5. has_Surname(Agent, Surname): has_Surname(William Craft, "Craft")
+6. has_First_Name(Agent, First_Name): has_First_Name(William Craft, "William").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Ellen Craft, "Spouse") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Ellen Craft, "William Craft").
+3. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(William Craft, "Spouse") 
+4. is_Relationship_To(Agent, Agent): is_Relationship_To(William Craft, "Ellen Craft").
+
+Participant Role Record Module:
+1. has_Participant_Role(Ellen Craft, "Escapee from slavery")
+2. has_Participant_Role(William Craft, "Escapee from slavery")
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Ellen Craft, "Female").
+2. has_Sex(Agent, Sex_Type): has_Sex(William Craft, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Ellen Craft, "Slave, Abolitionist, Educator").
+2. has_Occupation(Agent, Occupation): has_Occupation(William Craft, "Slave, Abolitionist, Educator").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Ellen Craft, 65)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Ellen Craft, "1826")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Ellen Craft, "1891").
+4. has_Age(Agent, Age): has_Age(William Craft, 75)
+5. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(William Craft, "September 25, 1824")
+6. has_DeathDate(Agent, Date_of_Death): has_DeathDate(William Craft, "January 29, 1900").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Ellen Craft, "African American").
+2. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(William Craft, "African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Ellen Craft, "Enslaved Person, Abolitionist, Educator")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Escape from Macon, Georgia"), has_Status_Generating_Event(Abolitionist, "Escape from slavery"), has_Status_Generating_Event(Educator, "Education after escape").
+3. has_Person_Status (Agent, Person_Status): has_Person_Status(William Craft, "Enslaved Person, Abolitionist, Educator")
+4. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Escape from Macon, Georgia"), has_Status_Generating_Event(Abolitionist, "Escape from slavery"), has_Status_Generating_Event(Educator, "Education after escape").

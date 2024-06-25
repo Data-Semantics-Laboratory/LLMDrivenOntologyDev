@@ -1,0 +1,27 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Samuel Green, "Samuel Green")
+2. has_Surname(Agent, Surname): has_Surname(Samuel Green, "Green")
+3. has_First_Name(Agent, First_Name): has_First_Name(Samuel Green, "Samuel").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Samuel Green, "Prosecuted") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Samuel Green, "Charles F. Goldsborough").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Samuel Green, "Founder and Trustee of the Mt. Zion Methodist Church"), has_Participant_Role(Samuel Green, "Worker at the Centenary Biblical Institute").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Samuel Green, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Samuel Green, "Slave, Minister, Conductor of the Underground Railroad, Worker at the Maryland Penitentiary").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Samuel Green, 75)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Samuel Green, "1802")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Samuel Green, "February 28, 1877").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Samuel Green, "Enslaved Person, Free Man, Convicted, Pardoned")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Purchase of Freedom"), has_Status_Generating_Event(Free Man, "Purchase of Freedom"), has_Status_Generating_Event(Convicted, "Possession of an anti-slavery novel"), has_Status_Generating_Event(Pardoned, "Pardon after five years")
+3. recorded_At(Person_Status_information, Event): recorded_At(Enslaved Person, "Purchase of Freedom"), recorded_At(Free Man, "Purchase of Freedom"), recorded_At(Convicted, "Possession of an anti-slavery novel"), recorded_At(Pardoned, "Pardon after five years").

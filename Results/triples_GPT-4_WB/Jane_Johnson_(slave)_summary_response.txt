@@ -1,0 +1,30 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Jane Johnson, "Jane Johnson")
+2. has_Surname(Agent, Surname): has_Surname(Jane Johnson, "Johnson")
+3. has_First_Name(Agent, First_Name): has_First_Name(Jane Johnson, "Jane").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Jane Johnson, "Enslaver or Owner"), has_Interagent_Relationship_Type_To(Jane Johnson, "Abolitionists") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Jane Johnson, "John Hill Wheeler"), is_Relationship_To(Jane Johnson, "William Still"), is_Relationship_To(Jane Johnson, "Passmore Williamson").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Jane Johnson, "Legal Case Participant").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Jane Johnson, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Jane Johnson, "Slave, Freed Person").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Jane Johnson, "45-58")
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Jane Johnson, "1814-1827")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Jane Johnson, "August 2, 1872").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Jane Johnson, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Jane Johnson, "Enslaved Person, Freed Person")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Escape to Freedom"), has_Status_Generating_Event(Freed Person, "Escape to Freedom")
+3. recorded_At(Person_Status_information, Event): recorded_At(Enslaved Person, "Escape to Freedom"), recorded_At(Freed Person, "Escape to Freedom").

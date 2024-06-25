@@ -1,0 +1,27 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Ukawsaw Gronniosaw, "Ukawsaw Gronniosaw")
+2. has_Surname(Agent, Surname): has_Surname(Ukawsaw Gronniosaw, "Albert")
+3. has_First_Name(Agent, First_Name): has_First_Name(Ukawsaw Gronniosaw, "James")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Ukawsaw Gronniosaw, "James Albert").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Ukawsaw Gronniosaw, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Ukawsaw Gronniosaw, "Theodorus Jacobus Frelinghuysen").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Ukawsaw Gronniosaw, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Ukawsaw Gronniosaw, "Slave, Autobiographer").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Ukawsaw Gronniosaw, 70)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Ukawsaw Gronniosaw, "around 1705")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Ukawsaw Gronniosaw, "September 28, 1775").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Ukawsaw Gronniosaw, "African").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Ukawsaw Gronniosaw, "Enslaved Person, Free Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Sold into slavery at the age of 15"), has_Status_Generating_Event(Free Man, "Frelinghuysen's death").

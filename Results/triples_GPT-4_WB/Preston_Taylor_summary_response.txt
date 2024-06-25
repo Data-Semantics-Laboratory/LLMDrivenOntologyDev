@@ -1,0 +1,22 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Preston Taylor, "Preston Taylor")
+2. has_Surname(Agent, Surname): has_Surname(Preston Taylor, "Taylor")
+3. has_First_Name(Agent, First_Name): has_First_Name(Preston Taylor, "Preston").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Preston Taylor, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Preston Taylor, "Businessman, Minister, Philanthropist, Soldier in the 116th Regiment Infantry U.S. Colored Troops").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Preston Taylor, 81)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Preston Taylor, "November 7, 1849")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Preston Taylor, "April 13, 1931").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Preston Taylor, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Preston Taylor, "Enslaved Person, Businessman, Minister, Philanthropist")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "End of Civil War"), has_Status_Generating_Event(Businessman, "End of Civil War"), has_Status_Generating_Event(Minister, "End of Civil War"), has_Status_Generating_Event(Philanthropist, "End of Civil War").

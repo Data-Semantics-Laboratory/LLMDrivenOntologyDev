@@ -1,0 +1,29 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(William Lee, "William Lee")
+2. has_Surname(Agent, Surname): has_Surname(William Lee, "Lee")
+3. has_First_Name(Agent, First_Name): has_First_Name(William Lee, "William")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(William Lee, "Billy"), has_Alternate_Name(William Lee, "Will Lee").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(William Lee, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(William Lee, "George Washington").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(William Lee, "Valet"), has_Participant_Role(William Lee, "Huntsman").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(William Lee, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(William Lee, "Slave"), has_Occupation(William Lee, "Personal Assistant"), has_Occupation(William Lee, "Valet"), has_Occupation(William Lee, "Huntsman"), has_Occupation(William Lee, "Shoemaker").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(William Lee, "Unknown")
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(William Lee, "Around 1750").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(William Lee, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(William Lee, "Enslaved Person"), has_Person_Status(William Lee, "Free Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Purchase by Washington in 1768"), has_Status_Generating_Event(Free Man, "Washington's Will").

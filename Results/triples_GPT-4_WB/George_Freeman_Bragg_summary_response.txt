@@ -1,0 +1,25 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(George Freeman Bragg, "George Freeman Bragg")
+2. has_Surname(Agent, Surname): has_Surname(George Freeman Bragg, "Bragg")
+3. has_First_Name(Agent, First_Name): has_First_Name(George Freeman Bragg, "George").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(George Freeman Bragg, "Priest"), has_Participant_Role(George Freeman Bragg, "Journalist"), has_Participant_Role(George Freeman Bragg, "Social Activist"), has_Participant_Role(George Freeman Bragg, "Historian").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(George Freeman Bragg, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(George Freeman Bragg, "Priest"), has_Occupation(George Freeman Bragg, "Journalist"), has_Occupation(George Freeman Bragg, "Social Activist"), has_Occupation(George Freeman Bragg, "Historian").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(George Freeman Bragg, 77)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(George Freeman Bragg, "January 25, 1863")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(George Freeman Bragg, "March 12, 1940").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(George Freeman Bragg, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(George Freeman Bragg, "Enslaved Person"), has_Person_Status(George Freeman Bragg, "Priest"), has_Person_Status(George Freeman Bragg, "Social Activist")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "End of Civil War"), has_Status_Generating_Event(Priest, "Ordination"), has_Status_Generating_Event(Social Activist, "Civil Rights Movement").

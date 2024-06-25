@@ -1,0 +1,26 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Stephen Bishop, "Stephen Bishop")
+2. has_Surname(Agent, Surname): has_Surname(Stephen Bishop, "Bishop")
+3. has_First_Name(Agent, First_Name): has_First_Name(Stephen Bishop, "Stephen").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Stephen Bishop, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Stephen Bishop, "Franklin Gorin").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Stephen Bishop, "Guide"), has_Participant_Role(Stephen Bishop, "Explorer").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Stephen Bishop, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Stephen Bishop, "Cave Explorer"), has_Occupation(Stephen Bishop, "Self-Taught Geologist"), has_Occupation(Stephen Bishop, "Guide at Mammoth Cave").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Stephen Bishop, 36)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Stephen Bishop, "Around 1821")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Stephen Bishop, "1857").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Stephen Bishop, "Enslaved Person"), has_Person_Status(Stephen Bishop, "Freed by Manumission")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Brought to Mammoth Cave by Franklin Gorin in 1838"), has_Status_Generating_Event(Enslaved Person, "Exploring and mapping the cave system"), has_Status_Generating_Event(Enslaved Person, "Marriage to Charlotte Brown"), has_Status_Generating_Event(Freed by Manumission, "Manumission in 1856").

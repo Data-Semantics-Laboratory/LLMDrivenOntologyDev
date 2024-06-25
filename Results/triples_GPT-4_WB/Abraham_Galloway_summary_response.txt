@@ -1,0 +1,20 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Abraham H. Galloway, "Abraham H. Galloway")
+2. has_Surname(Agent, Surname): has_Surname(Abraham H. Galloway, "Galloway")
+3. has_First_Name(Agent, First_Name): has_First_Name(Abraham H. Galloway, "Abraham").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Abraham H. Galloway, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Abraham H. Galloway, "Slave, State Senator in North Carolina").
+
+Age Record Module: 
+1. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Abraham H. Galloway, "February 8, 1837").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Abraham H. Galloway, "African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Abraham H. Galloway, "Enslaved Person, State Senator")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Escape from slavery at the age of 20"), has_Status_Generating_Event(State Senator, "Political career after escape from slavery").

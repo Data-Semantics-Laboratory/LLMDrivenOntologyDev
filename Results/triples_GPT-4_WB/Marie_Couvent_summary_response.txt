@@ -1,0 +1,30 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Marie Bernard Couvent, "Marie Bernard Couvent")
+2. has_Surname(Agent, Surname): has_Surname(Marie Bernard Couvent, "Couvent")
+3. has_First_Name(Agent, First_Name): has_First_Name(Marie Bernard Couvent, "Marie")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Marie Bernard Couvent, "Justin Fervin"), has_Alternate_Name(Marie Bernard Couvent, "Maria Gabriel Bernard Couvent"), has_Alternate_Name(Marie Bernard Couvent, "Marie Justine Cirnaire").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Marie Bernard Couvent, "Spouse") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Marie Bernard Couvent, "Gabriel Bernard Couvent").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Marie Bernard Couvent, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Marie Bernard Couvent, "Slave, Philanthropist").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Marie Bernard Couvent, 80)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Marie Bernard Couvent, "around 1757")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Marie Bernard Couvent, "June 28, 1837").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Marie Bernard Couvent, "African-American").
+
+Ethnolinguistic Descriptor Record Module: 
+1. has_Ethnolinguistic_Descriptor(Agent, Etnolinguistic_Descriptor): has_Ethnolinguistic_Descriptor(Marie Bernard Couvent, "Guinea").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Marie Bernard Couvent, "Enslaved Person, Free Person, Slave Owner, Philanthropist")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Enslavement at age seven"), has_Status_Generating_Event(Free Person, "Obtained freedom"), has_Status_Generating_Event(Slave Owner, "Ownership of slaves"), has_Status_Generating_Event(Philanthropist, "Establishment of school for Black orphans").

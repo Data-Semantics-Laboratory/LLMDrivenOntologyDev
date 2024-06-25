@@ -1,0 +1,33 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Jim Williams, "Jim Williams")
+2. has_Surname(Agent, Surname): has_Surname(Jim Williams, "Rainey")
+3. has_First_Name(Agent, First_Name): has_First_Name(Jim Williams, "James")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Jim Williams, "James Rainey")
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Jim Williams, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Jim Williams, "Samuel Rainey")
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Jim Williams, "Soldier"), has_Participant_Role(Jim Williams, "Militia Leader")
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Jim Williams, "Male")
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Jim Williams, "Soldier"), has_Occupation(Jim Williams, "Militia Leader"), has_Occupation(Jim Williams, "Protector of Black Rights")
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Jim Williams, 41)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Jim Williams, "around 1830")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Jim Williams, "1871")
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Jim Williams, "African-American")
+
+Ethnolinguistic Descriptor Record Module: 
+1. has_Ethnolinguistic_Descriptor(Agent, Etnolinguistic_Descriptor): has_Ethnolinguistic_Descriptor(Jim Williams, "Barbadian descent")
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Jim Williams, "Enslaved Person"), has_Person_Status(Jim Williams, "Soldier"), has_Person_Status(Jim Williams, "Militia Leader")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Escape during the US Civil War"), has_Status_Generating_Event(Soldier, "Joining the Union Army"), has_Status_Generating_Event(Militia Leader, "Leading the Union Leagues")

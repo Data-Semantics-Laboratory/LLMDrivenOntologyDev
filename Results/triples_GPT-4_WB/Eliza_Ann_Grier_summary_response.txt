@@ -1,0 +1,22 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Eliza Anna Grier, "Eliza Anna Grier")
+2. has_Surname(Agent, Surname): has_Surname(Eliza Anna Grier, "Grier")
+3. has_First_Name(Agent, First_Name): has_First_Name(Eliza Anna Grier, "Eliza").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Eliza Anna Grier, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Eliza Anna Grier, "Student, Teacher, Doctor specializing in Obstetrics and Gynecology").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Eliza Anna Grier, 38)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Eliza Anna Grier, "1864")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Eliza Anna Grier, "1902").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Eliza Anna Grier, "African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Eliza Anna Grier, "Enslaved Person, Licensed Medical Practitioner")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "End of American Civil War"), has_Status_Generating_Event(Licensed Medical Practitioner, "Graduation and acceptance into the Woman's Medical College of Pennsylvania").

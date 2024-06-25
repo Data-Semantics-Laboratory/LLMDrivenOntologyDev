@@ -1,0 +1,29 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Solomon Northup, "Solomon Northup")
+2. has_Surname(Agent, Surname): has_Surname(Solomon Northup, "Northup")
+3. has_First_Name(Agent, First_Name): has_First_Name(Solomon Northup, "Solomon").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Solomon Northup, "Helper") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Solomon Northup, "Samuel Bass").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Solomon Northup, "Abolitionist"), has_Participant_Role(Solomon Northup, "Underground Railroad Participant").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Solomon Northup, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Solomon Northup, "Farmer, Professional Violinist, Abolitionist Lecturer").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Solomon Northup, 56)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Solomon Northup, "1807 or 1808")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Solomon Northup, "1864").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Solomon Northup, "African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Solomon Northup, "Free-born, Kidnapped into Slavery, Freed Slave")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Free-born, "Birth"), has_Status_Generating_Event(Kidnapped into Slavery, "Kidnapping"), has_Status_Generating_Event(Freed Slave, "Help from Samuel Bass").

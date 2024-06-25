@@ -1,0 +1,22 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(David George, "David George")
+2. has_Surname(Agent, Surname): has_Surname(David George, "George")
+3. has_First_Name(Agent, First_Name): has_First_Name(David George, "David").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(David George, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(David George, "Slave, Preacher, Founder of the Silver Bluff Baptist Church").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(David George, 68)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(David George, "1742")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(David George, "1810").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(David George, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(David George, "Enslaved Person, Free Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "American Revolutionary War"), has_Status_Generating_Event(Free Man, "Transportation by the British to Nova Scotia").

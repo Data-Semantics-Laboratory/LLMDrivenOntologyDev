@@ -1,0 +1,30 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Prince Whipple, "Prince Whipple")
+2. has_Surname(Agent, Surname): has_Surname(Prince Whipple, "Whipple")
+3. has_First_Name(Agent, First_Name): has_First_Name(Prince Whipple, "Prince")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Prince Whipple, "Caleb Quotom").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Prince Whipple, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Prince Whipple, "General William Whipple").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Prince Whipple, "Soldier"), has_Participant_Role(Prince Whipple, "Bodyguard").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Prince Whipple, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Prince Whipple, "Slave, Soldier, Bodyguard, Freedman").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Prince Whipple, 46)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Prince Whipple, "1750")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Prince Whipple, "1796").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Prince Whipple, "African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Prince Whipple, "Slave, Soldier, Bodyguard, Freedman")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Slave, "Revolutionary War"), has_Status_Generating_Event(Freedman, "Legal manumission by General Whipple").

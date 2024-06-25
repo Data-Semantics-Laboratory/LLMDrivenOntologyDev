@@ -1,0 +1,26 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Callie House, "Callie House")
+2. has_First_Name(Agent, First_Name): has_First_Name(Callie House, "Callie").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Callie House, "Travel Companion") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Callie House, "Isaiah H. Dickerson").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Callie House, "Leader"), has_Participant_Role(Callie House, "Lawsuit Participant")
+2. Role_Provided_by(Agent_Role, Event): Role_Provided_by(Leader, "National Ex-Slave Mutual Relief, Bounty and Pension Association"), Role_Provided_by(Lawsuit Participant, "Class-action lawsuit against the U.S. Treasury Department").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Callie House, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Callie House, "Slave"), has_Occupation(Callie House, "Washerwoman"), has_Occupation(Callie House, "Leader of an organization campaigning for reparations for slavery").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Callie House, 67)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Callie House, "1861")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Callie House, "1928").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Callie House, "Enslaved Person"), has_Person_Status(Callie House, "Leader of reparations movement"), has_Person_Status(Callie House, "Prisoner"), has_Person_Status(Callie House, "Recognized by Vanderbilt University")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Birth"), has_Status_Generating_Event(Leader of reparations movement, "Leadership in the reparations movement"), has_Status_Generating_Event(Prisoner, "Unjust imprisonment in 1916"), has_Status_Generating_Event(Recognized by Vanderbilt University, "Posthumous recognition by Vanderbilt University in 2015").

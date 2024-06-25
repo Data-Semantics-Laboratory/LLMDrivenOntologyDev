@@ -1,0 +1,24 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Madison Washington, "Madison Washington")
+2. has_Surname(Agent, Surname): has_Surname(Madison Washington, "Washington")
+3. has_First_Name(Agent, First_Name): has_First_Name(Madison Washington, "Madison").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Madison Washington, "Slave Trader") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Madison Washington, "John R. Hewell").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Madison Washington, "Leader of the slave rebellion on the brig Creole").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Madison Washington, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Madison Washington, "Enslaved Person, Rebellion Leader").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Madison Washington, "American Enslaved Man").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Madison Washington, "Enslaved Person, Free Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Slave Rebellion"), has_Status_Generating_Event(Free Man, "Slave Rebellion").

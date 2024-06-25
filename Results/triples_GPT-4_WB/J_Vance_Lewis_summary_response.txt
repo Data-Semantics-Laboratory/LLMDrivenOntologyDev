@@ -1,0 +1,24 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Joseph Vance Lewis, "Joseph Vance Lewis")
+2. has_Surname(Agent, Surname): has_Surname(Joseph Vance Lewis, "Lewis")
+3. has_First_Name(Agent, First_Name): has_First_Name(Joseph Vance Lewis, "Joseph").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Joseph Vance Lewis, "Son") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Joseph Vance Lewis, "Doc Lewis").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Joseph Vance Lewis, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Joseph Vance Lewis, "Slave, Student, Teacher, Lawyer, Autobiographer").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Joseph Vance Lewis, 72)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Joseph Vance Lewis, "December 25, 1853")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Joseph Vance Lewis, "April 24, 1925").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Joseph Vance Lewis, "Enslaved Person, Lawyer")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Emancipation Proclamation of 1863"), has_Status_Generating_Event(Lawyer, "Education")
+3. recorded_At(Person_Status_information, Event): recorded_At(Enslaved Person, "Emancipation Proclamation of 1863"), recorded_At(Lawyer, "Education").

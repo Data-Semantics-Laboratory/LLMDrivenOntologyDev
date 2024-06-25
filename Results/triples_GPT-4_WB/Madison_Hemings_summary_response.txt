@@ -1,0 +1,23 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Madison Hemings, "Madison Hemings")
+2. has_Surname(Agent, Surname): has_Surname(Madison Hemings, "Hemings")
+3. has_First_Name(Agent, First_Name): has_First_Name(Madison Hemings, "Madison").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Madison Hemings, "Son") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Madison Hemings, "Sally Hemings"), is_Relationship_To(Madison Hemings, "Thomas Jefferson").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Madison Hemings, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Madison Hemings, "Carpenter, Fine Woodwork Apprentice, Violinist, Farmer").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Madison Hemings, 72)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Madison Hemings, "January 19, 1805")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Madison Hemings, "November 28, 1877").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Madison Hemings, "Enslaved Person, Freedman")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Jefferson's death in 1826"), has_Status_Generating_Event(Freedman, "Emancipation").

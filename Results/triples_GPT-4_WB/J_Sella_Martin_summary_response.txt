@@ -1,0 +1,24 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(John Sella Martin, "John Sella Martin")
+2. has_Surname(Agent, Surname): has_Surname(John Sella Martin, "Martin")
+3. has_First_Name(Agent, First_Name): has_First_Name(John Sella Martin, "John").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(John Sella Martin, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(John Sella Martin, "Horace King").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(John Sella Martin, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(John Sella Martin, "Slave, Abolitionist, Pastor, Educator, Politician, Writer").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(John Sella Martin, 44)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(John Sella Martin, "1832")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(John Sella Martin, "1876").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(John Sella Martin, "Slave, Free Man, Abolitionist, Pastor, Educator, Politician")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Slave, "Sold to Horace King"), has_Status_Generating_Event(Free Man, "Escape from slavery in Alabama in 1856"), has_Status_Generating_Event(Abolitionist, "Became an influential abolitionist"), has_Status_Generating_Event(Pastor, "Became a pastor"), has_Status_Generating_Event(Educator, "Became an educator"), has_Status_Generating_Event(Politician, "Became a politician").
+3. recorded_At(Person_Status_information, Event): recorded_At(Slave, "Sold to Horace King"), recorded_At(Free Man, "Escape from slavery in Alabama in 1856"), recorded_At(Abolitionist, "Became an influential abolitionist"), recorded_At(Pastor, "Became a pastor"), recorded_At(Educator, "Became an educator"), recorded_At(Politician, "Became a politician").

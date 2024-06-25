@@ -1,0 +1,27 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Horace Jeremiah "Jerry" Voorhis, "Horace Jeremiah 'Jerry' Voorhis")
+2. has_Surname(Agent, Surname): has_Surname(Horace Jeremiah "Jerry" Voorhis, "Voorhis")
+3. has_First_Name(Agent, First_Name): has_First_Name(Horace Jeremiah "Jerry" Voorhis, "Horace")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Horace Jeremiah "Jerry" Voorhis, "Jerry").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Horace Jeremiah "Jerry" Voorhis, "Political Opponent") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Horace Jeremiah "Jerry" Voorhis, "Richard M. Nixon").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Horace Jeremiah "Jerry" Voorhis, "Politician"), has_Participant_Role(Horace Jeremiah "Jerry" Voorhis, "Educator"), has_Participant_Role(Horace Jeremiah "Jerry" Voorhis, "Executive in the cooperative movement").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Horace Jeremiah "Jerry" Voorhis, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Horace Jeremiah "Jerry" Voorhis, "Democratic Politician"), has_Occupation(Horace Jeremiah "Jerry" Voorhis, "Educator"), has_Occupation(Horace Jeremiah "Jerry" Voorhis, "Executive in the cooperative movement").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Horace Jeremiah "Jerry" Voorhis, 83)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Horace Jeremiah "Jerry" Voorhis, "April 6, 1901")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Horace Jeremiah "Jerry" Voorhis, "September 11, 1984").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Horace Jeremiah "Jerry" Voorhis, "Politician"), has_Person_Status(Horace Jeremiah "Jerry" Voorhis, "Executive in the cooperative movement")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Politician, "1946 re-election"), has_Status_Generating_Event(Executive in the cooperative movement, "End of political career").

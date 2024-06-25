@@ -1,0 +1,29 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Moses Roper, "Moses Roper")
+2. has_Surname(Agent, Surname): has_Surname(Moses Roper, "Roper")
+3. has_First_Name(Agent, First_Name): has_First_Name(Moses Roper, "Moses").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Moses Roper, "Son") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Moses Roper, "Henry Roper"), is_Relationship_To(Moses Roper, "Nancy").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Moses Roper, "Abolitionist"), has_Participant_Role(Moses Roper, "Author"), has_Participant_Role(Moses Roper, "Orator").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Moses Roper, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Moses Roper, "Slave"), has_Occupation(Moses Roper, "Abolitionist"), has_Occupation(Moses Roper, "Author"), has_Occupation(Moses Roper, "Orator").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Moses Roper, 76)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Moses Roper, "around 1815")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Moses Roper, "April 15, 1891").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Moses Roper, "African American"), has_Race_or_Color(Moses Roper, "Indigenous").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Moses Roper, "Enslaved Person"), has_Person_Status(Moses Roper, "Abolitionist")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Birth to an enslaved woman"), has_Status_Generating_Event(Enslaved Person, "Enslavement by several men"), has_Status_Generating_Event(Abolitionist, "Successful escape"), has_Status_Generating_Event(Abolitionist, "Work as an abolitionist").

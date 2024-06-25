@@ -1,0 +1,20 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Lewis Temple, "Lewis Temple")
+2. has_Surname(Agent, Surname): has_Surname(Lewis Temple, "Temple")
+3. has_First_Name(Agent, First_Name): has_First_Name(Lewis Temple, "Lewis").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Lewis Temple, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Lewis Temple, "Inventor, Blacksmith, Abolitionist, Maker of items used in whaling").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Lewis Temple, 53)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Lewis Temple, "October 22, 1800")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Lewis Temple, "May 18, 1854").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Lewis Temple, "Enslaved Person, Inventor, Abolitionist")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Moving to New Bedford, Massachusetts"), has_Status_Generating_Event(Inventor, "Invention of Temple's Toggle"), has_Status_Generating_Event(Abolitionist, "Winning a lawsuit against the city"), has_Status_Generating_Event(Deceased, "Injuries from a city construction worker's negligence")
+3. recorded_At(Person_Status_information, Event): recorded_At(Enslaved Person, "Moving to New Bedford, Massachusetts"), recorded_At(Inventor, "Invention of Temple's Toggle"), recorded_At(Abolitionist, "Winning a lawsuit against the city"), recorded_At(Deceased, "Injuries from a city construction worker's negligence").

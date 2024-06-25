@@ -1,0 +1,18 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Evan Thomas Peters, "Evan Thomas Peters")
+2. has_Surname(Agent, Surname): has_Surname(Evan Thomas Peters, "Peters")
+3. has_First_Name(Agent, First_Name): has_First_Name(Evan Thomas Peters, "Evan").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Evan Thomas Peters, "Partner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Evan Thomas Peters, "Emma Roberts"), is_Relationship_To(Evan Thomas Peters, "Halsey").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Evan Thomas Peters, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Evan Thomas Peters, "Actor").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Evan Thomas Peters, 35)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Evan Thomas Peters, "January 20, 1987").

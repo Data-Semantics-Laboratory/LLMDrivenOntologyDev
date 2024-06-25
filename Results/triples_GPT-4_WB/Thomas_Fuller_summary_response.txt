@@ -1,0 +1,26 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Thomas Fuller, "Thomas Fuller")
+2. has_Surname(Agent, Surname): has_Surname(Thomas Fuller, "Fuller")
+3. has_First_Name(Agent, First_Name): has_First_Name(Thomas Fuller, "Thomas").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Thomas Fuller, "Chaplain"), has_Interagent_Relationship_Type_To(Thomas Fuller, "Acquaintance")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Thomas Fuller, "Sir John Danvers"), is_Relationship_To(Thomas Fuller, "James Hay, 2nd Earl of Carlisle"), is_Relationship_To(Thomas Fuller, "Lord Berkeley"), is_Relationship_To(Thomas Fuller, "Charles II").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Thomas Fuller, "Prebend in Salisbury"), has_Participant_Role(Thomas Fuller, "Rector of Broadwindsor, Dorset"), has_Participant_Role(Thomas Fuller, "Defender of Basing House during the Civil War").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Thomas Fuller, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Thomas Fuller, "English Churchman, Historian, Writer").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Thomas Fuller, 53)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Thomas Fuller, "1608")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Thomas Fuller, "1661").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Thomas Fuller, "Prolific Writer")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Prolific Writer, "Education at Queens' College, Cambridge"), has_Status_Generating_Event(Prolific Writer, "Various Church Positions"), has_Status_Generating_Event(Prolific Writer, "Role in the Civil War"), has_Status_Generating_Event(Prolific Writer, "Writing Career").

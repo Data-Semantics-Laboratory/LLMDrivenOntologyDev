@@ -1,0 +1,22 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(John Wesley Edward Bowen, "John Wesley Edward Bowen")
+2. has_Surname(Agent, Surname): has_Surname(John Wesley Edward Bowen, "Bowen")
+3. has_First_Name(Agent, First_Name): has_First_Name(John Wesley Edward Bowen, "John").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(John Wesley Edward Bowen, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(John Wesley Edward Bowen, "Methodist clergyman, denominational official, college and university educator, and one of the first African Americans to earn a Ph.D. degree in the United States").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(John Wesley Edward Bowen, 78)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(John Wesley Edward Bowen, "December 3, 1855")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(John Wesley Edward Bowen, "July 20, 1933").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(John Wesley Edward Bowen, "African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(John Wesley Edward Bowen, "Slave, Highly Educated Individual")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Slave, "Born into slavery"), has_Status_Generating_Event(Highly Educated Individual, "Education").

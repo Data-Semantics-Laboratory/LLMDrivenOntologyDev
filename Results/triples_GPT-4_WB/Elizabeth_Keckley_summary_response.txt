@@ -1,0 +1,26 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Elizabeth Hobbs Keckley, "Elizabeth Hobbs Keckley")
+2. has_Surname(Agent, Surname): has_Surname(Elizabeth Hobbs Keckley, "Keckley")
+3. has_First_Name(Agent, First_Name): has_First_Name(Elizabeth Hobbs Keckley, "Elizabeth").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Elizabeth Hobbs Keckley, "Personal Dressmaker and Confidante") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Elizabeth Hobbs Keckley, "Mary Todd Lincoln").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Elizabeth Hobbs Keckley, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Elizabeth Hobbs Keckley, "Seamstress, Activist, Writer, Dressmaker").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Elizabeth Hobbs Keckley, 89)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Elizabeth Hobbs Keckley, "February 1818")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Elizabeth Hobbs Keckley, "May 1907").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Elizabeth Hobbs Keckley, "African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Elizabeth Hobbs Keckley, "Enslaved Person, Successful Businesswoman")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Purchase of her and her son's freedom in November 1855"), has_Status_Generating_Event(Successful Businesswoman, "Move to Washington, D.C. and establishment of a successful dressmaking business").

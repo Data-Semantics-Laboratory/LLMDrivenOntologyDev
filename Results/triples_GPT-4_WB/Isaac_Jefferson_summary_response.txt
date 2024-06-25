@@ -1,0 +1,24 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Isaac Jefferson, "Isaac Jefferson")
+2. has_Surname(Agent, Surname): has_Surname(Isaac Jefferson, "Jefferson")
+3. has_First_Name(Agent, First_Name): has_First_Name(Isaac Jefferson, "Isaac")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Isaac Jefferson, "Granger").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Isaac Jefferson, "Enslaver"), has_Interagent_Relationship_Type_To(Isaac Jefferson, "Owner")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Isaac Jefferson, "Thomas Jefferson"), is_Relationship_To(Isaac Jefferson, "John Wayles Eppes").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Isaac Jefferson, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Isaac Jefferson, "Enslaved Artisan"), has_Occupation(Isaac Jefferson, "Free Man").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Isaac Jefferson, 71)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Isaac Jefferson, "1775")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Isaac Jefferson, "1846").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Isaac Jefferson, "Enslaved Person"), has_Person_Status(Isaac Jefferson, "Free Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Memoir"), has_Status_Generating_Event(Free Man, "1840 Census").

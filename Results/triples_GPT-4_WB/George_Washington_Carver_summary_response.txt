@@ -1,0 +1,26 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(George Washington Carver, "George Washington Carver")
+2. has_Surname(Agent, Surname): has_Surname(George Washington Carver, "Carver")
+3. has_First_Name(Agent, First_Name): has_First_Name(George Washington Carver, "George").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(George Washington Carver, "Raised by")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(George Washington Carver, "Moses and Susan Carver").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(George Washington Carver, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(George Washington Carver, "Agricultural Scientist, Inventor, Educator").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(George Washington Carver, 79)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(George Washington Carver, "1864")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(George Washington Carver, "January 5, 1943").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(George Washington Carver, "African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(George Washington Carver, "Enslaved Person, Scientist, Inventor")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Abolition of Slavery"), has_Status_Generating_Event(Scientist, "Abolition of Slavery"), has_Status_Generating_Event(Inventor, "Abolition of Slavery").

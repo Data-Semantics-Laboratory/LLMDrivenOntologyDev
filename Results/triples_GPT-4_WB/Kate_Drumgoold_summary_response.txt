@@ -1,0 +1,20 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Kate Drumgoold, "Kate Drumgoold")
+2. has_Surname(Agent, Surname): has_Surname(Kate Drumgoold, "Drumgoold")
+3. has_First_Name(Agent, First_Name): has_First_Name(Kate Drumgoold, "Kate").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Kate Drumgoold, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Kate Drumgoold, "Slave, Autobiographer").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Kate Drumgoold, "Unknown")
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Kate Drumgoold, "Around 1858")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Kate Drumgoold, "Unknown").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Kate Drumgoold, "Enslaved Person, Autobiographer")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Abolition of Slavery"), has_Status_Generating_Event(Autobiographer, "Unknown")
+3. recorded_At(Person_Status_information, Event): recorded_At(Enslaved Person, "Abolition of Slavery"), recorded_At(Autobiographer, "Unknown").

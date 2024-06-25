@@ -1,0 +1,23 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Christian Isobel Johnstone, "Christian Isobel Johnstone")
+2. has_Surname(Agent, Surname): has_Surname(Christian Isobel Johnstone, "Johnstone")
+3. has_First_Name(Agent, First_Name): has_First_Name(Christian Isobel Johnstone, "Christian")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Christian Isobel Johnstone, "Margaret Dods")
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Christian Isobel Johnstone, "Spouse") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Christian Isobel Johnstone, "Thomas McCleish"), is_Relationship_To(Christian Isobel Johnstone, "John Johnstone")
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Christian Isobel Johnstone, "Female")
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Christian Isobel Johnstone, "Journalist, Author, Editor")
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Christian Isobel Johnstone, 76)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Christian Isobel Johnstone, "June 12, 1781")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Christian Isobel Johnstone, "August 26, 1857")
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Christian Isobel Johnstone, "Prominent Journalist, Author, Early Feminist, Advocate for Liberal Causes, First Paid Female Editor of a Journal, First Woman to Serve as a Paid Editor of a Major Victorian Periodical")

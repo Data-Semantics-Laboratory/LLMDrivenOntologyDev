@@ -1,0 +1,28 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Harriet Evans Paine, "Harriet Evans Paine")
+2. has_Surname(Agent, Surname): has_Surname(Harriet Evans Paine, "Paine")
+3. has_First_Name(Agent, First_Name): has_First_Name(Harriet Evans Paine, "Harriet")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Harriet Evans Paine, "Aunt Harriet")
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Harriet Evans Paine, "Enslaver or Owner")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Harriet Evans Paine, "Swan and Jerusha Hardin"), is_Relationship_To(Harriet Evans Paine, "Henry Rowe"), is_Relationship_To(Harriet Evans Paine, "Mr. Green")
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Harriet Evans Paine, "Servant"), has_Participant_Role(Harriet Evans Paine, "Thimble Girl"), has_Participant_Role(Harriet Evans Paine, "Server to Mexican officers")
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Harriet Evans Paine, "Female")
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Harriet Evans Paine, "Slave"), has_Occupation(Harriet Evans Paine, "Servant"), has_Occupation(Harriet Evans Paine, "Thimble Girl")
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Harriet Evans Paine, 95)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Harriet Evans Paine, "around 1822")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Harriet Evans Paine, "1917")
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Harriet Evans Paine, "Enslaved Person")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Emancipation")
+3. recorded_At(Person_Status_information, Event): recorded_At(Enslaved Person, "Emancipation")

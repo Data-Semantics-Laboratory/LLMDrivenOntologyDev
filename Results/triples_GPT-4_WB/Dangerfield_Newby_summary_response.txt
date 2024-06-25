@@ -1,0 +1,30 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Dangerfield F. Newby, "Dangerfield F. Newby")
+2. has_Surname(Agent, Surname): has_Surname(Dangerfield F. Newby, "Newby")
+3. has_First_Name(Agent, First_Name): has_First_Name(Dangerfield F. Newby, "Dangerfield").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Dangerfield F. Newby, "Son"), has_Interagent_Relationship_Type_To(Dangerfield F. Newby, "Fellow Raider")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Dangerfield F. Newby, "White Landowner"), is_Relationship_To(Dangerfield F. Newby, "John Brown").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Dangerfield F. Newby, "Participant in John Brown's raid on Harpers Ferry").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Dangerfield F. Newby, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Dangerfield F. Newby, "Blacksmith").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Dangerfield F. Newby, 39)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Dangerfield F. Newby, "Around 1820")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Dangerfield F. Newby, "October 17, 1859").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Dangerfield F. Newby, "Black").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Dangerfield F. Newby, "Enslaved Person, Freed Person")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Birth"), has_Status_Generating_Event(Freed Person, "Freed by his father"), has_Status_Generating_Event(Freed Person, "Participation in John Brown's raid on Harpers Ferry").
+3. recorded_At(Person_Status_information, Event): recorded_At(Enslaved Person, "Birth"), recorded_At(Freed Person, "Freed by his father"), recorded_At(Freed Person, "Participation in John Brown's raid on Harpers Ferry").

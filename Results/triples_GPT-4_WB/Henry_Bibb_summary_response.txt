@@ -1,0 +1,26 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Henry Walton Bibb, "Henry Walton Bibb")
+2. has_Surname(Agent, Surname): has_Surname(Henry Walton Bibb, "Bibb")
+3. has_First_Name(Agent, First_Name): has_First_Name(Henry Walton Bibb, "Henry").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Henry Walton Bibb, "Parent"), has_Interagent_Relationship_Type_To(Henry Walton Bibb, "Spouse"), has_Interagent_Relationship_Type_To(Henry Walton Bibb, "Child"), has_Interagent_Relationship_Type_To(Henry Walton Bibb, "Abolitionist"), has_Interagent_Relationship_Type_To(Henry Walton Bibb, "Enslaver or Owner")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Henry Walton Bibb, "Mildred Jackson"), is_Relationship_To(Henry Walton Bibb, "Senator James Bibb"), is_Relationship_To(Henry Walton Bibb, "Malinda"), is_Relationship_To(Henry Walton Bibb, "Mary E. Miles"), is_Relationship_To(Henry Walton Bibb, "Mary Frances"), is_Relationship_To(Henry Walton Bibb, "Frederick Douglass"), is_Relationship_To(Henry Walton Bibb, "William Wells Brown"), is_Relationship_To(Henry Walton Bibb, "Albert G. Sibley").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Henry Walton Bibb, "Participant in the Underground Railroad").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Henry Walton Bibb, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Henry Walton Bibb, "Slave, Author, Abolitionist, Founder of the abolitionist newspaper 'Voice of the Fugitive'").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Henry Walton Bibb, 39)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Henry Walton Bibb, "May 10, 1815")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Henry Walton Bibb, "August 1, 1854").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Henry Walton Bibb, "Enslaved Person, Abolitionist")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Sold away from family, hired out for wages, recaptured and enslaved again, sold to Cherokees"), has_Status_Generating_Event(Abolitionist, "Escape from slavery around 1837").

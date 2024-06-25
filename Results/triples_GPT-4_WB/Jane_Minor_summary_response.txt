@@ -1,0 +1,27 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Jane Minor, "Jane Minor")
+2. has_Surname(Agent, Surname): has_Surname(Jane Minor, "Minor")
+3. has_First_Name(Agent, First_Name): has_First_Name(Jane Minor, "Jane")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Jane Minor, "Gensey Snow").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Jane Minor, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Jane Minor, "Benjamin Harris May").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Jane Minor, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Jane Minor, "Healer, Slave Emancipator").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Jane Minor, 66)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Jane Minor, "Around 1792")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Jane Minor, "1858").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Jane Minor, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Jane Minor, "Enslaved Person, Medical Practitioner, Slave Emancipator")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Granted freedom by Benjamin May during a fever epidemic in 1825"), has_Status_Generating_Event(Medical Practitioner, "Emancipation"), has_Status_Generating_Event(Slave Emancipator, "Used her earnings to purchase and free at least sixteen slaves").

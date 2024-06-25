@@ -1,0 +1,27 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Mary Hemings Bell, "Mary Hemings Bell")
+2. has_Surname(Agent, Surname): has_Surname(Mary Hemings Bell, "Bell")
+3. has_First_Name(Agent, First_Name): has_First_Name(Mary Hemings Bell, "Mary").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Mary Hemings Bell, "Common-law Husband") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Mary Hemings Bell, "Thomas Bell").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Mary Hemings Bell, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Mary Hemings Bell, "Slave").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Mary Hemings Bell, "Not Mentioned")
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Mary Hemings Bell, "1753")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Mary Hemings Bell, "Not Mentioned").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Mary Hemings Bell, "Mixed Race").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Mary Hemings Bell, "Enslaved Person, Free Person")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Purchased and informally freed by Thomas Bell"), has_Status_Generating_Event(Free Person, "Purchased and informally freed by Thomas Bell")
+3. recorded_At(Person_Status_information, Event): recorded_At(Enslaved Person, "Purchased and informally freed by Thomas Bell"), recorded_At(Free Person, "Purchased and informally freed by Thomas Bell").

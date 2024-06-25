@@ -1,0 +1,27 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Seymour Burr, "Seymour Burr")
+2. has_Surname(Agent, Surname): has_Surname(Seymour Burr, "Burr")
+3. has_First_Name(Agent, First_Name): has_First_Name(Seymour Burr, "Seymour").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Seymour Burr, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Seymour Burr, "Brother of Colonel Aaron Burr").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Seymour Burr, "Soldier in the British and American Armies").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Seymour Burr, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Seymour Burr, "Slave, Soldier in the British and American Armies").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Seymour Burr, "Born between 1754 and 1762").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Seymour Burr, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Seymour Burr, "Enslaved Person, Soldier, Free Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Escaped and enlisted in the British Army"), has_Status_Generating_Event(Soldier, "Captured and returned to enslaver"), has_Status_Generating_Event(Free Man, "Payment of Bounty Money after enlisting in the American Army").

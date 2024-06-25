@@ -1,0 +1,26 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(George Moses Horton, "George Moses Horton")
+2. has_Surname(Agent, Surname): has_Surname(George Moses Horton, "Horton")
+3. has_First_Name(Agent, First_Name): has_First_Name(George Moses Horton, "George").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(George Moses Horton, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(George Moses Horton, "William Horton"), is_Relationship_To(George Moses Horton, "James Horton").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(George Moses Horton, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(George Moses Horton, "Slave, Poet").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(George Moses Horton, "unknown")
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(George Moses Horton, "around 1798")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(George Moses Horton, "unknown").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(George Moses Horton, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(George Moses Horton, "Enslaved Person, Free Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Birth"), has_Status_Generating_Event(Free Man, "Emancipation in 1865").

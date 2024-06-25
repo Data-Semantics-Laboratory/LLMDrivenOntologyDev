@@ -1,0 +1,23 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Alonzo "Lon" Franklin Herndon, "Alonzo 'Lon' Franklin Herndon")
+2. has_Surname(Agent, Surname): has_Surname(Alonzo "Lon" Franklin Herndon, "Herndon")
+3. has_First_Name(Agent, First_Name): has_First_Name(Alonzo "Lon" Franklin Herndon, "Alonzo")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Alonzo "Lon" Franklin Herndon, "Lon").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Alonzo "Lon" Franklin Herndon, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Alonzo "Lon" Franklin Herndon, "Slave, Entrepreneur, Businessman, Founder of the Atlanta Family Life Insurance Company").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Alonzo "Lon" Franklin Herndon, 69)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Alonzo "Lon" Franklin Herndon, "June 26, 1858")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Alonzo "Lon" Franklin Herndon, "July 21, 1927").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Alonzo "Lon" Franklin Herndon, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Alonzo "Lon" Franklin Herndon, "Enslaved Person, Millionaire")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Birth"), has_Status_Generating_Event(Millionaire, "Entrepreneurship").

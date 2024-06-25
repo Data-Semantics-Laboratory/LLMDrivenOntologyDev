@@ -1,0 +1,25 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Austin Steward, "Austin Steward")
+2. has_Surname(Agent, Surname): has_Surname(Austin Steward, "Steward")
+3. has_First_Name(Agent, First_Name): has_First_Name(Austin Steward, "Austin").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Austin Steward, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Austin Steward, "Slave, Abolitionist, Author, President of the Wilberforce Colony's board of managers").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Austin Steward, 76)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Austin Steward, "Around 1793")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Austin Steward, "February 15, 1869").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Austin Steward, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Austin Steward, "Enslaved Person, Abolitionist, Author")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Escape from slavery"), has_Status_Generating_Event(Abolitionist, "Settling in Rochester, New York"), has_Status_Generating_Event(Author, "Settling in Rochester, New York").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Austin Steward, "Aiding fugitive slaves, President of the Wilberforce Colony's board of managers").

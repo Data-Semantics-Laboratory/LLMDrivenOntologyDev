@@ -1,0 +1,26 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Moses Williams, "Moses Williams")
+2. has_Surname(Agent, Surname): has_Surname(Moses Williams, "Williams")
+3. has_First_Name(Agent, First_Name): has_First_Name(Moses Williams, "Moses").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Moses Williams, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Moses Williams, "Charles Willson Peale").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Moses Williams, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Moses Williams, "Visual Artist, Silhouette Artist").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Moses Williams, 48)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Moses Williams, "1777")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Moses Williams, "around 1825").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Moses Williams, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Moses Williams, "Enslaved Person, Freedman, Professional Silhouette Artist")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Born into slavery"), has_Status_Generating_Event(Freedman, "Remained in Peale's service until he was 27"), has_Status_Generating_Event(Professional Silhouette Artist, "Became a freedman and a professional silhouette artist").

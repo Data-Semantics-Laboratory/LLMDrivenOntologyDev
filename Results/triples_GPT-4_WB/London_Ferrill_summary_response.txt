@@ -1,0 +1,27 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(London Ferrill, "London Ferrill")
+2. has_Surname(Agent, Surname): has_Surname(London Ferrill, "Ferrill")
+3. has_First_Name(Agent, First_Name): has_First_Name(London Ferrill, "London").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(London Ferrill, "Wife") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(London Ferrill, "Wife").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(London Ferrill, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(London Ferrill, "Slave, Carpenter, Preacher").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(London Ferrill, 65)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(London Ferrill, "1789")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(London Ferrill, "October 12, 1854").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(London Ferrill, "Mixed Race").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(London Ferrill, "Enslaved Person, Free Man, Preacher")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Wife purchased his freedom"), has_Status_Generating_Event(Free Man, "Wife purchased his freedom"), has_Status_Generating_Event(Preacher, "Leading the largest congregation in the state by 1850").
+3. recorded_At(Person_Status_information, Event): recorded_At(Enslaved Person, "Wife purchased his freedom"), recorded_At(Free Man, "Wife purchased his freedom"), recorded_At(Preacher, "Leading the largest congregation in the state by 1850").

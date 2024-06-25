@@ -1,0 +1,23 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Philip James Collins, "Philip James Collins")
+2. has_Surname(Agent, Surname): has_Surname(Philip James Collins, "Collins")
+3. has_First_Name(Agent, First_Name): has_First_Name(Philip James Collins, "Philip").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Philip James Collins, "Spouse") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Philip James Collins, "Geeta Guru-Murthy").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Philip James Collins, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Philip James Collins, "Journalist, Academic, Banker, Speechwriter, Equity Strategist in Investment Banking, Political Adviser, Director of the Social Market Foundation, Chief Speech Writer to Tony Blair, Leader Writer and Columnist for The Times, Visiting Fellow at the London School of Economics, Associate Editor of Prospect Magazine, Columnist and Contributing Writer for the New Statesman").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Philip James Collins, "Not Mentioned")
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Philip James Collins, "May 16, 1967")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Philip James Collins, "Not Mentioned").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Philip James Collins, "Educated, Diverse Career, Married")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Educated, "Education at Various Institutions"), has_Status_Generating_Event(Diverse Career, "Career Progression"), has_Status_Generating_Event(Married, "Marriage to Geeta Guru-Murthy").

@@ -1,0 +1,28 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Gabriel, "Gabriel").
+
+Interagent Relationship Record Module:
+No information available.
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Gabriel, "Messenger"), has_Participant_Role(Gabriel, "Guardian").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Gabriel, "Androgynous").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Gabriel, "Archangel"), has_Occupation(Gabriel, "Messenger of God"), has_Occupation(Gabriel, "Guardian").
+
+Age Record Module: 
+No information available.
+
+Race Record Module: 
+No information available.
+
+Ethnolinguistic Descriptor Record Module: 
+No information available.
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Gabriel, "Saint"), has_Person_Status(Gabriel, "Primary Archangel"), has_Person_Status(Gabriel, "Angel of Revelation").
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Saint, "Veneration in Christian traditions"), has_Status_Generating_Event(Primary Archangel, "Veneration in Islam"), has_Status_Generating_Event(Angel of Revelation, "Revelation of Quran to Muhammad").
+3. recorded_At(Person_Status_information, Event): recorded_At(Saint, "Veneration in Christian traditions"), recorded_At(Primary Archangel, "Veneration in Islam"), recorded_At(Angel of Revelation, "Revelation of Quran to Muhammad").

@@ -1,0 +1,30 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(A.E. "Fred" Coleman, "A.E. 'Fred' Coleman")
+2. has_Surname(Agent, Surname): has_Surname(A.E. "Fred" Coleman, "Coleman")
+3. has_First_Name(Agent, First_Name): has_First_Name(A.E. "Fred" Coleman, "A.E.")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(A.E. "Fred" Coleman, "Fred")
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(A.E. "Fred" Coleman, "Spouse") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(A.E. "Fred" Coleman, "Maria Jesusa Anej").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(A.E. "Fred" Coleman, "Gold Discoverer")
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(A.E. "Fred" Coleman, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(A.E. "Fred" Coleman, "Former Slave, Cattle Herder, Gold Prospector").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(A.E. "Fred" Coleman, "Not Mentioned")
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(A.E. "Fred" Coleman, "1829")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(A.E. "Fred" Coleman, "Not Mentioned").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(A.E. "Fred" Coleman, "African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(A.E. "Fred" Coleman, "Former Slave")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Former Slave, "Gold Discovery in Julian, California").

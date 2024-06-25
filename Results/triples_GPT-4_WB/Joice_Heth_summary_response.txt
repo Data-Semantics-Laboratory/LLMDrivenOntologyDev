@@ -1,0 +1,26 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Joice Heth, "Joice Heth")
+2. has_Surname(Agent, Surname): has_Surname(Joice Heth, "Heth")
+3. has_First_Name(Agent, First_Name): has_First_Name(Joice Heth, "Joice").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Joice Heth, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Joice Heth, "R.W. Lindsay"), is_Relationship_To(Joice Heth, "Coley Bartram"), is_Relationship_To(Joice Heth, "P.T. Barnum").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Joice Heth, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Joice Heth, "Nurse"), has_Occupation(Joice Heth, "Exhibit").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Joice Heth, 161)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Joice Heth, "around 1756")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Joice Heth, "February 19, 1836").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Joice Heth, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Joice Heth, "Enslaved Person"), has_Person_Status(Joice Heth, "Exhibit")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Sale to promoters"), has_Status_Generating_Event(Exhibit, "Sale to P.T. Barnum").

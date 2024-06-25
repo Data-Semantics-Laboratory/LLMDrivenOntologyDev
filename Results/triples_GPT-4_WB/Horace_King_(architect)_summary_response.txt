@@ -1,0 +1,30 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Horace King, "Horace King")
+2. has_Surname(Agent, Surname): has_Surname(Horace King, "King")
+3. has_First_Name(Agent, First_Name): has_First_Name(Horace King, "Horace")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Horace King, "Horace Godwin").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Horace King, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Horace King, "John Godwin").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Horace King, "Major Figure in Shipbuilding for the Confederacy during the Civil War").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Horace King, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Horace King, "Slave, Architect, Engineer, Bridge Builder, Master Builder, Legislator in the State of Alabama, Registrar for Voters").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Horace King, 78)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Horace King, "September 8, 1807")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Horace King, "1885").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Horace King, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Horace King, "Enslaved Person, Legislator in the State of Alabama")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Taught to read, write, and build by John Godwin"), has_Status_Generating_Event(Legislator in the State of Alabama, "Civil War and Emancipation").

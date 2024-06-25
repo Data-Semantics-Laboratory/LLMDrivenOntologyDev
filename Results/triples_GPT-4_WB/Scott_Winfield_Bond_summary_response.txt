@@ -1,0 +1,27 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Scott Winfield Bond, "Scott Winfield Bond")
+2. has_Surname(Agent, Surname): has_Surname(Scott Winfield Bond, "Bond")
+3. has_First_Name(Agent, First_Name): has_First_Name(Scott Winfield Bond, "Scott")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Scott Winfield Bond, "Black Rockefeller")
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Scott Winfield Bond, "Employer")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Scott Winfield Bond, "Daniel Rudd")
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Scott Winfield Bond, "Male")
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Scott Winfield Bond, "Businessman, Agricultural Real Estate Worker, Merchant, Factory Producer")
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Scott Winfield Bond, 81)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Scott Winfield Bond, "March 15, 1852")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Scott Winfield Bond, "March 24, 1933")
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Scott Winfield Bond, "African-American")
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Scott Winfield Bond, "Slave, Millionaire")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Slave, "Born into Slavery"), has_Status_Generating_Event(Millionaire, "Successful Business Ventures")

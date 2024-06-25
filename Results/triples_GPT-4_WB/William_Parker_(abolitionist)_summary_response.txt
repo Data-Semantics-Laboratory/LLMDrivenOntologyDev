@@ -1,0 +1,26 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(William Parker, "William Parker")
+2. has_Surname(Agent, Surname): has_Surname(William Parker, "Parker")
+3. has_First_Name(Agent, First_Name): has_First_Name(William Parker, "William").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(William Parker, "Friend and Helper") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(William Parker, "Frederick Douglass").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(William Parker, "Principal Figure in the Christiana Resistance").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(William Parker, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(William Parker, "Slave, Farmer, Abolitionist, Anti-slavery Activist, Correspondent for Douglass's North Star newspaper").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(William Parker, 70)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(William Parker, "1821")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(William Parker, "April 14, 1891").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(William Parker, "Slave, Abolitionist, Anti-slavery Activist")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Slave, "Escape to Pennsylvania"), has_Status_Generating_Event(Abolitionist, "Escape to Canada"), has_Status_Generating_Event(Anti-slavery Activist, "Activism").

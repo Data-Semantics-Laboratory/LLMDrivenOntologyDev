@@ -1,0 +1,22 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Charlotte Dupuy, "Charlotte Dupuy")
+2. has_Surname(Agent, Surname): has_Surname(Charlotte Dupuy, "Dupuy")
+3. has_First_Name(Agent, First_Name): has_First_Name(Charlotte Dupuy, "Charlotte")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Charlotte Dupuy, "Lottie").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Charlotte Dupuy, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Charlotte Dupuy, "Henry Clay"), is_Relationship_To(Charlotte Dupuy, "Martin Van Buren"), is_Relationship_To(Charlotte Dupuy, "Clay's daughter"), is_Relationship_To(Charlotte Dupuy, "Clay's son-in-law").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Charlotte Dupuy, "Participant in a freedom suit").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Charlotte Dupuy, "Female").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Charlotte Dupuy, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Charlotte Dupuy, "Enslaved Person"), has_Person_Status(Charlotte Dupuy, "Free Person")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Filing of freedom suit"), has_Status_Generating_Event(Free Person, "Freed by Clay in 1840"), has_Status_Generating_Event(Free Person, "Living with free husband Aaron Dupuy in 1860").

@@ -1,0 +1,33 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Crispus Attucks, "Crispus Attucks")
+2. has_Surname(Agent, Surname): has_Surname(Crispus Attucks, "Attucks")
+3. has_First_Name(Agent, First_Name): has_First_Name(Crispus Attucks, "Crispus")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Crispus Attucks, "Michael Johnson")
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Crispus Attucks, "Acquaintance") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Crispus Attucks, "Deacon William Brown")
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Crispus Attucks, "First American casualty of the American Revolutionary War")
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Crispus Attucks, "Male")
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Crispus Attucks, "Whaler, Sailor, Stevedore")
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Crispus Attucks, 47)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Crispus Attucks, "Around 1723")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Crispus Attucks, "March 5, 1770")
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Crispus Attucks, "African, Native American")
+
+Ethnolinguistic Descriptor Record Module: 
+1. has_Ethnolinguistic_Descriptor(Agent, Etnolinguistic_Descriptor): has_Ethnolinguistic_Descriptor(Crispus Attucks, "African, Native American")
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Crispus Attucks, "Free Man, Escaped Slave")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Free Man, "Escape from slavery"), has_Status_Generating_Event(Escaped Slave, "Escape from slavery")

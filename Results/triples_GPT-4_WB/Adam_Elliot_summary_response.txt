@@ -1,0 +1,32 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Adam Elliot, "Adam Elliot")
+2. has_Surname(Agent, Surname): has_Surname(Adam Elliot, "Elliot")
+3. has_First_Name(Agent, First_Name): has_First_Name(Adam Elliot, "Adam").
+
+Interagent Relationship Record Module:
+No information provided.
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Adam Elliot, "Film Festival Participant")
+2. Role_Provided_by(Agent_Role, Event): Role_Provided_by(Film Festival Participant, "Over seven hundred film festivals").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Adam Elliot, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Adam Elliot, "Filmmaker, Stop-Motion Animator").
+
+Age Record Module: 
+1. has_Age(Agent, Age): No specific age mentioned.
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Adam Elliot, "January 2, 1972")
+3. has_DeathDate(Agent, Date_of_Death): No death date mentioned.
+
+Race Record Module: 
+No information provided.
+
+Ethnolinguistic Descriptor Record Module: 
+No information provided.
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Adam Elliot, "Academy Award Winner, Film Festival Participant")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Academy Award Winner, "Winning an Academy Award for Harvie Krumpet"), has_Status_Generating_Event(Film Festival Participant, "Participation in over seven hundred film festivals").

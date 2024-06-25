@@ -1,0 +1,26 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(John Jea, "John Jea")
+2. has_Surname(Agent, Surname): has_Surname(John Jea, "Jea")
+3. has_First_Name(Agent, First_Name): has_First_Name(John Jea, "John").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(John Jea, "Enslaved by") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(John Jea, "Oliver and Angelika Triebuen").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(John Jea, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(John Jea, "Writer, Preacher, Abolitionist, Sailor, Itinerant Preacher, Mariner, Shipboard Cook, Autobiographer").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(John Jea, Unknown)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(John Jea, "1773")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(John Jea, "After 1817").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(John Jea, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(John Jea, "Enslaved Person, Free Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Sold into slavery in New York City"), has_Status_Generating_Event(Free Man, "Gained freedom in the 1790s").

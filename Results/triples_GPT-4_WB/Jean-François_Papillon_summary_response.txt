@@ -1,0 +1,22 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Jean-François Papillon, "Jean-François Papillon")
+2. has_Surname(Agent, Surname): has_Surname(Jean-François Papillon, "Papillon")
+3. has_First_Name(Agent, First_Name): has_First_Name(Jean-François Papillon, "Jean-François").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Jean-François Papillon, "Successor") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Jean-François Papillon, "Boukman Dutty").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Jean-François Papillon, "Key Leader in the Haitian Revolution").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Jean-François Papillon, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Jean-François Papillon, "Slave, Maroon, Commander-in-Chief of the Haitian former slaves").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Jean-François Papillon, "Enslaved Person, Maroon, Commander-in-Chief")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Escape from plantation"), has_Status_Generating_Event(Maroon, "Escape from plantation"), has_Status_Generating_Event(Commander-in-Chief, "Haitian Revolution").
+3. recorded_At(Person_Status_information, Event): recorded_At(Enslaved Person, "Escape from plantation"), recorded_At(Maroon, "Escape from plantation"), recorded_At(Commander-in-Chief, "Haitian Revolution").

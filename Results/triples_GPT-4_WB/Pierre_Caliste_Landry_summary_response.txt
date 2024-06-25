@@ -1,0 +1,22 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Pierre Caliste Landry, "Pierre Caliste Landry")
+2. has_Surname(Agent, Surname): has_Surname(Pierre Caliste Landry, "Landry")
+3. has_First_Name(Agent, First_Name): has_First_Name(Pierre Caliste Landry, "Pierre").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Pierre Caliste Landry, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Pierre Caliste Landry, "Slave, Attorney, Methodist Episcopal Minister, Mayor, Newspaper Editor, State Legislator, Judge, Superintendent of Schools, Tax Collector, Justice of the Peace").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Pierre Caliste Landry, 80)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Pierre Caliste Landry, "April 19, 1841")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Pierre Caliste Landry, "December 22, 1921").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Pierre Caliste Landry, "African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Pierre Caliste Landry, "Enslaved Person, Lawyer")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Emancipation"), has_Status_Generating_Event(Lawyer, "Emancipation").

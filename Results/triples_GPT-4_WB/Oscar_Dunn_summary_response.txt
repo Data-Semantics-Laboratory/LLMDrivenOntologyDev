@@ -1,0 +1,29 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Oscar James Dunn, "Oscar James Dunn")
+2. has_Surname(Agent, Surname): has_Surname(Oscar James Dunn, "Dunn")
+3. has_First_Name(Agent, First_Name): has_First_Name(Oscar James Dunn, "Oscar").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Oscar James Dunn, "Governor Warmoth"), has_Interagent_Relationship_Type_To(Oscar James Dunn, "Parents"), has_Interagent_Relationship_Type_To(Oscar James Dunn, "Spouse"), has_Interagent_Relationship_Type_To(Oscar James Dunn, "Stephen B. Packard")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Oscar James Dunn, "Governor Warmoth"), is_Relationship_To(Oscar James Dunn, "James Dunn"), is_Relationship_To(Oscar James Dunn, "Maria Dunn"), is_Relationship_To(Oscar James Dunn, "Ellen Boyd Marchand"), is_Relationship_To(Oscar James Dunn, "Stephen B. Packard").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Oscar James Dunn, "New Orleans Riot of 1866"), has_Participant_Role(Oscar James Dunn, "Universal Suffrage Movement").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Oscar James Dunn, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Oscar James Dunn, "Slave, Musician, Plasterer, Painter, Freemason, Lieutenant Governor of Louisiana, Acting Governor of Louisiana, President pro tempore of the Louisiana State Senate, Member of the Printing Committee of the legislature, President of the Metropolitan Police, Secretary of the Advisory Committee of the Freedmen's Savings and Trust Company of New Orleans, Trustee for Straight University").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Oscar James Dunn, 49)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Oscar James Dunn, "1822")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Oscar James Dunn, "November 22, 1871").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Oscar James Dunn, "African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Oscar James Dunn, "Enslaved Person, Free Man, Prominent Political Figure")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Parents purchasing freedom"), has_Status_Generating_Event(Free Man, "Before the American Civil War"), has_Status_Generating_Event(Prominent Political Figure, "Election as the lieutenant governor of Louisiana").

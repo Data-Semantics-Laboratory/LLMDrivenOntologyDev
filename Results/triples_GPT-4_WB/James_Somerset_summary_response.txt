@@ -1,0 +1,28 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(James Somerset, "James Somerset")
+2. has_Surname(Agent, Surname): has_Surname(James Somerset, "Somerset")
+3. has_First_Name(Agent, First_Name): has_First_Name(James Somerset, "James").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(James Somerset, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(James Somerset, "Charles Stewart").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(James Somerset, "Pivotal Participant in Court Case").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(James Somerset, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(James Somerset, "Slave").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(James Somerset, "Last known alive after 1772")
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(James Somerset, "Around 1741").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(James Somerset, "African").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(James Somerset, "Enslaved Person"), has_Person_Status(James Somerset, "Free Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Sold to European slave traders"), has_Status_Generating_Event(Free Man, "Court Case Somerset v Stewart").

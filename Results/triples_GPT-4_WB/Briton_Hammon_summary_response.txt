@@ -1,0 +1,23 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Briton Hammon, "Briton Hammon")
+2. has_Surname(Agent, Surname): has_Surname(Briton Hammon, "Hammon")
+3. has_First_Name(Agent, First_Name): has_First_Name(Briton Hammon, "Briton").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Briton Hammon, "Enslaver or Owner") 
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Briton Hammon, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Briton Hammon, "Slave, Sailor, Autobiographer").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Briton Hammon, "African").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Briton Hammon, "Enslaved Person, Free Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Captivity, Imprisonment, Rescue, Service in Navy, Wounding, Honorable Discharge"), has_Status_Generating_Event(Free Man, "Honorable Discharge from the Royal Navy"). 
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Briton Hammon, "Participant in shipwreck, captivity by indigenous Floridians, imprisonment in a Spanish prison in Cuba, service in the British Navy, skirmish with a French warship").

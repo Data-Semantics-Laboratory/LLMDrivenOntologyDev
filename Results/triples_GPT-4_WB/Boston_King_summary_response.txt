@@ -1,0 +1,29 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Boston King, "Boston King")
+2. has_Surname(Agent, Surname): has_Surname(Boston King, "King")
+3. has_First_Name(Agent, First_Name): has_First_Name(Boston King, "Boston").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Boston King, "Enslaver or Owner"), has_Interagent_Relationship_Type_To(Boston King, "Spouse")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Boston King, "British"), is_Relationship_To(Boston King, "Violet").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Boston King, "Participant in the American Revolutionary War").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Boston King, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Boston King, "Slave, Carpenter, Methodist Missionary, Autobiographer").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Boston King, 42)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Boston King, "Around 1760")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Boston King, "1802").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Boston King, "Black American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Boston King, "Enslaved Person, Free Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "American Revolutionary War"), has_Status_Generating_Event(Free Man, "British occupation of Charleston").

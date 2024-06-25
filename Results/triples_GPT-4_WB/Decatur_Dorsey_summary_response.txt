@@ -1,0 +1,27 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Decatur Dorsey, "Decatur Dorsey")
+2. has_Surname(Agent, Surname): has_Surname(Decatur Dorsey, "Dorsey")
+3. has_First_Name(Agent, First_Name): has_First_Name(Decatur Dorsey, "Decatur")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Decatur Dorsey, "Cato").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Decatur Dorsey, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Decatur Dorsey, "Edward Rider, Jr.").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Decatur Dorsey, "Soldier in the 39th United States Colored Infantry"), has_Participant_Role(Decatur Dorsey, "Corporal"), has_Participant_Role(Decatur Dorsey, "Sergeant").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Decatur Dorsey, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Decatur Dorsey, "Slave, Soldier in the Union Army, Various jobs after the war").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Decatur Dorsey, 55)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Decatur Dorsey, "around 1836")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Decatur Dorsey, "July 11, 1891").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Decatur Dorsey, "Enslaved Person, Soldier in the Union Army")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Sale to Edward Rider, Jr."), has_Status_Generating_Event(Soldier in the Union Army, "Enlistment").

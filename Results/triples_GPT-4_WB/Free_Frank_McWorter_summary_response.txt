@@ -1,0 +1,26 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Frank McWorter, "Frank McWorter")
+2. has_Surname(Agent, Surname): has_Surname(Frank McWorter, "McWorter")
+3. has_First_Name(Agent, First_Name): has_First_Name(Frank McWorter, "Frank")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Frank McWorter, "Free Frank").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Frank McWorter, "Platting and registering a town, New Philadelphia in Illinois").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Frank McWorter, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Frank McWorter, "Saltpeter operator").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Frank McWorter, 77)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Frank McWorter, "1777")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Frank McWorter, "September 7, 1854").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Frank McWorter, "African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Frank McWorter, "Enslaved Person"), has_Person_Status(Frank McWorter, "Free Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Purchase of freedom"), has_Status_Generating_Event(Free Man, "Purchase of freedom").

@@ -1,0 +1,29 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(William Grimes, "William Grimes")
+2. has_Surname(Agent, Surname): has_Surname(William Grimes, "Grimes")
+3. has_First_Name(Agent, First_Name): has_First_Name(William Grimes, "William").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(William Grimes, "Son") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(William Grimes, "Benjamin Grymes, Jr.").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(William Grimes, "Enslaved Person").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(William Grimes, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(William Grimes, "Barber, Writer, House Servant, Valet, Field Worker, Stable Boy, Coachman").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(William Grimes, "Unknown")
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(William Grimes, "1784")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(William Grimes, "Unknown").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(William Grimes, "African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(William Grimes, "Enslaved Person, Free Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Escape on ship Casket"), has_Status_Generating_Event(Free Man, "Escape on ship Casket").

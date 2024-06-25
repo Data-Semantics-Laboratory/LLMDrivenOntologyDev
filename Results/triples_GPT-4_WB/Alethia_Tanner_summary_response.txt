@@ -1,0 +1,26 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Alethia Tanner, "Alethia Tanner")
+2. has_Surname(Agent, Surname): has_Surname(Alethia Tanner, "Tanner")
+3. has_First_Name(Agent, First_Name): has_First_Name(Alethia Tanner, "Alethia")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Alethia Tanner, "Alethia 'Lethe' Browning").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Alethia Tanner, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Alethia Tanner, "Enslaved Person, Educator, Businesswoman, Community Leader").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Alethia Tanner, 83)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Alethia Tanner, "1781")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Alethia Tanner, "1864").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Alethia Tanner, "African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Alethia Tanner, "Enslaved Person, Businesswoman, Community Leader")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Initial Enslavement"), has_Status_Generating_Event(Businesswoman, "Gaining Freedom"), has_Status_Generating_Event(Community Leader, "Gaining Freedom").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Alethia Tanner, "Significant Participant in the Methodist Church and The Bell School").

@@ -1,0 +1,30 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Elijah Abel, "Elijah Abel")
+2. has_Surname(Agent, Surname): has_Surname(Elijah Abel, "Abel")
+3. has_First_Name(Agent, First_Name): has_First_Name(Elijah Abel, "Elijah")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Elijah Abel, "Able"), has_Alternate_Name(Elijah Abel, "Ables").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Elijah Abel, "Spouse"), has_Interagent_Relationship_Type_To(Elijah Abel, "Parent"), has_Interagent_Relationship_Type_To(Elijah Abel, "Adoptive Parent")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Elijah Abel, "Mary Ann Adams"), is_Relationship_To(Elijah Abel, "Eight Children"), is_Relationship_To(Elijah Abel, "Rola").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Elijah Abel, "Member"), has_Participant_Role(Elijah Abel, "Elder"), has_Participant_Role(Elijah Abel, "Seventy").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Elijah Abel, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Elijah Abel, "Carpenter").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Elijah Abel, 76)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Elijah Abel, "July 25, 1808")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Elijah Abel, "December 25, 1884").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Elijah Abel, "African-American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Elijah Abel, "Member of LDS Church"), has_Person_Status(Elijah Abel, "Faced restrictions due to race"), has_Person_Status(Elijah Abel, "Priesthood null and void after death").
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event("Member of LDS Church", "Membership in LDS Church"), has_Status_Generating_Event("Faced restrictions due to race", "Church-wide ban on black men being ordained"), has_Status_Generating_Event("Priesthood null and void after death", "Declaration by LDS Church president Joseph F. Smith").

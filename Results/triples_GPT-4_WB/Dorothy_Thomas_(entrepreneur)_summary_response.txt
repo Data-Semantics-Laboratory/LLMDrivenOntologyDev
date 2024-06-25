@@ -1,0 +1,30 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Dorothy Thomas, "Dorothy Thomas")
+2. has_Surname(Agent, Surname): has_Surname(Dorothy Thomas, "Thomas")
+3. has_First_Name(Agent, First_Name): has_First_Name(Dorothy Thomas, "Dorothy")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Dorothy Thomas, "Dolly Kirwan"), has_Alternate_Name(Dorothy Thomas, "Doll Thomas").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Dorothy Thomas, "Family Member"), has_Interagent_Relationship_Type_To(Dorothy Thomas, "Ship Captain")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Dorothy Thomas, "Family Members"), is_Relationship_To(Dorothy Thomas, "Ship Captain").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Dorothy Thomas, "Protest Participant").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Dorothy Thomas, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Dorothy Thomas, "Slave"), has_Occupation(Dorothy Thomas, "Entrepreneur"), has_Occupation(Dorothy Thomas, "Businesswoman").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Dorothy Thomas, 90)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Dorothy Thomas, "1756")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Dorothy Thomas, "August 5, 1846").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Dorothy Thomas, "Black").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Dorothy Thomas, "Former Enslaved Person"), has_Person_Status(Dorothy Thomas, "Recipient of Government Compensation")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Former Enslaved Person, "Manumission"), has_Status_Generating_Event(Former Enslaved Person, "Securing Family's Freedom"), has_Status_Generating_Event(Recipient of Government Compensation, "Receipt of Government Compensation").

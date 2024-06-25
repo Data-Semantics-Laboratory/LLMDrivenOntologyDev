@@ -1,0 +1,26 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Joshua Johnson, "Joshua Johnson")
+2. has_Surname(Agent, Surname): has_Surname(Joshua Johnson, "Johnson")
+3. has_First_Name(Agent, First_Name): has_First_Name(Joshua Johnson, "Joshua").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Joshua Johnson, "Son"), has_Interagent_Relationship_Type_To(Joshua Johnson, "Owned by")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Joshua Johnson, "George Johnson"), is_Relationship_To(Joshua Johnson, "William Wheeler").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Joshua Johnson, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Joshua Johnson, "Painter and Limner").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Joshua Johnson, 61)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Joshua Johnson, "Around 1763")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Joshua Johnson, "Around 1824").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Joshua Johnson, "African and European Ancestry").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Joshua Johnson, "Enslaved Person, Free Man, Painter")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Purchase by George Johnson"), has_Status_Generating_Event(Free Man, "Freedom granted in 1782"), has_Status_Generating_Event(Painter, "Freedom granted in 1782").

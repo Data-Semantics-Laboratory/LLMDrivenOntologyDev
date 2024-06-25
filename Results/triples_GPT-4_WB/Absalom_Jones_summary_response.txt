@@ -1,0 +1,29 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Absalom Jones, "Absalom Jones")
+2. has_Surname(Agent, Surname): has_Surname(Absalom Jones, "Jones")
+3. has_First_Name(Agent, First_Name): has_First_Name(Absalom Jones, "Absalom").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Absalom Jones, "Co-founder"), has_Interagent_Relationship_Type_To(Absalom Jones, "Assistant")
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Absalom Jones, "Richard Allen"), is_Relationship_To(Absalom Jones, "Dr. Benjamin Rush").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Absalom Jones, "Founder"), has_Participant_Role(Absalom Jones, "Assistant").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Absalom Jones, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Absalom Jones, "Slave, Abolitionist, Clergyman, Founder").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Absalom Jones, 71)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Absalom Jones, "November 7, 1746")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Absalom Jones, "February 13, 1818").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Absalom Jones, "African American").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Absalom Jones, "Enslaved Person, Free Man")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Founding of the Free African Society"), has_Status_Generating_Event(Free Man, "Founding of the first Black Episcopal congregation").

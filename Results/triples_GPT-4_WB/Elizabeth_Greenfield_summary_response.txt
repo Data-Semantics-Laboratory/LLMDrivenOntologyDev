@@ -1,0 +1,30 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Elizabeth Taylor Greenfield, "Elizabeth Taylor Greenfield")
+2. has_Surname(Agent, Surname): has_Surname(Elizabeth Taylor Greenfield, "Greenfield")
+3. has_First_Name(Agent, First_Name): has_First_Name(Elizabeth Taylor Greenfield, "Elizabeth")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Elizabeth Taylor Greenfield, "The Black Swan").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Elizabeth Taylor Greenfield, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Elizabeth Taylor Greenfield, "Elizabeth H. Greenfield").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Elizabeth Taylor Greenfield, "Participant in private parties, concerts, and charity events").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Elizabeth Taylor Greenfield, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Elizabeth Taylor Greenfield, "Singer, Music Studio Owner, Choir Director").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Elizabeth Taylor Greenfield, 59)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Elizabeth Taylor Greenfield, "1817")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Elizabeth Taylor Greenfield, "March 31, 1876").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Elizabeth Taylor Greenfield, "Black").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Elizabeth Taylor Greenfield, "Enslaved Person, Singer")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Freed by Elizabeth H. Greenfield"), has_Status_Generating_Event(Singer, "Singing Career").

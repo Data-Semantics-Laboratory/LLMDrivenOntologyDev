@@ -1,0 +1,26 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Azeline Hearne, "Azeline Hearne")
+2. has_Surname(Agent, Surname): has_Surname(Azeline Hearne, "Hearne")
+3. has_First_Name(Agent, First_Name): has_First_Name(Azeline Hearne, "Azeline").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(Azeline Hearne, "Enslaver or Owner") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(Azeline Hearne, "Samuel R. Hearne").
+
+Participant Role Record Module:
+1. has_Participant_Role(Agent, Participant_Role_Type): has_Participant_Role(Azeline Hearne, "Plaintiff in civil suits").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Azeline Hearne, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Azeline Hearne, "Slave, Landowner").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Azeline Hearne, 65)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Azeline Hearne, "around 1825")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Azeline Hearne, "around 1890").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Azeline Hearne, "Enslaved Person, Freed Slave, Landowner, Indicted on perjury charges, Impoverished")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Born into slavery"), has_Status_Generating_Event(Freed Slave, "Emancipation"), has_Status_Generating_Event(Landowner, "Acquisition of land"), has_Status_Generating_Event(Indicted on perjury charges, "Indictment"), has_Status_Generating_Event(Impoverished, "End of life circumstances").

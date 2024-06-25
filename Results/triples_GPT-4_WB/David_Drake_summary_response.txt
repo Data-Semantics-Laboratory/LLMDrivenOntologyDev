@@ -1,0 +1,19 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(David A. Drake, "David A. Drake")
+2. has_Surname(Agent, Surname): has_Surname(David A. Drake, "Drake")
+3. has_First_Name(Agent, First_Name): has_First_Name(David A. Drake, "David").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(David A. Drake, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(David A. Drake, "Vietnam War veteran, Lawyer, Full-time writer").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(David A. Drake, 78)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(David A. Drake, "September 24, 1945")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(David A. Drake, "December 10, 2023").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(David A. Drake, "Student, U.S. Army Veteran, Assistant Town Attorney, Full-time Writer, Retired")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Lawyer, "Transition to full-time writer in 1981"), has_Status_Generating_Event(Full-time Writer, "Retirement due to cognitive health problems in 2021").

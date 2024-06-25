@@ -1,0 +1,24 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Mary Fields, "Mary Fields")
+2. has_Surname(Agent, Surname): has_Surname(Mary Fields, "Fields")
+3. has_First_Name(Agent, First_Name): has_First_Name(Mary Fields, "Mary")
+4. has_Alternate_Name(Agent, Alternate_Name): has_Alternate_Name(Mary Fields, "Stagecoach Mary"), has_Alternate_Name(Mary Fields, "Black Mary").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Mary Fields, "Female").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Mary Fields, "Star Route Postwoman, Chambermaid, Caregiver, Tavern Owner, Star Route Carrier").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Mary Fields, 82)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Mary Fields, "1832")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Mary Fields, "December 5, 1914").
+
+Race Record Module: 
+1. has_Race_or_Color(Agent, Race_or_Color): has_Race_or_Color(Mary Fields, "Black").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Mary Fields, "Enslaved Person, Chambermaid, Caregiver, Tavern Owner, Star Route Carrier")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Birth"), has_Status_Generating_Event(Chambermaid, "Emancipation"), has_Status_Generating_Event(Caregiver, "Moved to Montana to care for a sick friend"), has_Status_Generating_Event(Tavern Owner, "Barred from the convent"), has_Status_Generating_Event(Star Route Carrier, "Secured a job as a Star Route Carrier")
+3. recorded_At(Person_Status_information, Event): recorded_At(Enslaved Person, "Birth"), recorded_At(Chambermaid, "Emancipation"), recorded_At(Caregiver, "Moved to Montana to care for a sick friend"), recorded_At(Tavern Owner, "Barred from the convent"), recorded_At(Star Route Carrier, "Secured a job as a Star Route Carrier").

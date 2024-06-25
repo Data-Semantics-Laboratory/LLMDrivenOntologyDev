@@ -1,0 +1,23 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(William Drew Robeson I, "William Drew Robeson I")
+2. has_Surname(Agent, Surname): has_Surname(William Drew Robeson I, "Robeson")
+3. has_First_Name(Agent, First_Name): has_First_Name(William Drew Robeson I, "William").
+
+Interagent Relationship Record Module:
+1. has_Interagent_Relationship_Type_To(Agent, Relationship_Type): has_Interagent_Relationship_Type_To(William Drew Robeson I, "Father") 
+2. is_Relationship_To(Agent, Agent): is_Relationship_To(William Drew Robeson I, "Paul Robeson").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(William Drew Robeson I, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(William Drew Robeson I, "Slave, Minister, Pastor").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(William Drew Robeson I, 73)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(William Drew Robeson I, "July 27, 1844")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(William Drew Robeson I, "May 17, 1918").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(William Drew Robeson I, "Enslaved Person, Minister, Pastor")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Escape from slavery at age 15"), has_Status_Generating_Event(Minister, "Education"), has_Status_Generating_Event(Pastor, "Education").

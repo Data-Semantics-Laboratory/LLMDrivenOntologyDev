@@ -1,0 +1,19 @@
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Matthew Gaines, "Matthew Gaines")
+2. has_Surname(Agent, Surname): has_Surname(Matthew Gaines, "Gaines")
+3. has_First_Name(Agent, First_Name): has_First_Name(Matthew Gaines, "Matthew").
+
+Sex Record Module:
+1. has_Sex(Agent, Sex_Type): has_Sex(Matthew Gaines, "Male").
+
+Occupation Record Module: 
+1. has_Occupation(Agent, Occupation): has_Occupation(Matthew Gaines, "Slave, Community Leader, Minister, Republican Texas State Senator").
+
+Age Record Module: 
+1. has_Age(Agent, Age): has_Age(Matthew Gaines, 59)
+2. has_BirthDate(Agent, Date_of_Birth): has_BirthDate(Matthew Gaines, "August 4, 1840")
+3. has_DeathDate(Agent, Date_of_Death): has_DeathDate(Matthew Gaines, "June 11, 1900").
+
+Person Status Record Module: 
+1. has_Person_Status (Agent, Person_Status): has_Person_Status(Matthew Gaines, "Enslaved Person, Senator")
+2. has_Status_Generating_Event(Person_Status, Event): has_Status_Generating_Event(Enslaved Person, "Emancipation Proclamation"), has_Status_Generating_Event(Senator, "Emancipation Proclamation").
