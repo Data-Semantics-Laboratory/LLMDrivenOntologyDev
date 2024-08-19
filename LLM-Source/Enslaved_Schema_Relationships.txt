@@ -1,30 +1,20 @@
 Name Record Module:
-Is-a(NameRecord,AgentRecord), fullNameAsString(NameVariant,xsd:string), hasSurnameAsString(NameVariant,xsd:string), hasFirstnameAsString(NameVariant,xsd:string), hasNameVariant(NameRecord,NameVariant), hasPerferredNameVariant(NameRecord, NameVariant)
+hasNameVariant(Agent, NameVariant), hasPerferredNameVariant(Agent, PreferredNameVariant), fullNameAsString(NameVariant, xsd:string), hasSurnameAsString(NameVariant, xsd:string), hasFirstnameAsString(NameVariant, xsd:string)
 Description Module:
-asText(Description,xsd:string),Is-a(Description,EntityWithProvenance),Is-a(Match,EntityWithProvenance),Is-a(Place,EntityWithProvenance),Is-a(AgentRecord,EntityWithProvenance),Is-a(Description,EntityWithProvenance),hasOriginalSourceType(EntityWithProvenance,DocumentTypes),isDirectlyBasedOn(EntityWithProvenance,EntityWithProvenance),generatedBy(EntityWithProvenance,ProvenanceActivity),performedBy(ProvenanceActivity,Agent),attributedTo(EntityWithProvenance,Agent),availableFrom(EntityWithProvenance,xsd:string),used(EntityWithProvenance,EntityWithProvenance),used(ProvenanceActivity,EntityWithProvenance)
+hasDescription(Agent, Description)
 Origin Record Module:
-Is-a(OriginRecord,AgentRecord),refersToPlaceOfOrigin(OriginRecord,Place),hasECVO(OriginRecord,ECVO),Is-a(Place,EntityWithProvenance),refersToPlaceOfOrigin(OriginRecord,Place)
+refersToPlaceOfOrigin(Agent, Place)
 Race Record Module:
-Is-a(RaceRecord,AgentRecord)
+has_Race(Agent, Race)
 Age Record Module:
-Is-a(AgeRecord,AgentRecord),hasValue(AgeRecord,AgeCategory),hasAgeValue(AgeRecord,xsd:double)
+hasAgeValue (Agent, xsd:double), hasBirthDate(Agent, Date_of_Birth), hasDeathDate(Agent, Date_of_Death) 
 Sex Record Module:
-Is-a(SexRecord,AgentRecord)
+hasSex(Agent, Sex_Type)
 Person Status Record Module: 
-Is-a(PersonStatusRecord,AgentRecord),hasStatusGeneratedEvent(PersonStatusRecord,Event),hasValue(PersonStatusRecord,PSCategories)
+hasStatusGeneratedEvent(Agent, Event), hasValue(Agent, PSCategories)
 Occupation Record Module: 
-Is-a(OccupationRecord,AgentRecord), hasValue(OccupationRecord, Occupations)
+hasValue(Agent, Occupations)
 InterAgent Relationship Record Module:
-hasInterAgentRelationshipType(InterAgentRelationshipRecord,InterAgentRelationshipTypes)
-isRelationshipTo(InterAgentRelationshipRecord, Agent)
-isRelationshipFrom(InterAgentRelationshipRecord, Agent)
-Provenance Module:
-Is-a(Match,EntityWithProvenance),Is-a(Place,EntityWithProvenance),Is-a(AgentRecord,EntityWithProvenance),Is-a(Description,EntityWithProvenance),hasOriginalSourceType(EntityWithProvenance,DocumentTypes),hasLicenseInformation(EntityWithProvenance,LicenseInformation),sDirectlyBasedOn(EntityWithProvenance,EntityWithProvenance),generatedBy(EntityWithProvenance,ProvenanceActivity),attributedTo(EntityWithProvenance,Agent),availableFrom(EntityWithProvenance,xsd:string),used(EntityWithProvenance,EntityWithProvenance),used(ProvenanceActivity,EntityWithProvenance),Is-a(Person,Agent),Is-a(Organization,Agent),isRelationshipFrom(InterAgentRelationshipRecord,Agent),performedBy(ProvenanceActivity,Agent),attributedTo(EntityWithProvenance,Agent),isRelationshipTo(InterAgentRelationshipRecord,Agent)
+hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes), isRelationshipTo(Agent, Agent), isRelationshipFrom(Agent, Agent)
 Participant Role Record Module:
-Is-a(ParticipantRoleRecord,AgentRecord),hasParticipantRoleType(ParticipantRoleRecord,ParticipantRoleTypes)
-Event Module:
-Is-a(ResearchProject,Event),hasEventType(Event,EventTypes),hasStatusGeneratedEvent(PersonStatusRecord,Event),Is-a(Description,EntityWithProvenance),withID(ExternalReference,xsd:string),refersTo(ExternalReference,ExternalReferent),hasName(Event,xsd:string)
-Place Module:
-Is-a(Place,EntityWithProvenance),refersToPlaceOfOrigin(OriginRecord,Place),Is-a(Description,EntityWithProvenance),Is-a(Coordinates,SpatialExtent),hasDescription(Place,Description),hasPlaceType(Place,PlaceTypes),hasCoordinates(Place,Coordinates),hasName(Place,xsd:string),hasAlternateName(Place,xsd:string),spatiallyLocatedIn(Place,Place),hasLongitude(Coordinates,xsd:double),hasLatitude(Coordinates,xsd:double)
-TemporalExtent Module:
-Is-a(TimeSpan,TemporalExtent),fallsWithin(TemporalExtent,TimeSpan),occursBefore(TemporalExtent,xsd:date),startsAt(TemporalExtent,xsd:date),occursAfter(TemporalExtent,xsd:date),contains(TemporalExtent,xsd:date),endsAt(TemporalExtent,xsd:date),
+hasParticipantRoleType(Agent, ParticipantRoleTypes), roleProvidedBy(Agent, Event)
