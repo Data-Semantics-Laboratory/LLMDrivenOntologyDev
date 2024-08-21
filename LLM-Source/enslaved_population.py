@@ -1,11 +1,11 @@
-#Populate the ontology
+#Populate the ontology (Enslaved)
 import os
 import openai
 import time
+from openai import OpenAI
 
 # Define your OpenAI API key
-api_key = ""
-openai.api_key = api_key
+client = OpenAI(api_key= "YOUR API KEY")
 
 # Function to read the text file
 def read_text_file(file_path):
@@ -15,7 +15,7 @@ def read_text_file(file_path):
 # Function to interact with ChatGPT and ask questions
 def populate_ontology(file_name, text_file, module_content, query):
     # Use GPT-4 to populate the ontology modules
-    response = openai.ChatCompletion.create(
+    response = client.chat.completions.create(
         model="gpt-4",
         messages=[{"role": "user", "content": f"{query}\n{text_file}"}],
         temperature=0,  # Adjust the temperature for generating diverse responses
@@ -32,7 +32,7 @@ def populate_ontology(file_name, text_file, module_content, query):
 # Main function to process text files and generate summaries
 def process_text_files(folder_path, module_file_path):
     # Create the responses folder if it doesn't exist
-    os.makedirs("OntoLLM/responses", exist_ok=True)
+    os.makedirs("EnslavedOntoLLM/responses", exist_ok=True)
 
     # Read module file content
     with open(module_file_path, "r", encoding="utf-8") as module_file:
@@ -105,10 +105,10 @@ def process_text_files(folder_path, module_file_path):
 # Example usage
 if __name__ == "__main__":
     # Path to the folder containing input text files
-    folder_path = "/Users/ngautam/Desktop/LLMOnto/Untitled/Mini-Files"
+    folder_path = "EnslavedOntoLLM/summaries"
 
     # Path to the module file containing relevant information
-    module_file_path = "/Users/ngautam/Desktop/LLMOnto/Untitled/LLM-Source/Enslaved_Schema_Relationships.txt"
+    module_file_path = "/Users/adrita/Downloads/OntoLLM/Enslaved_Schema_Relationships.txt"
 
     # Process text files and generate summaries
     process_text_files(folder_path, module_file_path) 
