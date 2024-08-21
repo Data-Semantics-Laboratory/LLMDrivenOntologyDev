@@ -1,11 +1,12 @@
-# Generate Holistic Summary
+# Generate Holistic Summary (Enslaved)
 import os
 import openai
 import time
+from openai import OpenAI
 
 # Define your OpenAI API key
-api_key = ""
-openai.api_key = api_key
+client = OpenAI(api_key= "YOUR API KEY")
+
 
 # Function to generate summaries based on a query prompt using GPT-3
 def generate_summary_with_modules(query, text_chunks, module_file_path):
@@ -43,7 +44,7 @@ def generate_summary(query, chunk, module_content):
     The given text to summarize:{chunk}"""
 
     # Use GPT-4 to generate summary
-    response = openai.ChatCompletion.create(
+    response = client.chat.completions.create(
         model="gpt-4",  # Choose the gpt-4 model
         messages=[{"role": "user", "content": prompt}],
         temperature=0,  # Adjust the temperature for generating diverse responses
@@ -51,7 +52,7 @@ def generate_summary(query, chunk, module_content):
     )
 
     # Extract and return the generated summary from the response
-    return response["choices"][0]["message"]["content"]
+    return response.choices[0].message.content.strip()
 
 # Function to read input text from file and split into paragraphs
 def read_text_and_split_into_paragraphs(file_path):
@@ -64,7 +65,7 @@ def read_text_and_split_into_paragraphs(file_path):
 # Function to generate holistic summary for a text file
 def generate_holistic_summary(file_name, context, module_content, holistic_query):
     # Use GPT-4 to generate a holistic summary
-    holistic_response = openai.ChatCompletion.create(
+    holistic_response = client.chat.completions.create(
         model="gpt-4",
         messages=[{"role": "user", "content": f"{holistic_query}\n{context}"}],
         temperature=0,  # Adjust the temperature for generating diverse responses
@@ -120,13 +121,10 @@ def process_text_files(folder_path, module_file_path):
 # Example usage
 if __name__ == "__main__":
     # Path to the folder containing input text files
-    folder_path = "/Users/ngautam/Desktop/LLMOnto/Untitled/LLM-Source/EnslavedOntoLLM/summaries"
+    folder_path = "/Users/adrita/Downloads/OntoLLM/Text_files"
 
     # Path to the module file containing relevant information
-    module_file_path = "/Users/ngautam/Desktop/LLMOnto/Untitled/LLM-Source/Enslaved_Schema_Relationships.txt"
+    module_file_path = "/Users/adrita/Downloads/OntoLLM/Enslaved_Schema_Relationships.txt"
 
     # Process text files and generate summaries
     process_text_files(folder_path, module_file_path) 
-    
-    
-    
