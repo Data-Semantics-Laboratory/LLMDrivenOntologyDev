@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(John Sella Martin, "John Sella Martin")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(John Sella Martin, "John Sella Martin")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(John Sella Martin, "John Sella Martin")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(John Sella Martin, "Martin")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(John Sella Martin, "John")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(John Sella Martin, "Enslaved. Free before the 13th Amendment. Became a pastor and politician. Key events include his escape from slavery in 1856 and his election to the state legislature in 1872.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(John Sella Martin, "Charlotte, North Carolina")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(John Sella Martin, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(John Sella Martin, "September 27, 1832")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(John Sella Martin, "1876")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(John Sella Martin, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(John Sella Martin, "escape from slavery, election to the state legislature")
+2. hasValue(Agent, PSCategories): hasValue(John Sella Martin, "Free Person, Pastor, Politician")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(John Sella Martin, "Abolitionist, Pastor, Educator, Politician")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(John Sella Martin, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(John Sella Martin, "Horace King")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Horace King, "John Sella Martin")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(John Sella Martin, "Influential Abolitionist, Pastor, Politician")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(John Sella Martin, "Abolition Movement, Pastoral Work, Political Career in Louisiana")

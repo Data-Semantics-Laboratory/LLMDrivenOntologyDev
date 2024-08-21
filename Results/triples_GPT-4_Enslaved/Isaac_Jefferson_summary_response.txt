@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Isaac Jefferson, "Isaac Granger")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Isaac Jefferson, "Isaac Granger")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Isaac Jefferson, "Isaac Jefferson")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Isaac Jefferson, "Jefferson")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Isaac Jefferson, "Isaac")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Isaac Jefferson, "Enslaved. Free after manumission around 1822. Occupations included tinsmith, blacksmith, and nailer. He was given as a wedding gift to Maria and John Wayles Eppes.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Isaac Jefferson, "Monticello, Virginia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Isaac Jefferson, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Isaac Jefferson, 71)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Isaac Jefferson, "1775")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Isaac Jefferson, "1846")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Isaac Jefferson, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Isaac Jefferson, "manumission")
+2. hasValue(Agent, PSCategories): hasValue(Isaac Jefferson, "Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Isaac Jefferson, "Tinsmith, Blacksmith, Nailer")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Isaac Jefferson, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Isaac Jefferson, "Thomas Jefferson")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Thomas Jefferson, "Isaac Jefferson")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Isaac Jefferson, "Artisan")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Isaac Jefferson, "Work at Monticello")

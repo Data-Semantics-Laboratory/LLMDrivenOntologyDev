@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Stephen Bishop, "Stephen Bishop")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Stephen Bishop, "Stephen Bishop")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Stephen Bishop, "Stephen Bishop")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Stephen Bishop, "Bishop")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Stephen Bishop, "Stephen")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Stephen Bishop, "Enslaved. Free before the 13th Amendment. A cave explorer, self-taught geologist, and guide at Mammoth Cave. He played a pioneering role in exploring and mapping Mammoth Cave.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Stephen Bishop, "Unknown")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Stephen Bishop, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Stephen Bishop, 38)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Stephen Bishop, "Around 1821")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Stephen Bishop, "June 15, 1859")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Stephen Bishop, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Stephen Bishop, "manumission")
+2. hasValue(Agent, PSCategories): hasValue(Stephen Bishop, "Enslaved, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Stephen Bishop, "Cave Explorer, Self-taught Geologist, Guide at Mammoth Cave")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Stephen Bishop, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Stephen Bishop, "Franklin Gorin")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Franklin Gorin, "Stephen Bishop")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Stephen Bishop, "Pioneer")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Stephen Bishop, "Exploring and Mapping Mammoth Cave")

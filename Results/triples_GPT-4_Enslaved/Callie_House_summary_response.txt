@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Callie House, "Callie House")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Callie House, "Callie House")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Callie House, "Callie House")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Callie House, "House")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Callie House, "Callie")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Callie House, "Rutherford County, Tennessee")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Callie House, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Callie House, 67)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Callie House, "1861")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Callie House, "1928")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Callie House, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Callie House, "marriage, death of husband, work as a washerwoman, imprisonment")
+2. hasValue(Agent, PSCategories): hasValue(Callie House, "Enslaved, Free, Leader")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Callie House, "Washerwoman, Leader of a reparations organization")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Callie House, "Co-leader")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Callie House, "Isaiah H. Dickerson")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Isaiah H. Dickerson, "Callie House")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Callie House, "Leader")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Callie House, "Reparations movement")

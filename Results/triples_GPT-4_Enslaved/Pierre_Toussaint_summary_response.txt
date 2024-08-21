@@ -1,0 +1,37 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Pierre Toussaint, "Pierre Toussaint")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Pierre Toussaint, "Pierre Toussaint")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Pierre Toussaint, "Pierre Toussaint")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Pierre Toussaint, "Toussaint")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Pierre Toussaint, "Pierre")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Pierre Toussaint, "Enslaved. Free after manumission in 1807. A hairdresser and philanthropist, Toussaint was a founder of Catholic Charities New York and a significant contributor to the construction of St. Patrick's Old Cathedral. His legacy includes a biography, a Haitian-Catholic Center in Miami, a residential secondary school for homeless youth in San Diego, and a series of portraits in Gracie Mansion. In April 2021, a large section of Church Avenue in Brooklyn, New York was co-named Pierre Toussaint Boulevard.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Pierre Toussaint, "St. Domingo")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Pierre Toussaint, "Haitian-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Pierre Toussaint, 87)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Pierre Toussaint, "June 27, 1766")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Pierre Toussaint, "June 30, 1853")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Pierre Toussaint, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Pierre Toussaint, "manumission in 1807")
+2. hasValue(Agent, PSCategories): hasValue(Pierre Toussaint, "Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Pierre Toussaint, "Hairdresser, Philanthropist")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Pierre Toussaint, "Enslaver or Owner")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Pierre Toussaint, "Founder")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Pierre Toussaint, "Founding of Catholic Charities New York, Construction of St. Patrick's Old Cathedral")

@@ -1,0 +1,33 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(William Traylor, "William Traylor")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(William Traylor, "Bill Traylor")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(William Traylor, "William Traylor")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(William Traylor, "Traylor")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(William Traylor, "William")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(William Traylor, "Born enslaved, became free, and then an artist. His work is exhibited in various museums and is the subject of scholarly reevaluation, a children's book, and a documentary.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(William Traylor, "Lowndes County, Alabama")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(William Traylor, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(William Traylor, "April 1853")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(William Traylor, "October 23, 1949")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(William Traylor, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(William Traylor, "emancipation, start of art career in 1939")
+2. hasValue(Agent, PSCategories): hasValue(William Traylor, "Free Person, Artist")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(William Traylor, "Sharecropper, Artist")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(William Traylor, "Artist")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(William Traylor, "Fields of American folk and modern art, exhibitions in various museums, subject of scholarly reevaluation, a children's book, and a documentary")

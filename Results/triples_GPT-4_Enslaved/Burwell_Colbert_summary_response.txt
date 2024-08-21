@@ -1,0 +1,37 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Burwell Colbert, "Burwell Colbert")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Burwell Colbert, "Burrell Colbert")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Burwell Colbert, "Burwell Colbert")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Burwell Colbert, "Colbert")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Burwell Colbert, "Burwell")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Burwell Colbert, "Enslaved. Occupations included butler, personal valet, glazier, and painter. Played a significant role in the operation and maintenance of the Jefferson estates.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Burwell Colbert, "Monticello")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Burwell Colbert, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Burwell Colbert, "December 24, 1783")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Burwell Colbert, "1862")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Burwell Colbert, "Male")
+
+Person Status Record Module:     
+1. hasValue(Agent, PSCategories): hasValue(Burwell Colbert, "Enslaved")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Burwell Colbert, "Butler, Personal Valet, Glazier, Painter")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Burwell Colbert, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Burwell Colbert, "Thomas Jefferson")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Thomas Jefferson, "Burwell Colbert")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Burwell Colbert, "Operator and Maintainer")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Burwell Colbert, "Operation and Maintenance of the Jefferson estates")

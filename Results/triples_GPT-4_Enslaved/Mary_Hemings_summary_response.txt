@@ -1,0 +1,34 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Mary Hemings Bell, "Mary Hemings Bell")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Mary Hemings Bell, "Mary Hemings Bell")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Mary Hemings Bell, "Mary Hemings Bell")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Mary Hemings Bell, "Hemings Bell")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Mary Hemings Bell, "Mary")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Mary Hemings Bell, "Enslaved. Purchased and informally freed by Thomas Bell in 1792.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Mary Hemings Bell, "Charles City County, Virginia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Mary Hemings Bell, "Mixed-Race")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Mary Hemings Bell, "1753")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Mary Hemings Bell, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Mary Hemings Bell, "purchased and informally freed by Thomas Bell in 1792")
+2. hasValue(Agent, PSCategories): hasValue(Mary Hemings Bell, "Free Person")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Mary Hemings Bell, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Mary Hemings Bell, "John Wayles")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(John Wayles, "Mary Hemings Bell")
+4. isRelationshipTo(Agent, Agent): isRelationshipTo(Mary Hemings Bell, "Thomas Jefferson")
+5. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Thomas Jefferson, "Mary Hemings Bell")
+6. isRelationshipTo(Agent, Agent): isRelationshipTo(Mary Hemings Bell, "Thomas Bell")
+7. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Thomas Bell, "Mary Hemings Bell")

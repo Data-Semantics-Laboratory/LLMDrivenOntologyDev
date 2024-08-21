@@ -1,0 +1,29 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(William Lewis Reece, "William Lewis Reece")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(William Lewis Reece, "William Reece")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(William Lewis Reece, "William Lewis Reece")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(William Lewis Reece, "Reece")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(William Lewis Reece, "William")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(William Lewis Reece, "Oklahoma")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(William Lewis Reece, "American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(William Lewis Reece, "July 1, 1959")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(William Lewis Reece, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(William Lewis Reece, "conviction for murder in 2015, life imprisonment sentence in 2022")
+2. hasValue(Agent, PSCategories): hasValue(William Lewis Reece, "Convicted Criminal")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(William Lewis Reece, "Serial Killer, Rapist, Kidnapper")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(William Lewis Reece, "Defendant")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(William Lewis Reece, "Trials for murder and other crimes")

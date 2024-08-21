@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Sally Hemings, "Sally Hemings")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Sally Hemings, "Sally Hemings")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Sally Hemings, "Sally Hemings")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Sally Hemings, "Hemings")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Sally Hemings, "Sally")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Sally Hemings, "Enslaved. Free before the 13th Amendment. Had an agreement with Thomas Jefferson to return to slavery in Virginia on the condition that all their children would be freed when they came of age. Mother to six children, likely fathered by Jefferson.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Sally Hemings, "Unknown")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Sally Hemings, "One-quarter African ancestry")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Sally Hemings, 62)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Sally Hemings, "1773")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Sally Hemings, "1835")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Sally Hemings, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Sally Hemings, "agreement with Thomas Jefferson, children's freedom")
+2. hasValue(Agent, PSCategories): hasValue(Sally Hemings, "Enslaved, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Sally Hemings, "Servant")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Sally Hemings, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Sally Hemings, "Thomas Jefferson")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Thomas Jefferson, "Sally Hemings")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Sally Hemings, "Mother")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Sally Hemings, "Motherhood of six children")

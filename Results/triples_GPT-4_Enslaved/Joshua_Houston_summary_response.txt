@@ -1,0 +1,40 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Joshua Houston, "Joshua Houston")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Joshua Houston, "Joshua Houston")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Joshua Houston, "Joshua Houston")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Joshua Houston, "Houston")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Joshua Houston, "Joshua")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Joshua Houston, "Enslaved. Free after manumission by Sam Houston in 1863. Occupations included construction worker, public office holder, and delegate at the 1884 Republican National Convention. Founder of the Bishop Ward Normal and Collegiate Institute.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Joshua Houston, "Perry County, Alabama")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Joshua Houston, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Joshua Houston, 80)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Joshua Houston, "1822")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Joshua Houston, "1902")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Joshua Houston, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Joshua Houston, "manumission by Sam Houston in 1863")
+2. hasValue(Agent, PSCategories): hasValue(Joshua Houston, "Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Joshua Houston, "Construction Worker, Public Office Holder, Delegate at the 1884 Republican National Convention")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Joshua Houston, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Joshua Houston, "Margaret Lea Houston, Sam Houston")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Margaret Lea Houston, "Joshua Houston")
+4. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Sam Houston, "Joshua Houston")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Joshua Houston, "Founder")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Joshua Houston, "Founding of Bishop Ward Normal and Collegiate Institute")

@@ -1,0 +1,31 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Jean-François Papillon, "Jean-François Papillon")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Jean-François Papillon, "Jean-François Papillon")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Jean-François Papillon, "Jean-François Papillon")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Jean-François Papillon, "Papillon")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Jean-François Papillon, "Jean-François")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Jean-François Papillon, "Africa")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Jean-François Papillon, "African")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Jean-François Papillon, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Jean-François Papillon, "escape from plantation, start of Haitian Revolution")
+2. hasValue(Agent, PSCategories): hasValue(Jean-François Papillon, "Enslaved, Free, Commander-in-chief")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Jean-François Papillon, "Maroon, Commander-in-chief")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Jean-François Papillon, "Leader")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Jean-François Papillon, "Boukman Dutty")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Boukman Dutty, "Jean-François Papillon")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Jean-François Papillon, "Key Leader")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Jean-François Papillon, "Haitian Revolution")

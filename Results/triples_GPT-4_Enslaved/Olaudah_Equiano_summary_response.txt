@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Olaudah Equiano, "Olaudah Equiano")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Olaudah Equiano, "Gustavus Vassa")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Olaudah Equiano, "Olaudah Equiano")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Olaudah Equiano, "Equiano")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Olaudah Equiano, "Olaudah")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Olaudah Equiano, "Enslaved. Free before the 13th Amendment. A leading figure in the British abolitionist movement, a writer whose autobiography fueled the anti-slavery movement, and a spokesman for the black community.")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Olaudah Equiano, "Igbo village of Essaka in modern southern Nigeria")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Olaudah Equiano, "African")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Olaudah Equiano, "1745")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Olaudah Equiano, "March 31, 1797")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Olaudah Equiano, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Olaudah Equiano, "purchase of freedom in 1766")
+2. hasValue(Agent, PSCategories): hasValue(Olaudah Equiano, "Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Olaudah Equiano, "Writer, Abolitionist, Spokesman for the black community")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Olaudah Equiano, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Olaudah Equiano, "Royal Navy officer")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Royal Navy officer, "Olaudah Equiano")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Olaudah Equiano, "Leading Figure, Writer, Spokesman")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Olaudah Equiano, "British abolitionist movement, Autobiography publication")

@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Frederick Douglass, "Frederick Douglass")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Frederick Douglass, "Frederick Douglass")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Frederick Douglass, "Frederick Douglass")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Frederick Douglass, "Douglass")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Frederick Douglass, "Frederick")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Frederick Douglass, "Enslaved, then free. Social reformer, abolitionist, orator, writer, and statesman. Key participant in the abolitionist movement and the African-American civil rights movement in the 19th century.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Frederick Douglass, "Maryland")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Frederick Douglass, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Frederick Douglass, 77)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Frederick Douglass, "February 1817")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Frederick Douglass, "1895")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Frederick Douglass, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Frederick Douglass, "escape from slavery, participation in abolitionist movement")
+2. hasValue(Agent, PSCategories): hasValue(Frederick Douglass, "Free Person, Social Reformer, Abolitionist, Orator, Writer, Statesman")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Frederick Douglass, "Social Reformer, Abolitionist, Orator, Writer, Statesman")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Frederick Douglass, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Frederick Douglass, "Thomas Auld, Edward Covey, Freeland")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Thomas Auld, "Frederick Douglass"), isRelationshipFrom(Edward Covey, "Frederick Douglass"), isRelationshipFrom(Freeland, "Frederick Douglass")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Frederick Douglass, "Leader, Abolitionist, Civil Rights Activist")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Frederick Douglass, "African-American civil rights movement, Abolitionist movement")

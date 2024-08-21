@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Henry Ossian Flipper, "Henry Ossian Flipper")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Henry Ossian Flipper, "Henry O. Flipper")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Henry Ossian Flipper, "Henry Ossian Flipper")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Henry Ossian Flipper, "Flipper")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Henry Ossian Flipper, "Henry")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Henry Ossian Flipper, "Enslaved. Free before the 13th Amendment. The first African American graduate from West Point and the first nonwhite officer to lead buffalo soldiers. His occupations included soldier, engineer, and author.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Henry Ossian Flipper, "Thomasville, Georgia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Henry Ossian Flipper, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Henry Ossian Flipper, 84)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Henry Ossian Flipper, "March 21, 1856")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Henry Ossian Flipper, "April 26, 1940")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Henry Ossian Flipper, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Henry Ossian Flipper, "graduation from the United States Military Academy at West Point, dismissal from the U.S. Army")
+2. hasValue(Agent, PSCategories): hasValue(Henry Ossian Flipper, "Free Person, Military Officer")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Henry Ossian Flipper, "Soldier, Engineer, Author")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Henry Ossian Flipper, "Appointer")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Henry Ossian Flipper, "Representative James C. Freeman")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Representative James C. Freeman, "Henry Ossian Flipper")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Henry Ossian Flipper, "Graduate, Officer")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Henry Ossian Flipper, "Graduation from West Point, Leading buffalo soldiers")

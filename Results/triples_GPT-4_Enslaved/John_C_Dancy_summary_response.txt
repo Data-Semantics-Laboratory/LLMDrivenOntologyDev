@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(John Campbell Dancy, "John Campbell Dancy")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(John Campbell Dancy, "John Campbell Dancy")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(John Campbell Dancy, "John Campbell Dancy")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(John Campbell Dancy, "Dancy")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(John Campbell Dancy, "John")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(John Campbell Dancy, "Born enslaved, became a free man and a prominent figure in society. He was a politician, journalist, and educator. He was a founder of the National Afro-American Council and held political appointments such as the collector of customs at Wilmington, North Carolina, and Recorder of Deeds in Washington, D.C.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(John Campbell Dancy, "North Carolina")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(John Campbell Dancy, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(John Campbell Dancy, 63)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(John Campbell Dancy, "May 8, 1857")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(John Campbell Dancy, "December 5, 1920")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(John Campbell Dancy, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(John Campbell Dancy, "birth as a slave, significant contributions to society")
+2. hasValue(Agent, PSCategories): hasValue(John Campbell Dancy, "Enslaved, Free, Prominent Figure")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(John Campbell Dancy, "Politician, Journalist, Educator")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(John Campbell Dancy, "Affiliation")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(John Campbell Dancy, "African Methodist Episcopal (AME) Zion church, National Afro-American Council")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(John Campbell Dancy, "Founder, Political Appointee")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(John Campbell Dancy, "Founding of National Afro-American Council, Collector of Customs at Wilmington, Recorder of Deeds in Washington, D.C.")

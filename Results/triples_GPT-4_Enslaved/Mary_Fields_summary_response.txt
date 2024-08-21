@@ -1,0 +1,41 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Mary Fields, "Mary Fields")
+2. hasNameVariant(Agent, NameVariant): hasNameVariant(Mary Fields, "Stagecoach Mary")
+3. hasNameVariant(Agent, NameVariant): hasNameVariant(Mary Fields, "Black Mary")
+4. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Mary Fields, "Mary Fields")
+5. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Mary Fields, "Mary Fields")
+6. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Mary Fields, "Fields")
+7. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Mary Fields, "Mary")
+
+Description Module:
+1. hasDescription(Agent, Description): hasDescription(Mary Fields, "Enslaved. Free before the 13th Amendment. The first African-American woman to work as a star route postwoman. She was also a chambermaid, caregiver, and tavern owner.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Mary Fields, "Tennessee")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Mary Fields, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Mary Fields, "1832")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Mary Fields, "December 5, 1914")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Mary Fields, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Mary Fields, "emancipation, employment with the U.S. Postal Service in 1895")
+2. hasValue(Agent, PSCategories): hasValue(Mary Fields, "Free Person, Star Route Postwoman")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Mary Fields, "Chambermaid, Caregiver, Tavern Owner, Star Route Postwoman")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Mary Fields, "Caregiver, Employee")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Mary Fields, "Mother Mary Amadeus, U.S. Postal Service")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Mother Mary Amadeus, "Mary Fields")
+4. isRelationshipFrom(Agent, Agent): isRelationshipFrom(U.S. Postal Service, "Mary Fields")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Mary Fields, "Pioneer")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Mary Fields, "Employment in U.S. Postal Service as the first African-American woman to work as a star route postwoman")

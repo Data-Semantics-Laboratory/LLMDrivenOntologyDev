@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Josiah Henson, "Josiah Henson")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Josiah Henson, "Josiah Henson")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Josiah Henson, "Josiah Henson")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Josiah Henson, "Henson")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Josiah Henson, "Josiah")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Josiah Henson, "Enslaved. Free before the 13th Amendment. A minister, author, abolitionist, and founder of a settlement and school for fugitive slaves in Canada.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Josiah Henson, "Maryland")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Josiah Henson, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Josiah Henson, 93)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Josiah Henson, "June 15, 1789")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Josiah Henson, "May 5, 1883")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Josiah Henson, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Josiah Henson, "escape to Canada, establishment of a settlement and school for fugitive slaves")
+2. hasValue(Agent, PSCategories): hasValue(Josiah Henson, "Free Person, Minister")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Josiah Henson, "Author, Abolitionist, Minister")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Josiah Henson, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Josiah Henson, "Former Master")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Former Master, "Josiah Henson")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Josiah Henson, "Founder, Methodist Preacher, Abolitionist Speaker, Leader")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Josiah Henson, "Founding of a settlement and school for fugitive slaves, Methodist preaching, Abolitionist speaking, Leadership in the community of fugitive slaves in Canada")

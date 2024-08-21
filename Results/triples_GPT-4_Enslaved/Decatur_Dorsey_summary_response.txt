@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Decatur Dorsey, "Decatur Dorsey")
+2. hasNameVariant(Agent, NameVariant): hasNameVariant(Decatur Dorsey, "Cato")
+3. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Decatur Dorsey, "Cato")
+4. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Decatur Dorsey, "Decatur Dorsey")
+5. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Decatur Dorsey, "Dorsey")
+6. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Decatur Dorsey, "Decatur")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Decatur Dorsey, "Howard County, Maryland")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Decatur Dorsey, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Decatur Dorsey, "around 1836")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Decatur Dorsey, "July 11, 1891")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Decatur Dorsey, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Decatur Dorsey, "conviction for burglary, sale to Edward Rider, Jr., enlistment in the Union Army")
+2. hasValue(Agent, PSCategories): hasValue(Decatur Dorsey, "Enslaved, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Decatur Dorsey, "Soldier, Various jobs after the war")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Decatur Dorsey, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Decatur Dorsey, "Edward Rider, Jr.")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Edward Rider, Jr., "Decatur Dorsey")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Decatur Dorsey, "Soldier")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Decatur Dorsey, "American Civil War, Battle of the Crater")

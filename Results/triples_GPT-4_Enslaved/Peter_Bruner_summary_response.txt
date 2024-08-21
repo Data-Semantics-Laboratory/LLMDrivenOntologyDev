@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Peter Bruner, "Peter Bruner")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Peter Bruner, "Peter Bruner")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Peter Bruner, "Peter Bruner")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Peter Bruner, "Bruner")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Peter Bruner, "Peter")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Peter Bruner, "Enslaved. Free after the Civil War. He was a custodian, messenger at Miami University, and author. He also served as a soldier in the Union Army during the Civil War.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Peter Bruner, "Kentucky")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Peter Bruner, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Peter Bruner, "1845")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Peter Bruner, "1938")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Peter Bruner, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Peter Bruner, "escape from slavery, joining the Union Army")
+2. hasValue(Agent, PSCategories): hasValue(Peter Bruner, "Free Person, Soldier")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Peter Bruner, "Custodian, Messenger, Author")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Peter Bruner, "Spouse")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Peter Bruner, "Frances Proctor")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Frances Proctor, "Peter Bruner")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Peter Bruner, "Soldier, Custodian, Messenger, Author")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Peter Bruner, "Civil War, Custodian and Messenger at Miami University, Author of his autobiography")

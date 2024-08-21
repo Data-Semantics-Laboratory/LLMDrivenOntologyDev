@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Christian Isobel Johnstone, "Christian Isobel Johnstone")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Christian Isobel Johnstone, "Christian Isobel Johnstone")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Christian Isobel Johnstone, "Christian Isobel Johnstone")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Christian Isobel Johnstone, "Johnstone")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Christian Isobel Johnstone, "Christian")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Christian Isobel Johnstone, "Scotland")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Christian Isobel Johnstone, "Scottish")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Christian Isobel Johnstone, 76)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Christian Isobel Johnstone, "June 12, 1781")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Christian Isobel Johnstone, "August 26, 1857")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Christian Isobel Johnstone, "Female")
+
+Person Status Record Module:     
+1. hasValue(Agent, PSCategories): hasValue(Christian Isobel Johnstone, "Journalist, Author, Editor")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Christian Isobel Johnstone, "Journalist, Author, Editor")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Christian Isobel Johnstone, "Spouse")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Christian Isobel Johnstone, "Thomas McCleish")
+3. isRelationshipTo(Agent, Agent): isRelationshipTo(Christian Isobel Johnstone, "John Johnstone")
+4. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Thomas McCleish, "Christian Isobel Johnstone")
+5. isRelationshipFrom(Agent, Agent): isRelationshipFrom(John Johnstone, "Christian Isobel Johnstone")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Christian Isobel Johnstone, "Prominent Journalist, Author, Editor")

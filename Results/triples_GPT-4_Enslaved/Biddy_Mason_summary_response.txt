@@ -1,0 +1,31 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Biddy Mason, "Biddy Mason")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Biddy Mason, "Biddy Mason")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Biddy Mason, "Biddy Mason")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Biddy Mason, "Mason")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Biddy Mason, "Biddy")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Biddy Mason, "Unknown")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Biddy Mason, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Biddy Mason, 72)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Biddy Mason, "August 15, 1818")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Biddy Mason, "January 15, 1891")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Biddy Mason, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Biddy Mason, "freedom granted by a California court in 1856")
+2. hasValue(Agent, PSCategories): hasValue(Biddy Mason, "Enslaved, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Biddy Mason, "Nurse, Real Estate Entrepreneur, Philanthropist")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Biddy Mason, "Founder")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Biddy Mason, "Founding of the First African Methodist Episcopal Church in Los Angeles and various philanthropic institutions")

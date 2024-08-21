@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Lewis Temple, "Lewis Temple")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Lewis Temple, "Lewis Temple")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Lewis Temple, "Lewis Temple")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Lewis Temple, "Temple")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Lewis Temple, "Lewis")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Lewis Temple, "Enslaved. Free before the 13th Amendment. Blacksmith, abolitionist, and inventor. Best known for creating 'Temple's Toggle' or 'Temple's Iron', a harpoon toggle tip based on Inuit and Native American designs.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Lewis Temple, "Richmond, Virginia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Lewis Temple, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Lewis Temple, 53)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Lewis Temple, "October 22, 1800")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Lewis Temple, "May 18, 1854")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Lewis Temple, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Lewis Temple, "move to New Bedford, Massachusetts in the 1820s")
+2. hasValue(Agent, PSCategories): hasValue(Lewis Temple, "Free Person, Blacksmith")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Lewis Temple, "Blacksmith, Abolitionist, Inventor")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Lewis Temple, "Spouse")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Lewis Temple, "Mary Clark")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Mary Clark, "Lewis Temple")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Lewis Temple, "Inventor")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Lewis Temple, "Creation of Temple's Toggle or Temple's Iron")

@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Timothy Thomas Fortune, "Timothy Thomas Fortune")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Timothy Thomas Fortune, "Timothy Thomas Fortune")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Timothy Thomas Fortune, "Timothy Thomas Fortune")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Timothy Thomas Fortune, "Fortune")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Timothy Thomas Fortune, "Timothy")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Timothy Thomas Fortune, "Enslaved. Free before the 13th Amendment. Civil rights leader, journalist, writer, editor, and publisher. Founder of the National Afro-American League and the National Afro-American Council.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Timothy Thomas Fortune, "Florida")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Timothy Thomas Fortune, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Timothy Thomas Fortune, 71)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Timothy Thomas Fortune, "October 3, 1856")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Timothy Thomas Fortune, "June 2, 1928")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Timothy Thomas Fortune, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Timothy Thomas Fortune, "birth into slavery, education, various occupations")
+2. hasValue(Agent, PSCategories): hasValue(Timothy Thomas Fortune, "Enslaved, Free, Civil Rights Leader, Journalist, Writer, Editor, Publisher")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Timothy Thomas Fortune, "Civil Rights Leader, Journalist, Writer, Editor, Publisher")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Timothy Thomas Fortune, "Advisor, Editor")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Timothy Thomas Fortune, "Booker T. Washington")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Booker T. Washington, "Timothy Thomas Fortune")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Timothy Thomas Fortune, "Founder")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Timothy Thomas Fortune, "Founding of National Afro-American League and National Afro-American Council")

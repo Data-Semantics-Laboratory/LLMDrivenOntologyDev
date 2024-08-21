@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Lewis Garrard Clarke, "Lewis Garrard Clarke")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Lewis Garrard Clarke, "Lewis Clarke")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Lewis Garrard Clarke, "Lewis Garrard Clarke")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Lewis Garrard Clarke, "Clarke")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Lewis Garrard Clarke, "Lewis")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Lewis Garrard Clarke, "Madison County, Kentucky")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Lewis Garrard Clarke, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Lewis Garrard Clarke, 85)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Lewis Garrard Clarke, "1812")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Lewis Garrard Clarke, "December 16, 1897")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Lewis Garrard Clarke, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Lewis Garrard Clarke, "escape to freedom in Canada in 1841")
+2. hasValue(Agent, PSCategories): hasValue(Lewis Garrard Clarke, "Enslaved, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Lewis Garrard Clarke, "Author")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Lewis Garrard Clarke, "Enslaver or Owner, Character Inspiration")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Lewis Garrard Clarke, "Samuel Campbell, Harriet Beecher Stowe")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Samuel Campbell, "Lewis Garrard Clarke"), isRelationshipFrom(Harriet Beecher Stowe, "Lewis Garrard Clarke")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Lewis Garrard Clarke, "Narrator")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Lewis Garrard Clarke, "Narrative of the Sufferings of Lewis Clarke")

@@ -1,0 +1,35 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Samuel C. Watson, "Samuel C. Watson")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Samuel C. Watson, "Samuel C. Watson")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Samuel C. Watson, "Samuel C. Watson")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Samuel C. Watson, "Watson")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Samuel C. Watson, "Samuel")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Samuel C. Watson, "South Carolina")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Samuel C. Watson, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Samuel C. Watson, 60)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Samuel C. Watson, "1832")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Samuel C. Watson, "March 13, 1892")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Samuel C. Watson, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Samuel C. Watson, "graduation from the Western Homeopathic College, move to Detroit")
+2. hasValue(Agent, PSCategories): hasValue(Samuel C. Watson, "Free Person, Medical Doctor, City Councilman")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Samuel C. Watson, "Druggist, Medical Doctor, Civic Leader")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Samuel C. Watson, "Abolitionists")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Samuel C. Watson, "William Whipper, George DeBaptiste")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Samuel C. Watson, "Key Figure, City Councilman")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Samuel C. Watson, "Detroit–Chatham Underground Railroad, City Council in Detroit")

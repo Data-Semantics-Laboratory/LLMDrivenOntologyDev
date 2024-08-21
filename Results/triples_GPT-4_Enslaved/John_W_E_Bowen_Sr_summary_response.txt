@@ -1,0 +1,34 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(John Wesley Edward Bowen, "John Wesley Edward Bowen")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(John Wesley Edward Bowen, "J. W. E. Bowen Jr.")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(John Wesley Edward Bowen, "John Wesley Edward Bowen")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(John Wesley Edward Bowen, "Bowen")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(John Wesley Edward Bowen, "John")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(John Wesley Edward Bowen, "New Orleans, Louisiana")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(John Wesley Edward Bowen, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(John Wesley Edward Bowen, "December 3, 1855")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(John Wesley Edward Bowen, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(John Wesley Edward Bowen, "enslavement, freedom, ordination as a clergyman, denominational official, educator, Ph.D. holder")
+2. hasValue(Agent, PSCategories): hasValue(John Wesley Edward Bowen, "Free Person, Clergyman, Denominational Official, Educator, Ph.D. Holder")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(John Wesley Edward Bowen, "Clergyman, Denominational Official, Educator, Ph.D. Holder")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(John Wesley Edward Bowen, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(John Wesley Edward Bowen, "Edward Bowen")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Edward Bowen, "John Wesley Edward Bowen")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(John Wesley Edward Bowen, "Significant Figure in American Negro History, Contributor to American Literature and Racial Reform")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(John Wesley Edward Bowen, "Association with Clark University and Gammon Theological Seminary")

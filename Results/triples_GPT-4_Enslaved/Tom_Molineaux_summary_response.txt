@@ -1,0 +1,31 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Thomas Molineaux, "Thomas Molineaux")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Thomas Molineaux, "Thomas Molineaux")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Thomas Molineaux, "Thomas Molineaux")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Thomas Molineaux, "Molineaux")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Thomas Molineaux, "Thomas")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Thomas Molineaux, "United States")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Thomas Molineaux, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Thomas Molineaux, 34)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Thomas Molineaux, "March 23, 1784")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Thomas Molineaux, "August 4, 1818")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Thomas Molineaux, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Thomas Molineaux, "arrival in England, start of fighting career")
+2. hasValue(Agent, PSCategories): hasValue(Thomas Molineaux, "Possibly Enslaved, Free Person, Professional Boxer")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Thomas Molineaux, "Bare-Knuckle Boxer")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Thomas Molineaux, "Notable Figure in Boxing")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Thomas Molineaux, "Fights against Tom Cribb, Induction into the International Boxing Hall of Fame and the Bare Knuckle Boxing Hall of Fame, Documentary film premiere at the Galway Film Fleadh")

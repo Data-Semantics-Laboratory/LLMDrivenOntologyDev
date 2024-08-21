@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Titus Cornelius, "Titus Cornelius")
+2. hasNameVariant(Agent, NameVariant): hasNameVariant(Titus Cornelius, "Colonel Tye")
+3. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Titus Cornelius, "Colonel Tye")
+4. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Titus Cornelius, "Titus Cornelius")
+5. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Titus Cornelius, "Cornelius")
+6. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Titus Cornelius, "Titus")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Titus Cornelius, "Escaped slave who became a Black Loyalist during the American Revolutionary War. Leader of the Black Brigade and a member of the Ethiopian Regiment.")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Titus Cornelius, "New Jersey")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Titus Cornelius, "African-American")
+
+Age Record Module:   
+1. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Titus Cornelius, "1780")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Titus Cornelius, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Titus Cornelius, "escape from slavery, joining the British forces")
+2. hasValue(Agent, PSCategories): hasValue(Titus Cornelius, "Enslaved, Free, Leader of the Black Brigade")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Titus Cornelius, "Leader of the Black Brigade, Member of the Ethiopian Regiment")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Titus Cornelius, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Titus Cornelius, "John Corlies")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(John Corlies, "Titus Cornelius")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Titus Cornelius, "Leader")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Titus Cornelius, "American Revolutionary War")

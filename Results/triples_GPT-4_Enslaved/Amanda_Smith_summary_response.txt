@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Amanda Smith, "Amanda Smith")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Amanda Smith, "Amanda Smith")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Amanda Smith, "Amanda Smith")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Amanda Smith, "Smith")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Amanda Smith, "Amanda")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Amanda Smith, "Born enslaved, Amanda Smith became a Methodist preacher and founder of the Amanda Smith Orphanage and Industrial Home for Abandoned and Destitute Colored Children in Chicago. She played a significant role in the Wesleyan-Holiness movement and preached the doctrine of entire sanctification at Methodist camp meetings worldwide.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Amanda Smith, "Long Green, Maryland")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Amanda Smith, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Amanda Smith, 78)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Amanda Smith, "January 23, 1837")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Amanda Smith, "February 24, 1915")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Amanda Smith, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Amanda Smith, "father buying her and her family's freedom, becoming a preacher")
+2. hasValue(Agent, PSCategories): hasValue(Amanda Smith, "Free Person, Preacher")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Amanda Smith, "Methodist Preacher, Founder of the Amanda Smith Orphanage and Industrial Home for Abandoned and Destitute Colored Children in Chicago")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Amanda Smith, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Amanda Smith, "Her Father")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Her Father, "Amanda Smith")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Amanda Smith, "Leader")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Amanda Smith, "Wesleyan-Holiness movement, Methodist camp meetings worldwide")

@@ -1,0 +1,37 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Solomon Northup, "Solomon Northup")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Solomon Northup, "Solomon Northup")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Solomon Northup, "Solomon Northup")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Solomon Northup, "Northup")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Solomon Northup, "Solomon")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Solomon Northup, "Free-born African American from New York, kidnapped into slavery in 1841 and regained his freedom in 1853.")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Solomon Northup, "Minerva, New York")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Solomon Northup, "African-American")
+
+Age Record Module:   
+Note: No specific age or birth and death dates provided.
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Solomon Northup, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Solomon Northup, "kidnapping, freedom restoration")
+2. hasValue(Agent, PSCategories): hasValue(Solomon Northup, "Free Person, Enslaved Person, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Solomon Northup, "Farmer, Professional Violinist, Abolitionist Lecturer")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Solomon Northup, "Enslaver or Owner, Helper")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Solomon Northup, "Samuel Bass, James H. Birch, Tibaut, Edwin Epps")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Samuel Bass, "Solomon Northup"), isRelationshipFrom(James H. Birch, "Solomon Northup"), isRelationshipFrom(Tibaut, "Solomon Northup"), isRelationshipFrom(Edwin Epps, "Solomon Northup")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Solomon Northup, "Memoirist, Abolitionist")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Solomon Northup, "Publication of 'Twelve Years a Slave', Abolitionist Lectures, Aiding Fugitive Slaves on the Underground Railroad")

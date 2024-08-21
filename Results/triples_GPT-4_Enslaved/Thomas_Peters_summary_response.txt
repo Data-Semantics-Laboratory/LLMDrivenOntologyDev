@@ -1,0 +1,25 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Evan Thomas Peters, "Evan Thomas Peters")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Evan Thomas Peters, "Evan Peters")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Evan Thomas Peters, "Evan Thomas Peters")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Evan Thomas Peters, "Peters")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Evan Thomas Peters, "Evan")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Evan Thomas Peters, "St. Louis, Missouri")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Evan Thomas Peters, "American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Evan Thomas Peters, "January 20, 1987")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Evan Thomas Peters, "Male")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Evan Thomas Peters, "Actor")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Evan Thomas Peters, "Actor")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Evan Thomas Peters, "American Horror Story, Mare of Easttown, Dahmer – Monster: The Jeffrey Dahmer Story, Kick-Ass, X-Men film series")

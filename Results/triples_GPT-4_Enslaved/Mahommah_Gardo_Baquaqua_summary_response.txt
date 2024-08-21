@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Mahommah Gardo Baquaqua, "Mahommah Gardo Baquaqua")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Mahommah Gardo Baquaqua, "Mahommah Gardo Baquaqua")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Mahommah Gardo Baquaqua, "Mahommah Gardo Baquaqua")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Mahommah Gardo Baquaqua, "Baquaqua")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Mahommah Gardo Baquaqua, "Mahommah")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Mahommah Gardo Baquaqua, "Enslaved in Brazil in 1845, escaped to New York in 1847. Occupations included being a servant, a student, and an author.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Mahommah Gardo Baquaqua, "Zooggoo, West Africa, specifically in Djougou, currently in Benin")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Mahommah Gardo Baquaqua, "African")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Mahommah Gardo Baquaqua, "between 1820 and 1830")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Mahommah Gardo Baquaqua, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Mahommah Gardo Baquaqua, "capture during the succession wars in Daboya, enslavement in Brazil in 1845, escape to New York in 1847")
+2. hasValue(Agent, PSCategories): hasValue(Mahommah Gardo Baquaqua, "Enslaved, Free")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Mahommah Gardo Baquaqua, "Servant, Student, Author")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Mahommah Gardo Baquaqua, "Local Dignitary, Enslaver, Abolitionists")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Mahommah Gardo Baquaqua, "Local Dignitary, Enslaver, Abolitionists")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Mahommah Gardo Baquaqua, "Student, Author")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Mahommah Gardo Baquaqua, "Studying at New York Central College, Authoring an autobiography")

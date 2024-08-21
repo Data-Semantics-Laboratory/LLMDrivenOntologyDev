@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Ada Copeland King, "Ada Copeland King")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Ada Copeland King, "Ada Copeland King")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Ada Copeland King, "Ada Copeland King")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Ada Copeland King, "Copeland King")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Ada Copeland King, "Ada")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Ada Copeland King, "Born enslaved, became free, moved to New York in the mid-1880s, married Clarence King in 1888, became a litigant in a thirty-year legal battle for the trust fund King had promised her.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Ada Copeland King, "Georgia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Ada Copeland King, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Ada Copeland King, 103)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Ada Copeland King, "December 23, 1860")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Ada Copeland King, "April 14, 1964")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Ada Copeland King, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Ada Copeland King, "move to New York, marriage to Clarence King")
+2. hasValue(Agent, PSCategories): hasValue(Ada Copeland King, "Enslaved, Free, Common-law wife")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Ada Copeland King, "Spouse")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Ada Copeland King, "Clarence King")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Clarence King, "Ada Copeland King")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Ada Copeland King, "Litigant")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Ada Copeland King, "Legal battle for trust fund")

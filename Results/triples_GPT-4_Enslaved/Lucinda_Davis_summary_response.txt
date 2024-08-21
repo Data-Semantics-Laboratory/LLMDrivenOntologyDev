@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Lucinda Davis, "Lucinda Davis")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Lucinda Davis, "Lucinda Davis")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Lucinda Davis, "Lucinda Davis")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Lucinda Davis, "Davis")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Lucinda Davis, "Lucinda")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Lucinda Davis, "Born around 1848 and lived past 1937. Sold to Tuskaya-hiniha, a Creek Indian, by her white father. Eventually gained freedom. Worked as a caregiver for Tuskaya-hiniha's baby. Became blind in old age. Moved to live with a woman named Josephine after her husband's death. Died in Tulsa, Oklahoma, under her daughter's care.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Lucinda Davis, "Creek Indian culture")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Lucinda Davis, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Lucinda Davis, "around 1848")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Lucinda Davis, "past 1937")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Lucinda Davis, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Lucinda Davis, "sold to Tuskaya-hiniha, freedom")
+2. hasValue(Agent, PSCategories): hasValue(Lucinda Davis, "Enslaved, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Lucinda Davis, "Caregiver")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Lucinda Davis, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Lucinda Davis, "Tuskaya-hiniha")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Tuskaya-hiniha, "Lucinda Davis")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Lucinda Davis, "Mother, Caregiver")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Lucinda Davis, "Caregiving for Tuskaya-hiniha's baby")

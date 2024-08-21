@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Solomon Bayley, "Solomon Bayley")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Solomon Bayley, "Solomon Bayley")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Solomon Bayley, "Solomon Bayley")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Solomon Bayley, "Bayley")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Solomon Bayley, "Solomon")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Solomon Bayley, "Enslaved. Became free. Occupations included farmer, sawmill worker, missionary, and author. Published one of the earliest known slave narratives and a book about the colony of Liberia.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Solomon Bayley, "Delaware")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Solomon Bayley, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Solomon Bayley, 68)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Solomon Bayley, "1771")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Solomon Bayley, "1839")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Solomon Bayley, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Solomon Bayley, "escape from slavery, recapture, purchase of freedom")
+2. hasValue(Agent, PSCategories): hasValue(Solomon Bayley, "Enslaved, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Solomon Bayley, "Farmer, Sawmill Worker, Missionary, Author")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Solomon Bayley, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Solomon Bayley, "Enslaver")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Enslaver, "Solomon Bayley")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Solomon Bayley, "Author")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Solomon Bayley, "Publication of slave narratives and a book about the colony of Liberia")

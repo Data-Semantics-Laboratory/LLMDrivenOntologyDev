@@ -1,0 +1,28 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Richard Henry Boyd, "Richard Henry Boyd")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Richard Henry Boyd, "Richard Henry Boyd")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Richard Henry Boyd, "Richard Henry Boyd")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Richard Henry Boyd, "Boyd")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Richard Henry Boyd, "Richard")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Richard Henry Boyd, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Richard Henry Boyd, 79)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Richard Henry Boyd, "March 15, 1843")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Richard Henry Boyd, "August 22, 1922")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Richard Henry Boyd, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Richard Henry Boyd, "self-education, beginning of religious career in 1869")
+2. hasValue(Agent, PSCategories): hasValue(Richard Henry Boyd, "Free Person, Minister, Businessman")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Richard Henry Boyd, "Minister, Businessman, Civil Rights Advocate")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Richard Henry Boyd, "Founder")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Richard Henry Boyd, "Founding of National Baptist Publishing Board, National Baptist Convention of America, Inc., National Baptist Church Supply Company, National Negro Doll Company, One-Cent Savings and Trust Company Bank")

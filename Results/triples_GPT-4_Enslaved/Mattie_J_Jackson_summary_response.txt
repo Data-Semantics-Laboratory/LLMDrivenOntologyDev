@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Mattie Jane Jackson, "Mattie Jane Jackson")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Mattie Jane Jackson, "Mattie J. Jackson")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Mattie Jane Jackson, "Mattie Jane Jackson")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Mattie Jane Jackson, "Jackson")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Mattie Jane Jackson, "Mattie")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Mattie Jane Jackson, "Enslaved. Became free with the help of the Underground Railroad. Known for her autobiography providing insight into African American family life during slavery and the Reconstruction era.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Mattie Jane Jackson, "St. Louis, Missouri")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Mattie Jane Jackson, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Mattie Jane Jackson, 63)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Mattie Jane Jackson, "January 1847")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Mattie Jane Jackson, "February 5, 1910")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Mattie Jane Jackson, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Mattie Jane Jackson, "escape from slavery, Underground Railroad")
+2. hasValue(Agent, PSCategories): hasValue(Mattie Jane Jackson, "Enslaved, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Mattie Jane Jackson, "Author")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Mattie Jane Jackson, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Mattie Jane Jackson, "Westley Jackson, Ellen Turner")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Westley Jackson, Ellen Turner, "Mattie Jane Jackson")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Mattie Jane Jackson, "Author")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Mattie Jane Jackson, "Writing of her autobiography")

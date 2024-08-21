@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Jared Maurice Arter, "Jared Maurice Arter")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Jared Maurice Arter, "Jared Maurice Arter")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Jared Maurice Arter, "Jared Maurice Arter")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Jared Maurice Arter, "Arter")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Jared Maurice Arter, "Jared")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Jared Maurice Arter, "Enslaved. Free under the Emancipation Proclamation of 1863. Accepted Christianity in 1873. Ordained in 1887. Writer, Christian missionary, and academic.")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Jared Maurice Arter, "Jefferson County, Virginia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Jared Maurice Arter, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Jared Maurice Arter, "January 27, 1850")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Jared Maurice Arter, "1930")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Jared Maurice Arter, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Jared Maurice Arter, "freedom under the Emancipation Proclamation of 1863, acceptance of Christianity in 1873, ordination in 1887")
+2. hasValue(Agent, PSCategories): hasValue(Jared Maurice Arter, "Free Person, Christian missionary, Writer, Academic")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Jared Maurice Arter, "Writer, Christian missionary, Academic")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Jared Maurice Arter, "Benefactor")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Jared Maurice Arter, "New York businessman")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(New York businessman, "Jared Maurice Arter")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Jared Maurice Arter, "Writer, Christian missionary, Academic")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Jared Maurice Arter, "Writing, Christian missionary work, Academic work")

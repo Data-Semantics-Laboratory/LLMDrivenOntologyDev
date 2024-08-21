@@ -1,0 +1,32 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Jacob D. Green, "Jacob D. Green")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Jacob D. Green, "Jacob D. Green")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Jacob D. Green, "Jacob D. Green")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Jacob D. Green, "Green")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Jacob D. Green, "Jacob")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Jacob D. Green, "Maryland")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Jacob D. Green, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Jacob D. Green, "August 24, 1813")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Jacob D. Green, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Jacob D. Green, "escape from slavery in 1848")
+2. hasValue(Agent, PSCategories): hasValue(Jacob D. Green, "Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Jacob D. Green, "Writer, Lecturer")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Jacob D. Green, "Enslaver or Owner")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Jacob D. Green, "Writer, Lecturer")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Jacob D. Green, "Published narrative in 1864")

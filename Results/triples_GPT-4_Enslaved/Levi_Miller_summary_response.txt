@@ -1,0 +1,26 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Levi Zane Miller, "Levi Zane Miller")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Levi Zane Miller, "Levi Miller")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Levi Zane Miller, "Levi Zane Miller")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Levi Zane Miller, "Miller")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Levi Zane Miller, "Levi")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Levi Zane Miller, "Brisbane, Queensland, Australia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Levi Zane Miller, "Australian")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Levi Zane Miller, 19)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Levi Zane Miller, "September 30, 2002")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Levi Zane Miller, "Male")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Levi Zane Miller, "Actor, Model")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Levi Zane Miller, "Actor")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Levi Zane Miller, "Pan, Better Watch Out, A Wrinkle in Time, Red Dog: True Blue, Jasper Jones, American Exit, Streamline, Kraven the Hunter")

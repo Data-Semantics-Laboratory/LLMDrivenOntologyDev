@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Thomas Midgley Jr., "Thomas Midgley Jr.")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Thomas Midgley Jr., "Thomas Midgley Jr.")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Thomas Midgley Jr., "Thomas Midgley Jr.")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Thomas Midgley Jr., "Midgley")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Thomas Midgley Jr., "Thomas")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Thomas Midgley Jr., "Beaver Falls, Pennsylvania")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Thomas Midgley Jr., "American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Thomas Midgley Jr., 55)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Thomas Midgley Jr., "May 18, 1889")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Thomas Midgley Jr., "November 2, 1944")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Thomas Midgley Jr., "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Thomas Midgley Jr., "graduation from Cornell University, employment at General Motors")
+2. hasValue(Agent, PSCategories): hasValue(Thomas Midgley Jr., "Mechanical Engineer, Chemical Engineer")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Thomas Midgley Jr., "Mechanical Engineer, Chemical Engineer, Inventor")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Thomas Midgley Jr., "Employer")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Thomas Midgley Jr., "General Motors")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(General Motors, "Thomas Midgley Jr.")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Thomas Midgley Jr., "Inventor")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Thomas Midgley Jr., "Development of leaded gasoline and chlorofluorocarbons (CFCs)")

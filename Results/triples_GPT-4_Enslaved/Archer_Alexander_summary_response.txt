@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Archer Alexander, "Archer Alexander")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Archer Alexander, "Archer Alexander")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Archer Alexander, "Archer Alexander")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Archer Alexander, "Alexander")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Archer Alexander, "Archer")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Archer Alexander, "Enslaved. Became free after notifying U.S. Army soldiers about a plot to sabotage a nearby railroad bridge during the American Civil War. Served as the model for the 'emancipated slave' in the Emancipation Memorial 1876 located in Lincoln Park in Washington, D.C.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Archer Alexander, "near Lexington, Virginia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Archer Alexander, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Archer Alexander, "1806")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Archer Alexander, "December 8, 1880")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Archer Alexander, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Archer Alexander, "act of notifying U.S. Army soldiers about a plot to sabotage a nearby railroad bridge during the American Civil War, leading to his eventual emancipation")
+2. hasValue(Agent, PSCategories): hasValue(Archer Alexander, "Enslaved, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Archer Alexander, "Model for the Emancipation Memorial 1876")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Archer Alexander, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Archer Alexander, "Alexander family")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Alexander family, "Archer Alexander")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Archer Alexander, "Model")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Archer Alexander, "Emancipation Memorial in 1876")

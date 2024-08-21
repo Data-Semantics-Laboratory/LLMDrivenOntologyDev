@@ -1,0 +1,33 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Richard Preston, "Richard Preston")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Richard Preston, "Richard Preston")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Richard Preston, "Richard Preston")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Richard Preston, "Preston")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Richard Preston, "Richard")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Richard Preston, "Cambridge, Massachusetts")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Richard Preston, "Caucasian")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Richard Preston, "August 5, 1954")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Richard Preston, "Male")
+
+Person Status Record Module:     
+1. hasValue(Agent, PSCategories): hasValue(Richard Preston, "Renowned Writer, Bestselling Author")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Richard Preston, "Writer, Author, Professor")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Richard Preston, "Successor")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Richard Preston, "Michael Crichton")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Michael Crichton, "Richard Preston")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Richard Preston, "Bedell Distinguished Visiting Professor")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Richard Preston, "University of Iowa's Nonfiction Writing Program in 2016")

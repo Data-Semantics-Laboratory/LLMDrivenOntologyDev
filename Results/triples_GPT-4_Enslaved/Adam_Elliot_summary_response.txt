@@ -1,0 +1,37 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Adam Elliot, "Adam Elliot")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Adam Elliot, "Adam Elliot")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Adam Elliot, "Adam Elliot")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Adam Elliot, "Elliot")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Adam Elliot, "Adam")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Adam Elliot, "Filmmaker known for his stop-motion animation films. Educated at the Victorian College of the Arts and won an Academy Award for Best Animated Short for Harvie Krumpet.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Adam Elliot, "Berwick, Victoria, Australia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Adam Elliot, "Australian")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Adam Elliot, "January 2, 1972")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Adam Elliot, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Adam Elliot, "education at the Victorian College of the Arts, winning an Academy Award for Best Animated Short for Harvie Krumpet")
+2. hasValue(Agent, PSCategories): hasValue(Adam Elliot, "Filmmaker")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Adam Elliot, "Filmmaker")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Adam Elliot, "Collaborator")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Adam Elliot, "Geoffrey Rush")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Geoffrey Rush, "Adam Elliot")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Adam Elliot, "Filmmaker")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Adam Elliot, "Creation of five films that have participated in over seven hundred film festivals and received over one hundred awards")

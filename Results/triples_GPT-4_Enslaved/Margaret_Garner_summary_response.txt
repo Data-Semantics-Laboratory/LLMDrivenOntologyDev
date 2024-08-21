@@ -1,0 +1,35 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Margaret Garner, "Margaret Garner")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Margaret Garner, "Peggy")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Margaret Garner, "Margaret Garner")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Margaret Garner, "Garner")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Margaret Garner, "Margaret")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Margaret Garner, "Maplewood plantation, Boone County, Kentucky")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Margaret Garner, "African-American")
+
+Age Record Module:   
+1. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Margaret Garner, "1858")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Margaret Garner, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Margaret Garner, "enslavement, escape in 1856, recapture under the Fugitive Slave Act of 1850")
+2. hasValue(Agent, PSCategories): hasValue(Margaret Garner, "Enslaved Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Margaret Garner, "House Slave")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Margaret Garner, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Margaret Garner, "Gaines family, Robert Garner")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Gaines family, "Margaret Garner")
+4. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Robert Garner, "Margaret Garner")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Margaret Garner, "Inspiration")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Margaret Garner, "Inspiration for various works of art and literature, including Toni Morrison's 'Beloved' and 'Margaret Garner'")

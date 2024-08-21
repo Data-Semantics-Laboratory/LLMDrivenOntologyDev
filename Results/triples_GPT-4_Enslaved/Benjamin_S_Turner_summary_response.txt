@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Benjamin Sterling Turner, "Benjamin Sterling Turner")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Benjamin Sterling Turner, "Benjamin Sterling Turner")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Benjamin Sterling Turner, "Benjamin Sterling Turner")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Benjamin Sterling Turner, "Turner")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Benjamin Sterling Turner, "Benjamin")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Benjamin Sterling Turner, "Halifax County, North Carolina")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Benjamin Sterling Turner, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Benjamin Sterling Turner, 69)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Benjamin Sterling Turner, "March 17, 1825")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Benjamin Sterling Turner, "March 21, 1894")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Benjamin Sterling Turner, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Benjamin Sterling Turner, "manumission, election to the 42nd United States Congress")
+2. hasValue(Agent, PSCategories): hasValue(Benjamin Sterling Turner, "Enslaved, Free, Businessman, Politician")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Benjamin Sterling Turner, "Businessman, Farmer, School Founder, Tax Collector, Councilman, Congressman")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Benjamin Sterling Turner, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Benjamin Sterling Turner, "Major W. H. Gee")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Major W. H. Gee, "Benjamin Sterling Turner")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Benjamin Sterling Turner, "Founder, Representative")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Benjamin Sterling Turner, "Founding of a school in Selma, Representation of Alabama's 1st congressional district")

@@ -1,0 +1,33 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Mary Black, "Mary Black")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Mary Black, "Mary Black")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Mary Black, "Mary Black")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Mary Black, "Black")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Mary Black, "Mary")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Mary Black, "Dublin, Ireland")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Mary Black, "Irish")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Mary Black, "May 23, 1955")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Mary Black, "Female")
+
+Person Status Record Module:     
+1. hasValue(Agent, PSCategories): hasValue(Mary Black, "Renowned Irish Folk Singer")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Mary Black, "Singer")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Mary Black, "Husband")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Mary Black, "Joe O'Reilly")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Joe O'Reilly, "Mary Black")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Mary Black, "Singer")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Mary Black, "Various Music Compilations and Soundtracks")

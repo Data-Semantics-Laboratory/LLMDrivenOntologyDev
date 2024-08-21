@@ -1,0 +1,34 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Mary Prince, "Mary Prince")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Mary Prince, "Mary Prince")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Mary Prince, "Mary Prince")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Mary Prince, "Prince")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Mary Prince, "Mary")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Mary Prince, "Bermuda")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Mary Prince, "African descent")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Mary Prince, "October 1, 1788")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Mary Prince, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Mary Prince, "manumission, contribution to the abolitionist movement in the British Empire")
+2. hasValue(Agent, PSCategories): hasValue(Mary Prince, "Enslaved, Free")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Mary Prince, "Author")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Mary Prince, "Collaborator")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Mary Prince, "Susanna Strickland")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Susanna Strickland, "Mary Prince")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Mary Prince, "Key Figure")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Mary Prince, "British anti-slavery movement")

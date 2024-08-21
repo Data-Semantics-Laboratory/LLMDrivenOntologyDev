@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Henry Highland Garnet, "Henry Highland Garnet")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Henry Highland Garnet, "Henry Highland Garnet")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Henry Highland Garnet, "Henry Highland Garnet")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Henry Highland Garnet, "Garnet")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Henry Highland Garnet, "Henry")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Henry Highland Garnet, "Enslaved as a child, escaped from slavery, educated at the African Free School, became a minister, educator, orator, diplomat, and advocate for black emigration. Founder of the African Civilization Society and the first African American to speak in the U.S. House of Representatives.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Henry Highland Garnet, "New York City")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Henry Highland Garnet, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Henry Highland Garnet, 66)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Henry Highland Garnet, "December 23, 1815")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Henry Highland Garnet, "February 13, 1882")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Henry Highland Garnet, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Henry Highland Garnet, "escape from slavery, education at the African Free School")
+2. hasValue(Agent, PSCategories): hasValue(Henry Highland Garnet, "Free Person, Minister, Educator, Orator, Diplomat")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Henry Highland Garnet, "Abolitionist, Minister, Educator, Orator, Diplomat, Advocate for black emigration")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Henry Highland Garnet, "Spouse")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Henry Highland Garnet, "Julia Ward Williams")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Julia Ward Williams, "Henry Highland Garnet")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Henry Highland Garnet, "Founder, Speaker")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Henry Highland Garnet, "Founding of African Civilization Society, Speaking in the U.S. House of Representatives")

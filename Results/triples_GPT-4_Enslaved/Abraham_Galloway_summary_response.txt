@@ -1,0 +1,31 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Abraham H. Galloway, "Abraham H. Galloway")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Abraham H. Galloway, "Abraham H. Galloway")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Abraham H. Galloway, "Abraham H. Galloway")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Abraham H. Galloway, "Galloway")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Abraham H. Galloway, "Abraham")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Abraham H. Galloway, "Smithville, North Carolina")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Abraham H. Galloway, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Abraham H. Galloway, 33)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Abraham H. Galloway, "February 8, 1837")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Abraham H. Galloway, "September 1, 1870")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Abraham H. Galloway, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Abraham H. Galloway, "freedom from slavery, election to the North Carolina Senate")
+2. hasValue(Agent, PSCategories): hasValue(Abraham H. Galloway, "Free Person, State Senator")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Abraham H. Galloway, "Politician, Former Slave")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Abraham H. Galloway, "Supporter, Senator")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Abraham H. Galloway, "Union Army's success in North Carolina, North Carolina Senate during the Reconstruction era")

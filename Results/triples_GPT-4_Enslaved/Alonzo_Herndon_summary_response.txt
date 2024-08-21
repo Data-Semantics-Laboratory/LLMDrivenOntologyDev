@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Alonzo "Lon" Franklin Herndon, "Alonzo 'Lon' Franklin Herndon")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Alonzo "Lon" Franklin Herndon, "Lon Franklin Herndon")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Alonzo "Lon" Franklin Herndon, "Alonzo 'Lon' Franklin Herndon")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Alonzo "Lon" Franklin Herndon, "Herndon")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Alonzo "Lon" Franklin Herndon, "Alonzo")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Alonzo "Lon" Franklin Herndon, "From enslaved to a successful entrepreneur and businessman, founder of the Atlanta Family Life Insurance Company.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Alonzo "Lon" Franklin Herndon, "Walton County, Georgia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Alonzo "Lon" Franklin Herndon, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Alonzo "Lon" Franklin Herndon, 69)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Alonzo "Lon" Franklin Herndon, "June 26, 1858")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Alonzo "Lon" Franklin Herndon, "July 21, 1927")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Alonzo "Lon" Franklin Herndon, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Alonzo "Lon" Franklin Herndon, "emancipation, founding of the Atlanta Family Life Insurance Company")
+2. hasValue(Agent, PSCategories): hasValue(Alonzo "Lon" Franklin Herndon, "Free Person, Entrepreneur, Businessman")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Alonzo "Lon" Franklin Herndon, "Laborer, Peddler, Barber, Real Estate Investor, Insurance Businessman")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Alonzo "Lon" Franklin Herndon, "Spouse, Parent")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Alonzo "Lon" Franklin Herndon, "Two Wives, Norris B. Herndon")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Two Wives, Norris B. Herndon, "Alonzo 'Lon' Franklin Herndon")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Alonzo "Lon" Franklin Herndon, "Founder")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Alonzo "Lon" Franklin Herndon, "Founding of Atlanta Family Life Insurance Company")

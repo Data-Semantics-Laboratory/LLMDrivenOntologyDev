@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(London Bourne, "London Bourne")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(London Bourne, "London Bourne")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(London Bourne, "London Bourne")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(London Bourne, "Bourne")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(London Bourne, "London")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(London Bourne, "Enslaved. Free before the 13th Amendment. Became a wealthy merchant and abolitionist. His father bought his freedom at the age of 23 or 25.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(London Bourne, "Barbados")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(London Bourne, "Afro-Barbadian")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(London Bourne, 76)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(London Bourne, "1793")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(London Bourne, "1869")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(London Bourne, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(London Bourne, "manumission, becoming a wealthy merchant and abolitionist")
+2. hasValue(Agent, PSCategories): hasValue(London Bourne, "Free Person, Merchant, Abolitionist")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(London Bourne, "Merchant, Landholder, Abolitionist")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(London Bourne, "Enslaver or Owner, Supporter")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(London Bourne, "William Bourne, Samuel Jackman Prescod")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(William Bourne, "London Bourne"), isRelationshipFrom(Samuel Jackman Prescod, "London Bourne")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(London Bourne, "Member, Supporter")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(London Bourne, "Membership in the Barbados Auxiliary Anti-Slavery Society, Support for Afro-Barbadian civil rights")

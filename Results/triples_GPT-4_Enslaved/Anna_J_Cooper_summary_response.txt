@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Anna Julia Cooper, "Anna Julia Cooper")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Anna Julia Cooper, "Anna J. Cooper")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Anna Julia Cooper, "Anna Julia Cooper")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Anna Julia Cooper, "Cooper")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Anna Julia Cooper, "Anna")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Anna Julia Cooper, "Enslaved. Free before the 13th Amendment. Scholar, author, educator, sociologist, speaker, and Black liberation activist. Teacher, principal, author, and public speaker. Founder of the Colored Women's League and the second president of Frelinghuysen University.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Anna Julia Cooper, "Raleigh, North Carolina")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Anna Julia Cooper, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Anna Julia Cooper, 105)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Anna Julia Cooper, "August 10, 1858")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Anna Julia Cooper, "February 27, 1964")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Anna Julia Cooper, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Anna Julia Cooper, "manumission, earning a doctoral degree, becoming a prominent member of Washington, D.C.'s African-American community")
+2. hasValue(Agent, PSCategories): hasValue(Anna Julia Cooper, "Free Person, Scholar, Author, Educator, Sociologist, Speaker, Black Liberation Activist")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Anna Julia Cooper, "Teacher, Principal, Author, Public Speaker")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Anna Julia Cooper, "Spouse")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Anna Julia Cooper, "George A. C. Cooper")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(George A. C. Cooper, "Anna Julia Cooper")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Anna Julia Cooper, "Founder, President")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Anna Julia Cooper, "Founding of Colored Women's League, Presidency of Frelinghuysen University")

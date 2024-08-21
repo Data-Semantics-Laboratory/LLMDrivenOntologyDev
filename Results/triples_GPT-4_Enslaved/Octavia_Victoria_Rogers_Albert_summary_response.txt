@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Octavia Rogers Albert, "Octavia Rogers Albert")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Octavia Rogers Albert, "Octavia Rogers Albert")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Octavia Rogers Albert, "Octavia Rogers Albert")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Octavia Rogers Albert, "Albert")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Octavia Rogers Albert, "Octavia")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Octavia Rogers Albert, "Enslaved. Free after the abolition of slavery. Converted to the African Methodist Episcopal Church in 1875. Author, biographer, and teacher. Interviewer of formerly enslaved people for her book The House of Bondage, or Charlotte Brooks and Other Slaves.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Octavia Rogers Albert, "Oglethorpe, Georgia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Octavia Rogers Albert, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Octavia Rogers Albert, 35)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Octavia Rogers Albert, "December 24, 1853")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Octavia Rogers Albert, "August 19, 1889")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Octavia Rogers Albert, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Octavia Rogers Albert, "manumission, conversion to the African Methodist Episcopal Church")
+2. hasValue(Agent, PSCategories): hasValue(Octavia Rogers Albert, "Free Person, Author, Teacher")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Octavia Rogers Albert, "Author, Biographer, Teacher")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Octavia Rogers Albert, "Spouse")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Octavia Rogers Albert, "Aristide Elphonso Peter Albert")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Aristide Elphonso Peter Albert, "Octavia Rogers Albert")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Octavia Rogers Albert, "Author, Interviewer")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Octavia Rogers Albert, "Interviewing of formerly enslaved people for her book The House of Bondage, or Charlotte Brooks and Other Slaves")

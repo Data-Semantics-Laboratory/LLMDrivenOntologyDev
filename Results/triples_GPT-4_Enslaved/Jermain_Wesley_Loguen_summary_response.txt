@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Rev. Jermain Wesley Loguen, "Rev. Jermain Wesley Loguen")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Rev. Jermain Wesley Loguen, "Rev. Jermain Wesley Loguen")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Rev. Jermain Wesley Loguen, "Rev. Jermain Wesley Loguen")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Rev. Jermain Wesley Loguen, "Loguen")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Rev. Jermain Wesley Loguen, "Jermain")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Rev. Jermain Wesley Loguen, "Tennessee")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Rev. Jermain Wesley Loguen, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Rev. Jermain Wesley Loguen, 59)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Rev. Jermain Wesley Loguen, "February 5, 1813")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Rev. Jermain Wesley Loguen, "September 30, 1872")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Rev. Jermain Wesley Loguen, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Rev. Jermain Wesley Loguen, "escape from slavery, appointment as bishop")
+2. hasValue(Agent, PSCategories): hasValue(Rev. Jermain Wesley Loguen, "Enslaved, Free, Bishop")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Rev. Jermain Wesley Loguen, "Abolitionist, Bishop of the African Methodist Episcopal Zion Church, Author, Teacher")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Rev. Jermain Wesley Loguen, "Family")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Rev. Jermain Wesley Loguen, "Caroline Loguen, Mother")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Caroline Loguen, "Rev. Jermain Wesley Loguen"), isRelationshipFrom(Mother, "Rev. Jermain Wesley Loguen")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Rev. Jermain Wesley Loguen, "Depot Operator, Participant")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Rev. Jermain Wesley Loguen, "Underground Railroad, Jerry Rescue")

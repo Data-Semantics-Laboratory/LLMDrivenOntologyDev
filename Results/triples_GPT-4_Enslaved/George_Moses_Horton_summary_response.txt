@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(George Moses Horton, "George Moses Horton")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(George Moses Horton, "George Moses Horton")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(George Moses Horton, "George Moses Horton")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(George Moses Horton, "Horton")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(George Moses Horton, "George")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(George Moses Horton, "Enslaved. Became free after the Emancipation in 1865. He was a poet and the first African-American author to be published in the United States. He emigrated to Liberia in 1867.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(George Moses Horton, "North Carolina")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(George Moses Horton, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(George Moses Horton, "1798")
+Note: The death date is unknown, so we skip the hasDeathDate relation.
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(George Moses Horton, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(George Moses Horton, "emancipation")
+2. hasValue(Agent, PSCategories): hasValue(George Moses Horton, "Enslaved, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(George Moses Horton, "Poet")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(George Moses Horton, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(George Moses Horton, "William Horton")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(William Horton, "George Moses Horton")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(George Moses Horton, "Author, Poet")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(George Moses Horton, "Publication of first book of literature in North Carolina")

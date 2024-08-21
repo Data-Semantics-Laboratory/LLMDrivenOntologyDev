@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Joice Heth, "Joice Heth")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Joice Heth, "Joice Heth")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Joice Heth, "Joice Heth")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Joice Heth, "Heth")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Joice Heth, "Joice")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Joice Heth, "Enslaved and later exhibited. She was exhibited as George Washington's nurse by P.T. Barnum. She was also sold to promoters R.W. Lindsay and Coley Bartram.")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Joice Heth, "Unknown")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Joice Heth, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Joice Heth, "Around 1756")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Joice Heth, "February 19, 1836")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Joice Heth, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Joice Heth, "exhibition in Louisville, Kentucky in 1835, sale to promoters R.W. Lindsay and Coley Bartram")
+2. hasValue(Agent, PSCategories): hasValue(Joice Heth, "Enslaved, Exhibited")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Joice Heth, "Exhibited as George Washington's nurse")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Joice Heth, "Exhibitor, Promoter")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Joice Heth, "P.T. Barnum, R.W. Lindsay, Coley Bartram")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(P.T. Barnum, "Joice Heth"), isRelationshipFrom(R.W. Lindsay, "Joice Heth"), isRelationshipFrom(Coley Bartram, "Joice Heth")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Joice Heth, "Role in Exhibition")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Joice Heth, "Exhibition as George Washington's nurse")

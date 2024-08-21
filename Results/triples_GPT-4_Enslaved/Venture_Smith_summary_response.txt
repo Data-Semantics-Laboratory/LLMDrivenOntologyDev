@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Venture Smith, "Broteer Furro")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Venture Smith, "Venture Smith")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Venture Smith, "Venture Smith")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Venture Smith, "Smith")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Venture Smith, "Venture")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Venture Smith, "Enslaved and later self-purchased freedom. Farmer, craftsman, and autobiographer. Expanded his initial 10-acre farm to at least 130 acres and made a living by fishing, whaling, farming, and trading. His life story has been featured in films, documentaries, and books.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Venture Smith, "West Africa")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Venture Smith, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Venture Smith, 76)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Venture Smith, "1729")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Venture Smith, "1805")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Venture Smith, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Venture Smith, "self-purchase of freedom in 1765")
+2. hasValue(Agent, PSCategories): hasValue(Venture Smith, "Enslaved, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Venture Smith, "Farmer, Craftsman, Autobiographer")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Venture Smith, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Venture Smith, "Robinson Mumford")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Robinson Mumford, "Venture Smith")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Venture Smith, "Autobiographer")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Venture Smith, "Documenting his life experiences in one of the earliest known examples of an African American narrative")

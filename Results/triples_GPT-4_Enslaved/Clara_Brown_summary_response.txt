@@ -1,0 +1,34 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Clara Brown, "Clara Brown")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Clara Brown, "Clara Brown")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Clara Brown, "Clara Brown")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Clara Brown, "Brown")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Clara Brown, "Clara")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Clara Brown, "Enslaved. Free before the 13th Amendment. Recognized as 'Colorado's first black settler' and was inducted into the Colorado Women's Hall of Fame and the Colorado Business Hall of Fame.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Clara Brown, "Virginia and Kentucky")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Clara Brown, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Clara Brown, 85)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Clara Brown, "1800")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Clara Brown, "1885")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Clara Brown, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Clara Brown, "manumission, community leadership, philanthropy, entrepreneurship")
+2. hasValue(Agent, PSCategories): hasValue(Clara Brown, "Free Person, Community Leader, Philanthropist, Entrepreneur")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Clara Brown, "Cook, Laundress, Property and Mine Investor")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Clara Brown, "Founding Member, Supporter")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Clara Brown, "Founding of a Sunday school, Support to her community")

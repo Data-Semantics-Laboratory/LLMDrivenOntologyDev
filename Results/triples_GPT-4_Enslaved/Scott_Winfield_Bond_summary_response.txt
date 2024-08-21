@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Scott Winfield Bond, "Scott Winfield Bond")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Scott Winfield Bond, "Black Rockefeller")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Scott Winfield Bond, "Scott Winfield Bond")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Scott Winfield Bond, "Bond")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Scott Winfield Bond, "Scott")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Scott Winfield Bond, "Born into slavery, became a free man and the state's first Black millionaire. Occupations included businessman, agricultural real estate, merchandising, and factory production.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Scott Winfield Bond, "Arkansas")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Scott Winfield Bond, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Scott Winfield Bond, 81)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Scott Winfield Bond, "March 15, 1852")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Scott Winfield Bond, "March 24, 1933")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Scott Winfield Bond, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Scott Winfield Bond, "birth into slavery, becoming a businessman")
+2. hasValue(Agent, PSCategories): hasValue(Scott Winfield Bond, "Enslaved, Free, Businessman")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Scott Winfield Bond, "Businessman, Agricultural Real Estate, Merchandising, Factory Production")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Scott Winfield Bond, "Employer")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Scott Winfield Bond, "Daniel Rudd")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Daniel Rudd, "Scott Winfield Bond")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Scott Winfield Bond, "Member")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Scott Winfield Bond, "Membership in Booker T. Washington's National Negro Business League")

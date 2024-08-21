@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(David George, "David George")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(David George, "David George")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(David George, "David George")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(David George, "George")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(David George, "David")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(David George, "Virginia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(David George, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(David George, 68)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(David George, "1742")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(David George, "1810")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(David George, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(David George, "escape from slavery")
+2. hasValue(Agent, PSCategories): hasValue(David George, "Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(David George, "Baptist preacher")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(David George, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(David George, "Creek Indian chief")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Creek Indian chief, "David George")
+4. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(David George, "Helper")
+5. isRelationshipTo(Agent, Agent): isRelationshipTo(David George, "Scottish trader")
+6. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Scottish trader, "David George")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(David George, "Black Loyalist")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(David George, "Escape from slavery")

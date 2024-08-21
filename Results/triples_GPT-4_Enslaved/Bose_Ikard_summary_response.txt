@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Bose Ikard, "Bose Ikard")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Bose Ikard, "Bose Ikard")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Bose Ikard, "Bose Ikard")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Bose Ikard, "Ikard")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Bose Ikard, "Bose")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Bose Ikard, "Summerville, Mississippi")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Bose Ikard, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Bose Ikard, 86)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Bose Ikard, "1843")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Bose Ikard, "January 4, 1929")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Bose Ikard, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Bose Ikard, "participation in the pioneering cattle drives on the Goodnight–Loving Trail, settlement in Parker County")
+2. hasValue(Agent, PSCategories): hasValue(Bose Ikard, "Enslaved, Free, Cowboy, Farmer")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Bose Ikard, "Cowboy, Tracker, De facto Banker, Farmer")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Bose Ikard, "Employee")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Bose Ikard, "Charles Goodnight")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Charles Goodnight, "Bose Ikard")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Bose Ikard, "Pioneer")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Bose Ikard, "Cattle drives on the Goodnight–Loving Trail")

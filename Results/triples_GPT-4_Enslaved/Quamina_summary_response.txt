@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Quamina Gladstone, "Quamina Gladstone")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Quamina Gladstone, "Quamina")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Quamina Gladstone, "Quamina Gladstone")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Quamina Gladstone, "Gladstone")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Quamina Gladstone, "Quamina")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Quamina Gladstone, "Akan, Ghana")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Quamina Gladstone, "African")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Quamina Gladstone, 45)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Quamina Gladstone, "1778")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Quamina Gladstone, "September 16, 1823")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Quamina Gladstone, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Quamina Gladstone, "Demerara rebellion of 1823")
+2. hasValue(Agent, PSCategories): hasValue(Quamina Gladstone, "Enslaved")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Quamina Gladstone, "Carpenter")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Quamina Gladstone, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Quamina Gladstone, "Sir John Gladstone")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Sir John Gladstone, "Quamina Gladstone")
+4. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Quamina Gladstone, "Parent")
+5. isRelationshipTo(Agent, Agent): isRelationshipTo(Quamina Gladstone, "Jack Gladstone")
+6. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Jack Gladstone, "Quamina Gladstone")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Quamina Gladstone, "Participant")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Quamina Gladstone, "Demerara rebellion of 1823")

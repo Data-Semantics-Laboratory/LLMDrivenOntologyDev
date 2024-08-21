@@ -1,0 +1,35 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Harriet Jacobs, "Harriet Jacobs")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Harriet Jacobs, "Harriet Jacobs")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Harriet Jacobs, "Harriet Jacobs")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Harriet Jacobs, "Jacobs")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Harriet Jacobs, "Harriet")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Harriet Jacobs, "Edenton, North Carolina")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Harriet Jacobs, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Harriet Jacobs, "1813-1815")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Harriet Jacobs, "March 7, 1897")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Harriet Jacobs, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Harriet Jacobs, "escape from slavery, freedom bought by Cornelia Willis")
+2. hasValue(Agent, PSCategories): hasValue(Harriet Jacobs, "Enslaved, Free")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Harriet Jacobs, "Abolitionist, Writer, Nanny, Boarding House Operator")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Harriet Jacobs, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Harriet Jacobs, "Dr. James Norcom, Samuel Sawyer")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Dr. James Norcom, "Harriet Jacobs"), isRelationshipFrom(Samuel Sawyer, "Harriet Jacobs")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Harriet Jacobs, "Founder, Author")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Harriet Jacobs, "Founding of schools for fugitive and freed slaves, Authoring of 'Incidents in the Life of a Slave Girl'")

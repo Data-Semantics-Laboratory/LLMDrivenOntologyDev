@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(William Hooper Councill, "William Hooper Councill")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(William Hooper Councill, "William Hooper Councill")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(William Hooper Councill, "William Hooper Councill")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(William Hooper Councill, "Councill")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(William Hooper Councill, "William")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(William Hooper Councill, "Enslaved. Free before the 13th Amendment. An educator, legislator, secretary of the Colored National Civil Rights Convention, and founder and president of the State Normal School for Negroes.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(William Hooper Councill, "Fayetteville, North Carolina")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(William Hooper Councill, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(William Hooper Councill, 60)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(William Hooper Councill, "July 12, 1848")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(William Hooper Councill, "April 9, 1909")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(William Hooper Councill, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(William Hooper Councill, "sale to slave traders, education at Freedmen's Bureau school, teaching career")
+2. hasValue(Agent, PSCategories): hasValue(William Hooper Councill, "Enslaved, Free, Educator, Legislator")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(William Hooper Councill, "Teacher, Legislator, Secretary of the Colored National Civil Rights Convention, Founder and President of the State Normal School for Negroes")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(William Hooper Councill, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(William Hooper Councill, "Slave traders in Huntsville, Alabama")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Slave traders in Huntsville, Alabama, "William Hooper Councill")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(William Hooper Councill, "Founder, Key Figure")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(William Hooper Councill, "Founding of State Normal School for Negroes, Education of African Americans in Alabama")

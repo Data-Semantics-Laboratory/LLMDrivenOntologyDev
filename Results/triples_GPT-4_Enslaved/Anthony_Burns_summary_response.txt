@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Anthony Burns, "Anthony Burns")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Anthony Burns, "Anthony Burns")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Anthony Burns, "Anthony Burns")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Anthony Burns, "Burns")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Anthony Burns, "Anthony")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Anthony Burns, "Enslaved to free. Key status-generating events include his escape to Massachusetts in 1853, his trial under the Fugitive Slave Act of 1850, and his eventual ransom from slavery by Boston sympathizers. Occupations included being a Baptist preacher. He played the role of a fugitive slave, a symbol for the abolitionist movement, and a Baptist preacher in Upper Canada.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Anthony Burns, "Stafford County, Virginia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Anthony Burns, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Anthony Burns, 28)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Anthony Burns, "May 31, 1834")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Anthony Burns, "July 17, 1862")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Anthony Burns, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Anthony Burns, "escape to Massachusetts, trial under the Fugitive Slave Act, ransom from slavery")
+2. hasValue(Agent, PSCategories): hasValue(Anthony Burns, "Enslaved, Free")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Anthony Burns, "Baptist preacher")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Anthony Burns, "Enslaver or Owner, Abolitionist")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Anthony Burns, "Millspaugh, Leonard Grimes")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Millspaugh, "Anthony Burns"), isRelationshipFrom(Leonard Grimes, "Anthony Burns")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Anthony Burns, "Fugitive Slave, Symbol, Baptist Preacher")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Anthony Burns, "Escape to Massachusetts, Trial under the Fugitive Slave Act, Ransom from slavery")

@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(William Benjamin Gould Sr., "William Benjamin Gould Sr.")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(William Benjamin Gould Sr., "William B. Gould")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(William Benjamin Gould Sr., "William Benjamin Gould Sr.")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(William Benjamin Gould Sr., "Gould")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(William Benjamin Gould Sr., "William")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(William Benjamin Gould Sr., "Enslaved. Free before the 13th Amendment. A sailor during the Civil War, a respected building contractor in Dedham, Massachusetts, and a community leader serving in various positions in the Grand Army of the Republic and the Episcopal Church of the Good Shepard. His diary, kept during his time in the Navy, is considered a valuable historical document and was edited and published by his great-grandson, William B. Gould IV.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(William Benjamin Gould Sr., "Wilmington, North Carolina")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(William Benjamin Gould Sr., "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(William Benjamin Gould Sr., 85)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(William Benjamin Gould Sr., "November 18, 1837")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(William Benjamin Gould Sr., "May 25, 1923")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(William Benjamin Gould Sr., "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(William Benjamin Gould Sr., "escape during the Civil War, service in the U.S. Navy")
+2. hasValue(Agent, PSCategories): hasValue(William Benjamin Gould Sr., "Free Person, Sailor")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(William Benjamin Gould Sr., "Plasterer, Brick Mason, Building Contractor, Sailor")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(William Benjamin Gould Sr., "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(William Benjamin Gould Sr., "Peanut Planter")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Peanut Planter, "William Benjamin Gould Sr.")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(William Benjamin Gould Sr., "Union Sailor, Building Contractor, Community Leader")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(William Benjamin Gould Sr., "Civil War, Building Contractor in Dedham, Massachusetts, Positions in the Grand Army of the Republic and the Episcopal Church of the Good Shepard")

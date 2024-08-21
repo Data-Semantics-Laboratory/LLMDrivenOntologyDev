@@ -1,0 +1,25 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(October, "October")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(October, "October")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(October, "October")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(October, "The tenth month of the Julian and Gregorian calendars, with a length of 31 days. It hosts various events and observances, including religious, cultural, and health-related observances. It also has associated birthstones, birth flower, and zodiac signs. Various observances in the United States, including sports events, health-related observances, and culinary observances, take place in October. It also lists movable dates and fixed dates for various observances and events. Various international and national observances, holidays, and special days are celebrated in October.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(October, "Romulus' calendar")
+
+Note: The Origin Record Module refers to the origin of the name, not the place of origin of the agent. In this case, the name "October" originated from the old calendar of Romulus.
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(October, "Subject")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(October, "Neil Gaiman, Ray Bradbury, Eric Whitacre")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom("Neil Gaiman, Ray Bradbury, Eric Whitacre", "October")
+
+Note: The Interagent Relationship Record Module describes the relationship to another agent. In this case, the month of October is the subject of various works by Neil Gaiman, Ray Bradbury, and Eric Whitacre.
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(October, "Subject")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(October, "Various observances and events")
+
+Note: The Participant Role Record Module describes the role of the agent in an event. In this case, the month of October is the subject of various observances and events.

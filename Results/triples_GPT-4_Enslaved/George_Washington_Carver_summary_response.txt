@@ -1,0 +1,35 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(George Washington Carver, "George Washington Carver")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(George Washington Carver, "George Washington Carver")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(George Washington Carver, "George Washington Carver")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(George Washington Carver, "Carver")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(George Washington Carver, "George")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(George Washington Carver, "Diamond Grove, Missouri")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(George Washington Carver, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(George Washington Carver, "1864")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(George Washington Carver, "January 5, 1943")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(George Washington Carver, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(George Washington Carver, "education at Iowa State University, work at the Agricultural Experiment Station farms")
+2. hasValue(Agent, PSCategories): hasValue(George Washington Carver, "Enslaved, Free, Scientist, Inventor")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(George Washington Carver, "Agricultural Scientist, Inventor, Faculty Member at Iowa State University")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(George Washington Carver, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(George Washington Carver, "Moses Carver, Susan Carver")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Moses Carver, Susan Carver, "George Washington Carver")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(George Washington Carver, "Key Player")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(George Washington Carver, "Rise of U.S. peanut production, Organic farming movement")

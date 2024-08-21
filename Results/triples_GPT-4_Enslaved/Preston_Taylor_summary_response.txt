@@ -1,0 +1,34 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Preston Taylor, "Preston Taylor")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Preston Taylor, "Preston Taylor")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Preston Taylor, "Preston Taylor")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Preston Taylor, "Taylor")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Preston Taylor, "Preston")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Preston Taylor, "Enslaved. Free after the American Civil War. A businessman, minister, and philanthropist, Taylor was also a founder of the High Street Christian Church and was instrumental in organizing black churches and denominational organizations.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Preston Taylor, "Shreveport, Louisiana")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Preston Taylor, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Preston Taylor, 81)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Preston Taylor, "November 7, 1849")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Preston Taylor, "April 13, 1931")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Preston Taylor, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Preston Taylor, "enlistment in the 116th Regiment Infantry U.S. Colored Troops, freedom after the American Civil War")
+2. hasValue(Agent, PSCategories): hasValue(Preston Taylor, "Free Person, Businessman, Minister, Philanthropist")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Preston Taylor, "Marble Engraver, Train Porter, Minister, Businessman")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Preston Taylor, "Founder")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Preston Taylor, "Founding of High Street Christian Church, Organizing black churches and denominational organizations")

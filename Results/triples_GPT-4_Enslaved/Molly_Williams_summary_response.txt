@@ -1,0 +1,34 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Molly Williams, "Molly Williams")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Molly Williams, "Molly Williams")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Molly Williams, "Molly Williams")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Molly Williams, "Williams")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Molly Williams, "Molly")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Molly Williams, "New York City")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Molly Williams, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Molly Williams, 1818)
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Molly Williams, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Molly Williams, "service during the 1818 blizzard")
+2. hasValue(Agent, PSCategories): hasValue(Molly Williams, "Slave, Firefighter")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Molly Williams, "Firefighter")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Molly Williams, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Molly Williams, "Benjamin Aymar")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Benjamin Aymar, "Molly Williams")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Molly Williams, "Firefighter")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Molly Williams, "Service with the Oceanus Engine Company #11")

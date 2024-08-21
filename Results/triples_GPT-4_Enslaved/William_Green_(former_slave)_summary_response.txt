@@ -1,0 +1,35 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(William Green, "William Green")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(William Green, "William Green")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(William Green, "William Green")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(William Green, "Green")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(William Green, "William")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(William Green, "Maryland")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(William Green, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(William Green, 1814)
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(William Green, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(William Green, "escape from slavery")
+2. hasValue(Agent, PSCategories): hasValue(William Green, "Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(William Green, "Narrative Writer")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(William Green, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(William Green, "Mr. Nicholas Singleton")
+3. isRelationshipTo(Agent, Agent): isRelationshipTo(William Green, "Edward Hamilton")
+4. isRelationshipTo(Agent, Agent): isRelationshipTo(William Green, "Dr. Solomon Jenkings")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(William Green, "Escapee")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(William Green, "Escape from slavery")

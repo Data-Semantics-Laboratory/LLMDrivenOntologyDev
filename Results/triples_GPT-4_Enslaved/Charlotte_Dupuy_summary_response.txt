@@ -1,0 +1,37 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Charlotte Dupuy, "Charlotte Dupuy")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Charlotte Dupuy, "Lottie")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Charlotte Dupuy, "Charlotte Dupuy")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Charlotte Dupuy, "Dupuy")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Charlotte Dupuy, "Charlotte")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Charlotte Dupuy, "Enslaved. Free after a freedom suit against Henry Clay in 1829 and her eventual freedom in 1840. Recognized in exhibits at the Decatur House and the Isaac Scott Hathaway Museum.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Charlotte Dupuy, "Cambridge, Maryland")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Charlotte Dupuy, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Charlotte Dupuy, "1787-1790")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Charlotte Dupuy, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Charlotte Dupuy, "freedom suit against Henry Clay in 1829, eventual freedom in 1840")
+2. hasValue(Agent, PSCategories): hasValue(Charlotte Dupuy, "Enslaved, Free")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Charlotte Dupuy, "Wage Worker")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Charlotte Dupuy, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Charlotte Dupuy, "James Condon, Henry Clay, Martin Van Buren")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(James Condon, Henry Clay, Martin Van Buren, "Charlotte Dupuy")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Charlotte Dupuy, "Freedom Fighter")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Charlotte Dupuy, "Struggle for Freedom, Exhibits at the Decatur House and the Isaac Scott Hathaway Museum")

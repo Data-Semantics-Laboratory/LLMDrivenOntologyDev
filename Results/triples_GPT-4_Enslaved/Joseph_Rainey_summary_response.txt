@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Joseph Hayne Rainey, "Joseph Hayne Rainey")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Joseph Hayne Rainey, "Joseph Rainey")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Joseph Hayne Rainey, "Joseph Hayne Rainey")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Joseph Hayne Rainey, "Rainey")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Joseph Hayne Rainey, "Joseph")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Joseph Hayne Rainey, "Enslaved. Free before the 13th Amendment. A politician who served in the South Carolina Senate and the United States Congress, where he supported legislation to suppress the violent activities of the Ku Klux Klan and made speeches in support of the Civil Rights Act of 1875.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Joseph Hayne Rainey, "Georgetown, South Carolina")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Joseph Hayne Rainey, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Joseph Hayne Rainey, 55)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Joseph Hayne Rainey, "June 21, 1832")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Joseph Hayne Rainey, "August 1, 1887")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Joseph Hayne Rainey, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Joseph Hayne Rainey, "manumission, escape to Bermuda, involvement in politics")
+2. hasValue(Agent, PSCategories): hasValue(Joseph Hayne Rainey, "Free Person, Politician")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Joseph Hayne Rainey, "Barber, Politician, Federal Agent for the US Treasury Department, Private Commerce")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Joseph Hayne Rainey, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Joseph Hayne Rainey, "Edward Rainey")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Edward Rainey, "Joseph Hayne Rainey")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Joseph Hayne Rainey, "Politician")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Joseph Hayne Rainey, "South Carolina Senate and the United States Congress")

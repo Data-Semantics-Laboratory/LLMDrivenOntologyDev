@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Joseph Vance Lewis, "Joseph Vance Lewis")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Joseph Vance Lewis, "Joseph Vance Lewis")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Joseph Vance Lewis, "Joseph Vance Lewis")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Joseph Vance Lewis, "Lewis")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Joseph Vance Lewis, "Joseph")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Joseph Vance Lewis, "Louisiana")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Joseph Vance Lewis, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Joseph Vance Lewis, 71)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Joseph Vance Lewis, "December 25, 1853")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Joseph Vance Lewis, "April 24, 1925")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Joseph Vance Lewis, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Joseph Vance Lewis, "birth into slavery, Emancipation Proclamation, admission to the bar of the United States Supreme Court")
+2. hasValue(Agent, PSCategories): hasValue(Joseph Vance Lewis, "Enslaved, Free, Lawyer")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Joseph Vance Lewis, "Student, Teacher, Lawyer")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Joseph Vance Lewis, "Influencer")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Joseph Vance Lewis, "Doc Lewis")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Doc Lewis, "Joseph Vance Lewis")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Joseph Vance Lewis, "Student, Teacher, Lawyer")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Joseph Vance Lewis, "Education, Teaching, Law Practice")

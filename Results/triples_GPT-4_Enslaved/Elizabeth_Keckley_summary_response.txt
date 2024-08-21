@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Elizabeth Hobbs Keckley, "Elizabeth Hobbs Keckley")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Elizabeth Hobbs Keckley, "Elizabeth Keckley")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Elizabeth Hobbs Keckley, "Elizabeth Hobbs Keckley")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Elizabeth Hobbs Keckley, "Keckley")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Elizabeth Hobbs Keckley, "Elizabeth")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Elizabeth Hobbs Keckley, "Enslaved. Free after purchasing her freedom. Seamstress, activist, writer, and personal dressmaker to Mary Todd Lincoln. Authored an autobiography, 'Behind the Scenes: Or, Thirty Years a Slave and Four Years in the White House,' published in 1868.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Elizabeth Hobbs Keckley, "Unknown")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Elizabeth Hobbs Keckley, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Elizabeth Hobbs Keckley, 89)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Elizabeth Hobbs Keckley, "February 1818")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Elizabeth Hobbs Keckley, "May 1907")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Elizabeth Hobbs Keckley, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Elizabeth Hobbs Keckley, "purchase of freedom in November 1855")
+2. hasValue(Agent, PSCategories): hasValue(Elizabeth Hobbs Keckley, "Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Elizabeth Hobbs Keckley, "Seamstress, Activist, Writer, Personal Dressmaker to Mary Todd Lincoln")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Elizabeth Hobbs Keckley, "Enslaver or Owner, Client and Confidante")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Elizabeth Hobbs Keckley, "Armistead Burwell, Anne Burwell Garland, Mary Todd Lincoln")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Armistead Burwell, Anne Burwell Garland, Mary Todd Lincoln, "Elizabeth Hobbs Keckley")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Elizabeth Hobbs Keckley, "Confidante, Significant Figure")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Elizabeth Hobbs Keckley, "Lincoln family's life, Authoring of 'Behind the Scenes: Or, Thirty Years a Slave and Four Years in the White House'")

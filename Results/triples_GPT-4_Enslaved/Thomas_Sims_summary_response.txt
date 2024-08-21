@@ -1,0 +1,34 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Thomas Sims, "Thomas Sims")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Thomas Sims, "Thomas Sims")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Thomas Sims, "Thomas Sims")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Thomas Sims, "Sims")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Thomas Sims, "Thomas")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Thomas Sims, "Born into slavery in Georgia. Escaped from slavery in 1851, was forced to return under the Fugitive Slave Act of 1850, escaped again, and was appointed to the U.S. Department of Justice in 1877.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Thomas Sims, "Georgia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Thomas Sims, "African-American")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Thomas Sims, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Thomas Sims, "escape from slavery, forced return to slavery, second escape, appointment to the U.S. Department of Justice")
+2. hasValue(Agent, PSCategories): hasValue(Thomas Sims, "Enslaved, Free, Worker in the U.S. Department of Justice")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Thomas Sims, "Worker in the U.S. Department of Justice")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Thomas Sims, "Judge")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Thomas Sims, "Judge Edward G. Loring")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Judge Edward G. Loring, "Thomas Sims")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Thomas Sims, "Significant Role")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Thomas Sims, "History of the Fugitive Slave Act of 1850 and the American Civil War")

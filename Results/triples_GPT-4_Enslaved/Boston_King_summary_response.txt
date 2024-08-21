@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Boston King, "Boston King")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Boston King, "Boston King")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Boston King, "Boston King")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Boston King, "King")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Boston King, "Boston")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Boston King, "Enslaved. Free after the American Revolutionary War. Became a Methodist missionary. Immigrated to Sierra Leone. Occupations included carpenter, community founder, minister, teacher, and missionary.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Boston King, "South Carolina")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Boston King, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Boston King, "around 1760")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Boston King, "1802")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Boston King, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Boston King, "freedom from the British, immigration to Sierra Leone")
+2. hasValue(Agent, PSCategories): hasValue(Boston King, "Free Person, Methodist Missionary")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Boston King, "Carpenter, Community Founder, Minister, Teacher, Missionary")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Boston King, "Enslaver or Owner, Spouse")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Boston King, "British, Violet")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(British, "Boston King"), isRelationshipFrom(Violet, "Boston King")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Boston King, "Founder, Missionary")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Boston King, "Founding of Freetown, First Methodist missionary to African indigenous people")

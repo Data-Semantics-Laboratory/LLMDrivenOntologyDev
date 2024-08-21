@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Oscar James Dunn, "Oscar James Dunn")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Oscar James Dunn, "Oscar James Dunn")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Oscar James Dunn, "Oscar James Dunn")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Oscar James Dunn, "Dunn")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Oscar James Dunn, "Oscar")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Oscar James Dunn, "Louisiana")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Oscar James Dunn, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Oscar James Dunn, 49)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Oscar James Dunn, "1822")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Oscar James Dunn, "November 22, 1871")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Oscar James Dunn, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Oscar James Dunn, "parents purchasing his freedom, election as lieutenant governor in 1868")
+2. hasValue(Agent, PSCategories): hasValue(Oscar James Dunn, "Enslaved, Free, Lieutenant Governor")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Oscar James Dunn, "Musician, Plasterer, Painter, Freemason, Politician")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Oscar James Dunn, "Governor, Wife")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Oscar James Dunn, "Governor Warmoth, Ellen Boyd Marchand")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Governor Warmoth, "Oscar James Dunn"), isRelationshipFrom(Ellen Boyd Marchand, "Oscar James Dunn")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Oscar James Dunn, "Leader")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Oscar James Dunn, "Universal Suffrage Movement, Freedmen's Savings and Trust Company of New Orleans, Radical Republican movement")

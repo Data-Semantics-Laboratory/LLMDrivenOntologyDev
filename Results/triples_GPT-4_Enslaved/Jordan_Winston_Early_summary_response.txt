@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Jordan Winston Early, "Jordan Winston Early")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Jordan Winston Early, "Jordan Winston Early")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Jordan Winston Early, "Jordan Winston Early")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Jordan Winston Early, "Early")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Jordan Winston Early, "Jordan")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Jordan Winston Early, "Enslaved. Free before the 13th Amendment. A significant figure in the spread of African American Methodism, Early was also a preacher and a founder of more local congregations of the African Methodist Episcopal Church.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Jordan Winston Early, "Franklin County, Virginia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Jordan Winston Early, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Jordan Winston Early, 89)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Jordan Winston Early, "June 17, 1814")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Jordan Winston Early, "November 19, 1903")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Jordan Winston Early, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Jordan Winston Early, "emancipation, licensing as an AME preacher")
+2. hasValue(Agent, PSCategories): hasValue(Jordan Winston Early, "Free Person, Preacher")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Jordan Winston Early, "Preacher, Significant figure in the spread of African American Methodism")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Jordan Winston Early, "Spouse")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Jordan Winston Early, "Louisa Carter, Sarah Jane Woodson Early")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Louisa Carter, "Jordan Winston Early"), isRelationshipFrom(Sarah Jane Woodson Early, "Jordan Winston Early")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Jordan Winston Early, "Founder")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Jordan Winston Early, "Building more local congregations of the African Methodist Episcopal Church")

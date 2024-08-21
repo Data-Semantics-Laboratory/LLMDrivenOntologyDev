@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Joshua Johnson, "Joshua Johnson")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Joshua Johnson, "Joshua Johnson")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Joshua Johnson, "Joshua Johnson")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Joshua Johnson, "Johnson")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Joshua Johnson, "Joshua")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Joshua Johnson, "Enslaved. Free after manumission in 1782. Known for his naïve paintings of prominent Maryland residents. Occupation as a portrait painter and limner.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Joshua Johnson, "Baltimore, Maryland")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Joshua Johnson, "African and European ancestry")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Joshua Johnson, "around 1763")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Joshua Johnson, "around 1824")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Joshua Johnson, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Joshua Johnson, "manumission in 1782")
+2. hasValue(Agent, PSCategories): hasValue(Joshua Johnson, "Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Joshua Johnson, "Portrait Painter, Limner")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Joshua Johnson, "Father, Previous Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Joshua Johnson, "George Johnson, William Wheeler")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(George Johnson, "Joshua Johnson"), isRelationshipFrom(William Wheeler, "Joshua Johnson")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Joshua Johnson, "Painter")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Joshua Johnson, "Paintings of prominent Maryland residents")

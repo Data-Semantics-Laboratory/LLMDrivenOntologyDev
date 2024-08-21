@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Tom Bass, "Tom Bass")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Tom Bass, "Tom Bass")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Tom Bass, "Tom Bass")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Tom Bass, "Bass")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Tom Bass, "Tom")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Tom Bass, "United States")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Tom Bass, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Tom Bass, 75)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Tom Bass, "January 5, 1859")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Tom Bass, "November 4, 1934")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Tom Bass, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Tom Bass, "rise to prominence as a horse trainer")
+2. hasValue(Agent, PSCategories): hasValue(Tom Bass, "Free Person, Horse Trainer, Inventor")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Tom Bass, "Horse Trainer, Inventor")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Tom Bass, "Client")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Tom Bass, "Buffalo Bill Cody, Theodore Roosevelt, Will Rogers")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom("Buffalo Bill Cody, Theodore Roosevelt, Will Rogers", "Tom Bass")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Tom Bass, "Horse Trainer, Inventor")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Tom Bass, "Invention of the Tom Bass bit")

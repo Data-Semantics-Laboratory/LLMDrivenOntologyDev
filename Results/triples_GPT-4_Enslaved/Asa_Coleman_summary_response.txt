@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Asa Coleman, "Asa Coleman")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Asa Coleman, "Asa Coleman")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Asa Coleman, "Asa Coleman")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Asa Coleman, "Coleman")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Asa Coleman, "Asa")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Asa Coleman, "American politician and former slave. Recognized by the Martin Luther King Commission and the state of Virginia for his government service.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Asa Coleman, "North Carolina")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Asa Coleman, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Asa Coleman, "early 1830s")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Asa Coleman, "after February 14, 1893")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Asa Coleman, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Asa Coleman, "manumission, service in the Virginia House of Delegates")
+2. hasValue(Agent, PSCategories): hasValue(Asa Coleman, "Free Person, Politician")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Asa Coleman, "Politician, Carpenter")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Asa Coleman, "Spouse")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Asa Coleman, "Amanda")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Amanda, "Asa Coleman")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Asa Coleman, "Member")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Asa Coleman, "Committee on Asylums and Prisons, Martin Luther King Commission, State of Virginia")

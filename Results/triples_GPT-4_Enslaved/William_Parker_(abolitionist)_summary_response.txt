@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(William Parker, "William Parker")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(William Parker, "William Parker")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(William Parker, "William Parker")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(William Parker, "Parker")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(William Parker, "William")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(William Parker, "Maryland")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(William Parker, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(William Parker, 70)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(William Parker, "1821")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(William Parker, "April 14, 1891")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(William Parker, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(William Parker, "escape from Maryland to Pennsylvania, involvement in the Christiana Resistance in 1851")
+2. hasValue(Agent, PSCategories): hasValue(William Parker, "Enslaved, Free, Abolitionist, Anti-slavery activist")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(William Parker, "Farmer, Leader of a black self-defense organization, Correspondent for Frederick Douglass's North Star newspaper")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(William Parker, "Correspondent")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(William Parker, "Frederick Douglass")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Frederick Douglass, "William Parker")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(William Parker, "Principal Figure")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(William Parker, "Christiana incident, 1851")

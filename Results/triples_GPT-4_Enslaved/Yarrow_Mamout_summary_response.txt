@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Yarrow Mamout, "Yarrow Mamout")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Yarrow Mamout, "Yarrow Mamout")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Yarrow Mamout, "Yarrow Mamout")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Yarrow Mamout, "Mamout")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Yarrow Mamout, "Yarrow")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Yarrow Mamout, "West Africa")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Yarrow Mamout, "African")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Yarrow Mamout, 87)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Yarrow Mamout, "1736")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Yarrow Mamout, "January 19, 1823")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Yarrow Mamout, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Yarrow Mamout, "manumission")
+2. hasValue(Agent, PSCategories): hasValue(Yarrow Mamout, "Enslaved, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Yarrow Mamout, "Entrepreneur, Property Owner")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Yarrow Mamout, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Yarrow Mamout, "Samuel Beall")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Samuel Beall, "Yarrow Mamout")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Yarrow Mamout, "Investor")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Yarrow Mamout, "Investment in Columbia Bank of Georgetown")

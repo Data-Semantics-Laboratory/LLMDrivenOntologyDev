@@ -1,0 +1,35 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Amos Fortune, "Amos Fortune")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Amos Fortune, "Amos Fortune")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Amos Fortune, "Amos Fortune")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Amos Fortune, "Fortune")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Amos Fortune, "Amos")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Amos Fortune, "Born in Africa, Amos Fortune was a prominent African-American citizen of Jaffrey, New Hampshire. He was a tanner and a business owner.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Amos Fortune, "Africa")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Amos Fortune, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Amos Fortune, "around 1710")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Amos Fortune, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Amos Fortune, "purchase of his freedom at the age of 60")
+2. hasValue(Agent, PSCategories): hasValue(Amos Fortune, "Enslaved, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Amos Fortune, "Tanner, Business Owner")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Amos Fortune, "Enslaver or Owner")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Amos Fortune, "Prominent Citizen, Successful Business Owner")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Amos Fortune, "Life in Jaffrey, New Hampshire")

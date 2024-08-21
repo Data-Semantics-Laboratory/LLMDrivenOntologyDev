@@ -1,0 +1,31 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Abner, "Abner")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Abner, "Abner")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Abner, "Abner")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Abner, "")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Abner, "Abner")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Abner, "The cousin of King Saul and the commander-in-chief of his army. A significant figure in the civil war between David and Ish-bosheth.")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Abner, "Hebrew Bible")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Abner, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Abner, "Civil war between David and Ish-bosheth, Unification of the kingdoms under David")
+2. hasValue(Agent, PSCategories): hasValue(Abner, "Cousin of King Saul, Commander-in-chief of Saul's army, Significant figure in civil war")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Abner, "Military Commander")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Abner, "Cousin, Commander-in-chief, Opponent")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Abner, "King Saul, David, Ish-bosheth, Joab")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(King Saul, "Abner"), isRelationshipFrom(David, "Abner"), isRelationshipFrom(Ish-bosheth, "Abner"), isRelationshipFrom(Joab, "Abner")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Abner, "Commander, Cousin")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Abner, "Civil war between David and Ish-bosheth, Unification of the kingdoms under David")

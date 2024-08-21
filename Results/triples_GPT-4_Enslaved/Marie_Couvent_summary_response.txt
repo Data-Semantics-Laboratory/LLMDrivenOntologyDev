@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Marie Bernard Couvent, "Marie Bernard Couvent")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Marie Bernard Couvent, "Justin Fervin"), hasPreferredNameVariant(Marie Bernard Couvent, "Maria Gabriel Bernard Couvent"), hasPreferredNameVariant(Marie Bernard Couvent, "Marie Justine Cirnaire")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Marie Bernard Couvent, "Marie Bernard Couvent")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Marie Bernard Couvent, "Couvent")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Marie Bernard Couvent, "Marie")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Marie Bernard Couvent, "Enslaved in Guinea, transported to Saint-Domingue, and eventually freed in New Orleans. She dedicated her land to establish a school for Black orphans.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Marie Bernard Couvent, "Guinea")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Marie Bernard Couvent, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Marie Bernard Couvent, "1757")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Marie Bernard Couvent, "June 28, 1837")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Marie Bernard Couvent, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Marie Bernard Couvent, "enslavement in Guinea, transportation to Saint-Domingue, freedom in New Orleans")
+2. hasValue(Agent, PSCategories): hasValue(Marie Bernard Couvent, "Enslaved Person, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Marie Bernard Couvent, "Philanthropist")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Marie Bernard Couvent, "Spouse")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Marie Bernard Couvent, "Gabriel Bernard Couvent")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Gabriel Bernard Couvent, "Marie Bernard Couvent")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Marie Bernard Couvent, "Philanthropist")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Marie Bernard Couvent, "Establishment of a school for Black orphans")

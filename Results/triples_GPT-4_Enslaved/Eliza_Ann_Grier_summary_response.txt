@@ -1,0 +1,34 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Eliza Anna Grier, "Eliza Anna Grier")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Eliza Anna Grier, "Eliza Anna Grier")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Eliza Anna Grier, "Eliza Anna Grier")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Eliza Anna Grier, "Grier")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Eliza Anna Grier, "Eliza")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Eliza Anna Grier, "Born into slavery, became free at the end of the Civil War, and later became a licensed medical practitioner in Georgia. She was a teacher and a physician, specializing in obstetrics and gynecology. She was the first African American woman to hold a medical license in Georgia.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Eliza Anna Grier, "Mecklenburg County, North Carolina")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Eliza Anna Grier, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Eliza Anna Grier, 38)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Eliza Anna Grier, "1864")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Eliza Anna Grier, "1902")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Eliza Anna Grier, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Eliza Anna Grier, "birth into slavery, freedom at the end of the Civil War, licensure to practice medicine in Georgia")
+2. hasValue(Agent, PSCategories): hasValue(Eliza Anna Grier, "Enslaved, Free, Licensed Medical Practitioner")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Eliza Anna Grier, "Teacher, Physician")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Eliza Anna Grier, "Pioneer")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Eliza Anna Grier, "First African American woman to hold a medical license in Georgia")

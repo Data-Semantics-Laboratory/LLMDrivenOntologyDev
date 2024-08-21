@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(London Ferrill, "London Ferrill")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(London Ferrill, "London Ferrill")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(London Ferrill, "London Ferrill")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(London Ferrill, "Ferrill")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(London Ferrill, "London")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(London Ferrill, "Virginia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(London Ferrill, "Mixed Race")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(London Ferrill, 65)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(London Ferrill, "1789")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(London Ferrill, "October 12, 1854")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(London Ferrill, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(London Ferrill, "wife purchasing his freedom")
+2. hasValue(Agent, PSCategories): hasValue(London Ferrill, "Enslaved, Free")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(London Ferrill, "Carpenter, Preacher")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(London Ferrill, "Wife, First African Baptist Church")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(London Ferrill, "Wife, First African Baptist Church")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Wife, "London Ferrill"), isRelationshipFrom(First African Baptist Church, "London Ferrill")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(London Ferrill, "Preacher")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(London Ferrill, "Preaching at First African Baptist Church")

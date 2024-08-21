@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(James William Charles Pennington, "James William Charles Pennington")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(James William Charles Pennington, "James Pennington")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(James William Charles Pennington, "James William Charles Pennington")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(James William Charles Pennington, "Pennington")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(James William Charles Pennington, "James")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(James William Charles Pennington, "United States")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(James William Charles Pennington, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(James William Charles Pennington, 63)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(James William Charles Pennington, "1807")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(James William Charles Pennington, "October 22, 1870")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(James William Charles Pennington, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(James William Charles Pennington, "escape from slavery, ordination as a minister")
+2. hasValue(Agent, PSCategories): hasValue(James William Charles Pennington, "Free Person, Minister")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(James William Charles Pennington, "Historian, Abolitionist, Orator, Minister, Writer, Social Organizer")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(James William Charles Pennington, "Student")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(James William Charles Pennington, "Quakers")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Quakers, "James William Charles Pennington")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(James William Charles Pennington, "Delegate, Activist, Recruiter, Writer")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(James William Charles Pennington, "Second World Conference on Slavery, Protest against segregation, Recruitment of black troops, Publication of first history of blacks in the United States")

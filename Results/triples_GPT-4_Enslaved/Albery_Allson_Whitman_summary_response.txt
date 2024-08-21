@@ -1,0 +1,35 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Albery Allson Whitman, "Albery Allson Whitman")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Albery Allson Whitman, "Albery Allson Whitman")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Albery Allson Whitman, "Albery Allson Whitman")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Albery Allson Whitman, "Whitman")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Albery Allson Whitman, "Albery")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Albery Allson Whitman, "Munfordville, Kentucky")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Albery Allson Whitman, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Albery Allson Whitman, 50)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Albery Allson Whitman, "May 30, 1851")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Albery Allson Whitman, "June 29, 1901")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Albery Allson Whitman, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Albery Allson Whitman, "birth into slavery, becoming a writer")
+2. hasValue(Agent, PSCategories): hasValue(Albery Allson Whitman, "Enslaved, Free, Poet, Minister, Orator")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Albery Allson Whitman, "Manual Laborer, School Teacher, Financial Agent, Fundraiser, Pastor")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Albery Allson Whitman, "Spouse, Parent")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Albery Allson Whitman, "Caddie Whitman, The Whitman Sisters")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Caddie Whitman, "Albery Allson Whitman"), isRelationshipFrom(The Whitman Sisters, "Albery Allson Whitman")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Albery Allson Whitman, "Poet, Minister, Orator")

@@ -1,0 +1,31 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Oscar Marion, "Oscar Marion")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Oscar Marion, "Oscar Marion")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Oscar Marion, "Oscar Marion")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Oscar Marion, "Marion")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Oscar Marion, "Oscar")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Oscar Marion, "South Carolina")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Oscar Marion, "African-American")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Oscar Marion, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Oscar Marion, "Recognition as an African American Patriot")
+2. hasValue(Agent, PSCategories): hasValue(Oscar Marion, "Enslaved, African American Patriot")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Oscar Marion, "Militiaman")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Oscar Marion, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Oscar Marion, "Francis Marion")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Francis Marion, "Oscar Marion")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Oscar Marion, "Militiaman")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Oscar Marion, "American Revolutionary War")

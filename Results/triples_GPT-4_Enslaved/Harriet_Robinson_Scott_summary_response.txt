@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Harriet Robinson Scott, "Harriet Robinson Scott")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Harriet Robinson Scott, "Harriet Scott")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Harriet Robinson Scott, "Harriet Robinson Scott")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Harriet Robinson Scott, "Scott")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Harriet Robinson Scott, "Harriet")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Harriet Robinson Scott, "Born into slavery around 1820. Key status-generating events include her legal battle for freedom that culminated in the infamous Dred Scott v. Sandford Supreme Court decision in 1857, and her emancipation on May 26, 1857. Occupations included domestic servant and washerwoman.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Harriet Robinson Scott, "Virginia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Harriet Robinson Scott, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Harriet Robinson Scott, "unknown")
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Harriet Robinson Scott, "around 1820")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Harriet Robinson Scott, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Harriet Robinson Scott, "legal battle for freedom, emancipation")
+2. hasValue(Agent, PSCategories): hasValue(Harriet Robinson Scott, "Enslaved, Free")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Harriet Robinson Scott, "Domestic Servant, Washerwoman")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Harriet Robinson Scott, "Enslaver or Owner, Spouse")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Harriet Robinson Scott, "Lawrence Taliaferro, Dr. John Emerson, Irene Emerson, Dred Scott")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Lawrence Taliaferro, Dr. John Emerson, Irene Emerson, Dred Scott, "Harriet Robinson Scott")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Harriet Robinson Scott, "Litigant")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Harriet Robinson Scott, "Dred Scott v. Sandford Supreme Court decision")

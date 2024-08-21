@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Peter Salem, "Peter Salem")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Peter Salem, "Peter Salem")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Peter Salem, "Peter Salem")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Peter Salem, "Salem")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Peter Salem, "Peter")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Peter Salem, "Enslaved. Freed by Major Lawson Buckminster to serve in the local militia. Enlisted in the Continental Army. Participated in the first battles at Concord and the Battle of Bunker Hill. Occupations included soldier and cane weaver.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Peter Salem, "Framingham, Massachusetts")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Peter Salem, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Peter Salem, 65)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Peter Salem, "October 1, 1750")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Peter Salem, "August 16, 1816")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Peter Salem, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Peter Salem, "freedom granted by Major Lawson Buckminster, enlistment in the Continental Army")
+2. hasValue(Agent, PSCategories): hasValue(Peter Salem, "Free Person, Soldier")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Peter Salem, "Soldier, Cane Weaver")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Peter Salem, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Peter Salem, "Major Lawson Buckminster")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Major Lawson Buckminster, "Peter Salem")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Peter Salem, "Soldier")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Peter Salem, "American Revolutionary War")

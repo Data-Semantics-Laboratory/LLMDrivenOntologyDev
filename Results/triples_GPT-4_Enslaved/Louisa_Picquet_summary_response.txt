@@ -1,0 +1,37 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Louisa Picquet, "Louisa Picquet")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Louisa Picquet, "Louisa Williams")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Louisa Picquet, "Louisa Picquet")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Louisa Picquet, "Picquet")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Louisa Picquet, "Louisa")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Louisa Picquet, "Enslaved. Became free. Author of a slave narrative. Bought her mother out of slavery in 1860. Survivor of sexual violence and a key figure in the abolitionist movement.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Louisa Picquet, "Columbia, South Carolina")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Louisa Picquet, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Louisa Picquet, "1829")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Louisa Picquet, "August 11, 1896")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Louisa Picquet, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Louisa Picquet, "obtaining freedom, buying her mother out of slavery")
+2. hasValue(Agent, PSCategories): hasValue(Louisa Picquet, "Enslaved, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Louisa Picquet, "Author")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Louisa Picquet, "Husband, Enslaver")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Louisa Picquet, "Henry Picquet, Multiple Enslavers")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Louisa Picquet, "Survivor, Key Figure")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Louisa Picquet, "Surviving sexual violence, Abolitionist Movement")

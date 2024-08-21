@@ -1,0 +1,37 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Dorothy Thomas, "Dolly Kirwan")
+2. hasNameVariant(Agent, NameVariant): hasNameVariant(Dorothy Thomas, "Doll Thomas")
+3. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Dorothy Thomas, "Dorothy Thomas")
+4. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Dorothy Thomas, "Dorothy Thomas")
+5. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Dorothy Thomas, "Thomas")
+6. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Dorothy Thomas, "Dorothy")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Dorothy Thomas, "Dorothy Thomas, also known as Dolly Kirwan or Doll Thomas, was a successful businesswoman in the British Caribbean during the 19th century, and was influential in protesting a discriminatory law against free women of colour in London in 1824.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Dorothy Thomas, "Caribbean")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Dorothy Thomas, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Dorothy Thomas, "between 1756 and 1763")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Dorothy Thomas, "August 5, 1846")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Dorothy Thomas, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Dorothy Thomas, "purchasing her own freedom, securing the freedom of her family members")
+2. hasValue(Agent, PSCategories): hasValue(Dorothy Thomas, "Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Dorothy Thomas, "Entrepreneur, Hotel Owner, Plantation Owner, Property Renter")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Dorothy Thomas, "Family Members, Descendants, Slaves")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Dorothy Thomas, "Successful Businesswoman, Protester")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Dorothy Thomas, "Protesting a discriminatory law against free women of colour in London in 1824")

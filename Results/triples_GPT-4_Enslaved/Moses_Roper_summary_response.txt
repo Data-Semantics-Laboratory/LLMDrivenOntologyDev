@@ -1,0 +1,35 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Moses Roper, "Moses Roper")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Moses Roper, "Moses Roper")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Moses Roper, "Moses Roper")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Moses Roper, "Roper")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Moses Roper, "Moses")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Moses Roper, "Southern United States")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Moses Roper, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Moses Roper, 76)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Moses Roper, "1815")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Moses Roper, "April 15, 1891")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Moses Roper, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Moses Roper, "escape from slavery, move to Great Britain")
+2. hasValue(Agent, PSCategories): hasValue(Moses Roper, "Enslaved, Free, Abolitionist, Author, Orator")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Moses Roper, "Abolitionist, Author, Orator")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Moses Roper, "Enslaver or Owner")
+Note: The specific names of the enslavers are not provided in the text file.
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Moses Roper, "Abolitionist Lecturer, Author of a Slave Narrative, Speaker")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Moses Roper, "Abolitionist Lectures, Authoring of Slave Narrative, Speaking on the Horrors of Slavery")

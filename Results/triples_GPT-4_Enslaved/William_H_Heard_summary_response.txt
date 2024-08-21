@@ -1,0 +1,21 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(William Henry Heard, "William Henry Heard")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(William Henry Heard, "William Henry Heard")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(William Henry Heard, "William Henry Heard")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(William Henry Heard, "Heard")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(William Henry Heard, "William")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(William Henry Heard, "Renowned malacologist and an expert on freshwater mollusks, particularly freshwater pelecypods (clams). He was awarded the 'Lifetime Achievement Award' in 2001 by the Freshwater Mollusk Conservation Society and has published several works on the subject of malacology.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(William Henry Heard, "Michigan")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(William Henry Heard, "1935")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(William Henry Heard, "Male")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(William Henry Heard, "Malacologist, Emeritus Professor in the Department of Biological Sciences at Florida State University, Discoverer of two species of mayflies")

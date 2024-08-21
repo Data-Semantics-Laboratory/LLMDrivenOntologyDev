@@ -1,0 +1,35 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(James Somerset, "James Somerset")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(James Somerset, "James Somerset")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(James Somerset, "James Somerset")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(James Somerset, "Somerset")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(James Somerset, "James")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(James Somerset, "Enslaved. Became free after the court case, Somerset v Stewart. Played a key role in challenging the legal basis of slavery in England and Wales.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(James Somerset, "West Africa")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(James Somerset, "African")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(James Somerset, "around 1741")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(James Somerset, "after 1772")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(James Somerset, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(James Somerset, "baptism, court case Somerset v Stewart")
+2. hasValue(Agent, PSCategories): hasValue(James Somerset, "Free Person")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(James Somerset, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(James Somerset, "Charles Stewart")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Charles Stewart, "James Somerset")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(James Somerset, "Key Role")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(James Somerset, "Court case Somerset v Stewart")

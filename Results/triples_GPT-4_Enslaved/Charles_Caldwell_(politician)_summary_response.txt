@@ -1,0 +1,35 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Charles Caldwell, "Charles Caldwell")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Charles Caldwell, "Charles Caldwell")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Charles Caldwell, "Charles Caldwell")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Charles Caldwell, "Caldwell")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Charles Caldwell, "Charles")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Charles Caldwell, "Mississippi")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Charles Caldwell, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Charles Caldwell, "1830 or 1831")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Charles Caldwell, "December 25, 1875")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Charles Caldwell, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Charles Caldwell, "service as a state senator, county commissioner, and delegate to Mississippi's 1868 Constitutional Convention")
+2. hasValue(Agent, PSCategories): hasValue(Charles Caldwell, "Enslaved, Free, Political Figure, State Militia Leader")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Charles Caldwell, "Blacksmith, State Senator, County Commissioner, Militia Leader")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Charles Caldwell, "Governor")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Charles Caldwell, "Governor Adelbert Ames")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Governor Adelbert Ames, "Charles Caldwell")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Charles Caldwell, "Political Figure, State Militia Leader")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Charles Caldwell, "Reconstruction era in Mississippi")

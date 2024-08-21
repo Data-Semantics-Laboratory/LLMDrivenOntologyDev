@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(William Lee, "William Lee")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(William Lee, "Billy"), hasPreferredNameVariant(William Lee, "Will Lee")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(William Lee, "William Lee")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(William Lee, "Lee")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(William Lee, "William")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(William Lee, "America")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(William Lee, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(William Lee, 60)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(William Lee, "around 1750")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(William Lee, "1810")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(William Lee, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(William Lee, "purchase by George Washington in 1768"), hasStatusGeneratedEvent(William Lee, "manumission in Washington's will in 1799")
+2. hasValue(Agent, PSCategories): hasValue(William Lee, "Enslaved, Free")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(William Lee, "Personal Assistant, Huntsman, Valet, Shoemaker")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(William Lee, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(William Lee, "George Washington")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(George Washington, "William Lee")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(William Lee, "Personal Assistant")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(William Lee, "American Revolutionary War")

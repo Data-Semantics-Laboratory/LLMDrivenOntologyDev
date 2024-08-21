@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Onesimus, "Onesimus")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Onesimus, "Onesimus")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Onesimus, "Onesimus")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Onesimus, "")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Onesimus, "Onesimus")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Onesimus, "Enslaved. Key contributor in medical science. Key figure in mitigating the impact of a smallpox outbreak.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Onesimus, "Unknown")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Onesimus, "African")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Onesimus, "Unknown")
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Onesimus, "Unknown")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Onesimus, "Unknown")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Onesimus, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Onesimus, "enslavement, contribution to the development of vaccines")
+2. hasValue(Agent, PSCategories): hasValue(Onesimus, "Enslaved Person, Key Contributor in Medical Science")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Onesimus, "Key Figure in Mitigating the Impact of a Smallpox Outbreak")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Onesimus, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Onesimus, "Cotton Mather")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Cotton Mather, "Onesimus")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Onesimus, "Key Contributor")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Onesimus, "Mitigating the Impact of a Smallpox Outbreak in Boston, Massachusetts in the 1700s")

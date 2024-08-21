@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Lucy Terry Prince, "Lucy Terry Prince")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Lucy Terry Prince, "Lucy Terry Prince")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Lucy Terry Prince, "Lucy Terry Prince")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Lucy Terry Prince, "Terry Prince")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Lucy Terry Prince, "Lucy")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Lucy Terry Prince, "Enslaved. Purchased and freed by her future husband, Aijah Prince, before their marriage in 1756. Known as a settler, poet, and defender in the Vermont Supreme Court.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Lucy Terry Prince, "Africa")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Lucy Terry Prince, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Lucy Terry Prince, 88)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Lucy Terry Prince, "1733")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Lucy Terry Prince, "1821")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Lucy Terry Prince, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Lucy Terry Prince, "purchase, freedom secured by Aijah Prince")
+2. hasValue(Agent, PSCategories): hasValue(Lucy Terry Prince, "Enslaved, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Lucy Terry Prince, "Settler, Poet")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Lucy Terry Prince, "Husband, Neighbor")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Lucy Terry Prince, "Aijah Prince, John Noyes")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Aijah Prince, "Lucy Terry Prince"), isRelationshipFrom(John Noyes, "Lucy Terry Prince")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Lucy Terry Prince, "Poet, Defender")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Lucy Terry Prince, "Composing the oldest known work of literature by an African American, Defending in the Vermont Supreme Court")

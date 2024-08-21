@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Andrew Bryan, "Andrew Bryan")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Andrew Bryan, "Andrew Bryan")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Andrew Bryan, "Andrew Bryan")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Andrew Bryan, "Bryan")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Andrew Bryan, "Andrew")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Andrew Bryan, "Goose Creek, South Carolina")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Andrew Bryan, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Andrew Bryan, 75)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Andrew Bryan, "1737")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Andrew Bryan, "1812")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Andrew Bryan, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Andrew Bryan, "baptism, founding of the First African Baptist Church")
+2. hasValue(Agent, PSCategories): hasValue(Andrew Bryan, "Enslaved, Free, Religious Leader")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Andrew Bryan, "Preacher, Founder of the first black Baptist churches in America")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Andrew Bryan, "Influencer")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Andrew Bryan, "Society for the Propagation of the Gospel in Foreign Parts (S.P.G.)")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Society for the Propagation of the Gospel in Foreign Parts (S.P.G.), "Andrew Bryan")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Andrew Bryan, "Founder")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Andrew Bryan, "Founding of Bryan Street African Baptist Church, Founding of First African Baptist Church of Savannah")

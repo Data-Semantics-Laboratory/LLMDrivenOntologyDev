@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Jeffrey Brace, "Boyrereau Brinch")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Jeffrey Brace, "Jeffrey Brace")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Jeffrey Brace, "Jeffrey Brace")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Jeffrey Brace, "Brace")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Jeffrey Brace, "Jeffrey")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Jeffrey Brace, "Enslaved, then free, then a citizen of Poultney, Vermont. Soldier and memoirist. His life story was published as The Blind African Slave or the Memoirs of Boyrereau Brinch Nicknamed Jeffrey Brace.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Jeffrey Brace, "West Africa")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Jeffrey Brace, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Jeffrey Brace, "1742")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Jeffrey Brace, "April 20, 1827")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Jeffrey Brace, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Jeffrey Brace, "service in the American Revolutionary War")
+2. hasValue(Agent, PSCategories): hasValue(Jeffrey Brace, "Enslaved, Free, Citizen")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Jeffrey Brace, "Soldier, Memoirist")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Jeffrey Brace, "Author")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Jeffrey Brace, "Benjamin Prentiss")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Benjamin Prentiss, "Jeffrey Brace")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Jeffrey Brace, "Memoirist")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Jeffrey Brace, "Publication of The Blind African Slave or the Memoirs of Boyrereau Brinch Nicknamed Jeffrey Brace")

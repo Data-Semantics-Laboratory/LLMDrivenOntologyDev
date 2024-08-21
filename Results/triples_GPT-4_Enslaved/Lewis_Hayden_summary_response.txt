@@ -1,0 +1,35 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Lewis Hayden, "Lewis Hayden")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Lewis Hayden, "Lewis Hayden")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Lewis Hayden, "Lewis Hayden")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Lewis Hayden, "Hayden")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Lewis Hayden, "Lewis")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Lewis Hayden, "Lexington, Kentucky")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Lewis Hayden, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Lewis Hayden, 77)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Lewis Hayden, "December 2, 1811")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Lewis Hayden, "April 7, 1889")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Lewis Hayden, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Lewis Hayden, "escape from slavery, election to the Massachusetts state legislature")
+2. hasValue(Agent, PSCategories): hasValue(Lewis Hayden, "Free Person, Abolitionist, Lecturer, Businessman, Politician")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Lewis Hayden, "Abolitionist, Lecturer, Businessman, Politician")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Lewis Hayden, "Spouse, Colleague")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Lewis Hayden, "Harriet Hayden, William Lloyd Garrison, Shadrach Minkins, Anthony Burns, Thomas Sims, John Brown")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Lewis Hayden, "Founder, Member, Contributor")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Lewis Hayden, "Founding of numerous black lodges of Freemasons, Membership in the Boston Vigilance Committee, Contribution to John Brown's raid on Harper's Ferry")

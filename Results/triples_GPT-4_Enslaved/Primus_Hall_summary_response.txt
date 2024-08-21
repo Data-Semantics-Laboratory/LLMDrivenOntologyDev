@@ -1,0 +1,43 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Primus Hall, "Primus Hall")
+2. hasNameVariant(Agent, NameVariant): hasNameVariant(Primus Hall, "Primus Trask")
+3. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Primus Hall, "Primus Trask")
+4. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Primus Hall, "Primus Hall")
+5. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Primus Hall, "Hall")
+6. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Primus Hall, "Primus")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Primus Hall, "Enslaved. Free before the 13th Amendment. Served in the Revolutionary War. Worked for Timothy Pickering, a Quartermaster General and politician.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Primus Hall, "Boston")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Primus Hall, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Primus Hall, 86)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Primus Hall, "February 29, 1756")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Primus Hall, "March 22, 1842")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Primus Hall, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Primus Hall, "manumission, service in the Revolutionary War")
+2. hasValue(Agent, PSCategories): hasValue(Primus Hall, "Free Person, Soldier")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Primus Hall, "Revolutionary War Soldier, Worker for Timothy Pickering")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Primus Hall, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Primus Hall, "Ezra Trask")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Ezra Trask, "Primus Hall")
+4. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Primus Hall, "Spouse")
+5. isRelationshipTo(Agent, Agent): isRelationshipTo(Primus Hall, "Ann")
+6. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Ann, "Primus Hall")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Primus Hall, "Soldier")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Primus Hall, "Service in the Continental Army, Massachusetts")

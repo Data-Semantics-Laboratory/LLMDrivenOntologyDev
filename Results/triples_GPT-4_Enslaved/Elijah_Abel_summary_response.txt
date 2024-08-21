@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Elijah Abel, "Elijah Abel")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Elijah Abel, "Elijah Abel")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Elijah Abel, "Elijah Abel")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Elijah Abel, "Abel")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Elijah Abel, "Elijah")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Elijah Abel, "Member, Elder and Seventy of the Church of Jesus Christ of Latter-day Saints. Pioneer for African-American members in the Church. Carpenter by profession.")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Elijah Abel, "Unknown")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Elijah Abel, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Elijah Abel, 76)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Elijah Abel, "July 25, 1808")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Elijah Abel, "December 25, 1884")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Elijah Abel, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Elijah Abel, "priesthood ordination")
+2. hasValue(Agent, PSCategories): hasValue(Elijah Abel, "Member, Elder, Seventy")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Elijah Abel, "Carpenter, Church Elder")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Elijah Abel, "Spouse, Religious Leader")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Elijah Abel, "Mary Ann Adams, Joseph Smith")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Mary Ann Adams, "Elijah Abel"), isRelationshipFrom(Joseph Smith, "Elijah Abel")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Elijah Abel, "Pioneer")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Elijah Abel, "Church of Jesus Christ of Latter-day Saints")

@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Shadrach Minkins, "Shadrach Minkins")
+2. hasNameVariant(Agent, NameVariant): hasNameVariant(Shadrach Minkins, "Frederick Wilkins")
+3. hasNameVariant(Agent, NameVariant): hasNameVariant(Shadrach Minkins, "Frederick Jenkins")
+4. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Shadrach Minkins, "Shadrach Minkins")
+5. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Shadrach Minkins, "Shadrach Minkins")
+6. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Shadrach Minkins, "Minkins")
+7. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Shadrach Minkins, "Shadrach")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Shadrach Minkins, "Enslaved, fugitive, then free. Key status-generating events include his escape in 1850, capture under the Fugitive Slave Act of 1850, and subsequent freedom by the Boston Vigilance Committee.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Shadrach Minkins, "Virginia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Shadrach Minkins, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Shadrach Minkins, "1814")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Shadrach Minkins, "December 13, 1875")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Shadrach Minkins, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Shadrach Minkins, "escape in 1850, capture under the Fugitive Slave Act of 1850, freedom by the Boston Vigilance Committee")
+2. hasValue(Agent, PSCategories): hasValue(Shadrach Minkins, "Enslaved, Fugitive, Free Person")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Shadrach Minkins, "Captor")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Shadrach Minkins, "United States marshals")
+3. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Shadrach Minkins, "Liberator")
+4. isRelationshipTo(Agent, Agent): isRelationshipTo(Shadrach Minkins, "Boston Vigilance Committee")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Shadrach Minkins, "Fugitive Slave")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Shadrach Minkins, "Escape via the Underground Railroad")

@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Benjamin Boardley, "Benjamin Boardley")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Benjamin Boardley, "Benjamin Boardley")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Benjamin Boardley, "Benjamin Boardley")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Benjamin Boardley, "Boardley")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Benjamin Boardley, "Benjamin")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Benjamin Boardley, "Anne Arundel County, Maryland")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Benjamin Boardley, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Benjamin Boardley, 74)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Benjamin Boardley, "March 1830")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Benjamin Boardley, "1904")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Benjamin Boardley, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Benjamin Boardley, "purchase of his own freedom")
+2. hasValue(Agent, PSCategories): hasValue(Benjamin Boardley, "Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Benjamin Boardley, "Engineer, Inventor, Philosophical Lecturer")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Benjamin Boardley, "Spouse")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Benjamin Boardley, "Gertrude Boardley")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Gertrude Boardley, "Benjamin Boardley")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Benjamin Boardley, "Inventor")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Benjamin Boardley, "Developing steam engines capable of running a warship's cutter at 16 knots")

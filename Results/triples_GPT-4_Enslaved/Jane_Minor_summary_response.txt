@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Jane Minor, "Jane Minor")
+2. hasNameVariant(Agent, NameVariant): hasNameVariant(Jane Minor, "Gensey Snow")
+3. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Jane Minor, "Gensey Snow")
+4. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Jane Minor, "Jane Minor")
+5. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Jane Minor, "Minor")
+6. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Jane Minor, "Jane")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Jane Minor, "Enslaved. Free after emancipation in 1825. Known for her healing work during a fever epidemic, she used her earnings as a medical practitioner to free at least sixteen slaves.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Jane Minor, "Dinwiddie County, Virginia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Jane Minor, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Jane Minor, "around 1792")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Jane Minor, "1858")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Jane Minor, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Jane Minor, "emancipation, healing work during a fever epidemic")
+2. hasValue(Agent, PSCategories): hasValue(Jane Minor, "Free Person, Healer, Slave Emancipator")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Jane Minor, "Healer, Slave Emancipator")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Jane Minor, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Jane Minor, "Benjamin Harris May")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Benjamin Harris May, "Jane Minor")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Jane Minor, "Healer, Emancipator")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Jane Minor, "Healing work during a fever epidemic, freeing at least sixteen slaves with her earnings as a medical practitioner")

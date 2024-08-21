@@ -1,0 +1,34 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Madison Washington, "Madison Washington")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Madison Washington, "Madison Washington")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Madison Washington, "Madison Washington")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Madison Washington, "Washington")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Madison Washington, "Madison")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Madison Washington, "Enslaved man who led a successful slave rebellion on the brig Creole in 1841. His actions resulted in the freedom of 128 slaves, making it the most successful in U.S. history. His actions were praised by abolitionists and inspired works of literature.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Madison Washington, "Virginia, USA")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Madison Washington, "African-American")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Madison Washington, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Madison Washington, "successful slave rebellion on the brig Creole in 1841")
+2. hasValue(Agent, PSCategories): hasValue(Madison Washington, "Enslaved, Free")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Madison Washington, "Rebellion Leader")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Madison Washington, "Slave Trader")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Madison Washington, "John R. Hewell")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(John R. Hewell, "Madison Washington")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Madison Washington, "Rebellion Leader")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Madison Washington, "successful slave rebellion on the brig Creole in 1841")

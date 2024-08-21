@@ -1,0 +1,37 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Salem Poor, "Salem Poor")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Salem Poor, "Salem Poor")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Salem Poor, "Salem Poor")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Salem Poor, "Poor")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Salem Poor, "Salem")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Salem Poor, "Originally a slave, Salem Poor bought his freedom in 1769 and enlisted in the army in 1775. He played a significant role in the American Revolutionary War, particularly in the Battle of Bunker Hill.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Salem Poor, "Andover, Massachusetts")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Salem Poor, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Salem Poor, "1747")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Salem Poor, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Salem Poor, "purchase of freedom, enlistment in the army")
+2. hasValue(Agent, PSCategories): hasValue(Salem Poor, "Free Person, Soldier")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Salem Poor, "Soldier")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Salem Poor, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Salem Poor, "John Poor Jr.")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(John Poor Jr., "Salem Poor")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Salem Poor, "Soldier")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Salem Poor, "American Revolutionary War, Battle of Bunker Hill")

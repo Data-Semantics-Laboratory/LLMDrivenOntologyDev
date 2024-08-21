@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Elisha Winfield Green, "Elisha Winfield Green")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Elisha Winfield Green, "Elisha Winfield Green")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Elisha Winfield Green, "Elisha Winfield Green")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Elisha Winfield Green, "Green")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Elisha Winfield Green, "Elisha")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Elisha Winfield Green, "Enslaved. Free after manumission in 1848. Baptist leader, sexton, preacher, businessman, politician, vice president of the Kentucky Negro Republican Party, founder of the Simmons College of Kentucky. Suffered racial intolerance, including an assault in 1883 for refusing to give up his seat on a train, for which he sued and won damages.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Elisha Winfield Green, "Bourbon County, Kentucky")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Elisha Winfield Green, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Elisha Winfield Green, 78)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Elisha Winfield Green, "1815")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Elisha Winfield Green, "1893")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Elisha Winfield Green, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Elisha Winfield Green, "manumission, political involvement")
+2. hasValue(Agent, PSCategories): hasValue(Elisha Winfield Green, "Free Person, Politician")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Elisha Winfield Green, "Baptist leader, Sexton, Preacher, Businessman, Politician")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Elisha Winfield Green, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Elisha Winfield Green, "Master, White men from his church")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Master, "Elisha Winfield Green"), isRelationshipFrom(White men from his church, "Elisha Winfield Green")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Elisha Winfield Green, "Vice President, Founder")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Elisha Winfield Green, "Kentucky Negro Republican Party, Simmons College of Kentucky")

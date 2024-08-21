@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Harriet Tubman, "Harriet Tubman")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Harriet Tubman, "Harriet Tubman")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Harriet Tubman, "Harriet Tubman")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Harriet Tubman, "Tubman")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Harriet Tubman, "Harriet")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Harriet Tubman, "Enslaved, then free. Social activist, abolitionist, armed scout and spy for the Union Army, and women's suffrage activist.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Harriet Tubman, "Maryland")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Harriet Tubman, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Harriet Tubman, 91)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Harriet Tubman, "March 1822")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Harriet Tubman, "March 10, 1913")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Harriet Tubman, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Harriet Tubman, "escape from slavery, abolitionist work")
+2. hasValue(Agent, PSCategories): hasValue(Harriet Tubman, "Free Person, Social Activist")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Harriet Tubman, "Abolitionist, Armed Scout, Spy, Women's Suffrage Activist")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Harriet Tubman, "Enslaver or Owner, Spouse")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Harriet Tubman, "Anthony Thompson, John Tubman")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Anthony Thompson, "Harriet Tubman"), isRelationshipFrom(John Tubman, "Harriet Tubman")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Harriet Tubman, "Rescuer, Nurse, Scout, Spy, Activist")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Harriet Tubman, "Underground Railroad, Civil War, Women's Suffrage Movement")

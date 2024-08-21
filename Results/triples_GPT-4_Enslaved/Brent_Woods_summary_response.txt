@@ -1,0 +1,30 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Christopher Brent Wood, "Christopher Brent Wood")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Christopher Brent Wood, "Brent Faiyaz")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Christopher Brent Wood, "Christopher Brent Wood")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Christopher Brent Wood, "Wood")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Christopher Brent Wood, "Christopher")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Christopher Brent Wood, "Columbia, Maryland")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Christopher Brent Wood, "Dominican and African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Christopher Brent Wood, 27)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Christopher Brent Wood, "September 19, 1995")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Christopher Brent Wood, "Male")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Christopher Brent Wood, "R&B singer, Songwriter")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Christopher Brent Wood, "Influencer")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Christopher Brent Wood, "GoldLink, Lauryn Hill, Jeff Buckley, Radiohead, Aaliyah, Tupac Shakur")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Christopher Brent Wood, "SoundCloud Rapper")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Christopher Brent Wood, "Guest performance on GoldLink's 2016 single 'Crew'")

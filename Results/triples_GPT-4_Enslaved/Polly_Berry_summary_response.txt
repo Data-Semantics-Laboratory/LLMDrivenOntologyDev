@@ -1,0 +1,40 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Polly Berry, "Polly Berry")
+2. hasNameVariant(Agent, NameVariant): hasNameVariant(Polly Berry, "Polly Crockett")
+3. hasNameVariant(Agent, NameVariant): hasNameVariant(Polly Berry, "Polly Wash")
+4. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Polly Berry, "Polly Berry")
+5. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Polly Berry, "Polly Berry")
+6. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Polly Berry, "Berry")
+7. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Polly Berry, "Polly")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Polly Berry, "African American woman born into slavery. Won two freedom suits in St. Louis, one for herself in 1843 and one for her daughter Lucy in 1844. Occupation included being a seamstress.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Polly Berry, "Kentucky")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Polly Berry, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Polly Berry, "1803-1805")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Polly Berry, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Polly Berry, "Winning two freedom suits in St. Louis, one for herself in 1843 and one for her daughter Lucy in 1844")
+2. hasValue(Agent, PSCategories): hasValue(Polly Berry, "Enslaved, Free")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Polly Berry, "Seamstress")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Polly Berry, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Polly Berry, "Joseph Crockett")
+3. isRelationshipTo(Agent, Agent): isRelationshipTo(Polly Berry, "Major Taylor Berry")
+4. isRelationshipTo(Agent, Agent): isRelationshipTo(Polly Berry, "Judge Robert Wash")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Polly Berry, "Plaintiff")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Polly Berry, "Freedom suits")

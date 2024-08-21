@@ -1,0 +1,34 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Elizabeth Key Grinstead, "Elizabeth Key Grinstead")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Elizabeth Key Grinstead, "Elizabeth Key")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Elizabeth Key Grinstead, "Elizabeth Key Grinstead")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Elizabeth Key Grinstead, "Grinstead")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Elizabeth Key Grinstead, "Elizabeth")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Elizabeth Key Grinstead, "One of the first Black people in the Thirteen Colonies to successfully sue for freedom from slavery.")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Elizabeth Key Grinstead, "Colony of Virginia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Elizabeth Key Grinstead, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Elizabeth Key Grinstead, "1630")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Elizabeth Key Grinstead, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Elizabeth Key Grinstead, "successful lawsuit for freedom in 1656")
+2. hasValue(Agent, PSCategories): hasValue(Elizabeth Key Grinstead, "Free Person")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Elizabeth Key Grinstead, "Father, Common-law Husband")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Elizabeth Key Grinstead, "Thomas Key, William Grinstead")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Thomas Key, "Elizabeth Key Grinstead"), isRelationshipFrom(William Grinstead, "Elizabeth Key Grinstead")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Elizabeth Key Grinstead, "Law Changer")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Elizabeth Key Grinstead, "Changing the law regarding the social status of children born in the colony")

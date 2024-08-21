@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Lunsford Lane, "Lunsford Lane")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Lunsford Lane, "Lunsford Lane")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Lunsford Lane, "Lunsford Lane")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Lunsford Lane, "Lane")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Lunsford Lane, "Lunsford")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Lunsford Lane, "Raleigh, North Carolina")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Lunsford Lane, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Lunsford Lane, 76)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Lunsford Lane, "May 30, 1803")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Lunsford Lane, "June 27, 1879")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Lunsford Lane, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Lunsford Lane, "self-purchase of freedom for $1000")
+2. hasValue(Agent, PSCategories): hasValue(Lunsford Lane, "Enslaved, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Lunsford Lane, "Entrepreneur, Abolitionist, Tobacconist")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Lunsford Lane, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Lunsford Lane, "Haywood family")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Haywood family, "Lunsford Lane")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Lunsford Lane, "Author")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Lunsford Lane, "The Narrative of Lunsford Lane")

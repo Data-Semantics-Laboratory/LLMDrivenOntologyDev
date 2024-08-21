@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Lucy Delaney, "Lucy Ann Berry")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Lucy Delaney, "Lucy Delaney")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Lucy Delaney, "Lucy Ann Berry")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Lucy Delaney, "Berry")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Lucy Delaney, "Lucy")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Lucy Delaney, "Enslaved. Became free through her mother's lawsuit in 1844. She was a seamstress, slave narrator, and community leader. She was active in women's clubs, religious organizations, and charity groups. She also published a memoir about her experiences.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Lucy Delaney, "St. Louis, Missouri")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Lucy Delaney, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Lucy Delaney, "1828-1830")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Lucy Delaney, "August 31, 1910")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Lucy Delaney, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Lucy Delaney, "mother's lawsuit for freedom in 1842, winning the case in February 1844")
+2. hasValue(Agent, PSCategories): hasValue(Lucy Delaney, "Enslaved, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Lucy Delaney, "Seamstress, Slave Narrator, Community Leader")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Lucy Delaney, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Lucy Delaney, "Major Taylor Berry, Judge Robert Wash")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Major Taylor Berry, "Lucy Delaney"), isRelationshipFrom(Judge Robert Wash, "Lucy Delaney")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Lucy Delaney, "Community Leader")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Lucy Delaney, "Active in women's clubs, religious organizations, and charity groups, Published a memoir about her experiences")

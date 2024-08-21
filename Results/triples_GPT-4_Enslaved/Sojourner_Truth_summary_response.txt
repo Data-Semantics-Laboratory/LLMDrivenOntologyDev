@@ -1,0 +1,33 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Sojourner Truth, "Sojourner Truth")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Sojourner Truth, "Sojourner Truth")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Sojourner Truth, "Sojourner Truth")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Sojourner Truth, "Truth")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Sojourner Truth, "Sojourner")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Sojourner Truth, "Swartekill, New York")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Sojourner Truth, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Sojourner Truth, "1797")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Sojourner Truth, "November 26, 1883")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Sojourner Truth, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Sojourner Truth, "escape to freedom, court victory")
+2. hasValue(Agent, PSCategories): hasValue(Sojourner Truth, "Enslaved, Free, Activist")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Sojourner Truth, "Abolitionist, Activist for civil rights, Women's rights, Alcohol temperance, Speaker")
+
+InterAgent Relationship Record Module:     
+1. isRelationshipTo(Agent, Agent): isRelationshipTo(Sojourner Truth, "Marius Robinson, Harriet Beecher Stowe, President Abraham Lincoln, President Ulysses S. Grant")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Sojourner Truth, "Speaker, Recruiter for the Union Army, Key figure in abolitionist and women's rights movements")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Sojourner Truth, "Civil War, Abolitionist and Women's rights movements")

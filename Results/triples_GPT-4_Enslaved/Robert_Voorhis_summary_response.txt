@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Horace Jeremiah Voorhis, "Horace Jeremiah Voorhis")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Horace Jeremiah Voorhis, "Jerry Voorhis")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Horace Jeremiah Voorhis, "Horace Jeremiah Voorhis")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Horace Jeremiah Voorhis, "Voorhis")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Horace Jeremiah Voorhis, "Horace")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Horace Jeremiah Voorhis, "Kansas")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Horace Jeremiah Voorhis, "Caucasian")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Horace Jeremiah Voorhis, 83)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Horace Jeremiah Voorhis, "April 6, 1901")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Horace Jeremiah Voorhis, "September 11, 1984")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Horace Jeremiah Voorhis, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Horace Jeremiah Voorhis, "graduation from Yale University and Claremont Graduate School, election to the United States House of Representatives, defeat by Richard Nixon in 1946")
+2. hasValue(Agent, PSCategories): hasValue(Horace Jeremiah Voorhis, "Student, Politician, Educator, Executive")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Horace Jeremiah Voorhis, "Politician, Educator, Executive")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Horace Jeremiah Voorhis, "Political Opponent")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Horace Jeremiah Voorhis, "Richard Nixon")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Richard Nixon, "Horace Jeremiah Voorhis")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Horace Jeremiah Voorhis, "Founder, Supporter")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Horace Jeremiah Voorhis, "Founding of Voorhis School for Boys, Support of the New Deal")

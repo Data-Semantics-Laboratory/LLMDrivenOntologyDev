@@ -1,0 +1,35 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Hannah Bond, "Hannah Bond")
+2. hasNameVariant(Agent, NameVariant): hasNameVariant(Hannah Bond, "Hannah Crafts")
+3. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Hannah Bond, "Hannah Crafts")
+4. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Hannah Bond, "Hannah Bond")
+5. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Hannah Bond, "Bond")
+6. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Hannah Bond, "Hannah")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Hannah Bond, "Enslaved. Became free around 1857. Known for her work 'The Bondwoman's Narrative by Hannah Crafts'.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Hannah Bond, "North Carolina")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Hannah Bond, "African-American")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Hannah Bond, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Hannah Bond, "escape from slavery")
+2. hasValue(Agent, PSCategories): hasValue(Hannah Bond, "Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Hannah Bond, "Writer, Teacher")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Hannah Bond, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Hannah Bond, "John Hill Wheeler")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(John Hill Wheeler, "Hannah Bond")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Hannah Bond, "Writer")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Hannah Bond, "The Bondwoman's Narrative by Hannah Crafts")

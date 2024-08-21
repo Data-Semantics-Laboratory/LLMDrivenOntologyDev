@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Dangerfield F. Newby, "Dangerfield F. Newby")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Dangerfield F. Newby, "Dangerfield F. Newby")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Dangerfield F. Newby, "Dangerfield F. Newby")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Dangerfield F. Newby, "Newby")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Dangerfield F. Newby, "Dangerfield")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Dangerfield F. Newby, "Enslaved. Freed by his father. Blacksmith. Participated in John Brown's raid on Harpers Ferry in an attempt to free his family.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Dangerfield F. Newby, "Culpeper County, Virginia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Dangerfield F. Newby, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Dangerfield F. Newby, "around 1820")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Dangerfield F. Newby, "October 17, 1859")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Dangerfield F. Newby, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Dangerfield F. Newby, "freed by his father")
+2. hasValue(Agent, PSCategories): hasValue(Dangerfield F. Newby, "Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Dangerfield F. Newby, "Blacksmith")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Dangerfield F. Newby, "Family, Associate")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Dangerfield F. Newby, "John Brown, Wife and seven children")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(John Brown, "Dangerfield F. Newby"), isRelationshipFrom(Wife and seven children, "Dangerfield F. Newby")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Dangerfield F. Newby, "Raider")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Dangerfield F. Newby, "John Brown's raid on Harpers Ferry")

@@ -1,0 +1,35 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Moses Williams, "Moses Williams")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Moses Williams, "Moses Williams")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Moses Williams, "Moses Williams")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Moses Williams, "Williams")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Moses Williams, "Moses")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Moses Williams, "Philadelphia, Pennsylvania")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Moses Williams, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Moses Williams, 27)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Moses Williams, "1777")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Moses Williams, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Moses Williams, "parents' freedom in 1786, his own freedom at the age of 27")
+2. hasValue(Agent, PSCategories): hasValue(Moses Williams, "Enslaved, Free")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Moses Williams, "Silhouette-making, Visual Artist")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Moses Williams, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Moses Williams, "Charles Willson Peale")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Charles Willson Peale, "Moses Williams")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Moses Williams, "Silhouette Artist")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Moses Williams, "Peale's Philadelphia Museum")

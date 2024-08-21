@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Frank McWorter, "Frank McWorter")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Frank McWorter, "Free Frank")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Frank McWorter, "Frank McWorter")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Frank McWorter, "McWorter")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Frank McWorter, "Frank")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Frank McWorter, "Enslaved. Self-purchased freedom. Town founder and planner. Established the town of New Philadelphia in Illinois.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Frank McWorter, "United States")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Frank McWorter, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Frank McWorter, "1777")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Frank McWorter, "September 7, 1854")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Frank McWorter, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Frank McWorter, "self-purchase of freedom")
+2. hasValue(Agent, PSCategories): hasValue(Frank McWorter, "Free Person, Town Founder and Planner")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Frank McWorter, "Town Founder, Planner")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Frank McWorter, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Frank McWorter, "Biological Father")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Biological Father, "Frank McWorter")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Frank McWorter, "Founder")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Frank McWorter, "Founding of New Philadelphia in Illinois")

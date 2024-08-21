@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Jefferson Franklin Long, "Jefferson Franklin Long")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Jefferson Franklin Long, "Jefferson Franklin Long")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Jefferson Franklin Long, "Jefferson Franklin Long")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Jefferson Franklin Long, "Long")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Jefferson Franklin Long, "Jefferson")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Jefferson Franklin Long, "From enslaved to free, then to a U.S. congressman. Self-educated, became a successful merchant tailor after the American Civil War, and was elected to Congress in 1870. First African-American Representative to speak on the floor of the U.S. House and opposed amnesty for former Confederates.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Jefferson Franklin Long, "Georgia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Jefferson Franklin Long, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Jefferson Franklin Long, 64)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Jefferson Franklin Long, "March 3, 1836")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Jefferson Franklin Long, "February 4, 1901")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Jefferson Franklin Long, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Jefferson Franklin Long, "self-education, becoming a successful merchant tailor, election to Congress")
+2. hasValue(Agent, PSCategories): hasValue(Jefferson Franklin Long, "Free Person, U.S. Congressman")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Jefferson Franklin Long, "Merchant Tailor, U.S. Congressman")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Jefferson Franklin Long, "Congressman")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Jefferson Franklin Long, "U.S. House of Representatives")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Jefferson Franklin Long, "Speaker, Opponent")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Jefferson Franklin Long, "Speaking on the floor of the U.S. House, Opposing amnesty for former Confederates")

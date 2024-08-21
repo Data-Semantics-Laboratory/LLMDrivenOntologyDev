@@ -1,0 +1,37 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Mary Richards, "Mary Jane Richards Garvin")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Mary Richards, "Mary Jane Richards Garvin")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Mary Richards, "Mary Richards")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Mary Richards, "Richards")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Mary Richards, "Mary")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Mary Richards, "Enslaved. Free before the 13th Amendment. Worked as a Union spy during the Civil War. Educated in the North and Liberia. Founder of a freedmen's school in St. Marys, Georgia in 1867.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Mary Richards, "Virginia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Mary Richards, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Mary Richards, "1846")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Mary Richards, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Mary Richards, "work as a Union spy during the Civil War, education in the North and Liberia")
+2. hasValue(Agent, PSCategories): hasValue(Mary Richards, "Free Person, Spy, Teacher, Lecturer")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Mary Richards, "Spy, Teacher, Lecturer")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Mary Richards, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Mary Richards, "Elizabeth 'Bet' Van Lew")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Elizabeth 'Bet' Van Lew, "Mary Richards")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Mary Richards, "Founder")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Mary Richards, "Founding of a freedmen's school in St. Marys, Georgia in 1867")

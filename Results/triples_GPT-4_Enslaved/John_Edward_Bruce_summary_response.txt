@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(John Edward Bruce, "John Edward Bruce")
+2. hasNameVariant(Agent, NameVariant): hasNameVariant(John Edward Bruce, "Bruce Grit")
+3. hasNameVariant(Agent, NameVariant): hasNameVariant(John Edward Bruce, "J. E. Bruce-Grit")
+4. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(John Edward Bruce, "Bruce Grit")
+5. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(John Edward Bruce, "J. E. Bruce-Grit")
+6. fullNameAsString(NameVariant, xsd:string): fullNameAsString(John Edward Bruce, "John Edward Bruce")
+7. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(John Edward Bruce, "Bruce")
+8. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(John Edward Bruce, "John")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(John Edward Bruce, "Maryland")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(John Edward Bruce, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(John Edward Bruce, 68)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(John Edward Bruce, "February 22, 1856")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(John Edward Bruce, "August 7, 1924")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(John Edward Bruce, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(John Edward Bruce, "manumission, career as a journalist, historian, writer, orator, civil rights activist, and Pan-African nationalist")
+2. hasValue(Agent, PSCategories): hasValue(John Edward Bruce, "Free Person, Journalist, Historian, Writer, Orator, Civil Rights Activist, Pan-African Nationalist")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(John Edward Bruce, "Journalist, Writer, Orator, Civil Rights Activist, Pan-African Nationalist")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(John Edward Bruce, "Employee")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(John Edward Bruce, "New York Times' Washington office")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(New York Times' Washington office, "John Edward Bruce")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(John Edward Bruce, "Founder")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(John Edward Bruce, "Founding of numerous newspapers and co-founder of the Negro Society for Historical Research in New York")

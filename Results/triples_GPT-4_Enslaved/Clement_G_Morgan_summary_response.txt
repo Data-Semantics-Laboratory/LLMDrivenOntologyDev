@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Clement Garnett Morgan, "Clement Garnett Morgan")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Clement Garnett Morgan, "Clement G. Morgan")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Clement Garnett Morgan, "Clement Garnett Morgan")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Clement Garnett Morgan, "Morgan")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Clement Garnett Morgan, "Clement")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Clement Garnett Morgan, "From enslaved to free, then to attorney, civil rights activist, and city official. Key status-generating events include his freedom by the Emancipation Proclamation and his education at Harvard University and its law school.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Clement Garnett Morgan, "Virginia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Clement Garnett Morgan, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Clement Garnett Morgan, "1859")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Clement Garnett Morgan, "June 1, 1929")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Clement Garnett Morgan, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Clement Garnett Morgan, "Emancipation Proclamation, Education at Harvard University and its law school")
+2. hasValue(Agent, PSCategories): hasValue(Clement Garnett Morgan, "Free Person, Attorney, Civil Rights Activist, City Official")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Clement Garnett Morgan, "Attorney, Civil Rights Activist, City Official")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Clement Garnett Morgan, "Spouse")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Clement Garnett Morgan, "Gertrude Wright")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Gertrude Wright, "Clement Garnett Morgan")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Clement Garnett Morgan, "Founding Member")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Clement Garnett Morgan, "Founding of the Niagara Movement and of the Boston branch of the National Association for the Advancement of Colored People")

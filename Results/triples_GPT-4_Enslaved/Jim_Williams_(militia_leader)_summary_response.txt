@@ -1,0 +1,34 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Jim Williams, "James Rainey")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Jim Williams, "Jim Williams")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Jim Williams, "James Rainey")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Jim Williams, "Rainey")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Jim Williams, "James")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Jim Williams, "York County, South Carolina")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Jim Williams, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Jim Williams, "1830")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Jim Williams, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Jim Williams, "escape from slavery, joining the Union Army")
+2. hasValue(Agent, PSCategories): hasValue(Jim Williams, "Enslaved, Free, Soldier, Militia Leader")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Jim Williams, "Soldier, Militia Leader")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Jim Williams, "Enslaver or Owner, Military Superior")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Jim Williams, "Samuel Rainey, General William Tecumseh Sherman")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Samuel Rainey, "Jim Williams"), isRelationshipFrom(General William Tecumseh Sherman, "Jim Williams")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Jim Williams, "Leader")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Jim Williams, "Union Leagues")

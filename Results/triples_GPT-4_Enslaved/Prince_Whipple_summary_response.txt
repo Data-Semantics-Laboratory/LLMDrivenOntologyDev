@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Prince Whipple, "Prince Whipple")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Prince Whipple, "Prince Whipple")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Prince Whipple, "Prince Whipple")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Prince Whipple, "Whipple")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Prince Whipple, "Prince")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Prince Whipple, "Enslaved. Free after manumission in 1784. Soldier and bodyguard during the American Revolution.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Prince Whipple, "Africa")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Prince Whipple, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Prince Whipple, 46)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Prince Whipple, "1750")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Prince Whipple, "1796")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Prince Whipple, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Prince Whipple, "manumission in 1784")
+2. hasValue(Agent, PSCategories): hasValue(Prince Whipple, "Free Person, Soldier, Bodyguard")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Prince Whipple, "Soldier, Bodyguard")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Prince Whipple, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Prince Whipple, "General William Whipple")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(General William Whipple, "Prince Whipple")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Prince Whipple, "Soldier, Bodyguard")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Prince Whipple, "American Revolution")

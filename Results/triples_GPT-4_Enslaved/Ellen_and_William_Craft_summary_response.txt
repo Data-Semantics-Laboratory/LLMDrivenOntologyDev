@@ -1,0 +1,57 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Ellen Craft, "Ellen Craft")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Ellen Craft, "Ellen Craft")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Ellen Craft, "Ellen Craft")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Ellen Craft, "Craft")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Ellen Craft, "Ellen")
+
+6. hasNameVariant(Agent, NameVariant): hasNameVariant(William Craft, "William Craft")
+7. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(William Craft, "William Craft")
+8. fullNameAsString(NameVariant, xsd:string): fullNameAsString(William Craft, "William Craft")
+9. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(William Craft, "Craft")
+10. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(William Craft, "William")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Ellen Craft, "Macon, Georgia")
+2. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(William Craft, "Macon, Georgia")
+
+Race Record Module:
+1. has_Race(Agent, Race): has_Race(Ellen Craft, "African-American")
+2. has_Race(Agent, Race): has_Race(William Craft, "African-American")
+
+Age Record Module:
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Ellen Craft, "1826")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Ellen Craft, "1891")
+3. hasAgeValue(Agent, xsd:double): hasAgeValue(Ellen Craft, 65)
+
+4. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(William Craft, "September 25, 1824")
+5. hasDeathDate(Agent, Date_of_Death): hasDeathDate(William Craft, "January 29, 1900")
+6. hasAgeValue(Agent, xsd:double): hasAgeValue(William Craft, 75)
+
+Sex Record Module:
+1. hasSex(Agent, Sex_Type): hasSex(Ellen Craft, "Female")
+2. hasSex(Agent, Sex_Type): hasSex(William Craft, "Male")
+
+Person Status Record Module:
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Ellen Craft, "escape from slavery, return to the U.S.")
+2. hasValue(Agent, PSCategories): hasValue(Ellen Craft, "Enslaved, Free")
+
+3. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(William Craft, "escape from slavery, return to the U.S.")
+4. hasValue(Agent, PSCategories): hasValue(William Craft, "Enslaved, Free")
+
+Occupation Record Module:
+1. hasValue(Agent, Occupations): hasValue(Ellen Craft, "Abolitionist, Educator")
+2. hasValue(Agent, Occupations): hasValue(William Craft, "Abolitionist, Educator")
+
+InterAgent Relationship Record Module:
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Ellen Craft, "Couple")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Ellen Craft, "William Craft")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(William Craft, "Ellen Craft")
+
+4. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Ellen Craft, "Enslaved")
+5. isRelationshipTo(Agent, Agent): isRelationshipTo(Ellen Craft, "Healy Family")
+6. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Healy Family, "Ellen Craft")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Ellen Craft, "Abolitionist, Educator, Fugitive Slave")
+2. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(William Craft, "Abolitionist, Educator, Fugitive Slave")

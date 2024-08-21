@@ -1,0 +1,35 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(George W. Albright, "George W. Albright")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(George W. Albright, "George W. Albright")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(George W. Albright, "George W. Albright")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(George W. Albright, "Albright")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(George W. Albright, "George")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(George W. Albright, "Mississippi")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(George W. Albright, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(George W. Albright, 1846)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(George W. Albright, "1846")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(George W. Albright, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(George W. Albright, "freedom from slavery, political career")
+2. hasValue(Agent, PSCategories): hasValue(George W. Albright, "Free Person, Farmer, Educator, Politician")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(George W. Albright, "Farmer, Educator, Politician")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(George W. Albright, "Opponent, Son")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(George W. Albright, "E. H. Crump, Father")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(E. H. Crump, "George W. Albright"), isRelationshipFrom(Father, "George W. Albright")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(George W. Albright, "Member, Student, Nominee")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(George W. Albright, "Union League during the Civil War, School run by Sheriff Nelson Gill, Nominee of the Communist Party USA")

@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Madison Hemings, "Madison Hemings")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Madison Hemings, "Madison Hemings")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Madison Hemings, "Madison Hemings")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Madison Hemings, "Hemings")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Madison Hemings, "Madison")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Madison Hemings, "Enslaved. Free after emancipation in 1827. Farmer and skilled carpenter. Father of Frederick Madison Roberts, the first African American elected to office on the West Coast.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Madison Hemings, "Monticello plantation")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Madison Hemings, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Madison Hemings, 72)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Madison Hemings, "January 19, 1805")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Madison Hemings, "November 28, 1877")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Madison Hemings, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Madison Hemings, "emancipation")
+2. hasValue(Agent, PSCategories): hasValue(Madison Hemings, "Enslaved, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Madison Hemings, "Farmer, Skilled Carpenter")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Madison Hemings, "Father, Son")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Madison Hemings, "Thomas Jefferson, Sally Hemings")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Thomas Jefferson, "Madison Hemings"), isRelationshipFrom(Sally Hemings, "Madison Hemings")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Madison Hemings, "Father")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Madison Hemings, "Birth of Frederick Madison Roberts")

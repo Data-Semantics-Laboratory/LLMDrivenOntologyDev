@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Matthew Gaines, "Matthew Gaines")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Matthew Gaines, "Matthew Gaines")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Matthew Gaines, "Matthew Gaines")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Matthew Gaines, "Gaines")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Matthew Gaines, "Matthew")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Matthew Gaines, "Enslaved. Free after the Emancipation Proclamation. A community leader, minister, and Republican Texas state senator. Self-educated, multiple escapes, and settled in Burton, Washington County.")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Matthew Gaines, "Near Alexandria, Louisiana")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Matthew Gaines, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Matthew Gaines, 59)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Matthew Gaines, "August 4, 1840")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Matthew Gaines, "June 11, 1900")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Matthew Gaines, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Matthew Gaines, "self-education, multiple escapes, settling in Burton, Washington County")
+2. hasValue(Agent, PSCategories): hasValue(Matthew Gaines, "Free Person, Community Leader, Minister, Politician")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Matthew Gaines, "Community Leader, Minister, Politician")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Matthew Gaines, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Matthew Gaines, "Martin Despallier family")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Martin Despallier family, "Matthew Gaines")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Matthew Gaines, "Leader")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Matthew Gaines, "Leadership of the freedmen, Baptist preaching, Political career")

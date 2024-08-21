@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(William Grimes, "William Grimes")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(William Grimes, "William Grimes")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(William Grimes, "William Grimes")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(William Grimes, "Grimes")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(William Grimes, "William")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(William Grimes, "Enslaved. Became free after escape in 1815 and payment in 1823. Occupations included barber and writer. Wrote 'Life of William Grimes, the Runaway Slave'.")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(William Grimes, "King George County, Virginia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(William Grimes, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(William Grimes, "1784")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(William Grimes, "August 20, 1865")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(William Grimes, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(William Grimes, "escape from slavery, payment for freedom")
+2. hasValue(Agent, PSCategories): hasValue(William Grimes, "Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(William Grimes, "Barber, Writer")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(William Grimes, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(William Grimes, "Last Enslaver")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Last Enslaver, "William Grimes")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(William Grimes, "Author")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(William Grimes, "Publication of 'Life of William Grimes, the Runaway Slave'")

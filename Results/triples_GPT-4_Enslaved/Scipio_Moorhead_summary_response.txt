@@ -1,0 +1,33 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Scipio Moorhead, "Scipio Moorhead")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Scipio Moorhead, "Scipio Moorhead")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Scipio Moorhead, "Scipio Moorhead")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Scipio Moorhead, "Moorhead")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Scipio Moorhead, "Scipio")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Scipio Moorhead, "Boston, Massachusetts")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Scipio Moorhead, "African-American")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Scipio Moorhead, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Scipio Moorhead, "auction in January 1775")
+2. hasValue(Agent, PSCategories): hasValue(Scipio Moorhead, "Enslaved")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Scipio Moorhead, "Artist")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Scipio Moorhead, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Scipio Moorhead, "Reverend John Moorhead")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Reverend John Moorhead, "Scipio Moorhead")
+4. isRelationshipTo(Agent, Agent): isRelationshipTo(Scipio Moorhead, "Sarah Moorhead")
+5. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Sarah Moorhead, "Scipio Moorhead")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Scipio Moorhead, "Artist")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Scipio Moorhead, "Artwork creation and recognition")

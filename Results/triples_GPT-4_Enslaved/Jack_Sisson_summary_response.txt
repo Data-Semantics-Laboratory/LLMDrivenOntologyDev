@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Jack Sisson, "Jack Sisson")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Jack Sisson, "Jack Sisson")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Jack Sisson, "Jack Sisson")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Jack Sisson, "Sisson")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Jack Sisson, "Jack")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Jack Sisson, "Unspecified")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Jack Sisson, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Jack Sisson, 78)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Jack Sisson, "1743")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Jack Sisson, "1821")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Jack Sisson, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Jack Sisson, "Enslavement, Siding with the Patriots, Service in the 1st Rhode Island Regiment")
+2. hasValue(Agent, PSCategories): hasValue(Jack Sisson, "Enslaved Person, Soldier")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Jack Sisson, "Soldier")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Jack Sisson, "Commander")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Jack Sisson, "Colonel William Barton")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Colonel William Barton, "Jack Sisson")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Jack Sisson, "Pilot")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Jack Sisson, "Mission to capture British General Richard Prescott")

@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Prince Estabrook, "Prince Estabrook")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Prince Estabrook, "Prince Estabrook")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Prince Estabrook, "Prince Estabrook")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Prince Estabrook, "Estabrook")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Prince Estabrook, "Prince")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Prince Estabrook, "Family of Benjamin Estabrook")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Prince Estabrook, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Prince Estabrook, 90)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Prince Estabrook, "Around 1741")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Prince Estabrook, "1830")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Prince Estabrook, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Prince Estabrook, "Participation in the Battles of Lexington and Concord, Freedom")
+2. hasValue(Agent, PSCategories): hasValue(Prince Estabrook, "Enslaved, Free")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Prince Estabrook, "Minutemen Private in the American Revolutionary War, Farmhand")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Prince Estabrook, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Prince Estabrook, "Benjamin Estabrook")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Benjamin Estabrook, "Prince Estabrook")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Prince Estabrook, "Soldier")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Prince Estabrook, "American Revolutionary War")

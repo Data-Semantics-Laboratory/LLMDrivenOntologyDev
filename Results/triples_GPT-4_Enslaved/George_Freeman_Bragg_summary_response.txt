@@ -1,0 +1,31 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(George Freeman Bragg, "George Freeman Bragg")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(George Freeman Bragg, "George Freeman Bragg")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(George Freeman Bragg, "George Freeman Bragg")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(George Freeman Bragg, "Bragg")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(George Freeman Bragg, "George")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(George Freeman Bragg, "Warrenton, North Carolina")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(George Freeman Bragg, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(George Freeman Bragg, 77)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(George Freeman Bragg, "January 25, 1863")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(George Freeman Bragg, "March 12, 1940")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(George Freeman Bragg, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(George Freeman Bragg, "ordination as a deacon, ordination as a priest")
+2. hasValue(Agent, PSCategories): hasValue(George Freeman Bragg, "Free Person, Priest")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(George Freeman Bragg, "Priest, Journalist, Social Activist, Historian")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(George Freeman Bragg, "Founder")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(George Freeman Bragg, "Founding of the Niagara Movement")

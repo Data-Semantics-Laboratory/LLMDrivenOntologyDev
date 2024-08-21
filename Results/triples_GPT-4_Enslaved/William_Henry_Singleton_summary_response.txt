@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(William Henry Singleton, "William Henry Singleton")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(William Henry Singleton, "William Henry Singleton")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(William Henry Singleton, "William Henry Singleton")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(William Henry Singleton, "Singleton")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(William Henry Singleton, "William")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(William Henry Singleton, "Enslaved. Free during the American Civil War. A sergeant in the United States Colored Troops, and later a minister in the African Methodist Episcopal Zion Church. An author of an autobiography, 'Recollections of My Slavery Days'.")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(William Henry Singleton, "North Carolina")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(William Henry Singleton, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(William Henry Singleton, 95)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(William Henry Singleton, "August 10, 1843")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(William Henry Singleton, "September 7, 1938")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(William Henry Singleton, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(William Henry Singleton, "gaining freedom, ordination as a minister")
+2. hasValue(Agent, PSCategories): hasValue(William Henry Singleton, "Free Person, Sergeant, Minister")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(William Henry Singleton, "Sergeant, Minister, Author")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(William Henry Singleton, "Spouse")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(William Henry Singleton, "Maria Wanton, Charlotte Hinman")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Maria Wanton, "William Henry Singleton"), isRelationshipFrom(Charlotte Hinman, "William Henry Singleton")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(William Henry Singleton, "Deacon, Elder, Self-Educated Individual, Politically Active Citizen, Author")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(William Henry Singleton, "Service in AME Zion Church, Writing of 'Recollections of My Slavery Days'")

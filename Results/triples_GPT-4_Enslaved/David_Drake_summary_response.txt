@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(David A. Drake, "David A. Drake")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(David A. Drake, "David A. Drake")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(David A. Drake, "David A. Drake")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(David A. Drake, "Drake")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(David A. Drake, "David")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(David A. Drake, "Lawyer turned full-time writer. Vietnam War veteran. Science fiction and fantasy author. Co-founder of Carcosa, a small press company.")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(David A. Drake, "United States")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(David A. Drake, "American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(David A. Drake, 78)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(David A. Drake, "September 24, 1945")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(David A. Drake, "December 10, 2023")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(David A. Drake, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(David A. Drake, "transition to full-time writing, retirement due to cognitive health problems")
+2. hasValue(Agent, PSCategories): hasValue(David A. Drake, "Lawyer, Full-time Writer")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(David A. Drake, "Lawyer, Vietnam War Veteran, Science Fiction and Fantasy Author")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(David A. Drake, "Co-author")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(David A. Drake, "Other Authors")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(David A. Drake, "Initiator")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(David A. Drake, "Founding of Carcosa")

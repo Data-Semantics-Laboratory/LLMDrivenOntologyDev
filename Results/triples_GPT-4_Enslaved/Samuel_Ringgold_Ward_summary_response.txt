@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Samuel Ringgold Ward, "Samuel Ringgold Ward")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Samuel Ringgold Ward, "Samuel Ward")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Samuel Ringgold Ward, "Samuel Ringgold Ward")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Samuel Ringgold Ward, "Ward")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Samuel Ringgold Ward, "Samuel")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Samuel Ringgold Ward, "Born into slavery, escaped to New Jersey and then New York. Became an abolitionist, newspaper editor, labor leader, and Congregational church minister.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Samuel Ringgold Ward, "Place of Slavery")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Samuel Ringgold Ward, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Samuel Ringgold Ward, "October 17, 1817")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Samuel Ringgold Ward, "1866")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Samuel Ringgold Ward, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Samuel Ringgold Ward, "enslavement, escape, freedom, abolitionism, newspaper editing, labor leadership, ministry")
+2. hasValue(Agent, PSCategories): hasValue(Samuel Ringgold Ward, "Enslaved Person, Free Person, Abolitionist, Newspaper Editor, Labor Leader, Minister")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Samuel Ringgold Ward, "Abolitionist, Newspaper Editor, Labor Leader, Minister")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Samuel Ringgold Ward, "Colleague")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Samuel Ringgold Ward, "Frederick Douglass")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Frederick Douglass, "Samuel Ringgold Ward")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Samuel Ringgold Ward, "Founder")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Samuel Ringgold Ward, "Founding of Anti-Slavery Society of Canada, Founding of American League of Colored Laborers")

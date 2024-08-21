@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(William Saunders Crowdy, "William Saunders Crowdy")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(William Saunders Crowdy, "William Saunders Crowdy")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(William Saunders Crowdy, "William Saunders Crowdy")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(William Saunders Crowdy, "Crowdy")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(William Saunders Crowdy, "William")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(William Saunders Crowdy, "Maryland")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(William Saunders Crowdy, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(William Saunders Crowdy, 60)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(William Saunders Crowdy, "August 11, 1847")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(William Saunders Crowdy, "August 4, 1908")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(William Saunders Crowdy, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(William Saunders Crowdy, "escape from slavery, enlistment in the Union Army, founding of the Black Hebrew Israelite movement")
+2. hasValue(Agent, PSCategories): hasValue(William Saunders Crowdy, "Enslaved, Free, Soldier, Preacher, Entrepreneur, Pastor")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(William Saunders Crowdy, "Soldier, Preacher, Entrepreneur, Pastor")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(William Saunders Crowdy, "Union Army")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(William Saunders Crowdy, "Union Army")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Union Army, "William Saunders Crowdy")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(William Saunders Crowdy, "Founder")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(William Saunders Crowdy, "Founding of the Church of God and Saints of Christ and the Black Hebrew Israelite movement")

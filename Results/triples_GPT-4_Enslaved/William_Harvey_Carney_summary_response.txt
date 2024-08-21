@@ -1,0 +1,34 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(William Harvey Carney, "William Harvey Carney")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(William Harvey Carney, "William Harvey Carney")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(William Harvey Carney, "William Harvey Carney")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(William Harvey Carney, "Carney")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(William Harvey Carney, "William")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(William Harvey Carney, "Enslaved. Free before the 13th Amendment. Soldier in the Civil War, notably saving the regimental colors during the Battle of Fort Wagner in 1863, for which he was awarded the Medal of Honor in 1900. Occupations included soldier, streetlight maintenance worker, and mail carrier.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(William Harvey Carney, "Norfolk, Virginia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(William Harvey Carney, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(William Harvey Carney, 68)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(William Harvey Carney, "February 29, 1840")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(William Harvey Carney, "December 9, 1908")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(William Harvey Carney, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(William Harvey Carney, "escape through the Underground Railroad, enlistment in the 54th Massachusetts Volunteer Infantry")
+2. hasValue(Agent, PSCategories): hasValue(William Harvey Carney, "Enslaved, Free, Soldier")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(William Harvey Carney, "Soldier, Streetlight Maintenance Worker, Mail Carrier")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(William Harvey Carney, "Soldier")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(William Harvey Carney, "Battle of Fort Wagner")

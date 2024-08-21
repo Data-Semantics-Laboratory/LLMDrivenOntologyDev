@@ -1,0 +1,35 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Cyrus Bustill, "Cyrus Bustill")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Cyrus Bustill, "Cyrus Bustill")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Cyrus Bustill, "Cyrus Bustill")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Cyrus Bustill, "Bustill")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Cyrus Bustill, "Cyrus")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Cyrus Bustill, "Child of a Quaker lawyer, Samuel Bustill, and his enslaved African woman, Parthenia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Cyrus Bustill, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Cyrus Bustill, 74)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Cyrus Bustill, "February 2, 1732")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Cyrus Bustill, "1806")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Cyrus Bustill, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Cyrus Bustill, "possible purchase of freedom in 1774 or manumission by Thomas Prior in 1769")
+2. hasValue(Agent, PSCategories): hasValue(Cyrus Bustill, "Enslaved, Free")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Cyrus Bustill, "Brewer, Baker, Abolitionist, Community Leader")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Cyrus Bustill, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Cyrus Bustill, "Thomas Prior")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Thomas Prior, "Cyrus Bustill")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Cyrus Bustill, "Community Leader, Abolitionist")

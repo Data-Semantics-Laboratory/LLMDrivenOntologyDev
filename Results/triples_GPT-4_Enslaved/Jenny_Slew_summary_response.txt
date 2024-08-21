@@ -1,0 +1,35 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Jenny Slew, "Jenny Slew")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Jenny Slew, "Jenny Slew")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Jenny Slew, "Jenny Slew")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Jenny Slew, "Slew")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Jenny Slew, "Jenny")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Jenny Slew, "Enslaved. Became free after a successful lawsuit for freedom in 1765.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Jenny Slew, "Ipswich, Massachusetts")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Jenny Slew, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Jenny Slew, "1719")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Jenny Slew, "Alive after 1765")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Jenny Slew, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Jenny Slew, "lawsuit for freedom in 1765")
+2. hasValue(Agent, PSCategories): hasValue(Jenny Slew, "Enslaved, Free")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Jenny Slew, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Jenny Slew, "John Whipple Jr.")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(John Whipple Jr., "Jenny Slew")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Jenny Slew, "Plaintiff")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Jenny Slew, "lawsuit against John Whipple Jr.")

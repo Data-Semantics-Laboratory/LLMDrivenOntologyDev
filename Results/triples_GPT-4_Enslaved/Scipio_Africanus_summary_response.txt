@@ -1,0 +1,35 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Publius Cornelius Scipio Africanus, "Publius Cornelius Scipio Africanus")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Publius Cornelius Scipio Africanus, "Scipio Africanus")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Publius Cornelius Scipio Africanus, "Publius Cornelius Scipio Africanus")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Publius Cornelius Scipio Africanus, "Scipio Africanus")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Publius Cornelius Scipio Africanus, "Publius")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Publius Cornelius Scipio Africanus, "Rome")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Publius Cornelius Scipio Africanus, "Roman")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Publius Cornelius Scipio Africanus, "236/235 BC")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Publius Cornelius Scipio Africanus, "183 BC")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Publius Cornelius Scipio Africanus, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Publius Cornelius Scipio Africanus, "Victory against Carthage in the Second Punic War, Trial for bribery in 187 BC")
+2. hasValue(Agent, PSCategories): hasValue(Publius Cornelius Scipio Africanus, "Roman Citizen, General, Statesman")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Publius Cornelius Scipio Africanus, "General, Statesman, Priest of Mars")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Publius Cornelius Scipio Africanus, "Defeated, Appointed")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Publius Cornelius Scipio Africanus, "Hannibal, Lucius Cornelius Scipio")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Hannibal, "Publius Cornelius Scipio Africanus"), isRelationshipFrom(Lucius Cornelius Scipio, "Publius Cornelius Scipio Africanus")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Publius Cornelius Scipio Africanus, "Founder, Key Figure")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Publius Cornelius Scipio Africanus, "Founding of Italica, Second Punic War")

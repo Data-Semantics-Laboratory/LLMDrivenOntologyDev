@@ -1,0 +1,32 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Lennox Claudius Lewis, "Lennox Claudius Lewis")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Lennox Claudius Lewis, "Lennox Lewis")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Lennox Claudius Lewis, "Lennox Claudius Lewis")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Lennox Claudius Lewis, "Lewis")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Lennox Claudius Lewis, "Lennox")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Lennox Claudius Lewis, "West Ham, London")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Lennox Claudius Lewis, "Jamaican descent")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Lennox Claudius Lewis, "September 2, 1965")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Lennox Claudius Lewis, "Male")
+
+Person Status Record Module:     
+1. hasValue(Agent, PSCategories): hasValue(Lennox Claudius Lewis, "Retired Professional Boxer, Current Boxing Commentator")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Lennox Claudius Lewis, "Professional Boxer, Boxing Commentator")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Lennox Claudius Lewis, "Opponent")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Lennox Claudius Lewis, "Tony Tucker, Frank Bruno, Phil Jackson, Oliver McCall, Evander Holyfield, Mike Tyson, Chris Byrd, Vitali Klitschko")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Lennox Claudius Lewis, "World Heavyweight Champion, Two-time Lineal Champion, Undisputed Championship Holder, Olympic Gold Medalist")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Lennox Claudius Lewis, "1984 and 1988 Olympics, Professional Boxing Matches")

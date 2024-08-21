@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Powhatan Beaty, "Powhatan Beaty")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Powhatan Beaty, "Powhatan Beaty")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Powhatan Beaty, "Powhatan Beaty")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Powhatan Beaty, "Beaty")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Powhatan Beaty, "Powhatan")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Powhatan Beaty, "Enslaved. Free in 1849. Soldier in the Union Army during the Civil War. Post-war actor.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Powhatan Beaty, "Richmond, Virginia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Powhatan Beaty, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Powhatan Beaty, 79)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Powhatan Beaty, "October 8, 1837")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Powhatan Beaty, "December 6, 1916")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Powhatan Beaty, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Powhatan Beaty, "freedom in 1849, service in the Union Army, acting career post-war")
+2. hasValue(Agent, PSCategories): hasValue(Powhatan Beaty, "Free Person, Soldier, Actor")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Powhatan Beaty, "Soldier, Orator, Actor")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Powhatan Beaty, "Co-Actor")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Powhatan Beaty, "Henrietta Vinton Davis")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Henrietta Vinton Davis, "Powhatan Beaty")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Powhatan Beaty, "Principal Actor, Medal of Honor Recipient")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Powhatan Beaty, "Shakespearean production, Leadership during the Civil War")

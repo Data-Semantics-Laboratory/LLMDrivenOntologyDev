@@ -1,0 +1,35 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Robert Blake, "Robert Blake")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Robert Blake, "Robert Blake")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Robert Blake, "Robert Blake")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Robert Blake, "Blake")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Robert Blake, "Robert")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Robert Blake, "United States")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Robert Blake, "Italian-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Robert Blake, 89)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Robert Blake, "September 18, 1933")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Robert Blake, "March 9, 2023")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Robert Blake, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Robert Blake, "acting career, arrest in 2002, acquittal in 2005, bankruptcy")
+2. hasValue(Agent, PSCategories): hasValue(Robert Blake, "Actor, Murder Suspect, Bankrupt Individual")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Robert Blake, "Actor in films and television series")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Robert Blake, "Spouse, Parent")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Robert Blake, "Sondra Kerr, Bonny Lee Bakley, Pamela Hudak, his children")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Robert Blake, "Actor, Murder Suspect, Debtor")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Robert Blake, "Various films and television series, case of his second wife's death, bankruptcy case")

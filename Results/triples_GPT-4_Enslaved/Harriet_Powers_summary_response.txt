@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Harriet Powers, "Harriet Powers")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Harriet Powers, "Harriet Powers")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Harriet Powers, "Harriet Powers")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Harriet Powers, "Powers")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Harriet Powers, "Harriet")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Harriet Powers, "rural northeast Georgia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Harriet Powers, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Harriet Powers, 72)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Harriet Powers, "October 29, 1837")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Harriet Powers, "January 1, 1910")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Harriet Powers, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Harriet Powers, "emancipation after the Civil War")
+2. hasValue(Agent, PSCategories): hasValue(Harriet Powers, "Enslaved, Free, Landowner")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Harriet Powers, "Folk Artist, Quilter")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Harriet Powers, "Spouse")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Harriet Powers, "Her Husband")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Her Husband, "Harriet Powers")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Harriet Powers, "Creator")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Harriet Powers, "Creation of quilts")

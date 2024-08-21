@@ -1,0 +1,31 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Isaiah Dorman, "Isaiah Dorman")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Isaiah Dorman, "Isaiah Dorman")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Isaiah Dorman, "Isaiah Dorman")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Isaiah Dorman, "Dorman")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Isaiah Dorman, "Isaiah")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Isaiah Dorman, "Louisiana")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Isaiah Dorman, "African Jamaican and Lenape")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Isaiah Dorman, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Isaiah Dorman, "enslavement, freedom, employment as an interpreter for the United States Army")
+2. hasValue(Agent, PSCategories): hasValue(Isaiah Dorman, "Possibly Enslaved, Free, Interpreter for the United States Army")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Isaiah Dorman, "Trapper, Trader, Guide, Interpreter")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Isaiah Dorman, "Employer, Interacted Tribe")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Isaiah Dorman, "United States Army, Lakota Tribe")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(United States Army, "Isaiah Dorman"), isRelationshipFrom(Lakota Tribe, "Isaiah Dorman")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Isaiah Dorman, "Interpreter")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Isaiah Dorman, "Indian Wars, Battle of Little Bighorn")

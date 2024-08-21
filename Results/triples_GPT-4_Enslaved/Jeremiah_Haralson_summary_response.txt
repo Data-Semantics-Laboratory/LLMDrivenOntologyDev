@@ -1,0 +1,29 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Jeremiah Haralson, "Jeremiah Haralson")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Jeremiah Haralson, "Jeremiah Haralson")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Jeremiah Haralson, "Jeremiah Haralson")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Jeremiah Haralson, "Haralson")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Jeremiah Haralson, "Jeremiah")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Jeremiah Haralson, "Columbus, Georgia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Jeremiah Haralson, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Jeremiah Haralson, "April 1, 1846")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Jeremiah Haralson, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Jeremiah Haralson, "emancipation, involvement in politics")
+2. hasValue(Agent, PSCategories): hasValue(Jeremiah Haralson, "Free Person, Politician")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Jeremiah Haralson, "Preacher, Politician")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Jeremiah Haralson, "Politician")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Jeremiah Haralson, "First black member of the Alabama House of Representatives, State Senator, Member of the United States House of Representatives")

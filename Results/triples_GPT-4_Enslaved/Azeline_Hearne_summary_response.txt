@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Azeline Hearne, "Azeline Hearne")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Azeline Hearne, "Azeline Hearne")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Azeline Hearne, "Azeline Hearne")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Azeline Hearne, "Hearne")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Azeline Hearne, "Azeline")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Azeline Hearne, "Enslaved. Free after manumission in her 30s. Known for her numerous lawsuits during the Reconstruction era and was briefly one of the wealthiest landowners in Texas.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Azeline Hearne, "America")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Azeline Hearne, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Azeline Hearne, "around 1825")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Azeline Hearne, "around 1890")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Azeline Hearne, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Azeline Hearne, "manumission")
+2. hasValue(Agent, PSCategories): hasValue(Azeline Hearne, "Free Person, Landowner")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Azeline Hearne, "Landowner, Party to three separate civil suits that reached the Texas Supreme Court")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Azeline Hearne, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Azeline Hearne, "Samuel R. Hearne")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Samuel R. Hearne, "Azeline Hearne")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Azeline Hearne, "Landowner, Party to three separate civil suits")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Azeline Hearne, "Civil suits that reached the Texas Supreme Court")

@@ -1,0 +1,43 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Alethia Tanner, "Alethia Tanner")
+2. hasNameVariant(Agent, NameVariant): hasNameVariant(Alethia Tanner, "Alethia 'Lethe' Browning")
+3. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Alethia Tanner, "Alethia 'Lethe' Browning")
+4. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Alethia Tanner, "Alethia Tanner")
+5. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Alethia Tanner, "Tanner")
+6. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Alethia Tanner, "Alethia")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Alethia Tanner, "Alethia Tanner, also known as Alethia 'Lethe' Browning, was an educator, businesswoman, and real estate owner. She was born enslaved but later purchased her freedom. She is known for founding The Bell School, the first school for free Black children in the District of Columbia.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Alethia Tanner, "Maryland")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Alethia Tanner, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Alethia Tanner, 83)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Alethia Tanner, "1781")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Alethia Tanner, "1864")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Alethia Tanner, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Alethia Tanner, "purchase, freedom")
+2. hasValue(Agent, PSCategories): hasValue(Alethia Tanner, "Enslaved, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Alethia Tanner, "Educator, Businesswoman, Real Estate Owner")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Alethia Tanner, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Alethia Tanner, "Joseph Doughtery")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Joseph Doughtery, "Alethia Tanner")
+4. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Alethia Tanner, "Sibling")
+5. isRelationshipTo(Agent, Agent): isRelationshipTo(Alethia Tanner, "Sophia")
+6. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Sophia, "Alethia Tanner")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Alethia Tanner, "Founder")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Alethia Tanner, "Founding of The Bell School")

@@ -1,0 +1,35 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Bethany Veney, "Bethany Veney")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Bethany Veney, "Bethany Veney")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Bethany Veney, "Bethany Veney")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Bethany Veney, "Veney")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Bethany Veney, "Bethany")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Bethany Veney, "a farm near Luray, Virginia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Bethany Veney, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Bethany Veney, "around 1812-1815")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Bethany Veney, "November 16, 1915")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Bethany Veney, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Bethany Veney, "purchase by George J. Adams, freedom in Providence, Rhode Island")
+2. hasValue(Agent, PSCategories): hasValue(Bethany Veney, "Enslaved, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Bethany Veney, "Writer, Cook, Housekeeper, Prominent member of the African Methodist Episcopal Bethel Church")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Bethany Veney, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Bethany Veney, "George J. Adams, Jerry Fickland, Frank Veney")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(George J. Adams, "Bethany Veney"), isRelationshipFrom(Jerry Fickland, "Bethany Veney"), isRelationshipFrom(Frank Veney, "Bethany Veney")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Bethany Veney, "Writer")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Bethany Veney, "Writing of 'Aunt Betty's Story: The Narrative of Bethany Veney, A Slave Woman'")

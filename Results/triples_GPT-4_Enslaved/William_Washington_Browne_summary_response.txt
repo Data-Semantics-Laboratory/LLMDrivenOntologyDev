@@ -1,0 +1,34 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Rev. William Washington Browne, "Rev. William Washington Browne")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Rev. William Washington Browne, "Rev. William Washington Browne")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Rev. William Washington Browne, "Rev. William Washington Browne")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Rev. William Washington Browne, "Browne")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Rev. William Washington Browne, "William")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Rev. William Washington Browne, "From enslaved to free, Union Army soldier, minister, and teacher. Founder of the Grand Fountain of the United Order of True Reformers, a significant black fraternal society and black-owned business in the United States.")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Rev. William Washington Browne, "Unknown")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Rev. William Washington Browne, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Rev. William Washington Browne, 48)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Rev. William Washington Browne, "October 20, 1849")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Rev. William Washington Browne, "December 21, 1897")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Rev. William Washington Browne, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Rev. William Washington Browne, "Escape from slavery, Joining the Union Army, Discharge")
+2. hasValue(Agent, PSCategories): hasValue(Rev. William Washington Browne, "Free Person, Soldier, Minister, Teacher")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Rev. William Washington Browne, "Soldier, Founder, Minister, Teacher")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Rev. William Washington Browne, "Founder")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Rev. William Washington Browne, "Founding of the Grand Fountain of the United Order of True Reformers")

@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Denmark Vesey, "Denmark Vesey")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Denmark Vesey, "Telemaque")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Denmark Vesey, "Denmark Vesey")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Denmark Vesey, "Vesey")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Denmark Vesey, "Denmark")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Denmark Vesey, "Born into slavery around 1767 in St. Thomas and was executed by hanging on July 2, 1822. He was a carpenter and community leader. He played the role of a founder of an independent African Methodist Episcopal (AME) congregation in Charleston and was accused and convicted of planning a major slave revolt in 1822.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Denmark Vesey, "St. Thomas")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Denmark Vesey, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Denmark Vesey, "1767")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Denmark Vesey, "July 2, 1822")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Denmark Vesey, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Denmark Vesey, "purchase of freedom after winning a lottery")
+2. hasValue(Agent, PSCategories): hasValue(Denmark Vesey, "Enslaved, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Denmark Vesey, "Carpenter, Community Leader")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Denmark Vesey, "Enslaver")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Denmark Vesey, "Captain Joseph Vesey")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Captain Joseph Vesey, "Denmark Vesey")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Denmark Vesey, "Founder")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Denmark Vesey, "Founding of an independent African Methodist Episcopal (AME) congregation in Charleston, planning a major slave revolt in 1822")

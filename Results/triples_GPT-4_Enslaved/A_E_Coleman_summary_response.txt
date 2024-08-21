@@ -1,0 +1,31 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(A.E. "Fred" Coleman, "A.E. 'Fred' Coleman")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(A.E. "Fred" Coleman, "Fred Coleman")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(A.E. "Fred" Coleman, "A.E. 'Fred' Coleman")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(A.E. "Fred" Coleman, "Coleman")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(A.E. "Fred" Coleman, "A.E.")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(A.E. "Fred" Coleman, "Unknown")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(A.E. "Fred" Coleman, "African-American")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(A.E. "Fred" Coleman, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(A.E. "Fred" Coleman, "manumission")
+2. hasValue(Agent, PSCategories): hasValue(A.E. "Fred" Coleman, "Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(A.E. "Fred" Coleman, "Cattle Herder, Recorder of the Coleman Mining District")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(A.E. "Fred" Coleman, "Spouse, Parent")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(A.E. "Fred" Coleman, "Maria Jesusa Anej, Eleven Children")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Maria Jesusa Anej, "A.E. 'Fred' Coleman"), isRelationshipFrom(Eleven Children, "A.E. 'Fred' Coleman")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(A.E. "Fred" Coleman, "Gold Discoverer")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(A.E. "Fred" Coleman, "Establishment of the Coleman Mining District")

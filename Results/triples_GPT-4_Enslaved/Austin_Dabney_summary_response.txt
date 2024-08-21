@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Austin Dabney, "Austin Dabney")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Austin Dabney, "Austin Dabney")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Austin Dabney, "Austin Dabney")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Austin Dabney, "Dabney")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Austin Dabney, "Austin")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Austin Dabney, "Wake County, North Carolina")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Austin Dabney, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Austin Dabney, 65)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Austin Dabney, "1765")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Austin Dabney, "1830")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Austin Dabney, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Austin Dabney, "emancipation, service in the American Revolutionary War")
+2. hasValue(Agent, PSCategories): hasValue(Austin Dabney, "Free Person, Soldier")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Austin Dabney, "Soldier, Landowner")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Austin Dabney, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Austin Dabney, "Richard Aycock")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Richard Aycock, "Austin Dabney")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Austin Dabney, "Soldier")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Austin Dabney, "American Revolutionary War")

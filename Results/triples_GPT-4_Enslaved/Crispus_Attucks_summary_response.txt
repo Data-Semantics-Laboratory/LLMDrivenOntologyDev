@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Crispus Attucks, "Crispus Attucks")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Crispus Attucks, "Crispus Attucks")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Crispus Attucks, "Crispus Attucks")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Crispus Attucks, "Attucks")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Crispus Attucks, "Crispus")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Crispus Attucks, "Framingham, Massachusetts")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Crispus Attucks, "African and Native American descent")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Crispus Attucks, 47)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Crispus Attucks, "around 1723")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Crispus Attucks, "March 5, 1770")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Crispus Attucks, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Crispus Attucks, "participation and death in the Boston Massacre")
+2. hasValue(Agent, PSCategories): hasValue(Crispus Attucks, "Slave, Sailor, Whaler")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Crispus Attucks, "Whaler, Sailor, Stevedore")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Crispus Attucks, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Crispus Attucks, "Deacon William Brown")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Deacon William Brown, "Crispus Attucks")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Crispus Attucks, "Colonist")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Crispus Attucks, "Boston Massacre")

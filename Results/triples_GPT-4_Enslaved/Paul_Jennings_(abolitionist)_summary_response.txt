@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Paul Jennings, "Paul Jennings")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Paul Jennings, "Paul Jennings")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Paul Jennings, "Paul Jennings")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Paul Jennings, "Jennings")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Paul Jennings, "Paul")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Paul Jennings, "Enslaved by President James Madison. Freed by Senator Daniel Webster in 1846. Abolitionist, writer, and worker at the Pension Bureau. Published the first White House memoir, 'A Colored Man's Reminiscences of James Madison,' in 1865. Played a significant role in planning a mass escape of 77 enslaved people in 1848.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Paul Jennings, "Montpelier")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Paul Jennings, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Paul Jennings, 75)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Paul Jennings, "1799")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Paul Jennings, "1874")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Paul Jennings, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Paul Jennings, "enslavement, manumission")
+2. hasValue(Agent, PSCategories): hasValue(Paul Jennings, "Enslaved Person, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Paul Jennings, "Abolitionist, Writer, Worker at the Pension Bureau")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Paul Jennings, "Enslaver, Manumitter")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Paul Jennings, "James Madison, Daniel Webster")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(James Madison, "Paul Jennings"), isRelationshipFrom(Daniel Webster, "Paul Jennings")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Paul Jennings, "Memoirist, Planner")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Paul Jennings, "Publication of 'A Colored Man's Reminiscences of James Madison', Planning of mass escape of 77 enslaved people")

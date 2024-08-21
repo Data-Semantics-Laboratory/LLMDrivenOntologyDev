@@ -1,0 +1,33 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(London R. Ferebee, "London R. Ferebee")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(London R. Ferebee, "London R. Ferebee")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(London R. Ferebee, "London R. Ferebee")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(London R. Ferebee, "Ferebee")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(London R. Ferebee, "London")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(London R. Ferebee, "Big Ditch, Currituck County, North Carolina")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(London R. Ferebee, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(London R. Ferebee, "August 18, 1849")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(London R. Ferebee, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(London R. Ferebee, "escape from slavery, education, imprisonment, ordination")
+2. hasValue(Agent, PSCategories): hasValue(London R. Ferebee, "Enslaved, Free, Teacher, Politician, Prisoner, Preacher")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(London R. Ferebee, "Assistant Teacher, Teacher, Politician, Prison Preacher, Licensed Preacher")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(London R. Ferebee, "Father, Group of Yankees")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(London R. Ferebee, "Father, Group of Yankees")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(London R. Ferebee, "Preacher, Author")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(London R. Ferebee, "A.M.E. Zion Church, Autobiography")

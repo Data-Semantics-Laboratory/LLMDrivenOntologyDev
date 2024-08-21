@@ -1,0 +1,34 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Patrick Francis Healy, "Patrick Francis Healy")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Patrick Francis Healy, "Patrick Healy")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Patrick Francis Healy, "Patrick Francis Healy")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Patrick Francis Healy, "Healy")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Patrick Francis Healy, "Patrick")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Patrick Francis Healy, "Georgia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Patrick Francis Healy, "Biracial")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Patrick Francis Healy, "February 27, 1834")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Patrick Francis Healy, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Patrick Francis Healy, "education in the north, doctorate in philosophy in 1864")
+2. hasValue(Agent, PSCategories): hasValue(Patrick Francis Healy, "Free Person, Priest")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Patrick Francis Healy, "Catholic priest, Jesuit, President of Georgetown University")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Patrick Francis Healy, "Commissioner, Fundraiser")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Patrick Francis Healy, "John L. Smithmeyer, Paul J. Pelz, William Wilson Corcoran")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(John L. Smithmeyer, "Patrick Francis Healy"), isRelationshipFrom(Paul J. Pelz, "Patrick Francis Healy"), isRelationshipFrom(William Wilson Corcoran, "Patrick Francis Healy")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Patrick Francis Healy, "Transformative Figure")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Patrick Francis Healy, "Initiating a period of extensive growth, increasing the diversity of the student body, reforming the curriculum, and expanding the university's physical facilities")

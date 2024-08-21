@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Robert Smalls, "Robert Smalls")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Robert Smalls, "Robert Smalls")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Robert Smalls, "Robert Smalls")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Robert Smalls, "Smalls")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Robert Smalls, "Robert")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Robert Smalls, "Enslaved. Self-liberated during the American Civil War. Became a politician post-war. A Civil War hero, a politician, and a legislator. A significant contributor to the Union Army and Navy during the Civil War, a founder of the Republican Party of South Carolina, and a strong advocate for the rights of African-Americans.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Robert Smalls, "Beaufort, South Carolina")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Robert Smalls, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Robert Smalls, 75)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Robert Smalls, "April 5, 1839")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Robert Smalls, "February 23, 1915")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Robert Smalls, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Robert Smalls, "self-liberation during the American Civil War, political career post-war")
+2. hasValue(Agent, PSCategories): hasValue(Robert Smalls, "Free Person, Politician")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Robert Smalls, "Civil War Hero, Politician, Legislator")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Robert Smalls, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Robert Smalls, "Confederate forces")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Confederate forces, "Robert Smalls")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Robert Smalls, "Significant Contributor, Founder, Advocate")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Robert Smalls, "Union Army and Navy during the Civil War, Founding of the Republican Party of South Carolina, Advocacy for the rights of African-Americans")

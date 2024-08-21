@@ -1,0 +1,34 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(John P. Parker, "John P. Parker")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(John P. Parker, "John P. Parker")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(John P. Parker, "John P. Parker")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(John P. Parker, "Parker")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(John P. Parker, "John")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(John P. Parker, "Norfolk, Virginia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(John P. Parker, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(John P. Parker, 73)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(John P. Parker, "1827")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(John P. Parker, "January 30, 1900")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(John P. Parker, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(John P. Parker, "purchase of his own freedom in 1845")
+2. hasValue(Agent, PSCategories): hasValue(John P. Parker, "Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(John P. Parker, "Abolitionist, Inventor, Iron Moulder, Industrialist")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(John P. Parker, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(John P. Parker, "Family of the physician who bought him")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(John P. Parker, "Abolitionist, Inventor")

@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Allen Allensworth, "Allen Allensworth")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Allen Allensworth, "Allen Allensworth")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Allen Allensworth, "Allen Allensworth")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Allen Allensworth, "Allensworth")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Allen Allensworth, "Allen")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Allen Allensworth, "Unknown")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Allen Allensworth, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Allen Allensworth, 72)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Allen Allensworth, "April 7, 1842")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Allen Allensworth, "September 14, 1914")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Allen Allensworth, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Allen Allensworth, "Escape from slavery, Ordination as a Baptist minister, Appointment as a chaplain in the United States Army")
+2. hasValue(Agent, PSCategories): hasValue(Allen Allensworth, "Enslaved, Free, Lieutenant Colonel")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Allen Allensworth, "Union soldier, Baptist minister, Teacher, Chaplain, Public speaker")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Allen Allensworth, "Member")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Allen Allensworth, "44th Illinois Volunteers")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(44th Illinois Volunteers, "Allen Allensworth")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Allen Allensworth, "Founder")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Allen Allensworth, "Founding of Allensworth, California")

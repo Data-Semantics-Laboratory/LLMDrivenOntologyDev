@@ -1,0 +1,35 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Johnson Chesnut Whittaker, "Johnson Chesnut Whittaker")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Johnson Chesnut Whittaker, "Johnson Chesnut Whittaker")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Johnson Chesnut Whittaker, "Johnson Chesnut Whittaker")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Johnson Chesnut Whittaker, "Whittaker")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Johnson Chesnut Whittaker, "Johnson")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Johnson Chesnut Whittaker, "Unknown")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Johnson Chesnut Whittaker, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Johnson Chesnut Whittaker, 72)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Johnson Chesnut Whittaker, "August 23, 1858")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Johnson Chesnut Whittaker, "January 14, 1931")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Johnson Chesnut Whittaker, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Johnson Chesnut Whittaker, "Appointment to West Point, Posthumous name clearance")
+2. hasValue(Agent, PSCategories): hasValue(Johnson Chesnut Whittaker, "Enslaved, Free, Military Officer")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Johnson Chesnut Whittaker, "Teacher, Lawyer, High School Principal, Psychology Professor")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Johnson Chesnut Whittaker, "Mentor")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Johnson Chesnut Whittaker, "Richard Greener")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Richard Greener, "Johnson Chesnut Whittaker")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Johnson Chesnut Whittaker, "Military Officer, Educator")

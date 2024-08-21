@@ -1,0 +1,29 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Kate Drumgoold, "Kate Drumgoold")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Kate Drumgoold, "Kate Drumgoold")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Kate Drumgoold, "Kate Drumgoold")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Kate Drumgoold, "Drumgoold")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Kate Drumgoold, "Kate")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Kate Drumgoold, "Petersburg, Virginia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Kate Drumgoold, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Kate Drumgoold, unknown)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Kate Drumgoold, "1858")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Kate Drumgoold, unknown)      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Kate Drumgoold, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Kate Drumgoold, "life experiences documented in her 1898 autobiography, 'A Slave Girl's Story, Being an Autobiography of Kate Drumgoold'")
+2. hasValue(Agent, PSCategories): hasValue(Kate Drumgoold, "Enslaved, Free")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Kate Drumgoold, "Author")
+
+Note: The InterAgent Relationship Record Module and Participant Role Record Module do not provide specific information about her relationships or roles, so these are skipped.

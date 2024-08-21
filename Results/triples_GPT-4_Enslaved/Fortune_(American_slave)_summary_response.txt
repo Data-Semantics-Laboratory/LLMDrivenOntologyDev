@@ -1,0 +1,34 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Fortune, "Fortune")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Fortune, "Fortune")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Fortune, "Fortune")
+4. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Fortune, "Fortune")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Fortune, "Enslaved. Died in 1798. Posthumously became an anatomical study subject.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Fortune, "Unspecified")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Fortune, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Fortune, 55)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Fortune, "Around 1743")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Fortune, "1798")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Fortune, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Fortune, "death")
+2. hasValue(Agent, PSCategories): hasValue(Fortune, "Enslaved")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Fortune, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Fortune, "Preserved Porter")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Preserved Porter, "Fortune")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Fortune, "Slave, Homeowner, Anatomical Study Subject")

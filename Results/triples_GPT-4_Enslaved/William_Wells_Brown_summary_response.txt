@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(William Wells Brown, "William Wells Brown")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(William Wells Brown, "William W. Brown")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(William Wells Brown, "William Wells Brown")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(William Wells Brown, "Brown")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(William Wells Brown, "William")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(William Wells Brown, "Enslaved. Free before the 13th Amendment. A pioneer in several literary genres, being the first African American to publish a novel and a history of African Americans in the Revolutionary War. He was also a prominent speaker in anti-slavery circuits and was inducted into the Kentucky Writers Hall of Fame.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(William Wells Brown, "Kentucky")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(William Wells Brown, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(William Wells Brown, 70)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(William Wells Brown, "1814")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(William Wells Brown, "November 6, 1884")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(William Wells Brown, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(William Wells Brown, "escape from slavery, freedom purchased by the Richardson family of Britain")
+2. hasValue(Agent, PSCategories): hasValue(William Wells Brown, "Enslaved, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(William Wells Brown, "Abolitionist, Novelist, Playwright, Historian, Orator, Homeopathic Practitioner")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(William Wells Brown, "Fellow Abolitionist, Contemporary")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(William Wells Brown, "Elijah Parish Lovejoy, Frederick Douglass")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Elijah Parish Lovejoy, "William Wells Brown"), isRelationshipFrom(Frederick Douglass, "William Wells Brown")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(William Wells Brown, "Pioneer, Speaker, Inductee")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(William Wells Brown, "Publishing of novel and history, Speaking in anti-slavery circuits, Induction into the Kentucky Writers Hall of Fame")

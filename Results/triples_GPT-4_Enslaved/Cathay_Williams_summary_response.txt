@@ -1,0 +1,33 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Cathay Williams, "Cathay Williams")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Cathay Williams, "Cathay Williams")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Cathay Williams, "Cathay Williams")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Cathay Williams, "Williams")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Cathay Williams, "Cathay")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Cathay Williams, "Enslaved, then free, then a soldier. Enlisted in the U.S. Army in 1866 under a false name. Occupations included soldier, cook, and seamstress. First female to enlist and serve in the U.S. Army during the Indian Wars.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Cathay Williams, "Independence, Missouri")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Cathay Williams, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Cathay Williams, "September 1844")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Cathay Williams, "1893")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Cathay Williams, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Cathay Williams, "Enslavement, Freedom, Enlistment in U.S. Army")
+2. hasValue(Agent, PSCategories): hasValue(Cathay Williams, "Enslaved Person, Free Person, Soldier")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Cathay Williams, "Soldier, Cook, Seamstress")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Cathay Williams, "Enlistee")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Cathay Williams, "Enlistment in U.S. Army during the Indian Wars")

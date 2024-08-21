@@ -1,0 +1,20 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Tuna, "Tuna")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Tuna, "Tuna")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Tuna, "Tuna")
+4. hasNameVariant(Agent, NameVariant): hasNameVariant(Tuna, "Sea Chicken")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Tuna, "Active and agile predators, capable of maintaining a body temperature higher than the surrounding water and reaching speeds up to 75 km/h.")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Tuna, "Spanish, Arabic, and Latin origins")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Tuna, "Conflict")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Tuna, "Australian Government")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Australian Government, "Tuna")
+4. isRelationshipTo(Agent, Agent): isRelationshipTo(Tuna, "Japan")
+5. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Japan, "Tuna")
+
+Note: The Interagent Relationship Record Module describes the relationship to another agent who is in conflict over the overfishing of southern bluefin tuna. So use the keyword Conflict to describe the relationship type.

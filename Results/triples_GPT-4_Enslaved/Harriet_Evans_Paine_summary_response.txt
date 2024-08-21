@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Harriet Evans Paine, "Harriet Evans Paine")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Harriet Evans Paine, "Aunt Harriet")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Harriet Evans Paine, "Harriet Evans Paine")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Harriet Evans Paine, "Paine")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Harriet Evans Paine, "Harriet")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Harriet Evans Paine, "Born into slavery, became free after the emancipation of slaves in 1865. Occupations included being a 'thimble girl', a servant, and an oral historian. Preserved the Hardin family's history by saving their letters and documents from a fire in 1916.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Harriet Evans Paine, "Tennessee")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Harriet Evans Paine, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Harriet Evans Paine, 95)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Harriet Evans Paine, "1822")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Harriet Evans Paine, "1917")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Harriet Evans Paine, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Harriet Evans Paine, "birth into slavery, emancipation of slaves in 1865")
+2. hasValue(Agent, PSCategories): hasValue(Harriet Evans Paine, "Enslaved, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Harriet Evans Paine, "Thimble Girl, Servant, Oral Historian")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Harriet Evans Paine, "Parent, Owner, Father of Children")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Harriet Evans Paine, "Jim Evans, Rebecca Evans, Swan Hardin, Jerusha Hardin, Henry Rowe, Mr. Green")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Jim Evans, Rebecca Evans, Swan Hardin, Jerusha Hardin, Henry Rowe, Mr. Green, "Harriet Evans Paine")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Harriet Evans Paine, "Preserver")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Harriet Evans Paine, "Saving of Hardin family's letters and documents from a fire in 1916")

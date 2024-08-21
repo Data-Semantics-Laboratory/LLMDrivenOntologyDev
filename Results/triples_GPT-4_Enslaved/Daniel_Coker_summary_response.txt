@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Daniel Coker, "Daniel Coker")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Daniel Coker, "Daniel Coker")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Daniel Coker, "Daniel Coker")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Daniel Coker, "Coker")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Daniel Coker, "Daniel")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Daniel Coker, "Born as Isaac Wright, he changed his name after escaping to New York. He purchased his freedom and became a Methodist minister, abolitionist, and educator. He was a founder of the African Methodist Episcopal Church and the West Africa Methodist Church.")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Daniel Coker, "Baltimore, Maryland")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Daniel Coker, "Mixed-race African American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Daniel Coker, N/A)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Daniel Coker, "1780")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Daniel Coker, N/A)      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Daniel Coker, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Daniel Coker, "Escape to New York, Name Change, Purchase of Freedom")
+2. hasValue(Agent, PSCategories): hasValue(Daniel Coker, "Enslaved, Free, Methodist Minister")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Daniel Coker, "Methodist Minister, Abolitionist, Educator")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Daniel Coker, "Parent")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Daniel Coker, "Susan Coker, Edward Wright")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Susan Coker, Edward Wright, "Daniel Coker")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Daniel Coker, "Founder")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Daniel Coker, "Founding of the African Methodist Episcopal Church and the West Africa Methodist Church")

@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Jane Johnson, "Jane Johnson")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Jane Johnson, "Jane Johnson")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Jane Johnson, "Jane Johnson")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Jane Johnson, "Johnson")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Jane Johnson, "Jane")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Jane Johnson, "Enslaved. Became free on July 18, 1855. Her life and escape from slavery inspired several works of literature and a musical.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Jane Johnson, "Washington, D.C.")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Jane Johnson, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Jane Johnson, "1814-1827")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Jane Johnson, "August 2, 1872")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Jane Johnson, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Jane Johnson, "escape to freedom")
+2. hasValue(Agent, PSCategories): hasValue(Jane Johnson, "Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Jane Johnson, "Former Slave")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Jane Johnson, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Jane Johnson, "John Hill Wheeler")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(John Hill Wheeler, "Jane Johnson")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Jane Johnson, "Key Witness")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Jane Johnson, "Trial of William Still and five dockworkers")

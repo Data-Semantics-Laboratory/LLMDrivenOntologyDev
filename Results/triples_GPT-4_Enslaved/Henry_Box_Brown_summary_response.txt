@@ -1,0 +1,37 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Henry Box Brown, "Henry Box Brown")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Henry Box Brown, "Henry Box Brown")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Henry Box Brown, "Henry Box Brown")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Henry Box Brown, "Brown")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Henry Box Brown, "Henry")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Henry Box Brown, "Enslaved. Became free by mailing himself in a wooden crate to abolitionists in Philadelphia. Occupations included abolitionist speaker, magician, showman, and actor.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Henry Box Brown, "Virginia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Henry Box Brown, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Henry Box Brown, "around 1815")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Henry Box Brown, "June 15, 1897")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Henry Box Brown, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Henry Box Brown, "escape to freedom in 1849")
+2. hasValue(Agent, PSCategories): hasValue(Henry Box Brown, "Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Henry Box Brown, "Abolitionist Speaker, Magician, Showman, Actor")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Henry Box Brown, "Spouse")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Henry Box Brown, "Jane Floyd")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Jane Floyd, "Henry Box Brown")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Henry Box Brown, "Noted Abolitionist Speaker and Entertainer")

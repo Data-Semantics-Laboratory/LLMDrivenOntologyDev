@@ -1,0 +1,37 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Shields Green, "Shields Green")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Shields Green, "Emperor")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Shields Green, "Shields Green")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Shields Green, "Green")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Shields Green, "Shields")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Shields Green, "Enslaved, then free, then a leader in John Brown's raid on Harpers Ferry. Occupations included a journeyman barber, waiter, and launderer. Known for his courage, self-respect, and defiance.")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Shields Green, "Charleston, South Carolina")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Shields Green, "African-American")
+
+Age Record Module:   
+1. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Shields Green, "December 16, 1859")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Shields Green, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Shields Green, "escape from slavery, involvement in the raid, execution")
+2. hasValue(Agent, PSCategories): hasValue(Shields Green, "Enslaved, Free, Leader")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Shields Green, "Journeyman Barber, Waiter, Launderer")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Shields Green, "Acquaintance, Collaborator")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Shields Green, "Frederick Douglass, John Brown")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Frederick Douglass, "Shields Green"), isRelationshipFrom(John Brown, "Shields Green")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Shields Green, "Abolitionist, Raider")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Shields Green, "Abolitionist Movement, Raid on Harpers Ferry")

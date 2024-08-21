@@ -1,0 +1,35 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Briton Hammon, "Briton Hammon")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Briton Hammon, "Briton Hammon")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Briton Hammon, "Briton Hammon")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Briton Hammon, "Hammon")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Briton Hammon, "Briton")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Briton Hammon, "Massachusetts")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Briton Hammon, "African")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Briton Hammon, "Unknown")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Briton Hammon, "Unknown") 
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Briton Hammon, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Briton Hammon, "enslavement")
+2. hasValue(Agent, PSCategories): hasValue(Briton Hammon, "Slave")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Briton Hammon, "Ship worker, Prisoner, British Navy Servant")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Briton Hammon, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Briton Hammon, "Owner in London")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Owner in London, "Briton Hammon")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Briton Hammon, "Autobiographer")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Briton Hammon, "Publication of his account in 1760")

@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Horace King, "Horace Godwin")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Horace King, "Horace Godwin")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Horace King, "Horace King")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Horace King, "King")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Horace King, "Horace")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Horace King, "Unknown")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Horace King, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Horace King, 77)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Horace King, "September 8, 1807")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Horace King, "1885")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Horace King, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Horace King, "manumission, election to the Alabama House of Representatives")
+2. hasValue(Agent, PSCategories): hasValue(Horace King, "Enslaved, Free, Legislator")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Horace King, "Architect, Engineer, Bridge Builder, Legislator")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Horace King, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Horace King, "John Godwin")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(John Godwin, "Horace King")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Horace King, "Significant Figure, Builder, Legislator")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Horace King, "Shipbuilding for the Confederacy, Building of Bridges, Warehouses, Homes, Churches, Legislation in Alabama, Induction into the Alabama Engineers Hall of Fame")

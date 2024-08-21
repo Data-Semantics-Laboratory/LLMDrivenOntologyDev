@@ -1,0 +1,36 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Peter Barnabas Barrow, "Peter Barnabas Barrow")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Peter Barnabas Barrow, "Peter Barnabas Barrow")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Peter Barnabas Barrow, "Peter Barnabas Barrow")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Peter Barnabas Barrow, "Barrow")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Peter Barnabas Barrow, "Peter")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Peter Barnabas Barrow, "Petersburg, Virginia")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Peter Barnabas Barrow, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Peter Barnabas Barrow, 66)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Peter Barnabas Barrow, "1840")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Peter Barnabas Barrow, "1906")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Peter Barnabas Barrow, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Peter Barnabas Barrow, "freedom by the Union Army, state legislator, minister")
+2. hasValue(Agent, PSCategories): hasValue(Peter Barnabas Barrow, "Free Person, Soldier, State Legislator, Minister")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Peter Barnabas Barrow, "Soldier, State Legislator, Minister")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Peter Barnabas Barrow, "Freed by, Served in")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Peter Barnabas Barrow, "Union Army, Mississippi Senate and House of Representatives")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Union Army, "Peter Barnabas Barrow"), isRelationshipFrom(Mississippi Senate and House of Representatives, "Peter Barnabas Barrow")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Peter Barnabas Barrow, "Founder")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Peter Barnabas Barrow, "Founding of Calvary Baptist Church in Spokane, Washington")

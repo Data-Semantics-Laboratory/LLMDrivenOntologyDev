@@ -1,0 +1,32 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Gabriel, "Gabriel")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Gabriel, "Gabriel")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Gabriel, "Gabriel")
+4. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Gabriel, "Gabriel")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Gabriel, "A divine messenger, announcing God's will to mankind, and revered as a saint in many Christian traditions.")
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Gabriel, "Divine Realm")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Gabriel, "Angel")
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Gabriel, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Gabriel, "Appearances to various prophets, delivering divine messages")
+2. hasValue(Agent, PSCategories): hasValue(Gabriel, "Archangel")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Gabriel, "Divine Messenger, Celestial Warrior, Guardian Angel")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Gabriel, "Prophet")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Gabriel, "Daniel, John the Baptist, Jesus Christ, Muhammad")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Gabriel, "Divine Messenger")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Gabriel, "Various religious texts and traditions")

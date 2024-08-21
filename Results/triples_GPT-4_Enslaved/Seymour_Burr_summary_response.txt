@@ -1,0 +1,37 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Seymour Burr, "Seymour Burr")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Seymour Burr, "Seymour Burr")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Seymour Burr, "Seymour Burr")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Seymour Burr, "Burr")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Seymour Burr, "Seymour")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Seymour Burr, "Enslaved. Became free. Served in the British Army, captured, and eventually gained freedom after serving in the American Army.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Seymour Burr, "Connecticut or Guinea, Africa")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Seymour Burr, "African-American, possibly of mixed-race parentage")
+
+Age Record Module:   
+1. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Seymour Burr, "February 17, 1837")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Seymour Burr, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Seymour Burr, "escape, enlistment in the British Army, capture, freedom after serving in the American Army")
+2. hasValue(Agent, PSCategories): hasValue(Seymour Burr, "Enslaved, Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Seymour Burr, "Soldier in the 7th Massachusetts Regiment")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Seymour Burr, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Seymour Burr, "Brother of Colonel Aaron Burr")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Brother of Colonel Aaron Burr, "Seymour Burr")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Seymour Burr, "Soldier")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Seymour Burr, "American Revolution")

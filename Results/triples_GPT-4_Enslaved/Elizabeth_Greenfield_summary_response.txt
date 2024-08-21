@@ -1,0 +1,38 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Elizabeth Taylor Greenfield, "Elizabeth Taylor Greenfield")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Elizabeth Taylor Greenfield, "The Black Swan")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Elizabeth Taylor Greenfield, "Elizabeth Taylor Greenfield")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Elizabeth Taylor Greenfield, "Greenfield")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Elizabeth Taylor Greenfield, "Elizabeth")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Elizabeth Taylor Greenfield, "Enslaved. Free before the 13th Amendment. A singer, music teacher, choir director, and music studio owner. Founder of the Black Swan Opera Troupe and a significant contributor to African American causes.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Elizabeth Taylor Greenfield, "Natchez, Mississippi")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Elizabeth Taylor Greenfield, "African-American")
+
+Age Record Module:   
+1. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Elizabeth Taylor Greenfield, "between 1808 and 1826")
+2. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Elizabeth Taylor Greenfield, "March 31, 1876")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Elizabeth Taylor Greenfield, "Female")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Elizabeth Taylor Greenfield, "manumission")
+2. hasValue(Agent, PSCategories): hasValue(Elizabeth Taylor Greenfield, "Free Person, Singer, Music Teacher, Choir Director, Music Studio Owner")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Elizabeth Taylor Greenfield, "Singer, Music Teacher, Choir Director, Music Studio Owner")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Elizabeth Taylor Greenfield, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Elizabeth Taylor Greenfield, "Elizabeth H. Greenfield")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Elizabeth H. Greenfield, "Elizabeth Taylor Greenfield")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Elizabeth Taylor Greenfield, "Founder, Singer, Music Teacher, Choir Director, Music Studio Owner")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Elizabeth Taylor Greenfield, "Founding of Black Swan Opera Troupe")

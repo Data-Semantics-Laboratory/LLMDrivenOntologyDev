@@ -1,0 +1,39 @@
+Name Record Module:
+1. hasNameVariant(Agent, NameVariant): hasNameVariant(Henry Walton Bibb, "Henry Walton Bibb")
+2. hasPreferredNameVariant(Agent, PreferredNameVariant): hasPreferredNameVariant(Henry Walton Bibb, "Henry Bibb")
+3. fullNameAsString(NameVariant, xsd:string): fullNameAsString(Henry Walton Bibb, "Henry Walton Bibb")
+4. hasSurnameAsString(NameVariant, xsd: string): hasSurnameAsString(Henry Walton Bibb, "Bibb")
+5. hasFirstnameAsString(NameVariant, xsd: string): hasFirstnameAsString(Henry Walton Bibb, "Henry")
+
+Description Module:  
+1. hasDescription(Agent, Description): hasDescription(Henry Walton Bibb, "Enslaved. Free after numerous escape attempts. Author, abolitionist, and agent for the Underground Railroad. Founder of the abolitionist newspaper, 'Voice of the Fugitive', and the American League of Colored Laborers, the first black labor union in the United States.")    
+
+Origin Record Module:
+1. refersToPlaceOfOrigin(Agent, Place): refersToPlaceOfOrigin(Henry Walton Bibb, "United States")
+
+Race Record Module:      
+1. has_Race(Agent, Race): has_Race(Henry Walton Bibb, "African-American")
+
+Age Record Module:   
+1. hasAgeValue(Agent, xsd:double): hasAgeValue(Henry Walton Bibb, 39)
+2. hasBirthDate(Agent, Date_of_Birth): hasBirthDate(Henry Walton Bibb, "May 10, 1815")
+3. hasDeathDate(Agent, Date_of_Death): hasDeathDate(Henry Walton Bibb, "August 1, 1854")      
+
+Sex Record Module:     
+1. hasSex(Agent, Sex_Type): hasSex(Henry Walton Bibb, "Male")
+
+Person Status Record Module:     
+1. hasStatusGeneratedEvent(Agent, Event): hasStatusGeneratedEvent(Henry Walton Bibb, "escape attempts, successful escape to Detroit")
+2. hasValue(Agent, PSCategories): hasValue(Henry Walton Bibb, "Free Person")
+
+Occupation Record Module:    
+1. hasValue(Agent, Occupations): hasValue(Henry Walton Bibb, "Author, Abolitionist, Agent for the Underground Railroad")
+
+InterAgent Relationship Record Module:     
+1. hasInterAgentRelationshipType(Agent, InterAgentRelationshipTypes): hasInterAgentRelationshipType(Henry Walton Bibb, "Enslaver or Owner")
+2. isRelationshipTo(Agent, Agent): isRelationshipTo(Henry Walton Bibb, "Albert G. Sibley")
+3. isRelationshipFrom(Agent, Agent): isRelationshipFrom(Albert G. Sibley, "Henry Walton Bibb")
+
+Participant Role Record Module:
+1. hasParticipantRoleType(Agent, ParticipantRoleTypes): hasParticipantRoleType(Henry Walton Bibb, "Founder")
+2. roleProvidedBy(Agent, Event): roleProvidedBy(Henry Walton Bibb, "Founding of 'Voice of the Fugitive' and the American League of Colored Laborers")
