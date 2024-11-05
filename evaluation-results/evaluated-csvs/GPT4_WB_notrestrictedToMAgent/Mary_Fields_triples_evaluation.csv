@@ -1,0 +1,452 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,mary fields,32,0.537878787878788,24,0.41919191919191917,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,fields,27,0.49242424242424243,33,0.5555555555555555,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,mary,40,0.5692640692640693,20,0.47222222222222215,0.0,0.0
+instance of,person,has_alternate_name,alternate_name,34,0.5107744107744108,30,0.5714285714285715,0.0,0.0
+instance of,person,has_alternate_name,stagecoach mary,34,0.5107744107744108,19,0.45555555555555555,0.0,0.0
+instance of,person,has_alternate_name,black mary,34,0.5107744107744108,12,0.0,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type,relationship_type,33,0.5340909090909091,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type,servant,33,0.5340909090909091,46,0.6428571428571429,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,edmund dunne,34,0.5798460798460798,22,0.5,0.0,0.0
+instance of,person,is_relationship_to,mother mary amadeus,34,0.5798460798460798,24,0.44152046783625726,0.0,0.0
+instance of,person,mary,amadeus'),13,0.44696969696969696,27,0.5185185185185185,0.0,0.0
+instance of,person,role record,module:,27,0.49242424242424243,15,0.0,0.0,0.0
+instance of,person,has_participant_role,participant_role_type,32,0.5668831168831169,22,0.5357142857142857,0.0,0.0
+instance of,person,has_participant_role,mail carrier,32,0.5668831168831169,22,0.4166666666666667,0.0,0.0
+instance of,person,has_participant_role,servant,32,0.5668831168831169,46,0.6428571428571429,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,female,22,0.45598845598845594,17,0.4444444444444444,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,mail carrier,24,0.38311688311688313,22,0.4166666666666667,0.0,0.0
+instance of,person,has_occupation,servant,24,0.38311688311688313,46,0.6428571428571429,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_age,71,33,0.45598845598845594,0,0.0,0.0,0.0
+instance of,person,the time of retirement in,1903),28,0.48404040404040405,0,0.0,0.19431434016858148,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,1914,33,0.39044289044289043,0,0.0,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,black,36,0.5162210338680927,0,0.0,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,free,29,0.449554367201426,20,0.4444444444444444,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,birth date of mary fields is not mentioned in the,"text, so the relation has_birthdate(agent, date_of_birth) is skipped. also, the ethnolinguistic descriptor record module is skipped as there is no information about mary fields' ethnolinguistic descriptor in the text.",23,0.5468460111317254,5,0.5092165898617512,0.13378509294631244,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_name,name,57,0.8055555555555556,40,0.6388888888888888,0.0,0.0
+hassex,female,has_name,mary fields,57,0.8055555555555556,35,0.5934343434343434,0.0,0.0
+hassex,female,has_surname,surname,59,0.6767676767676768,31,0.5396825396825397,0.0,0.0
+hassex,female,has_surname,fields,59,0.6767676767676768,50,0.6666666666666666,0.0,0.0
+hassex,female,has_first_name,first_name,50,0.6507936507936508,38,0.6,0.0,0.0
+hassex,female,has_first_name,mary,50,0.6507936507936508,40,0.611111111111111,0.0,0.0
+hassex,female,has_alternate_name,alternate_name,33,0.6296296296296297,30,0.5674603174603174,0.0,0.0
+hassex,female,has_alternate_name,stagecoach mary,33,0.6296296296296297,29,0.32222222222222224,0.0,0.0
+hassex,female,has_alternate_name,black mary,33,0.6296296296296297,25,0.48888888888888893,0.0,0.0
+hassex,female,relationship record,module:,24,0.44152046783625726,46,0.6428571428571429,0.0,0.0
+hassex,female,has_interagent_relationship_type,relationship_type,26,0.5972222222222222,26,0.4477124183006536,0.0,0.0
+hassex,female,has_interagent_relationship_type,servant,26,0.5972222222222222,31,0.5396825396825397,0.0,0.0
+hassex,female,is_relationship_to,agent,17,0.46296296296296297,36,0.45555555555555555,0.0,0.0
+hassex,female,is_relationship_to,edmund dunne,17,0.46296296296296297,33,0.5,0.0,0.0
+hassex,female,is_relationship_to,mother mary amadeus,17,0.46296296296296297,32,0.44152046783625726,0.0,0.0
+hassex,female,mary,amadeus'),20,0.47222222222222215,40,0.5,0.0,0.0
+hassex,female,role record,module:,12,0.41919191919191917,46,0.6428571428571429,0.0,0.0
+hassex,female,has_participant_role,participant_role_type,31,0.5499999999999999,22,0.4047619047619047,0.0,0.0
+hassex,female,has_participant_role,mail carrier,31,0.5499999999999999,44,0.6666666666666666,0.0,0.0
+hassex,female,has_participant_role,servant,31,0.5499999999999999,31,0.5396825396825397,0.0,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_sex,sex_type,92,0.9666666666666667,29,0.5277777777777778,0.0,0.0
+hassex,female,has_sex,female,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_occupation,occupation,30,0.5714285714285715,12,0.4222222222222222,0.0,0.0
+hassex,female,has_occupation,mail carrier,30,0.5714285714285715,44,0.6666666666666666,0.0,0.0
+hassex,female,has_occupation,servant,30,0.5714285714285715,31,0.5396825396825397,0.0,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_age,age,62,0.8222222222222222,44,0.5,0.0,0.0
+hassex,female,has_age,71,62,0.8222222222222222,0,0.0,0.0,0.0
+hassex,female,the time of retirement in,1903),13,0.4711111111111111,0,0.0,0.0,0.0
+hassex,female,has_deathdate,date_of_death,42,0.6581196581196581,32,0.46581196581196577,0.0,0.0
+hassex,female,has_deathdate,1914,42,0.6581196581196581,0,0.0,0.0,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_race_or_color,race_or_color,35,0.6339869281045751,21,0.32905982905982906,0.0,0.0
+hassex,female,has_race_or_color,black,35,0.6339869281045751,18,0.45555555555555555,0.0,0.0
+hassex,female,status record,module:,32,0.5747863247863249,46,0.6428571428571429,0.0,0.0
+hassex,female,has_person_status,free,35,0.642483660130719,60,0.775,0.0,0.0
+hassex,female,has_birthdate,date_of_birth,42,0.576923076923077,21,0.32905982905982906,0.0,0.0
+hassex,female,birth date of mary fields is not mentioned in the,"text, so the relation has_birthdate(agent, date_of_birth) is skipped. also, the ethnolinguistic descriptor record module is skipped as there is no information about mary fields' ethnolinguistic descriptor in the text.",18,0.4994331065759637,5,0.4854582693292371,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,mary fields,38,0.5675925925925926,38,0.43030303030303035,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,fields,41,0.6274651274651274,55,0.7000000000000001,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,mary,44,0.6772486772486772,0,0.0,0.0,0.0
+hasparticipantrole,child,has_alternate_name,alternate_name,44,0.6370370370370371,11,0.4238095238095238,0.0,0.0
+hasparticipantrole,child,has_alternate_name,stagecoach mary,44,0.6370370370370371,20,0.4222222222222222,0.0,0.0
+hasparticipantrole,child,has_alternate_name,black mary,44,0.6370370370370371,13,0.3666666666666667,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type,relationship_type,44,0.65625,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type,servant,44,0.65625,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,edmund dunne,44,0.6037037037037037,12,0.42777777777777776,0.0,0.0
+hasparticipantrole,child,is_relationship_to,mother mary amadeus,44,0.6037037037037037,17,0.4175438596491228,0.0,0.0
+hasparticipantrole,child,mary,amadeus'),18,0.5370370370370371,14,0.43703703703703706,0.0,0.0
+hasparticipantrole,child,role record,module:,28,0.4452861952861953,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant_role_type,95,0.9766666666666667,23,0.33174603174603173,0.0,0.0
+hasparticipantrole,child,has_participant_role,mail carrier,95,0.9766666666666667,24,0.5055555555555555,0.0,0.0
+hasparticipantrole,child,has_participant_role,servant,95,0.9766666666666667,0,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,female,32,0.5317460317460317,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,mail carrier,50,0.6566137566137565,24,0.5055555555555555,0.0,0.0
+hasparticipantrole,child,has_occupation,servant,50,0.6566137566137565,0,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_age,age,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_age,71,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,the time of retirement in,1903),28,0.5185185185185185,0,0.0,0.0,0.0
+hasparticipantrole,child,has_deathdate,date_of_death,52,0.6866096866096866,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_deathdate,1914,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_race_or_color,race_or_color,46,0.60239651416122,22,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_race_or_color,black,46,0.60239651416122,20,0.0,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,free,46,0.6479302832244008,0,0.0,0.0,0.0
+hasparticipantrole,child,has_birthdate,date_of_birth,52,0.6937321937321936,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,birth date of mary fields is not mentioned in the,"text, so the relation has_birthdate(agent, date_of_birth) is skipped. also, the ethnolinguistic descriptor record module is skipped as there is no information about mary fields' ethnolinguistic descriptor in the text.",30,0.544973544973545,5,0.5410138248847925,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,mary fields,38,0.5675925925925926,31,0.46262626262626255,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,fields,41,0.6274651274651274,29,0.45555555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,mary,44,0.6772486772486772,21,0.4388888888888889,0.0,0.0
+hasparticipantrole,deceased person,has_alternate_name,alternate_name,44,0.6370370370370371,28,0.43015873015873013,0.0,0.0
+hasparticipantrole,deceased person,has_alternate_name,stagecoach mary,44,0.6370370370370371,33,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_alternate_name,black mary,44,0.6370370370370371,24,0.47222222222222227,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type,relationship_type,44,0.65625,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type,servant,44,0.65625,36,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,edmund dunne,44,0.6037037037037037,30,0.4666666666666666,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,mother mary amadeus,44,0.6037037037037037,29,0.5164578111946533,0.0,0.0
+hasparticipantrole,deceased person,mary,amadeus'),18,0.5370370370370371,33,0.487037037037037,0.0,0.0
+hasparticipantrole,deceased person,role record,module:,28,0.4452861952861953,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant_role_type,95,0.9766666666666667,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,mail carrier,95,0.9766666666666667,30,0.45,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,servant,95,0.9766666666666667,36,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,female,32,0.5317460317460317,29,0.45555555555555555,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,mail carrier,50,0.6566137566137565,30,0.45,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,servant,50,0.6566137566137565,36,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_age,age,40,0.5978835978835978,22,0.4333333333333333,0.0,0.0
+hasparticipantrole,deceased person,has_age,71,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,the time of retirement in,1903),28,0.5185185185185185,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,date_of_death,52,0.6866096866096866,36,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,1914,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,race_or_color,46,0.60239651416122,29,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,black,46,0.60239651416122,10,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,free,46,0.6479302832244008,21,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,date_of_birth,52,0.6937321937321936,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,birth date of mary fields is not mentioned in the,"text, so the relation has_birthdate(agent, date_of_birth) is skipped. also, the ethnolinguistic descriptor record module is skipped as there is no information about mary fields' ethnolinguistic descriptor in the text.",30,0.544973544973545,12,0.5341525857654891,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,mary fields,25,0.5555555555555555,25,0.5272727272727272,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,surname,34,0.5474386724386724,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,fields,34,0.5474386724386724,18,0.41111111111111115,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,first_name,32,0.5615079365079364,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,mary,32,0.5615079365079364,22,0.48333333333333334,0.0,0.0
+hasdescriptiveoccupation,slave,has_alternate_name,alternate_name,38,0.5574074074074075,32,0.4936507936507937,0.0,0.0
+hasdescriptiveoccupation,slave,has_alternate_name,stagecoach mary,38,0.5574074074074075,30,0.6,0.0,0.0
+hasdescriptiveoccupation,slave,has_alternate_name,black mary,38,0.5574074074074075,27,0.5333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,relationship record,module:,33,0.6137539361223572,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,27,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type,servant,43,0.5868055555555555,33,0.565079365079365,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,agent,38,0.6264245014245015,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,edmund dunne,38,0.6264245014245015,12,0.42777777777777776,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,mother mary amadeus,38,0.6264245014245015,17,0.3350877192982456,0.0,0.0
+hasdescriptiveoccupation,slave,mary,amadeus'),14,0.5277777777777778,29,0.5407407407407407,0.0,0.0
+hasdescriptiveoccupation,slave,role record,module:,29,0.4873737373737373,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,participant_role_type,50,0.6805555555555555,15,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,mail carrier,50,0.6805555555555555,35,0.35555555555555557,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,servant,50,0.6805555555555555,33,0.565079365079365,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,sex_type,32,0.5742063492063493,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,female,32,0.5742063492063493,36,0.5777777777777778,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,mail carrier,68,0.8045940170940171,35,0.35555555555555557,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,servant,68,0.8045940170940171,33,0.565079365079365,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,age,26,0.5793650793650794,50,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,71,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,the time of retirement in,1903),37,0.4812626262626263,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,date_of_death,43,0.652065527065527,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,1914,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,race_or_color,39,0.5977668845315903,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,black,39,0.5977668845315903,40,0.6,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,free,39,0.6241830065359477,22,0.48333333333333334,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,date_of_birth,38,0.6286324786324786,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,birth date of mary fields is not mentioned in the,"text, so the relation has_birthdate(agent, date_of_birth) is skipped. also, the ethnolinguistic descriptor record module is skipped as there is no information about mary fields' ethnolinguistic descriptor in the text.",30,0.5282279578498067,4,0.43947772657450085,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,record,module:,27,0.6138888888888889,21,0.41053391053391053,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_name,name,25,0.5555555555555555,23,0.6439393939393939,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_name,mary fields,25,0.5555555555555555,30,0.5303030303030303,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_surname,surname,34,0.5474386724386724,28,0.5988455988455987,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_surname,fields,34,0.5474386724386724,29,0.6161616161616161,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_first_name,first_name,32,0.5615079365079364,38,0.6585858585858585,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_first_name,mary,32,0.5615079365079364,23,0.5176767676767676,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_alternate_name,alternate_name,38,0.5574074074074075,33,0.5200216450216449,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_alternate_name,stagecoach mary,38,0.5574074074074075,27,0.5073232323232323,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_alternate_name,black mary,38,0.5574074074074075,19,0.3606060606060606,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,relationship record,module:,33,0.6137539361223572,21,0.41053391053391053,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,36,0.624777183600713,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_interagent_relationship_type,servant,43,0.5868055555555555,28,0.5432900432900433,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,is_relationship_to,agent,38,0.6264245014245015,15,0.49393939393939396,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,is_relationship_to,edmund dunne,38,0.6264245014245015,35,0.5386002886002886,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,is_relationship_to,mother mary amadeus,38,0.6264245014245015,39,0.60207336523126,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,mary,amadeus'),14,0.5277777777777778,19,0.37542087542087543,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,role record,module:,29,0.4873737373737373,21,0.41053391053391053,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_participant_role,participant_role_type,50,0.6805555555555555,37,0.5533910533910533,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_participant_role,mail carrier,50,0.6805555555555555,35,0.5715488215488216,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_participant_role,servant,50,0.6805555555555555,28,0.5432900432900433,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,record,module:,27,0.6138888888888889,21,0.41053391053391053,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_sex,sex_type,32,0.5742063492063493,20,0.4772727272727273,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_sex,female,32,0.5742063492063493,36,0.6161616161616161,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,record,module:,27,0.6138888888888889,21,0.41053391053391053,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_occupation,occupation,68,0.8045940170940171,31,0.5686868686868687,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_occupation,mail carrier,68,0.8045940170940171,35,0.5715488215488216,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_occupation,servant,68,0.8045940170940171,28,0.5432900432900433,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,record,module:,27,0.6138888888888889,21,0.41053391053391053,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_age,age,26,0.5793650793650794,16,0.41919191919191917,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_age,71,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,the time of retirement in,1903),37,0.4812626262626263,0,0.0,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_deathdate,date_of_death,43,0.652065527065527,23,0.46697746697746695,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_deathdate,1914,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,record,module:,27,0.6138888888888889,21,0.41053391053391053,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_race_or_color,race_or_color,39,0.5977668845315903,29,0.5712620712620713,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_race_or_color,black,39,0.5977668845315903,7,0.4151515151515152,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,status record,module:,32,0.540954415954416,21,0.41053391053391053,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_person_status,free,39,0.6241830065359477,31,0.6287878787878788,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,has_birthdate,date_of_birth,38,0.6286324786324786,23,0.476023976023976,0.0,0.0
+hasdescriptiveoccupation,frontiersman / pioneer,birth date of mary fields is not mentioned in the,"text, so the relation has_birthdate(agent, date_of_birth) is skipped. also, the ethnolinguistic descriptor record module is skipped as there is no information about mary fields' ethnolinguistic descriptor in the text.",30,0.5282279578498067,16,0.5409160731741377,0.0,0.0
+hasdescriptiveoccupation,postal official,record,module:,27,0.6138888888888889,18,0.47301587301587295,0.0,0.0
+hasdescriptiveoccupation,postal official,has_name,name,25,0.5555555555555555,11,0.4388888888888889,0.0,0.0
+hasdescriptiveoccupation,postal official,has_name,mary fields,25,0.5555555555555555,38,0.46262626262626255,0.0,0.0
+hasdescriptiveoccupation,postal official,has_surname,surname,34,0.5474386724386724,18,0.47301587301587295,0.0,0.0
+hasdescriptiveoccupation,postal official,has_surname,fields,34,0.5474386724386724,29,0.32222222222222224,0.0,0.0
+hasdescriptiveoccupation,postal official,has_first_name,first_name,32,0.5615079365079364,24,0.5,0.0,0.0
+hasdescriptiveoccupation,postal official,has_first_name,mary,32,0.5615079365079364,11,0.4388888888888889,0.0,0.0
+hasdescriptiveoccupation,postal official,has_alternate_name,alternate_name,38,0.5574074074074075,21,0.43412698412698414,0.0,0.0
+hasdescriptiveoccupation,postal official,has_alternate_name,stagecoach mary,38,0.5574074074074075,40,0.5015873015873016,0.0,0.0
+hasdescriptiveoccupation,postal official,has_alternate_name,black mary,38,0.5574074074074075,24,0.47222222222222227,0.0,0.0
+hasdescriptiveoccupation,postal official,relationship record,module:,33,0.6137539361223572,18,0.47301587301587295,0.0,0.0
+hasdescriptiveoccupation,postal official,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,19,0.530905695611578,0.0,0.0
+hasdescriptiveoccupation,postal official,has_interagent_relationship_type,servant,43,0.5868055555555555,18,0.4317460317460317,0.0,0.0
+hasdescriptiveoccupation,postal official,is_relationship_to,agent,38,0.6264245014245015,10,0.3444444444444444,0.0,0.0
+hasdescriptiveoccupation,postal official,is_relationship_to,edmund dunne,38,0.6264245014245015,7,0.3833333333333333,0.0,0.0
+hasdescriptiveoccupation,postal official,is_relationship_to,mother mary amadeus,38,0.6264245014245015,29,0.4654970760233918,0.0,0.0
+hasdescriptiveoccupation,postal official,mary,amadeus'),14,0.5277777777777778,17,0.28518518518518515,0.0,0.0
+hasdescriptiveoccupation,postal official,role record,module:,29,0.4873737373737373,18,0.47301587301587295,0.0,0.0
+hasdescriptiveoccupation,postal official,has_participant_role,participant_role_type,50,0.6805555555555555,39,0.565079365079365,0.0,0.0
+hasdescriptiveoccupation,postal official,has_participant_role,mail carrier,50,0.6805555555555555,37,0.5166666666666667,0.0,0.0
+hasdescriptiveoccupation,postal official,has_participant_role,servant,50,0.6805555555555555,18,0.4317460317460317,0.0,0.0
+hasdescriptiveoccupation,postal official,record,module:,27,0.6138888888888889,18,0.47301587301587295,0.0,0.0
+hasdescriptiveoccupation,postal official,has_sex,sex_type,32,0.5742063492063493,17,0.4138888888888889,0.0,0.0
+hasdescriptiveoccupation,postal official,has_sex,female,32,0.5742063492063493,29,0.48888888888888893,0.0,0.0
+hasdescriptiveoccupation,postal official,record,module:,27,0.6138888888888889,18,0.47301587301587295,0.0,0.0
+hasdescriptiveoccupation,postal official,has_occupation,occupation,68,0.8045940170940171,24,0.5,0.0,0.0
+hasdescriptiveoccupation,postal official,has_occupation,mail carrier,68,0.8045940170940171,37,0.5166666666666667,0.0,0.0
+hasdescriptiveoccupation,postal official,has_occupation,servant,68,0.8045940170940171,18,0.4317460317460317,0.0,0.0
+hasdescriptiveoccupation,postal official,record,module:,27,0.6138888888888889,18,0.47301587301587295,0.0,0.0
+hasdescriptiveoccupation,postal official,has_age,age,26,0.5793650793650794,11,0.4666666666666666,0.0,0.0
+hasdescriptiveoccupation,postal official,has_age,71,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,postal official,the time of retirement in,1903),37,0.4812626262626263,0,0.0,0.0,0.0
+hasdescriptiveoccupation,postal official,has_deathdate,date_of_death,43,0.652065527065527,29,0.505982905982906,0.0,0.0
+hasdescriptiveoccupation,postal official,has_deathdate,1914,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,postal official,record,module:,27,0.6138888888888889,18,0.47301587301587295,0.0,0.0
+hasdescriptiveoccupation,postal official,has_race_or_color,race_or_color,39,0.5977668845315903,29,0.4393162393162393,0.0,0.0
+hasdescriptiveoccupation,postal official,has_race_or_color,black,39,0.5977668845315903,20,0.3444444444444444,0.0,0.0
+hasdescriptiveoccupation,postal official,status record,module:,32,0.540954415954416,18,0.47301587301587295,0.0,0.0
+hasdescriptiveoccupation,postal official,has_person_status,free,39,0.6241830065359477,11,0.0,0.0,0.0
+hasdescriptiveoccupation,postal official,has_birthdate,date_of_birth,38,0.6286324786324786,29,0.505982905982906,0.0,0.0
+hasdescriptiveoccupation,postal official,birth date of mary fields is not mentioned in the,"text, so the relation has_birthdate(agent, date_of_birth) is skipped. also, the ethnolinguistic descriptor record module is skipped as there is no information about mary fields' ethnolinguistic descriptor in the text.",30,0.5282279578498067,10,0.5469022017409114,0.0,0.0
+hasfirstname,stagecoach mary,record,module:,22,0.4166666666666667,9,0.3063492063492063,0.0,0.0
+hasfirstname,stagecoach mary,has_name,name,70,0.8736111111111112,21,0.5444444444444444,0.0,0.0
+hasfirstname,stagecoach mary,has_name,mary fields,70,0.8736111111111112,31,0.3797979797979798,0.0,0.33609692727625756
+hasfirstname,stagecoach mary,has_surname,surname,70,0.8733164983164984,27,0.5293650793650794,0.0,0.0
+hasfirstname,stagecoach mary,has_surname,fields,70,0.8733164983164984,10,0.32222222222222224,0.0,0.0
+hasfirstname,stagecoach mary,has_first_name,first_name,92,0.9666666666666667,32,0.5444444444444444,0.0,0.0
+hasfirstname,stagecoach mary,has_first_name,mary,92,0.9666666666666667,42,0.4388888888888889,0.0,0.5797386715376658
+hasfirstname,stagecoach mary,has_alternate_name,alternate_name,60,0.6759259259259259,34,0.4984126984126984,0.0,0.0
+hasfirstname,stagecoach mary,has_alternate_name,stagecoach mary,60,0.6759259259259259,100,1.0,0.0,1.0000000000000002
+hasfirstname,stagecoach mary,has_alternate_name,black mary,60,0.6759259259259259,56,0.6746031746031745,0.0,0.33609692727625756
+hasfirstname,stagecoach mary,relationship record,module:,32,0.5077276524644946,9,0.3063492063492063,0.0,0.0
+hasfirstname,stagecoach mary,has_interagent_relationship_type,relationship_type,36,0.6030092592592592,25,0.5287581699346405,0.0,0.0
+hasfirstname,stagecoach mary,has_interagent_relationship_type,servant,36,0.6030092592592592,27,0.5293650793650794,0.0,0.0
+hasfirstname,stagecoach mary,is_relationship_to,agent,27,0.6203703703703703,30,0.5222222222222223,0.0,0.0
+hasfirstname,stagecoach mary,is_relationship_to,edmund dunne,27,0.6203703703703703,15,0.43333333333333335,0.0,0.0
+hasfirstname,stagecoach mary,is_relationship_to,mother mary amadeus,27,0.6203703703703703,41,0.6192450824029772,0.0,0.26055567105626243
+hasfirstname,stagecoach mary,mary,amadeus'),25,0.5555555555555555,25,0.487037037037037,0.0,0.0
+hasfirstname,stagecoach mary,role record,module:,17,0.44949494949494956,9,0.3063492063492063,0.0,0.0
+hasfirstname,stagecoach mary,has_participant_role,participant_role_type,44,0.6962962962962962,28,0.5047619047619047,0.0,0.0
+hasfirstname,stagecoach mary,has_participant_role,mail carrier,44,0.6962962962962962,30,0.5777777777777778,0.0,0.0
+hasfirstname,stagecoach mary,has_participant_role,servant,44,0.6962962962962962,27,0.5293650793650794,0.0,0.0
+hasfirstname,stagecoach mary,record,module:,22,0.4166666666666667,9,0.3063492063492063,0.0,0.0
+hasfirstname,stagecoach mary,has_sex,sex_type,53,0.6349206349206349,26,0.4138888888888889,0.0,0.0
+hasfirstname,stagecoach mary,has_sex,female,53,0.6349206349206349,29,0.32222222222222224,0.0,0.0
+hasfirstname,stagecoach mary,record,module:,22,0.4166666666666667,9,0.3063492063492063,0.0,0.0
+hasfirstname,stagecoach mary,has_occupation,occupation,38,0.5873015873015873,24,0.4777777777777777,0.0,0.0
+hasfirstname,stagecoach mary,has_occupation,mail carrier,38,0.5873015873015873,30,0.5777777777777778,0.0,0.0
+hasfirstname,stagecoach mary,has_occupation,servant,38,0.5873015873015873,27,0.5293650793650794,0.0,0.0
+hasfirstname,stagecoach mary,record,module:,22,0.4166666666666667,9,0.3063492063492063,0.0,0.0
+hasfirstname,stagecoach mary,has_age,age,53,0.7972222222222223,33,0.7333333333333334,0.0,0.0
+hasfirstname,stagecoach mary,has_age,71,53,0.7972222222222223,0,0.0,0.0,0.0
+hasfirstname,stagecoach mary,the time of retirement in,1903),32,0.4782539682539683,0,0.0,0.0,0.0
+hasfirstname,stagecoach mary,has_deathdate,date_of_death,48,0.5982905982905983,36,0.5649572649572651,0.0,0.0
+hasfirstname,stagecoach mary,has_deathdate,1914,48,0.5982905982905983,0,0.0,0.0,0.0
+hasfirstname,stagecoach mary,record,module:,22,0.4166666666666667,9,0.3063492063492063,0.0,0.0
+hasfirstname,stagecoach mary,has_race_or_color,race_or_color,41,0.6176470588235294,36,0.5649572649572651,0.0,0.0
+hasfirstname,stagecoach mary,has_race_or_color,black,41,0.6176470588235294,20,0.5111111111111111,0.0,0.0
+hasfirstname,stagecoach mary,status record,module:,32,0.5427350427350427,9,0.3063492063492063,0.0,0.0
+hasfirstname,stagecoach mary,has_person_status,free,48,0.6857298474945533,11,0.4388888888888889,0.0,0.0
+hasfirstname,stagecoach mary,has_birthdate,date_of_birth,64,0.8324786324786324,29,0.5094017094017094,0.0,0.0
+hasfirstname,stagecoach mary,birth date of mary fields is not mentioned in the,"text, so the relation has_birthdate(agent, date_of_birth) is skipped. also, the ethnolinguistic descriptor record module is skipped as there is no information about mary fields' ethnolinguistic descriptor in the text.",26,0.5816326530612245,12,0.5230926779313876,0.0,0.058624913346770884
+hassurname,fields,record,module:,25,0.4222222222222222,15,0.373015873015873,0.0,0.0
+hassurname,fields,has_name,name,78,0.9008333333333334,20,0.47222222222222215,0.0,0.0
+hassurname,fields,has_name,mary fields,78,0.9008333333333334,71,0.0,0.0,0.5797386715376658
+hassurname,fields,has_surname,surname,95,0.9787878787878788,15,0.0,0.0,0.0
+hassurname,fields,has_surname,fields,95,0.9787878787878788,100,1.0,0.0,1.0
+hassurname,fields,has_first_name,first_name,67,0.8674074074074074,38,0.6,0.0,0.0
+hassurname,fields,has_first_name,mary,67,0.8674074074074074,0,0.0,0.0,0.0
+hassurname,fields,has_alternate_name,alternate_name,57,0.6648148148148149,10,0.3253968253968254,0.0,0.0
+hassurname,fields,has_alternate_name,stagecoach mary,57,0.6648148148148149,10,0.32222222222222224,0.0,0.0
+hassurname,fields,has_alternate_name,black mary,57,0.6648148148148149,12,0.4222222222222222,0.0,0.0
+hassurname,fields,relationship record,module:,28,0.4543859649122807,15,0.373015873015873,0.0,0.0
+hassurname,fields,has_interagent_relationship_type,relationship_type,33,0.544345238095238,26,0.5506535947712418,0.0,0.0
+hassurname,fields,has_interagent_relationship_type,servant,33,0.544345238095238,15,0.4365079365079365,0.0,0.0
+hassurname,fields,is_relationship_to,agent,21,0.5333333333333333,18,0.45555555555555555,0.0,0.0
+hassurname,fields,is_relationship_to,edmund dunne,21,0.5333333333333333,22,0.5,0.0,0.0
+hassurname,fields,is_relationship_to,mother mary amadeus,21,0.5333333333333333,24,0.4064327485380117,0.0,0.0
+hassurname,fields,mary,amadeus'),29,0.5666666666666667,27,0.5,0.0,0.0
+hassurname,fields,role record,module:,19,0.46060606060606063,15,0.373015873015873,0.0,0.0
+hassurname,fields,has_participant_role,participant_role_type,40,0.5777777777777778,15,0.4047619047619047,0.0,0.0
+hassurname,fields,has_participant_role,mail carrier,40,0.5777777777777778,22,0.5,0.0,0.0
+hassurname,fields,has_participant_role,servant,40,0.5777777777777778,15,0.4365079365079365,0.0,0.0
+hassurname,fields,record,module:,25,0.4222222222222222,15,0.373015873015873,0.0,0.0
+hassurname,fields,has_sex,sex_type,59,0.8166666666666667,14,0.4305555555555555,0.0,0.0
+hassurname,fields,has_sex,female,59,0.8166666666666667,50,0.6666666666666666,0.0,0.0
+hassurname,fields,record,module:,25,0.4222222222222222,15,0.373015873015873,0.0,0.0
+hassurname,fields,has_occupation,occupation,42,0.6190476190476191,12,0.0,0.0,0.0
+hassurname,fields,has_occupation,mail carrier,42,0.6190476190476191,22,0.5,0.0,0.0
+hassurname,fields,has_occupation,servant,42,0.6190476190476191,15,0.4365079365079365,0.0,0.0
+hassurname,fields,record,module:,25,0.4222222222222222,15,0.373015873015873,0.0,0.0
+hassurname,fields,has_age,age,59,0.8166666666666667,22,0.5,0.0,0.0
+hassurname,fields,has_age,71,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,fields,the time of retirement in,1903),23,0.4366666666666667,0,0.0,0.0,0.0
+hassurname,fields,has_deathdate,date_of_death,43,0.5615384615384615,21,0.32905982905982906,0.0,0.0
+hassurname,fields,has_deathdate,1914,43,0.5615384615384615,0,0.0,0.0,0.0
+hassurname,fields,record,module:,25,0.4222222222222222,15,0.373015873015873,0.0,0.0
+hassurname,fields,has_race_or_color,race_or_color,44,0.6509803921568628,21,0.41452991452991456,0.0,0.0
+hassurname,fields,has_race_or_color,black,44,0.6509803921568628,18,0.45555555555555555,0.0,0.0
+hassurname,fields,status record,module:,35,0.5760683760683761,15,0.373015873015873,0.0,0.0
+hassurname,fields,has_person_status,free,44,0.6735294117647058,40,0.611111111111111,0.0,0.0
+hassurname,fields,has_birthdate,date_of_birth,52,0.6871794871794871,21,0.32905982905982906,0.0,0.0
+hassurname,fields,birth date of mary fields is not mentioned in the,"text, so the relation has_birthdate(agent, date_of_birth) is skipped. also, the ethnolinguistic descriptor record module is skipped as there is no information about mary fields' ethnolinguistic descriptor in the text.",24,0.529421768707483,5,0.5647721454173067,0.0,0.10112299942192488
+hasname,stagecoach mary fields,record,module:,15,0.0,14,0.2922077922077922,0.0,0.0
+hasname,stagecoach mary fields,has_name,name,93,0.9708333333333333,23,0.5176767676767676,0.0,0.0
+hasname,stagecoach mary fields,has_name,mary fields,93,0.9708333333333333,67,0.4318181818181818,0.0,0.7092972666062739
+hasname,stagecoach mary fields,has_surname,surname,78,0.9151515151515152,28,0.5010822510822511,0.0,0.0
+hasname,stagecoach mary fields,has_surname,fields,78,0.9151515151515152,43,0.30808080808080807,0.0,0.4494364165239821
+hasname,stagecoach mary fields,has_first_name,first_name,67,0.5476190476190476,31,0.5090909090909091,0.0,0.0
+hasname,stagecoach mary fields,has_first_name,mary,67,0.5476190476190476,31,0.4318181818181818,0.0,0.44943641652398214
+hasname,stagecoach mary fields,has_alternate_name,alternate_name,56,0.6746031746031745,33,0.5200216450216449,0.0,0.0
+hasname,stagecoach mary fields,has_alternate_name,stagecoach mary,56,0.6746031746031745,81,0.9363636363636364,0.0,0.7092972666062739
+hasname,stagecoach mary fields,has_alternate_name,black mary,56,0.6746031746031745,44,0.6251082251082251,0.0,0.26055567105626243
+hasname,stagecoach mary fields,relationship record,module:,23,0.5106516290726817,14,0.2922077922077922,0.0,0.0
+hasname,stagecoach mary fields,has_interagent_relationship_type,relationship_type,31,0.6259920634920636,26,0.5350564468211526,0.0,0.0
+hasname,stagecoach mary fields,has_interagent_relationship_type,servant,31,0.6259920634920636,21,0.5010822510822511,0.0,0.0
+hasname,stagecoach mary fields,is_relationship_to,agent,16,0.43121693121693117,22,0.49393939393939396,0.0,0.0
+hasname,stagecoach mary fields,is_relationship_to,edmund dunne,16,0.43121693121693117,24,0.4217171717171717,0.0,0.0
+hasname,stagecoach mary fields,is_relationship_to,mother mary amadeus,16,0.43121693121693117,49,0.6682083997873471,0.0,0.20199309249791833
+hasname,stagecoach mary fields,mary,amadeus'),18,0.46428571428571425,32,0.460942760942761,0.0,0.0
+hasname,stagecoach mary fields,role record,module:,11,0.41125541125541126,14,0.2922077922077922,0.0,0.0
+hasname,stagecoach mary fields,has_participant_role,participant_role_type,37,0.5904761904761905,28,0.5014430014430015,0.0,0.0
+hasname,stagecoach mary fields,has_participant_role,mail carrier,37,0.5904761904761905,35,0.5386002886002886,0.0,0.0
+hasname,stagecoach mary fields,has_participant_role,servant,37,0.5904761904761905,21,0.5010822510822511,0.0,0.0
+hasname,stagecoach mary fields,record,module:,15,0.0,14,0.2922077922077922,0.0,0.0
+hasname,stagecoach mary fields,has_sex,sex_type,57,0.8,27,0.4772727272727273,0.0,0.0
+hasname,stagecoach mary fields,has_sex,female,57,0.8,29,0.4343434343434343,0.0,0.0
+hasname,stagecoach mary fields,record,module:,15,0.0,14,0.2922077922077922,0.0,0.0
+hasname,stagecoach mary fields,has_occupation,occupation,38,0.6190476190476191,25,0.5131313131313131,0.0,0.0
+hasname,stagecoach mary fields,has_occupation,mail carrier,38,0.6190476190476191,35,0.5386002886002886,0.0,0.0
+hasname,stagecoach mary fields,has_occupation,servant,38,0.6190476190476191,21,0.5010822510822511,0.0,0.0
+hasname,stagecoach mary fields,record,module:,15,0.0,14,0.2922077922077922,0.0,0.0
+hasname,stagecoach mary fields,has_age,age,71,0.8666666666666668,24,0.712121212121212,0.0,0.0
+hasname,stagecoach mary fields,has_age,71,71,0.8666666666666668,0,0.0,0.0,0.0
+hasname,stagecoach mary fields,the time of retirement in,1903),19,0.405079365079365,0,0.0,0.0,0.0
+hasname,stagecoach mary fields,has_deathdate,date_of_death,50,0.632967032967033,29,0.5346736596736598,0.0,0.0
+hasname,stagecoach mary fields,has_deathdate,1914,50,0.632967032967033,0,0.0,0.0,0.0
+hasname,stagecoach mary fields,record,module:,15,0.0,14,0.2922077922077922,0.0,0.0
+hasname,stagecoach mary fields,has_race_or_color,race_or_color,42,0.6694677871148459,29,0.5236430236430237,0.0,0.0
+hasname,stagecoach mary fields,has_race_or_color,black,42,0.6694677871148459,15,0.496969696969697,0.0,0.0
+hasname,stagecoach mary fields,status record,module:,30,0.442002442002442,14,0.2922077922077922,0.0,0.0
+hasname,stagecoach mary fields,has_person_status,free,42,0.6028011204481792,15,0.4318181818181818,0.0,0.0
+hasname,stagecoach mary fields,has_birthdate,date_of_birth,50,0.553113553113553,29,0.5346736596736598,0.0,0.0
+hasname,stagecoach mary fields,birth date of mary fields is not mentioned in the,"text, so the relation has_birthdate(agent, date_of_birth) is skipped. also, the ethnolinguistic descriptor record module is skipped as there is no information about mary fields' ethnolinguistic descriptor in the text.",21,0.5487528344671202,18,0.5250430573011218,0.0,0.10194591812865438
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",record,module:,30,0.48412698412698413,5,0.44751143395211185,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_name,name,36,0.5952380952380952,4,0.5908662900188324,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_name,mary fields,36,0.5952380952380952,10,0.48852936141071734,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_surname,surname,48,0.6168831168831169,8,0.463680387409201,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_surname,fields,48,0.6168831168831169,7,0.5112994350282486,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_first_name,first_name,43,0.6726190476190476,10,0.5021343377275581,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_first_name,mary,43,0.6726190476190476,3,0.47787193973634645,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_alternate_name,alternate_name,44,0.582010582010582,13,0.513493098238861,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_alternate_name,stagecoach mary,44,0.582010582010582,14,0.518499203244966,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_alternate_name,black mary,44,0.582010582010582,9,0.49006591337099814,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",relationship record,module:,30,0.6135338345864662,5,0.44751143395211185,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_interagent_relationship_type,relationship_type,39,0.5755952380952382,12,0.49135134279700576,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_interagent_relationship_type,servant,39,0.5755952380952382,8,0.5846112456281948,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",is_relationship_to,agent,44,0.6474266474266474,5,0.5241996233521657,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",is_relationship_to,edmund dunne,44,0.6474266474266474,11,0.4966101694915254,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",is_relationship_to,mother mary amadeus,44,0.6474266474266474,17,0.5348729639541415,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",mary,amadeus'),22,0.5476190476190476,8,0.45574387947269307,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",role record,module:,24,0.46645021645021645,5,0.44751143395211185,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_participant_role,participant_role_type,47,0.6876623376623376,15,0.4716000807102502,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_participant_role,mail carrier,47,0.6876623376623376,13,0.5781544256120528,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_participant_role,servant,47,0.6876623376623376,8,0.5846112456281948,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",record,module:,30,0.48412698412698413,5,0.44751143395211185,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_sex,sex_type,38,0.6238095238095238,5,0.41774952919020714,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_sex,female,38,0.6238095238095238,7,0.5112994350282486,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",record,module:,30,0.48412698412698413,5,0.44751143395211185,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_occupation,occupation,64,0.8074074074074075,10,0.5391713747645951,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_occupation,mail carrier,64,0.8074074074074075,13,0.5781544256120528,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_occupation,servant,64,0.8074074074074075,8,0.5846112456281948,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",record,module:,30,0.48412698412698413,5,0.44751143395211185,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_age,age,38,0.6190476190476191,3,0.3926553672316384,0.0,0.13819929773426579
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_age,71,38,0.6190476190476191,1,0.0,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",the time of retirement in,1903),36,0.5054761904761905,1,0.0,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_deathdate,date_of_death,44,0.63003663003663,12,0.5148881250576166,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_deathdate,1914,44,0.63003663003663,0,0.0,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",record,module:,30,0.48412698412698413,5,0.44751143395211185,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_race_or_color,race_or_color,39,0.5896358543417367,12,0.5148881250576166,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_race_or_color,black,39,0.5896358543417367,5,0.6075329566854991,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",status record,module:,37,0.5366300366300366,5,0.44751143395211185,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_person_status,free,45,0.6675070028011204,4,0.5908662900188324,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",has_birthdate,date_of_birth,37,0.6318681318681318,12,0.5451911553606469,0.0,0.0
+hasdescription,"born enslaved. first african american woman to drive a coach for the postal service. became a business owner at age 70. a frontierswoman who drank, smoke, and got in a shootout.",birth date of mary fields is not mentioned in the,"text, so the relation has_birthdate(agent, date_of_birth) is skipped. also, the ethnolinguistic descriptor record module is skipped as there is no information about mary fields' ethnolinguistic descriptor in the text.",29,0.5617913832199547,40,0.6884943797190927,0.0,0.059145479667075014

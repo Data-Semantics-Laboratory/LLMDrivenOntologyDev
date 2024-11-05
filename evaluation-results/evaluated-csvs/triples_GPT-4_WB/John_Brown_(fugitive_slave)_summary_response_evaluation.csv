@@ -1,0 +1,370 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,john brown,32,0.537878787878788,38,0.48888888888888893,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,brown,27,0.49242424242424243,55,0.7000000000000001,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,john,40,0.5692640692640693,40,0.47222222222222215,0.0,0.0
+instance of,person,has_alternate_name,alternate_name,34,0.5107744107744108,30,0.5714285714285715,0.0,0.0
+instance of,person,has_alternate_name,fed,34,0.5107744107744108,22,0.5,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,relationship_type,30,0.5269480519480519,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,enslaver or owner,30,0.5269480519480519,35,0.642483660130719,0.0,0.0
+instance of,person,or,"owner"")",15,0.0,31,0.5396825396825397,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,thomas stevens,34,0.5798460798460798,20,0.3253968253968254,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,male,22,0.45598845598845594,20,0.47222222222222215,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,slave,24,0.38311688311688313,18,0.0,0.0,0.0
+instance of,person,has_occupation,carpenter,24,0.38311688311688313,40,0.6203703703703703,0.0,0.0
+instance of,person,has_occupation,author,24,0.38311688311688313,17,0.4444444444444444,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_age,66,33,0.45598845598845594,0,0.0,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_birthdate,around 1810,33,0.5463869463869464,35,0.5909090909090909,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,1876,33,0.39044289044289043,0,0.0,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,enslaved person,29,0.449554367201426,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,has_person_status,free man,29,0.449554367201426,29,0.5138888888888888,0.0,0.0
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,sold to a slave trader,26,0.4799102132435466,14,0.47474747474747475,0.0,0.0
+instance of,person,has_status_generating_event,escape,26,0.4799102132435466,33,0.5555555555555555,0.0,0.0
+instance of,person,to a slave,"trader""), has_status_generating_event(free man, ""escape"")",29,0.5181818181818182,13,0.49561403508771934,0.0,0.0
+instance of,person,recorded_at,event,18,0.4545454545454546,36,0.5777777777777778,0.0,0.0
+instance of,person,recorded_at,sold to a slave trader,18,0.4545454545454546,14,0.47474747474747475,0.0,0.0
+instance of,person,recorded_at,escape,18,0.4545454545454546,33,0.5555555555555555,0.0,0.0
+instance of,person,to a slave,"trader""), recorded_at(free man, ""escape"").",29,0.5181818181818182,17,0.41269841269841273,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_name,name,57,0.8055555555555556,50,0.6666666666666666,0.0,0.0
+hassex,male,has_name,john brown,57,0.8055555555555556,0,0.0,0.0,0.0
+hassex,male,has_surname,surname,59,0.6767676767676768,36,0.0,0.0,0.0
+hassex,male,has_surname,brown,59,0.6767676767676768,0,0.0,0.0,0.0
+hassex,male,has_first_name,first_name,50,0.6507936507936508,29,0.0,0.0,0.0
+hassex,male,has_first_name,john,50,0.6507936507936508,0,0.0,0.0,0.0
+hassex,male,has_alternate_name,alternate_name,33,0.6296296296296297,33,0.6547619047619048,0.0,0.0
+hassex,male,has_alternate_name,fed,33,0.6296296296296297,29,0.0,0.0,0.0
+hassex,male,relationship record,module:,24,0.44152046783625726,55,0.7535714285714287,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,relationship_type,24,0.5936507936507937,19,0.5310457516339869,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,enslaver or owner,24,0.5936507936507937,19,0.5310457516339869,0.0,0.0
+hassex,male,or,"owner"")",0,0.0,18,0.46428571428571425,0.0,0.0
+hassex,male,is_relationship_to,agent,17,0.46296296296296297,44,0.6333333333333333,0.0,0.0
+hassex,male,is_relationship_to,thomas stevens,17,0.46296296296296297,33,0.6547619047619048,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_sex,sex_type,92,0.9666666666666667,17,0.4583333333333333,0.0,0.0
+hassex,male,has_sex,male,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_occupation,occupation,30,0.5714285714285715,14,0.45,0.0,0.0
+hassex,male,has_occupation,slave,30,0.5714285714285715,44,0.6722222222222222,0.0,0.0
+hassex,male,has_occupation,carpenter,30,0.5714285714285715,31,0.5740740740740741,0.0,0.0
+hassex,male,has_occupation,author,30,0.5714285714285715,20,0.47222222222222215,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_age,age,62,0.8222222222222222,57,0.7222222222222222,0.0,0.0
+hassex,male,has_age,66,62,0.8222222222222222,0,0.0,0.0,0.0
+hassex,male,has_birthdate,date_of_birth,42,0.576923076923077,24,0.5512820512820512,0.0,0.0
+hassex,male,has_birthdate,around 1810,42,0.576923076923077,13,0.44696969696969696,0.0,0.0
+hassex,male,has_deathdate,date_of_death,42,0.6581196581196581,24,0.5512820512820512,0.0,0.0
+hassex,male,has_deathdate,1876,42,0.6581196581196581,0,0.0,0.0,0.0
+hassex,male,status record,module:,32,0.5747863247863249,55,0.7535714285714287,0.0,0.0
+hassex,male,has_person_status,enslaved person,35,0.642483660130719,21,0.5388888888888889,0.0,0.0
+hassex,male,has_person_status,free man,35,0.642483660130719,33,0.4583333333333333,0.0,0.0
+hassex,male,has_status_generating_event,event,30,0.6728395061728395,22,0.48333333333333334,0.0,0.0
+hassex,male,has_status_generating_event,sold to a slave trader,30,0.6728395061728395,23,0.3636363636363636,0.0,0.0
+hassex,male,has_status_generating_event,escape,30,0.6728395061728395,40,0.611111111111111,0.0,0.0
+hassex,male,to a slave,"trader""), has_status_generating_event(free man, ""escape"")",38,0.5111111111111111,10,0.5116959064327485,0.0,0.0
+hassex,male,recorded_at,event,12,0.41919191919191917,22,0.48333333333333334,0.0,0.0
+hassex,male,recorded_at,sold to a slave trader,12,0.41919191919191917,23,0.3636363636363636,0.0,0.0
+hassex,male,recorded_at,escape,12,0.41919191919191917,40,0.611111111111111,0.0,0.0
+hassex,male,to a slave,"trader""), recorded_at(free man, ""escape"").",38,0.5111111111111111,13,0.5158730158730159,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,john brown,38,0.5675925925925926,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,brown,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,john,44,0.6772486772486772,22,0.48333333333333334,0.0,0.0
+hasparticipantrole,child,has_alternate_name,alternate_name,44,0.6370370370370371,11,0.4238095238095238,0.0,0.0
+hasparticipantrole,child,has_alternate_name,fed,44,0.6370370370370371,25,0.0,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,enslaver or owner,42,0.6570105820105819,9,0.4196078431372549,0.0,0.0
+hasparticipantrole,child,or,"owner"")",10,0.5185185185185185,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,thomas stevens,44,0.6037037037037037,11,0.4238095238095238,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,male,32,0.5317460317460317,22,0.48333333333333334,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,slave,50,0.6566137566137565,20,0.0,0.0,0.0
+hasparticipantrole,child,has_occupation,carpenter,50,0.6566137566137565,14,0.43703703703703706,0.0,0.0
+hasparticipantrole,child,has_occupation,author,50,0.6566137566137565,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_age,age,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_age,66,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_birthdate,date_of_birth,52,0.6937321937321936,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_birthdate,around 1810,52,0.6937321937321936,12,0.43030303030303035,0.0,0.0
+hasparticipantrole,child,has_deathdate,date_of_death,52,0.6866096866096866,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_deathdate,1876,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,enslaved person,46,0.6479302832244008,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,child,has_person_status,free man,46,0.6479302832244008,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,sold to a slave trader,40,0.5819304152637487,15,0.496969696969697,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,escape,40,0.5819304152637487,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,to a slave,"trader""), has_status_generating_event(free man, ""escape"")",29,0.45925925925925926,6,0.4397660818713451,0.0,0.0
+hasparticipantrole,child,recorded_at,event,28,0.36195286195286197,0,0.0,0.0,0.0
+hasparticipantrole,child,recorded_at,sold to a slave trader,28,0.36195286195286197,15,0.496969696969697,0.0,0.0
+hasparticipantrole,child,recorded_at,escape,28,0.36195286195286197,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,to a slave,"trader""), recorded_at(free man, ""escape"").",29,0.45925925925925926,9,0.31587301587301586,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,john brown,38,0.5675925925925926,32,0.5555555555555556,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,brown,41,0.6274651274651274,30,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,john,44,0.6772486772486772,21,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_alternate_name,alternate_name,44,0.6370370370370371,28,0.43015873015873013,0.0,0.0
+hasparticipantrole,deceased person,has_alternate_name,fed,44,0.6370370370370371,22,0.4333333333333333,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,enslaver or owner,42,0.6570105820105819,44,0.5986928104575163,0.0,0.0
+hasparticipantrole,deceased person,or,"owner"")",10,0.5185185185185185,18,0.40317460317460313,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,thomas stevens,44,0.6037037037037037,34,0.5126984126984127,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,male,32,0.5317460317460317,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,slave,50,0.6566137566137565,20,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,carpenter,50,0.6566137566137565,42,0.5777777777777778,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,author,50,0.6566137566137565,19,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_age,age,40,0.5978835978835978,22,0.4333333333333333,0.0,0.0
+hasparticipantrole,deceased person,has_age,66,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,date_of_birth,52,0.6937321937321936,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,around 1810,52,0.6937321937321936,31,0.3797979797979798,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,date_of_death,52,0.6866096866096866,36,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,1876,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,enslaved person,46,0.6479302832244008,73,0.7833333333333333,0.0,0.33609692727625756
+hasparticipantrole,deceased person,has_person_status,free man,46,0.6479302832244008,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,sold to a slave trader,40,0.5819304152637487,38,0.5215488215488215,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,escape,40,0.5819304152637487,48,0.6888888888888888,0.0,0.0
+hasparticipantrole,deceased person,to a slave,"trader""), has_status_generating_event(free man, ""escape"")",29,0.45925925925925926,22,0.4905901116427432,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,event,28,0.36195286195286197,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,sold to a slave trader,28,0.36195286195286197,38,0.5215488215488215,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,escape,28,0.36195286195286197,48,0.6888888888888888,0.0,0.0
+hasparticipantrole,deceased person,to a slave,"trader""), recorded_at(free man, ""escape"").",29,0.45925925925925926,32,0.5841269841269842,0.0,0.0
+hasdescriptiveoccupation,abolitionist,record,module:,27,0.6138888888888889,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_name,name,25,0.5555555555555555,12,0.4444444444444444,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_name,john brown,25,0.5555555555555555,27,0.41111111111111115,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_surname,surname,34,0.5474386724386724,11,0.31746031746031744,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_surname,brown,34,0.5474386724386724,35,0.6166666666666667,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_first_name,first_name,32,0.5615079365079364,27,0.5166666666666667,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_first_name,john,32,0.5615079365079364,25,0.5555555555555555,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_alternate_name,alternate_name,38,0.5574074074074075,38,0.5912698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_alternate_name,fed,38,0.5574074074074075,0,0.0,0.0,0.0
+hasdescriptiveoccupation,abolitionist,relationship record,module:,33,0.6137539361223572,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,48,0.6486928104575163,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_interagent_relationship_type_to,enslaver or owner,41,0.6037698412698412,28,0.4369281045751634,0.0,0.0
+hasdescriptiveoccupation,abolitionist,or,"owner"")",8,0.5138888888888888,21,0.4087301587301588,0.0,0.0
+hasdescriptiveoccupation,abolitionist,is_relationship_to,agent,38,0.6264245014245015,35,0.5055555555555555,0.0,0.0
+hasdescriptiveoccupation,abolitionist,is_relationship_to,thomas stevens,38,0.6264245014245015,31,0.5317460317460317,0.0,0.0
+hasdescriptiveoccupation,abolitionist,record,module:,27,0.6138888888888889,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_sex,sex_type,32,0.5742063492063493,20,0.40277777777777773,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_sex,male,32,0.5742063492063493,25,0.5555555555555555,0.0,0.0
+hasdescriptiveoccupation,abolitionist,record,module:,27,0.6138888888888889,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_occupation,occupation,68,0.8045940170940171,45,0.5888888888888889,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_occupation,slave,68,0.8045940170940171,12,0.35555555555555557,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_occupation,carpenter,68,0.8045940170940171,29,0.4166666666666667,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_occupation,author,68,0.8045940170940171,33,0.47222222222222215,0.0,0.0
+hasdescriptiveoccupation,abolitionist,record,module:,27,0.6138888888888889,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_age,age,26,0.5793650793650794,13,0.47222222222222215,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_age,66,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_birthdate,date_of_birth,38,0.6286324786324786,40,0.5337606837606838,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_birthdate,around 1810,38,0.6286324786324786,26,0.5075757575757576,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_deathdate,date_of_death,43,0.652065527065527,32,0.46367521367521364,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_deathdate,1876,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,abolitionist,status record,module:,32,0.540954415954416,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_person_status,enslaved person,39,0.6241830065359477,22,0.45,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_person_status,free man,39,0.6241830065359477,20,0.40277777777777773,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_status_generating_event,event,39,0.5815696649029983,24,0.35555555555555557,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_status_generating_event,sold to a slave trader,39,0.5815696649029983,35,0.5862193362193362,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_status_generating_event,escape,39,0.5815696649029983,11,0.4166666666666667,0.0,0.0
+hasdescriptiveoccupation,abolitionist,to a slave,"trader""), has_status_generating_event(free man, ""escape"")",24,0.4361111111111111,14,0.3684210526315789,0.0,0.0
+hasdescriptiveoccupation,abolitionist,recorded_at,event,34,0.5202020202020202,24,0.35555555555555557,0.0,0.0
+hasdescriptiveoccupation,abolitionist,recorded_at,sold to a slave trader,34,0.5202020202020202,35,0.5862193362193362,0.0,0.0
+hasdescriptiveoccupation,abolitionist,recorded_at,escape,34,0.5202020202020202,11,0.4166666666666667,0.0,0.0
+hasdescriptiveoccupation,abolitionist,to a slave,"trader""), recorded_at(free man, ""escape"").",24,0.4361111111111111,19,0.39285714285714285,0.0,0.0
+hasfirstname,john,record,module:,22,0.4166666666666667,18,0.46428571428571425,0.0,0.0
+hasfirstname,john,has_name,name,70,0.8736111111111112,25,0.0,0.0,0.0
+hasfirstname,john,has_name,john brown,70,0.8736111111111112,57,0.88,0.0,0.5797386715376658
+hasfirstname,john,has_surname,surname,70,0.8733164983164984,18,0.46428571428571425,0.0,0.0
+hasfirstname,john,has_surname,brown,70,0.8733164983164984,44,0.6333333333333333,0.0,0.0
+hasfirstname,john,has_first_name,first_name,92,0.9666666666666667,14,0.45,0.0,0.0
+hasfirstname,john,has_first_name,john,92,0.9666666666666667,100,1.0,0.0,1.0
+hasfirstname,john,has_alternate_name,alternate_name,60,0.6759259259259259,11,0.44047619047619047,0.0,0.0
+hasfirstname,john,has_alternate_name,fed,60,0.6759259259259259,0,0.0,0.0,0.0
+hasfirstname,john,relationship record,module:,32,0.5077276524644946,18,0.46428571428571425,0.0,0.0
+hasfirstname,john,has_interagent_relationship_type_to,relationship_type,34,0.5949735449735449,19,0.5310457516339869,0.0,0.0
+hasfirstname,john,has_interagent_relationship_type_to,enslaver or owner,34,0.5949735449735449,19,0.4362745098039216,0.0,0.0
+hasfirstname,john,or,"owner"")",14,0.5277777777777778,36,0.5952380952380952,0.0,0.0
+hasfirstname,john,is_relationship_to,agent,27,0.6203703703703703,22,0.48333333333333334,0.0,0.0
+hasfirstname,john,is_relationship_to,thomas stevens,27,0.6203703703703703,22,0.38095238095238093,0.0,0.0
+hasfirstname,john,record,module:,22,0.4166666666666667,18,0.46428571428571425,0.0,0.0
+hasfirstname,john,has_sex,sex_type,53,0.6349206349206349,0,0.0,0.0,0.0
+hasfirstname,john,has_sex,male,53,0.6349206349206349,0,0.0,0.0,0.0
+hasfirstname,john,record,module:,22,0.4166666666666667,18,0.46428571428571425,0.0,0.0
+hasfirstname,john,has_occupation,occupation,38,0.5873015873015873,29,0.45,0.0,0.0
+hasfirstname,john,has_occupation,slave,38,0.5873015873015873,0,0.0,0.0,0.0
+hasfirstname,john,has_occupation,carpenter,38,0.5873015873015873,15,0.4537037037037037,0.0,0.0
+hasfirstname,john,has_occupation,author,38,0.5873015873015873,20,0.47222222222222215,0.0,0.0
+hasfirstname,john,record,module:,22,0.4166666666666667,18,0.46428571428571425,0.0,0.0
+hasfirstname,john,has_age,age,53,0.7972222222222223,0,0.0,0.0,0.0
+hasfirstname,john,has_age,66,53,0.7972222222222223,0,0.0,0.0,0.0
+hasfirstname,john,has_birthdate,date_of_birth,64,0.8324786324786324,24,0.4423076923076923,0.0,0.0
+hasfirstname,john,has_birthdate,around 1810,64,0.8324786324786324,27,0.5606060606060607,0.0,0.0
+hasfirstname,john,has_deathdate,date_of_death,48,0.5982905982905983,24,0.4423076923076923,0.0,0.0
+hasfirstname,john,has_deathdate,1876,48,0.5982905982905983,0,0.0,0.0,0.0
+hasfirstname,john,status record,module:,32,0.5427350427350427,18,0.46428571428571425,0.0,0.0
+hasfirstname,john,has_person_status,enslaved person,48,0.6857298474945533,21,0.4388888888888889,0.0,0.0
+hasfirstname,john,has_person_status,free man,48,0.6857298474945533,17,0.0,0.0,0.0
+hasfirstname,john,has_status_generating_event,event,41,0.5833333333333334,22,0.48333333333333334,0.0,0.0
+hasfirstname,john,has_status_generating_event,sold to a slave trader,41,0.5833333333333334,8,0.4318181818181818,0.0,0.0
+hasfirstname,john,has_status_generating_event,escape,41,0.5833333333333334,0,0.0,0.0,0.0
+hasfirstname,john,to a slave,"trader""), has_status_generating_event(free man, ""escape"")",36,0.5777777777777778,7,0.5116959064327485,0.0,0.0
+hasfirstname,john,recorded_at,event,17,0.4823232323232323,22,0.48333333333333334,0.0,0.0
+hasfirstname,john,recorded_at,sold to a slave trader,17,0.4823232323232323,8,0.4318181818181818,0.0,0.0
+hasfirstname,john,recorded_at,escape,17,0.4823232323232323,0,0.0,0.0,0.0
+hasfirstname,john,to a slave,"trader""), recorded_at(free man, ""escape"").",36,0.5777777777777778,9,0.4246031746031746,0.0,0.0
+hassurname,brown,record,module:,25,0.4222222222222222,17,0.44761904761904764,0.0,0.0
+hassurname,brown,has_name,name,78,0.9008333333333334,22,0.0,0.0,0.0
+hassurname,brown,has_name,john brown,78,0.9008333333333334,67,0.5333333333333333,0.0,0.5797386715376658
+hassurname,brown,has_surname,surname,95,0.9787878787878788,33,0.5619047619047619,0.0,0.0
+hassurname,brown,has_surname,brown,95,0.9787878787878788,100,1.0,0.0,1.0
+hassurname,brown,has_first_name,first_name,67,0.8674074074074074,27,0.5333333333333333,0.0,0.0
+hassurname,brown,has_first_name,john,67,0.8674074074074074,44,0.6333333333333333,0.0,0.0
+hassurname,brown,has_alternate_name,alternate_name,57,0.6648148148148149,21,0.5142857142857143,0.0,0.0
+hassurname,brown,has_alternate_name,fed,57,0.6648148148148149,0,0.0,0.0,0.0
+hassurname,brown,relationship record,module:,28,0.4543859649122807,17,0.44761904761904764,0.0,0.0
+hassurname,brown,has_interagent_relationship_type_to,relationship_type,31,0.5380952380952381,27,0.592156862745098,0.0,0.0
+hassurname,brown,has_interagent_relationship_type_to,enslaver or owner,31,0.5380952380952381,36,0.48104575163398694,0.0,0.0
+hassurname,brown,or,"owner"")",17,0.5333333333333333,50,0.6761904761904761,0.0,0.0
+hassurname,brown,is_relationship_to,agent,21,0.5333333333333333,20,0.4666666666666666,0.0,0.0
+hassurname,brown,is_relationship_to,thomas stevens,21,0.5333333333333333,21,0.4238095238095238,0.0,0.0
+hassurname,brown,record,module:,25,0.4222222222222222,17,0.44761904761904764,0.0,0.0
+hassurname,brown,has_sex,sex_type,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,brown,has_sex,male,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,brown,record,module:,25,0.4222222222222222,17,0.44761904761904764,0.0,0.0
+hassurname,brown,has_occupation,occupation,42,0.6190476190476191,27,0.43333333333333335,0.0,0.0
+hassurname,brown,has_occupation,slave,42,0.6190476190476191,0,0.0,0.0,0.0
+hassurname,brown,has_occupation,carpenter,42,0.6190476190476191,29,0.5407407407407407,0.0,0.0
+hassurname,brown,has_occupation,author,42,0.6190476190476191,18,0.45555555555555555,0.0,0.0
+hassurname,brown,record,module:,25,0.4222222222222222,17,0.44761904761904764,0.0,0.0
+hassurname,brown,has_age,age,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,brown,has_age,66,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,brown,has_birthdate,date_of_birth,52,0.6871794871794871,22,0.4256410256410256,0.0,0.0
+hassurname,brown,has_birthdate,around 1810,52,0.6871794871794871,38,0.6242424242424242,0.0,0.0
+hassurname,brown,has_deathdate,date_of_death,43,0.5615384615384615,11,0.4256410256410256,0.0,0.0
+hassurname,brown,has_deathdate,1876,43,0.5615384615384615,0,0.0,0.0,0.0
+hassurname,brown,status record,module:,35,0.5760683760683761,17,0.44761904761904764,0.0,0.0
+hassurname,brown,has_person_status,enslaved person,44,0.6735294117647058,30,0.4222222222222222,0.0,0.0
+hassurname,brown,has_person_status,free man,44,0.6735294117647058,31,0.5499999999999999,0.0,0.0
+hassurname,brown,has_status_generating_event,event,43,0.6703703703703704,20,0.4666666666666666,0.0,0.0
+hassurname,brown,has_status_generating_event,sold to a slave trader,43,0.6703703703703704,7,0.4151515151515152,0.0,0.0
+hassurname,brown,has_status_generating_event,escape,43,0.6703703703703704,0,0.0,0.0,0.0
+hassurname,brown,to a slave,"trader""), has_status_generating_event(free man, ""escape"")",40,0.6,6,0.4783625730994152,0.0,0.0
+hassurname,brown,recorded_at,event,19,0.41313131313131307,20,0.4666666666666666,0.0,0.0
+hassurname,brown,recorded_at,sold to a slave trader,19,0.41313131313131307,7,0.4151515151515152,0.0,0.0
+hassurname,brown,recorded_at,escape,19,0.41313131313131307,0,0.0,0.0,0.0
+hassurname,brown,to a slave,"trader""), recorded_at(free man, ""escape"").",40,0.6,13,0.48253968253968255,0.0,0.0
+hasname,john brown,record,module:,15,0.0,12,0.4142857142857143,0.0,0.0
+hasname,john brown,has_name,name,93,0.9708333333333333,14,0.45,0.0,0.0
+hasname,john brown,has_name,john brown,93,0.9708333333333333,100,1.0,0.0,1.0000000000000002
+hasname,john brown,has_surname,surname,78,0.9151515151515152,24,0.32857142857142857,0.0,0.0
+hasname,john brown,has_surname,brown,78,0.9151515151515152,67,0.5333333333333333,0.0,0.5797386715376658
+hasname,john brown,has_first_name,first_name,67,0.5476190476190476,20,0.3,0.0,0.0
+hasname,john brown,has_first_name,john,67,0.5476190476190476,57,0.88,0.0,0.5797386715376658
+hasname,john brown,has_alternate_name,alternate_name,56,0.6746031746031745,17,0.3936507936507936,0.0,0.0
+hasname,john brown,has_alternate_name,fed,56,0.6746031746031745,0,0.0,0.0,0.0
+hasname,john brown,relationship record,module:,23,0.5106516290726817,12,0.4142857142857143,0.0,0.0
+hasname,john brown,has_interagent_relationship_type_to,relationship_type,29,0.6206349206349207,22,0.4617647058823529,0.0,0.0
+hasname,john brown,has_interagent_relationship_type_to,enslaver or owner,29,0.6206349206349207,44,0.5954248366013072,0.0,0.0
+hasname,john brown,or,"owner"")",0,0.0,35,0.5761904761904763,0.0,0.0
+hasname,john brown,is_relationship_to,agent,16,0.43121693121693117,13,0.43333333333333335,0.0,0.0
+hasname,john brown,is_relationship_to,thomas stevens,16,0.43121693121693117,25,0.4785714285714286,0.0,0.0
+hasname,john brown,record,module:,15,0.0,12,0.4142857142857143,0.0,0.0
+hasname,john brown,has_sex,sex_type,57,0.8,0,0.0,0.0,0.0
+hasname,john brown,has_sex,male,57,0.8,0,0.0,0.0,0.0
+hasname,john brown,record,module:,15,0.0,12,0.4142857142857143,0.0,0.0
+hasname,john brown,has_occupation,occupation,38,0.6190476190476191,30,0.5333333333333333,0.0,0.0
+hasname,john brown,has_occupation,slave,38,0.6190476190476191,0,0.0,0.0,0.0
+hasname,john brown,has_occupation,carpenter,38,0.6190476190476191,21,0.3074074074074074,0.0,0.0
+hasname,john brown,has_occupation,author,38,0.6190476190476191,25,0.48888888888888893,0.0,0.0
+hasname,john brown,record,module:,15,0.0,12,0.4142857142857143,0.0,0.0
+hasname,john brown,has_age,age,71,0.8666666666666668,0,0.0,0.0,0.0
+hasname,john brown,has_age,66,71,0.8666666666666668,0,0.0,0.0,0.0
+hasname,john brown,has_birthdate,date_of_birth,50,0.553113553113553,26,0.5102564102564102,0.0,0.0
+hasname,john brown,has_birthdate,around 1810,50,0.553113553113553,29,0.5242424242424243,0.0,0.0
+hasname,john brown,has_deathdate,date_of_death,50,0.632967032967033,17,0.3923076923076923,0.0,0.0
+hasname,john brown,has_deathdate,1876,50,0.632967032967033,0,0.0,0.0,0.0
+hasname,john brown,status record,module:,30,0.442002442002442,12,0.4142857142857143,0.0,0.0
+hasname,john brown,has_person_status,enslaved person,42,0.6028011204481792,40,0.611111111111111,0.0,0.0
+hasname,john brown,has_person_status,free man,42,0.6028011204481792,22,0.31666666666666665,0.0,0.0
+hasname,john brown,has_status_generating_event,event,35,0.6375661375661376,13,0.43333333333333335,0.0,0.0
+hasname,john brown,has_status_generating_event,sold to a slave trader,35,0.6375661375661376,19,0.47878787878787876,0.0,0.0
+hasname,john brown,has_status_generating_event,escape,35,0.6375661375661376,0,0.0,0.0,0.0
+hasname,john brown,to a slave,"trader""), has_status_generating_event(free man, ""escape"")",47,0.6571428571428571,12,0.395906432748538,0.0,0.0
+hasname,john brown,recorded_at,event,11,0.41125541125541126,13,0.43333333333333335,0.0,0.0
+hasname,john brown,recorded_at,sold to a slave trader,11,0.41125541125541126,19,0.47878787878787876,0.0,0.0
+hasname,john brown,recorded_at,escape,11,0.41125541125541126,0,0.0,0.0,0.0
+hasname,john brown,to a slave,"trader""), recorded_at(free man, ""escape"").",47,0.6571428571428571,15,0.4150793650793651,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,record,module:,30,0.48412698412698413,11,0.4626050420168067,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_name,name,36,0.5952380952380952,11,0.6029411764705882,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_name,john brown,36,0.5952380952380952,15,0.5142156862745099,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_surname,surname,48,0.6168831168831169,13,0.48179271708683474,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_surname,brown,48,0.6168831168831169,11,0.5362745098039216,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_first_name,first_name,43,0.6726190476190476,15,0.4725490196078432,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_first_name,john,43,0.6726190476190476,8,0.4869281045751634,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_alternate_name,alternate_name,44,0.582010582010582,24,0.5389822595704948,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_alternate_name,fed,44,0.582010582010582,8,0.5702614379084968,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,relationship record,module:,30,0.6135338345864662,11,0.4626050420168067,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_interagent_relationship_type_to,relationship_type,37,0.5666666666666667,21,0.4514260249554367,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_interagent_relationship_type_to,enslaver or owner,37,0.5666666666666667,35,0.5796568627450981,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,or,"owner"")",12,0.5238095238095238,11,0.46008403361344535,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,is_relationship_to,agent,44,0.6474266474266474,11,0.5362745098039216,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,is_relationship_to,thomas stevens,44,0.6474266474266474,22,0.511204481792717,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,record,module:,30,0.48412698412698413,11,0.4626050420168067,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_sex,sex_type,38,0.6238095238095238,11,0.35294117647058826,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_sex,male,38,0.6238095238095238,11,0.5196078431372549,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,record,module:,30,0.48412698412698413,11,0.4626050420168067,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_occupation,occupation,64,0.8074074074074075,13,0.45784313725490194,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_occupation,slave,64,0.8074074074074075,14,0.5578431372549019,0.0,0.24395572500006343
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_occupation,carpenter,64,0.8074074074074075,18,0.4840491752256458,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_occupation,author,64,0.8074074074074075,11,0.5022875816993464,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,record,module:,30,0.48412698412698413,11,0.4626050420168067,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_age,age,38,0.6190476190476191,6,0.3986928104575163,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_age,66,38,0.6190476190476191,0,0.0,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_birthdate,date_of_birth,37,0.6318681318681318,17,0.5054298642533936,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_birthdate,around 1810,37,0.6318681318681318,15,0.4845301757066463,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_deathdate,date_of_death,44,0.63003663003663,20,0.5480940627999451,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_deathdate,1876,44,0.63003663003663,3,0.4215686274509804,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,status record,module:,37,0.5366300366300366,11,0.4626050420168067,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_person_status,enslaved person,45,0.6675070028011204,31,0.5321015585721468,0.0,0.1414305679255449
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_person_status,free man,45,0.6675070028011204,21,0.5808823529411765,0.0,0.1414305679255449
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_status_generating_event,event,39,0.5476190476190476,14,0.5578431372549019,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_status_generating_event,sold to a slave trader,39,0.5476190476190476,38,0.5844028520499108,0.0,0.09269789668627058
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,has_status_generating_event,escape,39,0.5476190476190476,14,0.5751633986928105,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,to a slave,"trader""), has_status_generating_event(free man, ""escape"")",25,0.5047619047619047,32,0.6216632266941865,0.0,0.08176804146599938
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,recorded_at,event,32,0.47056277056277057,14,0.5578431372549019,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,recorded_at,sold to a slave trader,32,0.47056277056277057,38,0.5844028520499108,0.0,0.09269789668627058
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,recorded_at,escape,32,0.47056277056277057,14,0.5751633986928105,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. dictated slave narrative.,to a slave,"trader""), recorded_at(free man, ""escape"").",25,0.5047619047619047,36,0.5562236388808397,0.0,0.08176804146599938

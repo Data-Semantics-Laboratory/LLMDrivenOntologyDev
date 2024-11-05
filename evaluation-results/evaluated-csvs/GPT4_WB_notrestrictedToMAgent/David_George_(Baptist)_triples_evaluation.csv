@@ -1,0 +1,474 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,david george,32,0.537878787878788,22,0.4166666666666667,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,george,27,0.49242424242424243,33,0.5555555555555555,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,david,40,0.5692640692640693,0,0.0,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type,relationship_type,33,0.5340909090909091,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type,spouse,33,0.5340909090909091,33,0.5555555555555555,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,phyllis,34,0.5798460798460798,31,0.4365079365079365,0.0,0.0
+instance of,person,role record,module:,27,0.49242424242424243,15,0.0,0.0,0.0
+instance of,person,has_participant_role,participant_role_type,32,0.5668831168831169,22,0.5357142857142857,0.0,0.0
+instance of,person,has_participant_role,preacher,32,0.5668831168831169,43,0.5138888888888888,0.0,0.0
+instance of,person,role_provided_by,event,15,0.4356060606060606,36,0.5777777777777778,0.0,0.0
+instance of,person,role_provided_by,establishment of baptist congregations,15,0.4356060606060606,18,0.5073099415204678,0.0,0.0
+instance of,person,of baptist,congregations'),29,0.29393939393939394,29,0.4777777777777778,0.33609692727625756,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,male,22,0.45598845598845594,20,0.47222222222222215,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,baptist preacher,24,0.38311688311688313,27,0.45138888888888884,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_birthdate,1742,33,0.5463869463869464,0,0.0,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,1810,33,0.39044289044289043,0,0.0,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,african-american,36,0.5162210338680927,27,0.4861111111111111,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,enslaved person,29,0.449554367201426,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,has_person_status,freedman,29,0.449554367201426,29,0.5138888888888888,0.0,0.0
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,born into slavery,26,0.4799102132435466,17,0.46732026143790845,0.0,0.0
+instance of,person,has_status_generating_event,escaped to british lines,26,0.4799102132435466,33,0.5472222222222222,0.0,0.0
+instance of,person,into,"slavery'), has_status_generating_event(freedman, 'escaped to british lines')",53,0.6742424242424242,12,0.489766081871345,0.0,0.0
+instance of,person,recorded_at,event,18,0.4545454545454546,36,0.5777777777777778,0.0,0.0
+instance of,person,recorded_at,born into slavery,18,0.4545454545454546,17,0.46732026143790845,0.0,0.0
+instance of,person,recorded_at,escaped to british lines,18,0.4545454545454546,33,0.5472222222222222,0.0,0.0
+instance of,person,into,"slavery'), recorded_at(freedman, 'escaped to british lines')",53,0.6742424242424242,15,0.5722222222222223,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_name,name,57,0.8055555555555556,50,0.6666666666666666,0.0,0.0
+hassex,male,has_name,david george,57,0.8055555555555556,25,0.5555555555555555,0.0,0.0
+hassex,male,has_surname,surname,59,0.6767676767676768,36,0.0,0.0,0.0
+hassex,male,has_surname,george,59,0.6767676767676768,20,0.47222222222222215,0.0,0.0
+hassex,male,has_first_name,first_name,50,0.6507936507936508,29,0.0,0.0,0.0
+hassex,male,has_first_name,david,50,0.6507936507936508,22,0.48333333333333334,0.0,0.0
+hassex,male,relationship record,module:,24,0.44152046783625726,55,0.7535714285714287,0.0,0.0
+hassex,male,has_interagent_relationship_type,relationship_type,26,0.5972222222222222,19,0.5310457516339869,0.0,0.0
+hassex,male,has_interagent_relationship_type,spouse,26,0.5972222222222222,20,0.47222222222222215,0.0,0.0
+hassex,male,is_relationship_to,agent,17,0.46296296296296297,44,0.6333333333333333,0.0,0.0
+hassex,male,is_relationship_to,phyllis,17,0.46296296296296297,18,0.46428571428571425,0.0,0.0
+hassex,male,role record,module:,12,0.41919191919191917,55,0.7535714285714287,0.0,0.0
+hassex,male,has_participant_role,participant_role_type,31,0.5499999999999999,24,0.43253968253968256,0.0,0.0
+hassex,male,has_participant_role,preacher,31,0.5499999999999999,33,0.4166666666666667,0.0,0.0
+hassex,male,role_provided_by,event,9,0.40972222222222227,22,0.48333333333333334,0.0,0.0
+hassex,male,role_provided_by,establishment of baptist congregations,9,0.40972222222222227,14,0.6184210526315789,0.0,0.0
+hassex,male,of baptist,congregations'),25,0.4222222222222222,11,0.37777777777777777,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_sex,sex_type,92,0.9666666666666667,17,0.4583333333333333,0.0,0.0
+hassex,male,has_sex,male,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_occupation,occupation,30,0.5714285714285715,14,0.45,0.0,0.0
+hassex,male,has_occupation,baptist preacher,30,0.5714285714285715,20,0.5416666666666666,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_birthdate,date_of_birth,42,0.576923076923077,24,0.5512820512820512,0.0,0.0
+hassex,male,has_birthdate,1742,42,0.576923076923077,0,0.0,0.0,0.0
+hassex,male,has_deathdate,date_of_death,42,0.6581196581196581,24,0.5512820512820512,0.0,0.0
+hassex,male,has_deathdate,1810,42,0.6581196581196581,0,0.0,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_race_or_color,race_or_color,35,0.6339869281045751,24,0.5512820512820512,0.0,0.0
+hassex,male,has_race_or_color,african-american,35,0.6339869281045751,20,0.5416666666666666,0.0,0.0
+hassex,male,status record,module:,32,0.5747863247863249,55,0.7535714285714287,0.0,0.0
+hassex,male,has_person_status,enslaved person,35,0.642483660130719,21,0.5388888888888889,0.0,0.0
+hassex,male,has_person_status,freedman,35,0.642483660130719,33,0.4583333333333333,0.0,0.0
+hassex,male,has_status_generating_event,event,30,0.6728395061728395,22,0.48333333333333334,0.0,0.0
+hassex,male,has_status_generating_event,born into slavery,30,0.6728395061728395,19,0.0,0.0,0.0
+hassex,male,has_status_generating_event,escaped to british lines,30,0.6728395061728395,21,0.36111111111111116,0.0,0.0
+hassex,male,into,"slavery'), has_status_generating_event(freedman, 'escaped to british lines')",0,0.0,10,0.48538011695906436,0.0,0.0
+hassex,male,recorded_at,event,12,0.41919191919191917,22,0.48333333333333334,0.0,0.0
+hassex,male,recorded_at,born into slavery,12,0.41919191919191917,19,0.0,0.0,0.0
+hassex,male,recorded_at,escaped to british lines,12,0.41919191919191917,21,0.36111111111111116,0.0,0.0
+hassex,male,into,"slavery'), recorded_at(freedman, 'escaped to british lines')",0,0.0,12,0.6055555555555555,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,david george,38,0.5675925925925926,24,0.35555555555555557,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,george,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,david,44,0.6772486772486772,40,0.6,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type,relationship_type,44,0.65625,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type,spouse,44,0.65625,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,phyllis,44,0.6037037037037037,33,0.5619047619047619,0.0,0.0
+hasparticipantrole,child,role record,module:,28,0.4452861952861953,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant_role_type,95,0.9766666666666667,23,0.33174603174603173,0.0,0.0
+hasparticipantrole,child,has_participant_role,preacher,95,0.9766666666666667,31,0.0,0.0,0.0
+hasparticipantrole,child,role_provided_by,event,29,0.4583333333333333,0,0.0,0.0,0.0
+hasparticipantrole,child,role_provided_by,establishment of baptist congregations,29,0.4583333333333333,9,0.4485380116959064,0.0,0.0
+hasparticipantrole,child,of baptist,congregations'),36,0.5333333333333333,20,0.4222222222222222,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,male,32,0.5317460317460317,22,0.48333333333333334,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,baptist preacher,50,0.6566137566137565,19,0.42083333333333334,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_birthdate,date_of_birth,52,0.6937321937321936,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_birthdate,1742,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,child,has_deathdate,date_of_death,52,0.6866096866096866,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_deathdate,1810,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_race_or_color,race_or_color,46,0.60239651416122,22,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_race_or_color,african-american,46,0.60239651416122,19,0.3416666666666666,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,enslaved person,46,0.6479302832244008,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,child,has_person_status,freedman,46,0.6479302832244008,15,0.44166666666666665,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,born into slavery,40,0.5819304152637487,18,0.4196078431372549,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,escaped to british lines,40,0.5819304152637487,21,0.46388888888888885,0.0,0.0
+hasparticipantrole,child,into,"slavery'), has_status_generating_event(freedman, 'escaped to british lines')",36,0.3703703703703704,7,0.4353801169590643,0.0,0.0
+hasparticipantrole,child,recorded_at,event,28,0.36195286195286197,0,0.0,0.0,0.0
+hasparticipantrole,child,recorded_at,born into slavery,28,0.36195286195286197,18,0.4196078431372549,0.0,0.0
+hasparticipantrole,child,recorded_at,escaped to british lines,28,0.36195286195286197,21,0.46388888888888885,0.0,0.0
+hasparticipantrole,child,into,"slavery'), recorded_at(freedman, 'escaped to british lines')",36,0.3703703703703704,9,0.4388888888888889,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,david george,38,0.5675925925925926,44,0.6083333333333333,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,george,41,0.6274651274651274,19,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,david,44,0.6772486772486772,30,0.6,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type,relationship_type,44,0.65625,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type,spouse,44,0.65625,29,0.32222222222222224,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,phyllis,44,0.6037037037037037,18,0.40317460317460313,0.0,0.0
+hasparticipantrole,deceased person,role record,module:,28,0.4452861952861953,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant_role_type,95,0.9766666666666667,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,preacher,95,0.9766666666666667,35,0.5861111111111111,0.0,0.0
+hasparticipantrole,deceased person,role_provided_by,event,29,0.4583333333333333,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,role_provided_by,establishment of baptist congregations,29,0.4583333333333333,34,0.5432748538011696,0.0,0.0
+hasparticipantrole,deceased person,of baptist,congregations'),36,0.5333333333333333,33,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,male,32,0.5317460317460317,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,baptist preacher,50,0.6566137566137565,39,0.539484126984127,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,date_of_birth,52,0.6937321937321936,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,1742,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,date_of_death,52,0.6866096866096866,36,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,1810,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,race_or_color,46,0.60239651416122,29,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,african-american,46,0.60239651416122,32,0.48194444444444445,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,enslaved person,46,0.6479302832244008,73,0.7833333333333333,0.0,0.33609692727625756
+hasparticipantrole,deceased person,has_person_status,freedman,46,0.6479302832244008,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,born into slavery,40,0.5819304152637487,19,0.40915032679738567,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,escaped to british lines,40,0.5819304152637487,46,0.6277777777777778,0.0,0.0
+hasparticipantrole,deceased person,into,"slavery'), has_status_generating_event(freedman, 'escaped to british lines')",36,0.3703703703703704,24,0.47450824029771393,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,event,28,0.36195286195286197,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,born into slavery,28,0.36195286195286197,19,0.40915032679738567,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,escaped to british lines,28,0.36195286195286197,46,0.6277777777777778,0.0,0.0
+hasparticipantrole,deceased person,into,"slavery'), recorded_at(freedman, 'escaped to british lines')",36,0.3703703703703704,32,0.5944444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,david george,25,0.5555555555555555,35,0.6166666666666667,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,surname,34,0.5474386724386724,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,george,34,0.5474386724386724,18,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,first_name,32,0.5615079365079364,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,david,32,0.5615079365079364,40,0.6,0.0,0.0
+hasdescriptiveoccupation,slave,relationship record,module:,33,0.6137539361223572,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,27,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type,spouse,43,0.5868055555555555,36,0.5777777777777778,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,agent,38,0.6264245014245015,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,phyllis,38,0.6264245014245015,17,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,role record,module:,29,0.4873737373737373,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,participant_role_type,50,0.6805555555555555,15,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,preacher,50,0.6805555555555555,31,0.3833333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,role_provided_by,event,20,0.4861111111111111,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,role_provided_by,establishment of baptist congregations,20,0.4861111111111111,19,0.5517543859649123,0.0,0.0
+hasdescriptiveoccupation,slave,of baptist,congregations'),29,0.5055555555555555,10,0.3444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,sex_type,32,0.5742063492063493,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,male,32,0.5742063492063493,44,0.6722222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,baptist preacher,68,0.8045940170940171,29,0.4847222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,date_of_birth,38,0.6286324786324786,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,1742,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,date_of_death,43,0.652065527065527,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,1810,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,race_or_color,39,0.5977668845315903,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,african-american,39,0.5977668845315903,19,0.5083333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,enslaved person,39,0.6241830065359477,50,0.6444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,freedman,39,0.6241830065359477,15,0.44166666666666665,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,event,39,0.5815696649029983,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,born into slavery,39,0.5815696649029983,45,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,escaped to british lines,39,0.5815696649029983,21,0.46388888888888885,0.0,0.0
+hasdescriptiveoccupation,slave,into,"slavery'), has_status_generating_event(freedman, 'escaped to british lines')",21,0.625,12,0.6885964912280702,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,event,34,0.5202020202020202,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,born into slavery,34,0.5202020202020202,45,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,escaped to british lines,34,0.5202020202020202,21,0.46388888888888885,0.0,0.0
+hasdescriptiveoccupation,slave,into,"slavery'), recorded_at(freedman, 'escaped to british lines')",21,0.625,15,0.6944444444444443,0.0,0.0
+hasdescriptiveoccupation,colonist,record,module:,27,0.6138888888888889,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,colonist,has_name,name,25,0.5555555555555555,17,0.0,0.0,0.0
+hasdescriptiveoccupation,colonist,has_name,david george,25,0.5555555555555555,10,0.3055555555555555,0.0,0.0
+hasdescriptiveoccupation,colonist,has_surname,surname,34,0.5474386724386724,13,0.4226190476190476,0.0,0.0
+hasdescriptiveoccupation,colonist,has_surname,george,34,0.5474386724386724,14,0.4305555555555555,0.0,0.0
+hasdescriptiveoccupation,colonist,has_first_name,first_name,32,0.5615079365079364,33,0.4666666666666666,0.0,0.0
+hasdescriptiveoccupation,colonist,has_first_name,david,32,0.5615079365079364,15,0.44166666666666665,0.0,0.0
+hasdescriptiveoccupation,colonist,relationship record,module:,33,0.6137539361223572,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,colonist,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,40,0.5343137254901961,0.0,0.0
+hasdescriptiveoccupation,colonist,has_interagent_relationship_type,spouse,43,0.5868055555555555,29,0.5277777777777778,0.0,0.0
+hasdescriptiveoccupation,colonist,is_relationship_to,agent,38,0.6264245014245015,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,colonist,is_relationship_to,phyllis,38,0.6264245014245015,40,0.6011904761904762,0.0,0.0
+hasdescriptiveoccupation,colonist,role record,module:,29,0.4873737373737373,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,colonist,has_participant_role,participant_role_type,50,0.6805555555555555,28,0.3968253968253968,0.0,0.0
+hasdescriptiveoccupation,colonist,has_participant_role,preacher,50,0.6805555555555555,12,0.0,0.0,0.0
+hasdescriptiveoccupation,colonist,role_provided_by,event,20,0.4861111111111111,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,colonist,role_provided_by,establishment of baptist congregations,20,0.4861111111111111,22,0.5248538011695906,0.0,0.0
+hasdescriptiveoccupation,colonist,of baptist,congregations'),29,0.5055555555555555,43,0.6611111111111111,0.0,0.0
+hasdescriptiveoccupation,colonist,record,module:,27,0.6138888888888889,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,colonist,has_sex,sex_type,32,0.5742063492063493,25,0.4166666666666667,0.0,0.0
+hasdescriptiveoccupation,colonist,has_sex,male,32,0.5742063492063493,17,0.4583333333333333,0.0,0.0
+hasdescriptiveoccupation,colonist,record,module:,27,0.6138888888888889,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,colonist,has_occupation,occupation,68,0.8045940170940171,33,0.4666666666666666,0.0,0.0
+hasdescriptiveoccupation,colonist,has_occupation,baptist preacher,68,0.8045940170940171,25,0.40972222222222215,0.0,0.0
+hasdescriptiveoccupation,colonist,record,module:,27,0.6138888888888889,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,colonist,has_birthdate,date_of_birth,38,0.6286324786324786,29,0.42414529914529914,0.0,0.0
+hasdescriptiveoccupation,colonist,has_birthdate,1742,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,colonist,has_deathdate,date_of_death,43,0.652065527065527,19,0.30128205128205127,0.0,0.0
+hasdescriptiveoccupation,colonist,has_deathdate,1810,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,colonist,record,module:,27,0.6138888888888889,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,colonist,has_race_or_color,race_or_color,39,0.5977668845315903,38,0.4679487179487179,0.0,0.0
+hasdescriptiveoccupation,colonist,has_race_or_color,african-american,39,0.5977668845315903,25,0.40972222222222215,0.0,0.0
+hasdescriptiveoccupation,colonist,status record,module:,32,0.540954415954416,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,colonist,has_person_status,enslaved person,39,0.6241830065359477,26,0.4138888888888889,0.0,0.0
+hasdescriptiveoccupation,colonist,has_person_status,freedman,39,0.6241830065359477,12,0.4166666666666667,0.0,0.0
+hasdescriptiveoccupation,colonist,has_status_generating_event,event,39,0.5815696649029983,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,colonist,has_status_generating_event,born into slavery,39,0.5815696649029983,32,0.5898692810457516,0.0,0.0
+hasdescriptiveoccupation,colonist,has_status_generating_event,escaped to british lines,39,0.5815696649029983,31,0.4777777777777778,0.0,0.0
+hasdescriptiveoccupation,colonist,into,"slavery'), has_status_generating_event(freedman, 'escaped to british lines')",21,0.625,12,0.43026315789473685,0.0,0.0
+hasdescriptiveoccupation,colonist,recorded_at,event,34,0.5202020202020202,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,colonist,recorded_at,born into slavery,34,0.5202020202020202,32,0.5898692810457516,0.0,0.0
+hasdescriptiveoccupation,colonist,recorded_at,escaped to british lines,34,0.5202020202020202,31,0.4777777777777778,0.0,0.0
+hasdescriptiveoccupation,colonist,into,"slavery'), recorded_at(freedman, 'escaped to british lines')",21,0.625,15,0.45,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,record,module:,27,0.6138888888888889,16,0.4656084656084656,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,has_name,name,25,0.5555555555555555,18,0.4351851851851852,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,has_name,david george,25,0.5555555555555555,33,0.5555555555555555,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,has_surname,surname,34,0.5474386724386724,24,0.42063492063492064,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,has_surname,george,34,0.5474386724386724,17,0.40740740740740744,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,has_first_name,first_name,32,0.5615079365079364,36,0.45925925925925926,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,has_first_name,david,32,0.5615079365079364,26,0.5037037037037037,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,relationship record,module:,33,0.6137539361223572,16,0.4656084656084656,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,40,0.5133442265795206,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,has_interagent_relationship_type,spouse,43,0.5868055555555555,25,0.4444444444444444,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,is_relationship_to,agent,38,0.6264245014245015,17,0.5037037037037037,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,is_relationship_to,phyllis,38,0.6264245014245015,24,0.6190476190476191,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,role record,module:,29,0.4873737373737373,16,0.4656084656084656,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,has_participant_role,participant_role_type,50,0.6805555555555555,36,0.5904280904280904,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,has_participant_role,preacher,50,0.6805555555555555,38,0.40277777777777773,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,role_provided_by,event,20,0.4861111111111111,17,0.4185185185185185,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,role_provided_by,establishment of baptist congregations,20,0.4861111111111111,36,0.5871345029239766,0.0,0.1707761131901165
+hasdescriptiveoccupation,baptist lay leader,of baptist,congregations'),29,0.5055555555555555,24,0.40370370370370373,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,record,module:,27,0.6138888888888889,16,0.4656084656084656,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,has_sex,sex_type,32,0.5742063492063493,31,0.5675925925925926,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,has_sex,male,32,0.5742063492063493,27,0.5370370370370371,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,record,module:,27,0.6138888888888889,16,0.4656084656084656,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,has_occupation,occupation,68,0.8045940170940171,21,0.45740740740740743,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,has_occupation,baptist preacher,68,0.8045940170940171,71,0.8666666666666666,0.0,0.2605556710562624
+hasdescriptiveoccupation,baptist lay leader,record,module:,27,0.6138888888888889,16,0.4656084656084656,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,has_birthdate,date_of_birth,38,0.6286324786324786,26,0.4871794871794872,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,has_birthdate,1742,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,has_deathdate,date_of_death,43,0.652065527065527,32,0.4871794871794872,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,has_deathdate,1810,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,record,module:,27,0.6138888888888889,16,0.4656084656084656,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,has_race_or_color,race_or_color,39,0.5977668845315903,19,0.46581196581196577,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,has_race_or_color,african-american,39,0.5977668845315903,35,0.5138888888888888,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,status record,module:,32,0.540954415954416,16,0.4656084656084656,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,has_person_status,enslaved person,39,0.6241830065359477,42,0.5888888888888889,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,has_person_status,freedman,39,0.6241830065359477,15,0.39351851851851855,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,has_status_generating_event,event,39,0.5815696649029983,17,0.4185185185185185,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,has_status_generating_event,born into slavery,39,0.5815696649029983,46,0.6315111903347197,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,has_status_generating_event,escaped to british lines,39,0.5815696649029983,38,0.667989417989418,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,into,"slavery'), has_status_generating_event(freedman, 'escaped to british lines')",21,0.625,21,0.521345029239766,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,recorded_at,event,34,0.5202020202020202,17,0.4185185185185185,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,recorded_at,born into slavery,34,0.5202020202020202,46,0.6315111903347197,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,recorded_at,escaped to british lines,34,0.5202020202020202,38,0.667989417989418,0.0,0.0
+hasdescriptiveoccupation,baptist lay leader,into,"slavery'), recorded_at(freedman, 'escaped to british lines')",21,0.625,26,0.49245014245014246,0.0,0.0
+hasfirstname,david,record,module:,22,0.4166666666666667,17,0.44761904761904764,0.0,0.0
+hasfirstname,david,has_name,name,70,0.8736111111111112,22,0.48333333333333334,0.0,0.0
+hasfirstname,david,has_name,david george,70,0.8736111111111112,59,0.8833333333333334,0.0,0.5797386715376658
+hasfirstname,david,has_surname,surname,70,0.8733164983164984,17,0.0,0.0,0.0
+hasfirstname,david,has_surname,george,70,0.8733164983164984,0,0.0,0.0,0.0
+hasfirstname,david,has_first_name,first_name,92,0.9666666666666667,13,0.43333333333333335,0.0,0.0
+hasfirstname,david,has_first_name,david,92,0.9666666666666667,100,1.0,0.0,1.0
+hasfirstname,david,relationship record,module:,32,0.5077276524644946,17,0.44761904761904764,0.0,0.0
+hasfirstname,david,has_interagent_relationship_type,relationship_type,36,0.6030092592592592,18,0.5058823529411764,0.0,0.0
+hasfirstname,david,has_interagent_relationship_type,spouse,36,0.6030092592592592,0,0.0,0.0,0.0
+hasfirstname,david,is_relationship_to,agent,27,0.6203703703703703,20,0.4666666666666666,0.0,0.0
+hasfirstname,david,is_relationship_to,phyllis,27,0.6203703703703703,17,0.44761904761904764,0.0,0.0
+hasfirstname,david,role record,module:,17,0.44949494949494956,17,0.44761904761904764,0.0,0.0
+hasfirstname,david,has_participant_role,participant_role_type,44,0.6962962962962962,15,0.4984126984126984,0.0,0.0
+hasfirstname,david,has_participant_role,preacher,44,0.6962962962962962,15,0.44166666666666665,0.0,0.0
+hasfirstname,david,role_provided_by,event,14,0.3680555555555555,20,0.4666666666666666,0.0,0.0
+hasfirstname,david,role_provided_by,establishment of baptist congregations,14,0.3680555555555555,9,0.4842105263157895,0.0,0.0
+hasfirstname,david,of baptist,congregations'),36,0.5055555555555555,20,0.5111111111111111,0.0,0.0
+hasfirstname,david,record,module:,22,0.4166666666666667,17,0.44761904761904764,0.0,0.0
+hasfirstname,david,has_sex,sex_type,53,0.6349206349206349,0,0.0,0.0,0.0
+hasfirstname,david,has_sex,male,53,0.6349206349206349,22,0.48333333333333334,0.0,0.0
+hasfirstname,david,record,module:,22,0.4166666666666667,17,0.44761904761904764,0.0,0.0
+hasfirstname,david,has_occupation,occupation,38,0.5873015873015873,27,0.5333333333333333,0.0,0.0
+hasfirstname,david,has_occupation,baptist preacher,38,0.5873015873015873,19,0.5083333333333333,0.0,0.0
+hasfirstname,david,record,module:,22,0.4166666666666667,17,0.44761904761904764,0.0,0.0
+hasfirstname,david,has_birthdate,date_of_birth,64,0.8324786324786324,33,0.517948717948718,0.0,0.0
+hasfirstname,david,has_birthdate,1742,64,0.8324786324786324,0,0.0,0.0,0.0
+hasfirstname,david,has_deathdate,date_of_death,48,0.5982905982905983,33,0.6102564102564102,0.0,0.0
+hasfirstname,david,has_deathdate,1810,48,0.5982905982905983,0,0.0,0.0,0.0
+hasfirstname,david,record,module:,22,0.4166666666666667,17,0.44761904761904764,0.0,0.0
+hasfirstname,david,has_race_or_color,race_or_color,41,0.6176470588235294,11,0.4256410256410256,0.0,0.0
+hasfirstname,david,has_race_or_color,african-american,41,0.6176470588235294,19,0.5083333333333333,0.0,0.0
+hasfirstname,david,status record,module:,32,0.5427350427350427,17,0.44761904761904764,0.0,0.0
+hasfirstname,david,has_person_status,enslaved person,48,0.6857298474945533,30,0.6,0.0,0.0
+hasfirstname,david,has_person_status,freedman,48,0.6857298474945533,31,0.44166666666666665,0.0,0.0
+hasfirstname,david,has_status_generating_event,event,41,0.5833333333333334,20,0.4666666666666666,0.0,0.0
+hasfirstname,david,has_status_generating_event,born into slavery,41,0.5833333333333334,18,0.4196078431372549,0.0,0.0
+hasfirstname,david,has_status_generating_event,escaped to british lines,41,0.5833333333333334,14,0.46388888888888885,0.0,0.0
+hasfirstname,david,into,"slavery'), has_status_generating_event(freedman, 'escaped to british lines')",25,0.5555555555555555,10,0.5464912280701754,0.0,0.0
+hasfirstname,david,recorded_at,event,17,0.4823232323232323,20,0.4666666666666666,0.0,0.0
+hasfirstname,david,recorded_at,born into slavery,17,0.4823232323232323,18,0.4196078431372549,0.0,0.0
+hasfirstname,david,recorded_at,escaped to british lines,17,0.4823232323232323,14,0.46388888888888885,0.0,0.0
+hasfirstname,david,into,"slavery'), recorded_at(freedman, 'escaped to british lines')",25,0.5555555555555555,9,0.5388888888888889,0.0,0.0
+hassurname,george,record,module:,25,0.4222222222222222,31,0.5396825396825397,0.0,0.0
+hassurname,george,has_name,name,78,0.9008333333333334,20,0.47222222222222215,0.0,0.0
+hassurname,george,has_name,david george,78,0.9008333333333334,67,0.5,0.0,0.5797386715376658
+hassurname,george,has_surname,surname,95,0.9787878787878788,31,0.5396825396825397,0.0,0.0
+hassurname,george,has_surname,george,95,0.9787878787878788,100,1.0,0.0,1.0
+hassurname,george,has_first_name,first_name,67,0.8674074074074074,25,0.5111111111111111,0.0,0.0
+hassurname,george,has_first_name,david,67,0.8674074074074074,0,0.0,0.0,0.0
+hassurname,george,relationship record,module:,28,0.4543859649122807,31,0.5396825396825397,0.0,0.0
+hassurname,george,has_interagent_relationship_type,relationship_type,33,0.544345238095238,26,0.4477124183006536,0.0,0.0
+hassurname,george,has_interagent_relationship_type,spouse,33,0.544345238095238,33,0.5555555555555555,0.0,0.0
+hassurname,george,is_relationship_to,agent,21,0.5333333333333333,36,0.5777777777777778,0.0,0.0
+hassurname,george,is_relationship_to,phyllis,21,0.5333333333333333,0,0.0,0.0,0.0
+hassurname,george,role record,module:,19,0.46060606060606063,31,0.5396825396825397,0.0,0.0
+hassurname,george,has_participant_role,participant_role_type,40,0.5777777777777778,15,0.4047619047619047,0.0,0.0
+hassurname,george,has_participant_role,preacher,40,0.5777777777777778,29,0.5138888888888888,0.0,0.0
+hassurname,george,role_provided_by,event,15,0.44166666666666665,36,0.45555555555555555,0.0,0.0
+hassurname,george,role_provided_by,establishment of baptist congregations,15,0.44166666666666665,18,0.4152046783625731,0.0,0.0
+hassurname,george,of baptist,congregations'),20,0.39999999999999997,29,0.5888888888888889,0.0,0.0
+hassurname,george,record,module:,25,0.4222222222222222,31,0.5396825396825397,0.0,0.0
+hassurname,george,has_sex,sex_type,59,0.8166666666666667,29,0.5277777777777778,0.0,0.0
+hassurname,george,has_sex,male,59,0.8166666666666667,20,0.47222222222222215,0.0,0.0
+hassurname,george,record,module:,25,0.4222222222222222,31,0.5396825396825397,0.0,0.0
+hassurname,george,has_occupation,occupation,42,0.6190476190476191,12,0.4222222222222222,0.0,0.0
+hassurname,george,has_occupation,baptist preacher,42,0.6190476190476191,18,0.4861111111111111,0.0,0.0
+hassurname,george,record,module:,25,0.4222222222222222,31,0.5396825396825397,0.0,0.0
+hassurname,george,has_birthdate,date_of_birth,52,0.6871794871794871,32,0.49572649572649574,0.0,0.0
+hassurname,george,has_birthdate,1742,52,0.6871794871794871,0,0.0,0.0,0.0
+hassurname,george,has_deathdate,date_of_death,43,0.5615384615384615,32,0.576923076923077,0.0,0.0
+hassurname,george,has_deathdate,1810,43,0.5615384615384615,0,0.0,0.0,0.0
+hassurname,george,record,module:,25,0.4222222222222222,31,0.5396825396825397,0.0,0.0
+hassurname,george,has_race_or_color,race_or_color,44,0.6509803921568628,32,0.46581196581196577,0.0,0.0
+hassurname,george,has_race_or_color,african-american,44,0.6509803921568628,18,0.4861111111111111,0.0,0.0
+hassurname,george,status record,module:,35,0.5760683760683761,31,0.5396825396825397,0.0,0.0
+hassurname,george,has_person_status,enslaved person,44,0.6735294117647058,19,0.48888888888888893,0.0,0.0
+hassurname,george,has_person_status,freedman,44,0.6735294117647058,29,0.5138888888888888,0.0,0.0
+hassurname,george,has_status_generating_event,event,43,0.6703703703703704,36,0.45555555555555555,0.0,0.0
+hassurname,george,has_status_generating_event,born into slavery,43,0.6703703703703704,26,0.48366013071895425,0.0,0.0
+hassurname,george,has_status_generating_event,escaped to british lines,43,0.6703703703703704,27,0.5277777777777778,0.0,0.0
+hassurname,george,into,"slavery'), has_status_generating_event(freedman, 'escaped to british lines')",14,0.0,12,0.49970760233918127,0.0,0.0
+hassurname,george,recorded_at,event,19,0.41313131313131307,36,0.45555555555555555,0.0,0.0
+hassurname,george,recorded_at,born into slavery,19,0.41313131313131307,26,0.48366013071895425,0.0,0.0
+hassurname,george,recorded_at,escaped to british lines,19,0.41313131313131307,27,0.5277777777777778,0.0,0.0
+hassurname,george,into,"slavery'), recorded_at(freedman, 'escaped to british lines')",14,0.0,12,0.49444444444444446,0.0,0.0
+hasname,david george,record,module:,15,0.0,21,0.48412698412698413,0.0,0.0
+hasname,david george,has_name,name,93,0.9708333333333333,25,0.5555555555555555,0.0,0.0
+hasname,david george,has_name,david george,93,0.9708333333333333,100,1.0,0.0,1.0000000000000002
+hasname,david george,has_surname,surname,78,0.9151515151515152,21,0.48412698412698413,0.0,0.0
+hasname,david george,has_surname,george,78,0.9151515151515152,67,0.5,0.0,0.5797386715376658
+hasname,david george,has_first_name,first_name,67,0.5476190476190476,27,0.45555555555555555,0.0,0.0
+hasname,david george,has_first_name,david,67,0.5476190476190476,59,0.8833333333333334,0.0,0.5797386715376658
+hasname,david george,relationship record,module:,23,0.5106516290726817,21,0.48412698412698413,0.0,0.0
+hasname,david george,has_interagent_relationship_type,relationship_type,31,0.6259920634920636,28,0.50359477124183,0.0,0.0
+hasname,david george,has_interagent_relationship_type,spouse,31,0.6259920634920636,22,0.4166666666666667,0.0,0.0
+hasname,david george,is_relationship_to,agent,16,0.43121693121693117,35,0.6166666666666667,0.0,0.0
+hasname,david george,is_relationship_to,phyllis,16,0.43121693121693117,11,0.4087301587301588,0.0,0.0
+hasname,david george,role record,module:,11,0.41125541125541126,21,0.48412698412698413,0.0,0.0
+hasname,david george,has_participant_role,participant_role_type,37,0.5904761904761905,24,0.5396825396825397,0.0,0.0
+hasname,david george,has_participant_role,preacher,37,0.5904761904761905,30,0.4444444444444444,0.0,0.0
+hasname,david george,role_provided_by,event,9,0.40178571428571425,24,0.5222222222222223,0.0,0.0
+hasname,david george,role_provided_by,establishment of baptist congregations,9,0.40178571428571425,24,0.44632414369256473,0.0,0.0
+hasname,david george,of baptist,congregations'),24,0.4142857142857143,22,0.5404761904761904,0.0,0.0
+hasname,david george,record,module:,15,0.0,21,0.48412698412698413,0.0,0.0
+hasname,david george,has_sex,sex_type,57,0.8,20,0.40277777777777773,0.0,0.0
+hasname,david george,has_sex,male,57,0.8,25,0.5555555555555555,0.0,0.0
+hasname,david george,record,module:,15,0.0,21,0.48412698412698413,0.0,0.0
+hasname,david george,has_occupation,occupation,38,0.6190476190476191,27,0.5166666666666667,0.0,0.0
+hasname,david george,has_occupation,baptist preacher,38,0.6190476190476191,36,0.5694444444444445,0.0,0.0
+hasname,david george,record,module:,15,0.0,21,0.48412698412698413,0.0,0.0
+hasname,david george,has_birthdate,date_of_birth,50,0.553113553113553,40,0.6004273504273504,0.0,0.0
+hasname,david george,has_birthdate,1742,50,0.553113553113553,0,0.0,0.0,0.0
+hasname,david george,has_deathdate,date_of_death,50,0.632967032967033,40,0.5982905982905983,0.0,0.0
+hasname,david george,has_deathdate,1810,50,0.632967032967033,0,0.0,0.0,0.0
+hasname,david george,record,module:,15,0.0,21,0.48412698412698413,0.0,0.0
+hasname,david george,has_race_or_color,race_or_color,42,0.6694677871148459,32,0.547008547008547,0.0,0.0
+hasname,david george,has_race_or_color,african-american,42,0.6694677871148459,29,0.4444444444444444,0.0,0.0
+hasname,david george,status record,module:,30,0.442002442002442,21,0.48412698412698413,0.0,0.0
+hasname,david george,has_person_status,enslaved person,42,0.6028011204481792,44,0.65,0.0,0.0
+hasname,david george,has_person_status,freedman,42,0.6028011204481792,20,0.4305555555555555,0.0,0.0
+hasname,david george,has_status_generating_event,event,35,0.6375661375661376,24,0.5222222222222223,0.0,0.0
+hasname,david george,has_status_generating_event,born into slavery,35,0.6375661375661376,28,0.4369281045751634,0.0,0.0
+hasname,david george,has_status_generating_event,escaped to british lines,35,0.6375661375661376,33,0.5833333333333334,0.0,0.0
+hasname,david george,into,"slavery'), has_status_generating_event(freedman, 'escaped to british lines')",18,0.46428571428571425,20,0.5116959064327485,0.0,0.0
+hasname,david george,recorded_at,event,11,0.41125541125541126,24,0.5222222222222223,0.0,0.0
+hasname,david george,recorded_at,born into slavery,11,0.41125541125541126,28,0.4369281045751634,0.0,0.0
+hasname,david george,recorded_at,escaped to british lines,11,0.41125541125541126,33,0.5833333333333334,0.0,0.0
+hasname,david george,into,"slavery'), recorded_at(freedman, 'escaped to british lines')",18,0.46428571428571425,22,0.5222222222222223,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",record,module:,30,0.48412698412698413,4,0.4595238095238095,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",has_name,name,36,0.5952380952380952,3,0.5880952380952381,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",has_name,david george,36,0.5952380952380952,7,0.542063492063492,0.0,0.05392760011450583
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",has_surname,surname,48,0.6168831168831169,5,0.5797619047619048,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",has_surname,george,48,0.6168831168831169,4,0.5626984126984126,0.0,0.09302053280570595
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",has_first_name,first_name,43,0.6726190476190476,6,0.5329365079365079,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",has_first_name,david,43,0.6726190476190476,4,0.5392857142857143,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",relationship record,module:,30,0.6135338345864662,4,0.4595238095238095,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",has_interagent_relationship_type,relationship_type,39,0.5755952380952382,11,0.5119747899159663,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",has_interagent_relationship_type,spouse,39,0.5755952380952382,4,0.5071428571428571,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",is_relationship_to,agent,44,0.6474266474266474,4,0.5392857142857143,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",is_relationship_to,phyllis,44,0.6474266474266474,5,0.4595238095238095,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",role record,module:,24,0.46645021645021645,4,0.4595238095238095,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",has_participant_role,participant_role_type,47,0.6876623376623376,11,0.46654995331465915,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",has_participant_role,preacher,47,0.6876623376623376,6,0.5511904761904761,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",role_provided_by,event,20,0.4900793650793651,4,0.5392857142857143,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",role_provided_by,establishment of baptist congregations,20,0.4900793650793651,21,0.5540100250626566,0.0,0.0765890098434645
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",of baptist,congregations'),33,0.48571428571428577,8,0.5094932844932846,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",record,module:,30,0.48412698412698413,4,0.4595238095238095,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",has_sex,sex_type,38,0.6238095238095238,4,0.4142857142857143,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",has_sex,male,38,0.6238095238095238,3,0.5047619047619047,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",record,module:,30,0.48412698412698413,4,0.4595238095238095,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",has_occupation,occupation,64,0.8074074074074075,7,0.5452380952380952,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",has_occupation,baptist preacher,64,0.8074074074074075,11,0.5398809523809524,0.0,0.05392760011450583
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",record,module:,30,0.48412698412698413,4,0.4595238095238095,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",has_birthdate,date_of_birth,37,0.6318681318681318,8,0.5072677322677323,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",has_birthdate,1742,37,0.6318681318681318,2,0.41785714285714287,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",has_deathdate,date_of_death,44,0.63003663003663,8,0.5072677322677323,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",has_deathdate,1810,44,0.63003663003663,2,0.41785714285714287,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",record,module:,30,0.48412698412698413,4,0.4595238095238095,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",has_race_or_color,race_or_color,39,0.5896358543417367,8,0.4769647019647019,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",has_race_or_color,african-american,39,0.5896358543417367,10,0.5303571428571429,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",status record,module:,37,0.5366300366300366,4,0.4595238095238095,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",has_person_status,enslaved person,45,0.6675070028011204,10,0.528968253968254,0.0,0.05392760011450583
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",has_person_status,freedman,45,0.6675070028011204,6,0.5511904761904761,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",has_status_generating_event,event,39,0.5476190476190476,4,0.5392857142857143,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",has_status_generating_event,born into slavery,39,0.5476190476190476,11,0.5619397759103641,0.0,0.041806814927348
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",has_status_generating_event,escaped to british lines,39,0.5476190476190476,14,0.5563492063492063,0.0,0.035345789649834744
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",into,"slavery'), has_status_generating_event(freedman, 'escaped to british lines')",33,0.0,29,0.5419558511663775,0.0,0.02594738418838804
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",recorded_at,event,32,0.47056277056277057,4,0.5392857142857143,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",recorded_at,born into slavery,32,0.47056277056277057,11,0.5619397759103641,0.0,0.041806814927348
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",recorded_at,escaped to british lines,32,0.47056277056277057,14,0.5563492063492063,0.0,0.035345789649834744
+hasdescription,"born enslaved. free before 13th amendment. minister at one of the first black baptist churches in the u.s., george continued his preaching in nova scotia after the revolutionary war but encountered racism there as well and in 1792 led almost 1,200 black baptists to sierra leone .",into,"slavery'), recorded_at(freedman, 'escaped to british lines')",33,0.0,24,0.5106349206349207,0.0,0.02594738418838804

@@ -1,0 +1,611 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,publius cornelius scipio africanus,32,0.537878787878788,25,0.6143790849673203,0.0,0.0
+instance of,person,cornelius scipio,"africanus, ""publius cornelius scipio africanus"")",30,0.5960497835497836,19,0.5972222222222222,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,scipio,27,0.49242424242424243,33,0.4444444444444444,0.0,0.0
+instance of,person,cornelius scipio,"africanus, ""scipio"")",30,0.5960497835497836,23,0.4388888888888889,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,publius,40,0.5692640692640693,31,0.4365079365079365,0.0,0.0
+instance of,person,cornelius scipio,"africanus, ""publius"")",30,0.5960497835497836,15,0.43650793650793646,0.0,0.0
+instance of,person,has_alternate_name,alternate_name,34,0.5107744107744108,30,0.5714285714285715,0.0,0.0
+instance of,person,has_alternate_name,africanus,34,0.5107744107744108,27,0.5185185185185185,0.0,0.0
+instance of,person,cornelius scipio,"africanus, ""africanus"").",30,0.5960497835497836,20,0.4305555555555555,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,relationship_type,30,0.5269480519480519,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,opponent,30,0.5269480519480519,43,0.625,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,victor,30,0.5269480519480519,17,0.4444444444444444,0.0,0.0
+instance of,person,cornelius scipio,"africanus, ""opponent""), has_interagent_relationship_type_to(publius cornelius scipio africanus, ""victor"")",30,0.5960497835497836,11,0.5190476190476191,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,hannibal,34,0.5798460798460798,14,0.4305555555555555,0.0,0.0
+instance of,person,is_relationship_to,cato the elder,34,0.5798460798460798,20,0.3253968253968254,0.0,0.0
+instance of,person,cornelius scipio,"africanus, ""hannibal""), is_relationship_to(publius cornelius scipio africanus, ""cato the elder"").",30,0.5960497835497836,10,0.5761741122565865,0.0,0.0
+instance of,person,role record,module:,27,0.49242424242424243,15,0.0,0.0,0.0
+instance of,person,has_participant_role,participant_role_type,32,0.5668831168831169,22,0.5357142857142857,0.0,0.0
+instance of,person,has_participant_role,participant in the second punic war,32,0.5668831168831169,24,0.5253968253968254,0.0,0.0
+instance of,person,has_participant_role,founder of italica,32,0.5668831168831169,25,0.46296296296296297,0.0,0.0
+instance of,person,has_participant_role,participant in the war with antiochus,32,0.5668831168831169,19,0.5082582582582583,0.0,0.0
+instance of,person,cornelius scipio,"africanus, ""participant in the second punic war""), has_participant_role(publius cornelius scipio africanus, ""founder of italica""), has_participant_role(publius cornelius scipio africanus, ""participant in the war with antiochus"").",30,0.5960497835497836,5,0.5087336244541485,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,male,22,0.45598845598845594,20,0.47222222222222215,0.0,0.0
+instance of,person,cornelius scipio,"africanus, ""male"").",30,0.5960497835497836,16,0.44152046783625726,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,roman general,24,0.38311688311688313,32,0.576923076923077,0.0,0.0
+instance of,person,has_occupation,statesman,24,0.38311688311688313,40,0.5,0.0,0.0
+instance of,person,has_occupation,consul,24,0.38311688311688313,33,0.4444444444444444,0.0,0.0
+instance of,person,has_occupation,priest of mars,24,0.38311688311688313,40,0.6634920634920635,0.0,0.0
+instance of,person,cornelius scipio,"africanus, ""roman general""), has_occupation(publius cornelius scipio africanus, ""statesman""), has_occupation(publius cornelius scipio africanus, ""consul""), has_occupation(publius cornelius scipio africanus, ""priest of mars"").",30,0.5960497835497836,5,0.5088888888888888,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_birthdate,236/235 bc,33,0.5463869463869464,0,0.0,0.0,0.0
+instance of,person,cornelius scipio,"africanus, ""236/235 bc"")",30,0.5960497835497836,13,0.4305555555555555,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,183 bc,33,0.39044289044289043,0,0.0,0.0,0.0
+instance of,person,cornelius scipio,"africanus, ""183 bc"").",30,0.5960497835497836,15,0.43650793650793646,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,general,29,0.449554367201426,31,0.5396825396825397,0.0,0.0
+instance of,person,has_person_status,consul,29,0.449554367201426,33,0.4444444444444444,0.0,0.0
+instance of,person,has_person_status,priest,29,0.449554367201426,50,0.6944444444444443,0.0,0.0
+instance of,person,cornelius scipio,"africanus, ""general""), has_person_status(publius cornelius scipio africanus, ""consul""), has_person_status(publius cornelius scipio africanus, ""priest"")",30,0.5960497835497836,8,0.5132450331125827,0.0,0.0
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,victories in wars,26,0.4799102132435466,26,0.642483660130719,0.0,0.0
+instance of,person,has_status_generating_event,elections,26,0.4799102132435466,40,0.611111111111111,0.0,0.0
+instance of,person,has_status_generating_event,appointment as priest of mars,26,0.4799102132435466,29,0.5352490421455939,0.0,0.0
+instance of,person,in,"wars""), has_status_generating_event(consul, ""elections""), has_status_generating_event(priest, ""appointment as priest of mars"")",31,0.7818181818181817,8,0.49100529100529106,0.0,0.0
+instance of,person,recorded_at,event,18,0.4545454545454546,36,0.5777777777777778,0.0,0.0
+instance of,person,recorded_at,victories in wars,18,0.4545454545454546,26,0.642483660130719,0.0,0.0
+instance of,person,recorded_at,elections,18,0.4545454545454546,40,0.611111111111111,0.0,0.0
+instance of,person,recorded_at,appointment as priest of mars,18,0.4545454545454546,29,0.5352490421455939,0.0,0.0
+instance of,person,in,"wars""), recorded_at(consul, ""elections""), recorded_at(priest, ""appointment as priest of mars"").",31,0.7818181818181817,10,0.5619883040935673,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_name,name,57,0.8055555555555556,50,0.6666666666666666,0.0,0.0
+hassex,male,has_name,publius cornelius scipio africanus,57,0.8055555555555556,11,0.5196078431372549,0.0,0.0
+hassex,male,cornelius scipio,"africanus, ""publius cornelius scipio africanus"")",18,0.45138888888888884,12,0.6041666666666666,0.0,0.0
+hassex,male,has_surname,surname,59,0.6767676767676768,36,0.0,0.0,0.0
+hassex,male,has_surname,scipio,59,0.6767676767676768,0,0.0,0.0,0.0
+hassex,male,cornelius scipio,"africanus, ""scipio"")",18,0.45138888888888884,8,0.43333333333333335,0.0,0.0
+hassex,male,has_first_name,first_name,50,0.6507936507936508,29,0.0,0.0,0.0
+hassex,male,has_first_name,publius,50,0.6507936507936508,18,0.46428571428571425,0.0,0.0
+hassex,male,cornelius scipio,"africanus, ""publius"")",18,0.45138888888888884,16,0.43253968253968256,0.0,0.0
+hassex,male,has_alternate_name,alternate_name,33,0.6296296296296297,33,0.6547619047619048,0.0,0.0
+hassex,male,has_alternate_name,africanus,33,0.6296296296296297,15,0.4537037037037037,0.0,0.0
+hassex,male,cornelius scipio,"africanus, ""africanus"").",18,0.45138888888888884,7,0.4305555555555556,0.0,0.0
+hassex,male,relationship record,module:,24,0.44152046783625726,55,0.7535714285714287,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,relationship_type,24,0.5936507936507937,19,0.5310457516339869,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,opponent,24,0.5936507936507937,17,0.4583333333333333,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,victor,24,0.5936507936507937,0,0.0,0.0,0.0
+hassex,male,cornelius scipio,"africanus, ""opponent""), has_interagent_relationship_type_to(publius cornelius scipio africanus, ""victor"")",18,0.45138888888888884,6,0.48174603174603176,0.0,0.0
+hassex,male,is_relationship_to,agent,17,0.46296296296296297,44,0.6333333333333333,0.0,0.0
+hassex,male,is_relationship_to,hannibal,17,0.46296296296296297,33,0.4583333333333333,0.0,0.0
+hassex,male,is_relationship_to,cato the elder,17,0.46296296296296297,33,0.5476190476190476,0.0,0.0
+hassex,male,cornelius scipio,"africanus, ""hannibal""), is_relationship_to(publius cornelius scipio africanus, ""cato the elder"").",18,0.45138888888888884,6,0.5936426116838488,0.0,0.0
+hassex,male,role record,module:,12,0.41919191919191917,55,0.7535714285714287,0.0,0.0
+hassex,male,has_participant_role,participant_role_type,31,0.5499999999999999,24,0.43253968253968256,0.0,0.0
+hassex,male,has_participant_role,participant in the second punic war,31,0.5499999999999999,10,0.5190476190476191,0.0,0.0
+hassex,male,has_participant_role,founder of italica,31,0.5499999999999999,18,0.4351851851851852,0.0,0.0
+hassex,male,has_participant_role,participant in the war with antiochus,31,0.5499999999999999,10,0.518018018018018,0.0,0.0
+hassex,male,cornelius scipio,"africanus, ""participant in the second punic war""), has_participant_role(publius cornelius scipio africanus, ""founder of italica""), has_participant_role(publius cornelius scipio africanus, ""participant in the war with antiochus"").",18,0.45138888888888884,3,0.47658903444929646,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_sex,sex_type,92,0.9666666666666667,17,0.4583333333333333,0.0,0.0
+hassex,male,has_sex,male,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,male,cornelius scipio,"africanus, ""male"").",18,0.45138888888888884,35,0.43421052631578944,0.0,0.5797386715376658
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_occupation,occupation,30,0.5714285714285715,14,0.45,0.0,0.0
+hassex,male,has_occupation,roman general,30,0.5714285714285715,35,0.6602564102564102,0.0,0.0
+hassex,male,has_occupation,statesman,30,0.5714285714285715,31,0.5740740740740741,0.0,0.0
+hassex,male,has_occupation,consul,30,0.5714285714285715,20,0.0,0.0,0.0
+hassex,male,has_occupation,priest of mars,30,0.5714285714285715,22,0.44047619047619047,0.0,0.0
+hassex,male,cornelius scipio,"africanus, ""roman general""), has_occupation(publius cornelius scipio africanus, ""statesman""), has_occupation(publius cornelius scipio africanus, ""consul""), has_occupation(publius cornelius scipio africanus, ""priest of mars"").",18,0.45138888888888884,3,0.5059259259259259,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_birthdate,date_of_birth,42,0.576923076923077,24,0.5512820512820512,0.0,0.0
+hassex,male,has_birthdate,236/235 bc,42,0.576923076923077,0,0.0,0.0,0.0
+hassex,male,cornelius scipio,"africanus, ""236/235 bc"")",18,0.45138888888888884,7,0.4305555555555556,0.0,0.0
+hassex,male,has_deathdate,date_of_death,42,0.6581196581196581,24,0.5512820512820512,0.0,0.0
+hassex,male,has_deathdate,183 bc,42,0.6581196581196581,0,0.0,0.0,0.0
+hassex,male,cornelius scipio,"africanus, ""183 bc"").",18,0.45138888888888884,8,0.43253968253968256,0.0,0.0
+hassex,male,status record,module:,32,0.5747863247863249,55,0.7535714285714287,0.0,0.0
+hassex,male,has_person_status,general,35,0.642483660130719,36,0.46428571428571425,0.0,0.0
+hassex,male,has_person_status,consul,35,0.642483660130719,20,0.0,0.0,0.0
+hassex,male,has_person_status,priest,35,0.642483660130719,20,0.47222222222222215,0.0,0.0
+hassex,male,cornelius scipio,"africanus, ""general""), has_person_status(publius cornelius scipio africanus, ""consul""), has_person_status(publius cornelius scipio africanus, ""priest"")",18,0.45138888888888884,4,0.4788447387785136,0.0,0.0
+hassex,male,has_status_generating_event,event,30,0.6728395061728395,22,0.48333333333333334,0.0,0.0
+hassex,male,has_status_generating_event,victories in wars,30,0.6728395061728395,10,0.4362745098039216,0.0,0.0
+hassex,male,has_status_generating_event,elections,30,0.6728395061728395,31,0.40740740740740744,0.0,0.0
+hassex,male,has_status_generating_event,appointment as priest of mars,30,0.6728395061728395,18,0.5067049808429118,0.0,0.0
+hassex,male,in,"wars""), has_status_generating_event(consul, ""elections""), has_status_generating_event(priest, ""appointment as priest of mars"")",0,0.0,5,0.4801587301587302,0.0,0.0
+hassex,male,recorded_at,event,12,0.41919191919191917,22,0.48333333333333334,0.0,0.0
+hassex,male,recorded_at,victories in wars,12,0.41919191919191917,10,0.4362745098039216,0.0,0.0
+hassex,male,recorded_at,elections,12,0.41919191919191917,31,0.40740740740740744,0.0,0.0
+hassex,male,recorded_at,appointment as priest of mars,12,0.41919191919191917,18,0.5067049808429118,0.0,0.0
+hassex,male,in,"wars""), recorded_at(consul, ""elections""), recorded_at(priest, ""appointment as priest of mars"").",0,0.0,6,0.48274853801169587,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,publius cornelius scipio africanus,38,0.5675925925925926,10,0.4516339869281046,0.0,0.0
+hasparticipantrole,child,cornelius scipio,"africanus, ""publius cornelius scipio africanus"")",35,0.5611772486772487,11,0.44305555555555554,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,scipio,41,0.6274651274651274,36,0.5777777777777778,0.0,0.0
+hasparticipantrole,child,cornelius scipio,"africanus, ""scipio"")",35,0.5611772486772487,16,0.3333333333333333,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,publius,44,0.6772486772486772,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,cornelius scipio,"africanus, ""publius"")",35,0.5611772486772487,15,0.33174603174603173,0.0,0.0
+hasparticipantrole,child,has_alternate_name,alternate_name,44,0.6370370370370371,11,0.4238095238095238,0.0,0.0
+hasparticipantrole,child,has_alternate_name,africanus,44,0.6370370370370371,14,0.43703703703703706,0.0,0.0
+hasparticipantrole,child,cornelius scipio,"africanus, ""africanus"").",35,0.5611772486772487,14,0.3277777777777778,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,opponent,42,0.6570105820105819,0,0.0,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,victor,42,0.6570105820105819,18,0.41111111111111115,0.0,0.0
+hasparticipantrole,child,cornelius scipio,"africanus, ""opponent""), has_interagent_relationship_type_to(publius cornelius scipio africanus, ""victor"")",35,0.5611772486772487,7,0.5293650793650794,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,hannibal,44,0.6037037037037037,46,0.5499999999999999,0.0,0.0
+hasparticipantrole,child,is_relationship_to,cato the elder,44,0.6037037037037037,42,0.5142857142857143,0.0,0.0
+hasparticipantrole,child,cornelius scipio,"africanus, ""hannibal""), is_relationship_to(publius cornelius scipio africanus, ""cato the elder"").",35,0.5611772486772487,10,0.5304123711340206,0.0,0.0
+hasparticipantrole,child,role record,module:,28,0.4452861952861953,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant_role_type,95,0.9766666666666667,23,0.33174603174603173,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant in the second punic war,95,0.9766666666666667,15,0.4507936507936508,0.0,0.0
+hasparticipantrole,child,has_participant_role,founder of italica,95,0.9766666666666667,17,0.4185185185185185,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant in the war with antiochus,95,0.9766666666666667,14,0.44924924924924925,0.0,0.0
+hasparticipantrole,child,cornelius scipio,"africanus, ""participant in the second punic war""), has_participant_role(publius cornelius scipio africanus, ""founder of italica""), has_participant_role(publius cornelius scipio africanus, ""participant in the war with antiochus"").",35,0.5611772486772487,4,0.5406113537117904,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,male,32,0.5317460317460317,22,0.48333333333333334,0.0,0.0
+hasparticipantrole,child,cornelius scipio,"africanus, ""male"").",35,0.5611772486772487,17,0.3350877192982456,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,roman general,50,0.6566137566137565,11,0.0,0.0,0.0
+hasparticipantrole,child,has_occupation,statesman,50,0.6566137566137565,0,0.0,0.0,0.0
+hasparticipantrole,child,has_occupation,consul,50,0.6566137566137565,36,0.5777777777777778,0.0,0.0
+hasparticipantrole,child,has_occupation,priest of mars,50,0.6566137566137565,11,0.4238095238095238,0.0,0.0
+hasparticipantrole,child,cornelius scipio,"africanus, ""roman general""), has_occupation(publius cornelius scipio africanus, ""statesman""), has_occupation(publius cornelius scipio africanus, ""consul""), has_occupation(publius cornelius scipio africanus, ""priest of mars"").",35,0.5611772486772487,3,0.43925925925925924,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_birthdate,date_of_birth,52,0.6937321937321936,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_birthdate,236/235 bc,52,0.6937321937321936,13,0.0,0.0,0.0
+hasparticipantrole,child,cornelius scipio,"africanus, ""236/235 bc"")",35,0.5611772486772487,7,0.3277777777777778,0.0,0.0
+hasparticipantrole,child,has_deathdate,date_of_death,52,0.6866096866096866,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_deathdate,183 bc,52,0.6866096866096866,18,0.0,0.0,0.0
+hasparticipantrole,child,cornelius scipio,"africanus, ""183 bc"").",35,0.5611772486772487,8,0.33174603174603173,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,general,46,0.6479302832244008,17,0.0,0.0,0.0
+hasparticipantrole,child,has_person_status,consul,46,0.6479302832244008,36,0.5777777777777778,0.0,0.0
+hasparticipantrole,child,has_person_status,priest,46,0.6479302832244008,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,cornelius scipio,"africanus, ""general""), has_person_status(publius cornelius scipio africanus, ""consul""), has_person_status(publius cornelius scipio africanus, ""priest"")",35,0.5611772486772487,5,0.4421633554083885,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,victories in wars,40,0.5819304152637487,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,elections,40,0.5819304152637487,29,0.5333333333333333,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,appointment as priest of mars,40,0.5819304152637487,6,0.4114942528735632,0.0,0.0
+hasparticipantrole,child,in,"wars""), has_status_generating_event(consul, ""elections""), has_status_generating_event(priest, ""appointment as priest of mars"")",20,0.5185185185185185,5,0.5272486772486773,0.0,0.0
+hasparticipantrole,child,recorded_at,event,28,0.36195286195286197,0,0.0,0.0,0.0
+hasparticipantrole,child,recorded_at,victories in wars,28,0.36195286195286197,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,recorded_at,elections,28,0.36195286195286197,29,0.5333333333333333,0.0,0.0
+hasparticipantrole,child,recorded_at,appointment as priest of mars,28,0.36195286195286197,6,0.4114942528735632,0.0,0.0
+hasparticipantrole,child,in,"wars""), recorded_at(consul, ""elections""), recorded_at(priest, ""appointment as priest of mars"").",20,0.5185185185185185,6,0.5307017543859649,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,publius cornelius scipio africanus,38,0.5675925925925926,29,0.47342047930283226,0.0,0.0
+hasparticipantrole,deceased person,cornelius scipio,"africanus, ""publius cornelius scipio africanus"")",35,0.5611772486772487,29,0.4916666666666667,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,scipio,41,0.6274651274651274,29,0.45555555555555555,0.0,0.0
+hasparticipantrole,deceased person,cornelius scipio,"africanus, ""scipio"")",35,0.5611772486772487,34,0.5351851851851852,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,publius,44,0.6772486772486772,18,0.40317460317460313,0.0,0.0
+hasparticipantrole,deceased person,cornelius scipio,"africanus, ""publius"")",35,0.5611772486772487,33,0.47142857142857136,0.0,0.0
+hasparticipantrole,deceased person,has_alternate_name,alternate_name,44,0.6370370370370371,28,0.43015873015873013,0.0,0.0
+hasparticipantrole,deceased person,has_alternate_name,africanus,44,0.6370370370370371,25,0.39999999999999997,0.0,0.0
+hasparticipantrole,deceased person,cornelius scipio,"africanus, ""africanus"").",35,0.5611772486772487,31,0.44325396825396823,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,opponent,42,0.6570105820105819,26,0.3972222222222222,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,victor,42,0.6570105820105819,19,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,cornelius scipio,"africanus, ""opponent""), has_interagent_relationship_type_to(publius cornelius scipio africanus, ""victor"")",35,0.5611772486772487,18,0.5352869352869353,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,hannibal,44,0.6037037037037037,17,0.3972222222222222,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,cato the elder,44,0.6037037037037037,41,0.6182539682539683,0.0,0.0
+hasparticipantrole,deceased person,cornelius scipio,"africanus, ""hannibal""), is_relationship_to(publius cornelius scipio africanus, ""cato the elder"").",35,0.5611772486772487,18,0.46406331354784963,0.0,0.0
+hasparticipantrole,deceased person,role record,module:,28,0.4452861952861953,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant_role_type,95,0.9766666666666667,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant in the second punic war,95,0.9766666666666667,32,0.5174603174603174,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,founder of italica,95,0.9766666666666667,24,0.4703703703703704,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant in the war with antiochus,95,0.9766666666666667,23,0.40909480909480905,0.0,0.0
+hasparticipantrole,deceased person,cornelius scipio,"africanus, ""participant in the second punic war""), has_participant_role(publius cornelius scipio africanus, ""founder of italica""), has_participant_role(publius cornelius scipio africanus, ""participant in the war with antiochus"").",35,0.5611772486772487,11,0.5329451722464823,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,male,32,0.5317460317460317,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,cornelius scipio,"africanus, ""male"").",35,0.5611772486772487,29,0.4052631578947368,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,roman general,50,0.6566137566137565,29,0.45384615384615384,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,statesman,50,0.6566137566137565,33,0.487037037037037,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,consul,50,0.6566137566137565,29,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,priest of mars,50,0.6566137566137565,34,0.5539682539682539,0.0,0.0
+hasparticipantrole,deceased person,cornelius scipio,"africanus, ""roman general""), has_occupation(publius cornelius scipio africanus, ""statesman""), has_occupation(publius cornelius scipio africanus, ""consul""), has_occupation(publius cornelius scipio africanus, ""priest of mars"").",35,0.5611772486772487,11,0.5132763532763533,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,date_of_birth,52,0.6937321937321936,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,236/235 bc,52,0.6937321937321936,8,0.3888888888888889,0.0,0.0
+hasparticipantrole,deceased person,cornelius scipio,"africanus, ""236/235 bc"")",35,0.5611772486772487,21,0.3833333333333333,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,date_of_death,52,0.6866096866096866,36,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,183 bc,52,0.6866096866096866,10,0.32222222222222224,0.0,0.0
+hasparticipantrole,deceased person,cornelius scipio,"africanus, ""183 bc"").",35,0.5611772486772487,22,0.3952380952380952,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,general,46,0.6479302832244008,27,0.5428571428571428,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,consul,46,0.6479302832244008,29,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,priest,46,0.6479302832244008,29,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,cornelius scipio,"africanus, ""general""), has_person_status(publius cornelius scipio africanus, ""consul""), has_person_status(publius cornelius scipio africanus, ""priest"")",35,0.5611772486772487,14,0.5227146657610234,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,victories in wars,40,0.5819304152637487,38,0.48328664799253035,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,elections,40,0.5819304152637487,33,0.487037037037037,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,appointment as priest of mars,40,0.5819304152637487,36,0.5038314176245211,0.0,0.0
+hasparticipantrole,deceased person,in,"wars""), has_status_generating_event(consul, ""elections""), has_status_generating_event(priest, ""appointment as priest of mars"")",20,0.5185185185185185,17,0.5206349206349207,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,event,28,0.36195286195286197,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,victories in wars,28,0.36195286195286197,38,0.48328664799253035,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,elections,28,0.36195286195286197,33,0.487037037037037,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,appointment as priest of mars,28,0.36195286195286197,36,0.5038314176245211,0.0,0.0
+hasparticipantrole,deceased person,in,"wars""), recorded_at(consul, ""elections""), recorded_at(priest, ""appointment as priest of mars"").",20,0.5185185185185185,24,0.5637426900584795,0.0,0.0
+hasdescriptiveoccupation,war hero,record,module:,27,0.6138888888888889,13,0.4226190476190476,0.0,0.0
+hasdescriptiveoccupation,war hero,has_name,name,25,0.5555555555555555,33,0.5833333333333334,0.0,0.0
+hasdescriptiveoccupation,war hero,has_name,publius cornelius scipio africanus,25,0.5555555555555555,14,0.37254901960784315,0.0,0.0
+hasdescriptiveoccupation,war hero,cornelius scipio,"africanus, ""publius cornelius scipio africanus"")",35,0.5833333333333334,18,0.5694444444444445,0.0,0.0
+hasdescriptiveoccupation,war hero,has_surname,surname,34,0.5474386724386724,27,0.4900793650793651,0.0,0.0
+hasdescriptiveoccupation,war hero,has_surname,scipio,34,0.5474386724386724,14,0.4305555555555555,0.0,0.0
+hasdescriptiveoccupation,war hero,cornelius scipio,"africanus, ""scipio"")",35,0.5833333333333334,29,0.5083333333333333,0.0,0.0
+hasdescriptiveoccupation,war hero,has_first_name,first_name,32,0.5615079365079364,22,0.48333333333333334,0.0,0.0
+hasdescriptiveoccupation,war hero,has_first_name,publius,32,0.5615079365079364,0,0.0,0.0,0.0
+hasdescriptiveoccupation,war hero,cornelius scipio,"africanus, ""publius"")",35,0.5833333333333334,21,0.5059523809523809,0.0,0.0
+hasdescriptiveoccupation,war hero,has_alternate_name,alternate_name,38,0.5574074074074075,27,0.41865079365079366,0.0,0.0
+hasdescriptiveoccupation,war hero,has_alternate_name,africanus,38,0.5574074074074075,24,0.49074074074074076,0.0,0.0
+hasdescriptiveoccupation,war hero,cornelius scipio,"africanus, ""africanus"").",35,0.5833333333333334,25,0.5555555555555555,0.0,0.0
+hasdescriptiveoccupation,war hero,relationship record,module:,33,0.6137539361223572,13,0.4226190476190476,0.0,0.0
+hasdescriptiveoccupation,war hero,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,24,0.5063725490196078,0.0,0.0
+hasdescriptiveoccupation,war hero,has_interagent_relationship_type_to,opponent,41,0.6037698412698412,12,0.4166666666666667,0.0,0.0
+hasdescriptiveoccupation,war hero,has_interagent_relationship_type_to,victor,41,0.6037698412698412,14,0.3611111111111111,0.0,0.0
+hasdescriptiveoccupation,war hero,cornelius scipio,"africanus, ""opponent""), has_interagent_relationship_type_to(publius cornelius scipio africanus, ""victor"")",35,0.5833333333333334,12,0.5996031746031746,0.0,0.0
+hasdescriptiveoccupation,war hero,is_relationship_to,agent,38,0.6264245014245015,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,war hero,is_relationship_to,hannibal,38,0.6264245014245015,12,0.4166666666666667,0.0,0.0
+hasdescriptiveoccupation,war hero,is_relationship_to,cato the elder,38,0.6264245014245015,45,0.5273809523809524,0.0,0.0
+hasdescriptiveoccupation,war hero,cornelius scipio,"africanus, ""hannibal""), is_relationship_to(publius cornelius scipio africanus, ""cato the elder"").",35,0.5833333333333334,13,0.6014359351988218,0.0,0.0
+hasdescriptiveoccupation,war hero,role record,module:,29,0.4873737373737373,13,0.4226190476190476,0.0,0.0
+hasdescriptiveoccupation,war hero,has_participant_role,participant_role_type,50,0.6805555555555555,28,0.5634920634920635,0.0,0.0
+hasdescriptiveoccupation,war hero,has_participant_role,participant in the second punic war,50,0.6805555555555555,28,0.6404761904761905,0.0,0.1757860783933462
+hasdescriptiveoccupation,war hero,has_participant_role,founder of italica,50,0.6805555555555555,23,0.40740740740740744,0.0,0.0
+hasdescriptiveoccupation,war hero,has_participant_role,participant in the war with antiochus,50,0.6805555555555555,31,0.6373873873873874,0.0,0.1757860783933462
+hasdescriptiveoccupation,war hero,cornelius scipio,"africanus, ""participant in the second punic war""), has_participant_role(publius cornelius scipio africanus, ""founder of italica""), has_participant_role(publius cornelius scipio africanus, ""participant in the war with antiochus"").",35,0.5833333333333334,7,0.553311499272198,0.0,0.12160331478619012
+hasdescriptiveoccupation,war hero,record,module:,27,0.6138888888888889,13,0.4226190476190476,0.0,0.0
+hasdescriptiveoccupation,war hero,has_sex,sex_type,32,0.5742063492063493,12,0.4166666666666667,0.0,0.0
+hasdescriptiveoccupation,war hero,has_sex,male,32,0.5742063492063493,33,0.5833333333333334,0.0,0.0
+hasdescriptiveoccupation,war hero,cornelius scipio,"africanus, ""male"").",35,0.5833333333333334,30,0.5109649122807017,0.0,0.0
+hasdescriptiveoccupation,war hero,record,module:,27,0.6138888888888889,13,0.4226190476190476,0.0,0.0
+hasdescriptiveoccupation,war hero,has_occupation,occupation,68,0.8045940170940171,22,0.48333333333333334,0.0,0.0
+hasdescriptiveoccupation,war hero,has_occupation,roman general,68,0.8045940170940171,38,0.6032051282051282,0.0,0.0
+hasdescriptiveoccupation,war hero,has_occupation,statesman,68,0.8045940170940171,24,0.49074074074074076,0.0,0.0
+hasdescriptiveoccupation,war hero,has_occupation,consul,68,0.8045940170940171,14,0.0,0.0,0.0
+hasdescriptiveoccupation,war hero,has_occupation,priest of mars,68,0.8045940170940171,27,0.5273809523809524,0.0,0.0
+hasdescriptiveoccupation,war hero,cornelius scipio,"africanus, ""roman general""), has_occupation(publius cornelius scipio africanus, ""statesman""), has_occupation(publius cornelius scipio africanus, ""consul""), has_occupation(publius cornelius scipio africanus, ""priest of mars"").",35,0.5833333333333334,6,0.5401322751322751,0.0,0.0
+hasdescriptiveoccupation,war hero,record,module:,27,0.6138888888888889,13,0.4226190476190476,0.0,0.0
+hasdescriptiveoccupation,war hero,has_birthdate,date_of_birth,38,0.6286324786324786,29,0.5192307692307693,0.0,0.0
+hasdescriptiveoccupation,war hero,has_birthdate,236/235 bc,38,0.6286324786324786,11,0.4083333333333334,0.0,0.0
+hasdescriptiveoccupation,war hero,cornelius scipio,"africanus, ""236/235 bc"")",35,0.5833333333333334,19,0.5,0.0,0.0
+hasdescriptiveoccupation,war hero,has_deathdate,date_of_death,43,0.652065527065527,29,0.5352564102564102,0.0,0.0
+hasdescriptiveoccupation,war hero,has_deathdate,183 bc,43,0.652065527065527,14,0.4305555555555555,0.0,0.0
+hasdescriptiveoccupation,war hero,cornelius scipio,"africanus, ""183 bc"").",35,0.5833333333333334,21,0.5059523809523809,0.0,0.0
+hasdescriptiveoccupation,war hero,status record,module:,32,0.540954415954416,13,0.4226190476190476,0.0,0.0
+hasdescriptiveoccupation,war hero,has_person_status,general,39,0.6241830065359477,27,0.3452380952380952,0.0,0.0
+hasdescriptiveoccupation,war hero,has_person_status,consul,39,0.6241830065359477,14,0.0,0.0,0.0
+hasdescriptiveoccupation,war hero,has_person_status,priest,39,0.6241830065359477,29,0.5277777777777778,0.0,0.0
+hasdescriptiveoccupation,war hero,cornelius scipio,"africanus, ""general""), has_person_status(publius cornelius scipio africanus, ""consul""), has_person_status(publius cornelius scipio africanus, ""priest"")",35,0.5833333333333334,9,0.592833491012299,0.0,0.0
+hasdescriptiveoccupation,war hero,has_status_generating_event,event,39,0.5815696649029983,15,0.44166666666666665,0.0,0.0
+hasdescriptiveoccupation,war hero,has_status_generating_event,victories in wars,39,0.5815696649029983,24,0.4950980392156863,0.0,0.0
+hasdescriptiveoccupation,war hero,has_status_generating_event,elections,39,0.5815696649029983,24,0.49074074074074076,0.0,0.0
+hasdescriptiveoccupation,war hero,has_status_generating_event,appointment as priest of mars,39,0.5815696649029983,22,0.5324712643678161,0.0,0.0
+hasdescriptiveoccupation,war hero,in,"wars""), has_status_generating_event(consul, ""elections""), has_status_generating_event(priest, ""appointment as priest of mars"")",15,0.5138888888888888,12,0.6878306878306878,0.0,0.0
+hasdescriptiveoccupation,war hero,recorded_at,event,34,0.5202020202020202,15,0.44166666666666665,0.0,0.0
+hasdescriptiveoccupation,war hero,recorded_at,victories in wars,34,0.5202020202020202,24,0.4950980392156863,0.0,0.0
+hasdescriptiveoccupation,war hero,recorded_at,elections,34,0.5202020202020202,24,0.49074074074074076,0.0,0.0
+hasdescriptiveoccupation,war hero,recorded_at,appointment as priest of mars,34,0.5202020202020202,22,0.5324712643678161,0.0,0.0
+hasdescriptiveoccupation,war hero,in,"wars""), recorded_at(consul, ""elections""), recorded_at(priest, ""appointment as priest of mars"").",15,0.5138888888888888,14,0.6019423558897242,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),record,module:,27,0.6138888888888889,10,0.3131868131868132,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_name,name,25,0.5555555555555555,24,0.4423076923076923,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_name,publius cornelius scipio africanus,25,0.5555555555555555,21,0.5335595776772247,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),cornelius scipio,"africanus, ""publius cornelius scipio africanus"")",35,0.5833333333333334,26,0.515491452991453,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_surname,surname,34,0.5474386724386724,40,0.543040293040293,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_surname,scipio,34,0.5474386724386724,32,0.576923076923077,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),cornelius scipio,"africanus, ""scipio"")",35,0.5833333333333334,24,0.5467948717948717,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_first_name,first_name,32,0.5615079365079364,35,0.5615384615384615,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_first_name,publius,32,0.5615079365079364,10,0.3131868131868132,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),cornelius scipio,"africanus, ""publius"")",35,0.5833333333333334,24,0.5404456654456654,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_alternate_name,alternate_name,38,0.5574074074074075,37,0.5805860805860806,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_alternate_name,africanus,38,0.5574074074074075,27,0.5133903133903134,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),cornelius scipio,"africanus, ""africanus"").",35,0.5833333333333334,27,0.5245726495726496,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),relationship record,module:,33,0.6137539361223572,10,0.3131868131868132,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,33,0.5548373195432018,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_interagent_relationship_type_to,opponent,41,0.6037698412698412,19,0.4679487179487179,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_interagent_relationship_type_to,victor,41,0.6037698412698412,32,0.576923076923077,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),cornelius scipio,"africanus, ""opponent""), has_interagent_relationship_type_to(publius cornelius scipio africanus, ""victor"")",35,0.5833333333333334,17,0.5290931290931291,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),is_relationship_to,agent,38,0.6264245014245015,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),is_relationship_to,hannibal,38,0.6264245014245015,29,0.5365384615384615,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),is_relationship_to,cato the elder,38,0.6264245014245015,22,0.4816849816849817,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),cornelius scipio,"africanus, ""hannibal""), is_relationship_to(publius cornelius scipio africanus, ""cato the elder"").",35,0.5833333333333334,18,0.5319731814577175,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),role record,module:,29,0.4873737373737373,10,0.3131868131868132,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_participant_role,participant_role_type,50,0.6805555555555555,24,0.5286935286935287,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_participant_role,participant in the second punic war,50,0.6805555555555555,25,0.43321123321123317,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_participant_role,founder of italica,50,0.6805555555555555,26,0.4874643874643875,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_participant_role,participant in the war with antiochus,50,0.6805555555555555,20,0.4301224301224302,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),cornelius scipio,"africanus, ""participant in the second punic war""), has_participant_role(publius cornelius scipio africanus, ""founder of italica""), has_participant_role(publius cornelius scipio africanus, ""participant in the war with antiochus"").",35,0.5833333333333334,9,0.5101841390050997,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),record,module:,27,0.6138888888888889,10,0.3131868131868132,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_sex,sex_type,32,0.5742063492063493,19,0.4006410256410256,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_sex,male,32,0.5742063492063493,24,0.5512820512820512,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),cornelius scipio,"africanus, ""male"").",35,0.5833333333333334,31,0.5538124156545209,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),record,module:,27,0.6138888888888889,10,0.3131868131868132,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_occupation,occupation,68,0.8045940170940171,35,0.48589743589743595,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_occupation,roman general,68,0.8045940170940171,31,0.5299145299145299,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_occupation,statesman,68,0.8045940170940171,27,0.5007122507122507,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_occupation,consul,68,0.8045940170940171,21,0.46581196581196577,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_occupation,priest of mars,68,0.8045940170940171,30,0.5189255189255189,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),cornelius scipio,"africanus, ""roman general""), has_occupation(publius cornelius scipio africanus, ""statesman""), has_occupation(publius cornelius scipio africanus, ""consul""), has_occupation(publius cornelius scipio africanus, ""priest of mars"").",35,0.5833333333333334,9,0.5104687904687905,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),record,module:,27,0.6138888888888889,10,0.3131868131868132,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_birthdate,date_of_birth,38,0.6286324786324786,23,0.4871794871794872,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_birthdate,236/235 bc,38,0.6286324786324786,9,0.3923076923076923,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),cornelius scipio,"africanus, ""236/235 bc"")",35,0.5833333333333334,22,0.5245726495726496,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_deathdate,date_of_death,43,0.652065527065527,23,0.4871794871794872,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_deathdate,183 bc,43,0.652065527065527,11,0.41452991452991456,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),cornelius scipio,"africanus, ""183 bc"").",35,0.5833333333333334,24,0.5404456654456654,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),status record,module:,32,0.540954415954416,10,0.3131868131868132,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_person_status,general,39,0.6241830065359477,20,0.442002442002442,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_person_status,consul,39,0.6241830065359477,21,0.46581196581196577,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_person_status,priest,39,0.6241830065359477,11,0.46581196581196577,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),cornelius scipio,"africanus, ""general""), has_person_status(publius cornelius scipio africanus, ""consul""), has_person_status(publius cornelius scipio africanus, ""priest"")",35,0.5833333333333334,13,0.518455054878896,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_status_generating_event,event,39,0.5815696649029983,11,0.4256410256410256,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_status_generating_event,victories in wars,39,0.5815696649029983,40,0.6048265460030166,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_status_generating_event,elections,39,0.5815696649029983,27,0.5007122507122507,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),has_status_generating_event,appointment as priest of mars,39,0.5815696649029983,24,0.5054155614500443,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),in,"wars""), has_status_generating_event(consul, ""elections""), has_status_generating_event(priest, ""appointment as priest of mars"")",15,0.5138888888888888,14,0.5061050061050061,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),recorded_at,event,34,0.5202020202020202,11,0.4256410256410256,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),recorded_at,victories in wars,34,0.5202020202020202,40,0.6048265460030166,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),recorded_at,elections,34,0.5202020202020202,27,0.5007122507122507,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),recorded_at,appointment as priest of mars,34,0.5202020202020202,24,0.5054155614500443,0.0,0.0
+hasdescriptiveoccupation,sailor (navy),in,"wars""), recorded_at(consul, ""elections""), recorded_at(priest, ""appointment as priest of mars"").",15,0.5138888888888888,17,0.5327689854005643,0.0,0.0
+hasfirstname,scipio,record,module:,22,0.4166666666666667,15,0.0,0.0,0.0
+hasfirstname,scipio,has_name,name,70,0.8736111111111112,0,0.0,0.0,0.0
+hasfirstname,scipio,has_name,publius cornelius scipio africanus,70,0.8736111111111112,30,0.5588235294117647,0.0,0.3799783615910079
+hasfirstname,scipio,cornelius scipio,"africanus, ""publius cornelius scipio africanus"")",21,0.4583333333333333,22,0.6527777777777778,0.0,0.2789425453258252
+hasfirstname,scipio,has_surname,surname,70,0.8733164983164984,15,0.4365079365079365,0.0,0.0
+hasfirstname,scipio,has_surname,scipio,70,0.8733164983164984,100,1.0,0.0,1.0
+hasfirstname,scipio,cornelius scipio,"africanus, ""scipio"")",21,0.4583333333333333,46,0.4388888888888889,0.0,0.5797386715376658
+hasfirstname,scipio,has_first_name,first_name,92,0.9666666666666667,12,0.3444444444444444,0.0,0.0
+hasfirstname,scipio,has_first_name,publius,92,0.9666666666666667,31,0.4365079365079365,0.0,0.0
+hasfirstname,scipio,cornelius scipio,"africanus, ""publius"")",21,0.4583333333333333,22,0.5357142857142857,0.0,0.0
+hasfirstname,scipio,has_alternate_name,alternate_name,60,0.6759259259259259,0,0.0,0.0,0.0
+hasfirstname,scipio,has_alternate_name,africanus,60,0.6759259259259259,13,0.35185185185185186,0.0,0.0
+hasfirstname,scipio,cornelius scipio,"africanus, ""africanus"").",21,0.4583333333333333,13,0.5277777777777778,0.0,0.0
+hasfirstname,scipio,relationship record,module:,32,0.5077276524644946,15,0.0,0.0,0.0
+hasfirstname,scipio,has_interagent_relationship_type_to,relationship_type,34,0.5949735449735449,26,0.4477124183006536,0.0,0.0
+hasfirstname,scipio,has_interagent_relationship_type_to,opponent,34,0.5949735449735449,29,0.5277777777777778,0.0,0.0
+hasfirstname,scipio,has_interagent_relationship_type_to,victor,34,0.5949735449735449,33,0.5555555555555555,0.0,0.0
+hasfirstname,scipio,cornelius scipio,"africanus, ""opponent""), has_interagent_relationship_type_to(publius cornelius scipio africanus, ""victor"")",21,0.4583333333333333,11,0.5746031746031747,0.0,0.23076792961123066
+hasfirstname,scipio,is_relationship_to,agent,27,0.6203703703703703,0,0.0,0.0,0.0
+hasfirstname,scipio,is_relationship_to,hannibal,27,0.6203703703703703,14,0.4305555555555555,0.0,0.0
+hasfirstname,scipio,is_relationship_to,cato the elder,27,0.6203703703703703,20,0.4920634920634921,0.0,0.0
+hasfirstname,scipio,cornelius scipio,"africanus, ""hannibal""), is_relationship_to(publius cornelius scipio africanus, ""cato the elder"").",21,0.4583333333333333,12,0.5761741122565865,0.0,0.2097553962782169
+hasfirstname,scipio,role record,module:,17,0.44949494949494956,15,0.0,0.0,0.0
+hasfirstname,scipio,has_participant_role,participant_role_type,44,0.6962962962962962,30,0.6238095238095238,0.0,0.0
+hasfirstname,scipio,has_participant_role,participant in the second punic war,44,0.6962962962962962,24,0.5103174603174603,0.0,0.0
+hasfirstname,scipio,has_participant_role,founder of italica,44,0.6962962962962962,17,0.3148148148148148,0.0,0.0
+hasfirstname,scipio,has_participant_role,participant in the war with antiochus,44,0.6962962962962962,23,0.5082582582582583,0.0,0.0
+hasfirstname,scipio,cornelius scipio,"africanus, ""participant in the second punic war""), has_participant_role(publius cornelius scipio africanus, ""founder of italica""), has_participant_role(publius cornelius scipio africanus, ""participant in the war with antiochus"").",21,0.4583333333333333,5,0.6198447355652595,0.0,0.2097553962782169
+hasfirstname,scipio,record,module:,22,0.4166666666666667,15,0.0,0.0,0.0
+hasfirstname,scipio,has_sex,sex_type,53,0.6349206349206349,29,0.5277777777777778,0.0,0.0
+hasfirstname,scipio,has_sex,male,53,0.6349206349206349,0,0.0,0.0,0.0
+hasfirstname,scipio,cornelius scipio,"africanus, ""male"").",21,0.4583333333333333,8,0.44152046783625726,0.0,0.0
+hasfirstname,scipio,record,module:,22,0.4166666666666667,15,0.0,0.0,0.0
+hasfirstname,scipio,has_occupation,occupation,38,0.5873015873015873,50,0.6888888888888888,0.0,0.0
+hasfirstname,scipio,has_occupation,roman general,38,0.5873015873015873,11,0.41452991452991456,0.0,0.0
+hasfirstname,scipio,has_occupation,statesman,38,0.5873015873015873,13,0.4259259259259259,0.0,0.0
+hasfirstname,scipio,has_occupation,consul,38,0.5873015873015873,33,0.4444444444444444,0.0,0.0
+hasfirstname,scipio,has_occupation,priest of mars,38,0.5873015873015873,30,0.5674603174603174,0.0,0.0
+hasfirstname,scipio,cornelius scipio,"africanus, ""roman general""), has_occupation(publius cornelius scipio africanus, ""statesman""), has_occupation(publius cornelius scipio africanus, ""consul""), has_occupation(publius cornelius scipio africanus, ""priest of mars"").",21,0.4583333333333333,5,0.5644444444444444,0.0,0.28898755920909636
+hasfirstname,scipio,record,module:,22,0.4166666666666667,15,0.0,0.0,0.0
+hasfirstname,scipio,has_birthdate,date_of_birth,64,0.8324786324786324,11,0.32905982905982906,0.0,0.0
+hasfirstname,scipio,has_birthdate,236/235 bc,64,0.8324786324786324,12,0.0,0.0,0.0
+hasfirstname,scipio,cornelius scipio,"africanus, ""236/235 bc"")",21,0.4583333333333333,13,0.4305555555555555,0.0,0.0
+hasfirstname,scipio,has_deathdate,date_of_death,48,0.5982905982905983,11,0.41452991452991456,0.0,0.0
+hasfirstname,scipio,has_deathdate,183 bc,48,0.5982905982905983,17,0.0,0.0,0.0
+hasfirstname,scipio,cornelius scipio,"africanus, ""183 bc"").",21,0.4583333333333333,15,0.43650793650793646,0.0,0.0
+hasfirstname,scipio,status record,module:,32,0.5427350427350427,15,0.0,0.0,0.0
+hasfirstname,scipio,has_person_status,general,48,0.6857298474945533,0,0.0,0.0,0.0
+hasfirstname,scipio,has_person_status,consul,48,0.6857298474945533,33,0.4444444444444444,0.0,0.0
+hasfirstname,scipio,has_person_status,priest,48,0.6857298474945533,33,0.4444444444444444,0.0,0.0
+hasfirstname,scipio,cornelius scipio,"africanus, ""general""), has_person_status(publius cornelius scipio africanus, ""consul""), has_person_status(publius cornelius scipio africanus, ""priest"")",21,0.4583333333333333,8,0.5688005886681383,0.0,0.2789425453258252
+hasfirstname,scipio,has_status_generating_event,event,41,0.5833333333333334,0,0.0,0.0,0.0
+hasfirstname,scipio,has_status_generating_event,victories in wars,41,0.5833333333333334,26,0.46732026143790845,0.0,0.0
+hasfirstname,scipio,has_status_generating_event,elections,41,0.5833333333333334,40,0.611111111111111,0.0,0.0
+hasfirstname,scipio,has_status_generating_event,appointment as priest of mars,41,0.5833333333333334,23,0.5352490421455939,0.0,0.0
+hasfirstname,scipio,in,"wars""), has_status_generating_event(consul, ""elections""), has_status_generating_event(priest, ""appointment as priest of mars"")",29,0.5277777777777778,9,0.49100529100529106,0.0,0.0
+hasfirstname,scipio,recorded_at,event,17,0.4823232323232323,0,0.0,0.0,0.0
+hasfirstname,scipio,recorded_at,victories in wars,17,0.4823232323232323,26,0.46732026143790845,0.0,0.0
+hasfirstname,scipio,recorded_at,elections,17,0.4823232323232323,40,0.611111111111111,0.0,0.0
+hasfirstname,scipio,recorded_at,appointment as priest of mars,17,0.4823232323232323,23,0.5352490421455939,0.0,0.0
+hasfirstname,scipio,in,"wars""), recorded_at(consul, ""elections""), recorded_at(priest, ""appointment as priest of mars"").",29,0.5277777777777778,12,0.48625730994152044,0.0,0.0
+hassurname,africanus,record,module:,25,0.4222222222222222,12,0.0,0.0,0.0
+hassurname,africanus,has_name,name,78,0.9008333333333334,15,0.4537037037037037,0.0,0.0
+hassurname,africanus,has_name,publius cornelius scipio africanus,78,0.9008333333333334,42,0.5032679738562091,0.0,0.3799783615910079
+hassurname,africanus,cornelius scipio,"africanus, ""publius cornelius scipio africanus"")",23,0.4916666666666667,32,0.8375,0.0,0.6348087971775132
+hassurname,africanus,has_surname,surname,95,0.9787878787878788,25,0.4761904761904761,0.0,0.0
+hassurname,africanus,has_surname,scipio,95,0.9787878787878788,13,0.35185185185185186,0.0,0.0
+hassurname,africanus,cornelius scipio,"africanus, ""scipio"")",23,0.4916666666666667,62,0.89,0.0,0.5797386715376658
+hassurname,africanus,has_first_name,first_name,67,0.8674074074074074,32,0.5518518518518518,0.0,0.0
+hassurname,africanus,has_first_name,publius,67,0.8674074074074074,38,0.5873015873015873,0.0,0.0
+hassurname,africanus,cornelius scipio,"africanus, ""publius"")",23,0.4916666666666667,60,0.8857142857142858,0.0,0.5797386715376658
+hassurname,africanus,has_alternate_name,alternate_name,57,0.6648148148148149,35,0.49338624338624343,0.0,0.0
+hassurname,africanus,has_alternate_name,africanus,57,0.6648148148148149,100,1.0,0.0,1.0
+hassurname,africanus,cornelius scipio,"africanus, ""africanus"").",23,0.4916666666666667,55,0.875,0.0,1.0
+hassurname,africanus,relationship record,module:,28,0.4543859649122807,12,0.0,0.0,0.0
+hassurname,africanus,has_interagent_relationship_type_to,relationship_type,31,0.5380952380952381,31,0.5498910675381264,0.0,0.0
+hassurname,africanus,has_interagent_relationship_type_to,opponent,31,0.5380952380952381,12,0.41203703703703703,0.0,0.0
+hassurname,africanus,has_interagent_relationship_type_to,victor,31,0.5380952380952381,27,0.5,0.0,0.0
+hassurname,africanus,cornelius scipio,"africanus, ""opponent""), has_interagent_relationship_type_to(publius cornelius scipio africanus, ""victor"")",23,0.4916666666666667,16,0.6952380952380951,0.0,0.5023287782256718
+hassurname,africanus,is_relationship_to,agent,21,0.5333333333333333,29,0.5407407407407407,0.0,0.0
+hassurname,africanus,is_relationship_to,hannibal,21,0.5333333333333333,35,0.5648148148148148,0.0,0.0
+hassurname,africanus,is_relationship_to,cato the elder,21,0.5333333333333333,17,0.28835978835978837,0.0,0.0
+hassurname,africanus,cornelius scipio,"africanus, ""hannibal""), is_relationship_to(publius cornelius scipio africanus, ""cato the elder"").",23,0.4916666666666667,17,0.6975945017182131,0.0,0.4494364165239821
+hassurname,africanus,role record,module:,19,0.46060606060606063,12,0.0,0.0,0.0
+hassurname,africanus,has_participant_role,participant_role_type,40,0.5777777777777778,40,0.6507936507936508,0.0,0.0
+hassurname,africanus,has_participant_role,participant in the second punic war,40,0.5777777777777778,32,0.6592592592592593,0.0,0.0
+hassurname,africanus,has_participant_role,founder of italica,40,0.5777777777777778,37,0.5555555555555555,0.0,0.0
+hassurname,africanus,has_participant_role,participant in the war with antiochus,40,0.5777777777777778,35,0.6096096096096096,0.0,0.0
+hassurname,africanus,cornelius scipio,"africanus, ""participant in the second punic war""), has_participant_role(publius cornelius scipio africanus, ""founder of italica""), has_participant_role(publius cornelius scipio africanus, ""participant in the war with antiochus"").",23,0.4916666666666667,8,0.6797671033478894,0.0,0.3234269579951918
+hassurname,africanus,record,module:,25,0.4222222222222222,12,0.0,0.0,0.0
+hassurname,africanus,has_sex,sex_type,59,0.8166666666666667,12,0.0,0.0,0.0
+hassurname,africanus,has_sex,male,59,0.8166666666666667,15,0.4537037037037037,0.0,0.0
+hassurname,africanus,cornelius scipio,"africanus, ""male"").",23,0.4916666666666667,64,0.8947368421052632,0.0,0.5797386715376658
+hassurname,africanus,record,module:,25,0.4222222222222222,12,0.0,0.0,0.0
+hassurname,africanus,has_occupation,occupation,42,0.6190476190476191,32,0.5518518518518518,0.0,0.0
+hassurname,africanus,has_occupation,roman general,42,0.6190476190476191,27,0.4102564102564103,0.0,0.0
+hassurname,africanus,has_occupation,statesman,42,0.6190476190476191,33,0.5462962962962963,0.0,0.0
+hassurname,africanus,has_occupation,consul,42,0.6190476190476191,40,0.4259259259259259,0.0,0.0
+hassurname,africanus,has_occupation,priest of mars,42,0.6190476190476191,35,0.49338624338624343,0.0,0.0
+hassurname,africanus,cornelius scipio,"africanus, ""roman general""), has_occupation(publius cornelius scipio africanus, ""statesman""), has_occupation(publius cornelius scipio africanus, ""consul""), has_occupation(publius cornelius scipio africanus, ""priest of mars"").",23,0.4916666666666667,8,0.68,0.0,0.398134564426263
+hassurname,africanus,record,module:,25,0.4222222222222222,12,0.0,0.0,0.0
+hassurname,africanus,has_birthdate,date_of_birth,52,0.6871794871794871,27,0.4586894586894587,0.0,0.0
+hassurname,africanus,has_birthdate,236/235 bc,52,0.6871794871794871,11,0.0,0.0,0.0
+hassurname,africanus,cornelius scipio,"africanus, ""236/235 bc"")",23,0.4916666666666667,55,0.875,0.0,0.3799783615910079
+hassurname,africanus,has_deathdate,date_of_death,43,0.5615384615384615,27,0.5213675213675214,0.0,0.0
+hassurname,africanus,has_deathdate,183 bc,43,0.5615384615384615,13,0.4259259259259259,0.0,0.0
+hassurname,africanus,cornelius scipio,"africanus, ""183 bc"").",23,0.4916666666666667,60,0.8857142857142858,0.0,0.44943641652398214
+hassurname,africanus,status record,module:,35,0.5760683760683761,12,0.0,0.0,0.0
+hassurname,africanus,has_person_status,general,44,0.6735294117647058,25,0.5026455026455027,0.0,0.0
+hassurname,africanus,has_person_status,consul,44,0.6735294117647058,40,0.4259259259259259,0.0,0.0
+hassurname,africanus,has_person_status,priest,44,0.6735294117647058,40,0.5185185185185185,0.0,0.0
+hassurname,africanus,cornelius scipio,"africanus, ""general""), has_person_status(publius cornelius scipio africanus, ""consul""), has_person_status(publius cornelius scipio africanus, ""priest"")",23,0.4916666666666667,11,0.6865342163355409,0.0,0.4397933004107658
+hassurname,africanus,has_status_generating_event,event,43,0.6703703703703704,14,0.43703703703703706,0.0,0.0
+hassurname,africanus,has_status_generating_event,victories in wars,43,0.6703703703703704,31,0.48322440087145974,0.0,0.0
+hassurname,africanus,has_status_generating_event,elections,43,0.6703703703703704,33,0.5462962962962963,0.0,0.0
+hassurname,africanus,has_status_generating_event,appointment as priest of mars,43,0.6703703703703704,26,0.509323116219668,0.0,0.0
+hassurname,africanus,in,"wars""), has_status_generating_event(consul, ""elections""), has_status_generating_event(priest, ""appointment as priest of mars"")",17,0.0,10,0.5674603174603174,0.0,0.0
+hassurname,africanus,recorded_at,event,19,0.41313131313131307,14,0.43703703703703706,0.0,0.0
+hassurname,africanus,recorded_at,victories in wars,19,0.41313131313131307,31,0.48322440087145974,0.0,0.0
+hassurname,africanus,recorded_at,elections,19,0.41313131313131307,33,0.5462962962962963,0.0,0.0
+hassurname,africanus,recorded_at,appointment as priest of mars,19,0.41313131313131307,26,0.509323116219668,0.0,0.0
+hassurname,africanus,in,"wars""), recorded_at(consul, ""elections""), recorded_at(priest, ""appointment as priest of mars"").",17,0.0,13,0.6160331384015595,0.0,0.0
+hasname,scipio africanus,record,module:,15,0.0,17,0.40178571428571425,0.0,0.0
+hasname,scipio africanus,has_name,name,93,0.9708333333333333,10,0.4375,0.0,0.0
+hasname,scipio africanus,has_name,publius cornelius scipio africanus,93,0.9708333333333333,64,0.6193977591036414,0.0,0.5797386715376658
+hasname,scipio africanus,cornelius scipio,"africanus, ""publius cornelius scipio africanus"")",17,0.4275793650793651,50,0.611111111111111,0.0,0.7090528735856639
+hasname,scipio africanus,has_surname,surname,78,0.9151515151515152,26,0.4275793650793651,0.0,0.0
+hasname,scipio africanus,has_surname,scipio,78,0.9151515151515152,55,0.875,0.0,0.5797386715376658
+hasname,scipio africanus,cornelius scipio,"africanus, ""scipio"")",17,0.4275793650793651,50,0.6669871794871794,0.0,1.0000000000000002
+hasname,scipio africanus,has_first_name,first_name,67,0.5476190476190476,23,0.4708333333333334,0.0,0.0
+hasname,scipio africanus,has_first_name,publius,67,0.5476190476190476,35,0.4275793650793651,0.0,0.0
+hasname,scipio africanus,cornelius scipio,"africanus, ""publius"")",17,0.4275793650793651,49,0.6823107448107448,0.0,0.33609692727625756
+hasname,scipio africanus,has_alternate_name,alternate_name,56,0.6746031746031745,27,0.5119047619047619,0.0,0.0
+hasname,scipio africanus,has_alternate_name,africanus,56,0.6746031746031745,72,0.7800925925925926,0.0,0.5797386715376658
+hasname,scipio africanus,cornelius scipio,"africanus, ""africanus"").",17,0.4275793650793651,55,0.656517094017094,0.0,0.5797386715376658
+hasname,scipio africanus,relationship record,module:,23,0.5106516290726817,17,0.40178571428571425,0.0,0.0
+hasname,scipio africanus,has_interagent_relationship_type_to,relationship_type,29,0.6206349206349207,24,0.4648692810457516,0.0,0.0
+hasname,scipio africanus,has_interagent_relationship_type_to,opponent,29,0.6206349206349207,25,0.40972222222222215,0.0,0.0
+hasname,scipio africanus,has_interagent_relationship_type_to,victor,29,0.6206349206349207,27,0.5555555555555555,0.0,0.0
+hasname,scipio africanus,cornelius scipio,"africanus, ""opponent""), has_interagent_relationship_type_to(publius cornelius scipio africanus, ""victor"")",17,0.4275793650793651,26,0.5378968253968254,0.0,0.5499883949217763
+hasname,scipio africanus,is_relationship_to,agent,16,0.43121693121693117,19,0.42083333333333334,0.0,0.0
+hasname,scipio africanus,is_relationship_to,hannibal,16,0.43121693121693117,25,0.40972222222222215,0.0,0.0
+hasname,scipio africanus,is_relationship_to,cato the elder,16,0.43121693121693117,27,0.4898809523809524,0.0,0.0
+hasname,scipio africanus,cornelius scipio,"africanus, ""hannibal""), is_relationship_to(publius cornelius scipio africanus, ""cato the elder"").",17,0.4275793650793651,28,0.5758161512027492,0.0,0.4888908902652617
+hasname,scipio africanus,role record,module:,11,0.41125541125541126,17,0.40178571428571425,0.0,0.0
+hasname,scipio africanus,has_participant_role,participant_role_type,37,0.5904761904761905,38,0.515542328042328,0.0,0.0
+hasname,scipio africanus,has_participant_role,participant in the second punic war,37,0.5904761904761905,35,0.5741300366300366,0.0,0.0
+hasname,scipio africanus,has_participant_role,founder of italica,37,0.5904761904761905,35,0.6134259259259259,0.0,0.0
+hasname,scipio africanus,has_participant_role,participant in the war with antiochus,37,0.5904761904761905,45,0.49842342342342344,0.0,0.0
+hasname,scipio africanus,cornelius scipio,"africanus, ""participant in the second punic war""), has_participant_role(publius cornelius scipio africanus, ""founder of italica""), has_participant_role(publius cornelius scipio africanus, ""participant in the war with antiochus"").",17,0.4275793650793651,13,0.5232896652110626,0.0,0.39010954553921756
+hasname,scipio africanus,record,module:,15,0.0,17,0.40178571428571425,0.0,0.0
+hasname,scipio africanus,has_sex,sex_type,57,0.8,17,0.4583333333333333,0.0,0.0
+hasname,scipio africanus,has_sex,male,57,0.8,10,0.4375,0.0,0.0
+hasname,scipio africanus,cornelius scipio,"africanus, ""male"").",17,0.4275793650793651,51,0.5504385964912281,0.0,0.33609692727625756
+hasname,scipio africanus,record,module:,15,0.0,17,0.40178571428571425,0.0,0.0
+hasname,scipio africanus,has_occupation,occupation,38,0.6190476190476191,38,0.5472222222222222,0.0,0.0
+hasname,scipio africanus,has_occupation,roman general,38,0.6190476190476191,28,0.5010683760683761,0.0,0.0
+hasname,scipio africanus,has_occupation,statesman,38,0.6190476190476191,32,0.5648148148148148,0.0,0.0
+hasname,scipio africanus,has_occupation,consul,38,0.6190476190476191,36,0.45138888888888884,0.0,0.0
+hasname,scipio africanus,has_occupation,priest of mars,38,0.6190476190476191,47,0.6240079365079364,0.0,0.0
+hasname,scipio africanus,cornelius scipio,"africanus, ""roman general""), has_occupation(publius cornelius scipio africanus, ""statesman""), has_occupation(publius cornelius scipio africanus, ""consul""), has_occupation(publius cornelius scipio africanus, ""priest of mars"").",17,0.4275793650793651,13,0.5237037037037037,0.0,0.5155950755495705
+hasname,scipio africanus,record,module:,15,0.0,17,0.40178571428571425,0.0,0.0
+hasname,scipio africanus,has_birthdate,date_of_birth,50,0.553113553113553,21,0.49903846153846154,0.0,0.0
+hasname,scipio africanus,has_birthdate,236/235 bc,50,0.553113553113553,15,0.44166666666666665,0.0,0.0
+hasname,scipio africanus,cornelius scipio,"africanus, ""236/235 bc"")",17,0.4275793650793651,45,0.5637626262626262,0.0,0.22028815056182974
+hasname,scipio africanus,has_deathdate,date_of_death,50,0.632967032967033,21,0.4358974358974359,0.0,0.0
+hasname,scipio africanus,has_deathdate,183 bc,50,0.632967032967033,18,0.3194444444444444,0.0,0.0
+hasname,scipio africanus,cornelius scipio,"africanus, ""183 bc"").",17,0.4275793650793651,49,0.585588023088023,0.0,0.26055567105626243
+hasname,scipio africanus,status record,module:,30,0.442002442002442,17,0.40178571428571425,0.0,0.0
+hasname,scipio africanus,has_person_status,general,42,0.6028011204481792,17,0.30357142857142855,0.0,0.0
+hasname,scipio africanus,has_person_status,consul,42,0.6028011204481792,36,0.45138888888888884,0.0,0.0
+hasname,scipio africanus,has_person_status,priest,42,0.6028011204481792,36,0.45138888888888884,0.0,0.0
+hasname,scipio africanus,cornelius scipio,"africanus, ""general""), has_person_status(publius cornelius scipio africanus, ""consul""), has_person_status(publius cornelius scipio africanus, ""priest"")",17,0.4275793650793651,19,0.5353200883002208,0.0,0.5414987133734387
+hasname,scipio africanus,has_status_generating_event,event,35,0.6375661375661376,10,0.0,0.0,0.0
+hasname,scipio africanus,has_status_generating_event,victories in wars,35,0.6375661375661376,42,0.6044117647058824,0.0,0.0
+hasname,scipio africanus,has_status_generating_event,elections,35,0.6375661375661376,40,0.6226851851851852,0.0,0.0
+hasname,scipio africanus,has_status_generating_event,appointment as priest of mars,35,0.6375661375661376,36,0.5980276907001045,0.0,0.0
+hasname,scipio africanus,in,"wars""), has_status_generating_event(consul, ""elections""), has_status_generating_event(priest, ""appointment as priest of mars"")",22,0.5476190476190476,17,0.4847120472120472,0.0,0.0
+hasname,scipio africanus,recorded_at,event,11,0.41125541125541126,10,0.0,0.0,0.0
+hasname,scipio africanus,recorded_at,victories in wars,11,0.41125541125541126,42,0.6044117647058824,0.0,0.0
+hasname,scipio africanus,recorded_at,elections,11,0.41125541125541126,40,0.6226851851851852,0.0,0.0
+hasname,scipio africanus,recorded_at,appointment as priest of mars,11,0.41125541125541126,36,0.5980276907001045,0.0,0.0
+hasname,scipio africanus,in,"wars""), recorded_at(consul, ""elections""), recorded_at(priest, ""appointment as priest of mars"").",22,0.5476190476190476,22,0.49593454790823205,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,record,module:,30,0.48412698412698413,4,0.5166701323906563,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_name,name,36,0.5952380952380952,3,0.5058224163027657,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_name,publius cornelius scipio africanus,36,0.5952380952380952,18,0.4938381466123567,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,cornelius scipio,"africanus, ""publius cornelius scipio africanus"")",47,0.5869708994708994,22,0.4858685104318292,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_surname,surname,48,0.6168831168831169,6,0.5339987523393637,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_surname,scipio,48,0.6168831168831169,5,0.5517224648229015,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,cornelius scipio,"africanus, ""scipio"")",47,0.5869708994708994,12,0.4679975046787274,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_first_name,first_name,43,0.6726190476190476,8,0.49828562186640796,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_first_name,publius,43,0.6726190476190476,4,0.5166701323906563,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,cornelius scipio,"africanus, ""publius"")",47,0.5869708994708994,10,0.43770707700838707,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_alternate_name,alternate_name,44,0.582010582010582,11,0.5079338419949774,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_alternate_name,africanus,44,0.582010582010582,8,0.5686559922367782,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,cornelius scipio,"africanus, ""africanus"").",47,0.5869708994708994,14,0.47355652595827263,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,relationship record,module:,30,0.6135338345864662,4,0.5166701323906563,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_interagent_relationship_type_to,relationship_type,37,0.5666666666666667,11,0.48536445145743884,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_interagent_relationship_type_to,opponent,37,0.5666666666666667,6,0.48095584667637065,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_interagent_relationship_type_to,victor,37,0.5666666666666667,5,0.5642891800097041,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,cornelius scipio,"africanus, ""opponent""), has_interagent_relationship_type_to(publius cornelius scipio africanus, ""victor"")",47,0.5869708994708994,32,0.5569979648266595,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,is_relationship_to,agent,44,0.6474266474266474,4,0.5406113537117904,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,is_relationship_to,hannibal,44,0.6474266474266474,7,0.5116448326055313,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,is_relationship_to,cato the elder,44,0.6474266474266474,11,0.5441879808692035,0.0,0.19046727819265089
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,cornelius scipio,"africanus, ""hannibal""), is_relationship_to(publius cornelius scipio africanus, ""cato the elder"").",47,0.5869708994708994,31,0.5567920302310073,0.0,0.08889252838994419
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,role record,module:,24,0.46645021645021645,4,0.5166701323906563,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_participant_role,participant_role_type,47,0.6876623376623376,12,0.4647579191793165,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_participant_role,participant in the second punic war,47,0.6876623376623376,20,0.5231575205092601,0.0,0.20659532823831317
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_participant_role,founder of italica,47,0.6876623376623376,14,0.5632379103994825,0.0,0.08953375158576511
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_participant_role,participant in the war with antiochus,47,0.6876623376623376,23,0.5420713546837359,0.0,0.20659532823831317
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,cornelius scipio,"africanus, ""participant in the second punic war""), has_participant_role(publius cornelius scipio africanus, ""founder of italica""), has_participant_role(publius cornelius scipio africanus, ""participant in the war with antiochus"").",47,0.5869708994708994,41,0.6250228944349653,0.0,0.16740898856308684
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,record,module:,30,0.48412698412698413,4,0.5166701323906563,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_sex,sex_type,38,0.6238095238095238,5,0.4156113537117904,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_sex,male,38,0.6238095238095238,3,0.5058224163027657,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,cornelius scipio,"africanus, ""male"").",47,0.5869708994708994,11,0.462769733649991,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,record,module:,30,0.48412698412698413,4,0.5166701323906563,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_occupation,occupation,64,0.8074074074074075,7,0.4449781659388646,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_occupation,roman general,64,0.8074074074074075,11,0.5573843914455269,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_occupation,statesman,64,0.8074074074074075,8,0.5316189551997412,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_occupation,consul,64,0.8074074074074075,4,0.5642891800097041,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_occupation,priest of mars,64,0.8074074074074075,10,0.5079338419949774,0.0,0.08953375158576514
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,cornelius scipio,"africanus, ""roman general""), has_occupation(publius cornelius scipio africanus, ""statesman""), has_occupation(publius cornelius scipio africanus, ""consul""), has_occupation(publius cornelius scipio africanus, ""priest of mars"").",47,0.5869708994708994,37,0.5759142240108076,0.0,0.01853093556818439
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,record,module:,30,0.48412698412698413,4,0.5166701323906563,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_birthdate,date_of_birth,37,0.6318681318681318,9,0.5101841390050997,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_birthdate,236/235 bc,37,0.6318681318681318,3,0.38915574963609895,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,cornelius scipio,"africanus, ""236/235 bc"")",47,0.5869708994708994,10,0.4052990919803147,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_deathdate,date_of_death,44,0.63003663003663,8,0.5101841390050997,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_deathdate,183 bc,44,0.63003663003663,4,0.4850557981562349,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,cornelius scipio,"africanus, ""183 bc"").",47,0.5869708994708994,11,0.4647579191793165,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,status record,module:,37,0.5366300366300366,4,0.5166701323906563,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_person_status,general,45,0.6675070028011204,6,0.5339987523393637,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_person_status,consul,45,0.6675070028011204,4,0.5642891800097041,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_person_status,priest,45,0.6675070028011204,5,0.4850557981562349,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,cornelius scipio,"africanus, ""general""), has_person_status(publius cornelius scipio africanus, ""consul""), has_person_status(publius cornelius scipio africanus, ""priest"")",47,0.5869708994708994,33,0.5481918908221542,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_status_generating_event,event,39,0.5476190476190476,4,0.607278020378457,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_status_generating_event,victories in wars,39,0.5476190476190476,13,0.5345491908553814,0.0,0.08953375158576511
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_status_generating_event,elections,39,0.5476190476190476,8,0.5316189551997412,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,has_status_generating_event,appointment as priest of mars,39,0.5476190476190476,19,0.5161834601677998,0.0,0.06677149567183634
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,in,"wars""), has_status_generating_event(consul, ""elections""), has_status_generating_event(priest, ""appointment as priest of mars"")",25,0.0,35,0.5833743622651019,0.0,0.037215252186247876
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,recorded_at,event,32,0.47056277056277057,4,0.607278020378457,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,recorded_at,victories in wars,32,0.47056277056277057,13,0.5345491908553814,0.0,0.08953375158576511
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,recorded_at,elections,32,0.47056277056277057,8,0.5316189551997412,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,recorded_at,appointment as priest of mars,32,0.47056277056277057,19,0.5161834601677998,0.0,0.06677149567183634
+hasdescription,enslaved. free before 13th amendment. served in the navy during the american revolution aboard the ranger and was one of several crewmembers to petition the american commissioners in france for better treatment of a ship officer.,in,"wars""), recorded_at(consul, ""elections""), recorded_at(priest, ""appointment as priest of mars"").",25,0.0,32,0.5610575181018757,0.0,0.03721525218624787

@@ -1,0 +1,529 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,mahommah gardo baquaqua,32,0.537878787878788,14,0.30676328502415456,0.0,0.0
+instance of,person,gardo,"baquaqua, ""mahommah gardo baquaqua"")",25,0.43030303030303035,10,0.39814814814814814,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,baquaqua,27,0.49242424242424243,0,0.0,0.0,0.0
+instance of,person,gardo,"baquaqua, ""baquaqua"")",25,0.43030303030303035,0,0.0,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,mahommah,40,0.5692640692640693,14,0.4305555555555555,0.0,0.0
+instance of,person,gardo,"baquaqua, ""mahommah"").",25,0.43030303030303035,7,0.40404040404040403,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,information,available.,36,0.5696969696969697,12,0.0,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,male,22,0.45598845598845594,20,0.47222222222222215,0.0,0.0
+instance of,person,gardo,"baquaqua, ""male"").",25,0.43030303030303035,8,0.0,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,slave,24,0.38311688311688313,18,0.0,0.0,0.0
+instance of,person,has_occupation,servant,24,0.38311688311688313,46,0.6428571428571429,0.0,0.0
+instance of,person,has_occupation,student,24,0.38311688311688313,31,0.4365079365079365,0.0,0.0
+instance of,person,has_occupation,autobiographer,24,0.38311688311688313,30,0.3253968253968254,0.0,0.0
+instance of,person,gardo,"baquaqua, ""slave, servant, student, autobiographer"").",25,0.43030303030303035,14,0.49737945492662466,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_age,unknown,33,0.45598845598845594,31,0.373015873015873,0.0,0.0
+instance of,person,gardo,"baquaqua, ""unknown"")",25,0.43030303030303035,15,0.4055555555555556,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_birthdate,between 1820 and 1830,33,0.5463869463869464,15,0.4761904761904762,0.0,0.0
+instance of,person,gardo,"baquaqua, ""between 1820 and 1830"")",25,0.43030303030303035,10,0.4640522875816993,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,unknown,33,0.39044289044289043,31,0.373015873015873,0.0,0.0
+instance of,person,gardo,"baquaqua, ""unknown"").",25,0.43030303030303035,15,0.4047619047619047,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,enslaved person,29,0.449554367201426,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,has_person_status,servant,29,0.449554367201426,46,0.6428571428571429,0.0,0.0
+instance of,person,has_person_status,free man,29,0.449554367201426,29,0.5138888888888888,0.0,0.0
+instance of,person,gardo,"baquaqua, ""enslaved person, servant, free man"")",25,0.43030303030303035,23,0.5425531914893617,0.0,0.3032160644503863
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,captured during the succession wars in daboya,26,0.4799102132435466,24,0.5148148148148147,0.0,0.0
+instance of,person,has_status_generating_event,became a servant of a local dignitary in djougou,26,0.4799102132435466,15,0.5125000000000001,0.0,0.0
+instance of,person,has_status_generating_event,escaped to new york in 1847 with the help of abolitionists,26,0.4799102132435466,16,0.5344827586206896,0.0,0.0
+instance of,person,during the succession wars in,"daboya""), has_status_generating_event(servant, ""became a servant of a local dignitary in djougou""), has_status_generating_event(free man, ""escaped to new york in 1847 with the help of abolitionists"").",30,0.5843782654127482,5,0.48611111111111116,0.0,0.0
+instance of,person,recorded_at,event,18,0.4545454545454546,36,0.5777777777777778,0.0,0.0
+instance of,person,recorded_at,captured during the succession wars in daboya,18,0.4545454545454546,24,0.5148148148148147,0.0,0.0
+instance of,person,recorded_at,became a servant of a local dignitary in djougou,18,0.4545454545454546,15,0.5125000000000001,0.0,0.0
+instance of,person,recorded_at,escaped to new york in 1847 with the help of abolitionists,18,0.4545454545454546,16,0.5344827586206896,0.0,0.0
+instance of,person,during the succession wars in,"daboya""), recorded_at(servant, ""became a servant of a local dignitary in djougou""), recorded_at(free man, ""escaped to new york in 1847 with the help of abolitionists"").",30,0.5843782654127482,6,0.5543650793650794,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_name,name,57,0.8055555555555556,50,0.6666666666666666,0.0,0.0
+hassex,male,has_name,mahommah gardo baquaqua,57,0.8055555555555556,15,0.5289855072463768,0.0,0.0
+hassex,male,gardo,"baquaqua, ""mahommah gardo baquaqua"")",18,0.45555555555555555,10,0.35185185185185186,0.0,0.0
+hassex,male,has_surname,surname,59,0.6767676767676768,36,0.0,0.0,0.0
+hassex,male,has_surname,baquaqua,59,0.6767676767676768,17,0.4583333333333333,0.0,0.0
+hassex,male,gardo,"baquaqua, ""baquaqua"")",18,0.45555555555555555,8,0.43253968253968256,0.0,0.0
+hassex,male,has_first_name,first_name,50,0.6507936507936508,29,0.0,0.0,0.0
+hassex,male,has_first_name,mahommah,50,0.6507936507936508,33,0.5833333333333334,0.0,0.0
+hassex,male,gardo,"baquaqua, ""mahommah"").",18,0.45555555555555555,15,0.4318181818181818,0.0,0.0
+hassex,male,relationship record,module:,24,0.44152046783625726,55,0.7535714285714287,0.0,0.0
+hassex,male,information,available.,12,0.0,43,0.5666666666666667,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_sex,sex_type,92,0.9666666666666667,17,0.4583333333333333,0.0,0.0
+hassex,male,has_sex,male,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,male,gardo,"baquaqua, ""male"").",18,0.45555555555555555,36,0.4351851851851852,0.0,0.5797386715376658
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_occupation,occupation,30,0.5714285714285715,14,0.45,0.0,0.0
+hassex,male,has_occupation,slave,30,0.5714285714285715,44,0.6722222222222222,0.0,0.0
+hassex,male,has_occupation,servant,30,0.5714285714285715,18,0.46428571428571425,0.0,0.0
+hassex,male,has_occupation,student,30,0.5714285714285715,18,0.46428571428571425,0.0,0.0
+hassex,male,has_occupation,autobiographer,30,0.5714285714285715,22,0.44047619047619047,0.0,0.0
+hassex,male,gardo,"baquaqua, ""slave, servant, student, autobiographer"").",18,0.45555555555555555,11,0.6022012578616353,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_age,age,62,0.8222222222222222,57,0.7222222222222222,0.0,0.0
+hassex,male,has_age,unknown,62,0.8222222222222222,0,0.0,0.0,0.0
+hassex,male,gardo,"baquaqua, ""unknown"")",18,0.45555555555555555,8,0.43333333333333335,0.0,0.0
+hassex,male,has_birthdate,date_of_birth,42,0.576923076923077,24,0.5512820512820512,0.0,0.0
+hassex,male,has_birthdate,between 1820 and 1830,42,0.576923076923077,8,0.43253968253968256,0.0,0.0
+hassex,male,gardo,"baquaqua, ""between 1820 and 1830"")",18,0.45555555555555555,11,0.5196078431372549,0.0,0.0
+hassex,male,has_deathdate,date_of_death,42,0.6581196581196581,24,0.5512820512820512,0.0,0.0
+hassex,male,has_deathdate,unknown,42,0.6581196581196581,0,0.0,0.0,0.0
+hassex,male,gardo,"baquaqua, ""unknown"").",18,0.45555555555555555,8,0.43253968253968256,0.0,0.0
+hassex,male,status record,module:,32,0.5747863247863249,55,0.7535714285714287,0.0,0.0
+hassex,male,has_person_status,enslaved person,35,0.642483660130719,21,0.5388888888888889,0.0,0.0
+hassex,male,has_person_status,servant,35,0.642483660130719,18,0.46428571428571425,0.0,0.0
+hassex,male,has_person_status,free man,35,0.642483660130719,33,0.4583333333333333,0.0,0.0
+hassex,male,gardo,"baquaqua, ""enslaved person, servant, free man"")",18,0.45555555555555555,12,0.49349881796690304,0.0,0.0
+hassex,male,has_status_generating_event,event,30,0.6728395061728395,22,0.48333333333333334,0.0,0.0
+hassex,male,has_status_generating_event,captured during the succession wars in daboya,30,0.6728395061728395,8,0.5148148148148147,0.0,0.0
+hassex,male,has_status_generating_event,became a servant of a local dignitary in djougou,30,0.6728395061728395,12,0.611111111111111,0.0,0.0
+hassex,male,has_status_generating_event,escaped to new york in 1847 with the help of abolitionists,30,0.6728395061728395,6,0.3448275862068965,0.0,0.0
+hassex,male,during the succession wars in,"daboya""), has_status_generating_event(servant, ""became a servant of a local dignitary in djougou""), has_status_generating_event(free man, ""escaped to new york in 1847 with the help of abolitionists"").",17,0.518199233716475,4,0.5066666666666667,0.0,0.0
+hassex,male,recorded_at,event,12,0.41919191919191917,22,0.48333333333333334,0.0,0.0
+hassex,male,recorded_at,captured during the succession wars in daboya,12,0.41919191919191917,8,0.5148148148148147,0.0,0.0
+hassex,male,recorded_at,became a servant of a local dignitary in djougou,12,0.41919191919191917,12,0.611111111111111,0.0,0.0
+hassex,male,recorded_at,escaped to new york in 1847 with the help of abolitionists,12,0.41919191919191917,6,0.3448275862068965,0.0,0.0
+hassex,male,during the succession wars in,"daboya""), recorded_at(servant, ""became a servant of a local dignitary in djougou""), recorded_at(free man, ""escaped to new york in 1847 with the help of abolitionists"").",17,0.518199233716475,5,0.5079365079365079,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,mahommah gardo baquaqua,38,0.5675925925925926,14,0.4956521739130435,0.0,0.0
+hasparticipantrole,child,gardo,"baquaqua, ""mahommah gardo baquaqua"")",26,0.5037037037037037,10,0.40925925925925927,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,baquaqua,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,gardo,"baquaqua, ""baquaqua"")",26,0.5037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,mahommah,44,0.6772486772486772,15,0.44166666666666665,0.0,0.0
+hasparticipantrole,child,gardo,"baquaqua, ""mahommah"").",26,0.5037037037037037,7,0.0,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,information,available.,28,0.5798460798460798,27,0.5333333333333333,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,male,32,0.5317460317460317,22,0.48333333333333334,0.0,0.0
+hasparticipantrole,child,gardo,"baquaqua, ""male"").",26,0.5037037037037037,9,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,slave,50,0.6566137566137565,20,0.0,0.0,0.0
+hasparticipantrole,child,has_occupation,servant,50,0.6566137566137565,0,0.0,0.0,0.0
+hasparticipantrole,child,has_occupation,student,50,0.6566137566137565,17,0.44761904761904764,0.0,0.0
+hasparticipantrole,child,has_occupation,autobiographer,50,0.6566137566137565,11,0.4238095238095238,0.0,0.0
+hasparticipantrole,child,gardo,"baquaqua, ""slave, servant, student, autobiographer"").",26,0.5037037037037037,7,0.4062893081761006,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_age,age,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_age,unknown,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,gardo,"baquaqua, ""unknown"")",26,0.5037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,has_birthdate,date_of_birth,52,0.6937321937321936,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_birthdate,between 1820 and 1830,52,0.6937321937321936,8,0.0,0.0,0.0
+hasparticipantrole,child,gardo,"baquaqua, ""between 1820 and 1830"")",26,0.5037037037037037,5,0.0,0.0,0.0
+hasparticipantrole,child,has_deathdate,date_of_death,52,0.6866096866096866,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_deathdate,unknown,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,child,gardo,"baquaqua, ""unknown"").",26,0.5037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,enslaved person,46,0.6479302832244008,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,child,has_person_status,servant,46,0.6479302832244008,0,0.0,0.0,0.0
+hasparticipantrole,child,has_person_status,free man,46,0.6479302832244008,0,0.0,0.0,0.0
+hasparticipantrole,child,gardo,"baquaqua, ""enslaved person, servant, free man"")",26,0.5037037037037037,8,0.4808510638297872,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,captured during the succession wars in daboya,40,0.5819304152637487,16,0.5462962962962963,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,became a servant of a local dignitary in djougou,40,0.5819304152637487,11,0.48055555555555557,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,escaped to new york in 1847 with the help of abolitionists,40,0.5819304152637487,10,0.439463601532567,0.0,0.0
+hasparticipantrole,child,during the succession wars in,"daboya""), has_status_generating_event(servant, ""became a servant of a local dignitary in djougou""), has_status_generating_event(free man, ""escaped to new york in 1847 with the help of abolitionists"").",26,0.5545977011494253,4,0.6083333333333333,0.0,0.0
+hasparticipantrole,child,recorded_at,event,28,0.36195286195286197,0,0.0,0.0,0.0
+hasparticipantrole,child,recorded_at,captured during the succession wars in daboya,28,0.36195286195286197,16,0.5462962962962963,0.0,0.0
+hasparticipantrole,child,recorded_at,became a servant of a local dignitary in djougou,28,0.36195286195286197,11,0.48055555555555557,0.0,0.0
+hasparticipantrole,child,recorded_at,escaped to new york in 1847 with the help of abolitionists,28,0.36195286195286197,10,0.439463601532567,0.0,0.0
+hasparticipantrole,child,during the succession wars in,"daboya""), recorded_at(servant, ""became a servant of a local dignitary in djougou""), recorded_at(free man, ""escaped to new york in 1847 with the help of abolitionists"").",26,0.5545977011494253,3,0.5246031746031746,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,mahommah gardo baquaqua,38,0.5675925925925926,21,0.45024154589371984,0.0,0.0
+hasparticipantrole,deceased person,gardo,"baquaqua, ""mahommah gardo baquaqua"")",26,0.5037037037037037,16,0.42407407407407405,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,baquaqua,41,0.6274651274651274,9,0.3972222222222222,0.0,0.0
+hasparticipantrole,deceased person,gardo,"baquaqua, ""baquaqua"")",26,0.5037037037037037,11,0.40952380952380957,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,mahommah,44,0.6772486772486772,17,0.3972222222222222,0.0,0.0
+hasparticipantrole,deceased person,gardo,"baquaqua, ""mahommah"").",26,0.5037037037037037,16,0.4454545454545455,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,information,available.,28,0.5798460798460798,16,0.2777777777777778,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,male,32,0.5317460317460317,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,gardo,"baquaqua, ""male"").",26,0.5037037037037037,18,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,slave,50,0.6566137566137565,20,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,servant,50,0.6566137566137565,36,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,student,50,0.6566137566137565,36,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,autobiographer,50,0.6566137566137565,28,0.43412698412698414,0.0,0.0
+hasparticipantrole,deceased person,gardo,"baquaqua, ""slave, servant, student, autobiographer"").",26,0.5037037037037037,26,0.45178197064989517,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_age,age,40,0.5978835978835978,22,0.4333333333333333,0.0,0.0
+hasparticipantrole,deceased person,has_age,unknown,40,0.5978835978835978,18,0.0,0.0,0.0
+hasparticipantrole,deceased person,gardo,"baquaqua, ""unknown"")",26,0.5037037037037037,23,0.4055555555555556,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,date_of_birth,52,0.6937321937321936,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,between 1820 and 1830,52,0.6937321937321936,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,gardo,"baquaqua, ""between 1820 and 1830"")",26,0.5037037037037037,20,0.4143790849673203,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,date_of_death,52,0.6866096866096866,36,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,unknown,52,0.6866096866096866,18,0.0,0.0,0.0
+hasparticipantrole,deceased person,gardo,"baquaqua, ""unknown"").",26,0.5037037037037037,22,0.40238095238095234,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,enslaved person,46,0.6479302832244008,73,0.7833333333333333,0.0,0.33609692727625756
+hasparticipantrole,deceased person,has_person_status,servant,46,0.6479302832244008,36,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,free man,46,0.6479302832244008,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,gardo,"baquaqua, ""enslaved person, servant, free man"")",26,0.5037037037037037,35,0.6631387525004547,0.0,0.1757860783933462
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,captured during the succession wars in daboya,40,0.5819304152637487,30,0.6052910052910053,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,became a servant of a local dignitary in djougou,40,0.5819304152637487,29,0.5329545454545453,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,escaped to new york in 1847 with the help of abolitionists,40,0.5819304152637487,27,0.5687297376952549,0.0,0.0
+hasparticipantrole,deceased person,during the succession wars in,"daboya""), has_status_generating_event(servant, ""became a servant of a local dignitary in djougou""), has_status_generating_event(free man, ""escaped to new york in 1847 with the help of abolitionists"").",26,0.5545977011494253,13,0.5487301587301587,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,event,28,0.36195286195286197,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,captured during the succession wars in daboya,28,0.36195286195286197,30,0.6052910052910053,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,became a servant of a local dignitary in djougou,28,0.36195286195286197,29,0.5329545454545453,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,escaped to new york in 1847 with the help of abolitionists,28,0.36195286195286197,27,0.5687297376952549,0.0,0.0
+hasparticipantrole,deceased person,during the succession wars in,"daboya""), recorded_at(servant, ""became a servant of a local dignitary in djougou""), recorded_at(free man, ""escaped to new york in 1847 with the help of abolitionists"").",26,0.5545977011494253,15,0.5293650793650794,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,mahommah gardo baquaqua,25,0.5555555555555555,7,0.4144927536231884,0.0,0.0
+hasdescriptiveoccupation,slave,gardo,"baquaqua, ""mahommah gardo baquaqua"")",21,0.5722222222222223,5,0.40925925925925927,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,surname,34,0.5474386724386724,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,baquaqua,34,0.5474386724386724,15,0.44166666666666665,0.0,0.0
+hasdescriptiveoccupation,slave,gardo,"baquaqua, ""baquaqua"")",21,0.5722222222222223,8,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,first_name,32,0.5615079365079364,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,mahommah,32,0.5615079365079364,15,0.44166666666666665,0.0,0.0
+hasdescriptiveoccupation,slave,gardo,"baquaqua, ""mahommah"").",21,0.5722222222222223,7,0.4151515151515152,0.0,0.0
+hasdescriptiveoccupation,slave,relationship record,module:,33,0.6137539361223572,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,information,available.,40,0.4318181818181818,40,0.65,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,sex_type,32,0.5742063492063493,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,male,32,0.5742063492063493,44,0.6722222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,gardo,"baquaqua, ""male"").",21,0.5722222222222223,17,0.4185185185185185,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,slave,68,0.8045940170940171,100,1.0,0.0,1.0
+hasdescriptiveoccupation,slave,has_occupation,servant,68,0.8045940170940171,33,0.565079365079365,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,student,68,0.8045940170940171,33,0.5619047619047619,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,autobiographer,68,0.8045940170940171,21,0.4238095238095238,0.0,0.0
+hasdescriptiveoccupation,slave,gardo,"baquaqua, ""slave, servant, student, autobiographer"").",21,0.5722222222222223,17,0.6314465408805031,0.0,0.33517574332792605
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,age,26,0.5793650793650794,50,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,unknown,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,gardo,"baquaqua, ""unknown"")",21,0.5722222222222223,8,0.4166666666666667,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,date_of_birth,38,0.6286324786324786,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,between 1820 and 1830,38,0.6286324786324786,8,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,gardo,"baquaqua, ""between 1820 and 1830"")",21,0.5722222222222223,10,0.4862745098039216,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,date_of_death,43,0.652065527065527,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,unknown,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,gardo,"baquaqua, ""unknown"").",21,0.5722222222222223,8,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,enslaved person,39,0.6241830065359477,50,0.6444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,servant,39,0.6241830065359477,33,0.565079365079365,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,free man,39,0.6241830065359477,15,0.44166666666666665,0.0,0.0
+hasdescriptiveoccupation,slave,gardo,"baquaqua, ""enslaved person, servant, free man"")",21,0.5722222222222223,19,0.5687943262411347,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,event,39,0.5815696649029983,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,captured during the succession wars in daboya,39,0.5815696649029983,8,0.4444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,became a servant of a local dignitary in djougou,39,0.5815696649029983,11,0.5680555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,escaped to new york in 1847 with the help of abolitionists,39,0.5815696649029983,10,0.439463601532567,0.0,0.0
+hasdescriptiveoccupation,slave,during the succession wars in,"daboya""), has_status_generating_event(servant, ""became a servant of a local dignitary in djougou""), has_status_generating_event(free man, ""escaped to new york in 1847 with the help of abolitionists"").",38,0.60798399819698,5,0.5416666666666666,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,event,34,0.5202020202020202,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,captured during the succession wars in daboya,34,0.5202020202020202,8,0.4444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,became a servant of a local dignitary in djougou,34,0.5202020202020202,11,0.5680555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,escaped to new york in 1847 with the help of abolitionists,34,0.5202020202020202,10,0.439463601532567,0.0,0.0
+hasdescriptiveoccupation,slave,during the succession wars in,"daboya""), recorded_at(servant, ""became a servant of a local dignitary in djougou""), recorded_at(free man, ""escaped to new york in 1847 with the help of abolitionists"").",38,0.60798399819698,5,0.5432539682539682,0.0,0.0
+hasdescriptiveoccupation,abolitionist,record,module:,27,0.6138888888888889,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_name,name,25,0.5555555555555555,12,0.4444444444444444,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_name,mahommah gardo baquaqua,25,0.5555555555555555,17,0.46014492753623193,0.0,0.0
+hasdescriptiveoccupation,abolitionist,gardo,"baquaqua, ""mahommah gardo baquaqua"")",21,0.5722222222222223,12,0.39814814814814814,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_surname,surname,34,0.5474386724386724,11,0.31746031746031744,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_surname,baquaqua,34,0.5474386724386724,10,0.3055555555555555,0.0,0.0
+hasdescriptiveoccupation,abolitionist,gardo,"baquaqua, ""baquaqua"")",21,0.5722222222222223,12,0.25396825396825395,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_first_name,first_name,32,0.5615079365079364,27,0.5166666666666667,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_first_name,mahommah,32,0.5615079365079364,20,0.47222222222222215,0.0,0.0
+hasdescriptiveoccupation,abolitionist,gardo,"baquaqua, ""mahommah"").",21,0.5722222222222223,12,0.351010101010101,0.0,0.0
+hasdescriptiveoccupation,abolitionist,relationship record,module:,33,0.6137539361223572,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,information,available.,40,0.4318181818181818,27,0.49444444444444446,0.0,0.0
+hasdescriptiveoccupation,abolitionist,record,module:,27,0.6138888888888889,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_sex,sex_type,32,0.5742063492063493,20,0.40277777777777773,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_sex,male,32,0.5742063492063493,25,0.5555555555555555,0.0,0.0
+hasdescriptiveoccupation,abolitionist,gardo,"baquaqua, ""male"").",21,0.5722222222222223,13,0.25925925925925924,0.0,0.0
+hasdescriptiveoccupation,abolitionist,record,module:,27,0.6138888888888889,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_occupation,occupation,68,0.8045940170940171,45,0.5888888888888889,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_occupation,slave,68,0.8045940170940171,12,0.35555555555555557,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_occupation,servant,68,0.8045940170940171,32,0.44841269841269843,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_occupation,student,68,0.8045940170940171,32,0.5595238095238095,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_occupation,autobiographer,68,0.8045940170940171,31,0.5873015873015873,0.0,0.0
+hasdescriptiveoccupation,abolitionist,gardo,"baquaqua, ""slave, servant, student, autobiographer"").",21,0.5722222222222223,15,0.47656483977238695,0.0,0.0
+hasdescriptiveoccupation,abolitionist,record,module:,27,0.6138888888888889,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_age,age,26,0.5793650793650794,13,0.47222222222222215,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_age,unknown,26,0.5793650793650794,21,0.31746031746031744,0.0,0.0
+hasdescriptiveoccupation,abolitionist,gardo,"baquaqua, ""unknown"")",21,0.5722222222222223,19,0.3444444444444444,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_birthdate,date_of_birth,38,0.6286324786324786,40,0.5337606837606838,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_birthdate,between 1820 and 1830,38,0.6286324786324786,18,0.46428571428571425,0.0,0.0
+hasdescriptiveoccupation,abolitionist,gardo,"baquaqua, ""between 1820 and 1830"")",21,0.5722222222222223,17,0.4003267973856209,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_deathdate,date_of_death,43,0.652065527065527,32,0.46367521367521364,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_deathdate,unknown,43,0.652065527065527,21,0.31746031746031744,0.0,0.0
+hasdescriptiveoccupation,abolitionist,gardo,"baquaqua, ""unknown"").",21,0.5722222222222223,18,0.3412698412698412,0.0,0.0
+hasdescriptiveoccupation,abolitionist,status record,module:,32,0.540954415954416,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_person_status,enslaved person,39,0.6241830065359477,22,0.45,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_person_status,servant,39,0.6241830065359477,32,0.44841269841269843,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_person_status,free man,39,0.6241830065359477,20,0.40277777777777773,0.0,0.0
+hasdescriptiveoccupation,abolitionist,gardo,"baquaqua, ""enslaved person, servant, free man"")",21,0.5722222222222223,20,0.375886524822695,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_status_generating_event,event,39,0.5815696649029983,24,0.35555555555555557,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_status_generating_event,captured during the succession wars in daboya,39,0.5815696649029983,25,0.48981481481481487,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_status_generating_event,became a servant of a local dignitary in djougou,39,0.5815696649029983,23,0.5940656565656566,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_status_generating_event,escaped to new york in 1847 with the help of abolitionists,39,0.5815696649029983,34,0.5239463601532567,0.0,0.0
+hasdescriptiveoccupation,abolitionist,during the succession wars in,"daboya""), has_status_generating_event(servant, ""became a servant of a local dignitary in djougou""), has_status_generating_event(free man, ""escaped to new york in 1847 with the help of abolitionists"").",38,0.60798399819698,11,0.5755555555555555,0.0,0.0
+hasdescriptiveoccupation,abolitionist,recorded_at,event,34,0.5202020202020202,24,0.35555555555555557,0.0,0.0
+hasdescriptiveoccupation,abolitionist,recorded_at,captured during the succession wars in daboya,34,0.5202020202020202,25,0.48981481481481487,0.0,0.0
+hasdescriptiveoccupation,abolitionist,recorded_at,became a servant of a local dignitary in djougou,34,0.5202020202020202,23,0.5940656565656566,0.0,0.0
+hasdescriptiveoccupation,abolitionist,recorded_at,escaped to new york in 1847 with the help of abolitionists,34,0.5202020202020202,34,0.5239463601532567,0.0,0.0
+hasdescriptiveoccupation,abolitionist,during the succession wars in,"daboya""), recorded_at(servant, ""became a servant of a local dignitary in djougou""), recorded_at(free man, ""escaped to new york in 1847 with the help of abolitionists"").",38,0.60798399819698,13,0.5793650793650794,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,record,module:,27,0.6138888888888889,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_name,name,25,0.5555555555555555,23,0.5176767676767676,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_name,mahommah gardo baquaqua,25,0.5555555555555555,31,0.4519836041575172,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,gardo,"baquaqua, ""mahommah gardo baquaqua"")",21,0.5722222222222223,28,0.4441077441077441,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_surname,surname,34,0.5474386724386724,28,0.5138528138528139,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_surname,baquaqua,34,0.5474386724386724,20,0.5037878787878788,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,gardo,"baquaqua, ""baquaqua"")",21,0.5722222222222223,28,0.4639249639249639,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_first_name,first_name,32,0.5615079365079364,25,0.5131313131313131,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_first_name,mahommah,32,0.5615079365079364,20,0.44696969696969696,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,gardo,"baquaqua, ""mahommah"").",21,0.5722222222222223,32,0.4978354978354978,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,relationship record,module:,33,0.6137539361223572,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,information,available.,40,0.4318181818181818,31,0.5298701298701298,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,record,module:,27,0.6138888888888889,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_sex,sex_type,32,0.5742063492063493,27,0.5606060606060607,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_sex,male,32,0.5742063492063493,15,0.5176767676767676,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,gardo,"baquaqua, ""male"").",21,0.5722222222222223,25,0.42424242424242414,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,record,module:,27,0.6138888888888889,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_occupation,occupation,68,0.8045940170940171,25,0.4439393939393939,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_occupation,slave,68,0.8045940170940171,37,0.8454545454545456,0.0,0.4494364165239821
+hasdescriptiveoccupation,slave narrative author,has_occupation,servant,68,0.8045940170940171,41,0.6774891774891775,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_occupation,student,68,0.8045940170940171,28,0.5010822510822511,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_occupation,autobiographer,68,0.8045940170940171,33,0.5200216450216449,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,gardo,"baquaqua, ""slave, servant, student, autobiographer"").",21,0.5722222222222223,43,0.6179019590141736,0.0,0.15064018498706508
+hasdescriptiveoccupation,slave narrative author,record,module:,27,0.6138888888888889,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_age,age,26,0.5793650793650794,16,0.5858585858585859,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_age,unknown,26,0.5793650793650794,14,0.39610389610389607,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,gardo,"baquaqua, ""unknown"")",21,0.5722222222222223,29,0.4608225108225108,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_birthdate,date_of_birth,38,0.6286324786324786,29,0.5236430236430237,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_birthdate,between 1820 and 1830,38,0.6286324786324786,23,0.40764790764790765,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,gardo,"baquaqua, ""between 1820 and 1830"")",21,0.5722222222222223,25,0.48663101604278075,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_deathdate,date_of_death,43,0.652065527065527,34,0.5236430236430237,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_deathdate,unknown,43,0.652065527065527,14,0.39610389610389607,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,gardo,"baquaqua, ""unknown"").",21,0.5722222222222223,28,0.45526695526695526,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,status record,module:,32,0.540954415954416,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_person_status,enslaved person,39,0.6241830065359477,43,0.5737373737373738,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_person_status,servant,39,0.6241830065359477,41,0.6774891774891775,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_person_status,free man,39,0.6241830065359477,27,0.5507575757575758,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,gardo,"baquaqua, ""enslaved person, servant, free man"")",21,0.5722222222222223,38,0.6156130170687841,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_status_generating_event,event,39,0.5815696649029983,30,0.5772727272727273,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_status_generating_event,captured during the succession wars in daboya,39,0.5815696649029983,30,0.5795801148742324,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_status_generating_event,became a servant of a local dignitary in djougou,39,0.5815696649029983,31,0.6014309764309765,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_status_generating_event,escaped to new york in 1847 with the help of abolitionists,39,0.5815696649029983,30,0.4511695201350374,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,during the succession wars in,"daboya""), has_status_generating_event(servant, ""became a servant of a local dignitary in djougou""), has_status_generating_event(free man, ""escaped to new york in 1847 with the help of abolitionists"").",38,0.60798399819698,17,0.5518181818181819,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,recorded_at,event,34,0.5202020202020202,30,0.5772727272727273,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,recorded_at,captured during the succession wars in daboya,34,0.5202020202020202,30,0.5795801148742324,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,recorded_at,became a servant of a local dignitary in djougou,34,0.5202020202020202,31,0.6014309764309765,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,recorded_at,escaped to new york in 1847 with the help of abolitionists,34,0.5202020202020202,30,0.4511695201350374,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,during the succession wars in,"daboya""), recorded_at(servant, ""became a servant of a local dignitary in djougou""), recorded_at(free man, ""escaped to new york in 1847 with the help of abolitionists"").",38,0.60798399819698,17,0.5344516594516594,0.0,0.0
+hasfirstname,mahommah gardo,record,module:,22,0.4166666666666667,29,0.4761904761904762,0.0,0.0
+hasfirstname,mahommah gardo,has_name,name,70,0.8736111111111112,22,0.38095238095238093,0.0,0.0
+hasfirstname,mahommah gardo,has_name,mahommah gardo baquaqua,70,0.8736111111111112,76,0.9217391304347826,0.0,0.7092972666062739
+hasfirstname,mahommah gardo,gardo,"baquaqua, ""mahommah gardo baquaqua"")",24,0.5222222222222223,56,0.701058201058201,0.0,0.4494364165239822
+hasfirstname,mahommah gardo,has_surname,surname,70,0.8733164983164984,19,0.30952380952380953,0.0,0.0
+hasfirstname,mahommah gardo,has_surname,baquaqua,70,0.8733164983164984,27,0.5297619047619048,0.0,0.0
+hasfirstname,mahommah gardo,gardo,"baquaqua, ""baquaqua"")",24,0.5222222222222223,23,0.4087301587301588,0.0,0.0
+hasfirstname,mahommah gardo,has_first_name,first_name,92,0.9666666666666667,17,0.44761904761904764,0.0,0.0
+hasfirstname,mahommah gardo,has_first_name,mahommah,92,0.9666666666666667,73,0.9142857142857143,0.0,0.5797386715376658
+hasfirstname,mahommah gardo,gardo,"baquaqua, ""mahommah"").",24,0.5222222222222223,44,0.5200216450216449,0.0,0.33609692727625756
+hasfirstname,mahommah gardo,relationship record,module:,32,0.5077276524644946,29,0.4761904761904762,0.0,0.0
+hasfirstname,mahommah gardo,information,available.,35,0.597041847041847,25,0.5047619047619047,0.0,0.0
+hasfirstname,mahommah gardo,record,module:,22,0.4166666666666667,29,0.4761904761904762,0.0,0.0
+hasfirstname,mahommah gardo,has_sex,sex_type,53,0.6349206349206349,0,0.0,0.0,0.0
+hasfirstname,mahommah gardo,has_sex,male,53,0.6349206349206349,22,0.5476190476190476,0.0,0.0
+hasfirstname,mahommah gardo,gardo,"baquaqua, ""male"").",24,0.5222222222222223,25,0.4783068783068783,0.0,0.0
+hasfirstname,mahommah gardo,record,module:,22,0.4166666666666667,29,0.4761904761904762,0.0,0.0
+hasfirstname,mahommah gardo,has_occupation,occupation,38,0.5873015873015873,25,0.3936507936507936,0.0,0.0
+hasfirstname,mahommah gardo,has_occupation,slave,38,0.5873015873015873,11,0.4238095238095238,0.0,0.0
+hasfirstname,mahommah gardo,has_occupation,servant,38,0.5873015873015873,10,0.4047619047619047,0.0,0.0
+hasfirstname,mahommah gardo,has_occupation,student,38,0.5873015873015873,10,0.0,0.0,0.0
+hasfirstname,mahommah gardo,has_occupation,autobiographer,38,0.5873015873015873,36,0.5079365079365079,0.0,0.0
+hasfirstname,mahommah gardo,gardo,"baquaqua, ""slave, servant, student, autobiographer"").",24,0.5222222222222223,21,0.4583707696915244,0.0,0.0
+hasfirstname,mahommah gardo,record,module:,22,0.4166666666666667,29,0.4761904761904762,0.0,0.0
+hasfirstname,mahommah gardo,has_age,age,53,0.7972222222222223,24,0.4682539682539682,0.0,0.0
+hasfirstname,mahommah gardo,has_age,unknown,53,0.7972222222222223,10,0.4047619047619047,0.0,0.0
+hasfirstname,mahommah gardo,gardo,"baquaqua, ""unknown"")",24,0.5222222222222223,24,0.4690476190476191,0.0,0.0
+hasfirstname,mahommah gardo,has_birthdate,date_of_birth,64,0.8324786324786324,22,0.4478021978021978,0.0,0.0
+hasfirstname,mahommah gardo,has_birthdate,between 1820 and 1830,64,0.8324786324786324,17,0.3412698412698412,0.0,0.0
+hasfirstname,mahommah gardo,gardo,"baquaqua, ""between 1820 and 1830"")",24,0.5222222222222223,21,0.434733893557423,0.0,0.0
+hasfirstname,mahommah gardo,has_deathdate,date_of_death,48,0.5982905982905983,30,0.513919413919414,0.0,0.0
+hasfirstname,mahommah gardo,has_deathdate,unknown,48,0.5982905982905983,10,0.4047619047619047,0.0,0.0
+hasfirstname,mahommah gardo,gardo,"baquaqua, ""unknown"").",24,0.5222222222222223,23,0.46507936507936504,0.0,0.0
+hasfirstname,mahommah gardo,status record,module:,32,0.5427350427350427,29,0.4761904761904762,0.0,0.0
+hasfirstname,mahommah gardo,has_person_status,enslaved person,48,0.6857298474945533,28,0.49682539682539684,0.0,0.0
+hasfirstname,mahommah gardo,has_person_status,servant,48,0.6857298474945533,10,0.4047619047619047,0.0,0.0
+hasfirstname,mahommah gardo,has_person_status,free man,48,0.6857298474945533,18,0.41865079365079366,0.0,0.0
+hasfirstname,mahommah gardo,gardo,"baquaqua, ""enslaved person, servant, free man"")",24,0.5222222222222223,20,0.5020263424518744,0.0,0.0
+hasfirstname,mahommah gardo,has_status_generating_event,event,41,0.5833333333333334,0,0.0,0.0,0.0
+hasfirstname,mahommah gardo,has_status_generating_event,captured during the succession wars in daboya,41,0.5833333333333334,27,0.45661375661375664,0.0,0.0
+hasfirstname,mahommah gardo,has_status_generating_event,became a servant of a local dignitary in djougou,41,0.5833333333333334,32,0.5075396825396825,0.0,0.0
+hasfirstname,mahommah gardo,has_status_generating_event,escaped to new york in 1847 with the help of abolitionists,41,0.5833333333333334,17,0.3973727422003284,0.0,0.0
+hasfirstname,mahommah gardo,during the succession wars in,"daboya""), has_status_generating_event(servant, ""became a servant of a local dignitary in djougou""), has_status_generating_event(free man, ""escaped to new york in 1847 with the help of abolitionists"").",29,0.48084291187739464,9,0.5279365079365079,0.0,0.0
+hasfirstname,mahommah gardo,recorded_at,event,17,0.4823232323232323,0,0.0,0.0,0.0
+hasfirstname,mahommah gardo,recorded_at,captured during the succession wars in daboya,17,0.4823232323232323,27,0.45661375661375664,0.0,0.0
+hasfirstname,mahommah gardo,recorded_at,became a servant of a local dignitary in djougou,17,0.4823232323232323,32,0.5075396825396825,0.0,0.0
+hasfirstname,mahommah gardo,recorded_at,escaped to new york in 1847 with the help of abolitionists,17,0.4823232323232323,17,0.3973727422003284,0.0,0.0
+hasfirstname,mahommah gardo,during the succession wars in,"daboya""), recorded_at(servant, ""became a servant of a local dignitary in djougou""), recorded_at(free man, ""escaped to new york in 1847 with the help of abolitionists"").",29,0.48084291187739464,11,0.4912698412698413,0.0,0.0
+hassurname,baquaqua,record,module:,25,0.4222222222222222,13,0.4226190476190476,0.0,0.0
+hassurname,baquaqua,has_name,name,78,0.9008333333333334,17,0.4583333333333333,0.0,0.0
+hassurname,baquaqua,has_name,mahommah gardo baquaqua,78,0.9008333333333334,52,0.5018115942028986,0.0,0.4494364165239821
+hassurname,baquaqua,gardo,"baquaqua, ""mahommah gardo baquaqua"")",27,0.5333333333333333,36,0.8444444444444446,0.0,0.7092972666062738
+hassurname,baquaqua,has_surname,surname,95,0.9787878787878788,27,0.3452380952380952,0.0,0.0
+hassurname,baquaqua,has_surname,baquaqua,95,0.9787878787878788,100,1.0,0.0,1.0
+hassurname,baquaqua,gardo,"baquaqua, ""baquaqua"")",27,0.5333333333333333,55,0.8761904761904762,0.0,1.0
+hassurname,baquaqua,has_first_name,first_name,67,0.8674074074074074,11,0.4083333333333334,0.0,0.0
+hassurname,baquaqua,has_first_name,mahommah,67,0.8674074074074074,25,0.5,0.0,0.0
+hassurname,baquaqua,gardo,"baquaqua, ""mahommah"").",27,0.5333333333333333,53,0.8727272727272728,0.0,0.5797386715376658
+hassurname,baquaqua,relationship record,module:,28,0.4543859649122807,13,0.4226190476190476,0.0,0.0
+hassurname,baquaqua,information,available.,19,0.5045454545454545,33,0.5583333333333333,0.0,0.0
+hassurname,baquaqua,record,module:,25,0.4222222222222222,13,0.4226190476190476,0.0,0.0
+hassurname,baquaqua,has_sex,sex_type,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,baquaqua,has_sex,male,59,0.8166666666666667,17,0.4583333333333333,0.0,0.0
+hassurname,baquaqua,gardo,"baquaqua, ""male"").",27,0.5333333333333333,62,0.888888888888889,0.0,0.5797386715376658
+hassurname,baquaqua,record,module:,25,0.4222222222222222,13,0.4226190476190476,0.0,0.0
+hassurname,baquaqua,has_occupation,occupation,42,0.6190476190476191,22,0.31666666666666665,0.0,0.0
+hassurname,baquaqua,has_occupation,slave,42,0.6190476190476191,15,0.44166666666666665,0.0,0.0
+hassurname,baquaqua,has_occupation,servant,42,0.6190476190476191,13,0.4226190476190476,0.0,0.0
+hassurname,baquaqua,has_occupation,student,42,0.6190476190476191,13,0.4226190476190476,0.0,0.0
+hassurname,baquaqua,has_occupation,autobiographer,42,0.6190476190476191,27,0.5119047619047619,0.0,0.0
+hassurname,baquaqua,gardo,"baquaqua, ""slave, servant, student, autobiographer"").",27,0.5333333333333333,26,0.8301886792452831,0.0,0.33517574332792605
+hassurname,baquaqua,record,module:,25,0.4222222222222222,13,0.4226190476190476,0.0,0.0
+hassurname,baquaqua,has_age,age,59,0.8166666666666667,18,0.4861111111111111,0.0,0.0
+hassurname,baquaqua,has_age,unknown,59,0.8166666666666667,13,0.4226190476190476,0.0,0.0
+hassurname,baquaqua,gardo,"baquaqua, ""unknown"")",27,0.5333333333333333,57,0.88,0.0,0.5797386715376658
+hassurname,baquaqua,has_birthdate,date_of_birth,52,0.6871794871794871,10,0.4006410256410256,0.0,0.0
+hassurname,baquaqua,has_birthdate,between 1820 and 1830,52,0.6871794871794871,14,0.44841269841269843,0.0,0.0
+hassurname,baquaqua,gardo,"baquaqua, ""between 1820 and 1830"")",27,0.5333333333333333,38,0.8470588235294118,0.0,0.33517574332792605
+hassurname,baquaqua,has_deathdate,date_of_death,43,0.5615384615384615,19,0.4679487179487179,0.0,0.0
+hassurname,baquaqua,has_deathdate,unknown,43,0.5615384615384615,13,0.4226190476190476,0.0,0.0
+hassurname,baquaqua,gardo,"baquaqua, ""unknown"").",27,0.5333333333333333,55,0.8761904761904762,0.0,0.5797386715376658
+hassurname,baquaqua,status record,module:,35,0.5760683760683761,13,0.4226190476190476,0.0,0.0
+hassurname,baquaqua,has_person_status,enslaved person,44,0.6735294117647058,9,0.3972222222222222,0.0,0.0
+hassurname,baquaqua,has_person_status,servant,44,0.6735294117647058,13,0.4226190476190476,0.0,0.0
+hassurname,baquaqua,has_person_status,free man,44,0.6735294117647058,12,0.4166666666666667,0.0,0.0
+hassurname,baquaqua,gardo,"baquaqua, ""enslaved person, servant, free man"")",27,0.5333333333333333,29,0.8340425531914895,0.0,0.3032160644503863
+hassurname,baquaqua,has_status_generating_event,event,43,0.6703703703703704,0,0.0,0.0,0.0
+hassurname,baquaqua,has_status_generating_event,captured during the succession wars in daboya,43,0.6703703703703704,15,0.48055555555555557,0.0,0.0
+hassurname,baquaqua,has_status_generating_event,became a servant of a local dignitary in djougou,43,0.6703703703703704,14,0.5277777777777778,0.0,0.0
+hassurname,baquaqua,has_status_generating_event,escaped to new york in 1847 with the help of abolitionists,43,0.6703703703703704,6,0.3807471264367816,0.0,0.0
+hassurname,baquaqua,during the succession wars in,"daboya""), has_status_generating_event(servant, ""became a servant of a local dignitary in djougou""), has_status_generating_event(free man, ""escaped to new york in 1847 with the help of abolitionists"").",26,0.5042692939244663,6,0.4822222222222223,0.0,0.0
+hassurname,baquaqua,recorded_at,event,19,0.41313131313131307,0,0.0,0.0,0.0
+hassurname,baquaqua,recorded_at,captured during the succession wars in daboya,19,0.41313131313131307,15,0.48055555555555557,0.0,0.0
+hassurname,baquaqua,recorded_at,became a servant of a local dignitary in djougou,19,0.41313131313131307,14,0.5277777777777778,0.0,0.0
+hassurname,baquaqua,recorded_at,escaped to new york in 1847 with the help of abolitionists,19,0.41313131313131307,6,0.3807471264367816,0.0,0.0
+hassurname,baquaqua,during the succession wars in,"daboya""), recorded_at(servant, ""became a servant of a local dignitary in djougou""), recorded_at(free man, ""escaped to new york in 1847 with the help of abolitionists"").",26,0.5042692939244663,6,0.48412698412698413,0.0,0.0
+hasname,mahommah gardo baquaqua,record,module:,15,0.0,27,0.5196687370600414,0.0,0.0
+hasname,mahommah gardo baquaqua,has_name,name,93,0.9708333333333333,15,0.36231884057971014,0.0,0.0
+hasname,mahommah gardo baquaqua,has_name,mahommah gardo baquaqua,93,0.9708333333333333,100,1.0,0.0,1.0000000000000002
+hasname,mahommah gardo baquaqua,gardo,"baquaqua, ""mahommah gardo baquaqua"")",17,0.44761904761904764,78,0.749194847020934,0.0,0.9428090415820636
+hasname,mahommah gardo baquaqua,has_surname,surname,78,0.9151515151515152,13,0.40855762594893025,0.0,0.0
+hasname,mahommah gardo baquaqua,has_surname,baquaqua,78,0.9151515151515152,52,0.5018115942028986,0.0,0.4494364165239821
+hasname,mahommah gardo baquaqua,gardo,"baquaqua, ""baquaqua"")",17,0.44761904761904764,55,0.6699447895100068,0.0,0.4494364165239821
+hasname,mahommah gardo baquaqua,has_first_name,first_name,67,0.5476190476190476,12,0.3657004830917874,0.0,0.0
+hasname,mahommah gardo baquaqua,has_first_name,mahommah,67,0.5476190476190476,52,0.8695652173913043,0.0,0.4494364165239821
+hasname,mahommah gardo baquaqua,gardo,"baquaqua, ""mahommah"").",17,0.44761904761904764,36,0.5297760210803689,0.0,0.7092972666062739
+hasname,mahommah gardo baquaqua,relationship record,module:,23,0.5106516290726817,27,0.5196687370600414,0.0,0.0
+hasname,mahommah gardo baquaqua,information,available.,22,0.45598845598845594,24,0.5246376811594203,0.0,0.0
+hasname,mahommah gardo baquaqua,record,module:,15,0.0,27,0.5196687370600414,0.0,0.0
+hasname,mahommah gardo baquaqua,has_sex,sex_type,57,0.8,0,0.0,0.0,0.0
+hasname,mahommah gardo baquaqua,has_sex,male,57,0.8,15,0.5289855072463768,0.0,0.0
+hasname,mahommah gardo baquaqua,gardo,"baquaqua, ""male"").",17,0.44761904761904764,39,0.4758454106280194,0.0,0.2605556710562624
+hasname,mahommah gardo baquaqua,record,module:,15,0.0,27,0.5196687370600414,0.0,0.0
+hasname,mahommah gardo baquaqua,has_occupation,occupation,38,0.6190476190476191,18,0.3657004830917874,0.0,0.0
+hasname,mahommah gardo baquaqua,has_occupation,slave,38,0.6190476190476191,7,0.4144927536231884,0.0,0.0
+hasname,mahommah gardo baquaqua,has_occupation,servant,38,0.6190476190476191,13,0.29089026915113875,0.0,0.0
+hasname,mahommah gardo baquaqua,has_occupation,student,38,0.6190476190476191,7,0.39544513457556935,0.0,0.0
+hasname,mahommah gardo baquaqua,has_occupation,autobiographer,38,0.6190476190476191,27,0.5062111801242236,0.0,0.0
+hasname,mahommah gardo baquaqua,gardo,"baquaqua, ""slave, servant, student, autobiographer"").",17,0.44761904761904764,26,0.5117309269893355,0.0,0.15064018498706508
+hasname,mahommah gardo baquaqua,record,module:,15,0.0,27,0.5196687370600414,0.0,0.0
+hasname,mahommah gardo baquaqua,has_age,age,71,0.8666666666666668,15,0.5845410628019324,0.0,0.0
+hasname,mahommah gardo baquaqua,has_age,unknown,71,0.8666666666666668,7,0.39544513457556935,0.0,0.0
+hasname,mahommah gardo baquaqua,gardo,"baquaqua, ""unknown"")",17,0.44761904761904764,37,0.4091787439613526,0.0,0.2605556710562624
+hasname,mahommah gardo baquaqua,has_birthdate,date_of_birth,50,0.553113553113553,17,0.46733556298773693,0.0,0.0
+hasname,mahommah gardo baquaqua,has_birthdate,between 1820 and 1830,50,0.553113553113553,18,0.37146307798481715,0.0,0.0
+hasname,mahommah gardo baquaqua,gardo,"baquaqua, ""between 1820 and 1830"")",17,0.44761904761904764,28,0.48600454674623467,0.0,0.15064018498706508
+hasname,mahommah gardo baquaqua,has_deathdate,date_of_death,50,0.632967032967033,22,0.46733556298773693,0.0,0.0
+hasname,mahommah gardo baquaqua,has_deathdate,unknown,50,0.632967032967033,7,0.39544513457556935,0.0,0.0
+hasname,mahommah gardo baquaqua,gardo,"baquaqua, ""unknown"").",17,0.44761904761904764,36,0.4044168391994479,0.0,0.2605556710562624
+hasname,mahommah gardo baquaqua,status record,module:,30,0.442002442002442,27,0.5196687370600414,0.0,0.0
+hasname,mahommah gardo baquaqua,has_person_status,enslaved person,42,0.6028011204481792,21,0.45024154589371984,0.0,0.0
+hasname,mahommah gardo baquaqua,has_person_status,servant,42,0.6028011204481792,13,0.29089026915113875,0.0,0.0
+hasname,mahommah gardo baquaqua,has_person_status,free man,42,0.6028011204481792,19,0.3913043478260869,0.0,0.0
+hasname,mahommah gardo baquaqua,gardo,"baquaqua, ""enslaved person, servant, free man"")",17,0.44761904761904764,26,0.5536925686093124,0.0,0.1362763414390864
+hasname,mahommah gardo baquaqua,has_status_generating_event,event,35,0.6375661375661376,0,0.0,0.0,0.0
+hasname,mahommah gardo baquaqua,has_status_generating_event,captured during the succession wars in daboya,35,0.6375661375661376,26,0.4850241545893719,0.0,0.0
+hasname,mahommah gardo baquaqua,has_status_generating_event,became a servant of a local dignitary in djougou,35,0.6375661375661376,34,0.5304951690821256,0.0,0.0
+hasname,mahommah gardo baquaqua,has_status_generating_event,escaped to new york in 1847 with the help of abolitionists,35,0.6375661375661376,17,0.40438114276195236,0.0,0.0
+hasname,mahommah gardo baquaqua,during the succession wars in,"daboya""), has_status_generating_event(servant, ""became a servant of a local dignitary in djougou""), has_status_generating_event(free man, ""escaped to new york in 1847 with the help of abolitionists"").",22,0.40311986863711,13,0.5175553012967201,0.0,0.0
+hasname,mahommah gardo baquaqua,recorded_at,event,11,0.41125541125541126,0,0.0,0.0,0.0
+hasname,mahommah gardo baquaqua,recorded_at,captured during the succession wars in daboya,11,0.41125541125541126,26,0.4850241545893719,0.0,0.0
+hasname,mahommah gardo baquaqua,recorded_at,became a servant of a local dignitary in djougou,11,0.41125541125541126,34,0.5304951690821256,0.0,0.0
+hasname,mahommah gardo baquaqua,recorded_at,escaped to new york in 1847 with the help of abolitionists,11,0.41125541125541126,17,0.40438114276195236,0.0,0.0
+hasname,mahommah gardo baquaqua,during the succession wars in,"daboya""), recorded_at(servant, ""became a servant of a local dignitary in djougou""), recorded_at(free man, ""escaped to new york in 1847 with the help of abolitionists"").",22,0.40311986863711,15,0.47618540169691065,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",record,module:,30,0.48412698412698413,5,0.5162352631232299,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",has_name,name,36,0.5952380952380952,3,0.5055325034578146,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",has_name,mahommah gardo baquaqua,36,0.5952380952380952,14,0.49462416640555024,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",gardo,"baquaqua, ""mahommah gardo baquaqua"")",32,0.4936507936507937,17,0.4527262947594897,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",has_surname,surname,48,0.6168831168831169,6,0.5334914048606995,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",has_surname,baquaqua,48,0.6168831168831169,5,0.4152489626556017,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",gardo,"baquaqua, ""baquaqua"")",32,0.4936507936507937,10,0.40193877123337707,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",has_first_name,first_name,43,0.6726190476190476,7,0.49763331796526816,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",has_first_name,mahommah,43,0.6726190476190476,6,0.5943983402489627,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",gardo,"baquaqua, ""mahommah"").",32,0.4936507936507937,11,0.45205425625550105,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",relationship record,module:,30,0.6135338345864662,5,0.5162352631232299,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",information,available.,40,0.5468975468975469,8,0.5471645919778699,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",record,module:,30,0.48412698412698413,5,0.5162352631232299,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",has_sex,sex_type,38,0.6238095238095238,5,0.42496542185338865,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",has_sex,male,38,0.6238095238095238,3,0.5055325034578146,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",gardo,"baquaqua, ""male"").",32,0.4936507936507937,9,0.43326417704011067,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",record,module:,30,0.48412698412698413,5,0.5162352631232299,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",has_occupation,occupation,64,0.8074074074074075,7,0.5138312586445367,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",has_occupation,slave,64,0.8074074074074075,4,0.5402489626556016,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",has_occupation,servant,64,0.8074074074074075,6,0.5334914048606995,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",has_occupation,student,64,0.8074074074074075,6,0.5334914048606995,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",has_occupation,autobiographer,64,0.8074074074074075,10,0.5069916252488866,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",gardo,"baquaqua, ""slave, servant, student, autobiographer"").",32,0.4936507936507937,27,0.5015616655814253,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",record,module:,30,0.48412698412698413,5,0.5162352631232299,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",has_age,age,38,0.6190476190476191,2,0.39165514061779616,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",has_age,unknown,38,0.6190476190476191,5,0.5162352631232299,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",gardo,"baquaqua, ""unknown"")",32,0.4936507936507937,10,0.4388197325956662,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",has_birthdate,date_of_birth,37,0.6318681318681318,9,0.5093868786814845,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",has_birthdate,between 1820 and 1830,37,0.6318681318681318,10,0.45884212606204305,0.0,0.07496574293649065
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",gardo,"baquaqua, ""between 1820 and 1830"")",32,0.4936507936507937,14,0.4279332253459664,0.0,0.06612665654870568
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",has_deathdate,date_of_death,44,0.63003663003663,8,0.5093868786814845,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",has_deathdate,unknown,44,0.63003663003663,5,0.5162352631232299,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",gardo,"baquaqua, ""unknown"").",32,0.4936507936507937,11,0.42945804771530915,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",status record,module:,37,0.5366300366300366,5,0.5162352631232299,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",has_person_status,enslaved person,45,0.6675070028011204,12,0.6429691101890272,0.0,0.05639102256640978
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",has_person_status,servant,45,0.6675070028011204,6,0.5334914048606995,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",has_person_status,free man,45,0.6675070028011204,6,0.552731673582296,0.0,0.05639102256640978
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",gardo,"baquaqua, ""enslaved person, servant, free man"")",32,0.4936507936507937,22,0.5100248328817235,0.0,0.0621117971398193
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",has_status_generating_event,event,39,0.5476190476190476,4,0.6069156293222683,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",has_status_generating_event,captured during the succession wars in daboya,39,0.5476190476190476,22,0.5517420799578476,0.0,0.11790118641940427
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",has_status_generating_event,became a servant of a local dignitary in djougou,39,0.5476190476190476,26,0.5482312754096986,0.0,0.18842522291203498
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",has_status_generating_event,escaped to new york in 1847 with the help of abolitionists,39,0.5476190476190476,28,0.5531853510231297,0.0,0.20421812060433414
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",during the succession wars in,"daboya""), has_status_generating_event(servant, ""became a servant of a local dignitary in djougou""), has_status_generating_event(free man, ""escaped to new york in 1847 with the help of abolitionists"").",33,0.590311986863711,39,0.6789733433924305,0.0,0.22353368710649568
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",recorded_at,event,32,0.47056277056277057,4,0.6069156293222683,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",recorded_at,captured during the succession wars in daboya,32,0.47056277056277057,22,0.5517420799578476,0.0,0.11790118641940427
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",recorded_at,became a servant of a local dignitary in djougou,32,0.47056277056277057,26,0.5482312754096986,0.0,0.18842522291203498
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",recorded_at,escaped to new york in 1847 with the help of abolitionists,32,0.47056277056277057,28,0.5531853510231297,0.0,0.20421812060433414
+hasdescription,"enslaved. free before 13th amendment. born in a muslim merchant family in west africa, he escaped from slavery in brazil and later became an antislavery lecturer and author of an autobiography with an important account of the middle passage.",during the succession wars in,"daboya""), recorded_at(servant, ""became a servant of a local dignitary in djougou""), recorded_at(free man, ""escaped to new york in 1847 with the help of abolitionists"").",33,0.590311986863711,39,0.665666341496217,0.0,0.22353368710649577

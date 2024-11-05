@@ -1,0 +1,431 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,george moses horton,32,0.537878787878788,40,0.5423976608187134,0.0,0.0
+instance of,person,moses,"horton, 'george moses horton')",25,0.5272727272727272,28,0.5166666666666666,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,horton,27,0.49242424242424243,50,0.6666666666666666,0.0,0.0
+instance of,person,moses,"horton, 'horton')",25,0.5272727272727272,26,0.4477124183006536,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,george,40,0.5692640692640693,33,0.5555555555555555,0.0,0.0
+instance of,person,moses,"horton, 'george')",25,0.5272727272727272,26,0.4477124183006536,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type,relationship_type,33,0.5340909090909091,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type,student,33,0.5340909090909091,31,0.4365079365079365,0.0,0.0
+instance of,person,moses,"horton, 'student')",25,0.5272727272727272,25,0.46296296296296297,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,university of north carolina students,34,0.5798460798460798,23,0.5228228228228229,0.0,0.0
+instance of,person,moses,"horton, 'university of north carolina students')",25,0.5272727272727272,19,0.5125000000000001,0.0,0.0
+instance of,person,role record,module:,27,0.49242424242424243,15,0.0,0.0,0.0
+instance of,person,has_participant_role,participant_role_type,32,0.5668831168831169,22,0.5357142857142857,0.0,0.0
+instance of,person,has_participant_role,poet,32,0.5668831168831169,40,0.611111111111111,0.0,0.0
+instance of,person,moses,"horton, 'poet')",25,0.5272727272727272,29,0.45555555555555555,0.0,0.0
+instance of,person,role_provided_by,event,15,0.4356060606060606,36,0.5777777777777778,0.0,0.0
+instance of,person,role_provided_by,publication of poems,15,0.4356060606060606,23,0.5499999999999999,0.0,0.0
+instance of,person,of,poems'),31,0.0,46,0.6428571428571429,0.5797386715376658,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,poet,24,0.38311688311688313,40,0.611111111111111,0.0,0.0
+instance of,person,moses,"horton, 'poet')",25,0.5272727272727272,29,0.45555555555555555,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_age,60,33,0.45598845598845594,0,0.0,0.0,0.0
+instance of,person,moses,"horton, 60)",25,0.5272727272727272,35,0.47979797979797983,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,african-american,36,0.5162210338680927,27,0.4861111111111111,0.0,0.0
+instance of,person,moses,"horton, 'african-american')",25,0.5272727272727272,18,0.4259259259259259,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,enslaved person,29,0.449554367201426,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,moses,"horton, 'enslaved person')",25,0.5272727272727272,38,0.5418803418803418,0.0,0.4494364165239821
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,emancipation proclamation of 1863,26,0.4799102132435466,21,0.5282828282828284,0.0,0.0
+instance of,person,proclamation of,1863'),38,0.6057720057720059,0,0.0,0.33609692727625756,0.0
+instance of,person,document does not provide information to populate the sex record,"module, ethnolinguistic descriptor record module, and specific dates for the age record module.",21,0.5724431818181818,10,0.5766081871345029,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_name,name,57,0.8055555555555556,50,0.6666666666666666,0.0,0.0
+hassex,male,has_name,george moses horton,57,0.8055555555555556,17,0.3684210526315789,0.0,0.0
+hassex,male,moses,"horton, 'george moses horton')",36,0.5888888888888889,12,0.42777777777777776,0.0,0.0
+hassex,male,has_surname,surname,59,0.6767676767676768,36,0.0,0.0,0.0
+hassex,male,has_surname,horton,59,0.6767676767676768,0,0.0,0.0,0.0
+hassex,male,moses,"horton, 'horton')",36,0.5888888888888889,0,0.0,0.0,0.0
+hassex,male,has_first_name,first_name,50,0.6507936507936508,29,0.0,0.0,0.0
+hassex,male,has_first_name,george,50,0.6507936507936508,20,0.47222222222222215,0.0,0.0
+hassex,male,moses,"horton, 'george')",36,0.5888888888888889,10,0.4362745098039216,0.0,0.0
+hassex,male,relationship record,module:,24,0.44152046783625726,55,0.7535714285714287,0.0,0.0
+hassex,male,has_interagent_relationship_type,relationship_type,26,0.5972222222222222,19,0.5310457516339869,0.0,0.0
+hassex,male,has_interagent_relationship_type,student,26,0.5972222222222222,18,0.46428571428571425,0.0,0.0
+hassex,male,moses,"horton, 'student')",36,0.5888888888888889,9,0.0,0.0,0.0
+hassex,male,is_relationship_to,agent,17,0.46296296296296297,44,0.6333333333333333,0.0,0.0
+hassex,male,is_relationship_to,university of north carolina students,17,0.46296296296296297,15,0.42567567567567566,0.0,0.0
+hassex,male,moses,"horton, 'university of north carolina students')",36,0.5888888888888889,12,0.4236111111111111,0.0,0.0
+hassex,male,role record,module:,12,0.41919191919191917,55,0.7535714285714287,0.0,0.0
+hassex,male,has_participant_role,participant_role_type,31,0.5499999999999999,24,0.43253968253968256,0.0,0.0
+hassex,male,has_participant_role,poet,31,0.5499999999999999,25,0.5,0.0,0.0
+hassex,male,moses,"horton, 'poet')",36,0.5888888888888889,11,0.0,0.0,0.0
+hassex,male,role_provided_by,event,9,0.40972222222222227,22,0.48333333333333334,0.0,0.0
+hassex,male,role_provided_by,publication of poems,9,0.40972222222222227,17,0.3666666666666667,0.0,0.0
+hassex,male,of,poems'),0,0.0,18,0.46428571428571425,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_occupation,occupation,30,0.5714285714285715,14,0.45,0.0,0.0
+hassex,male,has_occupation,poet,30,0.5714285714285715,25,0.5,0.0,0.0
+hassex,male,moses,"horton, 'poet')",36,0.5888888888888889,11,0.0,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_age,age,62,0.8222222222222222,57,0.7222222222222222,0.0,0.0
+hassex,male,has_age,60,62,0.8222222222222222,0,0.0,0.0,0.0
+hassex,male,moses,"horton, 60)",36,0.5888888888888889,0,0.0,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_race_or_color,race_or_color,35,0.6339869281045751,24,0.5512820512820512,0.0,0.0
+hassex,male,has_race_or_color,african-american,35,0.6339869281045751,20,0.5416666666666666,0.0,0.0
+hassex,male,moses,"horton, 'african-american')",36,0.5888888888888889,13,0.4290123456790123,0.0,0.0
+hassex,male,status record,module:,32,0.5747863247863249,55,0.7535714285714287,0.0,0.0
+hassex,male,has_person_status,enslaved person,35,0.642483660130719,21,0.5388888888888889,0.0,0.0
+hassex,male,moses,"horton, 'enslaved person')",36,0.5888888888888889,13,0.5106837606837606,0.0,0.0
+hassex,male,has_status_generating_event,event,30,0.6728395061728395,22,0.48333333333333334,0.0,0.0
+hassex,male,has_status_generating_event,emancipation proclamation of 1863,30,0.6728395061728395,16,0.5404040404040403,0.0,0.0
+hassex,male,proclamation of,1863'),10,0.41111111111111115,0,0.0,0.0,0.0
+hassex,male,document does not provide information to populate the sex record,"module, ethnolinguistic descriptor record module, and specific dates for the age record module.",11,0.40451388888888884,8,0.5938596491228071,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,george moses horton,38,0.5675925925925926,8,0.0,0.0,0.0
+hasparticipantrole,child,moses,"horton, 'george moses horton')",17,0.4185185185185185,6,0.41111111111111115,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,horton,41,0.6274651274651274,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,moses,"horton, 'horton')",17,0.4185185185185185,9,0.4196078431372549,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,george,44,0.6772486772486772,0,0.0,0.0,0.0
+hasparticipantrole,child,moses,"horton, 'george')",17,0.4185185185185185,9,0.4196078431372549,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type,relationship_type,44,0.65625,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type,student,44,0.65625,17,0.44761904761904764,0.0,0.0
+hasparticipantrole,child,moses,"horton, 'student')",17,0.4185185185185185,17,0.5037037037037037,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,university of north carolina students,44,0.6037037037037037,14,0.31801801801801804,0.0,0.0
+hasparticipantrole,child,moses,"horton, 'university of north carolina students')",17,0.4185185185185185,15,0.48055555555555557,0.0,0.0
+hasparticipantrole,child,role record,module:,28,0.4452861952861953,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant_role_type,95,0.9766666666666667,23,0.33174603174603173,0.0,0.0
+hasparticipantrole,child,has_participant_role,poet,95,0.9766666666666667,0,0.0,0.0,0.0
+hasparticipantrole,child,moses,"horton, 'poet')",17,0.4185185185185185,10,0.4222222222222222,0.0,0.0
+hasparticipantrole,child,role_provided_by,event,29,0.4583333333333333,0,0.0,0.0,0.0
+hasparticipantrole,child,role_provided_by,publication of poems,29,0.4583333333333333,16,0.47222222222222215,0.0,0.0
+hasparticipantrole,child,of,poems'),10,0.0,0,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,poet,50,0.6566137566137565,0,0.0,0.0,0.0
+hasparticipantrole,child,moses,"horton, 'poet')",17,0.4185185185185185,10,0.4222222222222222,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_age,age,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_age,60,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,moses,"horton, 60)",17,0.4185185185185185,12,0.43030303030303035,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_race_or_color,race_or_color,46,0.60239651416122,22,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_race_or_color,african-american,46,0.60239651416122,19,0.3416666666666666,0.0,0.0
+hasparticipantrole,child,moses,"horton, 'african-american')",17,0.4185185185185185,12,0.49135802469135803,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,enslaved person,46,0.6479302832244008,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,child,moses,"horton, 'enslaved person')",17,0.4185185185185185,19,0.5717948717948719,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,emancipation proclamation of 1863,40,0.5819304152637487,16,0.5636363636363636,0.0,0.0
+hasparticipantrole,child,proclamation of,1863'),36,0.5518518518518519,0,0.0,0.0,0.0
+hasparticipantrole,child,document does not provide information to populate the sex record,"module, ethnolinguistic descriptor record module, and specific dates for the age record module.",27,0.5559027777777779,8,0.5508771929824561,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,george moses horton,38,0.5675925925925926,47,0.5801169590643275,0.0,0.0
+hasparticipantrole,deceased person,moses,"horton, 'george moses horton')",17,0.4185185185185185,36,0.48518518518518516,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,horton,41,0.6274651274651274,29,0.0,0.0,0.0
+hasparticipantrole,deceased person,moses,"horton, 'horton')",17,0.4185185185185185,25,0.4173202614379085,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,george,44,0.6772486772486772,19,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,moses,"horton, 'george')",17,0.4185185185185185,19,0.40915032679738567,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type,relationship_type,44,0.65625,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type,student,44,0.65625,36,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,moses,"horton, 'student')",17,0.4185185185185185,24,0.4703703703703704,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,university of north carolina students,44,0.6037037037037037,27,0.4165165165165165,0.0,0.0
+hasparticipantrole,deceased person,moses,"horton, 'university of north carolina students')",17,0.4185185185185185,22,0.3416666666666666,0.0,0.0
+hasparticipantrole,deceased person,role record,module:,28,0.4452861952861953,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant_role_type,95,0.9766666666666667,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,poet,95,0.9766666666666667,21,0.4388888888888889,0.0,0.0
+hasparticipantrole,deceased person,moses,"horton, 'poet')",17,0.4185185185185185,20,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,role_provided_by,event,29,0.4583333333333333,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,role_provided_by,publication of poems,29,0.4583333333333333,34,0.4777777777777778,0.0,0.0
+hasparticipantrole,deceased person,of,poems'),10,0.0,27,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,poet,50,0.6566137566137565,21,0.4388888888888889,0.0,0.0
+hasparticipantrole,deceased person,moses,"horton, 'poet')",17,0.4185185185185185,20,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_age,age,40,0.5978835978835978,22,0.4333333333333333,0.0,0.0
+hasparticipantrole,deceased person,has_age,60,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,moses,"horton, 60)",17,0.4185185185185185,23,0.3858585858585859,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,race_or_color,46,0.60239651416122,29,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,african-american,46,0.60239651416122,32,0.48194444444444445,0.0,0.0
+hasparticipantrole,deceased person,moses,"horton, 'african-american')",17,0.4185185185185185,24,0.43245149911816577,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,enslaved person,46,0.6479302832244008,73,0.7833333333333333,0.0,0.33609692727625756
+hasparticipantrole,deceased person,moses,"horton, 'enslaved person')",17,0.4185185185185185,54,0.614957264957265,0.0,0.2605556710562624
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,emancipation proclamation of 1863,40,0.5819304152637487,33,0.46691919191919196,0.0,0.0
+hasparticipantrole,deceased person,proclamation of,1863'),36,0.5518518518518519,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,document does not provide information to populate the sex record,"module, ethnolinguistic descriptor record module, and specific dates for the age record module.",27,0.5559027777777779,22,0.5637426900584795,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,george moses horton,25,0.5555555555555555,17,0.4175438596491228,0.0,0.0
+hasdescriptiveoccupation,slave,moses,"horton, 'george moses horton')",21,0.5750000000000001,11,0.41111111111111115,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,surname,34,0.5474386724386724,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,horton,34,0.5474386724386724,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,moses,"horton, 'horton')",21,0.5750000000000001,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,first_name,32,0.5615079365079364,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,george,32,0.5615079365079364,18,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,moses,"horton, 'george')",21,0.5750000000000001,9,0.4196078431372549,0.0,0.0
+hasdescriptiveoccupation,slave,relationship record,module:,33,0.6137539361223572,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,27,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type,student,43,0.5868055555555555,33,0.5619047619047619,0.0,0.0
+hasdescriptiveoccupation,slave,moses,"horton, 'student')",21,0.5750000000000001,17,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,agent,38,0.6264245014245015,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,university of north carolina students,38,0.6264245014245015,19,0.44924924924924925,0.0,0.0
+hasdescriptiveoccupation,slave,moses,"horton, 'university of north carolina students')",21,0.5750000000000001,15,0.44305555555555554,0.0,0.0
+hasdescriptiveoccupation,slave,role record,module:,29,0.4873737373737373,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,participant_role_type,50,0.6805555555555555,15,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,poet,50,0.6805555555555555,22,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,moses,"horton, 'poet')",21,0.5750000000000001,10,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,role_provided_by,event,20,0.4861111111111111,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,role_provided_by,publication of poems,20,0.4861111111111111,24,0.5,0.0,0.0
+hasdescriptiveoccupation,slave,of,poems'),8,0.0,17,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,poet,68,0.8045940170940171,22,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,moses,"horton, 'poet')",21,0.5750000000000001,10,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,age,26,0.5793650793650794,50,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,60,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,moses,"horton, 60)",21,0.5750000000000001,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,race_or_color,39,0.5977668845315903,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,african-american,39,0.5977668845315903,19,0.5083333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,moses,"horton, 'african-american')",21,0.5750000000000001,12,0.41234567901234565,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,enslaved person,39,0.6241830065359477,50,0.6444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,moses,"horton, 'enslaved person')",21,0.5750000000000001,32,0.5974358974358974,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,event,39,0.5815696649029983,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,emancipation proclamation of 1863,39,0.5815696649029983,11,0.3202020202020202,0.0,0.0
+hasdescriptiveoccupation,slave,proclamation of,1863'),41,0.49722222222222223,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,document does not provide information to populate the sex record,"module, ethnolinguistic descriptor record module, and specific dates for the age record module.",27,0.5652777777777779,8,0.43274853801169594,0.0,0.0
+hasdescriptiveoccupation,poet,record,module:,27,0.6138888888888889,36,0.46428571428571425,0.0,0.0
+hasdescriptiveoccupation,poet,has_name,name,25,0.5555555555555555,25,0.5,0.0,0.0
+hasdescriptiveoccupation,poet,has_name,george moses horton,25,0.5555555555555555,26,0.3684210526315789,0.0,0.0
+hasdescriptiveoccupation,poet,moses,"horton, 'george moses horton')",21,0.5750000000000001,18,0.5055555555555555,0.0,0.0
+hasdescriptiveoccupation,poet,has_surname,surname,34,0.5474386724386724,18,0.0,0.0,0.0
+hasdescriptiveoccupation,poet,has_surname,horton,34,0.5474386724386724,40,0.611111111111111,0.0,0.0
+hasdescriptiveoccupation,poet,moses,"horton, 'horton')",21,0.5750000000000001,19,0.5392156862745098,0.0,0.0
+hasdescriptiveoccupation,poet,has_first_name,first_name,32,0.5615079365079364,14,0.45,0.0,0.0
+hasdescriptiveoccupation,poet,has_first_name,george,32,0.5615079365079364,40,0.4444444444444444,0.0,0.0
+hasdescriptiveoccupation,poet,moses,"horton, 'george')",21,0.5750000000000001,19,0.5392156862745098,0.0,0.0
+hasdescriptiveoccupation,poet,relationship record,module:,33,0.6137539361223572,36,0.46428571428571425,0.0,0.0
+hasdescriptiveoccupation,poet,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,19,0.5310457516339869,0.0,0.0
+hasdescriptiveoccupation,poet,has_interagent_relationship_type,student,43,0.5868055555555555,36,0.42857142857142855,0.0,0.0
+hasdescriptiveoccupation,poet,moses,"horton, 'student')",21,0.5750000000000001,27,0.5370370370370371,0.0,0.0
+hasdescriptiveoccupation,poet,is_relationship_to,agent,38,0.6264245014245015,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,poet,is_relationship_to,university of north carolina students,38,0.6264245014245015,15,0.49924924924924924,0.0,0.0
+hasdescriptiveoccupation,poet,moses,"horton, 'university of north carolina students')",21,0.5750000000000001,12,0.4930555555555555,0.0,0.0
+hasdescriptiveoccupation,poet,role record,module:,29,0.4873737373737373,36,0.46428571428571425,0.0,0.0
+hasdescriptiveoccupation,poet,has_participant_role,participant_role_type,50,0.6805555555555555,32,0.5317460317460317,0.0,0.0
+hasdescriptiveoccupation,poet,has_participant_role,poet,50,0.6805555555555555,100,1.0,0.0,1.0
+hasdescriptiveoccupation,poet,moses,"horton, 'poet')",21,0.5750000000000001,42,0.5444444444444444,0.0,0.5797386715376658
+hasdescriptiveoccupation,poet,role_provided_by,event,20,0.4861111111111111,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,poet,role_provided_by,publication of poems,20,0.4861111111111111,25,0.5222222222222223,0.0,0.0
+hasdescriptiveoccupation,poet,of,poems'),8,0.0,55,0.8083333333333333,0.0,0.0
+hasdescriptiveoccupation,poet,record,module:,27,0.6138888888888889,36,0.46428571428571425,0.0,0.0
+hasdescriptiveoccupation,poet,has_occupation,occupation,68,0.8045940170940171,29,0.5722222222222223,0.0,0.0
+hasdescriptiveoccupation,poet,has_occupation,poet,68,0.8045940170940171,100,1.0,0.0,1.0
+hasdescriptiveoccupation,poet,moses,"horton, 'poet')",21,0.5750000000000001,42,0.5444444444444444,0.0,0.5797386715376658
+hasdescriptiveoccupation,poet,record,module:,27,0.6138888888888889,36,0.46428571428571425,0.0,0.0
+hasdescriptiveoccupation,poet,has_age,age,26,0.5793650793650794,29,0.5277777777777778,0.0,0.0
+hasdescriptiveoccupation,poet,has_age,60,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,poet,moses,"horton, 60)",21,0.5750000000000001,27,0.5606060606060607,0.0,0.0
+hasdescriptiveoccupation,poet,record,module:,27,0.6138888888888889,36,0.46428571428571425,0.0,0.0
+hasdescriptiveoccupation,poet,has_race_or_color,race_or_color,39,0.5977668845315903,12,0.3846153846153846,0.0,0.0
+hasdescriptiveoccupation,poet,has_race_or_color,african-american,39,0.5977668845315903,10,0.0,0.0,0.0
+hasdescriptiveoccupation,poet,moses,"horton, 'african-american')",21,0.5750000000000001,13,0.5246913580246914,0.0,0.0
+hasdescriptiveoccupation,poet,status record,module:,32,0.540954415954416,36,0.46428571428571425,0.0,0.0
+hasdescriptiveoccupation,poet,has_person_status,enslaved person,39,0.6241830065359477,21,0.4388888888888889,0.0,0.0
+hasdescriptiveoccupation,poet,moses,"horton, 'enslaved person')",21,0.5750000000000001,13,0.5106837606837606,0.0,0.0
+hasdescriptiveoccupation,poet,has_status_generating_event,event,39,0.5815696649029983,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,poet,has_status_generating_event,emancipation proclamation of 1863,39,0.5815696649029983,16,0.5404040404040403,0.0,0.0
+hasdescriptiveoccupation,poet,proclamation of,1863'),41,0.49722222222222223,0,0.0,0.0,0.0
+hasdescriptiveoccupation,poet,document does not provide information to populate the sex record,"module, ethnolinguistic descriptor record module, and specific dates for the age record module.",27,0.5652777777777779,8,0.5140350877192982,0.0,0.0
+hasfirstname,george moses,record,module:,22,0.4166666666666667,32,0.31746031746031744,0.0,0.0
+hasfirstname,george moses,has_name,name,70,0.8736111111111112,25,0.38888888888888884,0.0,0.0
+hasfirstname,george moses,has_name,george moses horton,70,0.8736111111111112,77,0.9263157894736842,0.0,0.7092972666062739
+hasfirstname,george moses,moses,"horton, 'george moses horton')",24,0.5222222222222223,57,0.7166666666666667,0.0,0.4494364165239822
+hasfirstname,george moses,has_surname,surname,70,0.8733164983164984,32,0.44841269841269843,0.0,0.0
+hasfirstname,george moses,has_surname,horton,70,0.8733164983164984,33,0.5833333333333334,0.0,0.0
+hasfirstname,george moses,moses,"horton, 'horton')",24,0.5222222222222223,28,0.4395424836601307,0.0,0.0
+hasfirstname,george moses,has_first_name,first_name,92,0.9666666666666667,27,0.4055555555555556,0.0,0.0
+hasfirstname,george moses,has_first_name,george,92,0.9666666666666667,67,0.9,0.0,0.5797386715376658
+hasfirstname,george moses,moses,"horton, 'george')",24,0.5222222222222223,41,0.5697945845004669,0.0,0.33609692727625756
+hasfirstname,george moses,relationship record,module:,32,0.5077276524644946,32,0.31746031746031744,0.0,0.0
+hasfirstname,george moses,has_interagent_relationship_type,relationship_type,36,0.6030092592592592,34,0.50359477124183,0.0,0.0
+hasfirstname,george moses,has_interagent_relationship_type,student,36,0.6030092592592592,21,0.4087301587301588,0.0,0.0
+hasfirstname,george moses,moses,"horton, 'student')",24,0.5222222222222223,33,0.5555555555555555,0.0,0.0
+hasfirstname,george moses,is_relationship_to,agent,27,0.6203703703703703,24,0.5222222222222223,0.0,0.0
+hasfirstname,george moses,is_relationship_to,university of north carolina students,27,0.6203703703703703,33,0.49849849849849853,0.0,0.0
+hasfirstname,george moses,moses,"horton, 'university of north carolina students')",24,0.5222222222222223,27,0.4305555555555555,0.0,0.0
+hasfirstname,george moses,role record,module:,17,0.44949494949494956,32,0.31746031746031744,0.0,0.0
+hasfirstname,george moses,has_participant_role,participant_role_type,44,0.6962962962962962,18,0.46428571428571425,0.0,0.0
+hasfirstname,george moses,has_participant_role,poet,44,0.6962962962962962,25,0.38888888888888884,0.0,0.0
+hasfirstname,george moses,moses,"horton, 'poet')",24,0.5222222222222223,37,0.5166666666666667,0.0,0.0
+hasfirstname,george moses,role_provided_by,event,14,0.3680555555555555,24,0.5222222222222223,0.0,0.0
+hasfirstname,george moses,role_provided_by,publication of poems,14,0.3680555555555555,31,0.5555555555555556,0.0,0.0
+hasfirstname,george moses,of,poems'),14,0.5277777777777778,42,0.5515873015873015,0.0,0.0
+hasfirstname,george moses,record,module:,22,0.4166666666666667,32,0.31746031746031744,0.0,0.0
+hasfirstname,george moses,has_occupation,occupation,38,0.5873015873015873,18,0.45555555555555555,0.0,0.0
+hasfirstname,george moses,has_occupation,poet,38,0.5873015873015873,25,0.38888888888888884,0.0,0.0
+hasfirstname,george moses,moses,"horton, 'poet')",24,0.5222222222222223,37,0.5166666666666667,0.0,0.0
+hasfirstname,george moses,record,module:,22,0.4166666666666667,32,0.31746031746031744,0.0,0.0
+hasfirstname,george moses,has_age,age,53,0.7972222222222223,27,0.611111111111111,0.0,0.0
+hasfirstname,george moses,has_age,60,53,0.7972222222222223,0,0.0,0.0,0.0
+hasfirstname,george moses,moses,"horton, 60)",24,0.5222222222222223,26,0.4823232323232323,0.0,0.0
+hasfirstname,george moses,record,module:,22,0.4166666666666667,32,0.31746031746031744,0.0,0.0
+hasfirstname,george moses,has_race_or_color,race_or_color,41,0.6176470588235294,32,0.46367521367521364,0.0,0.0
+hasfirstname,george moses,has_race_or_color,african-american,41,0.6176470588235294,21,0.3680555555555555,0.0,0.0
+hasfirstname,george moses,moses,"horton, 'african-american')",24,0.5222222222222223,26,0.5185185185185185,0.0,0.0
+hasfirstname,george moses,status record,module:,32,0.5427350427350427,32,0.31746031746031744,0.0,0.0
+hasfirstname,george moses,has_person_status,enslaved person,48,0.6857298474945533,37,0.5777777777777778,0.0,0.0
+hasfirstname,george moses,moses,"horton, 'enslaved person')",24,0.5222222222222223,32,0.5876068376068376,0.0,0.0
+hasfirstname,george moses,has_status_generating_event,event,41,0.5833333333333334,24,0.5222222222222223,0.0,0.0
+hasfirstname,george moses,has_status_generating_event,emancipation proclamation of 1863,41,0.5833333333333334,22,0.5050505050505051,0.0,0.0
+hasfirstname,george moses,proclamation of,1863'),22,0.5404761904761904,0,0.0,0.0,0.0
+hasfirstname,george moses,document does not provide information to populate the sex record,"module, ethnolinguistic descriptor record module, and specific dates for the age record module.",18,0.4820601851851852,21,0.5259702286018075,0.0,0.0
+hassurname,horton,record,module:,25,0.4222222222222222,15,0.4365079365079365,0.0,0.0
+hassurname,horton,has_name,name,78,0.9008333333333334,20,0.0,0.0,0.0
+hassurname,horton,has_name,george moses horton,78,0.9008333333333334,48,0.5526315789473685,0.0,0.44943641652398214
+hassurname,horton,moses,"horton, 'george moses horton')",27,0.5333333333333333,33,0.8400000000000001,0.0,0.7092972666062738
+hassurname,horton,has_surname,surname,95,0.9787878787878788,31,0.5396825396825397,0.0,0.0
+hassurname,horton,has_surname,horton,95,0.9787878787878788,100,1.0,0.0,1.0
+hassurname,horton,moses,"horton, 'horton')",27,0.5333333333333333,52,0.8705882352941177,0.0,1.0
+hassurname,horton,has_first_name,first_name,67,0.8674074074074074,38,0.6,0.0,0.0
+hassurname,horton,has_first_name,george,67,0.8674074074074074,33,0.5555555555555555,0.0,0.0
+hassurname,horton,moses,"horton, 'george')",27,0.5333333333333333,52,0.8705882352941177,0.0,0.5797386715376658
+hassurname,horton,relationship record,module:,28,0.4543859649122807,15,0.4365079365079365,0.0,0.0
+hassurname,horton,has_interagent_relationship_type,relationship_type,33,0.544345238095238,35,0.5506535947712418,0.0,0.0
+hassurname,horton,has_interagent_relationship_type,student,33,0.544345238095238,31,0.5396825396825397,0.0,0.0
+hassurname,horton,moses,"horton, 'student')",27,0.5333333333333333,50,0.8666666666666666,0.0,0.5797386715376658
+hassurname,horton,is_relationship_to,agent,21,0.5333333333333333,18,0.41111111111111115,0.0,0.0
+hassurname,horton,is_relationship_to,university of north carolina students,21,0.5333333333333333,23,0.5894894894894895,0.0,0.0
+hassurname,horton,moses,"horton, 'university of north carolina students')",27,0.5333333333333333,22,0.8250000000000001,0.0,0.3032160644503863
+hassurname,horton,role record,module:,19,0.46060606060606063,15,0.4365079365079365,0.0,0.0
+hassurname,horton,has_participant_role,participant_role_type,40,0.5777777777777778,22,0.5357142857142857,0.0,0.0
+hassurname,horton,has_participant_role,poet,40,0.5777777777777778,40,0.611111111111111,0.0,0.0
+hassurname,horton,moses,"horton, 'poet')",27,0.5333333333333333,57,0.88,0.0,0.5797386715376658
+hassurname,horton,role_provided_by,event,15,0.44166666666666665,18,0.41111111111111115,0.0,0.0
+hassurname,horton,role_provided_by,publication of poems,15,0.44166666666666665,23,0.45555555555555555,0.0,0.0
+hassurname,horton,of,poems'),0,0.0,15,0.4365079365079365,0.0,0.0
+hassurname,horton,record,module:,25,0.4222222222222222,15,0.4365079365079365,0.0,0.0
+hassurname,horton,has_occupation,occupation,42,0.6190476190476191,50,0.6888888888888888,0.0,0.0
+hassurname,horton,has_occupation,poet,42,0.6190476190476191,40,0.611111111111111,0.0,0.0
+hassurname,horton,moses,"horton, 'poet')",27,0.5333333333333333,57,0.88,0.0,0.5797386715376658
+hassurname,horton,record,module:,25,0.4222222222222222,15,0.4365079365079365,0.0,0.0
+hassurname,horton,has_age,age,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,horton,has_age,60,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,horton,moses,"horton, 60)",27,0.5333333333333333,71,0.9090909090909091,0.0,0.5797386715376658
+hassurname,horton,record,module:,25,0.4222222222222222,15,0.4365079365079365,0.0,0.0
+hassurname,horton,has_race_or_color,race_or_color,44,0.6509803921568628,32,0.46581196581196577,0.0,0.0
+hassurname,horton,has_race_or_color,african-american,44,0.6509803921568628,18,0.4861111111111111,0.0,0.0
+hassurname,horton,moses,"horton, 'african-american')",27,0.5333333333333333,36,0.8444444444444446,0.0,0.4494364165239821
+hassurname,horton,status record,module:,35,0.5760683760683761,15,0.4365079365079365,0.0,0.0
+hassurname,horton,has_person_status,enslaved person,44,0.6735294117647058,29,0.41111111111111115,0.0,0.0
+hassurname,horton,moses,"horton, 'enslaved person')",27,0.5333333333333333,38,0.8461538461538461,0.0,0.44943641652398214
+hassurname,horton,has_status_generating_event,event,43,0.6703703703703704,18,0.41111111111111115,0.0,0.0
+hassurname,horton,has_status_generating_event,emancipation proclamation of 1863,43,0.6703703703703704,26,0.5282828282828284,0.0,0.0
+hassurname,horton,proclamation of,1863'),24,0.4777777777777777,0,0.0,0.0,0.0
+hassurname,horton,document does not provide information to populate the sex record,"module, ethnolinguistic descriptor record module, and specific dates for the age record module.",14,0.4602678571428571,12,0.5766081871345029,0.0,0.0
+hasname,george moses horton,record,module:,15,0.0,23,0.4177109440267335,0.0,0.0
+hasname,george moses horton,has_name,name,93,0.9708333333333333,17,0.3684210526315789,0.0,0.0
+hasname,george moses horton,has_name,george moses horton,93,0.9708333333333333,100,1.0,0.0,1.0000000000000002
+hasname,george moses horton,moses,"horton, 'george moses horton')",33,0.44761904761904764,78,0.7198830409356725,0.0,0.9428090415820636
+hasname,george moses horton,has_surname,surname,78,0.9151515151515152,23,0.4177109440267335,0.0,0.0
+hasname,george moses horton,has_surname,horton,78,0.9151515151515152,48,0.5526315789473685,0.0,0.44943641652398214
+hasname,george moses horton,moses,"horton, 'horton')",33,0.44761904761904764,56,0.6715170278637771,0.0,0.44943641652398214
+hasname,george moses horton,has_first_name,first_name,67,0.5476190476190476,28,0.4535087719298246,0.0,0.0
+hasname,george moses horton,has_first_name,george,67,0.5476190476190476,48,0.8631578947368421,0.0,0.4494364165239821
+hasname,george moses horton,moses,"horton, 'george')",33,0.44761904761904764,33,0.5565875472996216,0.0,0.7092972666062739
+hasname,george moses horton,relationship record,module:,23,0.5106516290726817,23,0.4177109440267335,0.0,0.0
+hasname,george moses horton,has_interagent_relationship_type,relationship_type,31,0.6259920634920636,33,0.4505381099808344,0.0,0.0
+hasname,george moses horton,has_interagent_relationship_type,student,31,0.6259920634920636,23,0.3984962406015038,0.0,0.0
+hasname,george moses horton,moses,"horton, 'student')",33,0.44761904761904764,32,0.5384990253411306,0.0,0.26055567105626243
+hasname,george moses horton,is_relationship_to,agent,16,0.43121693121693117,25,0.5017543859649123,0.0,0.0
+hasname,george moses horton,is_relationship_to,university of north carolina students,16,0.43121693121693117,36,0.540856646119804,0.0,0.0
+hasname,george moses horton,moses,"horton, 'university of north carolina students')",33,0.44761904761904764,33,0.549117183985605,0.0,0.13627634143908643
+hasname,george moses horton,role record,module:,11,0.41125541125541126,23,0.4177109440267335,0.0,0.0
+hasname,george moses horton,has_participant_role,participant_role_type,37,0.5904761904761905,20,0.4227234753550542,0.0,0.0
+hasname,george moses horton,has_participant_role,poet,37,0.5904761904761905,26,0.3684210526315789,0.0,0.0
+hasname,george moses horton,moses,"horton, 'poet')",33,0.44761904761904764,35,0.564076858813701,0.0,0.26055567105626243
+hasname,george moses horton,role_provided_by,event,9,0.40178571428571425,25,0.5017543859649123,0.0,0.0
+hasname,george moses horton,role_provided_by,publication of poems,9,0.40178571428571425,26,0.5301169590643274,0.0,0.0
+hasname,george moses horton,of,poems'),0,0.0,31,0.5106516290726817,0.0,0.0
+hasname,george moses horton,record,module:,15,0.0,23,0.4177109440267335,0.0,0.0
+hasname,george moses horton,has_occupation,occupation,38,0.6190476190476191,28,0.43508771929824563,0.0,0.0
+hasname,george moses horton,has_occupation,poet,38,0.6190476190476191,26,0.3684210526315789,0.0,0.0
+hasname,george moses horton,moses,"horton, 'poet')",33,0.44761904761904764,35,0.564076858813701,0.0,0.26055567105626243
+hasname,george moses horton,record,module:,15,0.0,23,0.4177109440267335,0.0,0.0
+hasname,george moses horton,has_age,age,71,0.8666666666666668,18,0.5906432748538012,0.0,0.0
+hasname,george moses horton,has_age,60,71,0.8666666666666668,0,0.0,0.0,0.0
+hasname,george moses horton,moses,"horton, 60)",33,0.44761904761904764,40,0.4413875598086124,0.0,0.26055567105626243
+hasname,george moses horton,record,module:,15,0.0,23,0.4177109440267335,0.0,0.0
+hasname,george moses horton,has_race_or_color,race_or_color,42,0.6694677871148459,38,0.5368870895186685,0.0,0.0
+hasname,george moses horton,has_race_or_color,african-american,42,0.6694677871148459,29,0.4585526315789474,0.0,0.0
+hasname,george moses horton,moses,"horton, 'african-american')",33,0.44761904761904764,30,0.4474496426250812,0.0,0.20199309249791833
+hasname,george moses horton,status record,module:,30,0.442002442002442,23,0.4177109440267335,0.0,0.0
+hasname,george moses horton,has_person_status,enslaved person,42,0.6028011204481792,41,0.6171539961013646,0.0,0.0
+hasname,george moses horton,moses,"horton, 'enslaved person')",33,0.44761904761904764,40,0.5998650472334682,0.0,0.20199309249791833
+hasname,george moses horton,has_status_generating_event,event,35,0.6375661375661376,25,0.5017543859649123,0.0,0.0
+hasname,george moses horton,has_status_generating_event,emancipation proclamation of 1863,35,0.6375661375661376,31,0.5162147793726741,0.0,0.0
+hasname,george moses horton,proclamation of,1863'),18,0.4317460317460317,0,0.0,0.0,0.0
+hasname,george moses horton,document does not provide information to populate the sex record,"module, ethnolinguistic descriptor record module, and specific dates for the age record module.",11,0.4641369047619048,28,0.5826510721247563,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,record,module:,30,0.48412698412698413,8,0.45140515222482436,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,has_name,name,36,0.5952380952380952,6,0.5942622950819673,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,has_name,george moses horton,36,0.5952380952380952,21,0.5407721328393307,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,moses,"horton, 'george moses horton')",32,0.6047619047619047,25,0.5266848816029145,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,has_surname,surname,48,0.6168831168831169,9,0.46877439500390317,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,has_surname,horton,48,0.6168831168831169,9,0.5163934426229508,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,moses,"horton, 'horton')",32,0.6047619047619047,17,0.46990826595455326,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,has_first_name,first_name,43,0.6726190476190476,14,0.5097753491196114,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,has_first_name,george,43,0.6726190476190476,8,0.48315118397085605,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,moses,"horton, 'george')",32,0.6047619047619047,17,0.42755910113672896,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,relationship record,module:,30,0.6135338345864662,8,0.45140515222482436,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,has_interagent_relationship_type,relationship_type,39,0.5755952380952382,17,0.5270468843275015,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,has_interagent_relationship_type,student,39,0.5755952380952382,8,0.5243299505594586,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,moses,"horton, 'student')",32,0.6047619047619047,16,0.481388071552006,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,is_relationship_to,agent,44,0.6474266474266474,6,0.5275956284153006,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,is_relationship_to,university of north carolina students,44,0.6474266474266474,33,0.5756730694049884,0.0,0.05142451788163202
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,moses,"horton, 'university of north carolina students')",32,0.6047619047619047,35,0.5756058687636056,0.0,0.0465210870378275
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,role record,module:,24,0.46645021645021645,8,0.45140515222482436,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,has_participant_role,participant_role_type,47,0.6876623376623376,20,0.4851841009627895,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,has_participant_role,poet,47,0.6876623376623376,6,0.5915300546448088,0.0,0.15342553542521659
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,moses,"horton, 'poet')",32,0.6047619047619047,15,0.4563172710713694,0.0,0.08894671608737015
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,role_provided_by,event,20,0.4900793650793651,8,0.5469945355191257,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,role_provided_by,publication of poems,20,0.4900793650793651,20,0.5343655130540377,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,of,poems'),12,0.0,6,0.45140515222482436,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,record,module:,30,0.48412698412698413,8,0.45140515222482436,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,has_occupation,occupation,64,0.8074074074074075,11,0.4968579234972677,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,has_occupation,poet,64,0.8074074074074075,6,0.5915300546448088,0.0,0.15342553542521659
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,moses,"horton, 'poet')",32,0.6047619047619047,15,0.4563172710713694,0.0,0.08894671608737015
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,record,module:,30,0.48412698412698413,8,0.45140515222482436,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,has_age,age,38,0.6190476190476191,5,0.39435336976320584,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,has_age,60,38,0.6190476190476191,0,0.0,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,moses,"horton, 60)",32,0.6047619047619047,11,0.4217230856575118,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,record,module:,30,0.48412698412698413,8,0.45140515222482436,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,has_race_or_color,race_or_color,39,0.5896358543417367,16,0.49392410867820696,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,has_race_or_color,african-american,39,0.5896358543417367,22,0.5312613843351549,0.0,0.21951095080860836
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,moses,"horton, 'african-american')",32,0.6047619047619047,28,0.5135324097072731,0.0,0.15569851739869012
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,status record,module:,37,0.5366300366300366,8,0.45140515222482436,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,has_person_status,enslaved person,45,0.6675070028011204,22,0.5520947176684882,0.0,0.18435554192630063
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,moses,"horton, 'enslaved person')",32,0.6047619047619047,26,0.5391302686384654,0.0,0.1429197295221492
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,has_status_generating_event,event,39,0.5476190476190476,8,0.5469945355191257,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,has_status_generating_event,emancipation proclamation of 1863,39,0.5476190476190476,27,0.519337270703391,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,proclamation of,1863'),34,0.5603174603174603,0,0.0,0.0,0.0
+hasdescription,born enslaved. enslaved north carolinian. the first african american poet whose work centers on the struggle for freedom .,document does not provide information to populate the sex record,"module, ethnolinguistic descriptor record module, and specific dates for the age record module.",23,0.5704365079365079,43,0.6702551668650772,0.0,0.07681851229021197

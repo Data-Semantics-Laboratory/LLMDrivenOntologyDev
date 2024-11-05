@@ -1,0 +1,501 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,on the text,"provided, the ontology can be populated as follows:",36,0.5757575757575758,14,0.577124183006536,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,johnson chesnut whittaker,32,0.537878787878788,19,0.44222222222222224,0.0,0.0
+instance of,person,chesnut,"whittaker, 'johnson chesnut whittaker')",22,0.45598845598845594,22,0.5871794871794872,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,whittaker,27,0.49242424242424243,27,0.0,0.0,0.0
+instance of,person,chesnut,"whittaker, 'whittaker')",22,0.45598845598845594,14,0.4734299516908213,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,johnson,40,0.5692640692640693,46,0.5317460317460317,0.0,0.0
+instance of,person,chesnut,"whittaker, 'johnson')",22,0.45598845598845594,37,0.5476190476190476,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,richard greener,34,0.5798460798460798,19,0.41111111111111115,0.0,0.0
+instance of,person,is_relationship_to,solomon l. hoge,34,0.5798460798460798,29,0.5666666666666667,0.0,0.0
+instance of,person,chesnut,"whittaker, 'richard greener'), is_relationship_to(johnson chesnut whittaker, 'solomon l. hoge')",22,0.45598845598845594,12,0.5766081871345029,0.0,0.0
+instance of,person,role record,module:,27,0.49242424242424243,15,0.0,0.0,0.0
+instance of,person,has_participant_role,participant_role_type,32,0.5668831168831169,22,0.5357142857142857,0.0,0.0
+instance of,person,has_participant_role,cadet at west point,32,0.5668831168831169,32,0.4795321637426901,0.0,0.0
+instance of,person,has_participant_role,defendant in court-martial,32,0.5668831168831169,12,0.42735042735042733,0.0,0.0
+instance of,person,chesnut,"whittaker, 'cadet at west point'), has_participant_role(johnson chesnut whittaker, 'defendant in court-martial')",22,0.45598845598845594,8,0.5734126984126985,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,male,22,0.45598845598845594,20,0.47222222222222215,0.0,0.0
+instance of,person,chesnut,"whittaker, 'male')",22,0.45598845598845594,17,0.48148148148148145,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,teacher,24,0.38311688311688313,31,0.4365079365079365,0.0,0.0
+instance of,person,has_occupation,lawyer,24,0.38311688311688313,33,0.0,0.0,0.0
+instance of,person,has_occupation,high school principal,24,0.38311688311688313,22,0.4761904761904762,0.0,0.0
+instance of,person,has_occupation,psychology professor,24,0.38311688311688313,31,0.5499999999999999,0.0,0.0
+instance of,person,chesnut,"whittaker, 'teacher'), has_occupation(johnson chesnut whittaker, 'lawyer'), has_occupation(johnson chesnut whittaker, 'high school principal'), has_occupation(johnson chesnut whittaker, 'psychology professor')",22,0.45598845598845594,6,0.5651249335459861,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_birthdate,august 23,33,0.5463869463869464,13,0.4259259259259259,0.0,0.0
+instance of,person,has_birthdate,1858,33,0.5463869463869464,0,0.0,0.0,0.0
+instance of,person,chesnut,"whittaker, 'august 23, 1858')",22,0.45598845598845594,17,0.5344827586206896,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,january 14,33,0.39044289044289043,12,0.3444444444444444,0.0,0.0
+instance of,person,has_deathdate,1931,33,0.39044289044289043,0,0.0,0.0,0.0
+instance of,person,chesnut,"whittaker, 'january 14, 1931')",22,0.45598845598845594,17,0.5333333333333333,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,black,36,0.5162210338680927,0,0.0,0.0,0.0
+instance of,person,chesnut,"whittaker, 'black')",22,0.45598845598845594,16,0.4795321637426901,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,expelled from west point,29,0.449554367201426,40,0.5277777777777778,0.0,0.0
+instance of,person,has_person_status,posthumously commissioned by president bill clinton,29,0.449554367201426,21,0.577124183006536,0.0,0.0
+instance of,person,chesnut,"whittaker, 'expelled from west point'), has_person_status(johnson chesnut whittaker, 'posthumously commissioned by president bill clinton')",22,0.45598845598845594,8,0.5699440447641887,0.0,0.0
+instance of,person,text does not provide information for all the,"modules, so some are left out.",21,0.5245791245791246,17,0.4222222222222222,0.0,0.0
+hassex,male,on the text,"provided, the ontology can be populated as follows:",35,0.5909090909090909,11,0.49183006535947715,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_name,name,57,0.8055555555555556,50,0.6666666666666666,0.0,0.0
+hassex,male,has_name,johnson chesnut whittaker,57,0.8055555555555556,14,0.43,0.0,0.0
+hassex,male,chesnut,"whittaker, 'johnson chesnut whittaker')",31,0.5317460317460317,9,0.5170940170940171,0.0,0.0
+hassex,male,has_surname,surname,59,0.6767676767676768,36,0.0,0.0,0.0
+hassex,male,has_surname,whittaker,59,0.6767676767676768,31,0.0,0.0,0.0
+hassex,male,chesnut,"whittaker, 'whittaker')",31,0.5317460317460317,15,0.5289855072463768,0.0,0.0
+hassex,male,has_first_name,first_name,50,0.6507936507936508,29,0.0,0.0,0.0
+hassex,male,has_first_name,johnson,50,0.6507936507936508,0,0.0,0.0,0.0
+hassex,male,chesnut,"whittaker, 'johnson')",31,0.5317460317460317,16,0.5317460317460317,0.0,0.0
+hassex,male,relationship record,module:,24,0.44152046783625726,55,0.7535714285714287,0.0,0.0
+hassex,male,is_relationship_to,agent,17,0.46296296296296297,44,0.6333333333333333,0.0,0.0
+hassex,male,is_relationship_to,richard greener,17,0.46296296296296297,21,0.4388888888888889,0.0,0.0
+hassex,male,is_relationship_to,solomon l. hoge,17,0.46296296296296297,32,0.37777777777777777,0.0,0.0
+hassex,male,chesnut,"whittaker, 'richard greener'), is_relationship_to(johnson chesnut whittaker, 'solomon l. hoge')",31,0.5317460317460317,6,0.48274853801169587,0.0,0.0
+hassex,male,role record,module:,12,0.41919191919191917,55,0.7535714285714287,0.0,0.0
+hassex,male,has_participant_role,participant_role_type,31,0.5499999999999999,24,0.43253968253968256,0.0,0.0
+hassex,male,has_participant_role,cadet at west point,31,0.5499999999999999,17,0.5350877192982456,0.0,0.0
+hassex,male,has_participant_role,defendant in court-martial,31,0.5499999999999999,20,0.358974358974359,0.0,0.0
+hassex,male,chesnut,"whittaker, 'cadet at west point'), has_participant_role(johnson chesnut whittaker, 'defendant in court-martial')",31,0.5317460317460317,5,0.48115079365079366,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_sex,sex_type,92,0.9666666666666667,17,0.4583333333333333,0.0,0.0
+hassex,male,has_sex,male,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,male,chesnut,"whittaker, 'male')",31,0.5317460317460317,36,0.5370370370370371,0.0,0.5797386715376658
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_occupation,occupation,30,0.5714285714285715,14,0.45,0.0,0.0
+hassex,male,has_occupation,teacher,30,0.5714285714285715,36,0.42857142857142855,0.0,0.0
+hassex,male,has_occupation,lawyer,30,0.5714285714285715,40,0.6388888888888888,0.0,0.0
+hassex,male,has_occupation,high school principal,30,0.5714285714285715,16,0.43253968253968256,0.0,0.0
+hassex,male,has_occupation,psychology professor,30,0.5714285714285715,17,0.43333333333333335,0.0,0.0
+hassex,male,chesnut,"whittaker, 'teacher'), has_occupation(johnson chesnut whittaker, 'lawyer'), has_occupation(johnson chesnut whittaker, 'high school principal'), has_occupation(johnson chesnut whittaker, 'psychology professor')",31,0.5317460317460317,3,0.4770069112174375,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_birthdate,date_of_birth,42,0.576923076923077,24,0.5512820512820512,0.0,0.0
+hassex,male,has_birthdate,august 23,42,0.576923076923077,15,0.4537037037037037,0.0,0.0
+hassex,male,has_birthdate,1858,42,0.576923076923077,0,0.0,0.0,0.0
+hassex,male,chesnut,"whittaker, 'august 23, 1858')",31,0.5317460317460317,12,0.5229885057471265,0.0,0.0
+hassex,male,has_deathdate,date_of_death,42,0.6581196581196581,24,0.5512820512820512,0.0,0.0
+hassex,male,has_deathdate,january 14,42,0.6581196581196581,14,0.45,0.0,0.0
+hassex,male,has_deathdate,1931,42,0.6581196581196581,0,0.0,0.0,0.0
+hassex,male,chesnut,"whittaker, 'january 14, 1931')",31,0.5317460317460317,12,0.5222222222222223,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_race_or_color,race_or_color,35,0.6339869281045751,24,0.5512820512820512,0.0,0.0
+hassex,male,has_race_or_color,black,35,0.6339869281045751,22,0.4666666666666666,0.0,0.0
+hassex,male,chesnut,"whittaker, 'black')",31,0.5317460317460317,17,0.5350877192982456,0.0,0.0
+hassex,male,status record,module:,32,0.5747863247863249,55,0.7535714285714287,0.0,0.0
+hassex,male,has_person_status,expelled from west point,35,0.642483660130719,14,0.36111111111111116,0.0,0.0
+hassex,male,has_person_status,posthumously commissioned by president bill clinton,35,0.642483660130719,11,0.6029411764705882,0.0,0.0
+hassex,male,chesnut,"whittaker, 'expelled from west point'), has_person_status(johnson chesnut whittaker, 'posthumously commissioned by president bill clinton')",31,0.5317460317460317,6,0.592925659472422,0.0,0.0
+hassex,male,text does not provide information for all the,"modules, so some are left out.",8,0.41111111111111115,24,0.6166666666666667,0.0,0.0
+hasparticipantrole,child,on the text,"provided, the ontology can be populated as follows:",21,0.3686868686868687,11,0.5660130718954249,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,johnson chesnut whittaker,38,0.5675925925925926,20,0.32666666666666666,0.0,0.0
+hasparticipantrole,child,chesnut,"whittaker, 'johnson chesnut whittaker')",32,0.5306878306878308,14,0.48376068376068376,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,whittaker,41,0.6274651274651274,29,0.5407407407407407,0.0,0.0
+hasparticipantrole,child,chesnut,"whittaker, 'whittaker')",32,0.5306878306878308,14,0.4956521739130435,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,johnson,44,0.6772486772486772,17,0.44761904761904764,0.0,0.0
+hasparticipantrole,child,chesnut,"whittaker, 'johnson')",32,0.5306878306878308,15,0.4984126984126984,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,richard greener,44,0.6037037037037037,30,0.6055555555555555,0.0,0.0
+hasparticipantrole,child,is_relationship_to,solomon l. hoge,44,0.6037037037037037,10,0.4222222222222222,0.0,0.0
+hasparticipantrole,child,chesnut,"whittaker, 'richard greener'), is_relationship_to(johnson chesnut whittaker, 'solomon l. hoge')",32,0.5306878306878308,8,0.5508771929824561,0.0,0.0
+hasparticipantrole,child,role record,module:,28,0.4452861952861953,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant_role_type,95,0.9766666666666667,23,0.33174603174603173,0.0,0.0
+hasparticipantrole,child,has_participant_role,cadet at west point,95,0.9766666666666667,17,0.5017543859649123,0.0,0.0
+hasparticipantrole,child,has_participant_role,defendant in court-martial,95,0.9766666666666667,19,0.32564102564102565,0.0,0.0
+hasparticipantrole,child,chesnut,"whittaker, 'cadet at west point'), has_participant_role(johnson chesnut whittaker, 'defendant in court-martial')",32,0.5306878306878308,9,0.5482142857142858,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,male,32,0.5317460317460317,22,0.48333333333333334,0.0,0.0
+hasparticipantrole,child,chesnut,"whittaker, 'male')",32,0.5306878306878308,26,0.5037037037037037,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,teacher,50,0.6566137566137565,33,0.0,0.0,0.0
+hasparticipantrole,child,has_occupation,lawyer,50,0.6566137566137565,18,0.0,0.0,0.0
+hasparticipantrole,child,has_occupation,high school principal,50,0.6566137566137565,31,0.5801587301587302,0.0,0.0
+hasparticipantrole,child,has_occupation,psychology professor,50,0.6566137566137565,24,0.5833333333333334,0.0,0.0
+hasparticipantrole,child,chesnut,"whittaker, 'teacher'), has_occupation(johnson chesnut whittaker, 'lawyer'), has_occupation(johnson chesnut whittaker, 'high school principal'), has_occupation(johnson chesnut whittaker, 'psychology professor')",32,0.5306878306878308,4,0.5230462519936204,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_birthdate,date_of_birth,52,0.6937321937321936,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_birthdate,august 23,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,child,has_birthdate,1858,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,child,chesnut,"whittaker, 'august 23, 1858')",32,0.5306878306878308,12,0.48965517241379314,0.0,0.0
+hasparticipantrole,child,has_deathdate,date_of_death,52,0.6866096866096866,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_deathdate,january 14,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,child,has_deathdate,1931,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,child,chesnut,"whittaker, 'january 14, 1931')",32,0.5306878306878308,11,0.48888888888888893,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_race_or_color,race_or_color,46,0.60239651416122,22,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_race_or_color,black,46,0.60239651416122,20,0.0,0.0,0.0
+hasparticipantrole,child,chesnut,"whittaker, 'black')",32,0.5306878306878308,25,0.5017543859649123,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,expelled from west point,46,0.6479302832244008,14,0.49444444444444446,0.0,0.0
+hasparticipantrole,child,has_person_status,posthumously commissioned by president bill clinton,46,0.6479302832244008,11,0.5660130718954249,0.0,0.0
+hasparticipantrole,child,chesnut,"whittaker, 'expelled from west point'), has_person_status(johnson chesnut whittaker, 'posthumously commissioned by president bill clinton')",32,0.5306878306878308,7,0.5453237410071942,0.0,0.0
+hasparticipantrole,child,text does not provide information for all the,"modules, so some are left out.",32,0.4777777777777778,6,0.32222222222222224,0.0,0.0
+hasparticipantrole,deceased person,on the text,"provided, the ontology can be populated as follows:",21,0.3686868686868687,30,0.511764705882353,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,johnson chesnut whittaker,38,0.5675925925925926,30,0.4393650793650794,0.0,0.0
+hasparticipantrole,deceased person,chesnut,"whittaker, 'johnson chesnut whittaker')",32,0.5306878306878308,26,0.4743589743589743,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,whittaker,41,0.6274651274651274,25,0.39999999999999997,0.0,0.0
+hasparticipantrole,deceased person,chesnut,"whittaker, 'whittaker')",32,0.5306878306878308,26,0.3835748792270531,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,johnson,44,0.6772486772486772,27,0.40317460317460313,0.0,0.0
+hasparticipantrole,deceased person,chesnut,"whittaker, 'johnson')",32,0.5306878306878308,33,0.45714285714285713,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,richard greener,44,0.6037037037037037,40,0.6055555555555555,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,solomon l. hoge,44,0.6037037037037037,20,0.42777777777777776,0.0,0.0
+hasparticipantrole,deceased person,chesnut,"whittaker, 'richard greener'), is_relationship_to(johnson chesnut whittaker, 'solomon l. hoge')",32,0.5306878306878308,22,0.5745196324143693,0.0,0.0
+hasparticipantrole,deceased person,role record,module:,28,0.4452861952861953,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant_role_type,95,0.9766666666666667,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,cadet at west point,95,0.9766666666666667,47,0.6309941520467836,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,defendant in court-martial,95,0.9766666666666667,29,0.5837606837606838,0.0,0.0
+hasparticipantrole,deceased person,chesnut,"whittaker, 'cadet at west point'), has_participant_role(johnson chesnut whittaker, 'defendant in court-martial')",32,0.5306878306878308,17,0.5432539682539682,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,male,32,0.5317460317460317,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,chesnut,"whittaker, 'male')",32,0.5306878306878308,24,0.40370370370370373,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,teacher,50,0.6566137566137565,36,0.6158730158730159,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,lawyer,50,0.6566137566137565,29,0.45555555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,high school principal,50,0.6566137566137565,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,psychology professor,50,0.6566137566137565,34,0.5194444444444445,0.0,0.0
+hasparticipantrole,deceased person,chesnut,"whittaker, 'teacher'), has_occupation(johnson chesnut whittaker, 'lawyer'), has_occupation(johnson chesnut whittaker, 'high school principal'), has_occupation(johnson chesnut whittaker, 'psychology professor')",32,0.5306878306878308,12,0.48910972068866804,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,date_of_birth,52,0.6937321937321936,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,august 23,52,0.6937321937321936,25,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,1858,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,chesnut,"whittaker, 'august 23, 1858')",32,0.5306878306878308,18,0.3685823754789272,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,date_of_death,52,0.6866096866096866,36,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,january 14,52,0.6866096866096866,16,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,1931,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,chesnut,"whittaker, 'january 14, 1931')",32,0.5306878306878308,18,0.3666666666666667,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,race_or_color,46,0.60239651416122,29,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,black,46,0.60239651416122,10,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,chesnut,"whittaker, 'black')",32,0.5306878306878308,18,0.32573099415204676,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,expelled from west point,46,0.6479302832244008,46,0.6093434343434344,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,posthumously commissioned by president bill clinton,46,0.6479302832244008,30,0.5284610814022579,0.0,0.0
+hasparticipantrole,deceased person,chesnut,"whittaker, 'expelled from west point'), has_person_status(johnson chesnut whittaker, 'posthumously commissioned by president bill clinton')",32,0.5306878306878308,18,0.5351604430741121,0.0,0.0
+hasparticipantrole,deceased person,text does not provide information for all the,"modules, so some are left out.",32,0.4777777777777778,36,0.5787878787878787,0.0,0.0
+hasdescriptiveoccupation,slave,on the text,"provided, the ontology can be populated as follows:",29,0.48762626262626263,11,0.4594771241830065,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,johnson chesnut whittaker,25,0.5555555555555555,20,0.49333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,chesnut,"whittaker, 'johnson chesnut whittaker')",32,0.5742063492063493,14,0.4478632478632479,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,surname,34,0.5474386724386724,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,whittaker,34,0.5474386724386724,29,0.5407407407407407,0.0,0.0
+hasdescriptiveoccupation,slave,chesnut,"whittaker, 'whittaker')",32,0.5742063492063493,14,0.4956521739130435,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,first_name,32,0.5615079365079364,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,johnson,32,0.5615079365079364,17,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,chesnut,"whittaker, 'johnson')",32,0.5742063492063493,15,0.4984126984126984,0.0,0.0
+hasdescriptiveoccupation,slave,relationship record,module:,33,0.6137539361223572,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,agent,38,0.6264245014245015,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,richard greener,38,0.6264245014245015,20,0.5111111111111111,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,solomon l. hoge,38,0.6264245014245015,30,0.5111111111111111,0.0,0.0
+hasdescriptiveoccupation,slave,chesnut,"whittaker, 'richard greener'), is_relationship_to(johnson chesnut whittaker, 'solomon l. hoge')",32,0.5742063492063493,8,0.4473684210526316,0.0,0.0
+hasdescriptiveoccupation,slave,role record,module:,29,0.4873737373737373,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,participant_role_type,50,0.6805555555555555,15,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,cadet at west point,50,0.6805555555555555,17,0.5017543859649123,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,defendant in court-martial,50,0.6805555555555555,6,0.32564102564102565,0.0,0.0
+hasdescriptiveoccupation,slave,chesnut,"whittaker, 'cadet at west point'), has_participant_role(johnson chesnut whittaker, 'defendant in court-martial')",32,0.5742063492063493,7,0.44523809523809527,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,sex_type,32,0.5742063492063493,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,male,32,0.5742063492063493,44,0.6722222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,chesnut,"whittaker, 'male')",32,0.5742063492063493,17,0.5037037037037037,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,teacher,68,0.8045940170940171,33,0.5619047619047619,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,lawyer,68,0.8045940170940171,55,0.7000000000000001,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,high school principal,68,0.8045940170940171,23,0.4984126984126984,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,psychology professor,68,0.8045940170940171,24,0.5,0.0,0.0
+hasdescriptiveoccupation,slave,chesnut,"whittaker, 'teacher'), has_occupation(johnson chesnut whittaker, 'lawyer'), has_occupation(johnson chesnut whittaker, 'high school principal'), has_occupation(johnson chesnut whittaker, 'psychology professor')",32,0.5742063492063493,4,0.43971291866028706,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,date_of_birth,38,0.6286324786324786,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,august 23,38,0.6286324786324786,14,0.43703703703703706,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,1858,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,chesnut,"whittaker, 'august 23, 1858')",32,0.5742063492063493,12,0.48965517241379314,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,date_of_death,43,0.652065527065527,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,january 14,43,0.652065527065527,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,1931,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,chesnut,"whittaker, 'january 14, 1931')",32,0.5742063492063493,11,0.48888888888888893,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,race_or_color,39,0.5977668845315903,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,black,39,0.5977668845315903,40,0.6,0.0,0.0
+hasdescriptiveoccupation,slave,chesnut,"whittaker, 'black')",32,0.5742063492063493,17,0.5017543859649123,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,expelled from west point,39,0.6241830065359477,14,0.3277777777777778,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,posthumously commissioned by president bill clinton,39,0.6241830065359477,11,0.5529411764705882,0.0,0.0
+hasdescriptiveoccupation,slave,chesnut,"whittaker, 'expelled from west point'), has_person_status(johnson chesnut whittaker, 'posthumously commissioned by president bill clinton')",32,0.5742063492063493,4,0.4429256594724221,0.0,0.0
+hasdescriptiveoccupation,slave,text does not provide information for all the,"modules, so some are left out.",35,0.5282407407407407,17,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,educator,on the text,"provided, the ontology can be populated as follows:",29,0.48762626262626263,20,0.5278944911297853,0.0,0.0
+hasdescriptiveoccupation,educator,record,module:,27,0.6138888888888889,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,educator,has_name,name,25,0.5555555555555555,17,0.4166666666666667,0.0,0.0
+hasdescriptiveoccupation,educator,has_name,johnson chesnut whittaker,25,0.5555555555555555,24,0.4749999999999999,0.0,0.0
+hasdescriptiveoccupation,educator,chesnut,"whittaker, 'johnson chesnut whittaker')",32,0.5742063492063493,17,0.5235042735042735,0.0,0.0
+hasdescriptiveoccupation,educator,has_surname,surname,34,0.5474386724386724,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,educator,has_surname,whittaker,34,0.5474386724386724,24,0.4583333333333333,0.0,0.0
+hasdescriptiveoccupation,educator,chesnut,"whittaker, 'whittaker')",32,0.5742063492063493,19,0.47463768115942023,0.0,0.0
+hasdescriptiveoccupation,educator,has_first_name,first_name,32,0.5615079365079364,11,0.31666666666666665,0.0,0.0
+hasdescriptiveoccupation,educator,has_first_name,johnson,32,0.5615079365079364,13,0.4226190476190476,0.0,0.0
+hasdescriptiveoccupation,educator,chesnut,"whittaker, 'johnson')",32,0.5742063492063493,14,0.48769841269841274,0.0,0.0
+hasdescriptiveoccupation,educator,relationship record,module:,33,0.6137539361223572,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,educator,is_relationship_to,agent,38,0.6264245014245015,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,educator,is_relationship_to,richard greener,38,0.6264245014245015,26,0.4222222222222222,0.0,0.0
+hasdescriptiveoccupation,educator,is_relationship_to,solomon l. hoge,38,0.6264245014245015,9,0.3972222222222222,0.0,0.0
+hasdescriptiveoccupation,educator,chesnut,"whittaker, 'richard greener'), is_relationship_to(johnson chesnut whittaker, 'solomon l. hoge')",32,0.5742063492063493,12,0.5067042606516291,0.0,0.0
+hasdescriptiveoccupation,educator,role record,module:,29,0.4873737373737373,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,educator,has_participant_role,participant_role_type,50,0.6805555555555555,28,0.48769841269841274,0.0,0.0
+hasdescriptiveoccupation,educator,has_participant_role,cadet at west point,50,0.6805555555555555,30,0.49605263157894736,0.0,0.0
+hasdescriptiveoccupation,educator,has_participant_role,defendant in court-martial,50,0.6805555555555555,35,0.6195054945054945,0.0,0.0
+hasdescriptiveoccupation,educator,chesnut,"whittaker, 'cadet at west point'), has_participant_role(johnson chesnut whittaker, 'defendant in court-martial')",32,0.5742063492063493,12,0.5029761904761905,0.0,0.0
+hasdescriptiveoccupation,educator,record,module:,27,0.6138888888888889,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,educator,has_sex,sex_type,32,0.5742063492063493,25,0.5,0.0,0.0
+hasdescriptiveoccupation,educator,has_sex,male,32,0.5742063492063493,17,0.4166666666666667,0.0,0.0
+hasdescriptiveoccupation,educator,chesnut,"whittaker, 'male')",32,0.5742063492063493,15,0.49074074074074076,0.0,0.0
+hasdescriptiveoccupation,educator,record,module:,27,0.6138888888888889,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,educator,has_occupation,occupation,68,0.8045940170940171,44,0.6416666666666667,0.0,0.0
+hasdescriptiveoccupation,educator,has_occupation,teacher,68,0.8045940170940171,40,0.6071428571428571,0.0,0.0
+hasdescriptiveoccupation,educator,has_occupation,lawyer,68,0.8045940170940171,29,0.5277777777777778,0.0,0.0
+hasdescriptiveoccupation,educator,has_occupation,high school principal,68,0.8045940170940171,21,0.5059523809523809,0.0,0.0
+hasdescriptiveoccupation,educator,has_occupation,psychology professor,68,0.8045940170940171,21,0.5083333333333333,0.0,0.0
+hasdescriptiveoccupation,educator,chesnut,"whittaker, 'teacher'), has_occupation(johnson chesnut whittaker, 'lawyer'), has_occupation(johnson chesnut whittaker, 'high school principal'), has_occupation(johnson chesnut whittaker, 'psychology professor')",32,0.5742063492063493,6,0.49330713146502614,0.0,0.0
+hasdescriptiveoccupation,educator,record,module:,27,0.6138888888888889,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,educator,has_birthdate,date_of_birth,38,0.6286324786324786,48,0.6260683760683761,0.0,0.0
+hasdescriptiveoccupation,educator,has_birthdate,august 23,38,0.6286324786324786,24,0.49074074074074076,0.0,0.0
+hasdescriptiveoccupation,educator,has_birthdate,1858,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,educator,chesnut,"whittaker, 'august 23, 1858')",32,0.5742063492063493,16,0.4658045977011494,0.0,0.0
+hasdescriptiveoccupation,educator,has_deathdate,date_of_death,43,0.652065527065527,38,0.5365384615384615,0.0,0.0
+hasdescriptiveoccupation,educator,has_deathdate,january 14,43,0.652065527065527,33,0.44722222222222224,0.0,0.0
+hasdescriptiveoccupation,educator,has_deathdate,1931,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,educator,chesnut,"whittaker, 'january 14, 1931')",32,0.5742063492063493,21,0.46388888888888885,0.0,0.0
+hasdescriptiveoccupation,educator,record,module:,27,0.6138888888888889,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,educator,has_race_or_color,race_or_color,39,0.5977668845315903,38,0.6032051282051282,0.0,0.0
+hasdescriptiveoccupation,educator,has_race_or_color,black,39,0.5977668845315903,15,0.3833333333333333,0.0,0.0
+hasdescriptiveoccupation,educator,chesnut,"whittaker, 'black')",32,0.5742063492063493,15,0.4868421052631579,0.0,0.0
+hasdescriptiveoccupation,educator,status record,module:,32,0.540954415954416,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,educator,has_person_status,expelled from west point,39,0.6241830065359477,25,0.47222222222222215,0.0,0.0
+hasdescriptiveoccupation,educator,has_person_status,posthumously commissioned by president bill clinton,39,0.6241830065359477,17,0.5755135387488329,0.0,0.0
+hasdescriptiveoccupation,educator,chesnut,"whittaker, 'expelled from west point'), has_person_status(johnson chesnut whittaker, 'posthumously commissioned by president bill clinton')",32,0.5742063492063493,11,0.5191846522781774,0.0,0.0
+hasdescriptiveoccupation,educator,text does not provide information for all the,"modules, so some are left out.",35,0.5282407407407407,26,0.5944444444444444,0.0,0.0
+hasfirstname,johnson chesnutt,on the text,"provided, the ontology can be populated as follows:",26,0.39646464646464646,27,0.48288027332144984,0.0,0.0
+hasfirstname,johnson chesnutt,record,module:,22,0.4166666666666667,17,0.4702380952380952,0.0,0.0
+hasfirstname,johnson chesnutt,has_name,name,70,0.8736111111111112,20,0.5416666666666666,0.0,0.0
+hasfirstname,johnson chesnutt,has_name,johnson chesnut whittaker,70,0.8736111111111112,78,0.928,0.0,0.2605556710562624
+hasfirstname,johnson chesnutt,chesnut,"whittaker, 'johnson chesnut whittaker')",32,0.5515873015873015,58,0.6367521367521367,0.0,0.1757860783933462
+hasfirstname,johnson chesnutt,has_surname,surname,70,0.8733164983164984,26,0.4275793650793651,0.0,0.0
+hasfirstname,johnson chesnutt,has_surname,whittaker,70,0.8733164983164984,24,0.4490740740740741,0.0,0.0
+hasfirstname,johnson chesnutt,chesnut,"whittaker, 'whittaker')",32,0.5515873015873015,26,0.4341787439613527,0.0,0.0
+hasfirstname,johnson chesnutt,has_first_name,first_name,92,0.9666666666666667,23,0.3847222222222222,0.0,0.0
+hasfirstname,johnson chesnutt,has_first_name,johnson,92,0.9666666666666667,61,0.8875,0.0,0.5797386715376658
+hasfirstname,johnson chesnutt,chesnut,"whittaker, 'johnson')",32,0.5515873015873015,38,0.5436507936507936,0.0,0.33609692727625756
+hasfirstname,johnson chesnutt,relationship record,module:,32,0.5077276524644946,17,0.4702380952380952,0.0,0.0
+hasfirstname,johnson chesnutt,is_relationship_to,agent,27,0.6203703703703703,29,0.42083333333333334,0.0,0.0
+hasfirstname,johnson chesnutt,is_relationship_to,richard greener,27,0.6203703703703703,26,0.4152777777777777,0.0,0.0
+hasfirstname,johnson chesnutt,is_relationship_to,solomon l. hoge,27,0.6203703703703703,39,0.539484126984127,0.0,0.0
+hasfirstname,johnson chesnutt,chesnut,"whittaker, 'richard greener'), is_relationship_to(johnson chesnut whittaker, 'solomon l. hoge')",32,0.5515873015873015,29,0.5074561403508772,0.0,0.12725898700975252
+hasfirstname,johnson chesnutt,role record,module:,17,0.44949494949494956,17,0.4702380952380952,0.0,0.0
+hasfirstname,johnson chesnutt,has_participant_role,participant_role_type,44,0.6962962962962962,22,0.44246031746031744,0.0,0.0
+hasfirstname,johnson chesnutt,has_participant_role,cadet at west point,44,0.6962962962962962,29,0.4591165413533835,0.0,0.0
+hasfirstname,johnson chesnutt,has_participant_role,defendant in court-martial,44,0.6962962962962962,33,0.5365384615384615,0.0,0.0
+hasfirstname,johnson chesnutt,chesnut,"whittaker, 'cadet at west point'), has_participant_role(johnson chesnut whittaker, 'defendant in court-martial')",32,0.5515873015873015,25,0.5238095238095238,0.0,0.10830156041911583
+hasfirstname,johnson chesnutt,record,module:,22,0.4166666666666667,17,0.4702380952380952,0.0,0.0
+hasfirstname,johnson chesnutt,has_sex,sex_type,53,0.6349206349206349,25,0.4583333333333333,0.0,0.0
+hasfirstname,johnson chesnutt,has_sex,male,53,0.6349206349206349,10,0.4375,0.0,0.0
+hasfirstname,johnson chesnutt,chesnut,"whittaker, 'male')",32,0.5515873015873015,18,0.34027777777777773,0.0,0.0
+hasfirstname,johnson chesnutt,record,module:,22,0.4166666666666667,17,0.4702380952380952,0.0,0.0
+hasfirstname,johnson chesnutt,has_occupation,occupation,38,0.5873015873015873,31,0.4666666666666666,0.0,0.0
+hasfirstname,johnson chesnutt,has_occupation,teacher,38,0.5873015873015873,26,0.4275793650793651,0.0,0.0
+hasfirstname,johnson chesnutt,has_occupation,lawyer,38,0.5873015873015873,9,0.40972222222222227,0.0,0.0
+hasfirstname,johnson chesnutt,has_occupation,high school principal,38,0.5873015873015873,27,0.501984126984127,0.0,0.0
+hasfirstname,johnson chesnutt,has_occupation,psychology professor,38,0.5873015873015873,28,0.5499999999999999,0.0,0.0
+hasfirstname,johnson chesnutt,chesnut,"whittaker, 'teacher'), has_occupation(johnson chesnut whittaker, 'lawyer'), has_occupation(johnson chesnut whittaker, 'high school principal'), has_occupation(johnson chesnut whittaker, 'psychology professor')",32,0.5515873015873015,14,0.5255183413078149,0.0,0.1833410576140589
+hasfirstname,johnson chesnutt,record,module:,22,0.4166666666666667,17,0.4702380952380952,0.0,0.0
+hasfirstname,johnson chesnutt,has_birthdate,date_of_birth,64,0.8324786324786324,14,0.3525641025641026,0.0,0.0
+hasfirstname,johnson chesnutt,has_birthdate,august 23,64,0.8324786324786324,16,0.4490740740740741,0.0,0.0
+hasfirstname,johnson chesnutt,has_birthdate,1858,64,0.8324786324786324,0,0.0,0.0,0.0
+hasfirstname,johnson chesnutt,chesnut,"whittaker, 'august 23, 1858')",32,0.5515873015873015,18,0.46438834154351394,0.0,0.0
+hasfirstname,johnson chesnutt,has_deathdate,date_of_death,48,0.5982905982905983,21,0.3525641025641026,0.0,0.0
+hasfirstname,johnson chesnutt,has_deathdate,january 14,48,0.5982905982905983,23,0.49583333333333335,0.0,0.0
+hasfirstname,johnson chesnutt,has_deathdate,1931,48,0.5982905982905983,0,0.0,0.0,0.0
+hasfirstname,johnson chesnutt,chesnut,"whittaker, 'january 14, 1931')",32,0.5515873015873015,17,0.4222222222222222,0.0,0.0
+hasfirstname,johnson chesnutt,record,module:,22,0.4166666666666667,17,0.4702380952380952,0.0,0.0
+hasfirstname,johnson chesnutt,has_race_or_color,race_or_color,41,0.6176470588235294,14,0.3525641025641026,0.0,0.0
+hasfirstname,johnson chesnutt,has_race_or_color,black,41,0.6176470588235294,10,0.42083333333333334,0.0,0.0
+hasfirstname,johnson chesnutt,chesnut,"whittaker, 'black')",32,0.5515873015873015,17,0.40350877192982454,0.0,0.0
+hasfirstname,johnson chesnutt,status record,module:,32,0.5427350427350427,17,0.4702380952380952,0.0,0.0
+hasfirstname,johnson chesnutt,has_person_status,expelled from west point,48,0.6857298474945533,30,0.48115079365079366,0.0,0.0
+hasfirstname,johnson chesnutt,has_person_status,posthumously commissioned by president bill clinton,48,0.6857298474945533,33,0.5609288587229764,0.0,0.0
+hasfirstname,johnson chesnutt,chesnut,"whittaker, 'expelled from west point'), has_person_status(johnson chesnut whittaker, 'posthumously commissioned by president bill clinton')",32,0.5515873015873015,21,0.5592026378896883,0.0,0.10152852403842218
+hasfirstname,johnson chesnutt,text does not provide information for all the,"modules, so some are left out.",25,0.5018518518518519,30,0.5467592592592593,0.0,0.0
+hassurname,whittaker,on the text,"provided, the ontology can be populated as follows:",19,0.46060606060606063,17,0.5431061313414255,0.0,0.0
+hassurname,whittaker,record,module:,25,0.4222222222222222,12,0.41798941798941797,0.0,0.0
+hassurname,whittaker,has_name,name,78,0.9008333333333334,31,0.0,0.0,0.0
+hassurname,whittaker,has_name,johnson chesnut whittaker,78,0.9008333333333334,53,0.3733333333333333,0.0,0.4494364165239821
+hassurname,whittaker,chesnut,"whittaker, 'johnson chesnut whittaker')",35,0.5738095238095239,38,0.8461538461538461,0.0,0.7092972666062738
+hassurname,whittaker,has_surname,surname,95,0.9787878787878788,25,0.5026455026455027,0.0,0.0
+hassurname,whittaker,has_surname,whittaker,95,0.9787878787878788,100,1.0,0.0,1.0
+hassurname,whittaker,chesnut,"whittaker, 'whittaker')",35,0.5738095238095239,56,0.8782608695652174,0.0,1.0
+hassurname,whittaker,has_first_name,first_name,67,0.8674074074074074,42,0.6148148148148148,0.0,0.0
+hassurname,whittaker,has_first_name,johnson,67,0.8674074074074074,12,0.41798941798941797,0.0,0.0
+hassurname,whittaker,chesnut,"whittaker, 'johnson')",35,0.5738095238095239,60,0.8857142857142858,0.0,0.5797386715376658
+hassurname,whittaker,relationship record,module:,28,0.4543859649122807,12,0.41798941798941797,0.0,0.0
+hassurname,whittaker,is_relationship_to,agent,21,0.5333333333333333,29,0.43703703703703706,0.0,0.0
+hassurname,whittaker,is_relationship_to,richard greener,21,0.5333333333333333,33,0.4962962962962963,0.0,0.0
+hassurname,whittaker,is_relationship_to,solomon l. hoge,21,0.5333333333333333,17,0.0,0.0,0.0
+hassurname,whittaker,chesnut,"whittaker, 'richard greener'), is_relationship_to(johnson chesnut whittaker, 'solomon l. hoge')",35,0.5738095238095239,17,0.6982456140350877,0.0,0.4736820224661605
+hassurname,whittaker,role record,module:,19,0.46060606060606063,12,0.41798941798941797,0.0,0.0
+hassurname,whittaker,has_participant_role,participant_role_type,40,0.5777777777777778,27,0.5396825396825397,0.0,0.0
+hassurname,whittaker,has_participant_role,cadet at west point,40,0.5777777777777778,21,0.38499025341130605,0.0,0.0
+hassurname,whittaker,has_participant_role,defendant in court-martial,40,0.5777777777777778,23,0.44928774928774934,0.0,0.0
+hassurname,whittaker,chesnut,"whittaker, 'cadet at west point'), has_participant_role(johnson chesnut whittaker, 'defendant in court-martial')",35,0.5738095238095239,15,0.6934523809523809,0.0,0.3942951757440383
+hassurname,whittaker,record,module:,25,0.4222222222222222,12,0.41798941798941797,0.0,0.0
+hassurname,whittaker,has_sex,sex_type,59,0.8166666666666667,24,0.49074074074074076,0.0,0.0
+hassurname,whittaker,has_sex,male,59,0.8166666666666667,31,0.0,0.0,0.0
+hassurname,whittaker,chesnut,"whittaker, 'male')",35,0.5738095238095239,67,0.9,0.0,0.5797386715376658
+hassurname,whittaker,record,module:,25,0.4222222222222222,12,0.41798941798941797,0.0,0.0
+hassurname,whittaker,has_occupation,occupation,42,0.6190476190476191,11,0.3074074074074074,0.0,0.0
+hassurname,whittaker,has_occupation,teacher,42,0.6190476190476191,50,0.6899470899470899,0.0,0.0
+hassurname,whittaker,has_occupation,lawyer,42,0.6190476190476191,40,0.611111111111111,0.0,0.0
+hassurname,whittaker,has_occupation,high school principal,42,0.6190476190476191,20,0.4920634920634921,0.0,0.0
+hassurname,whittaker,has_occupation,psychology professor,42,0.6190476190476191,21,0.3833333333333333,0.0,0.0
+hassurname,whittaker,chesnut,"whittaker, 'teacher'), has_occupation(johnson chesnut whittaker, 'lawyer'), has_occupation(johnson chesnut whittaker, 'high school principal'), has_occupation(johnson chesnut whittaker, 'psychology professor')",35,0.5738095238095239,8,0.6810207336523125,0.0,0.43863105126041346
+hassurname,whittaker,record,module:,25,0.4222222222222222,12,0.41798941798941797,0.0,0.0
+hassurname,whittaker,has_birthdate,date_of_birth,52,0.6871794871794871,27,0.5007122507122507,0.0,0.0
+hassurname,whittaker,has_birthdate,august 23,52,0.6871794871794871,11,0.40740740740740744,0.0,0.0
+hassurname,whittaker,has_birthdate,1858,52,0.6871794871794871,0,0.0,0.0,0.0
+hassurname,whittaker,chesnut,"whittaker, 'august 23, 1858')",35,0.5738095238095239,47,0.8620689655172413,0.0,0.3799783615910079
+hassurname,whittaker,has_deathdate,date_of_death,43,0.5615384615384615,18,0.4102564102564103,0.0,0.0
+hassurname,whittaker,has_deathdate,january 14,43,0.5615384615384615,21,0.4740740740740741,0.0,0.0
+hassurname,whittaker,has_deathdate,1931,43,0.5615384615384615,0,0.0,0.0,0.0
+hassurname,whittaker,chesnut,"whittaker, 'january 14, 1931')",35,0.5738095238095239,46,0.86,0.0,0.3799783615910079
+hassurname,whittaker,record,module:,25,0.4222222222222222,12,0.41798941798941797,0.0,0.0
+hassurname,whittaker,has_race_or_color,race_or_color,44,0.6509803921568628,27,0.5213675213675214,0.0,0.0
+hassurname,whittaker,has_race_or_color,black,44,0.6509803921568628,29,0.5407407407407407,0.0,0.0
+hassurname,whittaker,chesnut,"whittaker, 'black')",35,0.5738095238095239,64,0.8947368421052632,0.0,0.5797386715376658
+hassurname,whittaker,status record,module:,35,0.5760683760683761,12,0.41798941798941797,0.0,0.0
+hassurname,whittaker,has_person_status,expelled from west point,44,0.6735294117647058,18,0.4351851851851852,0.0,0.0
+hassurname,whittaker,has_person_status,posthumously commissioned by president bill clinton,44,0.6735294117647058,13,0.4845315904139434,0.0,0.0
+hassurname,whittaker,chesnut,"whittaker, 'expelled from west point'), has_person_status(johnson chesnut whittaker, 'posthumously commissioned by president bill clinton')",35,0.5738095238095239,12,0.6882494004796164,0.0,0.36711576569701365
+hassurname,whittaker,text does not provide information for all the,"modules, so some are left out.",18,0.4666666666666666,10,0.3666666666666667,0.0,0.0
+hasname,johnson chesnutt whittaker,on the text,"provided, the ontology can be populated as follows:",22,0.45598845598845594,29,0.5055304172951232,0.0,0.0
+hasname,johnson chesnutt whittaker,record,module:,15,0.0,18,0.4035409035409035,0.0,0.0
+hasname,johnson chesnutt whittaker,has_name,name,93,0.9708333333333333,20,0.5256410256410257,0.0,0.0
+hasname,johnson chesnutt whittaker,has_name,johnson chesnut whittaker,93,0.9708333333333333,98,0.9763076923076923,0.0,0.5031026124151314
+hasname,johnson chesnutt whittaker,chesnut,"whittaker, 'johnson chesnut whittaker')",43,0.6190476190476191,77,0.7222222222222222,0.0,0.5697077090551432
+hasname,johnson chesnutt whittaker,has_surname,surname,78,0.9151515151515152,24,0.4084249084249085,0.0,0.0
+hasname,johnson chesnutt whittaker,has_surname,whittaker,78,0.9151515151515152,51,0.44943019943019946,0.0,0.4494364165239821
+hasname,johnson chesnutt whittaker,chesnut,"whittaker, 'whittaker')",43,0.6190476190476191,53,0.6681000159261029,0.0,0.4494364165239821
+hasname,johnson chesnutt whittaker,has_first_name,first_name,67,0.5476190476190476,22,0.3512820512820513,0.0,0.0
+hasname,johnson chesnutt whittaker,has_first_name,johnson,67,0.5476190476190476,42,0.8538461538461538,0.0,0.44943641652398214
+hasname,johnson chesnutt whittaker,chesnut,"whittaker, 'johnson')",43,0.6190476190476191,38,0.510989010989011,0.0,0.7092972666062739
+hasname,johnson chesnutt whittaker,relationship record,module:,23,0.5106516290726817,18,0.4035409035409035,0.0,0.0
+hasname,johnson chesnutt whittaker,is_relationship_to,agent,16,0.43121693121693117,19,0.46068376068376066,0.0,0.0
+hasname,johnson chesnutt whittaker,is_relationship_to,richard greener,16,0.43121693121693117,29,0.48339438339438345,0.0,0.0
+hasname,johnson chesnutt whittaker,is_relationship_to,solomon l. hoge,16,0.43121693121693117,34,0.4886752136752137,0.0,0.0
+hasname,johnson chesnutt whittaker,chesnut,"whittaker, 'richard greener'), is_relationship_to(johnson chesnut whittaker, 'solomon l. hoge')",43,0.6190476190476191,41,0.5724583895636527,0.0,0.3665294775458558
+hasname,johnson chesnutt whittaker,role record,module:,11,0.41125541125541126,18,0.4035409035409035,0.0,0.0
+hasname,johnson chesnutt whittaker,has_participant_role,participant_role_type,37,0.5904761904761905,21,0.4378815628815629,0.0,0.0
+hasname,johnson chesnutt whittaker,has_participant_role,cadet at west point,37,0.5904761904761905,36,0.5998650472334682,0.0,0.0
+hasname,johnson chesnutt whittaker,has_participant_role,defendant in court-martial,37,0.5904761904761905,35,0.6068376068376068,0.0,0.0
+hasname,johnson chesnutt whittaker,chesnut,"whittaker, 'cadet at west point'), has_participant_role(johnson chesnut whittaker, 'defendant in court-martial')",43,0.6190476190476191,36,0.5596764346764346,0.0,0.30242507712318206
+hasname,johnson chesnutt whittaker,record,module:,15,0.0,18,0.4035409035409035,0.0,0.0
+hasname,johnson chesnutt whittaker,has_sex,sex_type,57,0.8,24,0.4967948717948718,0.0,0.0
+hasname,johnson chesnutt whittaker,has_sex,male,57,0.8,13,0.42948717948717946,0.0,0.0
+hasname,johnson chesnutt whittaker,chesnut,"whittaker, 'male')",43,0.6190476190476191,41,0.4574684574684575,0.0,0.2605556710562624
+hasname,johnson chesnutt whittaker,record,module:,15,0.0,18,0.4035409035409035,0.0,0.0
+hasname,johnson chesnutt whittaker,has_occupation,occupation,38,0.6190476190476191,28,0.5135531135531135,0.0,0.0
+hasname,johnson chesnutt whittaker,has_occupation,teacher,38,0.6190476190476191,24,0.4035409035409035,0.0,0.0
+hasname,johnson chesnutt whittaker,has_occupation,lawyer,38,0.6190476190476191,19,0.40170940170940167,0.0,0.0
+hasname,johnson chesnutt whittaker,has_occupation,high school principal,38,0.6190476190476191,30,0.6037851037851037,0.0,0.0
+hasname,johnson chesnutt whittaker,has_occupation,psychology professor,38,0.6190476190476191,26,0.5246438746438747,0.0,0.0
+hasname,johnson chesnutt whittaker,chesnut,"whittaker, 'teacher'), has_occupation(johnson chesnut whittaker, 'lawyer'), has_occupation(johnson chesnut whittaker, 'high school principal'), has_occupation(johnson chesnut whittaker, 'psychology professor')",43,0.6190476190476191,22,0.5414673046251993,0.0,0.40707421595408855
+hasname,johnson chesnutt whittaker,record,module:,15,0.0,18,0.4035409035409035,0.0,0.0
+hasname,johnson chesnutt whittaker,has_birthdate,date_of_birth,50,0.553113553113553,15,0.452991452991453,0.0,0.0
+hasname,johnson chesnutt whittaker,has_birthdate,august 23,50,0.553113553113553,17,0.36609686609686615,0.0,0.0
+hasname,johnson chesnutt whittaker,has_birthdate,1858,50,0.553113553113553,0,0.0,0.0,0.0
+hasname,johnson chesnutt whittaker,chesnut,"whittaker, 'august 23, 1858')",43,0.6190476190476191,33,0.4764809902740937,0.0,0.1707761131901165
+hasname,johnson chesnutt whittaker,has_deathdate,date_of_death,50,0.632967032967033,21,0.452991452991453,0.0,0.0
+hasname,johnson chesnutt whittaker,has_deathdate,january 14,50,0.632967032967033,28,0.4346153846153846,0.0,0.0
+hasname,johnson chesnutt whittaker,has_deathdate,1931,50,0.632967032967033,0,0.0,0.0,0.0
+hasname,johnson chesnutt whittaker,chesnut,"whittaker, 'january 14, 1931')",43,0.6190476190476191,32,0.445066045066045,0.0,0.1707761131901165
+hasname,johnson chesnutt whittaker,record,module:,15,0.0,18,0.4035409035409035,0.0,0.0
+hasname,johnson chesnutt whittaker,has_race_or_color,race_or_color,42,0.6694677871148459,15,0.32051282051282054,0.0,0.0
+hasname,johnson chesnutt whittaker,has_race_or_color,black,42,0.6694677871148459,13,0.41282051282051285,0.0,0.0
+hasname,johnson chesnutt whittaker,chesnut,"whittaker, 'black')",43,0.6190476190476191,40,0.49291497975708504,0.0,0.2605556710562624
+hasname,johnson chesnutt whittaker,status record,module:,30,0.442002442002442,18,0.4035409035409035,0.0,0.0
+hasname,johnson chesnutt whittaker,has_person_status,expelled from west point,42,0.6028011204481792,32,0.4756216006216006,0.0,0.0
+hasname,johnson chesnutt whittaker,has_person_status,posthumously commissioned by president bill clinton,42,0.6028011204481792,34,0.5055304172951232,0.0,0.0
+hasname,johnson chesnutt whittaker,chesnut,"whittaker, 'expelled from west point'), has_person_status(johnson chesnut whittaker, 'posthumously commissioned by president bill clinton')",43,0.6190476190476191,30,0.5879911455451023,0.0,0.2808428929479298
+hasname,johnson chesnutt whittaker,text does not provide information for all the,"modules, so some are left out.",15,0.38730158730158726,29,0.5162393162393163,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",on the text,"provided, the ontology can be populated as follows:",24,0.49567099567099565,25,0.5645052347180007,0.0,0.02939785575873493
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",record,module:,30,0.48412698412698413,5,0.5163398692810457,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",has_name,name,36,0.5952380952380952,3,0.5056022408963585,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",has_name,johnson chesnut whittaker,36,0.5952380952380952,18,0.5341690009337068,0.0,0.10371551133313005
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",chesnut,"whittaker, 'johnson chesnut whittaker')",38,0.6238095238095238,24,0.5291172879408174,0.0,0.1636830616936349
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",has_surname,surname,48,0.6168831168831169,6,0.5336134453781513,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",has_surname,whittaker,48,0.6168831168831169,7,0.5311235605353253,0.0,0.23076792961123066
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",chesnut,"whittaker, 'whittaker')",38,0.6238095238095238,15,0.5011996102788941,0.0,0.23076792961123066
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",has_first_name,first_name,43,0.6726190476190476,6,0.4977902272019919,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",has_first_name,johnson,43,0.6726190476190476,5,0.5163398692810457,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",chesnut,"whittaker, 'johnson')",38,0.6238095238095238,12,0.4701213818860877,0.0,0.13378509294631244
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",relationship record,module:,30,0.6135338345864662,5,0.5163398692810457,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",is_relationship_to,agent,44,0.6474266474266474,4,0.5403361344537815,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",is_relationship_to,richard greener,44,0.6474266474266474,11,0.5321195144724556,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",is_relationship_to,solomon l. hoge,44,0.6474266474266474,12,0.5321195144724556,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",chesnut,"whittaker, 'richard greener'), is_relationship_to(johnson chesnut whittaker, 'solomon l. hoge')",38,0.6238095238095238,34,0.5881974603411435,0.0,0.1093106196185763
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",role record,module:,24,0.46645021645021645,5,0.5163398692810457,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",has_participant_role,participant_role_type,47,0.6876623376623376,12,0.4701213818860877,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",has_participant_role,cadet at west point,47,0.6876623376623376,14,0.5353825740822645,0.0,0.154189271067764
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",has_participant_role,defendant in court-martial,47,0.6876623376623376,17,0.5492350786468433,0.0,0.04301361333648281
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",chesnut,"whittaker, 'cadet at west point'), has_participant_role(johnson chesnut whittaker, 'defendant in court-martial')",38,0.6238095238095238,40,0.6117494977789096,0.0,0.20291647781760683
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",record,module:,30,0.48412698412698413,5,0.5163398692810457,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",has_sex,sex_type,38,0.6238095238095238,5,0.42507002801120447,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",has_sex,male,38,0.6238095238095238,3,0.5056022408963585,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",chesnut,"whittaker, 'male')",38,0.6238095238095238,12,0.4765639589169001,0.0,0.13378509294631244
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",record,module:,30,0.48412698412698413,5,0.5163398692810457,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",has_occupation,occupation,64,0.8074074074074075,7,0.5473389355742296,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",has_occupation,teacher,64,0.8074074074074075,6,0.5336134453781513,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",has_occupation,lawyer,64,0.8074074074074075,5,0.5639589169000933,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",has_occupation,high school principal,64,0.8074074074074075,14,0.5288048552754435,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",has_occupation,psychology professor,64,0.8074074074074075,15,0.5538036267138434,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",chesnut,"whittaker, 'teacher'), has_occupation(johnson chesnut whittaker, 'lawyer'), has_occupation(johnson chesnut whittaker, 'high school principal'), has_occupation(johnson chesnut whittaker, 'psychology professor')",38,0.6238095238095238,40,0.6248740389297665,0.0,0.10122197956256321
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",record,module:,30,0.48412698412698413,5,0.5163398692810457,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",has_birthdate,date_of_birth,37,0.6318681318681318,8,0.4704158586511527,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",has_birthdate,august 23,37,0.6318681318681318,6,0.4595393713040772,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",has_birthdate,1858,37,0.6318681318681318,0,0.0,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",chesnut,"whittaker, 'august 23, 1858')",38,0.6238095238095238,13,0.4204400453466322,0.0,0.08768681980142447
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",has_deathdate,date_of_death,44,0.63003663003663,9,0.5095786566374801,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",has_deathdate,january 14,44,0.63003663003663,6,0.4336134453781512,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",has_deathdate,1931,44,0.63003663003663,0,0.0,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",chesnut,"whittaker, 'january 14, 1931')",38,0.6238095238095238,13,0.41316035186004224,0.0,0.08768681980142447
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",record,module:,30,0.48412698412698413,5,0.5163398692810457,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",has_race_or_color,race_or_color,39,0.5896358543417367,9,0.4792756263344498,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",has_race_or_color,black,39,0.5896358543417367,3,0.5222689075630252,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",chesnut,"whittaker, 'black')",38,0.6238095238095238,11,0.4841662980981867,0.0,0.13378509294631244
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",status record,module:,37,0.5366300366300366,5,0.5163398692810457,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",has_person_status,expelled from west point,45,0.6675070028011204,14,0.5181860623037093,0.0,0.154189271067764
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",has_person_status,posthumously commissioned by president bill clinton,45,0.6675070028011204,24,0.5545634920634921,0.0,0.0
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",chesnut,"whittaker, 'expelled from west point'), has_person_status(johnson chesnut whittaker, 'posthumously commissioned by president bill clinton')",38,0.6238095238095238,38,0.622906716643492,0.0,0.1592879089006653
+hasdescription,"enslaved. while studying at west point, whittaker was viciously attacked in his dorm room and then charged self-mutilation. though eventually exonerated of this charge, whittaker was discharged from the academy after failing an oral exam.",text does not provide information for all the,"modules, so some are left out.",31,0.47883597883597884,19,0.5531279178338001,0.0,0.0

@@ -1,0 +1,541 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,boston king,32,0.537878787878788,35,0.47979797979797983,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,king,27,0.49242424242424243,20,0.0,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,boston,40,0.5692640692640693,50,0.6666666666666666,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,relationship_type,30,0.5269480519480519,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,enslaver or owner,30,0.5269480519480519,35,0.642483660130719,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,spouse,30,0.5269480519480519,33,0.5555555555555555,0.0,0.0
+instance of,person,or,"owner""), has_interagent_relationship_type_to(boston king, ""spouse"")",15,0.0,14,0.502653399668325,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,british,34,0.5798460798460798,31,0.5396825396825397,0.0,0.0
+instance of,person,is_relationship_to,violet,34,0.5798460798460798,17,0.4444444444444444,0.0,0.0
+instance of,person,role record,module:,27,0.49242424242424243,15,0.0,0.0,0.0
+instance of,person,has_participant_role,participant_role_type,32,0.5668831168831169,22,0.5357142857142857,0.0,0.0
+instance of,person,has_participant_role,participant in the american revolutionary war,32,0.5668831168831169,20,0.5018518518518519,0.0,0.0
+instance of,person,in the american revolutionary,"war"").",35,0.5983977708115639,17,0.4444444444444444,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,male,22,0.45598845598845594,20,0.47222222222222215,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,slave,24,0.38311688311688313,18,0.0,0.0,0.0
+instance of,person,has_occupation,carpenter,24,0.38311688311688313,40,0.6203703703703703,0.0,0.0
+instance of,person,has_occupation,methodist missionary,24,0.38311688311688313,31,0.4388888888888889,0.0,0.0
+instance of,person,has_occupation,autobiographer,24,0.38311688311688313,30,0.3253968253968254,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_age,42,33,0.45598845598845594,0,0.0,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_birthdate,around 1760,33,0.5463869463869464,35,0.5909090909090909,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,1802,33,0.39044289044289043,0,0.0,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,black american,36,0.5162210338680927,30,0.0,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,enslaved person,29,0.449554367201426,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,has_person_status,free man,29,0.449554367201426,29,0.5138888888888888,0.0,0.0
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,american revolutionary war,26,0.4799102132435466,25,0.5235042735042735,0.0,0.0
+instance of,person,has_status_generating_event,british occupation of charleston,26,0.4799102132435466,26,0.5298611111111111,0.0,0.0
+instance of,person,revolutionary,"war""), has_status_generating_event(free man, ""british occupation of charleston"").",25,0.3900543900543901,11,0.4886831275720165,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_name,name,57,0.8055555555555556,50,0.6666666666666666,0.0,0.0
+hassex,male,has_name,boston king,57,0.8055555555555556,0,0.0,0.0,0.0
+hassex,male,has_surname,surname,59,0.6767676767676768,36,0.0,0.0,0.0
+hassex,male,has_surname,king,59,0.6767676767676768,0,0.0,0.0,0.0
+hassex,male,has_first_name,first_name,50,0.6507936507936508,29,0.0,0.0,0.0
+hassex,male,has_first_name,boston,50,0.6507936507936508,0,0.0,0.0,0.0
+hassex,male,relationship record,module:,24,0.44152046783625726,55,0.7535714285714287,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,relationship_type,24,0.5936507936507937,19,0.5310457516339869,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,enslaver or owner,24,0.5936507936507937,19,0.5310457516339869,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,spouse,24,0.5936507936507937,20,0.47222222222222215,0.0,0.0
+hassex,male,or,"owner""), has_interagent_relationship_type_to(boston king, ""spouse"")",0,0.0,8,0.48714759535655056,0.0,0.0
+hassex,male,is_relationship_to,agent,17,0.46296296296296297,44,0.6333333333333333,0.0,0.0
+hassex,male,is_relationship_to,british,17,0.46296296296296297,0,0.0,0.0,0.0
+hassex,male,is_relationship_to,violet,17,0.46296296296296297,40,0.611111111111111,0.0,0.0
+hassex,male,role record,module:,12,0.41919191919191917,55,0.7535714285714287,0.0,0.0
+hassex,male,has_participant_role,participant_role_type,31,0.5499999999999999,24,0.43253968253968256,0.0,0.0
+hassex,male,has_participant_role,participant in the american revolutionary war,31,0.5499999999999999,12,0.49444444444444446,0.0,0.0
+hassex,male,in the american revolutionary,"war"").",17,0.4233716475095785,20,0.47222222222222215,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_sex,sex_type,92,0.9666666666666667,17,0.4583333333333333,0.0,0.0
+hassex,male,has_sex,male,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_occupation,occupation,30,0.5714285714285715,14,0.45,0.0,0.0
+hassex,male,has_occupation,slave,30,0.5714285714285715,44,0.6722222222222222,0.0,0.0
+hassex,male,has_occupation,carpenter,30,0.5714285714285715,31,0.5740740740740741,0.0,0.0
+hassex,male,has_occupation,methodist missionary,30,0.5714285714285715,17,0.5333333333333333,0.0,0.0
+hassex,male,has_occupation,autobiographer,30,0.5714285714285715,22,0.44047619047619047,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_age,age,62,0.8222222222222222,57,0.7222222222222222,0.0,0.0
+hassex,male,has_age,42,62,0.8222222222222222,0,0.0,0.0,0.0
+hassex,male,has_birthdate,date_of_birth,42,0.576923076923077,24,0.5512820512820512,0.0,0.0
+hassex,male,has_birthdate,around 1760,42,0.576923076923077,13,0.44696969696969696,0.0,0.0
+hassex,male,has_deathdate,date_of_death,42,0.6581196581196581,24,0.5512820512820512,0.0,0.0
+hassex,male,has_deathdate,1802,42,0.6581196581196581,0,0.0,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_race_or_color,race_or_color,35,0.6339869281045751,24,0.5512820512820512,0.0,0.0
+hassex,male,has_race_or_color,black american,35,0.6339869281045751,22,0.5436507936507936,0.0,0.0
+hassex,male,status record,module:,32,0.5747863247863249,55,0.7535714285714287,0.0,0.0
+hassex,male,has_person_status,enslaved person,35,0.642483660130719,21,0.5388888888888889,0.0,0.0
+hassex,male,has_person_status,free man,35,0.642483660130719,33,0.4583333333333333,0.0,0.0
+hassex,male,has_status_generating_event,event,30,0.6728395061728395,22,0.48333333333333334,0.0,0.0
+hassex,male,has_status_generating_event,american revolutionary war,30,0.6728395061728395,20,0.5512820512820512,0.0,0.0
+hassex,male,has_status_generating_event,british occupation of charleston,30,0.6728395061728395,17,0.4270833333333333,0.0,0.0
+hassex,male,revolutionary,"war""), has_status_generating_event(free man, ""british occupation of charleston"").",11,0.41452991452991456,9,0.5082304526748972,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,boston king,38,0.5675925925925926,12,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,king,41,0.6274651274651274,22,0.48333333333333334,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,boston,44,0.6772486772486772,0,0.0,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,enslaver or owner,42,0.6570105820105819,9,0.4196078431372549,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,spouse,42,0.6570105820105819,0,0.0,0.0,0.0
+hasparticipantrole,child,or,"owner""), has_interagent_relationship_type_to(boston king, ""spouse"")",10,0.5185185185185185,8,0.5482587064676617,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,british,44,0.6037037037037037,17,0.44761904761904764,0.0,0.0
+hasparticipantrole,child,is_relationship_to,violet,44,0.6037037037037037,36,0.5777777777777778,0.0,0.0
+hasparticipantrole,child,role record,module:,28,0.4452861952861953,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant_role_type,95,0.9766666666666667,23,0.33174603174603173,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant in the american revolutionary war,95,0.9766666666666667,16,0.4444444444444444,0.0,0.0
+hasparticipantrole,child,in the american revolutionary,"war"").",43,0.6344645137748586,0,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,male,32,0.5317460317460317,22,0.48333333333333334,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,slave,50,0.6566137566137565,20,0.0,0.0,0.0
+hasparticipantrole,child,has_occupation,carpenter,50,0.6566137566137565,14,0.43703703703703706,0.0,0.0
+hasparticipantrole,child,has_occupation,methodist missionary,50,0.6566137566137565,16,0.47222222222222215,0.0,0.0
+hasparticipantrole,child,has_occupation,autobiographer,50,0.6566137566137565,11,0.4238095238095238,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_age,age,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_age,42,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_birthdate,date_of_birth,52,0.6937321937321936,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_birthdate,around 1760,52,0.6937321937321936,12,0.43030303030303035,0.0,0.0
+hasparticipantrole,child,has_deathdate,date_of_death,52,0.6866096866096866,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_deathdate,1802,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_race_or_color,race_or_color,46,0.60239651416122,22,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_race_or_color,black american,46,0.60239651416122,21,0.34761904761904766,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,enslaved person,46,0.6479302832244008,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,child,has_person_status,free man,46,0.6479302832244008,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,american revolutionary war,40,0.5819304152637487,13,0.46068376068376066,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,british occupation of charleston,40,0.5819304152637487,16,0.4534722222222222,0.0,0.0
+hasparticipantrole,child,revolutionary,"war""), has_status_generating_event(free man, ""british occupation of charleston"").",32,0.4995929995929996,7,0.4748971193415638,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,boston king,38,0.5675925925925926,23,0.4909090909090909,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,king,41,0.6274651274651274,11,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,boston,44,0.6772486772486772,29,0.41111111111111115,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,enslaver or owner,42,0.6570105820105819,44,0.5986928104575163,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,spouse,42,0.6570105820105819,29,0.32222222222222224,0.0,0.0
+hasparticipantrole,deceased person,or,"owner""), has_interagent_relationship_type_to(boston king, ""spouse"")",10,0.5185185185185185,22,0.5208126036484245,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,british,44,0.6037037037037037,18,0.40317460317460313,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,violet,44,0.6037037037037037,10,0.41111111111111115,0.0,0.0
+hasparticipantrole,deceased person,role record,module:,28,0.4452861952861953,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant_role_type,95,0.9766666666666667,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant in the american revolutionary war,95,0.9766666666666667,27,0.4962962962962963,0.0,0.0
+hasparticipantrole,deceased person,in the american revolutionary,"war"").",43,0.6344645137748586,19,0.41111111111111115,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,male,32,0.5317460317460317,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,slave,50,0.6566137566137565,20,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,carpenter,50,0.6566137566137565,42,0.5777777777777778,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,methodist missionary,50,0.6566137566137565,34,0.5194444444444445,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,autobiographer,50,0.6566137566137565,28,0.43412698412698414,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_age,age,40,0.5978835978835978,22,0.4333333333333333,0.0,0.0
+hasparticipantrole,deceased person,has_age,42,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,date_of_birth,52,0.6937321937321936,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,around 1760,52,0.6937321937321936,31,0.3797979797979798,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,date_of_death,52,0.6866096866096866,36,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,1802,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,race_or_color,46,0.60239651416122,29,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,black american,46,0.60239651416122,34,0.4984126984126984,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,enslaved person,46,0.6479302832244008,73,0.7833333333333333,0.0,0.33609692727625756
+hasparticipantrole,deceased person,has_person_status,free man,46,0.6479302832244008,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,american revolutionary war,40,0.5819304152637487,34,0.44700854700854703,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,british occupation of charleston,40,0.5819304152637487,30,0.4694444444444444,0.0,0.0
+hasparticipantrole,deceased person,revolutionary,"war""), has_status_generating_event(free man, ""british occupation of charleston"").",32,0.4995929995929996,21,0.46337448559670785,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,boston king,25,0.5555555555555555,12,0.43030303030303035,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,surname,34,0.5474386724386724,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,king,34,0.5474386724386724,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,first_name,32,0.5615079365079364,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,boston,32,0.5615079365079364,18,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,relationship record,module:,33,0.6137539361223572,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,27,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,enslaver or owner,41,0.6037698412698412,45,0.6313725490196078,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,spouse,41,0.6037698412698412,36,0.5777777777777778,0.0,0.0
+hasdescriptiveoccupation,slave,or,"owner""), has_interagent_relationship_type_to(boston king, ""spouse"")",8,0.5138888888888888,11,0.4532338308457711,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,agent,38,0.6264245014245015,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,british,38,0.6264245014245015,17,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,violet,38,0.6264245014245015,36,0.5777777777777778,0.0,0.0
+hasdescriptiveoccupation,slave,role record,module:,29,0.4873737373737373,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,participant_role_type,50,0.6805555555555555,15,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,participant in the american revolutionary war,50,0.6805555555555555,8,0.48148148148148145,0.0,0.0
+hasdescriptiveoccupation,slave,in the american revolutionary,"war"").",45,0.60798399819698,18,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,sex_type,32,0.5742063492063493,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,male,32,0.5742063492063493,44,0.6722222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,slave,68,0.8045940170940171,100,1.0,0.0,1.0
+hasdescriptiveoccupation,slave,has_occupation,carpenter,68,0.8045940170940171,29,0.5407407407407407,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,methodist missionary,68,0.8045940170940171,16,0.3333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,autobiographer,68,0.8045940170940171,21,0.4238095238095238,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,age,26,0.5793650793650794,50,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,42,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,date_of_birth,38,0.6286324786324786,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,around 1760,38,0.6286324786324786,12,0.43030303030303035,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,date_of_death,43,0.652065527065527,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,1802,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,race_or_color,39,0.5977668845315903,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,black american,39,0.5977668845315903,32,0.6047619047619047,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,enslaved person,39,0.6241830065359477,50,0.6444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,free man,39,0.6241830065359477,15,0.44166666666666665,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,event,39,0.5815696649029983,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,american revolutionary war,39,0.5815696649029983,13,0.567948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,british occupation of charleston,39,0.5815696649029983,16,0.4875,0.0,0.0
+hasdescriptiveoccupation,slave,revolutionary,"war""), has_status_generating_event(free man, ""british occupation of charleston"").",43,0.5148046398046398,9,0.44979423868312757,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),record,module:,27,0.6138888888888889,16,0.4849206349206349,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_name,name,25,0.5555555555555555,18,0.6166666666666667,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_name,boston king,25,0.5555555555555555,34,0.4707070707070707,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_surname,surname,34,0.5474386724386724,22,0.5190476190476191,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_surname,king,34,0.5474386724386724,12,0.42777777777777776,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_first_name,first_name,32,0.5615079365079364,30,0.5638888888888889,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_first_name,boston,32,0.5615079365079364,28,0.6,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),relationship record,module:,33,0.6137539361223572,16,0.4849206349206349,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,30,0.6044746103569633,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_interagent_relationship_type_to,enslaver or owner,41,0.6037698412698412,34,0.5352941176470588,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_interagent_relationship_type_to,spouse,41,0.6037698412698412,17,0.4222222222222222,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),or,"owner""), has_interagent_relationship_type_to(boston king, ""spouse"")",8,0.5138888888888888,33,0.5282871357498223,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),is_relationship_to,agent,38,0.6264245014245015,23,0.5611111111111111,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),is_relationship_to,british,38,0.6264245014245015,22,0.4936507936507937,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),is_relationship_to,violet,38,0.6264245014245015,22,0.5333333333333333,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),role record,module:,29,0.4873737373737373,16,0.4849206349206349,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_participant_role,participant_role_type,50,0.6805555555555555,39,0.5682539682539682,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_participant_role,participant in the american revolutionary war,50,0.6805555555555555,61,0.6288244766505636,0.0,0.13627634143908643
+hasdescriptiveoccupation,loyalist (american revolution),in the american revolutionary,"war"").",45,0.60798399819698,17,0.4666666666666666,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),record,module:,27,0.6138888888888889,16,0.4849206349206349,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_sex,sex_type,32,0.5742063492063493,16,0.5305555555555556,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_sex,male,32,0.5742063492063493,18,0.6277777777777778,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),record,module:,27,0.6138888888888889,16,0.4849206349206349,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_occupation,occupation,68,0.8045940170940171,35,0.5492063492063491,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_occupation,slave,68,0.8045940170940171,17,0.5611111111111111,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_occupation,carpenter,68,0.8045940170940171,26,0.5751322751322752,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_occupation,methodist missionary,68,0.8045940170940171,40,0.5405982905982906,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_occupation,autobiographer,68,0.8045940170940171,23,0.4876984126984127,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),record,module:,27,0.6138888888888889,16,0.4849206349206349,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_age,age,26,0.5793650793650794,12,0.5777777777777778,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_age,42,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_birthdate,date_of_birth,38,0.6286324786324786,28,0.4953601953601954,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_birthdate,around 1760,38,0.6286324786324786,24,0.4070707070707071,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_deathdate,date_of_death,43,0.652065527065527,23,0.4953601953601954,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_deathdate,1802,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),record,module:,27,0.6138888888888889,16,0.4849206349206349,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_race_or_color,race_or_color,39,0.5977668845315903,33,0.5023504273504273,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_race_or_color,black american,39,0.5977668845315903,50,0.6871572871572872,0.0,0.2605556710562624
+hasdescriptiveoccupation,loyalist (american revolution),status record,module:,32,0.540954415954416,16,0.4849206349206349,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_person_status,enslaved person,39,0.6241830065359477,31,0.48518518518518516,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_person_status,free man,39,0.6241830065359477,21,0.5388888888888889,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_status_generating_event,event,39,0.5815696649029983,17,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),has_status_generating_event,american revolutionary war,39,0.5815696649029983,68,0.6930402930402929,0.0,0.20199309249791833
+hasdescriptiveoccupation,loyalist (american revolution),has_status_generating_event,british occupation of charleston,39,0.5815696649029983,39,0.6425595238095237,0.0,0.0
+hasdescriptiveoccupation,loyalist (american revolution),revolutionary,"war""), has_status_generating_event(free man, ""british occupation of charleston"").",43,0.5148046398046398,32,0.5598765432098766,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,record,module:,27,0.6138888888888889,27,0.4936507936507937,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_name,name,25,0.5555555555555555,12,0.5222222222222223,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_name,boston king,25,0.5555555555555555,24,0.4707070707070707,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_surname,surname,34,0.5474386724386724,16,0.40158730158730155,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_surname,king,34,0.5474386724386724,6,0.42777777777777776,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_first_name,first_name,32,0.5615079365079364,25,0.48888888888888893,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_first_name,boston,32,0.5615079365079364,22,0.5166666666666666,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,relationship record,module:,33,0.6137539361223572,27,0.4936507936507937,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,34,0.6044746103569633,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_interagent_relationship_type_to,enslaver or owner,41,0.6037698412698412,30,0.5405228758169934,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_interagent_relationship_type_to,spouse,41,0.6037698412698412,22,0.5333333333333333,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,or,"owner""), has_interagent_relationship_type_to(boston king, ""spouse"")",8,0.5138888888888888,23,0.5438964597303338,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,is_relationship_to,agent,38,0.6264245014245015,11,0.48888888888888893,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,is_relationship_to,british,38,0.6264245014245015,22,0.5603174603174603,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,is_relationship_to,violet,38,0.6264245014245015,22,0.4333333333333333,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,role record,module:,29,0.4873737373737373,27,0.4936507936507937,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_participant_role,participant_role_type,50,0.6805555555555555,31,0.5302808302808303,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_participant_role,participant in the american revolutionary war,50,0.6805555555555555,40,0.5892255892255892,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,in the american revolutionary,"war"").",45,0.60798399819698,11,0.0,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,record,module:,27,0.6138888888888889,27,0.4936507936507937,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_sex,sex_type,32,0.5742063492063493,21,0.46388888888888885,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_sex,male,32,0.5742063492063493,24,0.5222222222222223,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,record,module:,27,0.6138888888888889,27,0.4936507936507937,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_occupation,occupation,68,0.8045940170940171,20,0.5015873015873016,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_occupation,slave,68,0.8045940170940171,23,0.32222222222222224,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_occupation,carpenter,68,0.8045940170940171,26,0.4407407407407407,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_occupation,methodist missionary,68,0.8045940170940171,60,0.8541666666666667,0.0,0.22028815056182974
+hasdescriptiveoccupation,methodist episcopal lay leader,has_occupation,autobiographer,68,0.8045940170940171,32,0.4876984126984127,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,record,module:,27,0.6138888888888889,27,0.4936507936507937,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_age,age,26,0.5793650793650794,12,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_age,42,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_birthdate,date_of_birth,38,0.6286324786324786,23,0.4953601953601954,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_birthdate,around 1760,38,0.6286324786324786,15,0.4575757575757575,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_deathdate,date_of_death,43,0.652065527065527,28,0.5023504273504273,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_deathdate,1802,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,record,module:,27,0.6138888888888889,27,0.4936507936507937,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_race_or_color,race_or_color,39,0.5977668845315903,28,0.45042735042735044,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_race_or_color,black american,39,0.5977668845315903,27,0.43492063492063493,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,status record,module:,32,0.540954415954416,27,0.4936507936507937,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_person_status,enslaved person,39,0.6241830065359477,36,0.5222222222222221,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_person_status,free man,39,0.6241830065359477,21,0.5305555555555556,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_status_generating_event,event,39,0.5815696649029983,11,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_status_generating_event,american revolutionary war,39,0.5815696649029983,43,0.6225238813474108,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,has_status_generating_event,british occupation of charleston,39,0.5815696649029983,35,0.6020102339181287,0.0,0.0
+hasdescriptiveoccupation,methodist episcopal lay leader,revolutionary,"war""), has_status_generating_event(free man, ""british occupation of charleston"").",43,0.5148046398046398,25,0.4647390080138618,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,record,module:,27,0.6138888888888889,12,0.4035409035409035,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_name,name,25,0.5555555555555555,20,0.5256410256410257,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_name,boston king,25,0.5555555555555555,22,0.4923409923409923,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_surname,surname,34,0.5474386724386724,30,0.5021978021978022,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_surname,king,34,0.5474386724386724,13,0.5256410256410257,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_first_name,first_name,32,0.5615079365079364,28,0.44358974358974357,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_first_name,boston,32,0.5615079365079364,25,0.5235042735042735,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,relationship record,module:,33,0.6137539361223572,12,0.4035409035409035,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,33,0.5385300973536268,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_interagent_relationship_type_to,enslaver or owner,41,0.6037698412698412,33,0.5576168929110106,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_interagent_relationship_type_to,spouse,41,0.6037698412698412,19,0.5235042735042735,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,or,"owner""), has_interagent_relationship_type_to(boston king, ""spouse"")",8,0.5138888888888888,24,0.5392460773057788,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,is_relationship_to,agent,38,0.6264245014245015,26,0.567948717948718,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,is_relationship_to,british,38,0.6264245014245015,30,0.568864468864469,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,is_relationship_to,violet,38,0.6264245014245015,25,0.5235042735042735,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,role record,module:,29,0.4873737373737373,12,0.4035409035409035,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_participant_role,participant_role_type,50,0.6805555555555555,30,0.49744699744699744,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_participant_role,participant in the american revolutionary war,50,0.6805555555555555,34,0.5678062678062679,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,in the american revolutionary,"war"").",45,0.60798399819698,12,0.47008547008547,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,record,module:,27,0.6138888888888889,12,0.4035409035409035,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_sex,sex_type,32,0.5742063492063493,18,0.4679487179487179,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_sex,male,32,0.5742063492063493,13,0.5256410256410257,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,record,module:,27,0.6138888888888889,12,0.4035409035409035,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_occupation,occupation,68,0.8045940170940171,22,0.5135531135531135,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_occupation,slave,68,0.8045940170940171,13,0.49230769230769234,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_occupation,carpenter,68,0.8045940170940171,34,0.5394790394790395,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_occupation,methodist missionary,68,0.8045940170940171,30,0.5628205128205127,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_occupation,autobiographer,68,0.8045940170940171,70,0.9076923076923077,0.0,0.5797386715376658
+hasdescriptiveoccupation,autobiographer / memoirist,record,module:,27,0.6138888888888889,12,0.4035409035409035,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_age,age,26,0.5793650793650794,21,0.7346153846153847,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_age,42,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_birthdate,date_of_birth,38,0.6286324786324786,36,0.5160256410256411,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_birthdate,around 1760,38,0.6286324786324786,16,0.4822843822843823,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_deathdate,date_of_death,43,0.652065527065527,26,0.5073260073260073,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_deathdate,1802,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,record,module:,27,0.6138888888888889,12,0.4035409035409035,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_race_or_color,race_or_color,39,0.5977668845315903,31,0.5160256410256411,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_race_or_color,black american,39,0.5977668845315903,35,0.5013736263736264,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,status record,module:,32,0.540954415954416,12,0.4035409035409035,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_person_status,enslaved person,39,0.6241830065359477,29,0.44700854700854703,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_person_status,free man,39,0.6241830065359477,24,0.47243589743589737,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_status_generating_event,event,39,0.5815696649029983,19,0.32564102564102565,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_status_generating_event,american revolutionary war,39,0.5815696649029983,35,0.5494505494505494,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_status_generating_event,british occupation of charleston,39,0.5815696649029983,31,0.6344888663967612,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,revolutionary,"war""), has_status_generating_event(free man, ""british occupation of charleston"").",43,0.5148046398046398,26,0.522048116492561,0.0,0.0
+hasfirstname,boston,record,module:,22,0.4166666666666667,15,0.4365079365079365,0.0,0.0
+hasfirstname,boston,has_name,name,70,0.8736111111111112,20,0.0,0.0,0.0
+hasfirstname,boston,has_name,boston king,70,0.8736111111111112,71,0.9090909090909091,0.0,0.5797386715376658
+hasfirstname,boston,has_surname,surname,70,0.8733164983164984,31,0.5396825396825397,0.0,0.0
+hasfirstname,boston,has_surname,king,70,0.8733164983164984,20,0.0,0.0,0.0
+hasfirstname,boston,has_first_name,first_name,92,0.9666666666666667,38,0.6,0.0,0.0
+hasfirstname,boston,has_first_name,boston,92,0.9666666666666667,100,1.0,0.0,1.0
+hasfirstname,boston,relationship record,module:,32,0.5077276524644946,15,0.4365079365079365,0.0,0.0
+hasfirstname,boston,has_interagent_relationship_type_to,relationship_type,34,0.5949735449735449,26,0.46732026143790845,0.0,0.0
+hasfirstname,boston,has_interagent_relationship_type_to,enslaver or owner,34,0.5949735449735449,26,0.4477124183006536,0.0,0.0
+hasfirstname,boston,has_interagent_relationship_type_to,spouse,34,0.5949735449735449,33,0.38888888888888884,0.0,0.0
+hasfirstname,boston,or,"owner""), has_interagent_relationship_type_to(boston king, ""spouse"")",14,0.5277777777777778,16,0.502653399668325,0.0,0.33517574332792605
+hasfirstname,boston,is_relationship_to,agent,27,0.6203703703703703,18,0.41111111111111115,0.0,0.0
+hasfirstname,boston,is_relationship_to,british,27,0.6203703703703703,31,0.5396825396825397,0.0,0.0
+hasfirstname,boston,is_relationship_to,violet,27,0.6203703703703703,33,0.5555555555555555,0.0,0.0
+hasfirstname,boston,role record,module:,17,0.44949494949494956,15,0.4365079365079365,0.0,0.0
+hasfirstname,boston,has_participant_role,participant_role_type,44,0.6962962962962962,15,0.43650793650793646,0.0,0.0
+hasfirstname,boston,has_participant_role,participant in the american revolutionary war,44,0.6962962962962962,16,0.45925925925925926,0.0,0.0
+hasfirstname,boston,in the american revolutionary,"war"").",34,0.5386334610472542,0,0.0,0.0,0.0
+hasfirstname,boston,record,module:,22,0.4166666666666667,15,0.4365079365079365,0.0,0.0
+hasfirstname,boston,has_sex,sex_type,53,0.6349206349206349,29,0.5277777777777778,0.0,0.0
+hasfirstname,boston,has_sex,male,53,0.6349206349206349,0,0.0,0.0,0.0
+hasfirstname,boston,record,module:,22,0.4166666666666667,15,0.4365079365079365,0.0,0.0
+hasfirstname,boston,has_occupation,occupation,38,0.5873015873015873,50,0.6888888888888888,0.0,0.0
+hasfirstname,boston,has_occupation,slave,38,0.5873015873015873,18,0.45555555555555555,0.0,0.0
+hasfirstname,boston,has_occupation,carpenter,38,0.5873015873015873,13,0.35185185185185186,0.0,0.0
+hasfirstname,boston,has_occupation,methodist missionary,38,0.5873015873015873,38,0.4388888888888889,0.0,0.0
+hasfirstname,boston,has_occupation,autobiographer,38,0.5873015873015873,20,0.5674603174603174,0.0,0.0
+hasfirstname,boston,record,module:,22,0.4166666666666667,15,0.4365079365079365,0.0,0.0
+hasfirstname,boston,has_age,age,53,0.7972222222222223,0,0.0,0.0,0.0
+hasfirstname,boston,has_age,42,53,0.7972222222222223,0,0.0,0.0,0.0
+hasfirstname,boston,has_birthdate,date_of_birth,64,0.8324786324786324,21,0.32905982905982906,0.0,0.0
+hasfirstname,boston,has_birthdate,around 1760,64,0.8324786324786324,24,0.5050505050505051,0.0,0.0
+hasfirstname,boston,has_deathdate,date_of_death,48,0.5982905982905983,21,0.32905982905982906,0.0,0.0
+hasfirstname,boston,has_deathdate,1802,48,0.5982905982905983,0,0.0,0.0,0.0
+hasfirstname,boston,record,module:,22,0.4166666666666667,15,0.4365079365079365,0.0,0.0
+hasfirstname,boston,has_race_or_color,race_or_color,41,0.6176470588235294,21,0.49572649572649574,0.0,0.0
+hasfirstname,boston,has_race_or_color,black american,41,0.6176470588235294,20,0.41269841269841273,0.0,0.0
+hasfirstname,boston,status record,module:,32,0.5427350427350427,15,0.4365079365079365,0.0,0.0
+hasfirstname,boston,has_person_status,enslaved person,48,0.6857298474945533,29,0.32222222222222224,0.0,0.0
+hasfirstname,boston,has_person_status,free man,48,0.6857298474945533,14,0.4305555555555555,0.0,0.0
+hasfirstname,boston,has_status_generating_event,event,41,0.5833333333333334,18,0.41111111111111115,0.0,0.0
+hasfirstname,boston,has_status_generating_event,american revolutionary war,41,0.5833333333333334,25,0.42735042735042733,0.0,0.0
+hasfirstname,boston,has_status_generating_event,british occupation of charleston,41,0.5833333333333334,32,0.6736111111111112,0.0,0.0
+hasfirstname,boston,revolutionary,"war""), has_status_generating_event(free man, ""british occupation of charleston"").",32,0.5337606837606838,14,0.5123456790123456,0.0,0.0
+hassurname,king,record,module:,25,0.4222222222222222,0,0.0,0.0,0.0
+hassurname,king,has_name,name,78,0.9008333333333334,25,0.0,0.0,0.0
+hassurname,king,has_name,boston king,78,0.9008333333333334,53,0.44696969696969696,0.0,0.5797386715376658
+hassurname,king,has_surname,surname,95,0.9787878787878788,18,0.46428571428571425,0.0,0.0
+hassurname,king,has_surname,king,95,0.9787878787878788,100,1.0,0.0,1.0
+hassurname,king,has_first_name,first_name,67,0.8674074074074074,29,0.5666666666666667,0.0,0.0
+hassurname,king,has_first_name,boston,67,0.8674074074074074,20,0.0,0.0,0.0
+hassurname,king,relationship record,module:,28,0.4543859649122807,0,0.0,0.0,0.0
+hassurname,king,has_interagent_relationship_type_to,relationship_type,31,0.5380952380952381,19,0.5392156862745098,0.0,0.0
+hassurname,king,has_interagent_relationship_type_to,enslaver or owner,31,0.5380952380952381,10,0.4362745098039216,0.0,0.0
+hassurname,king,has_interagent_relationship_type_to,spouse,31,0.5380952380952381,0,0.0,0.0,0.0
+hassurname,king,or,"owner""), has_interagent_relationship_type_to(boston king, ""spouse"")",17,0.5333333333333333,11,0.48714759535655056,0.0,0.33517574332792605
+hassurname,king,is_relationship_to,agent,21,0.5333333333333333,22,0.48333333333333334,0.0,0.0
+hassurname,king,is_relationship_to,british,21,0.5333333333333333,18,0.46428571428571425,0.0,0.0
+hassurname,king,is_relationship_to,violet,21,0.5333333333333333,20,0.47222222222222215,0.0,0.0
+hassurname,king,role record,module:,19,0.46060606060606063,0,0.0,0.0,0.0
+hassurname,king,has_participant_role,participant_role_type,40,0.5777777777777778,16,0.5317460317460317,0.0,0.0
+hassurname,king,has_participant_role,participant in the american revolutionary war,40,0.5777777777777778,8,0.5148148148148147,0.0,0.0
+hassurname,king,in the american revolutionary,"war"").",26,0.5042692939244663,0,0.0,0.0,0.0
+hassurname,king,record,module:,25,0.4222222222222222,0,0.0,0.0,0.0
+hassurname,king,has_sex,sex_type,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,king,has_sex,male,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,king,record,module:,25,0.4222222222222222,0,0.0,0.0,0.0
+hassurname,king,has_occupation,occupation,42,0.6190476190476191,29,0.0,0.0,0.0
+hassurname,king,has_occupation,slave,42,0.6190476190476191,0,0.0,0.0,0.0
+hassurname,king,has_occupation,carpenter,42,0.6190476190476191,15,0.4537037037037037,0.0,0.0
+hassurname,king,has_occupation,methodist missionary,42,0.6190476190476191,17,0.43333333333333335,0.0,0.0
+hassurname,king,has_occupation,autobiographer,42,0.6190476190476191,22,0.5476190476190476,0.0,0.0
+hassurname,king,record,module:,25,0.4222222222222222,0,0.0,0.0,0.0
+hassurname,king,has_age,age,59,0.8166666666666667,29,0.0,0.0,0.0
+hassurname,king,has_age,42,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,king,has_birthdate,date_of_birth,52,0.6871794871794871,12,0.0,0.0,0.0
+hassurname,king,has_birthdate,around 1760,52,0.6871794871794871,13,0.44696969696969696,0.0,0.0
+hassurname,king,has_deathdate,date_of_death,43,0.5615384615384615,0,0.0,0.0,0.0
+hassurname,king,has_deathdate,1802,43,0.5615384615384615,0,0.0,0.0,0.0
+hassurname,king,record,module:,25,0.4222222222222222,0,0.0,0.0,0.0
+hassurname,king,has_race_or_color,race_or_color,44,0.6509803921568628,0,0.0,0.0,0.0
+hassurname,king,has_race_or_color,black american,44,0.6509803921568628,33,0.44047619047619047,0.0,0.0
+hassurname,king,status record,module:,35,0.5760683760683761,0,0.0,0.0,0.0
+hassurname,king,has_person_status,enslaved person,44,0.6735294117647058,11,0.4388888888888889,0.0,0.0
+hassurname,king,has_person_status,free man,44,0.6735294117647058,17,0.0,0.0,0.0
+hassurname,king,has_status_generating_event,event,43,0.6703703703703704,22,0.48333333333333334,0.0,0.0
+hassurname,king,has_status_generating_event,american revolutionary war,43,0.6703703703703704,13,0.5256410256410257,0.0,0.0
+hassurname,king,has_status_generating_event,british occupation of charleston,43,0.6703703703703704,11,0.5208333333333334,0.0,0.0
+hassurname,king,revolutionary,"war""), has_status_generating_event(free man, ""british occupation of charleston"").",26,0.48589743589743595,7,0.4845679012345679,0.0,0.0
+hasname,boston king,record,module:,15,0.0,11,0.41125541125541126,0.0,0.0
+hasname,boston king,has_name,name,93,0.9708333333333333,13,0.0,0.0,0.0
+hasname,boston king,has_name,boston king,93,0.9708333333333333,100,1.0,0.0,1.0000000000000002
+hasname,boston king,has_surname,surname,78,0.9151515151515152,22,0.48917748917748916,0.0,0.0
+hasname,boston king,has_surname,king,78,0.9151515151515152,53,0.44696969696969696,0.0,0.5797386715376658
+hasname,boston king,has_first_name,first_name,67,0.5476190476190476,29,0.5242424242424243,0.0,0.0
+hasname,boston king,has_first_name,boston,67,0.5476190476190476,71,0.9090909090909091,0.0,0.5797386715376658
+hasname,boston king,relationship record,module:,23,0.5106516290726817,11,0.41125541125541126,0.0,0.0
+hasname,boston king,has_interagent_relationship_type_to,relationship_type,29,0.6206349206349207,29,0.449554367201426,0.0,0.0
+hasname,boston king,has_interagent_relationship_type_to,enslaver or owner,29,0.6206349206349207,29,0.449554367201426,0.0,0.0
+hasname,boston king,has_interagent_relationship_type_to,spouse,29,0.6206349206349207,24,0.3383838383838384,0.0,0.0
+hasname,boston king,or,"owner""), has_interagent_relationship_type_to(boston king, ""spouse"")",0,0.0,28,0.502688577315443,0.0,0.5023287782256719
+hasname,boston king,is_relationship_to,agent,16,0.43121693121693117,12,0.3606060606060606,0.0,0.0
+hasname,boston king,is_relationship_to,british,16,0.43121693121693117,33,0.5616883116883117,0.0,0.0
+hasname,boston king,is_relationship_to,violet,16,0.43121693121693117,24,0.5050505050505051,0.0,0.0
+hasname,boston king,role record,module:,11,0.41125541125541126,11,0.41125541125541126,0.0,0.0
+hasname,boston king,has_participant_role,participant_role_type,37,0.5904761904761905,19,0.43470418470418465,0.0,0.0
+hasname,boston king,has_participant_role,participant in the american revolutionary war,37,0.5904761904761905,18,0.4552188552188552,0.0,0.0
+hasname,boston king,in the american revolutionary,"war"").",22,0.5769020251778872,0,0.0,0.0,0.0
+hasname,boston king,record,module:,15,0.0,11,0.41125541125541126,0.0,0.0
+hasname,boston king,has_sex,sex_type,57,0.8,21,0.4772727272727273,0.0,0.0
+hasname,boston king,has_sex,male,57,0.8,0,0.0,0.0,0.0
+hasname,boston king,record,module:,15,0.0,11,0.41125541125541126,0.0,0.0
+hasname,boston king,has_occupation,occupation,38,0.6190476190476191,38,0.5848484848484848,0.0,0.0
+hasname,boston king,has_occupation,slave,38,0.6190476190476191,12,0.43030303030303035,0.0,0.0
+hasname,boston king,has_occupation,carpenter,38,0.6190476190476191,10,0.3013468013468013,0.0,0.0
+hasname,boston king,has_occupation,methodist missionary,38,0.6190476190476191,39,0.5040404040404041,0.0,0.0
+hasname,boston king,has_occupation,autobiographer,38,0.6190476190476191,32,0.5468975468975469,0.0,0.0
+hasname,boston king,record,module:,15,0.0,11,0.41125541125541126,0.0,0.0
+hasname,boston king,has_age,age,71,0.8666666666666668,14,0.0,0.0,0.0
+hasname,boston king,has_age,42,71,0.8666666666666668,0,0.0,0.0,0.0
+hasname,boston king,has_birthdate,date_of_birth,50,0.553113553113553,25,0.3900543900543901,0.0,0.0
+hasname,boston king,has_birthdate,around 1760,50,0.553113553113553,27,0.5151515151515151,0.0,0.0
+hasname,boston king,has_deathdate,date_of_death,50,0.632967032967033,17,0.27855477855477856,0.0,0.0
+hasname,boston king,has_deathdate,1802,50,0.632967032967033,0,0.0,0.0,0.0
+hasname,boston king,record,module:,15,0.0,11,0.41125541125541126,0.0,0.0
+hasname,boston king,has_race_or_color,race_or_color,42,0.6694677871148459,17,0.4452214452214452,0.0,0.0
+hasname,boston king,has_race_or_color,black american,42,0.6694677871148459,32,0.5372294372294372,0.0,0.0
+hasname,boston king,status record,module:,30,0.442002442002442,11,0.41125541125541126,0.0,0.0
+hasname,boston king,has_person_status,enslaved person,42,0.6028011204481792,23,0.4601010101010101,0.0,0.0
+hasname,boston king,has_person_status,free man,42,0.6028011204481792,21,0.3106060606060606,0.0,0.0
+hasname,boston king,has_status_generating_event,event,35,0.6375661375661376,12,0.3606060606060606,0.0,0.0
+hasname,boston king,has_status_generating_event,american revolutionary war,35,0.6375661375661376,27,0.4809634809634809,0.0,0.0
+hasname,boston king,has_status_generating_event,british occupation of charleston,35,0.6375661375661376,33,0.5340909090909091,0.0,0.0
+hasname,boston king,revolutionary,"war""), has_status_generating_event(free man, ""british occupation of charleston"").",20,0.40659340659340665,15,0.4314039869595425,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",record,module:,30,0.48412698412698413,5,0.46238095238095234,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_name,name,36,0.5952380952380952,4,0.59,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_name,boston king,36,0.5952380952380952,9,0.5099494949494949,0.0,0.06562651343964711
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_surname,surname,48,0.6168831168831169,7,0.583095238095238,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_surname,king,48,0.6168831168831169,3,0.33666666666666667,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_first_name,first_name,43,0.6726190476190476,9,0.5372222222222223,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_first_name,boston,43,0.6726190476190476,6,0.6211111111111111,0.0,0.1132001652840979
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",relationship record,module:,30,0.6135338345864662,5,0.46238095238095234,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_interagent_relationship_type_to,relationship_type,37,0.5666666666666667,13,0.48831932773109243,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_interagent_relationship_type_to,enslaver or owner,37,0.5666666666666667,16,0.5381372549019607,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_interagent_relationship_type_to,spouse,37,0.5666666666666667,5,0.48611111111111116,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",or,"owner""), has_interagent_relationship_type_to(boston king, ""spouse"")",12,0.5238095238095238,31,0.5187562189054726,0.0,0.0379419495439416
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",is_relationship_to,agent,44,0.6474266474266474,5,0.5233333333333333,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",is_relationship_to,british,44,0.6474266474266474,7,0.583095238095238,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",is_relationship_to,violet,44,0.6474266474266474,6,0.51,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",role record,module:,24,0.46645021645021645,5,0.46238095238095234,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_participant_role,participant_role_type,47,0.6876623376623376,14,0.4681349206349206,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_participant_role,participant in the american revolutionary war,47,0.6876623376623376,33,0.568479758828596,0.0,0.32542251914056536
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",in the american revolutionary,"war"").",42,0.5530377668308702,4,0.3938888888888889,0.0,0.1132001652840979
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",record,module:,30,0.48412698412698413,5,0.46238095238095234,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_sex,sex_type,38,0.6238095238095238,6,0.4166666666666667,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_sex,male,38,0.6238095238095238,4,0.5066666666666667,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",record,module:,30,0.48412698412698413,5,0.46238095238095234,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_occupation,occupation,64,0.8074074074074075,9,0.5001851851851852,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_occupation,slave,64,0.8074074074074075,5,0.5416666666666666,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_occupation,carpenter,64,0.8074074074074075,8,0.4762962962962963,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_occupation,methodist missionary,64,0.8074074074074075,15,0.55,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_occupation,autobiographer,64,0.8074074074074075,12,0.5001587301587301,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",record,module:,30,0.48412698412698413,5,0.46238095238095234,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_age,age,38,0.6190476190476191,3,0.39222222222222225,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_age,42,38,0.6190476190476191,1,0.0,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_birthdate,date_of_birth,37,0.6318681318681318,10,0.5125058275058275,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_birthdate,around 1760,37,0.6318681318681318,9,0.4640909090909091,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_deathdate,date_of_death,44,0.63003663003663,10,0.5125058275058275,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_deathdate,1802,44,0.63003663003663,2,0.4183333333333333,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",record,module:,30,0.48412698412698413,5,0.46238095238095234,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_race_or_color,race_or_color,39,0.5896358543417367,9,0.4822027972027972,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_race_or_color,black american,39,0.5896358543417367,12,0.5363186813186813,0.0,0.06562651343964711
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",status record,module:,37,0.5366300366300366,5,0.46238095238095234,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_person_status,enslaved person,45,0.6675070028011204,13,0.5011111111111112,0.0,0.06562651343964711
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_person_status,free man,45,0.6675070028011204,8,0.555,0.0,0.06562651343964711
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_status_generating_event,event,39,0.5476190476190476,5,0.5416666666666666,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_status_generating_event,american revolutionary war,39,0.5476190476190476,23,0.5561538461538461,0.0,0.19856585423268444
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",has_status_generating_event,british occupation of charleston,39,0.5476190476190476,21,0.5402777777777777,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. resettled in nova scotia after the american revolutionary war, boston and his wife emigrated to sierra leone in 1792, in part to bring their christian faith.",revolutionary,"war""), has_status_generating_event(free man, ""british occupation of charleston"").",37,0.5189255189255189,31,0.5706948401392845,0.0,0.06121417088719625

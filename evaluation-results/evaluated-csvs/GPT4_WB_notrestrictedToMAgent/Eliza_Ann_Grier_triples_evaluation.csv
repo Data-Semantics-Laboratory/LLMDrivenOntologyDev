@@ -1,0 +1,496 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,eliza anna grier,32,0.537878787878788,18,0.4861111111111111,0.0,0.0
+instance of,person,anna,"grier, 'eliza anna grier')",27,0.5631313131313131,19,0.42735042735042733,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,grier,27,0.49242424242424243,36,0.41111111111111115,0.0,0.0
+instance of,person,anna,"grier, 'grier')",27,0.5631313131313131,19,0.32222222222222224,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,eliza,40,0.5692640692640693,18,0.45555555555555555,0.0,0.0
+instance of,person,anna,"grier, 'eliza')",27,0.5631313131313131,19,0.32222222222222224,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type,relationship_type,33,0.5340909090909091,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type,sibling,33,0.5340909090909091,31,0.4365079365079365,0.0,0.0
+instance of,person,anna,"grier, 'sibling')",27,0.5631313131313131,35,0.4477124183006536,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,richard edgar grier,34,0.5798460798460798,16,0.3128654970760234,0.0,0.0
+instance of,person,anna,"grier, richard edgar grier)",27,0.5631313131313131,12,0.30246913580246915,0.0,0.0
+instance of,person,role record,module:,27,0.49242424242424243,15,0.0,0.0,0.0
+instance of,person,has_participant_role,participant_role_type,32,0.5668831168831169,22,0.5357142857142857,0.0,0.0
+instance of,person,has_participant_role,student,32,0.5668831168831169,31,0.4365079365079365,0.0,0.0
+instance of,person,has_participant_role,physician,32,0.5668831168831169,40,0.611111111111111,0.0,0.0
+instance of,person,anna,"grier, 'student'), has_participant_role(eliza anna grier, 'physician')",27,0.5631313131313131,13,0.5841269841269842,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,female,22,0.45598845598845594,17,0.4444444444444444,0.0,0.0
+instance of,person,anna,"grier, 'female')",27,0.5631313131313131,18,0.3194444444444444,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,physician,24,0.38311688311688313,40,0.611111111111111,0.0,0.0
+instance of,person,anna,"grier, 'physician')",27,0.5631313131313131,32,0.5423976608187134,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_birthdate,1864,33,0.5463869463869464,0,0.0,0.0,0.0
+instance of,person,anna,"grier, '1864')",27,0.5631313131313131,20,0.3253968253968254,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,1902,33,0.39044289044289043,0,0.0,0.0,0.0
+instance of,person,anna,"grier, '1902')",27,0.5631313131313131,20,0.3253968253968254,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,african-american,36,0.5162210338680927,27,0.4861111111111111,0.0,0.0
+instance of,person,anna,"grier, 'african-american')",27,0.5631313131313131,19,0.42735042735042733,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,emancipated slave,29,0.449554367201426,26,0.4477124183006536,0.0,0.0
+instance of,person,has_person_status,licensed physician,29,0.449554367201426,25,0.4444444444444444,0.0,0.0
+instance of,person,anna,"grier, 'emancipated slave'), has_person_status(eliza anna grier, 'licensed physician')",27,0.5631313131313131,13,0.5788113695090439,0.0,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_name,name,57,0.8055555555555556,40,0.6388888888888888,0.0,0.0
+hassex,female,has_name,eliza anna grier,57,0.8055555555555556,27,0.45138888888888884,0.0,0.0
+hassex,female,anna,"grier, 'eliza anna grier')",20,0.47222222222222215,19,0.5235042735042735,0.0,0.0
+hassex,female,has_surname,surname,59,0.6767676767676768,31,0.5396825396825397,0.0,0.0
+hassex,female,has_surname,grier,59,0.6767676767676768,18,0.45555555555555555,0.0,0.0
+hassex,female,anna,"grier, 'grier')",20,0.47222222222222215,19,0.48888888888888893,0.0,0.0
+hassex,female,has_first_name,first_name,50,0.6507936507936508,38,0.6,0.0,0.0
+hassex,female,has_first_name,eliza,50,0.6507936507936508,36,0.5777777777777778,0.0,0.0
+hassex,female,anna,"grier, 'eliza')",20,0.47222222222222215,19,0.45555555555555555,0.0,0.0
+hassex,female,relationship record,module:,24,0.44152046783625726,46,0.6428571428571429,0.0,0.0
+hassex,female,has_interagent_relationship_type,relationship_type,26,0.5972222222222222,26,0.4477124183006536,0.0,0.0
+hassex,female,has_interagent_relationship_type,sibling,26,0.5972222222222222,15,0.4365079365079365,0.0,0.0
+hassex,female,anna,"grier, 'sibling')",20,0.47222222222222215,17,0.48366013071895425,0.0,0.0
+hassex,female,is_relationship_to,agent,17,0.46296296296296297,36,0.45555555555555555,0.0,0.0
+hassex,female,is_relationship_to,richard edgar grier,17,0.46296296296296297,24,0.3128654970760234,0.0,0.0
+hassex,female,anna,"grier, richard edgar grier)",20,0.47222222222222215,18,0.5370370370370371,0.0,0.0
+hassex,female,role record,module:,12,0.41919191919191917,46,0.6428571428571429,0.0,0.0
+hassex,female,has_participant_role,participant_role_type,31,0.5499999999999999,22,0.4047619047619047,0.0,0.0
+hassex,female,has_participant_role,student,31,0.5499999999999999,15,0.4365079365079365,0.0,0.0
+hassex,female,has_participant_role,physician,31,0.5499999999999999,13,0.0,0.0,0.0
+hassex,female,anna,"grier, 'student'), has_participant_role(eliza anna grier, 'physician')",20,0.47222222222222215,11,0.4912698412698413,0.0,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_sex,sex_type,92,0.9666666666666667,29,0.5277777777777778,0.0,0.0
+hassex,female,has_sex,female,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,female,anna,"grier, 'female')",20,0.47222222222222215,55,0.4861111111111111,0.0,0.5797386715376658
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_occupation,occupation,30,0.5714285714285715,12,0.4222222222222222,0.0,0.0
+hassex,female,has_occupation,physician,30,0.5714285714285715,13,0.0,0.0,0.0
+hassex,female,anna,"grier, 'physician')",20,0.47222222222222215,16,0.4064327485380117,0.0,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_birthdate,date_of_birth,42,0.576923076923077,21,0.32905982905982906,0.0,0.0
+hassex,female,has_birthdate,1864,42,0.576923076923077,0,0.0,0.0,0.0
+hassex,female,anna,"grier, '1864')",20,0.47222222222222215,10,0.41269841269841273,0.0,0.0
+hassex,female,has_deathdate,date_of_death,42,0.6581196581196581,32,0.46581196581196577,0.0,0.0
+hassex,female,has_deathdate,1902,42,0.6581196581196581,0,0.0,0.0,0.0
+hassex,female,anna,"grier, '1902')",20,0.47222222222222215,10,0.41269841269841273,0.0,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_race_or_color,race_or_color,35,0.6339869281045751,21,0.32905982905982906,0.0,0.0
+hassex,female,has_race_or_color,african-american,35,0.6339869281045751,27,0.5555555555555555,0.0,0.0
+hassex,female,anna,"grier, 'african-american')",20,0.47222222222222215,19,0.42735042735042733,0.0,0.0
+hassex,female,status record,module:,32,0.5747863247863249,46,0.6428571428571429,0.0,0.0
+hassex,female,has_person_status,emancipated slave,35,0.642483660130719,43,0.6339869281045751,0.0,0.0
+hassex,female,has_person_status,licensed physician,35,0.642483660130719,17,0.4444444444444444,0.0,0.0
+hassex,female,anna,"grier, 'emancipated slave'), has_person_status(eliza anna grier, 'licensed physician')",20,0.47222222222222215,11,0.49715762273901803,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,eliza anna grier,38,0.5675925925925926,10,0.3416666666666666,0.0,0.0
+hasparticipantrole,child,anna,"grier, 'eliza anna grier')",18,0.5370370370370371,13,0.49230769230769234,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,grier,41,0.6274651274651274,20,0.4666666666666666,0.0,0.0
+hasparticipantrole,child,anna,"grier, 'grier')",18,0.5370370370370371,10,0.4222222222222222,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,eliza,44,0.6772486772486772,20,0.4666666666666666,0.0,0.0
+hasparticipantrole,child,anna,"grier, 'eliza')",18,0.5370370370370371,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type,relationship_type,44,0.65625,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type,sibling,44,0.65625,33,0.5619047619047619,0.0,0.0
+hasparticipantrole,child,anna,"grier, 'sibling')",18,0.5370370370370371,18,0.4196078431372549,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,richard edgar grier,44,0.6037037037037037,25,0.5868421052631579,0.0,0.0
+hasparticipantrole,child,anna,"grier, richard edgar grier)",18,0.5370370370370371,19,0.5660493827160494,0.0,0.0
+hasparticipantrole,child,role record,module:,28,0.4452861952861953,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant_role_type,95,0.9766666666666667,23,0.33174603174603173,0.0,0.0
+hasparticipantrole,child,has_participant_role,student,95,0.9766666666666667,17,0.44761904761904764,0.0,0.0
+hasparticipantrole,child,has_participant_role,physician,95,0.9766666666666667,29,0.5407407407407407,0.0,0.0
+hasparticipantrole,child,anna,"grier, 'student'), has_participant_role(eliza anna grier, 'physician')",18,0.5370370370370371,8,0.557142857142857,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,female,32,0.5317460317460317,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,anna,"grier, 'female')",18,0.5370370370370371,19,0.42083333333333334,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,physician,50,0.6566137566137565,29,0.5407407407407407,0.0,0.0
+hasparticipantrole,child,anna,"grier, 'physician')",18,0.5370370370370371,17,0.3350877192982456,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_birthdate,date_of_birth,52,0.6937321937321936,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_birthdate,1864,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,child,anna,"grier, '1864')",18,0.5370370370370371,11,0.4238095238095238,0.0,0.0
+hasparticipantrole,child,has_deathdate,date_of_death,52,0.6866096866096866,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_deathdate,1902,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,child,anna,"grier, '1902')",18,0.5370370370370371,11,0.4238095238095238,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_race_or_color,race_or_color,46,0.60239651416122,22,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_race_or_color,african-american,46,0.60239651416122,19,0.3416666666666666,0.0,0.0
+hasparticipantrole,child,anna,"grier, 'african-american')",18,0.5370370370370371,13,0.32564102564102565,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,emancipated slave,46,0.6479302832244008,27,0.592156862745098,0.0,0.0
+hasparticipantrole,child,has_person_status,licensed physician,46,0.6479302832244008,26,0.5907407407407407,0.0,0.0
+hasparticipantrole,child,anna,"grier, 'emancipated slave'), has_person_status(eliza anna grier, 'licensed physician')",18,0.5370370370370371,11,0.5527131782945737,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,eliza anna grier,38,0.5675925925925926,32,0.5361111111111111,0.0,0.0
+hasparticipantrole,deceased person,anna,"grier, 'eliza anna grier')",18,0.5370370370370371,29,0.4357753357753358,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,grier,41,0.6274651274651274,20,0.4222222222222222,0.0,0.0
+hasparticipantrole,deceased person,anna,"grier, 'grier')",18,0.5370370370370371,27,0.42777777777777776,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,eliza,44,0.6772486772486772,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,anna,"grier, 'eliza')",18,0.5370370370370371,20,0.35555555555555557,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type,relationship_type,44,0.65625,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type,sibling,44,0.65625,18,0.40317460317460313,0.0,0.0
+hasparticipantrole,deceased person,anna,"grier, 'sibling')",18,0.5370370370370371,25,0.4758169934640523,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,richard edgar grier,44,0.6037037037037037,41,0.48479532163742683,0.0,0.0
+hasparticipantrole,deceased person,anna,"grier, richard edgar grier)",18,0.5370370370370371,38,0.43245149911816577,0.0,0.0
+hasparticipantrole,deceased person,role record,module:,28,0.4452861952861953,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant_role_type,95,0.9766666666666667,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,student,95,0.9766666666666667,36,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,physician,95,0.9766666666666667,25,0.487037037037037,0.0,0.0
+hasparticipantrole,deceased person,anna,"grier, 'student'), has_participant_role(eliza anna grier, 'physician')",18,0.5370370370370371,24,0.5682539682539682,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,female,32,0.5317460317460317,29,0.45555555555555555,0.0,0.0
+hasparticipantrole,deceased person,anna,"grier, 'female')",18,0.5370370370370371,26,0.48055555555555557,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,physician,50,0.6566137566137565,25,0.487037037037037,0.0,0.0
+hasparticipantrole,deceased person,anna,"grier, 'physician')",18,0.5370370370370371,29,0.516374269005848,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,date_of_birth,52,0.6937321937321936,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,1864,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,anna,"grier, '1864')",18,0.5370370370370371,14,0.4253968253968254,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,date_of_death,52,0.6866096866096866,36,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,1902,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,anna,"grier, '1902')",18,0.5370370370370371,14,0.4253968253968254,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,race_or_color,46,0.60239651416122,29,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,african-american,46,0.60239651416122,32,0.48194444444444445,0.0,0.0
+hasparticipantrole,deceased person,anna,"grier, 'african-american')",18,0.5370370370370371,29,0.4357753357753358,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,emancipated slave,46,0.6479302832244008,44,0.6357298474945533,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,licensed physician,46,0.6479302832244008,55,0.662962962962963,0.0,0.0
+hasparticipantrole,deceased person,anna,"grier, 'emancipated slave'), has_person_status(eliza anna grier, 'licensed physician')",18,0.5370370370370371,24,0.5796603912882983,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,eliza anna grier,25,0.5555555555555555,29,0.4847222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,anna,"grier, 'eliza anna grier')",14,0.4305555555555556,19,0.46068376068376066,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,surname,34,0.5474386724386724,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,grier,34,0.5474386724386724,20,0.4666666666666666,0.0,0.0
+hasdescriptiveoccupation,slave,anna,"grier, 'grier')",14,0.4305555555555556,10,0.4222222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,first_name,32,0.5615079365079364,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,eliza,32,0.5615079365079364,40,0.4666666666666666,0.0,0.0
+hasdescriptiveoccupation,slave,anna,"grier, 'eliza')",14,0.4305555555555556,20,0.4222222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,relationship record,module:,33,0.6137539361223572,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,27,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type,sibling,43,0.5868055555555555,33,0.5619047619047619,0.0,0.0
+hasdescriptiveoccupation,slave,anna,"grier, 'sibling')",14,0.4305555555555556,18,0.4196078431372549,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,agent,38,0.6264245014245015,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,richard edgar grier,38,0.6264245014245015,17,0.5017543859649123,0.0,0.0
+hasdescriptiveoccupation,slave,anna,"grier, richard edgar grier)",14,0.4305555555555556,12,0.32469135802469135,0.0,0.0
+hasdescriptiveoccupation,slave,role record,module:,29,0.4873737373737373,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,participant_role_type,50,0.6805555555555555,15,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,student,50,0.6805555555555555,33,0.5619047619047619,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,physician,50,0.6805555555555555,29,0.43703703703703706,0.0,0.0
+hasdescriptiveoccupation,slave,anna,"grier, 'student'), has_participant_role(eliza anna grier, 'physician')",14,0.4305555555555556,11,0.43650793650793646,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,sex_type,32,0.5742063492063493,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,female,32,0.5742063492063493,36,0.5777777777777778,0.0,0.0
+hasdescriptiveoccupation,slave,anna,"grier, 'female')",14,0.4305555555555556,19,0.42083333333333334,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,physician,68,0.8045940170940171,29,0.43703703703703706,0.0,0.0
+hasdescriptiveoccupation,slave,anna,"grier, 'physician')",14,0.4305555555555556,17,0.4175438596491228,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,date_of_birth,38,0.6286324786324786,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,1864,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,anna,"grier, '1864')",14,0.4305555555555556,11,0.4238095238095238,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,date_of_death,43,0.652065527065527,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,1902,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,anna,"grier, '1902')",14,0.4305555555555556,11,0.4238095238095238,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,race_or_color,39,0.5977668845315903,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,african-american,39,0.5977668845315903,19,0.5083333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,anna,"grier, 'african-american')",14,0.4305555555555556,13,0.32564102564102565,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,emancipated slave,39,0.6241830065359477,45,0.33921568627450976,0.0,0.5797386715376658
+hasdescriptiveoccupation,slave,has_person_status,licensed physician,39,0.6241830065359477,17,0.4777777777777777,0.0,0.0
+hasdescriptiveoccupation,slave,anna,"grier, 'emancipated slave'), has_person_status(eliza anna grier, 'licensed physician')",14,0.4305555555555556,11,0.5527131782945737,0.0,0.21951095080860833
+hasdescriptiveoccupation,educator,record,module:,27,0.6138888888888889,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,educator,has_name,name,25,0.5555555555555555,17,0.4166666666666667,0.0,0.0
+hasdescriptiveoccupation,educator,has_name,eliza anna grier,25,0.5555555555555555,25,0.5208333333333334,0.0,0.0
+hasdescriptiveoccupation,educator,anna,"grier, 'eliza anna grier')",14,0.4305555555555556,18,0.38568376068376065,0.0,0.0
+hasdescriptiveoccupation,educator,has_surname,surname,34,0.5474386724386724,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,educator,has_surname,grier,34,0.5474386724386724,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,educator,anna,"grier, 'grier')",14,0.4305555555555556,17,0.29444444444444445,0.0,0.0
+hasdescriptiveoccupation,educator,has_first_name,first_name,32,0.5615079365079364,11,0.31666666666666665,0.0,0.0
+hasdescriptiveoccupation,educator,has_first_name,eliza,32,0.5615079365079364,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,educator,anna,"grier, 'eliza')",14,0.4305555555555556,17,0.29444444444444445,0.0,0.0
+hasdescriptiveoccupation,educator,relationship record,module:,33,0.6137539361223572,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,educator,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,32,0.5063725490196078,0.0,0.0
+hasdescriptiveoccupation,educator,has_interagent_relationship_type,sibling,43,0.5868055555555555,0,0.0,0.0,0.0
+hasdescriptiveoccupation,educator,anna,"grier, 'sibling')",14,0.4305555555555556,16,0.28921568627450983,0.0,0.0
+hasdescriptiveoccupation,educator,is_relationship_to,agent,38,0.6264245014245015,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,educator,is_relationship_to,richard edgar grier,38,0.6264245014245015,30,0.49605263157894736,0.0,0.0
+hasdescriptiveoccupation,educator,anna,"grier, richard edgar grier)",14,0.4305555555555556,23,0.5367283950617284,0.0,0.0
+hasdescriptiveoccupation,educator,role record,module:,29,0.4873737373737373,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,educator,has_participant_role,participant_role_type,50,0.6805555555555555,28,0.48769841269841274,0.0,0.0
+hasdescriptiveoccupation,educator,has_participant_role,student,50,0.6805555555555555,27,0.4900793650793651,0.0,0.0
+hasdescriptiveoccupation,educator,has_participant_role,physician,50,0.6805555555555555,24,0.49074074074074076,0.0,0.0
+hasdescriptiveoccupation,educator,anna,"grier, 'student'), has_participant_role(eliza anna grier, 'physician')",14,0.4305555555555556,18,0.5380952380952381,0.0,0.0
+hasdescriptiveoccupation,educator,record,module:,27,0.6138888888888889,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,educator,has_sex,sex_type,32,0.5742063492063493,25,0.5,0.0,0.0
+hasdescriptiveoccupation,educator,has_sex,female,32,0.5742063492063493,29,0.5277777777777778,0.0,0.0
+hasdescriptiveoccupation,educator,anna,"grier, 'female')",14,0.4305555555555556,17,0.40972222222222215,0.0,0.0
+hasdescriptiveoccupation,educator,record,module:,27,0.6138888888888889,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,educator,has_occupation,occupation,68,0.8045940170940171,44,0.6416666666666667,0.0,0.0
+hasdescriptiveoccupation,educator,has_occupation,physician,68,0.8045940170940171,24,0.49074074074074076,0.0,0.0
+hasdescriptiveoccupation,educator,anna,"grier, 'physician')",14,0.4305555555555556,22,0.2850877192982456,0.0,0.0
+hasdescriptiveoccupation,educator,record,module:,27,0.6138888888888889,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,educator,has_birthdate,date_of_birth,38,0.6286324786324786,48,0.6260683760683761,0.0,0.0
+hasdescriptiveoccupation,educator,has_birthdate,1864,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,educator,anna,"grier, '1864')",14,0.4305555555555556,18,0.2976190476190476,0.0,0.0
+hasdescriptiveoccupation,educator,has_deathdate,date_of_death,43,0.652065527065527,38,0.5365384615384615,0.0,0.0
+hasdescriptiveoccupation,educator,has_deathdate,1902,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,educator,anna,"grier, '1902')",14,0.4305555555555556,18,0.2976190476190476,0.0,0.0
+hasdescriptiveoccupation,educator,record,module:,27,0.6138888888888889,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,educator,has_race_or_color,race_or_color,39,0.5977668845315903,38,0.6032051282051282,0.0,0.0
+hasdescriptiveoccupation,educator,has_race_or_color,african-american,39,0.5977668845315903,25,0.40972222222222215,0.0,0.0
+hasdescriptiveoccupation,educator,anna,"grier, 'african-american')",14,0.4305555555555556,24,0.4679487179487179,0.0,0.0
+hasdescriptiveoccupation,educator,status record,module:,32,0.540954415954416,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,educator,has_person_status,emancipated slave,39,0.6241830065359477,32,0.4950980392156863,0.0,0.0
+hasdescriptiveoccupation,educator,has_person_status,licensed physician,39,0.6241830065359477,31,0.40277777777777773,0.0,0.0
+hasdescriptiveoccupation,educator,anna,"grier, 'emancipated slave'), has_person_status(eliza anna grier, 'licensed physician')",14,0.4305555555555556,13,0.5726744186046512,0.0,0.0
+hasdescriptiveoccupation,physician,record,module:,27,0.6138888888888889,0,0.0,0.0,0.0
+hasdescriptiveoccupation,physician,has_name,name,25,0.5555555555555555,15,0.0,0.0,0.0
+hasdescriptiveoccupation,physician,has_name,eliza anna grier,25,0.5555555555555555,24,0.48148148148148145,0.0,0.0
+hasdescriptiveoccupation,physician,anna,"grier, 'eliza anna grier')",14,0.4305555555555556,23,0.5327635327635328,0.0,0.0
+hasdescriptiveoccupation,physician,has_surname,surname,34,0.5474386724386724,25,0.5026455026455027,0.0,0.0
+hasdescriptiveoccupation,physician,has_surname,grier,34,0.5474386724386724,14,0.43703703703703706,0.0,0.0
+hasdescriptiveoccupation,physician,anna,"grier, 'grier')",14,0.4305555555555556,17,0.4518518518518519,0.0,0.0
+hasdescriptiveoccupation,physician,has_first_name,first_name,32,0.5615079365079364,21,0.4481481481481482,0.0,0.0
+hasdescriptiveoccupation,physician,has_first_name,eliza,32,0.5615079365079364,29,0.5407407407407407,0.0,0.0
+hasdescriptiveoccupation,physician,anna,"grier, 'eliza')",14,0.4305555555555556,25,0.5111111111111111,0.0,0.0
+hasdescriptiveoccupation,physician,relationship record,module:,33,0.6137539361223572,0,0.0,0.0,0.0
+hasdescriptiveoccupation,physician,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,15,0.48322440087145974,0.0,0.0
+hasdescriptiveoccupation,physician,has_interagent_relationship_type,sibling,43,0.5868055555555555,50,0.671957671957672,0.0,0.0
+hasdescriptiveoccupation,physician,anna,"grier, 'sibling')",14,0.4305555555555556,31,0.47657952069716775,0.0,0.0
+hasdescriptiveoccupation,physician,is_relationship_to,agent,38,0.6264245014245015,29,0.0,0.0,0.0
+hasdescriptiveoccupation,physician,is_relationship_to,richard edgar grier,38,0.6264245014245015,21,0.46832358674463936,0.0,0.0
+hasdescriptiveoccupation,physician,anna,"grier, richard edgar grier)",14,0.4305555555555556,17,0.5135802469135803,0.0,0.0
+hasdescriptiveoccupation,physician,role record,module:,29,0.4873737373737373,0,0.0,0.0,0.0
+hasdescriptiveoccupation,physician,has_participant_role,participant_role_type,50,0.6805555555555555,40,0.5396825396825397,0.0,0.0
+hasdescriptiveoccupation,physician,has_participant_role,student,50,0.6805555555555555,25,0.5026455026455027,0.0,0.0
+hasdescriptiveoccupation,physician,has_participant_role,physician,50,0.6805555555555555,100,1.0,0.0,1.0
+hasdescriptiveoccupation,physician,anna,"grier, 'student'), has_participant_role(eliza anna grier, 'physician')",14,0.4305555555555556,23,0.5010582010582011,0.0,0.24395572500006343
+hasdescriptiveoccupation,physician,record,module:,27,0.6138888888888889,0,0.0,0.0,0.0
+hasdescriptiveoccupation,physician,has_sex,sex_type,32,0.5742063492063493,12,0.32407407407407407,0.0,0.0
+hasdescriptiveoccupation,physician,has_sex,female,32,0.5742063492063493,13,0.0,0.0,0.0
+hasdescriptiveoccupation,physician,anna,"grier, 'female')",14,0.4305555555555556,16,0.4490740740740741,0.0,0.0
+hasdescriptiveoccupation,physician,record,module:,27,0.6138888888888889,0,0.0,0.0,0.0
+hasdescriptiveoccupation,physician,has_occupation,occupation,68,0.8045940170940171,32,0.5518518518518518,0.0,0.0
+hasdescriptiveoccupation,physician,has_occupation,physician,68,0.8045940170940171,100,1.0,0.0,1.0
+hasdescriptiveoccupation,physician,anna,"grier, 'physician')",14,0.4305555555555556,64,0.7134502923976608,0.0,0.5797386715376658
+hasdescriptiveoccupation,physician,record,module:,27,0.6138888888888889,0,0.0,0.0,0.0
+hasdescriptiveoccupation,physician,has_birthdate,date_of_birth,38,0.6286324786324786,9,0.396011396011396,0.0,0.0
+hasdescriptiveoccupation,physician,has_birthdate,1864,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,physician,anna,"grier, '1864')",14,0.4305555555555556,9,0.3941798941798942,0.0,0.0
+hasdescriptiveoccupation,physician,has_deathdate,date_of_death,43,0.652065527065527,9,0.396011396011396,0.0,0.0
+hasdescriptiveoccupation,physician,has_deathdate,1902,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,physician,anna,"grier, '1902')",14,0.4305555555555556,9,0.3941798941798942,0.0,0.0
+hasdescriptiveoccupation,physician,record,module:,27,0.6138888888888889,0,0.0,0.0,0.0
+hasdescriptiveoccupation,physician,has_race_or_color,race_or_color,39,0.5977668845315903,9,0.396011396011396,0.0,0.0
+hasdescriptiveoccupation,physician,has_race_or_color,african-american,39,0.5977668845315903,40,0.4893518518518518,0.0,0.0
+hasdescriptiveoccupation,physician,anna,"grier, 'african-american')",14,0.4305555555555556,29,0.5159544159544159,0.0,0.0
+hasdescriptiveoccupation,physician,status record,module:,32,0.540954415954416,0,0.0,0.0,0.0
+hasdescriptiveoccupation,physician,has_person_status,emancipated slave,39,0.6241830065359477,23,0.48322440087145974,0.0,0.0
+hasdescriptiveoccupation,physician,has_person_status,licensed physician,39,0.6241830065359477,67,0.4777777777777778,0.0,0.5797386715376658
+hasdescriptiveoccupation,physician,anna,"grier, 'emancipated slave'), has_person_status(eliza anna grier, 'licensed physician')",14,0.4305555555555556,19,0.4939707149009474,0.0,0.21951095080860836
+hasfirstname,eliza anna,record,module:,22,0.4166666666666667,12,0.4142857142857143,0.0,0.0
+hasfirstname,eliza anna,has_name,name,70,0.8736111111111112,29,0.39999999999999997,0.0,0.0
+hasfirstname,eliza anna,has_name,eliza anna grier,70,0.8736111111111112,77,0.925,0.0,0.7092972666062739
+hasfirstname,eliza anna,anna,"grier, 'eliza anna grier')",38,0.4444444444444444,56,0.6948717948717947,0.0,0.4494364165239822
+hasfirstname,eliza anna,has_surname,surname,70,0.8733164983164984,24,0.32857142857142857,0.0,0.0
+hasfirstname,eliza anna,has_surname,grier,70,0.8733164983164984,13,0.3666666666666667,0.0,0.0
+hasfirstname,eliza anna,anna,"grier, 'grier')",38,0.4444444444444444,16,0.38888888888888884,0.0,0.0
+hasfirstname,eliza anna,has_first_name,first_name,92,0.9666666666666667,30,0.4222222222222222,0.0,0.0
+hasfirstname,eliza anna,has_first_name,eliza,92,0.9666666666666667,67,0.9,0.0,0.5797386715376658
+hasfirstname,eliza anna,anna,"grier, 'eliza')",38,0.4444444444444444,40,0.47222222222222227,0.0,0.33609692727625756
+hasfirstname,eliza anna,relationship record,module:,32,0.5077276524644946,12,0.4142857142857143,0.0,0.0
+hasfirstname,eliza anna,has_interagent_relationship_type,relationship_type,36,0.6030092592592592,30,0.5313725490196078,0.0,0.0
+hasfirstname,eliza anna,has_interagent_relationship_type,sibling,36,0.6030092592592592,35,0.46507936507936504,0.0,0.0
+hasfirstname,eliza anna,anna,"grier, 'sibling')",38,0.4444444444444444,30,0.4617647058823529,0.0,0.0
+hasfirstname,eliza anna,is_relationship_to,agent,27,0.6203703703703703,27,0.5222222222222221,0.0,0.0
+hasfirstname,eliza anna,is_relationship_to,richard edgar grier,27,0.6203703703703703,28,0.4543859649122807,0.0,0.0
+hasfirstname,eliza anna,anna,"grier, richard edgar grier)",38,0.4444444444444444,27,0.4283950617283951,0.0,0.0
+hasfirstname,eliza anna,role record,module:,17,0.44949494949494956,12,0.4142857142857143,0.0,0.0
+hasfirstname,eliza anna,has_participant_role,participant_role_type,44,0.6962962962962962,19,0.44682539682539685,0.0,0.0
+hasfirstname,eliza anna,has_participant_role,student,44,0.6962962962962962,24,0.49523809523809526,0.0,0.0
+hasfirstname,eliza anna,has_participant_role,physician,44,0.6962962962962962,32,0.5444444444444444,0.0,0.0
+hasfirstname,eliza anna,anna,"grier, 'student'), has_participant_role(eliza anna grier, 'physician')",38,0.4444444444444444,25,0.5130952380952382,0.0,0.35547677795468396
+hasfirstname,eliza anna,record,module:,22,0.4166666666666667,12,0.4142857142857143,0.0,0.0
+hasfirstname,eliza anna,has_sex,sex_type,53,0.6349206349206349,11,0.4083333333333334,0.0,0.0
+hasfirstname,eliza anna,has_sex,female,53,0.6349206349206349,25,0.48888888888888893,0.0,0.0
+hasfirstname,eliza anna,anna,"grier, 'female')",38,0.4444444444444444,23,0.3833333333333333,0.0,0.0
+hasfirstname,eliza anna,record,module:,22,0.4166666666666667,12,0.4142857142857143,0.0,0.0
+hasfirstname,eliza anna,has_occupation,occupation,38,0.5873015873015873,20,0.4666666666666666,0.0,0.0
+hasfirstname,eliza anna,has_occupation,physician,38,0.5873015873015873,32,0.5444444444444444,0.0,0.0
+hasfirstname,eliza anna,anna,"grier, 'physician')",38,0.4444444444444444,28,0.4543859649122807,0.0,0.0
+hasfirstname,eliza anna,record,module:,22,0.4166666666666667,12,0.4142857142857143,0.0,0.0
+hasfirstname,eliza anna,has_birthdate,date_of_birth,64,0.8324786324786324,17,0.28461538461538466,0.0,0.0
+hasfirstname,eliza anna,has_birthdate,1864,64,0.8324786324786324,0,0.0,0.0,0.0
+hasfirstname,eliza anna,anna,"grier, '1864')",38,0.4444444444444444,17,0.3936507936507936,0.0,0.0
+hasfirstname,eliza anna,has_deathdate,date_of_death,48,0.5982905982905983,17,0.3991452991452991,0.0,0.0
+hasfirstname,eliza anna,has_deathdate,1902,48,0.5982905982905983,0,0.0,0.0,0.0
+hasfirstname,eliza anna,anna,"grier, '1902')",38,0.4444444444444444,17,0.3936507936507936,0.0,0.0
+hasfirstname,eliza anna,record,module:,22,0.4166666666666667,12,0.4142857142857143,0.0,0.0
+hasfirstname,eliza anna,has_race_or_color,race_or_color,41,0.6176470588235294,17,0.28461538461538466,0.0,0.0
+hasfirstname,eliza anna,has_race_or_color,african-american,41,0.6176470588235294,31,0.5472222222222222,0.0,0.0
+hasfirstname,eliza anna,anna,"grier, 'african-american')",38,0.4444444444444444,28,0.5611721611721611,0.0,0.0
+hasfirstname,eliza anna,status record,module:,32,0.5427350427350427,12,0.4142857142857143,0.0,0.0
+hasfirstname,eliza anna,has_person_status,emancipated slave,48,0.6857298474945533,37,0.6086834733893558,0.0,0.0
+hasfirstname,eliza anna,has_person_status,licensed physician,48,0.6857298474945533,36,0.5333333333333333,0.0,0.0
+hasfirstname,eliza anna,anna,"grier, 'emancipated slave'), has_person_status(eliza anna grier, 'licensed physician')",38,0.4444444444444444,21,0.5571059431524548,0.0,0.31799766166594773
+hassurname,grier,record,module:,25,0.4222222222222222,17,0.44761904761904764,0.0,0.0
+hassurname,grier,has_name,name,78,0.9008333333333334,22,0.48333333333333334,0.0,0.0
+hassurname,grier,has_name,eliza anna grier,78,0.9008333333333334,48,0.3416666666666666,0.0,0.4494364165239821
+hassurname,grier,anna,"grier, 'eliza anna grier')",43,0.6833333333333332,32,0.8384615384615385,0.0,0.7092972666062738
+hassurname,grier,has_surname,surname,95,0.9787878787878788,33,0.44761904761904764,0.0,0.0
+hassurname,grier,has_surname,grier,95,0.9787878787878788,100,1.0,0.0,1.0
+hassurname,grier,anna,"grier, 'grier')",43,0.6833333333333332,50,0.8666666666666666,0.0,1.0
+hassurname,grier,has_first_name,first_name,67,0.8674074074074074,27,0.3666666666666667,0.0,0.0
+hassurname,grier,has_first_name,eliza,67,0.8674074074074074,20,0.4666666666666666,0.0,0.0
+hassurname,grier,anna,"grier, 'eliza')",43,0.6833333333333332,50,0.8666666666666666,0.0,0.5797386715376658
+hassurname,grier,relationship record,module:,28,0.4543859649122807,17,0.44761904761904764,0.0,0.0
+hassurname,grier,has_interagent_relationship_type,relationship_type,33,0.544345238095238,27,0.48104575163398694,0.0,0.0
+hassurname,grier,has_interagent_relationship_type,sibling,33,0.544345238095238,17,0.44761904761904764,0.0,0.0
+hassurname,grier,anna,"grier, 'sibling')",43,0.6833333333333332,45,0.8588235294117647,0.0,0.5797386715376658
+hassurname,grier,is_relationship_to,agent,21,0.5333333333333333,40,0.6,0.0,0.0
+hassurname,grier,is_relationship_to,richard edgar grier,21,0.5333333333333333,42,0.5868421052631579,0.0,0.44943641652398214
+hassurname,grier,anna,"grier, richard edgar grier)",43,0.6833333333333332,31,0.837037037037037,0.0,0.7092972666062738
+hassurname,grier,role record,module:,19,0.46060606060606063,17,0.44761904761904764,0.0,0.0
+hassurname,grier,has_participant_role,participant_role_type,40,0.5777777777777778,23,0.580952380952381,0.0,0.0
+hassurname,grier,has_participant_role,student,40,0.5777777777777778,17,0.44761904761904764,0.0,0.0
+hassurname,grier,has_participant_role,physician,40,0.5777777777777778,14,0.43703703703703706,0.0,0.0
+hassurname,grier,anna,"grier, 'student'), has_participant_role(eliza anna grier, 'physician')",43,0.6833333333333332,13,0.6904761904761904,0.0,0.536892711851518
+hassurname,grier,record,module:,25,0.4222222222222222,17,0.44761904761904764,0.0,0.0
+hassurname,grier,has_sex,sex_type,59,0.8166666666666667,15,0.44166666666666665,0.0,0.0
+hassurname,grier,has_sex,female,59,0.8166666666666667,18,0.45555555555555555,0.0,0.0
+hassurname,grier,anna,"grier, 'female')",43,0.6833333333333332,48,0.8625,0.0,0.5797386715376658
+hassurname,grier,record,module:,25,0.4222222222222222,17,0.44761904761904764,0.0,0.0
+hassurname,grier,has_occupation,occupation,42,0.6190476190476191,13,0.0,0.0,0.0
+hassurname,grier,has_occupation,physician,42,0.6190476190476191,14,0.43703703703703706,0.0,0.0
+hassurname,grier,anna,"grier, 'physician')",43,0.6833333333333332,42,0.8526315789473684,0.0,0.5797386715376658
+hassurname,grier,record,module:,25,0.4222222222222222,17,0.44761904761904764,0.0,0.0
+hassurname,grier,has_birthdate,date_of_birth,52,0.6871794871794871,22,0.4256410256410256,0.0,0.0
+hassurname,grier,has_birthdate,1864,52,0.6871794871794871,0,0.0,0.0,0.0
+hassurname,grier,anna,"grier, '1864')",43,0.6833333333333332,53,0.8714285714285714,0.0,0.5797386715376658
+hassurname,grier,has_deathdate,date_of_death,43,0.5615384615384615,11,0.4256410256410256,0.0,0.0
+hassurname,grier,has_deathdate,1902,43,0.5615384615384615,0,0.0,0.0,0.0
+hassurname,grier,anna,"grier, '1902')",43,0.6833333333333332,53,0.8714285714285714,0.0,0.5797386715376658
+hassurname,grier,record,module:,25,0.4222222222222222,17,0.44761904761904764,0.0,0.0
+hassurname,grier,has_race_or_color,race_or_color,44,0.6509803921568628,33,0.6102564102564102,0.0,0.0
+hassurname,grier,has_race_or_color,african-american,44,0.6509803921568628,38,0.6833333333333332,0.0,0.0
+hassurname,grier,anna,"grier, 'african-american')",43,0.6833333333333332,32,0.8384615384615385,0.0,0.4494364165239821
+hassurname,grier,status record,module:,35,0.5760683760683761,17,0.44761904761904764,0.0,0.0
+hassurname,grier,has_person_status,emancipated slave,44,0.6735294117647058,18,0.33921568627450976,0.0,0.0
+hassurname,grier,has_person_status,licensed physician,44,0.6735294117647058,17,0.5037037037037037,0.0,0.0
+hassurname,grier,anna,"grier, 'emancipated slave'), has_person_status(eliza anna grier, 'licensed physician')",43,0.6833333333333332,11,0.686046511627907,0.0,0.4736820224661605
+hasname,eliza anna grier,record,module:,15,0.0,17,0.30357142857142855,0.0,0.0
+hasname,eliza anna grier,has_name,name,93,0.9708333333333333,30,0.5347222222222222,0.0,0.0
+hasname,eliza anna grier,has_name,eliza anna grier,93,0.9708333333333333,100,1.0,0.0,1.0000000000000002
+hasname,eliza anna grier,anna,"grier, 'eliza anna grier')",55,0.7261904761904763,76,0.7259615384615384,0.0,0.9428090415820636
+hasname,eliza anna grier,has_surname,surname,78,0.9151515151515152,26,0.4275793650793651,0.0,0.0
+hasname,eliza anna grier,has_surname,grier,78,0.9151515151515152,48,0.3416666666666666,0.0,0.4494364165239821
+hasname,eliza anna grier,anna,"grier, 'grier')",55,0.7261904761904763,45,0.6361111111111111,0.0,0.4494364165239821
+hasname,eliza anna grier,has_first_name,first_name,67,0.5476190476190476,31,0.4666666666666666,0.0,0.0
+hasname,eliza anna grier,has_first_name,eliza,67,0.5476190476190476,48,0.8625,0.0,0.44943641652398214
+hasname,eliza anna grier,anna,"grier, 'eliza')",55,0.7261904761904763,32,0.48055555555555557,0.0,0.7092972666062739
+hasname,eliza anna grier,relationship record,module:,23,0.5106516290726817,17,0.30357142857142855,0.0,0.0
+hasname,eliza anna grier,has_interagent_relationship_type,relationship_type,31,0.6259920634920636,36,0.5688025210084033,0.0,0.0
+hasname,eliza anna grier,has_interagent_relationship_type,sibling,31,0.6259920634920636,35,0.5238095238095238,0.0,0.0
+hasname,eliza anna grier,anna,"grier, 'sibling')",55,0.7261904761904763,30,0.4648692810457516,0.0,0.2605556710562624
+hasname,eliza anna grier,is_relationship_to,agent,16,0.43121693121693117,29,0.4847222222222222,0.0,0.0
+hasname,eliza anna grier,is_relationship_to,richard edgar grier,16,0.43121693121693117,57,0.6342703349282296,0.0,0.20199309249791833
+hasname,eliza anna grier,anna,"grier, richard edgar grier)",55,0.7261904761904763,51,0.5770903479236812,0.0,0.3187840217537793
+hasname,eliza anna grier,role record,module:,11,0.41125541125541126,17,0.30357142857142855,0.0,0.0
+hasname,eliza anna grier,has_participant_role,participant_role_type,37,0.5904761904761905,27,0.4474206349206349,0.0,0.0
+hasname,eliza anna grier,has_participant_role,student,37,0.5904761904761905,17,0.4702380952380952,0.0,0.0
+hasname,eliza anna grier,has_participant_role,physician,37,0.5904761904761905,24,0.48148148148148145,0.0,0.0
+hasname,eliza anna grier,anna,"grier, 'student'), has_participant_role(eliza anna grier, 'physician')",55,0.7261904761904763,37,0.5488095238095237,0.0,0.6687318761258383
+hasname,eliza anna grier,record,module:,15,0.0,17,0.30357142857142855,0.0,0.0
+hasname,eliza anna grier,has_sex,sex_type,57,0.8,17,0.4583333333333333,0.0,0.0
+hasname,eliza anna grier,has_sex,female,57,0.8,27,0.45138888888888884,0.0,0.0
+hasname,eliza anna grier,anna,"grier, 'female')",55,0.7261904761904763,31,0.4083333333333334,0.0,0.2605556710562624
+hasname,eliza anna grier,record,module:,15,0.0,17,0.30357142857142855,0.0,0.0
+hasname,eliza anna grier,has_occupation,occupation,38,0.6190476190476191,15,0.3847222222222222,0.0,0.0
+hasname,eliza anna grier,has_occupation,physician,38,0.6190476190476191,24,0.48148148148148145,0.0,0.0
+hasname,eliza anna grier,anna,"grier, 'physician')",55,0.7261904761904763,29,0.4591165413533835,0.0,0.2605556710562624
+hasname,eliza anna grier,record,module:,15,0.0,17,0.30357142857142855,0.0,0.0
+hasname,eliza anna grier,has_birthdate,date_of_birth,50,0.553113553113553,21,0.4358974358974359,0.0,0.0
+hasname,eliza anna grier,has_birthdate,1864,50,0.553113553113553,0,0.0,0.0,0.0
+hasname,eliza anna grier,anna,"grier, '1864')",55,0.7261904761904763,33,0.35615079365079366,0.0,0.2605556710562624
+hasname,eliza anna grier,has_deathdate,date_of_death,50,0.632967032967033,14,0.3525641025641026,0.0,0.0
+hasname,eliza anna grier,has_deathdate,1902,50,0.632967032967033,0,0.0,0.0,0.0
+hasname,eliza anna grier,anna,"grier, '1902')",55,0.7261904761904763,33,0.35615079365079366,0.0,0.2605556710562624
+hasname,eliza anna grier,record,module:,15,0.0,17,0.30357142857142855,0.0,0.0
+hasname,eliza anna grier,has_race_or_color,race_or_color,42,0.6694677871148459,21,0.4358974358974359,0.0,0.0
+hasname,eliza anna grier,has_race_or_color,african-american,42,0.6694677871148459,38,0.6342592592592592,0.0,0.0
+hasname,eliza anna grier,anna,"grier, 'african-american')",55,0.7261904761904763,33,0.5982905982905984,0.0,0.20199309249791833
+hasname,eliza anna grier,status record,module:,30,0.442002442002442,17,0.30357142857142855,0.0,0.0
+hasname,eliza anna grier,has_person_status,emancipated slave,42,0.6028011204481792,36,0.5318627450980392,0.0,0.0
+hasname,eliza anna grier,has_person_status,licensed physician,42,0.6028011204481792,29,0.5231481481481481,0.0,0.0
+hasname,eliza anna grier,anna,"grier, 'emancipated slave'), has_person_status(eliza anna grier, 'licensed physician')",55,0.7261904761904763,31,0.5484173126614987,0.0,0.5795885271719546
+hasdescription,"born enslaved. an early black, female physician.",record,module:,30,0.48412698412698413,15,0.4682539682539682,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",has_name,name,36,0.5952380952380952,15,0.4930555555555555,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",has_name,eliza anna grier,36,0.5952380952380952,28,0.5277777777777778,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",anna,"grier, 'eliza anna grier')",22,0.44047619047619047,30,0.49647435897435893,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",has_surname,surname,48,0.6168831168831169,18,0.47281746031746036,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",has_surname,grier,48,0.6168831168831169,11,0.5541666666666667,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",anna,"grier, 'grier')",22,0.44047619047619047,19,0.3458333333333334,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",has_first_name,first_name,43,0.6726190476190476,21,0.40138888888888885,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",has_first_name,eliza,43,0.6726190476190476,15,0.5541666666666667,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",anna,"grier, 'eliza')",22,0.44047619047619047,29,0.39464285714285713,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",relationship record,module:,30,0.6135338345864662,15,0.4682539682539682,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",has_interagent_relationship_type,relationship_type,39,0.5755952380952382,22,0.43218954248366015,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",has_interagent_relationship_type,sibling,39,0.5755952380952382,18,0.3849206349206349,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",anna,"grier, 'sibling')",22,0.44047619047619047,28,0.4207516339869281,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",is_relationship_to,agent,44,0.6474266474266474,11,0.44305555555555554,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",is_relationship_to,richard edgar grier,44,0.6474266474266474,27,0.40557992202729043,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",anna,"grier, richard edgar grier)",22,0.44047619047619047,27,0.43025878442545107,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",role record,module:,24,0.46645021645021645,15,0.4682539682539682,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",has_participant_role,participant_role_type,47,0.6876623376623376,20,0.4682539682539682,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",has_participant_role,student,47,0.6876623376623376,15,0.3849206349206349,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",has_participant_role,physician,47,0.6876623376623376,32,0.4199074074074074,0.0,0.2789425453258252
+hasdescription,"born enslaved. an early black, female physician.",anna,"grier, 'student'), has_participant_role(eliza anna grier, 'physician')",22,0.44047619047619047,42,0.6001984126984127,0.0,0.06804963087832473
+hasdescription,"born enslaved. an early black, female physician.",record,module:,30,0.48412698412698413,15,0.4682539682539682,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",has_sex,sex_type,38,0.6238095238095238,14,0.36111111111111116,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",has_sex,female,38,0.6238095238095238,22,0.5,0.0,0.2789425453258252
+hasdescription,"born enslaved. an early black, female physician.",anna,"grier, 'female')",22,0.44047619047619047,34,0.4777777777777778,0.0,0.161713780662529
+hasdescription,"born enslaved. an early black, female physician.",record,module:,30,0.48412698412698413,15,0.4682539682539682,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",has_occupation,occupation,64,0.8074074074074075,17,0.3430555555555555,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",has_occupation,physician,64,0.8074074074074075,32,0.4199074074074074,0.0,0.2789425453258252
+hasdescription,"born enslaved. an early black, female physician.",anna,"grier, 'physician')",22,0.44047619047619047,42,0.40557992202729043,0.0,0.161713780662529
+hasdescription,"born enslaved. an early black, female physician.",record,module:,30,0.48412698412698413,15,0.4682539682539682,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",has_birthdate,date_of_birth,37,0.6318681318681318,16,0.3621794871794872,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",has_birthdate,1864,37,0.6318681318681318,0,0.0,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",anna,"grier, '1864')",22,0.44047619047619047,16,0.373015873015873,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",has_deathdate,date_of_death,44,0.63003663003663,23,0.41773504273504275,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",has_deathdate,1902,44,0.63003663003663,0,0.0,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",anna,"grier, '1902')",22,0.44047619047619047,16,0.373015873015873,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",record,module:,30,0.48412698412698413,15,0.4682539682539682,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",has_race_or_color,race_or_color,39,0.5896358543417367,20,0.4185744810744811,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",has_race_or_color,african-american,39,0.5896358543417367,31,0.5111111111111111,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",anna,"grier, 'african-american')",22,0.44047619047619047,32,0.5037393162393162,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",status record,module:,37,0.5366300366300366,15,0.4682539682539682,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",has_person_status,emancipated slave,45,0.6675070028011204,28,0.524666918049271,0.0,0.0
+hasdescription,"born enslaved. an early black, female physician.",has_person_status,licensed physician,45,0.6675070028011204,45,0.4619107744107744,0.0,0.161713780662529
+hasdescription,"born enslaved. an early black, female physician.",anna,"grier, 'emancipated slave'), has_person_status(eliza anna grier, 'licensed physician')",22,0.44047619047619047,45,0.6161498708010337,0.0,0.06123094334544521

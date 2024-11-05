@@ -1,0 +1,281 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,on the,"text, we can populate the ontology with the following relations:",35,0.5909090909090909,14,0.40972222222222215,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,mary hemings,32,0.537878787878788,22,0.47222222222222215,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,hemings,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,mary,40,0.5692640692640693,20,0.47222222222222215,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type,relationship_type,33,0.5340909090909091,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type,household servant,33,0.5340909090909091,26,0.4477124183006536,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,thomas jefferson,34,0.5798460798460798,45,0.45138888888888884,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,female,22,0.45598845598845594,17,0.4444444444444444,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,household servant,24,0.38311688311688313,26,0.4477124183006536,0.0,0.0
+instance of,person,has_occupation,seamstress,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_age,unknown,33,0.45598845598845594,31,0.373015873015873,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_birthdate,unknown,33,0.5463869463869464,31,0.373015873015873,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,unknown,33,0.39044289044289043,31,0.373015873015873,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,person_status,29,0.449554367201426,63,0.8923076923076924,0.0,0.0
+instance of,person,has_person_status,enslaved person,29,0.449554367201426,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,african-american,36,0.5162210338680927,27,0.4861111111111111,0.0,0.0
+instance of,person,is not,"a predefined relationship type, so we can use a generic term like 'household servant' or 'domestic servant' to describe her relationship with thomas jefferson.",47,0.5934343434343434,7,0.5681341719077567,0.0,0.0
+instance of,person,birth and death dates of mary hemings are not mentioned in the,"text, so we can't populate those relations. also, the relationship type 'household servant' is not a predefined relationship type, so we can use a generic term like 'household servant' or 'domestic servant' to describe her relationship with thomas jefferson.",22,0.5567937438905181,5,0.5077519379844961,0.12160331478619012,0.0
+hasname,mary hemings,on the,"text, we can populate the ontology with the following relations:",31,0.5396825396825397,24,0.4305555555555555,0.0,0.0
+hasname,mary hemings,record,module:,15,0.0,21,0.48412698412698413,0.0,0.0
+hasname,mary hemings,has_name,name,93,0.9708333333333333,25,0.5555555555555555,0.0,0.0
+hasname,mary hemings,has_name,mary hemings,93,0.9708333333333333,100,1.0,0.0,1.0000000000000002
+hasname,mary hemings,has_surname,surname,78,0.9151515151515152,21,0.5515873015873015,0.0,0.0
+hasname,mary hemings,has_surname,hemings,78,0.9151515151515152,74,0.8134920634920636,0.0,0.5797386715376658
+hasname,mary hemings,has_first_name,first_name,67,0.5476190476190476,18,0.49444444444444446,0.0,0.0
+hasname,mary hemings,has_first_name,mary,67,0.5476190476190476,50,0.8666666666666666,0.0,0.5797386715376658
+hasname,mary hemings,relationship record,module:,23,0.5106516290726817,21,0.48412698412698413,0.0,0.0
+hasname,mary hemings,has_interagent_relationship_type,relationship_type,31,0.6259920634920636,34,0.5221755368814193,0.0,0.0
+hasname,mary hemings,has_interagent_relationship_type,household servant,31,0.6259920634920636,21,0.4369281045751634,0.0,0.0
+hasname,mary hemings,is_relationship_to,agent,16,0.43121693121693117,35,0.5222222222222223,0.0,0.0
+hasname,mary hemings,is_relationship_to,thomas jefferson,16,0.43121693121693117,36,0.5307539682539683,0.0,0.0
+hasname,mary hemings,record,module:,15,0.0,21,0.48412698412698413,0.0,0.0
+hasname,mary hemings,has_sex,sex_type,57,0.8,20,0.3055555555555555,0.0,0.0
+hasname,mary hemings,has_sex,female,57,0.8,33,0.47222222222222215,0.0,0.0
+hasname,mary hemings,record,module:,15,0.0,21,0.48412698412698413,0.0,0.0
+hasname,mary hemings,has_occupation,occupation,38,0.6190476190476191,27,0.5166666666666667,0.0,0.0
+hasname,mary hemings,has_occupation,household servant,38,0.6190476190476191,21,0.4369281045751634,0.0,0.0
+hasname,mary hemings,has_occupation,seamstress,38,0.6190476190476191,36,0.5722222222222223,0.0,0.0
+hasname,mary hemings,record,module:,15,0.0,21,0.48412698412698413,0.0,0.0
+hasname,mary hemings,has_age,age,71,0.8666666666666668,27,0.611111111111111,0.0,0.0
+hasname,mary hemings,has_age,unknown,71,0.8666666666666668,11,0.4087301587301588,0.0,0.0
+hasname,mary hemings,has_birthdate,date_of_birth,50,0.553113553113553,24,0.4935897435897436,0.0,0.0
+hasname,mary hemings,has_birthdate,unknown,50,0.553113553113553,11,0.4087301587301588,0.0,0.0
+hasname,mary hemings,has_deathdate,date_of_death,50,0.632967032967033,16,0.44017094017094016,0.0,0.0
+hasname,mary hemings,has_deathdate,unknown,50,0.632967032967033,11,0.4087301587301588,0.0,0.0
+hasname,mary hemings,status record,module:,30,0.442002442002442,21,0.48412698412698413,0.0,0.0
+hasname,mary hemings,has_person_status,person_status,42,0.6028011204481792,24,0.46367521367521364,0.0,0.0
+hasname,mary hemings,has_person_status,enslaved person,42,0.6028011204481792,30,0.45,0.0,0.0
+hasname,mary hemings,record,module:,15,0.0,21,0.48412698412698413,0.0,0.0
+hasname,mary hemings,has_race_or_color,race_or_color,42,0.6694677871148459,16,0.38247863247863245,0.0,0.0
+hasname,mary hemings,has_race_or_color,african-american,42,0.6694677871148459,36,0.5138888888888888,0.0,0.0
+hasname,mary hemings,is not,"a predefined relationship type, so we can use a generic term like 'household servant' or 'domestic servant' to describe her relationship with thomas jefferson.",31,0.5396825396825397,12,0.54073756432247,0.0,0.0
+hasname,mary hemings,birth and death dates of mary hemings are not mentioned in the,"text, so we can't populate those relations. also, the relationship type 'household servant' is not a predefined relationship type, so we can use a generic term like 'household servant' or 'domestic servant' to describe her relationship with thomas jefferson.",20,0.609062980030722,7,0.4468130921619293,0.0,0.0
+hasfirstname,mary,on the,"text, we can populate the ontology with the following relations:",22,0.3333333333333333,6,0.5104166666666666,0.0,0.0
+hasfirstname,mary,record,module:,22,0.4166666666666667,18,0.46428571428571425,0.0,0.0
+hasfirstname,mary,has_name,name,70,0.8736111111111112,25,0.5,0.0,0.0
+hasfirstname,mary,has_name,mary hemings,70,0.8736111111111112,50,0.8666666666666666,0.0,0.5797386715376658
+hasfirstname,mary,has_surname,surname,70,0.8733164983164984,18,0.46428571428571425,0.0,0.0
+hasfirstname,mary,has_surname,hemings,70,0.8733164983164984,18,0.46428571428571425,0.0,0.0
+hasfirstname,mary,has_first_name,first_name,92,0.9666666666666667,14,0.45,0.0,0.0
+hasfirstname,mary,has_first_name,mary,92,0.9666666666666667,100,1.0,0.0,1.0
+hasfirstname,mary,relationship record,module:,32,0.5077276524644946,18,0.46428571428571425,0.0,0.0
+hasfirstname,mary,has_interagent_relationship_type,relationship_type,36,0.6030092592592592,19,0.37254901960784315,0.0,0.0
+hasfirstname,mary,has_interagent_relationship_type,household servant,36,0.6030092592592592,10,0.0,0.0,0.0
+hasfirstname,mary,is_relationship_to,agent,27,0.6203703703703703,22,0.48333333333333334,0.0,0.0
+hasfirstname,mary,is_relationship_to,thomas jefferson,27,0.6203703703703703,30,0.5416666666666666,0.0,0.0
+hasfirstname,mary,record,module:,22,0.4166666666666667,18,0.46428571428571425,0.0,0.0
+hasfirstname,mary,has_sex,sex_type,53,0.6349206349206349,17,0.4583333333333333,0.0,0.0
+hasfirstname,mary,has_sex,female,53,0.6349206349206349,40,0.611111111111111,0.0,0.0
+hasfirstname,mary,record,module:,22,0.4166666666666667,18,0.46428571428571425,0.0,0.0
+hasfirstname,mary,has_occupation,occupation,38,0.5873015873015873,14,0.45,0.0,0.0
+hasfirstname,mary,has_occupation,household servant,38,0.5873015873015873,10,0.0,0.0,0.0
+hasfirstname,mary,has_occupation,seamstress,38,0.5873015873015873,29,0.5722222222222223,0.0,0.0
+hasfirstname,mary,record,module:,22,0.4166666666666667,18,0.46428571428571425,0.0,0.0
+hasfirstname,mary,has_age,age,53,0.7972222222222223,29,0.5277777777777778,0.0,0.0
+hasfirstname,mary,has_age,unknown,53,0.7972222222222223,0,0.0,0.0,0.0
+hasfirstname,mary,has_birthdate,date_of_birth,64,0.8324786324786324,24,0.4423076923076923,0.0,0.0
+hasfirstname,mary,has_birthdate,unknown,64,0.8324786324786324,0,0.0,0.0,0.0
+hasfirstname,mary,has_deathdate,date_of_death,48,0.5982905982905983,12,0.4423076923076923,0.0,0.0
+hasfirstname,mary,has_deathdate,unknown,48,0.5982905982905983,0,0.0,0.0,0.0
+hasfirstname,mary,status record,module:,32,0.5427350427350427,18,0.46428571428571425,0.0,0.0
+hasfirstname,mary,has_person_status,person_status,48,0.6857298474945533,12,0.4423076923076923,0.0,0.0
+hasfirstname,mary,has_person_status,enslaved person,48,0.6857298474945533,21,0.4388888888888889,0.0,0.0
+hasfirstname,mary,record,module:,22,0.4166666666666667,18,0.46428571428571425,0.0,0.0
+hasfirstname,mary,has_race_or_color,race_or_color,41,0.6176470588235294,24,0.3846153846153846,0.0,0.0
+hasfirstname,mary,has_race_or_color,african-american,41,0.6176470588235294,20,0.5416666666666666,0.0,0.0
+hasfirstname,mary,is not,"a predefined relationship type, so we can use a generic term like 'household servant' or 'domestic servant' to describe her relationship with thomas jefferson.",33,0.5,4,0.5083857442348009,0.0,0.0
+hasfirstname,mary,birth and death dates of mary hemings are not mentioned in the,"text, so we can't populate those relations. also, the relationship type 'household servant' is not a predefined relationship type, so we can use a generic term like 'household servant' or 'domestic servant' to describe her relationship with thomas jefferson.",24,0.5922939068100358,2,0.5872093023255814,0.0,0.0
+hassurname,hemings,on the,"text, we can populate the ontology with the following relations:",25,0.5111111111111111,17,0.4613095238095238,0.0,0.0
+hassurname,hemings,record,module:,25,0.4222222222222222,14,0.42857142857142855,0.0,0.0
+hassurname,hemings,has_name,name,78,0.9008333333333334,18,0.42857142857142855,0.0,0.0
+hassurname,hemings,has_name,mary hemings,78,0.9008333333333334,74,0.8134920634920636,0.0,0.5797386715376658
+hassurname,hemings,has_surname,surname,95,0.9787878787878788,14,0.42857142857142855,0.0,0.0
+hassurname,hemings,has_surname,hemings,95,0.9787878787878788,100,1.0,0.0,1.0
+hassurname,hemings,has_first_name,first_name,67,0.8674074074074074,24,0.46507936507936504,0.0,0.0
+hassurname,hemings,has_first_name,mary,67,0.8674074074074074,18,0.46428571428571425,0.0,0.0
+hassurname,hemings,relationship record,module:,28,0.4543859649122807,14,0.42857142857142855,0.0,0.0
+hassurname,hemings,has_interagent_relationship_type,relationship_type,33,0.544345238095238,33,0.6022408963585434,0.0,0.0
+hassurname,hemings,has_interagent_relationship_type,household servant,33,0.544345238095238,25,0.4239028944911298,0.0,0.0
+hassurname,hemings,is_relationship_to,agent,21,0.5333333333333333,33,0.5619047619047619,0.0,0.0
+hassurname,hemings,is_relationship_to,thomas jefferson,21,0.5333333333333333,26,0.5238095238095238,0.0,0.0
+hassurname,hemings,record,module:,25,0.4222222222222222,14,0.42857142857142855,0.0,0.0
+hassurname,hemings,has_sex,sex_type,59,0.8166666666666667,13,0.4226190476190476,0.0,0.0
+hassurname,hemings,has_sex,female,59,0.8166666666666667,31,0.5396825396825397,0.0,0.0
+hassurname,hemings,record,module:,25,0.4222222222222222,14,0.42857142857142855,0.0,0.0
+hassurname,hemings,has_occupation,occupation,42,0.6190476190476191,24,0.4142857142857143,0.0,0.0
+hassurname,hemings,has_occupation,household servant,42,0.6190476190476191,25,0.4239028944911298,0.0,0.0
+hassurname,hemings,has_occupation,seamstress,42,0.6190476190476191,35,0.5761904761904763,0.0,0.0
+hassurname,hemings,record,module:,25,0.4222222222222222,14,0.42857142857142855,0.0,0.0
+hassurname,hemings,has_age,age,59,0.8166666666666667,20,0.4920634920634921,0.0,0.0
+hassurname,hemings,has_age,unknown,59,0.8166666666666667,14,0.42857142857142855,0.0,0.0
+hassurname,hemings,has_birthdate,date_of_birth,52,0.6871794871794871,20,0.40659340659340665,0.0,0.0
+hassurname,hemings,has_birthdate,unknown,52,0.6871794871794871,14,0.42857142857142855,0.0,0.0
+hassurname,hemings,has_deathdate,date_of_death,43,0.5615384615384615,10,0.40659340659340665,0.0,0.0
+hassurname,hemings,has_deathdate,unknown,43,0.5615384615384615,14,0.42857142857142855,0.0,0.0
+hassurname,hemings,status record,module:,35,0.5760683760683761,14,0.42857142857142855,0.0,0.0
+hassurname,hemings,has_person_status,person_status,44,0.6735294117647058,30,0.442002442002442,0.0,0.0
+hassurname,hemings,has_person_status,enslaved person,44,0.6735294117647058,27,0.5428571428571428,0.0,0.0
+hassurname,hemings,record,module:,25,0.4222222222222222,14,0.42857142857142855,0.0,0.0
+hassurname,hemings,has_race_or_color,race_or_color,44,0.6509803921568628,10,0.40659340659340665,0.0,0.0
+hassurname,hemings,has_race_or_color,african-american,44,0.6509803921568628,26,0.4275793650793651,0.0,0.0
+hassurname,hemings,is not,"a predefined relationship type, so we can use a generic term like 'household servant' or 'domestic servant' to describe her relationship with thomas jefferson.",25,0.5111111111111111,7,0.5384845762204252,0.0,0.0
+hassurname,hemings,birth and death dates of mary hemings are not mentioned in the,"text, so we can't populate those relations. also, the relationship type 'household servant' is not a predefined relationship type, so we can use a generic term like 'household servant' or 'domestic servant' to describe her relationship with thomas jefferson.",22,0.5180107526881721,5,0.44455518641565156,0.0,0.0
+hassex,female,on the,"text, we can populate the ontology with the following relations:",33,0.4444444444444444,11,0.4930555555555555,0.0,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_name,name,57,0.8055555555555556,40,0.6388888888888888,0.0,0.0
+hassex,female,has_name,mary hemings,57,0.8055555555555556,33,0.47222222222222215,0.0,0.0
+hassex,female,has_surname,surname,59,0.6767676767676768,31,0.5396825396825397,0.0,0.0
+hassex,female,has_surname,hemings,59,0.6767676767676768,31,0.5396825396825397,0.0,0.0
+hassex,female,has_first_name,first_name,50,0.6507936507936508,38,0.6,0.0,0.0
+hassex,female,has_first_name,mary,50,0.6507936507936508,40,0.611111111111111,0.0,0.0
+hassex,female,relationship record,module:,24,0.44152046783625726,46,0.6428571428571429,0.0,0.0
+hassex,female,has_interagent_relationship_type,relationship_type,26,0.5972222222222222,26,0.4477124183006536,0.0,0.0
+hassex,female,has_interagent_relationship_type,household servant,26,0.5972222222222222,26,0.5588235294117647,0.0,0.0
+hassex,female,is_relationship_to,agent,17,0.46296296296296297,36,0.45555555555555555,0.0,0.0
+hassex,female,is_relationship_to,thomas jefferson,17,0.46296296296296297,27,0.5555555555555555,0.0,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_sex,sex_type,92,0.9666666666666667,29,0.5277777777777778,0.0,0.0
+hassex,female,has_sex,female,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_occupation,occupation,30,0.5714285714285715,12,0.4222222222222222,0.0,0.0
+hassex,female,has_occupation,household servant,30,0.5714285714285715,26,0.5588235294117647,0.0,0.0
+hassex,female,has_occupation,seamstress,30,0.5714285714285715,38,0.6055555555555555,0.0,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_age,age,62,0.8222222222222222,44,0.5,0.0,0.0
+hassex,female,has_age,unknown,62,0.8222222222222222,0,0.0,0.0,0.0
+hassex,female,has_birthdate,date_of_birth,42,0.576923076923077,21,0.32905982905982906,0.0,0.0
+hassex,female,has_birthdate,unknown,42,0.576923076923077,0,0.0,0.0,0.0
+hassex,female,has_deathdate,date_of_death,42,0.6581196581196581,32,0.46581196581196577,0.0,0.0
+hassex,female,has_deathdate,unknown,42,0.6581196581196581,0,0.0,0.0,0.0
+hassex,female,status record,module:,32,0.5747863247863249,46,0.6428571428571429,0.0,0.0
+hassex,female,has_person_status,person_status,35,0.642483660130719,21,0.41452991452991456,0.0,0.0
+hassex,female,has_person_status,enslaved person,35,0.642483660130719,29,0.5611111111111111,0.0,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_race_or_color,race_or_color,35,0.6339869281045751,21,0.32905982905982906,0.0,0.0
+hassex,female,has_race_or_color,african-american,35,0.6339869281045751,27,0.5555555555555555,0.0,0.0
+hassex,female,is not,"a predefined relationship type, so we can use a generic term like 'household servant' or 'domestic servant' to describe her relationship with thomas jefferson.",17,0.4444444444444444,7,0.5681341719077567,0.0,0.0
+hassex,female,birth and death dates of mary hemings are not mentioned in the,"text, so we can't populate those relations. also, the relationship type 'household servant' is not a predefined relationship type, so we can use a generic term like 'household servant' or 'domestic servant' to describe her relationship with thomas jefferson.",15,0.49372759856630827,5,0.5509043927648579,0.0,0.0
+hasage,age 24,on the,"text, we can populate the ontology with the following relations:",33,0.4444444444444444,11,0.40972222222222215,0.0,0.0
+hasage,age 24,record,module:,17,0.0,15,0.0,0.0,0.0
+hasage,age 24,has_name,name,71,0.8736111111111112,40,0.611111111111111,0.0,0.0
+hasage,age 24,has_name,mary hemings,71,0.8736111111111112,22,0.47222222222222215,0.0,0.0
+hasage,age 24,has_surname,surname,59,0.5909090909090909,31,0.0,0.0,0.0
+hasage,age 24,has_surname,hemings,59,0.5909090909090909,15,0.4365079365079365,0.0,0.0
+hasage,age 24,has_first_name,first_name,50,0.5714285714285715,25,0.0,0.0,0.0
+hasage,age 24,has_first_name,mary,50,0.5714285714285715,20,0.47222222222222215,0.0,0.0
+hasage,age 24,relationship record,module:,24,0.44152046783625726,15,0.0,0.0,0.0
+hasage,age 24,has_interagent_relationship_type,relationship_type,32,0.6736111111111112,17,0.31699346405228757,0.0,0.0
+hasage,age 24,has_interagent_relationship_type,household servant,32,0.6736111111111112,17,0.48366013071895425,0.0,0.0
+hasage,age 24,is_relationship_to,agent,17,0.4444444444444444,55,0.79,0.0,0.0
+hasage,age 24,is_relationship_to,thomas jefferson,17,0.4444444444444444,18,0.45138888888888884,0.0,0.0
+hasage,age 24,record,module:,17,0.0,15,0.0,0.0,0.0
+hasage,age 24,has_sex,sex_type,62,0.8222222222222222,14,0.4305555555555555,0.0,0.0
+hasage,age 24,has_sex,female,62,0.8222222222222222,33,0.4444444444444444,0.0,0.0
+hasage,age 24,record,module:,17,0.0,15,0.0,0.0,0.0
+hasage,age 24,has_occupation,occupation,40,0.6507936507936508,12,0.0,0.0,0.0
+hasage,age 24,has_occupation,household servant,40,0.6507936507936508,17,0.48366013071895425,0.0,0.0
+hasage,age 24,has_occupation,seamstress,40,0.6507936507936508,25,0.3444444444444444,0.0,0.0
+hasage,age 24,record,module:,17,0.0,15,0.0,0.0,0.0
+hasage,age 24,has_age,age,92,0.9666666666666667,67,0.8833333333333334,0.0,0.5797386715376658
+hasage,age 24,has_age,unknown,92,0.9666666666666667,0,0.0,0.0,0.0
+hasage,age 24,has_birthdate,date_of_birth,53,0.576923076923077,21,0.49572649572649574,0.0,0.0
+hasage,age 24,has_birthdate,unknown,53,0.576923076923077,0,0.0,0.0,0.0
+hasage,age 24,has_deathdate,date_of_death,53,0.6726495726495726,21,0.49572649572649574,0.0,0.0
+hasage,age 24,has_deathdate,unknown,53,0.6726495726495726,0,0.0,0.0,0.0
+hasage,age 24,status record,module:,32,0.46581196581196577,15,0.0,0.0,0.0
+hasage,age 24,has_person_status,person_status,35,0.6339869281045751,11,0.41452991452991456,0.0,0.0
+hasage,age 24,has_person_status,enslaved person,35,0.6339869281045751,29,0.45555555555555555,0.0,0.0
+hasage,age 24,record,module:,17,0.0,15,0.0,0.0,0.0
+hasage,age 24,has_race_or_color,race_or_color,43,0.79640522875817,21,0.49572649572649574,0.0,0.0
+hasage,age 24,has_race_or_color,african-american,43,0.79640522875817,18,0.40972222222222227,0.0,0.0
+hasage,age 24,is not,"a predefined relationship type, so we can use a generic term like 'household servant' or 'domestic servant' to describe her relationship with thomas jefferson.",17,0.4444444444444444,5,0.48060796645702303,0.0,0.0
+hasage,age 24,birth and death dates of mary hemings are not mentioned in the,"text, so we can't populate those relations. also, the relationship type 'household servant' is not a predefined relationship type, so we can use a generic term like 'household servant' or 'domestic servant' to describe her relationship with thomas jefferson.",18,0.571326164874552,3,0.3927648578811369,0.0,0.0
+hasparticipantrole,registered person,on the,"text, we can populate the ontology with the following relations:",25,0.3148148148148148,22,0.44816176470588237,0.0,0.0
+hasparticipantrole,registered person,record,module:,25,0.48148148148148145,17,0.3011204481792717,0.0,0.0
+hasparticipantrole,registered person,has_name,name,38,0.5675925925925926,10,0.4362745098039216,0.0,0.0
+hasparticipantrole,registered person,has_name,mary hemings,38,0.5675925925925926,28,0.5065359477124183,0.0,0.0
+hasparticipantrole,registered person,has_surname,surname,41,0.6274651274651274,25,0.4239028944911298,0.0,0.0
+hasparticipantrole,registered person,has_surname,hemings,41,0.6274651274651274,25,0.5189075630252101,0.0,0.0
+hasparticipantrole,registered person,has_first_name,first_name,44,0.6772486772486772,30,0.5313725490196078,0.0,0.0
+hasparticipantrole,registered person,has_first_name,mary,44,0.6772486772486772,10,0.4362745098039216,0.0,0.0
+hasparticipantrole,registered person,relationship record,module:,38,0.5994152046783626,17,0.3011204481792717,0.0,0.0
+hasparticipantrole,registered person,has_interagent_relationship_type,relationship_type,44,0.65625,41,0.5602240896358542,0.0,0.0
+hasparticipantrole,registered person,has_interagent_relationship_type,household servant,44,0.65625,41,0.5220588235294118,0.0,0.0
+hasparticipantrole,registered person,is_relationship_to,agent,44,0.6037037037037037,27,0.48104575163398694,0.0,0.0
+hasparticipantrole,registered person,is_relationship_to,thomas jefferson,44,0.6037037037037037,42,0.6232298474945533,0.0,0.0
+hasparticipantrole,registered person,record,module:,25,0.48148148148148145,17,0.3011204481792717,0.0,0.0
+hasparticipantrole,registered person,has_sex,sex_type,32,0.5317460317460317,32,0.5063725490196078,0.0,0.0
+hasparticipantrole,registered person,has_sex,female,32,0.5317460317460317,17,0.48366013071895425,0.0,0.0
+hasparticipantrole,registered person,record,module:,25,0.48148148148148145,17,0.3011204481792717,0.0,0.0
+hasparticipantrole,registered person,has_occupation,occupation,50,0.6566137566137565,22,0.5313725490196078,0.0,0.0
+hasparticipantrole,registered person,has_occupation,household servant,50,0.6566137566137565,41,0.5220588235294118,0.0,0.0
+hasparticipantrole,registered person,has_occupation,seamstress,50,0.6566137566137565,44,0.5954248366013072,0.0,0.0
+hasparticipantrole,registered person,record,module:,25,0.48148148148148145,17,0.3011204481792717,0.0,0.0
+hasparticipantrole,registered person,has_age,age,40,0.5978835978835978,20,0.42810457516339867,0.0,0.0
+hasparticipantrole,registered person,has_age,unknown,40,0.5978835978835978,17,0.0,0.0,0.0
+hasparticipantrole,registered person,has_birthdate,date_of_birth,52,0.6937321937321936,20,0.4309954751131222,0.0,0.0
+hasparticipantrole,registered person,has_birthdate,unknown,52,0.6937321937321936,17,0.0,0.0,0.0
+hasparticipantrole,registered person,has_deathdate,date_of_death,52,0.6866096866096866,27,0.3476621417797889,0.0,0.0
+hasparticipantrole,registered person,has_deathdate,unknown,52,0.6866096866096866,17,0.0,0.0,0.0
+hasparticipantrole,registered person,status record,module:,39,0.4995929995929996,17,0.3011204481792717,0.0,0.0
+hasparticipantrole,registered person,has_person_status,person_status,46,0.6479302832244008,40,0.4262443438914027,0.0,0.0
+hasparticipantrole,registered person,has_person_status,enslaved person,46,0.6479302832244008,69,0.7328579916815211,0.0,0.33609692727625756
+hasparticipantrole,registered person,record,module:,25,0.48148148148148145,17,0.3011204481792717,0.0,0.0
+hasparticipantrole,registered person,has_race_or_color,race_or_color,46,0.60239651416122,27,0.4929110105580694,0.0,0.0
+hasparticipantrole,registered person,has_race_or_color,african-american,46,0.60239651416122,30,0.5355392156862745,0.0,0.0
+hasparticipantrole,registered person,is not,"a predefined relationship type, so we can use a generic term like 'household servant' or 'domestic servant' to describe her relationship with thomas jefferson.",25,0.4444444444444444,18,0.5650511777037859,0.0,0.0
+hasparticipantrole,registered person,birth and death dates of mary hemings are not mentioned in the,"text, so we can't populate those relations. also, the relationship type 'household servant' is not a predefined relationship type, so we can use a generic term like 'household servant' or 'domestic servant' to describe her relationship with thomas jefferson.",28,0.5011947431302269,12,0.5427306581547348,0.0,0.0
+haspersonstatus,free person,on the,"text, we can populate the ontology with the following relations:",29,0.48888888888888893,21,0.48667478354978355,0.0,0.0
+haspersonstatus,free person,record,module:,19,0.45555555555555555,11,0.41125541125541126,0.0,0.0
+haspersonstatus,free person,has_name,name,43,0.6611111111111111,13,0.44696969696969696,0.0,0.0
+haspersonstatus,free person,has_name,mary hemings,43,0.6611111111111111,35,0.4904040404040404,0.0,0.0
+haspersonstatus,free person,has_surname,surname,46,0.6702020202020202,22,0.48917748917748916,0.0,0.0
+haspersonstatus,free person,has_surname,hemings,46,0.6702020202020202,22,0.48917748917748916,0.0,0.0
+haspersonstatus,free person,has_first_name,first_name,48,0.6599206349206349,38,0.5045454545454545,0.0,0.0
+haspersonstatus,free person,has_first_name,mary,48,0.6599206349206349,13,0.44696969696969696,0.0,0.0
+haspersonstatus,free person,relationship record,module:,29,0.48479532163742683,11,0.41125541125541126,0.0,0.0
+haspersonstatus,free person,has_interagent_relationship_type,relationship_type,43,0.6014520202020203,29,0.5216874628639334,0.0,0.0
+haspersonstatus,free person,has_interagent_relationship_type,household servant,43,0.6014520202020203,36,0.5398523045581869,0.0,0.0
+haspersonstatus,free person,is_relationship_to,agent,36,0.6259259259259259,25,0.43030303030303035,0.0,0.0
+haspersonstatus,free person,is_relationship_to,thomas jefferson,36,0.6259259259259259,44,0.5484307359307359,0.0,0.0
+haspersonstatus,free person,record,module:,19,0.45555555555555555,11,0.41125541125541126,0.0,0.0
+haspersonstatus,free person,has_sex,sex_type,36,0.6158730158730159,32,0.43813131313131315,0.0,0.0
+haspersonstatus,free person,has_sex,female,36,0.6158730158730159,35,0.5909090909090909,0.0,0.0
+haspersonstatus,free person,record,module:,19,0.45555555555555555,11,0.41125541125541126,0.0,0.0
+haspersonstatus,free person,has_occupation,occupation,41,0.6365079365079365,29,0.5242424242424243,0.0,0.0
+haspersonstatus,free person,has_occupation,household servant,41,0.6365079365079365,36,0.5398523045581869,0.0,0.0
+haspersonstatus,free person,has_occupation,seamstress,41,0.6365079365079365,29,0.5045454545454545,0.0,0.0
+haspersonstatus,free person,record,module:,19,0.45555555555555555,11,0.41125541125541126,0.0,0.0
+haspersonstatus,free person,has_age,age,36,0.6126984126984126,14,0.47474747474747475,0.0,0.0
+haspersonstatus,free person,has_age,unknown,36,0.6126984126984126,22,0.41125541125541126,0.0,0.0
+haspersonstatus,free person,has_birthdate,date_of_birth,50,0.6683760683760683,17,0.3900543900543901,0.0,0.0
+haspersonstatus,free person,has_birthdate,unknown,50,0.6683760683760683,22,0.41125541125541126,0.0,0.0
+haspersonstatus,free person,has_deathdate,date_of_death,50,0.6207570207570208,17,0.3900543900543901,0.0,0.0
+haspersonstatus,free person,has_deathdate,unknown,50,0.6207570207570208,22,0.41125541125541126,0.0,0.0
+haspersonstatus,free person,status record,module:,43,0.5094017094017094,11,0.41125541125541126,0.0,0.0
+haspersonstatus,free person,has_person_status,person_status,94,0.9725490196078431,50,0.6134421134421135,0.0,0.0
+haspersonstatus,free person,has_person_status,enslaved person,94,0.9725490196078431,69,0.694949494949495,0.0,0.33609692727625756
+haspersonstatus,free person,record,module:,19,0.45555555555555555,11,0.41125541125541126,0.0,0.0
+haspersonstatus,free person,has_race_or_color,race_or_color,38,0.530905695611578,33,0.47377622377622375,0.0,0.0
+haspersonstatus,free person,has_race_or_color,african-american,38,0.530905695611578,37,0.5223484848484848,0.0,0.0
+haspersonstatus,free person,is not,"a predefined relationship type, so we can use a generic term like 'household servant' or 'domestic servant' to describe her relationship with thomas jefferson.",29,0.5611111111111111,13,0.5685153421002478,0.0,0.0
+haspersonstatus,free person,birth and death dates of mary hemings are not mentioned in the,"text, so we can't populate those relations. also, the relationship type 'household servant' is not a predefined relationship type, so we can use a generic term like 'household servant' or 'domestic servant' to describe her relationship with thomas jefferson.",23,0.4854024112088628,8,0.5293634014564247,0.0,0.0

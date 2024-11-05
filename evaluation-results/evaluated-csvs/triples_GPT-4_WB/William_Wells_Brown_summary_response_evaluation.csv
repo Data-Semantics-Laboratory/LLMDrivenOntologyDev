@@ -1,0 +1,781 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,william wells brown,32,0.537878787878788,32,0.4064327485380117,0.0,0.0
+instance of,person,wells,"brown, ""william wells brown"")",12,0.43030303030303035,23,0.5344827586206896,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,brown,27,0.49242424242424243,55,0.7000000000000001,0.0,0.0
+instance of,person,wells,"brown, ""brown"")",12,0.43030303030303035,29,0.5666666666666667,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,william,40,0.5692640692640693,0,0.0,0.0,0.0
+instance of,person,wells,"brown, ""william"").",12,0.43030303030303035,25,0.5555555555555555,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,relationship_type,30,0.5269480519480519,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,enslaved person,30,0.5269480519480519,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,wells,"brown, ""enslaved person"")",12,0.43030303030303035,39,0.5444444444444444,0.0,0.4494364165239821
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,elizabeth,34,0.5798460798460798,13,0.4259259259259259,0.0,0.0
+instance of,person,is_relationship_to,george w. higgins,34,0.5798460798460798,26,0.4477124183006536,0.0,0.0
+instance of,person,wells,"brown, ""elizabeth""), is_relationship_to(william wells brown, ""george w. higgins"").",12,0.43030303030303035,11,0.524390243902439,0.0,0.0
+instance of,person,role record,module:,27,0.49242424242424243,15,0.0,0.0,0.0
+instance of,person,has_participant_role,participant_role_type,32,0.5668831168831169,22,0.5357142857142857,0.0,0.0
+instance of,person,has_participant_role,abolitionist,32,0.5668831168831169,22,0.5,0.0,0.0
+instance of,person,has_participant_role,participant in the national convention of colored citizens,32,0.5668831168831169,12,0.5065134099616858,0.0,0.0
+instance of,person,wells,"brown, ""abolitionist""), has_participant_role(william wells brown, ""participant in the national convention of colored citizens"").",12,0.43030303030303035,7,0.5711805555555555,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,male,22,0.45598845598845594,20,0.47222222222222215,0.0,0.0
+instance of,person,wells,"brown, ""male"").",12,0.43030303030303035,29,0.5666666666666667,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,slave,24,0.38311688311688313,18,0.0,0.0,0.0
+instance of,person,has_occupation,abolitionist,24,0.38311688311688313,22,0.5,0.0,0.0
+instance of,person,has_occupation,novelist,24,0.38311688311688313,29,0.5138888888888888,0.0,0.0
+instance of,person,has_occupation,playwright,24,0.38311688311688313,25,0.5111111111111111,0.0,0.0
+instance of,person,has_occupation,historian,24,0.38311688311688313,40,0.6203703703703703,0.0,0.0
+instance of,person,has_occupation,orator,24,0.38311688311688313,33,0.5555555555555555,0.0,0.0
+instance of,person,wells,"brown, ""slave, abolitionist, novelist, playwright, historian, orator"").",12,0.43030303030303035,13,0.5012519561815337,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_age,unknown,33,0.45598845598845594,31,0.373015873015873,0.0,0.0
+instance of,person,wells,"brown, ""unknown"")",12,0.43030303030303035,26,0.5588235294117647,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_birthdate,1814,33,0.5463869463869464,0,0.0,0.0,0.0
+instance of,person,wells,"brown, ""1814"")",12,0.43030303030303035,30,0.5714285714285715,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,unknown,33,0.39044289044289043,31,0.373015873015873,0.0,0.0
+instance of,person,wells,"brown, ""unknown"").",12,0.43030303030303035,25,0.5555555555555555,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,african-american,36,0.5162210338680927,27,0.4861111111111111,0.0,0.0
+instance of,person,wells,"brown, ""african-american"").",12,0.43030303030303035,18,0.5370370370370371,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,enslaved person,29,0.449554367201426,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,has_person_status,fugitive,29,0.449554367201426,14,0.0,0.0,0.0
+instance of,person,has_person_status,free man,29,0.449554367201426,29,0.5138888888888888,0.0,0.0
+instance of,person,wells,"brown, ""enslaved person, fugitive, free man"")",12,0.43030303030303035,24,0.5444444444444444,0.0,0.3032160644503863
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,born into slavery,26,0.4799102132435466,17,0.46732026143790845,0.0,0.0
+instance of,person,has_status_generating_event,1850 fugitive slave law in the us,26,0.4799102132435466,15,0.4646464646464647,0.0,0.0
+instance of,person,has_status_generating_event,freedom purchased in 1854 by a british couple,26,0.4799102132435466,20,0.6,0.0,0.0
+instance of,person,into,"slavery""), has_status_generating_event(fugitive, ""1850 fugitive slave law in the us""), has_status_generating_event(free man, ""freedom purchased in 1854 by a british couple"").",53,0.6742424242424242,6,0.47988505747126436,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_name,name,57,0.8055555555555556,50,0.6666666666666666,0.0,0.0
+hassex,male,has_name,william wells brown,57,0.8055555555555556,17,0.6535087719298246,0.0,0.0
+hassex,male,wells,"brown, ""william wells brown"")",18,0.45555555555555555,12,0.35632183908045983,0.0,0.0
+hassex,male,has_surname,surname,59,0.6767676767676768,36,0.0,0.0,0.0
+hassex,male,has_surname,brown,59,0.6767676767676768,0,0.0,0.0,0.0
+hassex,male,wells,"brown, ""brown"")",18,0.45555555555555555,0,0.0,0.0,0.0
+hassex,male,has_first_name,first_name,50,0.6507936507936508,29,0.0,0.0,0.0
+hassex,male,has_first_name,william,50,0.6507936507936508,18,0.46428571428571425,0.0,0.0
+hassex,male,wells,"brown, ""william"").",18,0.45555555555555555,9,0.4351851851851852,0.0,0.0
+hassex,male,relationship record,module:,24,0.44152046783625726,55,0.7535714285714287,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,relationship_type,24,0.5936507936507937,19,0.5310457516339869,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,enslaved person,24,0.5936507936507937,21,0.5388888888888889,0.0,0.0
+hassex,male,wells,"brown, ""enslaved person"")",18,0.45555555555555555,14,0.5122222222222222,0.0,0.0
+hassex,male,is_relationship_to,agent,17,0.46296296296296297,44,0.6333333333333333,0.0,0.0
+hassex,male,is_relationship_to,elizabeth,17,0.46296296296296297,31,0.5833333333333334,0.0,0.0
+hassex,male,is_relationship_to,george w. higgins,17,0.46296296296296297,10,0.4362745098039216,0.0,0.0
+hassex,male,wells,"brown, ""elizabeth""), is_relationship_to(william wells brown, ""george w. higgins"").",18,0.45555555555555555,7,0.4844173441734417,0.0,0.0
+hassex,male,role record,module:,12,0.41919191919191917,55,0.7535714285714287,0.0,0.0
+hassex,male,has_participant_role,participant_role_type,31,0.5499999999999999,24,0.43253968253968256,0.0,0.0
+hassex,male,has_participant_role,abolitionist,31,0.5499999999999999,25,0.5555555555555555,0.0,0.0
+hassex,male,has_participant_role,participant in the national convention of colored citizens,31,0.5499999999999999,10,0.48946360153256707,0.0,0.0
+hassex,male,wells,"brown, ""abolitionist""), has_participant_role(william wells brown, ""participant in the national convention of colored citizens"").",18,0.45555555555555555,6,0.5104166666666666,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_sex,sex_type,92,0.9666666666666667,17,0.4583333333333333,0.0,0.0
+hassex,male,has_sex,male,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,male,wells,"brown, ""male"").",18,0.45555555555555555,42,0.0,0.0,0.5797386715376658
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_occupation,occupation,30,0.5714285714285715,14,0.45,0.0,0.0
+hassex,male,has_occupation,slave,30,0.5714285714285715,44,0.6722222222222222,0.0,0.0
+hassex,male,has_occupation,abolitionist,30,0.5714285714285715,25,0.5555555555555555,0.0,0.0
+hassex,male,has_occupation,novelist,30,0.5714285714285715,17,0.4166666666666667,0.0,0.0
+hassex,male,has_occupation,playwright,30,0.5714285714285715,14,0.39999999999999997,0.0,0.0
+hassex,male,has_occupation,historian,30,0.5714285714285715,15,0.0,0.0,0.0
+hassex,male,has_occupation,orator,30,0.5714285714285715,20,0.47222222222222215,0.0,0.0
+hassex,male,wells,"brown, ""slave, abolitionist, novelist, playwright, historian, orator"").",18,0.45555555555555555,8,0.48630672926447566,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_age,age,62,0.8222222222222222,57,0.7222222222222222,0.0,0.0
+hassex,male,has_age,unknown,62,0.8222222222222222,0,0.0,0.0,0.0
+hassex,male,wells,"brown, ""unknown"")",18,0.45555555555555555,0,0.0,0.0,0.0
+hassex,male,has_birthdate,date_of_birth,42,0.576923076923077,24,0.5512820512820512,0.0,0.0
+hassex,male,has_birthdate,1814,42,0.576923076923077,0,0.0,0.0,0.0
+hassex,male,wells,"brown, ""1814"")",18,0.45555555555555555,0,0.0,0.0,0.0
+hassex,male,has_deathdate,date_of_death,42,0.6581196581196581,24,0.5512820512820512,0.0,0.0
+hassex,male,has_deathdate,unknown,42,0.6581196581196581,0,0.0,0.0,0.0
+hassex,male,wells,"brown, ""unknown"").",18,0.45555555555555555,0,0.0,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_race_or_color,race_or_color,35,0.6339869281045751,24,0.5512820512820512,0.0,0.0
+hassex,male,has_race_or_color,african-american,35,0.6339869281045751,20,0.5416666666666666,0.0,0.0
+hassex,male,wells,"brown, ""african-american"").",18,0.45555555555555555,13,0.4290123456790123,0.0,0.0
+hassex,male,status record,module:,32,0.5747863247863249,55,0.7535714285714287,0.0,0.0
+hassex,male,has_person_status,enslaved person,35,0.642483660130719,21,0.5388888888888889,0.0,0.0
+hassex,male,has_person_status,fugitive,35,0.642483660130719,17,0.0,0.0,0.0
+hassex,male,has_person_status,free man,35,0.642483660130719,33,0.4583333333333333,0.0,0.0
+hassex,male,wells,"brown, ""enslaved person, fugitive, free man"")",18,0.45555555555555555,8,0.49444444444444446,0.0,0.0
+hassex,male,has_status_generating_event,event,30,0.6728395061728395,22,0.48333333333333334,0.0,0.0
+hassex,male,has_status_generating_event,born into slavery,30,0.6728395061728395,19,0.0,0.0,0.0
+hassex,male,has_status_generating_event,1850 fugitive slave law in the us,30,0.6728395061728395,16,0.5025252525252525,0.0,0.0
+hassex,male,has_status_generating_event,freedom purchased in 1854 by a british couple,30,0.6728395061728395,16,0.49444444444444446,0.0,0.0
+hassex,male,into,"slavery""), has_status_generating_event(fugitive, ""1850 fugitive slave law in the us""), has_status_generating_event(free man, ""freedom purchased in 1854 by a british couple"").",0,0.0,4,0.4779693486590038,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,william wells brown,38,0.5675925925925926,17,0.5017543859649123,0.0,0.0
+hasparticipantrole,child,wells,"brown, ""william wells brown"")",9,0.4185185185185185,12,0.48965517241379314,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,brown,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,wells,"brown, ""brown"")",9,0.4185185185185185,0,0.0,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,william,44,0.6772486772486772,33,0.5619047619047619,0.0,0.0
+hasparticipantrole,child,wells,"brown, ""william"").",9,0.4185185185185185,17,0.5037037037037037,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,enslaved person,42,0.6570105820105819,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,child,wells,"brown, ""enslaved person"")",9,0.4185185185185185,13,0.49333333333333335,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,elizabeth,44,0.6037037037037037,14,0.37407407407407406,0.0,0.0
+hasparticipantrole,child,is_relationship_to,george w. higgins,44,0.6037037037037037,18,0.0,0.0,0.0
+hasparticipantrole,child,wells,"brown, ""elizabeth""), is_relationship_to(william wells brown, ""george w. higgins"").",9,0.4185185185185185,7,0.43441734417344174,0.0,0.0
+hasparticipantrole,child,role record,module:,28,0.4452861952861953,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant_role_type,95,0.9766666666666667,23,0.33174603174603173,0.0,0.0
+hasparticipantrole,child,has_participant_role,abolitionist,95,0.9766666666666667,12,0.35555555555555557,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant in the national convention of colored citizens,95,0.9766666666666667,16,0.5396551724137931,0.0,0.0
+hasparticipantrole,child,wells,"brown, ""abolitionist""), has_participant_role(william wells brown, ""participant in the national convention of colored citizens"").",9,0.4185185185185185,8,0.44375000000000003,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,male,32,0.5317460317460317,22,0.48333333333333334,0.0,0.0
+hasparticipantrole,child,wells,"brown, ""male"").",9,0.4185185185185185,10,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,slave,50,0.6566137566137565,20,0.0,0.0,0.0
+hasparticipantrole,child,has_occupation,abolitionist,50,0.6566137566137565,12,0.35555555555555557,0.0,0.0
+hasparticipantrole,child,has_occupation,novelist,50,0.6566137566137565,15,0.3833333333333333,0.0,0.0
+hasparticipantrole,child,has_occupation,playwright,50,0.6566137566137565,13,0.3666666666666667,0.0,0.0
+hasparticipantrole,child,has_occupation,historian,50,0.6566137566137565,29,0.5407407407407407,0.0,0.0
+hasparticipantrole,child,has_occupation,orator,50,0.6566137566137565,0,0.0,0.0,0.0
+hasparticipantrole,child,wells,"brown, ""slave, abolitionist, novelist, playwright, historian, orator"").",9,0.4185185185185185,5,0.30938967136150236,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_age,age,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_age,unknown,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,wells,"brown, ""unknown"")",9,0.4185185185185185,0,0.0,0.0,0.0
+hasparticipantrole,child,has_birthdate,date_of_birth,52,0.6937321937321936,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_birthdate,1814,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,child,wells,"brown, ""1814"")",9,0.4185185185185185,0,0.0,0.0,0.0
+hasparticipantrole,child,has_deathdate,date_of_death,52,0.6866096866096866,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_deathdate,unknown,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,child,wells,"brown, ""unknown"").",9,0.4185185185185185,0,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_race_or_color,race_or_color,46,0.60239651416122,22,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_race_or_color,african-american,46,0.60239651416122,19,0.3416666666666666,0.0,0.0
+hasparticipantrole,child,wells,"brown, ""african-american"").",9,0.4185185185185185,12,0.32469135802469135,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,enslaved person,46,0.6479302832244008,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,child,has_person_status,fugitive,46,0.6479302832244008,15,0.44166666666666665,0.0,0.0
+hasparticipantrole,child,has_person_status,free man,46,0.6479302832244008,0,0.0,0.0,0.0
+hasparticipantrole,child,wells,"brown, ""enslaved person, fugitive, free man"")",9,0.4185185185185185,8,0.48148148148148145,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,born into slavery,40,0.5819304152637487,18,0.4196078431372549,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,1850 fugitive slave law in the us,40,0.5819304152637487,11,0.4868686868686869,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,freedom purchased in 1854 by a british couple,40,0.5819304152637487,16,0.46296296296296297,0.0,0.0
+hasparticipantrole,child,into,"slavery""), has_status_generating_event(fugitive, ""1850 fugitive slave law in the us""), has_status_generating_event(free man, ""freedom purchased in 1854 by a british couple"").",36,0.3703703703703704,4,0.42796934865900377,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,william wells brown,38,0.5675925925925926,35,0.5164578111946533,0.0,0.0
+hasparticipantrole,deceased person,wells,"brown, ""william wells brown"")",9,0.4185185185185185,27,0.4264915161466886,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,brown,41,0.6274651274651274,30,0.0,0.0,0.0
+hasparticipantrole,deceased person,wells,"brown, ""brown"")",9,0.4185185185185185,27,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,william,44,0.6772486772486772,9,0.40317460317460313,0.0,0.0
+hasparticipantrole,deceased person,wells,"brown, ""william"").",9,0.4185185185185185,18,0.37407407407407406,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,enslaved person,42,0.6570105820105819,73,0.7833333333333333,0.0,0.33609692727625756
+hasparticipantrole,deceased person,wells,"brown, ""enslaved person"")",9,0.4185185185185185,55,0.6211111111111111,0.0,0.26055567105626243
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,elizabeth,44,0.6037037037037037,25,0.39999999999999997,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,george w. higgins,44,0.6037037037037037,25,0.4758169934640523,0.0,0.0
+hasparticipantrole,deceased person,wells,"brown, ""elizabeth""), is_relationship_to(william wells brown, ""george w. higgins"").",9,0.4185185185185185,19,0.5098915989159892,0.0,0.0
+hasparticipantrole,deceased person,role record,module:,28,0.4452861952861953,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant_role_type,95,0.9766666666666667,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,abolitionist,95,0.9766666666666667,22,0.45,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant in the national convention of colored citizens,95,0.9766666666666667,22,0.4369093231162197,0.0,0.0
+hasparticipantrole,deceased person,wells,"brown, ""abolitionist""), has_participant_role(william wells brown, ""participant in the national convention of colored citizens"").",9,0.4185185185185185,13,0.4549084595959596,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,male,32,0.5317460317460317,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,wells,"brown, ""male"").",9,0.4185185185185185,20,0.35555555555555557,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,slave,50,0.6566137566137565,20,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,abolitionist,50,0.6566137566137565,22,0.45,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,novelist,50,0.6566137566137565,17,0.4611111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,playwright,50,0.6566137566137565,16,0.4444444444444445,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,historian,50,0.6566137566137565,25,0.487037037037037,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,orator,50,0.6566137566137565,19,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,wells,"brown, ""slave, abolitionist, novelist, playwright, historian, orator"").",9,0.4185185185185185,23,0.46917057902973397,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_age,age,40,0.5978835978835978,22,0.4333333333333333,0.0,0.0
+hasparticipantrole,deceased person,has_age,unknown,40,0.5978835978835978,18,0.0,0.0,0.0
+hasparticipantrole,deceased person,wells,"brown, ""unknown"")",9,0.4185185185185185,19,0.3477124183006535,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,date_of_birth,52,0.6937321937321936,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,1814,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,wells,"brown, ""1814"")",9,0.4185185185185185,21,0.37936507936507935,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,date_of_death,52,0.6866096866096866,36,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,unknown,52,0.6866096866096866,18,0.0,0.0,0.0
+hasparticipantrole,deceased person,wells,"brown, ""unknown"").",9,0.4185185185185185,18,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,race_or_color,46,0.60239651416122,29,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,african-american,46,0.60239651416122,32,0.48194444444444445,0.0,0.0
+hasparticipantrole,deceased person,wells,"brown, ""african-american"").",9,0.4185185185185185,24,0.43245149911816577,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,enslaved person,46,0.6479302832244008,73,0.7833333333333333,0.0,0.33609692727625756
+hasparticipantrole,deceased person,has_person_status,fugitive,46,0.6479302832244008,9,0.3972222222222222,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,free man,46,0.6479302832244008,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,wells,"brown, ""enslaved person, fugitive, free man"")",9,0.4185185185185185,37,0.5222222222222223,0.0,0.1757860783933462
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,born into slavery,40,0.5819304152637487,19,0.40915032679738567,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,1850 fugitive slave law in the us,40,0.5819304152637487,25,0.4161616161616162,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,freedom purchased in 1854 by a british couple,40,0.5819304152637487,33,0.5903133903133903,0.0,0.0
+hasparticipantrole,deceased person,into,"slavery""), has_status_generating_event(fugitive, ""1850 fugitive slave law in the us""), has_status_generating_event(free man, ""freedom purchased in 1854 by a british couple"").",36,0.3703703703703704,13,0.4413793103448276,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,william wells brown,25,0.5555555555555555,25,0.5859649122807017,0.0,0.0
+hasdescriptiveoccupation,slave,wells,"brown, ""william wells brown"")",14,0.3277777777777778,18,0.567816091954023,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,surname,34,0.5474386724386724,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,brown,34,0.5474386724386724,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,wells,"brown, ""brown"")",14,0.3277777777777778,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,first_name,32,0.5615079365079364,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,william,32,0.5615079365079364,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,wells,"brown, ""william"").",14,0.3277777777777778,17,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,relationship record,module:,33,0.6137539361223572,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,27,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,enslaved person,41,0.6037698412698412,50,0.6444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,wells,"brown, ""enslaved person"")",14,0.3277777777777778,33,0.6,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,agent,38,0.6264245014245015,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,elizabeth,38,0.6264245014245015,43,0.6444444444444445,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,george w. higgins,38,0.6264245014245015,9,0.4196078431372549,0.0,0.0
+hasdescriptiveoccupation,slave,wells,"brown, ""elizabeth""), is_relationship_to(william wells brown, ""george w. higgins"").",14,0.3277777777777778,9,0.5329268292682927,0.0,0.0
+hasdescriptiveoccupation,slave,role record,module:,29,0.4873737373737373,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,participant_role_type,50,0.6805555555555555,15,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,abolitionist,50,0.6805555555555555,12,0.35555555555555557,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,participant in the national convention of colored citizens,50,0.6805555555555555,10,0.45632183908045976,0.0,0.0
+hasdescriptiveoccupation,slave,wells,"brown, ""abolitionist""), has_participant_role(william wells brown, ""participant in the national convention of colored citizens"").",14,0.3277777777777778,8,0.5270833333333333,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,sex_type,32,0.5742063492063493,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,male,32,0.5742063492063493,44,0.6722222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,wells,"brown, ""male"").",14,0.3277777777777778,20,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,slave,68,0.8045940170940171,100,1.0,0.0,1.0
+hasdescriptiveoccupation,slave,has_occupation,abolitionist,68,0.8045940170940171,12,0.35555555555555557,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,novelist,68,0.8045940170940171,31,0.5472222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,playwright,68,0.8045940170940171,27,0.5333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,historian,68,0.8045940170940171,29,0.43703703703703706,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,orator,68,0.8045940170940171,18,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,wells,"brown, ""slave, abolitionist, novelist, playwright, historian, orator"").",14,0.3277777777777778,13,0.6901408450704225,0.0,0.2789425453258252
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,age,26,0.5793650793650794,50,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,unknown,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,wells,"brown, ""unknown"")",14,0.3277777777777778,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,date_of_birth,38,0.6286324786324786,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,1814,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,wells,"brown, ""1814"")",14,0.3277777777777778,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,date_of_death,43,0.652065527065527,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,unknown,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,wells,"brown, ""unknown"").",14,0.3277777777777778,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,race_or_color,39,0.5977668845315903,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,african-american,39,0.5977668845315903,19,0.5083333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,wells,"brown, ""african-american"").",14,0.3277777777777778,12,0.41234567901234565,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,enslaved person,39,0.6241830065359477,50,0.6444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,fugitive,39,0.6241830065359477,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,free man,39,0.6241830065359477,15,0.44166666666666665,0.0,0.0
+hasdescriptiveoccupation,slave,wells,"brown, ""enslaved person, fugitive, free man"")",14,0.3277777777777778,20,0.5703703703703704,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,event,39,0.5815696649029983,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,born into slavery,39,0.5815696649029983,45,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,1850 fugitive slave law in the us,39,0.5815696649029983,26,0.5838383838383838,0.0,0.2789425453258252
+hasdescriptiveoccupation,slave,has_status_generating_event,freedom purchased in 1854 by a british couple,39,0.5815696649029983,12,0.4444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,into,"slavery""), has_status_generating_event(fugitive, ""1850 fugitive slave law in the us""), has_status_generating_event(free man, ""freedom purchased in 1854 by a british couple"").",21,0.625,6,0.6762452107279694,0.0,0.14088237907600393
+hasdescriptiveoccupation,lecturer,record,module:,27,0.6138888888888889,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_name,name,25,0.5555555555555555,17,0.4583333333333333,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_name,william wells brown,25,0.5555555555555555,22,0.5109649122807017,0.0,0.0
+hasdescriptiveoccupation,lecturer,wells,"brown, ""william wells brown"")",14,0.3277777777777778,16,0.3817049808429118,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_surname,surname,34,0.5474386724386724,40,0.6011904761904762,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_surname,brown,34,0.5474386724386724,15,0.0,0.0,0.0
+hasdescriptiveoccupation,lecturer,wells,"brown, ""brown"")",14,0.3277777777777778,17,0.4611111111111111,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_first_name,first_name,32,0.5615079365079364,22,0.44722222222222224,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_first_name,william,32,0.5615079365079364,13,0.4226190476190476,0.0,0.0
+hasdescriptiveoccupation,lecturer,wells,"brown, ""william"").",14,0.3277777777777778,8,0.39351851851851855,0.0,0.0
+hasdescriptiveoccupation,lecturer,relationship record,module:,33,0.6137539361223572,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,24,0.4950980392156863,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_interagent_relationship_type_to,enslaved person,41,0.6037698412698412,35,0.4222222222222222,0.0,0.0
+hasdescriptiveoccupation,lecturer,wells,"brown, ""enslaved person"")",14,0.3277777777777778,24,0.47000000000000003,0.0,0.0
+hasdescriptiveoccupation,lecturer,is_relationship_to,agent,38,0.6264245014245015,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,lecturer,is_relationship_to,elizabeth,38,0.6264245014245015,35,0.4583333333333333,0.0,0.0
+hasdescriptiveoccupation,lecturer,is_relationship_to,george w. higgins,38,0.6264245014245015,24,0.5171568627450981,0.0,0.0
+hasdescriptiveoccupation,lecturer,wells,"brown, ""elizabeth""), is_relationship_to(william wells brown, ""george w. higgins"").",14,0.3277777777777778,13,0.4966124661246612,0.0,0.0
+hasdescriptiveoccupation,lecturer,role record,module:,29,0.4873737373737373,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_participant_role,participant_role_type,50,0.6805555555555555,28,0.48769841269841274,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_participant_role,abolitionist,50,0.6805555555555555,20,0.47222222222222215,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_participant_role,participant in the national convention of colored citizens,50,0.6805555555555555,15,0.5067049808429118,0.0,0.0
+hasdescriptiveoccupation,lecturer,wells,"brown, ""abolitionist""), has_participant_role(william wells brown, ""participant in the national convention of colored citizens"").",14,0.3277777777777778,9,0.5003720238095238,0.0,0.0
+hasdescriptiveoccupation,lecturer,record,module:,27,0.6138888888888889,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_sex,sex_type,32,0.5742063492063493,38,0.5833333333333334,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_sex,male,32,0.5742063492063493,33,0.5833333333333334,0.0,0.0
+hasdescriptiveoccupation,lecturer,wells,"brown, ""male"").",14,0.3277777777777778,17,0.4611111111111111,0.0,0.0
+hasdescriptiveoccupation,lecturer,record,module:,27,0.6138888888888889,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_occupation,occupation,68,0.8045940170940171,22,0.44722222222222224,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_occupation,slave,68,0.8045940170940171,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_occupation,abolitionist,68,0.8045940170940171,20,0.47222222222222215,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_occupation,novelist,68,0.8045940170940171,25,0.4166666666666667,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_occupation,playwright,68,0.8045940170940171,22,0.48333333333333334,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_occupation,historian,68,0.8045940170940171,24,0.49074074074074076,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_occupation,orator,68,0.8045940170940171,29,0.5277777777777778,0.0,0.0
+hasdescriptiveoccupation,lecturer,wells,"brown, ""slave, abolitionist, novelist, playwright, historian, orator"").",14,0.3277777777777778,13,0.4318075117370892,0.0,0.0
+hasdescriptiveoccupation,lecturer,record,module:,27,0.6138888888888889,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_age,age,26,0.5793650793650794,18,0.4861111111111111,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_age,unknown,26,0.5793650793650794,13,0.0,0.0,0.0
+hasdescriptiveoccupation,lecturer,wells,"brown, ""unknown"")",14,0.3277777777777778,8,0.28921568627450983,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_birthdate,date_of_birth,38,0.6286324786324786,29,0.42414529914529914,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_birthdate,1814,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,lecturer,wells,"brown, ""1814"")",14,0.3277777777777778,9,0.3988095238095238,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_deathdate,date_of_death,43,0.652065527065527,19,0.42414529914529914,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_deathdate,unknown,43,0.652065527065527,13,0.0,0.0,0.0
+hasdescriptiveoccupation,lecturer,wells,"brown, ""unknown"").",14,0.3277777777777778,8,0.28703703703703703,0.0,0.0
+hasdescriptiveoccupation,lecturer,record,module:,27,0.6138888888888889,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_race_or_color,race_or_color,39,0.5977668845315903,29,0.5192307692307693,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_race_or_color,african-american,39,0.5977668845315903,25,0.5,0.0,0.0
+hasdescriptiveoccupation,lecturer,wells,"brown, ""african-american"").",14,0.3277777777777778,17,0.4660493827160494,0.0,0.0
+hasdescriptiveoccupation,lecturer,status record,module:,32,0.540954415954416,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_person_status,enslaved person,39,0.6241830065359477,35,0.4222222222222222,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_person_status,fugitive,39,0.6241830065359477,25,0.47222222222222215,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_person_status,free man,39,0.6241830065359477,25,0.5,0.0,0.0
+hasdescriptiveoccupation,lecturer,wells,"brown, ""enslaved person, fugitive, free man"")",14,0.3277777777777778,19,0.5120370370370371,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_status_generating_event,event,39,0.5815696649029983,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_status_generating_event,born into slavery,39,0.5815696649029983,24,0.28921568627450983,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_status_generating_event,1850 fugitive slave law in the us,39,0.5815696649029983,20,0.4588383838383838,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_status_generating_event,freedom purchased in 1854 by a british couple,39,0.5815696649029983,19,0.4611111111111111,0.0,0.0
+hasdescriptiveoccupation,lecturer,into,"slavery""), has_status_generating_event(fugitive, ""1850 fugitive slave law in the us""), has_status_generating_event(free man, ""freedom purchased in 1854 by a british couple"").",21,0.625,8,0.5907909140667761,0.0,0.0
+hasdescriptiveoccupation,abolitionist,record,module:,27,0.6138888888888889,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_name,name,25,0.5555555555555555,12,0.4444444444444444,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_name,william wells brown,25,0.5555555555555555,26,0.4932748538011696,0.0,0.0
+hasdescriptiveoccupation,abolitionist,wells,"brown, ""william wells brown"")",14,0.3277777777777778,29,0.5225095785440613,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_surname,surname,34,0.5474386724386724,11,0.31746031746031744,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_surname,brown,34,0.5474386724386724,35,0.6166666666666667,0.0,0.0
+hasdescriptiveoccupation,abolitionist,wells,"brown, ""brown"")",14,0.3277777777777778,30,0.45,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_first_name,first_name,32,0.5615079365079364,27,0.5166666666666667,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_first_name,william,32,0.5615079365079364,21,0.5515873015873015,0.0,0.0
+hasdescriptiveoccupation,abolitionist,wells,"brown, ""william"").",14,0.3277777777777778,27,0.5555555555555555,0.0,0.0
+hasdescriptiveoccupation,abolitionist,relationship record,module:,33,0.6137539361223572,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,48,0.6486928104575163,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_interagent_relationship_type_to,enslaved person,41,0.6037698412698412,22,0.45,0.0,0.0
+hasdescriptiveoccupation,abolitionist,wells,"brown, ""enslaved person"")",14,0.3277777777777778,27,0.47222222222222227,0.0,0.0
+hasdescriptiveoccupation,abolitionist,is_relationship_to,agent,38,0.6264245014245015,35,0.5055555555555555,0.0,0.0
+hasdescriptiveoccupation,abolitionist,is_relationship_to,elizabeth,38,0.6264245014245015,29,0.5240740740740741,0.0,0.0
+hasdescriptiveoccupation,abolitionist,is_relationship_to,george w. higgins,38,0.6264245014245015,34,0.50359477124183,0.0,0.0
+hasdescriptiveoccupation,abolitionist,wells,"brown, ""elizabeth""), is_relationship_to(william wells brown, ""george w. higgins"").",14,0.3277777777777778,21,0.5765582655826558,0.0,0.0
+hasdescriptiveoccupation,abolitionist,role record,module:,29,0.4873737373737373,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_participant_role,participant_role_type,50,0.6805555555555555,30,0.5436507936507936,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_participant_role,abolitionist,50,0.6805555555555555,100,1.0,0.0,1.0
+hasdescriptiveoccupation,abolitionist,has_participant_role,participant in the national convention of colored citizens,50,0.6805555555555555,26,0.5352490421455939,0.0,0.0
+hasdescriptiveoccupation,abolitionist,wells,"brown, ""abolitionist""), has_participant_role(william wells brown, ""participant in the national convention of colored citizens"").",14,0.3277777777777778,17,0.5868055555555555,0.0,0.18068688270171662
+hasdescriptiveoccupation,abolitionist,record,module:,27,0.6138888888888889,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_sex,sex_type,32,0.5742063492063493,20,0.40277777777777773,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_sex,male,32,0.5742063492063493,25,0.5555555555555555,0.0,0.0
+hasdescriptiveoccupation,abolitionist,wells,"brown, ""male"").",14,0.3277777777777778,22,0.48333333333333334,0.0,0.0
+hasdescriptiveoccupation,abolitionist,record,module:,27,0.6138888888888889,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_occupation,occupation,68,0.8045940170940171,45,0.5888888888888889,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_occupation,slave,68,0.8045940170940171,12,0.35555555555555557,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_occupation,abolitionist,68,0.8045940170940171,100,1.0,0.0,1.0
+hasdescriptiveoccupation,abolitionist,has_occupation,novelist,68,0.8045940170940171,50,0.6138888888888889,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_occupation,playwright,68,0.8045940170940171,27,0.49444444444444446,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_occupation,historian,68,0.8045940170940171,38,0.5907407407407408,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_occupation,orator,68,0.8045940170940171,33,0.5833333333333334,0.0,0.0
+hasdescriptiveoccupation,abolitionist,wells,"brown, ""slave, abolitionist, novelist, playwright, historian, orator"").",14,0.3277777777777778,29,0.5841158059467918,0.0,0.2789425453258252
+hasdescriptiveoccupation,abolitionist,record,module:,27,0.6138888888888889,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_age,age,26,0.5793650793650794,13,0.47222222222222215,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_age,unknown,26,0.5793650793650794,21,0.31746031746031744,0.0,0.0
+hasdescriptiveoccupation,abolitionist,wells,"brown, ""unknown"")",14,0.3277777777777778,28,0.4395424836601307,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_birthdate,date_of_birth,38,0.6286324786324786,40,0.5337606837606838,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_birthdate,1814,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,abolitionist,wells,"brown, ""1814"")",14,0.3277777777777778,23,0.48809523809523814,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_deathdate,date_of_death,43,0.652065527065527,32,0.46367521367521364,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_deathdate,unknown,43,0.652065527065527,21,0.31746031746031744,0.0,0.0
+hasdescriptiveoccupation,abolitionist,wells,"brown, ""unknown"").",14,0.3277777777777778,27,0.4351851851851852,0.0,0.0
+hasdescriptiveoccupation,abolitionist,record,module:,27,0.6138888888888889,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_race_or_color,race_or_color,39,0.5977668845315903,32,0.4935897435897436,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_race_or_color,african-american,39,0.5977668845315903,29,0.4444444444444444,0.0,0.0
+hasdescriptiveoccupation,abolitionist,wells,"brown, ""african-american"").",14,0.3277777777777778,26,0.46296296296296297,0.0,0.0
+hasdescriptiveoccupation,abolitionist,status record,module:,32,0.540954415954416,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_person_status,enslaved person,39,0.6241830065359477,22,0.45,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_person_status,fugitive,39,0.6241830065359477,30,0.5416666666666666,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_person_status,free man,39,0.6241830065359477,20,0.40277777777777773,0.0,0.0
+hasdescriptiveoccupation,abolitionist,wells,"brown, ""enslaved person, fugitive, free man"")",14,0.3277777777777778,25,0.5018518518518519,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_status_generating_event,event,39,0.5815696649029983,24,0.35555555555555557,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_status_generating_event,born into slavery,39,0.5815696649029983,41,0.5697945845004669,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_status_generating_event,1850 fugitive slave law in the us,39,0.5815696649029983,22,0.393939393939394,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_status_generating_event,freedom purchased in 1854 by a british couple,39,0.5815696649029983,21,0.37592592592592594,0.0,0.0
+hasdescriptiveoccupation,abolitionist,into,"slavery""), has_status_generating_event(fugitive, ""1850 fugitive slave law in the us""), has_status_generating_event(free man, ""freedom purchased in 1854 by a british couple"").",21,0.625,10,0.5265006385696042,0.0,0.0
+hasdescriptiveoccupation,biographer,record,module:,27,0.6138888888888889,24,0.49523809523809526,0.0,0.0
+hasdescriptiveoccupation,biographer,has_name,name,25,0.5555555555555555,29,0.45,0.0,0.0
+hasdescriptiveoccupation,biographer,has_name,william wells brown,25,0.5555555555555555,28,0.5368421052631579,0.0,0.0
+hasdescriptiveoccupation,biographer,wells,"brown, ""william wells brown"")",14,0.3277777777777778,26,0.5467432950191571,0.0,0.0
+hasdescriptiveoccupation,biographer,has_surname,surname,34,0.5474386724386724,35,0.5761904761904763,0.0,0.0
+hasdescriptiveoccupation,biographer,has_surname,brown,34,0.5474386724386724,27,0.5222222222222221,0.0,0.0
+hasdescriptiveoccupation,biographer,wells,"brown, ""brown"")",14,0.3277777777777778,24,0.47222222222222227,0.0,0.0
+hasdescriptiveoccupation,biographer,has_first_name,first_name,32,0.5615079365079364,40,0.6,0.0,0.0
+hasdescriptiveoccupation,biographer,has_first_name,william,32,0.5615079365079364,24,0.49523809523809526,0.0,0.0
+hasdescriptiveoccupation,biographer,wells,"brown, ""william"").",14,0.3277777777777778,21,0.525925925925926,0.0,0.0
+hasdescriptiveoccupation,biographer,relationship record,module:,33,0.6137539361223572,24,0.49523809523809526,0.0,0.0
+hasdescriptiveoccupation,biographer,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,30,0.5610644257703081,0.0,0.0
+hasdescriptiveoccupation,biographer,has_interagent_relationship_type_to,enslaved person,41,0.6037698412698412,32,0.47222222222222227,0.0,0.0
+hasdescriptiveoccupation,biographer,wells,"brown, ""enslaved person"")",14,0.3277777777777778,34,0.5647619047619048,0.0,0.0
+hasdescriptiveoccupation,biographer,is_relationship_to,agent,38,0.6264245014245015,27,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,biographer,is_relationship_to,elizabeth,38,0.6264245014245015,32,0.5314814814814816,0.0,0.0
+hasdescriptiveoccupation,biographer,is_relationship_to,george w. higgins,38,0.6264245014245015,22,0.46470588235294114,0.0,0.0
+hasdescriptiveoccupation,biographer,wells,"brown, ""elizabeth""), is_relationship_to(william wells brown, ""george w. higgins"").",14,0.3277777777777778,15,0.5588075880758807,0.0,0.0
+hasdescriptiveoccupation,biographer,role record,module:,29,0.4873737373737373,24,0.49523809523809526,0.0,0.0
+hasdescriptiveoccupation,biographer,has_participant_role,participant_role_type,50,0.6805555555555555,26,0.4619047619047619,0.0,0.0
+hasdescriptiveoccupation,biographer,has_participant_role,abolitionist,50,0.6805555555555555,27,0.49444444444444446,0.0,0.0
+hasdescriptiveoccupation,biographer,has_participant_role,participant in the national convention of colored citizens,50,0.6805555555555555,15,0.464039408866995,0.0,0.0
+hasdescriptiveoccupation,biographer,wells,"brown, ""abolitionist""), has_participant_role(william wells brown, ""participant in the national convention of colored citizens"").",14,0.3277777777777778,13,0.5456597222222223,0.0,0.0
+hasdescriptiveoccupation,biographer,record,module:,27,0.6138888888888889,24,0.49523809523809526,0.0,0.0
+hasdescriptiveoccupation,biographer,has_sex,sex_type,32,0.5742063492063493,22,0.48333333333333334,0.0,0.0
+hasdescriptiveoccupation,biographer,has_sex,male,32,0.5742063492063493,29,0.45,0.0,0.0
+hasdescriptiveoccupation,biographer,wells,"brown, ""male"").",14,0.3277777777777778,32,0.5444444444444444,0.0,0.0
+hasdescriptiveoccupation,biographer,record,module:,27,0.6138888888888889,24,0.49523809523809526,0.0,0.0
+hasdescriptiveoccupation,biographer,has_occupation,occupation,68,0.8045940170940171,20,0.4222222222222222,0.0,0.0
+hasdescriptiveoccupation,biographer,has_occupation,slave,68,0.8045940170940171,27,0.5333333333333333,0.0,0.0
+hasdescriptiveoccupation,biographer,has_occupation,abolitionist,68,0.8045940170940171,27,0.49444444444444446,0.0,0.0
+hasdescriptiveoccupation,biographer,has_occupation,novelist,68,0.8045940170940171,22,0.31666666666666665,0.0,0.0
+hasdescriptiveoccupation,biographer,has_occupation,playwright,68,0.8045940170940171,30,0.5166666666666667,0.0,0.0
+hasdescriptiveoccupation,biographer,has_occupation,historian,68,0.8045940170940171,42,0.6148148148148148,0.0,0.0
+hasdescriptiveoccupation,biographer,has_occupation,orator,68,0.8045940170940171,50,0.6888888888888888,0.0,0.0
+hasdescriptiveoccupation,biographer,wells,"brown, ""slave, abolitionist, novelist, playwright, historian, orator"").",14,0.3277777777777778,17,0.5042924211938297,0.0,0.0
+hasdescriptiveoccupation,biographer,record,module:,27,0.6138888888888889,24,0.49523809523809526,0.0,0.0
+hasdescriptiveoccupation,biographer,has_age,age,26,0.5793650793650794,31,0.4777777777777778,0.0,0.0
+hasdescriptiveoccupation,biographer,has_age,unknown,26,0.5793650793650794,12,0.4142857142857143,0.0,0.0
+hasdescriptiveoccupation,biographer,wells,"brown, ""unknown"")",14,0.3277777777777778,15,0.3810457516339869,0.0,0.0
+hasdescriptiveoccupation,biographer,has_birthdate,date_of_birth,38,0.6286324786324786,35,0.4948717948717949,0.0,0.0
+hasdescriptiveoccupation,biographer,has_birthdate,1814,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,biographer,wells,"brown, ""1814"")",14,0.3277777777777778,17,0.3936507936507936,0.0,0.0
+hasdescriptiveoccupation,biographer,has_deathdate,date_of_death,43,0.652065527065527,26,0.40256410256410263,0.0,0.0
+hasdescriptiveoccupation,biographer,has_deathdate,unknown,43,0.652065527065527,12,0.4142857142857143,0.0,0.0
+hasdescriptiveoccupation,biographer,wells,"brown, ""unknown"").",14,0.3277777777777778,14,0.37777777777777777,0.0,0.0
+hasdescriptiveoccupation,biographer,record,module:,27,0.6138888888888889,24,0.49523809523809526,0.0,0.0
+hasdescriptiveoccupation,biographer,has_race_or_color,race_or_color,39,0.5977668845315903,35,0.4948717948717949,0.0,0.0
+hasdescriptiveoccupation,biographer,has_race_or_color,african-american,39,0.5977668845315903,31,0.5375,0.0,0.0
+hasdescriptiveoccupation,biographer,wells,"brown, ""african-american"").",14,0.3277777777777778,32,0.5578483245149912,0.0,0.0
+hasdescriptiveoccupation,biographer,status record,module:,32,0.540954415954416,24,0.49523809523809526,0.0,0.0
+hasdescriptiveoccupation,biographer,has_person_status,enslaved person,39,0.6241830065359477,32,0.47222222222222227,0.0,0.0
+hasdescriptiveoccupation,biographer,has_person_status,fugitive,39,0.6241830065359477,22,0.44722222222222224,0.0,0.0
+hasdescriptiveoccupation,biographer,has_person_status,free man,39,0.6241830065359477,22,0.48333333333333334,0.0,0.0
+hasdescriptiveoccupation,biographer,wells,"brown, ""enslaved person, fugitive, free man"")",14,0.3277777777777778,22,0.5232804232804232,0.0,0.0
+hasdescriptiveoccupation,biographer,has_status_generating_event,event,39,0.5815696649029983,13,0.0,0.0,0.0
+hasdescriptiveoccupation,biographer,has_status_generating_event,born into slavery,39,0.5815696649029983,44,0.6563025210084034,0.0,0.0
+hasdescriptiveoccupation,biographer,has_status_generating_event,1850 fugitive slave law in the us,39,0.5815696649029983,19,0.34040404040404043,0.0,0.0
+hasdescriptiveoccupation,biographer,has_status_generating_event,freedom purchased in 1854 by a british couple,39,0.5815696649029983,18,0.5342592592592593,0.0,0.0
+hasdescriptiveoccupation,biographer,into,"slavery""), has_status_generating_event(fugitive, ""1850 fugitive slave law in the us""), has_status_generating_event(free man, ""freedom purchased in 1854 by a british couple"").",21,0.625,9,0.43721948549534756,0.0,0.0
+hasdescriptiveoccupation,fiction writer,record,module:,27,0.6138888888888889,19,0.4047619047619047,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_name,name,25,0.5555555555555555,22,0.44047619047619047,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_name,william wells brown,25,0.5555555555555555,36,0.47034252297410184,0.0,0.0
+hasdescriptiveoccupation,fiction writer,wells,"brown, ""william wells brown"")",14,0.3277777777777778,33,0.5769932494070426,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_surname,surname,34,0.5474386724386724,19,0.4761904761904762,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_surname,brown,34,0.5474386724386724,21,0.4936507936507937,0.0,0.0
+hasdescriptiveoccupation,fiction writer,wells,"brown, ""brown"")",14,0.3277777777777778,28,0.49682539682539684,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_first_name,first_name,32,0.5615079365079364,42,0.6190476190476191,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_first_name,william,32,0.5615079365079364,19,0.4761904761904762,0.0,0.0
+hasdescriptiveoccupation,fiction writer,wells,"brown, ""william"").",14,0.3277777777777778,31,0.5343915343915344,0.0,0.0
+hasdescriptiveoccupation,fiction writer,relationship record,module:,33,0.6137539361223572,19,0.4047619047619047,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,45,0.542016806722689,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_interagent_relationship_type_to,enslaved person,41,0.6037698412698412,28,0.43412698412698414,0.0,0.0
+hasdescriptiveoccupation,fiction writer,wells,"brown, ""enslaved person"")",14,0.3277777777777778,26,0.4980952380952381,0.0,0.0
+hasdescriptiveoccupation,fiction writer,is_relationship_to,agent,38,0.6264245014245015,21,0.34761904761904766,0.0,0.0
+hasdescriptiveoccupation,fiction writer,is_relationship_to,elizabeth,38,0.6264245014245015,17,0.4047619047619047,0.0,0.0
+hasdescriptiveoccupation,fiction writer,is_relationship_to,george w. higgins,38,0.6264245014245015,26,0.4943977591036415,0.0,0.0
+hasdescriptiveoccupation,fiction writer,wells,"brown, ""elizabeth""), is_relationship_to(william wells brown, ""george w. higgins"").",14,0.3277777777777778,21,0.5289392179636082,0.0,0.0
+hasdescriptiveoccupation,fiction writer,role record,module:,29,0.4873737373737373,19,0.4047619047619047,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_participant_role,participant_role_type,50,0.6805555555555555,40,0.5968253968253968,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_participant_role,abolitionist,50,0.6805555555555555,54,0.5992063492063493,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_participant_role,participant in the national convention of colored citizens,50,0.6805555555555555,31,0.5372443648305717,0.0,0.0
+hasdescriptiveoccupation,fiction writer,wells,"brown, ""abolitionist""), has_participant_role(william wells brown, ""participant in the national convention of colored citizens"").",14,0.3277777777777778,17,0.5228651556776557,0.0,0.0
+hasdescriptiveoccupation,fiction writer,record,module:,27,0.6138888888888889,19,0.4047619047619047,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_sex,sex_type,32,0.5742063492063493,18,0.46428571428571425,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_sex,male,32,0.5742063492063493,11,0.0,0.0,0.0
+hasdescriptiveoccupation,fiction writer,wells,"brown, ""male"").",14,0.3277777777777778,28,0.49682539682539684,0.0,0.0
+hasdescriptiveoccupation,fiction writer,record,module:,27,0.6138888888888889,19,0.4047619047619047,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_occupation,occupation,68,0.8045940170940171,42,0.5523809523809524,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_occupation,slave,68,0.8045940170940171,11,0.0,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_occupation,abolitionist,68,0.8045940170940171,54,0.5992063492063493,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_occupation,novelist,68,0.8045940170940171,27,0.42857142857142855,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_occupation,playwright,68,0.8045940170940171,33,0.3952380952380952,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_occupation,historian,68,0.8045940170940171,43,0.5873015873015873,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_occupation,orator,68,0.8045940170940171,40,0.4603174603174603,0.0,0.0
+hasdescriptiveoccupation,fiction writer,wells,"brown, ""slave, abolitionist, novelist, playwright, historian, orator"").",14,0.3277777777777778,26,0.5364967583277442,0.0,0.0
+hasdescriptiveoccupation,fiction writer,record,module:,27,0.6138888888888889,19,0.4047619047619047,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_age,age,26,0.5793650793650794,12,0.0,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_age,unknown,26,0.5793650793650794,19,0.43650793650793646,0.0,0.0
+hasdescriptiveoccupation,fiction writer,wells,"brown, ""unknown"")",14,0.3277777777777778,26,0.42366946778711484,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_birthdate,date_of_birth,38,0.6286324786324786,30,0.5189255189255189,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_birthdate,1814,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,fiction writer,wells,"brown, ""1814"")",14,0.3277777777777778,21,0.44047619047619047,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_deathdate,date_of_death,43,0.652065527065527,22,0.4472527472527473,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_deathdate,unknown,43,0.652065527065527,19,0.43650793650793646,0.0,0.0
+hasdescriptiveoccupation,fiction writer,wells,"brown, ""unknown"").",14,0.3277777777777778,25,0.41164021164021164,0.0,0.0
+hasdescriptiveoccupation,fiction writer,record,module:,27,0.6138888888888889,19,0.4047619047619047,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_race_or_color,race_or_color,39,0.5977668845315903,30,0.5311355311355311,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_race_or_color,african-american,39,0.5977668845315903,40,0.5654761904761905,0.0,0.0
+hasdescriptiveoccupation,fiction writer,wells,"brown, ""african-american"").",14,0.3277777777777778,34,0.5795254128587461,0.0,0.0
+hasdescriptiveoccupation,fiction writer,status record,module:,32,0.540954415954416,19,0.4047619047619047,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_person_status,enslaved person,39,0.6241830065359477,28,0.43412698412698414,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_person_status,fugitive,39,0.6241830065359477,45,0.6607142857142857,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_person_status,free man,39,0.6241830065359477,27,0.41865079365079366,0.0,0.0
+hasdescriptiveoccupation,fiction writer,wells,"brown, ""enslaved person, fugitive, free man"")",14,0.3277777777777778,27,0.4661375661375662,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_status_generating_event,event,39,0.5815696649029983,21,0.34761904761904766,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_status_generating_event,born into slavery,39,0.5815696649029983,45,0.5556722689075629,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_status_generating_event,1850 fugitive slave law in the us,39,0.5815696649029983,38,0.4379509379509379,0.0,0.0
+hasdescriptiveoccupation,fiction writer,has_status_generating_event,freedom purchased in 1854 by a british couple,39,0.5815696649029983,31,0.5031746031746032,0.0,0.0
+hasdescriptiveoccupation,fiction writer,into,"slavery""), has_status_generating_event(fugitive, ""1850 fugitive slave law in the us""), has_status_generating_event(free man, ""freedom purchased in 1854 by a british couple"").",21,0.625,12,0.4753694581280788,0.0,0.0
+hasfirstname,william wells,record,module:,22,0.4166666666666667,20,0.47985347985347987,0.0,0.0
+hasfirstname,william wells,has_name,name,70,0.8736111111111112,35,0.5512820512820512,0.0,0.0
+hasfirstname,william wells,has_name,william wells brown,70,0.8736111111111112,81,0.9368421052631579,0.0,0.7092972666062739
+hasfirstname,william wells,wells,"brown, ""william wells brown"")",12,0.42777777777777776,62,0.713527851458886,0.0,0.4494364165239822
+hasfirstname,william wells,has_surname,surname,70,0.8733164983164984,30,0.553113553113553,0.0,0.0
+hasfirstname,william wells,has_surname,brown,70,0.8733164983164984,11,0.4256410256410256,0.0,0.0
+hasfirstname,william wells,wells,"brown, ""brown"")",12,0.42777777777777776,21,0.47692307692307695,0.0,0.0
+hasfirstname,william wells,has_first_name,first_name,92,0.9666666666666667,35,0.5692307692307693,0.0,0.0
+hasfirstname,william wells,has_first_name,william,92,0.9666666666666667,70,0.9076923076923077,0.0,0.5797386715376658
+hasfirstname,william wells,wells,"brown, ""william"").",12,0.42777777777777776,45,0.5826210826210826,0.0,0.33609692727625756
+hasfirstname,william wells,relationship record,module:,32,0.5077276524644946,20,0.47985347985347987,0.0,0.0
+hasfirstname,william wells,has_interagent_relationship_type_to,relationship_type,34,0.5949735449735449,20,0.4937154348919055,0.0,0.0
+hasfirstname,william wells,has_interagent_relationship_type_to,enslaved person,34,0.5949735449735449,36,0.505982905982906,0.0,0.0
+hasfirstname,william wells,wells,"brown, ""enslaved person"")",12,0.42777777777777776,32,0.4560683760683761,0.0,0.0
+hasfirstname,william wells,is_relationship_to,agent,27,0.6203703703703703,22,0.4256410256410256,0.0,0.0
+hasfirstname,william wells,is_relationship_to,elizabeth,27,0.6203703703703703,36,0.5007122507122507,0.0,0.0
+hasfirstname,william wells,is_relationship_to,george w. higgins,27,0.6203703703703703,27,0.4262443438914027,0.0,0.0
+hasfirstname,william wells,wells,"brown, ""elizabeth""), is_relationship_to(william wells brown, ""george w. higgins"").",12,0.42777777777777776,27,0.6425891181988743,0.0,0.3351757433279261
+hasfirstname,william wells,role record,module:,17,0.44949494949494956,20,0.47985347985347987,0.0,0.0
+hasfirstname,william wells,has_participant_role,participant_role_type,44,0.6962962962962962,24,0.4075702075702076,0.0,0.0
+hasfirstname,william wells,has_participant_role,abolitionist,44,0.6962962962962962,24,0.5337606837606838,0.0,0.0
+hasfirstname,william wells,has_participant_role,participant in the national convention of colored citizens,44,0.6962962962962962,23,0.41055113468906573,0.0,0.0
+hasfirstname,william wells,wells,"brown, ""abolitionist""), has_participant_role(william wells brown, ""participant in the national convention of colored citizens"").",12,0.42777777777777776,18,0.5979567307692307,0.0,0.25969799324016246
+hasfirstname,william wells,record,module:,22,0.4166666666666667,20,0.47985347985347987,0.0,0.0
+hasfirstname,william wells,has_sex,sex_type,53,0.6349206349206349,10,0.4006410256410256,0.0,0.0
+hasfirstname,william wells,has_sex,male,53,0.6349206349206349,24,0.3846153846153846,0.0,0.0
+hasfirstname,william wells,wells,"brown, ""male"").",12,0.42777777777777776,21,0.5094017094017094,0.0,0.0
+hasfirstname,william wells,record,module:,22,0.4166666666666667,20,0.47985347985347987,0.0,0.0
+hasfirstname,william wells,has_occupation,occupation,38,0.5873015873015873,9,0.28461538461538466,0.0,0.0
+hasfirstname,william wells,has_occupation,slave,38,0.5873015873015873,33,0.6102564102564102,0.0,0.0
+hasfirstname,william wells,has_occupation,abolitionist,38,0.5873015873015873,24,0.5337606837606838,0.0,0.0
+hasfirstname,william wells,has_occupation,novelist,38,0.5873015873015873,29,0.30128205128205127,0.0,0.0
+hasfirstname,william wells,has_occupation,playwright,38,0.5873015873015873,26,0.40256410256410263,0.0,0.0
+hasfirstname,william wells,has_occupation,historian,38,0.5873015873015873,27,0.5213675213675214,0.0,0.0
+hasfirstname,william wells,has_occupation,orator,38,0.5873015873015873,11,0.41452991452991456,0.0,0.0
+hasfirstname,william wells,wells,"brown, ""slave, abolitionist, novelist, playwright, historian, orator"").",12,0.42777777777777776,21,0.545815686660757,0.0,0.0
+hasfirstname,william wells,record,module:,22,0.4166666666666667,20,0.47985347985347987,0.0,0.0
+hasfirstname,william wells,has_age,age,53,0.7972222222222223,25,0.47008547008547,0.0,0.0
+hasfirstname,william wells,has_age,unknown,53,0.7972222222222223,10,0.40659340659340665,0.0,0.0
+hasfirstname,william wells,wells,"brown, ""unknown"")",12,0.42777777777777776,20,0.4690799396681749,0.0,0.0
+hasfirstname,william wells,has_birthdate,date_of_birth,64,0.8324786324786324,15,0.2692307692307692,0.0,0.0
+hasfirstname,william wells,has_birthdate,1814,64,0.8324786324786324,0,0.0,0.0,0.0
+hasfirstname,william wells,wells,"brown, ""1814"")",12,0.42777777777777776,15,0.43223443223443225,0.0,0.0
+hasfirstname,william wells,has_deathdate,date_of_death,48,0.5982905982905983,15,0.4358974358974359,0.0,0.0
+hasfirstname,william wells,has_deathdate,unknown,48,0.5982905982905983,10,0.40659340659340665,0.0,0.0
+hasfirstname,william wells,wells,"brown, ""unknown"").",12,0.42777777777777776,19,0.46581196581196577,0.0,0.0
+hasfirstname,william wells,record,module:,22,0.4166666666666667,20,0.47985347985347987,0.0,0.0
+hasfirstname,william wells,has_race_or_color,race_or_color,41,0.6176470588235294,23,0.4358974358974359,0.0,0.0
+hasfirstname,william wells,has_race_or_color,african-american,41,0.6176470588235294,28,0.4358974358974359,0.0,0.0
+hasfirstname,william wells,wells,"brown, ""african-american"").",12,0.42777777777777776,25,0.5056980056980057,0.0,0.0
+hasfirstname,william wells,status record,module:,32,0.5427350427350427,20,0.47985347985347987,0.0,0.0
+hasfirstname,william wells,has_person_status,enslaved person,48,0.6857298474945533,36,0.505982905982906,0.0,0.0
+hasfirstname,william wells,has_person_status,fugitive,48,0.6857298474945533,29,0.5352564102564102,0.0,0.0
+hasfirstname,william wells,has_person_status,free man,48,0.6857298474945533,10,0.42414529914529914,0.0,0.0
+hasfirstname,william wells,wells,"brown, ""enslaved person, fugitive, free man"")",12,0.42777777777777776,21,0.4205128205128205,0.0,0.0
+hasfirstname,william wells,has_status_generating_event,event,41,0.5833333333333334,11,0.0,0.0,0.0
+hasfirstname,william wells,has_status_generating_event,born into slavery,41,0.5833333333333334,27,0.4381598793363499,0.0,0.0
+hasfirstname,william wells,has_status_generating_event,1850 fugitive slave law in the us,41,0.5833333333333334,30,0.5439005439005439,0.0,0.0
+hasfirstname,william wells,has_status_generating_event,freedom purchased in 1854 by a british couple,41,0.5833333333333334,14,0.364957264957265,0.0,0.0
+hasfirstname,william wells,into,"slavery""), has_status_generating_event(fugitive, ""1850 fugitive slave law in the us""), has_status_generating_event(free man, ""freedom purchased in 1854 by a british couple"").",25,0.5555555555555555,10,0.4755673445328618,0.0,0.0
+hassurname,brown,record,module:,25,0.4222222222222222,17,0.44761904761904764,0.0,0.0
+hassurname,brown,has_name,name,78,0.9008333333333334,22,0.0,0.0,0.0
+hassurname,brown,has_name,william wells brown,78,0.9008333333333334,42,0.4175438596491228,0.0,0.4494364165239821
+hassurname,brown,wells,"brown, ""william wells brown"")",13,0.43333333333333335,29,0.8344827586206897,0.0,0.7092972666062738
+hassurname,brown,has_surname,surname,95,0.9787878787878788,33,0.5619047619047619,0.0,0.0
+hassurname,brown,has_surname,brown,95,0.9787878787878788,100,1.0,0.0,1.0
+hassurname,brown,wells,"brown, ""brown"")",13,0.43333333333333335,50,0.8666666666666666,0.0,1.0
+hassurname,brown,has_first_name,first_name,67,0.8674074074074074,27,0.5333333333333333,0.0,0.0
+hassurname,brown,has_first_name,william,67,0.8674074074074074,17,0.0,0.0,0.0
+hassurname,brown,wells,"brown, ""william"").",13,0.43333333333333335,43,0.8555555555555555,0.0,0.5797386715376658
+hassurname,brown,relationship record,module:,28,0.4543859649122807,17,0.44761904761904764,0.0,0.0
+hassurname,brown,has_interagent_relationship_type_to,relationship_type,31,0.5380952380952381,27,0.592156862745098,0.0,0.0
+hassurname,brown,has_interagent_relationship_type_to,enslaved person,31,0.5380952380952381,30,0.4222222222222222,0.0,0.0
+hassurname,brown,wells,"brown, ""enslaved person"")",13,0.43333333333333335,33,0.8400000000000001,0.0,0.4494364165239821
+hassurname,brown,is_relationship_to,agent,21,0.5333333333333333,20,0.4666666666666666,0.0,0.0
+hassurname,brown,is_relationship_to,elizabeth,21,0.5333333333333333,14,0.0,0.0,0.0
+hassurname,brown,is_relationship_to,george w. higgins,21,0.5333333333333333,27,0.48104575163398694,0.0,0.0
+hassurname,brown,wells,"brown, ""elizabeth""), is_relationship_to(william wells brown, ""george w. higgins"").",13,0.43333333333333335,11,0.6869918699186992,0.0,0.5023287782256718
+hassurname,brown,role record,module:,19,0.46060606060606063,17,0.44761904761904764,0.0,0.0
+hassurname,brown,has_participant_role,participant_role_type,40,0.5777777777777778,15,0.4984126984126984,0.0,0.0
+hassurname,brown,has_participant_role,abolitionist,40,0.5777777777777778,35,0.6166666666666667,0.0,0.0
+hassurname,brown,has_participant_role,participant in the national convention of colored citizens,40,0.5777777777777778,10,0.439463601532567,0.0,0.0
+hassurname,brown,wells,"brown, ""abolitionist""), has_participant_role(william wells brown, ""participant in the national convention of colored citizens"").",13,0.43333333333333335,8,0.6796875,0.0,0.3799783615910079
+hassurname,brown,record,module:,25,0.4222222222222222,17,0.44761904761904764,0.0,0.0
+hassurname,brown,has_sex,sex_type,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,brown,has_sex,male,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,brown,wells,"brown, ""male"").",13,0.43333333333333335,50,0.8666666666666666,0.0,0.5797386715376658
+hassurname,brown,record,module:,25,0.4222222222222222,17,0.44761904761904764,0.0,0.0
+hassurname,brown,has_occupation,occupation,42,0.6190476190476191,27,0.43333333333333335,0.0,0.0
+hassurname,brown,has_occupation,slave,42,0.6190476190476191,0,0.0,0.0,0.0
+hassurname,brown,has_occupation,abolitionist,42,0.6190476190476191,35,0.6166666666666667,0.0,0.0
+hassurname,brown,has_occupation,novelist,42,0.6190476190476191,15,0.44166666666666665,0.0,0.0
+hassurname,brown,has_occupation,playwright,42,0.6190476190476191,13,0.3666666666666667,0.0,0.0
+hassurname,brown,has_occupation,historian,42,0.6190476190476191,29,0.43703703703703706,0.0,0.0
+hassurname,brown,has_occupation,orator,42,0.6190476190476191,36,0.41111111111111115,0.0,0.0
+hassurname,brown,wells,"brown, ""slave, abolitionist, novelist, playwright, historian, orator"").",13,0.43333333333333335,13,0.6901408450704225,0.0,0.2789425453258252
+hassurname,brown,record,module:,25,0.4222222222222222,17,0.44761904761904764,0.0,0.0
+hassurname,brown,has_age,age,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,brown,has_age,unknown,59,0.8166666666666667,50,0.565079365079365,0.0,0.0
+hassurname,brown,wells,"brown, ""unknown"")",13,0.43333333333333335,45,0.8588235294117647,0.0,0.5797386715376658
+hassurname,brown,has_birthdate,date_of_birth,52,0.6871794871794871,22,0.4256410256410256,0.0,0.0
+hassurname,brown,has_birthdate,1814,52,0.6871794871794871,0,0.0,0.0,0.0
+hassurname,brown,wells,"brown, ""1814"")",13,0.43333333333333335,53,0.8714285714285714,0.0,0.5797386715376658
+hassurname,brown,has_deathdate,date_of_death,43,0.5615384615384615,11,0.4256410256410256,0.0,0.0
+hassurname,brown,has_deathdate,unknown,43,0.5615384615384615,50,0.565079365079365,0.0,0.0
+hassurname,brown,wells,"brown, ""unknown"").",13,0.43333333333333335,43,0.8555555555555555,0.0,0.5797386715376658
+hassurname,brown,record,module:,25,0.4222222222222222,17,0.44761904761904764,0.0,0.0
+hassurname,brown,has_race_or_color,race_or_color,44,0.6509803921568628,22,0.517948717948718,0.0,0.0
+hassurname,brown,has_race_or_color,african-american,44,0.6509803921568628,19,0.5083333333333333,0.0,0.0
+hassurname,brown,wells,"brown, ""african-american"").",13,0.43333333333333335,31,0.837037037037037,0.0,0.4494364165239821
+hassurname,brown,status record,module:,35,0.5760683760683761,17,0.44761904761904764,0.0,0.0
+hassurname,brown,has_person_status,enslaved person,44,0.6735294117647058,30,0.4222222222222222,0.0,0.0
+hassurname,brown,has_person_status,fugitive,44,0.6735294117647058,0,0.0,0.0,0.0
+hassurname,brown,has_person_status,free man,44,0.6735294117647058,31,0.5499999999999999,0.0,0.0
+hassurname,brown,wells,"brown, ""enslaved person, fugitive, free man"")",13,0.43333333333333335,20,0.8222222222222222,0.0,0.3032160644503863
+hassurname,brown,has_status_generating_event,event,43,0.6703703703703704,20,0.4666666666666666,0.0,0.0
+hassurname,brown,has_status_generating_event,born into slavery,43,0.6703703703703704,27,0.5950980392156863,0.0,0.0
+hassurname,brown,has_status_generating_event,1850 fugitive slave law in the us,43,0.6703703703703704,11,0.0,0.0,0.0
+hassurname,brown,has_status_generating_event,freedom purchased in 1854 by a british couple,43,0.6703703703703704,12,0.5555555555555555,0.0,0.0
+hassurname,brown,into,"slavery""), has_status_generating_event(fugitive, ""1850 fugitive slave law in the us""), has_status_generating_event(free man, ""freedom purchased in 1854 by a british couple"").",14,0.0,3,0.42796934865900377,0.0,0.0
+hasname,william wells brown,record,module:,15,0.0,15,0.4177109440267335,0.0,0.0
+hasname,william wells brown,has_name,name,93,0.9708333333333333,26,0.6359649122807017,0.0,0.0
+hasname,william wells brown,has_name,william wells brown,93,0.9708333333333333,100,1.0,0.0,1.0000000000000002
+hasname,william wells brown,wells,"brown, ""william wells brown"")",17,0.44761904761904764,79,0.7447065940713854,0.0,0.9428090415820636
+hasname,william wells brown,has_surname,surname,78,0.9151515151515152,23,0.5288220551378445,0.0,0.0
+hasname,william wells brown,has_surname,brown,78,0.9151515151515152,42,0.4175438596491228,0.0,0.4494364165239821
+hasname,william wells brown,wells,"brown, ""brown"")",17,0.44761904761904764,41,0.5164578111946533,0.0,0.4494364165239821
+hasname,william wells brown,has_first_name,first_name,67,0.5476190476190476,28,0.5368421052631579,0.0,0.0
+hasname,william wells brown,has_first_name,william,67,0.5476190476190476,54,0.8736842105263157,0.0,0.4494364165239821
+hasname,william wells brown,wells,"brown, ""william"").",17,0.44761904761904764,38,0.5097465886939571,0.0,0.7092972666062739
+hasname,william wells brown,relationship record,module:,23,0.5106516290726817,15,0.4177109440267335,0.0,0.0
+hasname,william wells brown,has_interagent_relationship_type_to,relationship_type,29,0.6206349206349207,22,0.4451324389404885,0.0,0.0
+hasname,william wells brown,has_interagent_relationship_type_to,enslaved person,29,0.6206349206349207,41,0.5681286549707601,0.0,0.0
+hasname,william wells brown,wells,"brown, ""enslaved person"")",17,0.44761904761904764,36,0.5087719298245613,0.0,0.20199309249791833
+hasname,william wells brown,is_relationship_to,agent,16,0.43121693121693117,25,0.5017543859649123,0.0,0.0
+hasname,william wells brown,is_relationship_to,elizabeth,16,0.43121693121693117,29,0.46832358674463936,0.0,0.0
+hasname,william wells brown,is_relationship_to,george w. higgins,16,0.43121693121693117,22,0.4505381099808344,0.0,0.0
+hasname,william wells brown,wells,"brown, ""elizabeth""), is_relationship_to(william wells brown, ""george w. higgins"").",17,0.44761904761904764,38,0.586007702182285,0.0,0.6194000100245768
+hasname,william wells brown,role record,module:,11,0.41125541125541126,15,0.4177109440267335,0.0,0.0
+hasname,william wells brown,has_participant_role,participant_role_type,37,0.5904761904761905,25,0.47566833751044274,0.0,0.0
+hasname,william wells brown,has_participant_role,abolitionist,37,0.5904761904761905,26,0.4932748538011696,0.0,0.0
+hasname,william wells brown,has_participant_role,participant in the national convention of colored citizens,37,0.5904761904761905,23,0.4662431941923775,0.0,0.0
+hasname,william wells brown,wells,"brown, ""abolitionist""), has_participant_role(william wells brown, ""participant in the national convention of colored citizens"").",17,0.44761904761904764,26,0.5582510964912281,0.0,0.4550747482482657
+hasname,william wells brown,record,module:,15,0.0,15,0.4177109440267335,0.0,0.0
+hasname,william wells brown,has_sex,sex_type,57,0.8,7,0.3925438596491228,0.0,0.0
+hasname,william wells brown,has_sex,male,57,0.8,17,0.6535087719298246,0.0,0.0
+hasname,william wells brown,wells,"brown, ""male"").",17,0.44761904761904764,29,0.46081871345029235,0.0,0.2605556710562624
+hasname,william wells brown,record,module:,15,0.0,15,0.4177109440267335,0.0,0.0
+hasname,william wells brown,has_occupation,occupation,38,0.6190476190476191,21,0.3748538011695906,0.0,0.0
+hasname,william wells brown,has_occupation,slave,38,0.6190476190476191,25,0.5859649122807017,0.0,0.0
+hasname,william wells brown,has_occupation,abolitionist,38,0.6190476190476191,26,0.4932748538011696,0.0,0.0
+hasname,william wells brown,has_occupation,novelist,38,0.6190476190476191,22,0.4868421052631579,0.0,0.0
+hasname,william wells brown,has_occupation,playwright,38,0.6190476190476191,28,0.37017543859649127,0.0,0.0
+hasname,william wells brown,has_occupation,historian,38,0.6190476190476191,29,0.49707602339181284,0.0,0.0
+hasname,william wells brown,has_occupation,orator,38,0.6190476190476191,16,0.4064327485380117,0.0,0.0
+hasname,william wells brown,wells,"brown, ""slave, abolitionist, novelist, playwright, historian, orator"").",17,0.44761904761904764,27,0.5545284088431518,0.0,0.12536693798731732
+hasname,william wells brown,record,module:,15,0.0,15,0.4177109440267335,0.0,0.0
+hasname,william wells brown,has_age,age,71,0.8666666666666668,18,0.5906432748538012,0.0,0.0
+hasname,william wells brown,has_age,unknown,71,0.8666666666666668,23,0.3984962406015038,0.0,0.0
+hasname,william wells brown,wells,"brown, ""unknown"")",17,0.44761904761904764,28,0.45242518059855524,0.0,0.2605556710562624
+hasname,william wells brown,has_birthdate,date_of_birth,50,0.553113553113553,25,0.41592442645074224,0.0,0.0
+hasname,william wells brown,has_birthdate,1814,50,0.553113553113553,0,0.0,0.0,0.0
+hasname,william wells brown,wells,"brown, ""1814"")",17,0.44761904761904764,30,0.4160401002506266,0.0,0.2605556710562624
+hasname,william wells brown,has_deathdate,date_of_death,50,0.632967032967033,19,0.41970310391363025,0.0,0.0
+hasname,william wells brown,has_deathdate,unknown,50,0.632967032967033,23,0.3984962406015038,0.0,0.0
+hasname,william wells brown,wells,"brown, ""unknown"").",17,0.44761904761904764,27,0.4469785575048733,0.0,0.2605556710562624
+hasname,william wells brown,record,module:,15,0.0,15,0.4177109440267335,0.0,0.0
+hasname,william wells brown,has_race_or_color,race_or_color,42,0.6694677871148459,25,0.41592442645074224,0.0,0.0
+hasname,william wells brown,has_race_or_color,african-american,42,0.6694677871148459,34,0.5067355889724311,0.0,0.0
+hasname,william wells brown,wells,"brown, ""african-american"").",17,0.44761904761904764,30,0.4474496426250812,0.0,0.20199309249791833
+hasname,william wells brown,status record,module:,30,0.442002442002442,15,0.4177109440267335,0.0,0.0
+hasname,william wells brown,has_person_status,enslaved person,42,0.6028011204481792,41,0.5681286549707601,0.0,0.0
+hasname,william wells brown,has_person_status,fugitive,42,0.6028011204481792,22,0.5109649122807017,0.0,0.0
+hasname,william wells brown,has_person_status,free man,42,0.6028011204481792,22,0.40350877192982454,0.0,0.0
+hasname,william wells brown,wells,"brown, ""enslaved person, fugitive, free man"")",17,0.44761904761904764,28,0.4562821194400142,0.0,0.1362763414390864
+hasname,william wells brown,has_status_generating_event,event,35,0.6375661375661376,17,0.4175438596491228,0.0,0.0
+hasname,william wells brown,has_status_generating_event,born into slavery,35,0.6375661375661376,28,0.5195505102625846,0.0,0.0
+hasname,william wells brown,has_status_generating_event,1850 fugitive slave law in the us,35,0.6375661375661376,27,0.5162147793726741,0.0,0.0
+hasname,william wells brown,has_status_generating_event,freedom purchased in 1854 by a british couple,35,0.6375661375661376,22,0.4562821194400142,0.0,0.0
+hasname,william wells brown,into,"slavery""), has_status_generating_event(fugitive, ""1850 fugitive slave law in the us""), has_status_generating_event(free man, ""freedom purchased in 1854 by a british couple"").",18,0.46428571428571425,13,0.43246156948516296,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",record,module:,30,0.48412698412698413,4,0.5156288156288156,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_name,name,36,0.5952380952380952,3,0.5051282051282051,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_name,william wells brown,36,0.5952380952380952,11,0.5161189172025086,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",wells,"brown, ""william wells brown"")",21,0.34761904761904766,15,0.4822607926805828,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_surname,surname,48,0.6168831168831169,5,0.5327838827838828,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_surname,brown,48,0.6168831168831169,4,0.5397435897435897,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",wells,"brown, ""brown"")",21,0.34761904761904766,9,0.44036519036519034,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_first_name,first_name,43,0.6726190476190476,7,0.4967236467236467,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_first_name,william,43,0.6726190476190476,5,0.5804029304029305,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",wells,"brown, ""william"").",21,0.34761904761904766,11,0.46768416768416765,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",relationship record,module:,30,0.6135338345864662,4,0.5156288156288156,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_interagent_relationship_type_to,relationship_type,37,0.5666666666666667,9,0.48293471234647706,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_interagent_relationship_type_to,enslaved person,37,0.5666666666666667,11,0.6414529914529915,0.0,0.060486237428223816
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",wells,"brown, ""enslaved person"")",21,0.34761904761904766,13,0.48820512820512824,0.0,0.04689133075538411
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",is_relationship_to,agent,44,0.6474266474266474,4,0.5397435897435897,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",is_relationship_to,elizabeth,44,0.6474266474266474,6,0.5565527065527065,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",is_relationship_to,george w. higgins,44,0.6474266474266474,10,0.521738310708899,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",wells,"brown, ""elizabeth""), is_relationship_to(william wells brown, ""george w. higgins"").",21,0.34761904761904766,28,0.555248816224426,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",role record,module:,24,0.46645021645021645,4,0.5156288156288156,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_participant_role,participant_role_type,47,0.6876623376623376,11,0.4351037851037851,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_participant_role,abolitionist,47,0.6876623376623376,9,0.5431623931623931,0.0,0.1043336254726523
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_participant_role,participant in the national convention of colored citizens,47,0.6876623376623376,28,0.5647607820021613,0.0,0.18789945664044885
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",wells,"brown, ""abolitionist""), has_participant_role(william wells brown, ""participant in the national convention of colored citizens"").",21,0.34761904761904766,36,0.6115503724878725,0.0,0.15038136396966162
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",record,module:,30,0.48412698412698413,4,0.5156288156288156,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_sex,sex_type,38,0.6238095238095238,4,0.41474358974358977,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_sex,male,38,0.6238095238095238,3,0.5051282051282051,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",wells,"brown, ""male"").",21,0.34761904761904766,9,0.44871794871794873,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",record,module:,30,0.48412698412698413,4,0.5156288156288156,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_occupation,occupation,64,0.8074074074074075,6,0.4852564102564103,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_occupation,slave,64,0.8074074074074075,4,0.5397435897435897,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_occupation,abolitionist,64,0.8074074074074075,9,0.5431623931623931,0.0,0.1043336254726523
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_occupation,novelist,64,0.8074074074074075,6,0.5102564102564102,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_occupation,playwright,64,0.8074074074074075,6,0.5337606837606838,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_occupation,historian,64,0.8074074074074075,7,0.5300569800569801,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_occupation,orator,64,0.8074074074074075,5,0.5632478632478631,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",wells,"brown, ""slave, abolitionist, novelist, playwright, historian, orator"").",21,0.34761904761904766,30,0.5543957656193572,0.0,0.029103087052412983
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",record,module:,30,0.48412698412698413,4,0.5156288156288156,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_age,age,38,0.6190476190476191,2,0.5594017094017093,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_age,unknown,38,0.6190476190476191,4,0.5156288156288156,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",wells,"brown, ""unknown"")",21,0.34761904761904766,9,0.4173453996983409,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_birthdate,date_of_birth,37,0.6318681318681318,8,0.5082750582750583,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_birthdate,1814,37,0.6318681318681318,1,0.41794871794871796,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",wells,"brown, ""1814"")",21,0.34761904761904766,5,0.3673992673992674,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_deathdate,date_of_death,44,0.63003663003663,8,0.5082750582750583,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_deathdate,unknown,44,0.63003663003663,4,0.5156288156288156,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",wells,"brown, ""unknown"").",21,0.34761904761904766,10,0.4368945868945869,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",record,module:,30,0.48412698412698413,4,0.5156288156288156,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_race_or_color,race_or_color,39,0.5896358543417367,8,0.4645299145299145,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_race_or_color,african-american,39,0.5896358543417367,11,0.5000915750915751,0.0,0.14833958892770577
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",wells,"brown, ""african-american"").",21,0.34761904761904766,16,0.5018435938725794,0.0,0.10521686495591998
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",status record,module:,37,0.5366300366300366,4,0.5156288156288156,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_person_status,enslaved person,45,0.6675070028011204,11,0.6414529914529915,0.0,0.060486237428223816
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_person_status,fugitive,45,0.6675070028011204,6,0.5519230769230768,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_person_status,free man,45,0.6675070028011204,6,0.5519230769230768,0.0,0.06048623742822381
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",wells,"brown, ""enslaved person, fugitive, free man"")",21,0.34761904761904766,22,0.5395604395604395,0.0,0.06666921327630866
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_status_generating_event,event,39,0.5476190476190476,4,0.6064102564102564,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_status_generating_event,born into slavery,39,0.5476190476190476,12,0.5009049773755656,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_status_generating_event,1850 fugitive slave law in the us,39,0.5476190476190476,19,0.5303807303807303,0.0,0.12733433249898493
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",has_status_generating_event,freedom purchased in 1854 by a british couple,39,0.5476190476190476,20,0.5309116809116808,0.0,0.02910308705241298
+hasdescription,"enslaved. free before 13th amendment. an abolitionist, member of the underground railroad, autobiographer, travelogue writer, and author of clotel (considered to be the first full-length african american novel) who also lectured in the u.s. and great britain .",into,"slavery""), has_status_generating_event(fugitive, ""1850 fugitive slave law in the us""), has_status_generating_event(free man, ""freedom purchased in 1854 by a british couple"").",33,0.0,37,0.6238768893941308,0.0,0.09815459705278272

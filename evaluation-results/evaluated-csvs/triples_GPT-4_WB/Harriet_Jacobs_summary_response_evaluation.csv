@@ -1,0 +1,595 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,harriet jacobs,32,0.537878787878788,20,0.3253968253968254,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,jacobs,27,0.49242424242424243,17,0.38888888888888884,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,harriet,40,0.5692640692640693,15,0.4365079365079365,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,relationship_type,30,0.5269480519480519,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,enslaver,30,0.5269480519480519,29,0.5277777777777778,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,sibling,30,0.5269480519480519,31,0.4365079365079365,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,norcom,34,0.5798460798460798,33,0.5555555555555555,0.0,0.0
+instance of,person,is_relationship_to,john,34,0.5798460798460798,40,0.47222222222222215,0.0,0.0
+instance of,person,role record,module:,27,0.49242424242424243,15,0.0,0.0,0.0
+instance of,person,has_participant_role,participant_role_type,32,0.5668831168831169,22,0.5357142857142857,0.0,0.0
+instance of,person,has_participant_role,abolitionist,32,0.5668831168831169,22,0.5,0.0,0.0
+instance of,person,has_participant_role,civil war aid provider,32,0.5668831168831169,21,0.40404040404040403,0.0,0.0
+instance of,person,has_participant_role,school founder,32,0.5668831168831169,30,0.5714285714285715,0.0,0.0
+instance of,person,war aid,"provider""), has_participant_role(harriet jacobs, ""school founder"").",22,0.41125541125541126,16,0.5854063018242123,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,female,22,0.45598845598845594,17,0.4444444444444444,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,slave,24,0.38311688311688313,18,0.0,0.0,0.0
+instance of,person,has_occupation,nanny,24,0.38311688311688313,18,0.45555555555555555,0.0,0.0
+instance of,person,has_occupation,abolitionist,24,0.38311688311688313,22,0.5,0.0,0.0
+instance of,person,has_occupation,writer,24,0.38311688311688313,33,0.4444444444444444,0.0,0.0
+instance of,person,has_occupation,boarding house operator,24,0.38311688311688313,28,0.4468599033816425,0.0,0.0
+instance of,person,house,"operator"").",25,0.5272727272727272,47,0.51010101010101,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_age,between 1813 and 1815,33,0.45598845598845594,15,0.4761904761904762,0.0,0.0
+instance of,person,1813 and,"1815"")",21,0.43813131313131315,0,0.0,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_birthdate,between 1813 and 1815,33,0.5463869463869464,15,0.4761904761904762,0.0,0.0
+instance of,person,1813 and,"1815"")",21,0.43813131313131315,0,0.0,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,march 7,33,0.39044289044289043,15,0.4365079365079365,0.0,0.0
+instance of,person,has_deathdate,1897,33,0.39044289044289043,0,0.0,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,african-american,36,0.5162210338680927,27,0.4861111111111111,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,enslaved person,29,0.449554367201426,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,has_person_status,abolitionist,29,0.449554367201426,22,0.5,0.0,0.0
+instance of,person,has_person_status,writer,29,0.449554367201426,33,0.4444444444444444,0.0,0.0
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,escape to the north,26,0.4799102132435466,32,0.5423976608187134,0.0,0.0
+instance of,person,has_status_generating_event,purchase of freedom by cornelia willis,26,0.4799102132435466,23,0.5883040935672516,0.0,0.0
+instance of,person,has_status_generating_event,escape to the north,26,0.4799102132435466,32,0.5423976608187134,0.0,0.0
+instance of,person,has_status_generating_event,writing and abolitionist work,26,0.4799102132435466,17,0.4233716475095785,0.0,0.0
+instance of,person,to the,"north""), has_status_generating_event(enslaved person, ""purchase of freedom by cornelia willis""), has_status_generating_event(abolitionist, ""escape to the north""), has_status_generating_event(writer, ""writing and abolitionist work"").",24,0.5050505050505051,5,0.564176245210728,0.0,0.12675982058719787
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_name,name,57,0.8055555555555556,40,0.6388888888888888,0.0,0.0
+hassex,female,has_name,harriet jacobs,57,0.8055555555555556,20,0.3253968253968254,0.0,0.0
+hassex,female,has_surname,surname,59,0.6767676767676768,31,0.5396825396825397,0.0,0.0
+hassex,female,has_surname,jacobs,59,0.6767676767676768,17,0.4444444444444444,0.0,0.0
+hassex,female,has_first_name,first_name,50,0.6507936507936508,38,0.6,0.0,0.0
+hassex,female,has_first_name,harriet,50,0.6507936507936508,31,0.5396825396825397,0.0,0.0
+hassex,female,relationship record,module:,24,0.44152046783625726,46,0.6428571428571429,0.0,0.0
+hassex,female,has_interagent_relationship_type_to,relationship_type,24,0.5936507936507937,26,0.4477124183006536,0.0,0.0
+hassex,female,has_interagent_relationship_type_to,enslaver,24,0.5936507936507937,43,0.6388888888888888,0.0,0.0
+hassex,female,has_interagent_relationship_type_to,sibling,24,0.5936507936507937,15,0.4365079365079365,0.0,0.0
+hassex,female,is_relationship_to,agent,17,0.46296296296296297,36,0.45555555555555555,0.0,0.0
+hassex,female,is_relationship_to,norcom,17,0.46296296296296297,17,0.0,0.0,0.0
+hassex,female,is_relationship_to,john,17,0.46296296296296297,0,0.0,0.0,0.0
+hassex,female,role record,module:,12,0.41919191919191917,46,0.6428571428571429,0.0,0.0
+hassex,female,has_participant_role,participant_role_type,31,0.5499999999999999,22,0.4047619047619047,0.0,0.0
+hassex,female,has_participant_role,abolitionist,31,0.5499999999999999,22,0.5,0.0,0.0
+hassex,female,has_participant_role,civil war aid provider,31,0.5499999999999999,14,0.30808080808080807,0.0,0.0
+hassex,female,has_participant_role,school founder,31,0.5499999999999999,20,0.41269841269841273,0.0,0.0
+hassex,female,war aid,"provider""), has_participant_role(harriet jacobs, ""school founder"").",15,0.4365079365079365,11,0.5754560530679934,0.0,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_sex,sex_type,92,0.9666666666666667,29,0.5277777777777778,0.0,0.0
+hassex,female,has_sex,female,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_occupation,occupation,30,0.5714285714285715,12,0.4222222222222222,0.0,0.0
+hassex,female,has_occupation,slave,30,0.5714285714285715,36,0.5777777777777778,0.0,0.0
+hassex,female,has_occupation,nanny,30,0.5714285714285715,18,0.45555555555555555,0.0,0.0
+hassex,female,has_occupation,abolitionist,30,0.5714285714285715,22,0.5,0.0,0.0
+hassex,female,has_occupation,writer,30,0.5714285714285715,17,0.4444444444444444,0.0,0.0
+hassex,female,has_occupation,boarding house operator,30,0.5714285714285715,14,0.4734299516908213,0.0,0.0
+hassex,female,house,"operator"").",55,0.7300000000000001,24,0.5050505050505051,0.0,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_age,age,62,0.8222222222222222,44,0.5,0.0,0.0
+hassex,female,has_age,between 1813 and 1815,62,0.8222222222222222,15,0.4761904761904762,0.0,0.0
+hassex,female,1813 and,"1815"")",14,0.0,0,0.0,0.0,0.0
+hassex,female,has_birthdate,date_of_birth,42,0.576923076923077,21,0.32905982905982906,0.0,0.0
+hassex,female,has_birthdate,between 1813 and 1815,42,0.576923076923077,15,0.4761904761904762,0.0,0.0
+hassex,female,1813 and,"1815"")",14,0.0,0,0.0,0.0,0.0
+hassex,female,has_deathdate,date_of_death,42,0.6581196581196581,32,0.46581196581196577,0.0,0.0
+hassex,female,has_deathdate,march 7,42,0.6581196581196581,31,0.5396825396825397,0.0,0.0
+hassex,female,has_deathdate,1897,42,0.6581196581196581,0,0.0,0.0,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_race_or_color,race_or_color,35,0.6339869281045751,21,0.32905982905982906,0.0,0.0
+hassex,female,has_race_or_color,african-american,35,0.6339869281045751,27,0.5555555555555555,0.0,0.0
+hassex,female,status record,module:,32,0.5747863247863249,46,0.6428571428571429,0.0,0.0
+hassex,female,has_person_status,enslaved person,35,0.642483660130719,29,0.5611111111111111,0.0,0.0
+hassex,female,has_person_status,abolitionist,35,0.642483660130719,22,0.5,0.0,0.0
+hassex,female,has_person_status,writer,35,0.642483660130719,17,0.4444444444444444,0.0,0.0
+hassex,female,has_status_generating_event,event,30,0.6728395061728395,36,0.45555555555555555,0.0,0.0
+hassex,female,has_status_generating_event,escape to the north,30,0.6728395061728395,24,0.5526315789473685,0.0,0.0
+hassex,female,has_status_generating_event,purchase of freedom by cornelia willis,30,0.6728395061728395,23,0.5216374269005848,0.0,0.0
+hassex,female,has_status_generating_event,escape to the north,30,0.6728395061728395,24,0.5526315789473685,0.0,0.0
+hassex,female,has_status_generating_event,writing and abolitionist work,30,0.6728395061728395,11,0.46743295019157083,0.0,0.0
+hassex,female,to the,"north""), has_status_generating_event(enslaved person, ""purchase of freedom by cornelia willis""), has_status_generating_event(abolitionist, ""escape to the north""), has_status_generating_event(writer, ""writing and abolitionist work"").",33,0.4444444444444444,5,0.564176245210728,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,harriet jacobs,38,0.5675925925925926,21,0.5142857142857143,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,jacobs,41,0.6274651274651274,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,harriet,44,0.6772486772486772,33,0.5619047619047619,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,enslaver,42,0.6570105820105819,15,0.44166666666666665,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,sibling,42,0.6570105820105819,33,0.5619047619047619,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,norcom,44,0.6037037037037037,18,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,john,44,0.6037037037037037,22,0.48333333333333334,0.0,0.0
+hasparticipantrole,child,role record,module:,28,0.4452861952861953,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant_role_type,95,0.9766666666666667,23,0.33174603174603173,0.0,0.0
+hasparticipantrole,child,has_participant_role,abolitionist,95,0.9766666666666667,12,0.35555555555555557,0.0,0.0
+hasparticipantrole,child,has_participant_role,civil war aid provider,95,0.9766666666666667,30,0.6606060606060606,0.0,0.0
+hasparticipantrole,child,has_participant_role,school founder,95,0.9766666666666667,42,0.6047619047619047,0.0,0.0
+hasparticipantrole,child,war aid,"provider""), has_participant_role(harriet jacobs, ""school founder"").",24,0.5145502645502645,14,0.5582089552238806,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,female,32,0.5317460317460317,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,slave,50,0.6566137566137565,20,0.0,0.0,0.0
+hasparticipantrole,child,has_occupation,nanny,50,0.6566137566137565,0,0.0,0.0,0.0
+hasparticipantrole,child,has_occupation,abolitionist,50,0.6566137566137565,12,0.35555555555555557,0.0,0.0
+hasparticipantrole,child,has_occupation,writer,50,0.6566137566137565,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,has_occupation,boarding house operator,50,0.6566137566137565,7,0.46570048309178746,0.0,0.0
+hasparticipantrole,child,house,"operator"").",26,0.5037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_age,age,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_age,between 1813 and 1815,40,0.5978835978835978,8,0.0,0.0,0.0
+hasparticipantrole,child,1813 and,"1815"")",15,0.4537037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,has_birthdate,date_of_birth,52,0.6937321937321936,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_birthdate,between 1813 and 1815,52,0.6937321937321936,8,0.0,0.0,0.0
+hasparticipantrole,child,1813 and,"1815"")",15,0.4537037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,has_deathdate,date_of_death,52,0.6866096866096866,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_deathdate,march 7,52,0.6866096866096866,33,0.0,0.0,0.0
+hasparticipantrole,child,has_deathdate,1897,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_race_or_color,race_or_color,46,0.60239651416122,22,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_race_or_color,african-american,46,0.60239651416122,19,0.3416666666666666,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,enslaved person,46,0.6479302832244008,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,child,has_person_status,abolitionist,46,0.6479302832244008,12,0.35555555555555557,0.0,0.0
+hasparticipantrole,child,has_person_status,writer,46,0.6479302832244008,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,escape to the north,40,0.5819304152637487,17,0.4175438596491228,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,purchase of freedom by cornelia willis,40,0.5819304152637487,19,0.5596491228070176,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,escape to the north,40,0.5819304152637487,17,0.4175438596491228,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,writing and abolitionist work,40,0.5819304152637487,12,0.45670498084291183,0.0,0.0
+hasparticipantrole,child,to the,"north""), has_status_generating_event(enslaved person, ""purchase of freedom by cornelia willis""), has_status_generating_event(abolitionist, ""escape to the north""), has_status_generating_event(writer, ""writing and abolitionist work"").",25,0.3148148148148148,4,0.5405172413793103,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,harriet jacobs,38,0.5675925925925926,28,0.43015873015873013,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,jacobs,41,0.6274651274651274,19,0.45555555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,harriet,44,0.6772486772486772,18,0.3063492063492063,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,enslaver,42,0.6570105820105819,35,0.5861111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,sibling,42,0.6570105820105819,18,0.40317460317460313,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,norcom,44,0.6037037037037037,19,0.41111111111111115,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,john,44,0.6037037037037037,21,0.0,0.0,0.0
+hasparticipantrole,deceased person,role record,module:,28,0.4452861952861953,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant_role_type,95,0.9766666666666667,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,abolitionist,95,0.9766666666666667,22,0.45,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,civil war aid provider,95,0.9766666666666667,38,0.5073232323232323,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,school founder,95,0.9766666666666667,28,0.5349206349206349,0.0,0.0
+hasparticipantrole,deceased person,war aid,"provider""), has_participant_role(harriet jacobs, ""school founder"").",24,0.5145502645502645,24,0.49303482587064673,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,female,32,0.5317460317460317,29,0.45555555555555555,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,slave,50,0.6566137566137565,20,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,nanny,50,0.6566137566137565,20,0.4222222222222222,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,abolitionist,50,0.6566137566137565,22,0.45,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,writer,50,0.6566137566137565,19,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,boarding house operator,50,0.6566137566137565,42,0.5671497584541063,0.0,0.0
+hasparticipantrole,deceased person,house,"operator"").",26,0.5037037037037037,31,0.4909090909090909,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_age,age,40,0.5978835978835978,22,0.4333333333333333,0.0,0.0
+hasparticipantrole,deceased person,has_age,between 1813 and 1815,40,0.5978835978835978,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,1813 and,"1815"")",15,0.4537037037037037,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,date_of_birth,52,0.6937321937321936,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,between 1813 and 1815,52,0.6937321937321936,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,1813 and,"1815"")",15,0.4537037037037037,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,date_of_death,52,0.6866096866096866,36,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,march 7,52,0.6866096866096866,18,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,1897,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,race_or_color,46,0.60239651416122,29,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,african-american,46,0.60239651416122,32,0.48194444444444445,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,enslaved person,46,0.6479302832244008,73,0.7833333333333333,0.0,0.33609692727625756
+hasparticipantrole,deceased person,has_person_status,abolitionist,46,0.6479302832244008,22,0.45,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,writer,46,0.6479302832244008,19,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,escape to the north,40,0.5819304152637487,41,0.6798511430090377,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,purchase of freedom by cornelia willis,40,0.5819304152637487,30,0.6080521817363923,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,escape to the north,40,0.5819304152637487,41,0.6798511430090377,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,writing and abolitionist work,40,0.5819304152637487,23,0.4741105637657362,0.0,0.0
+hasparticipantrole,deceased person,to the,"north""), has_status_generating_event(enslaved person, ""purchase of freedom by cornelia willis""), has_status_generating_event(abolitionist, ""escape to the north""), has_status_generating_event(writer, ""writing and abolitionist work"").",25,0.3148148148148148,11,0.5548850574712644,0.0,0.07348756999157495
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,harriet jacobs,25,0.5555555555555555,21,0.5142857142857143,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,surname,34,0.5474386724386724,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,jacobs,34,0.5474386724386724,18,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,first_name,32,0.5615079365079364,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,harriet,32,0.5615079365079364,33,0.5619047619047619,0.0,0.0
+hasdescriptiveoccupation,slave,relationship record,module:,33,0.6137539361223572,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,27,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,enslaver,41,0.6037698412698412,77,0.875,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,sibling,41,0.6037698412698412,33,0.5619047619047619,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,agent,38,0.6264245014245015,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,norcom,38,0.6264245014245015,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,john,38,0.6264245014245015,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,role record,module:,29,0.4873737373737373,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,participant_role_type,50,0.6805555555555555,15,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,abolitionist,50,0.6805555555555555,12,0.35555555555555557,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,civil war aid provider,50,0.6805555555555555,30,0.46767676767676764,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,school founder,50,0.6805555555555555,32,0.5142857142857143,0.0,0.0
+hasdescriptiveoccupation,slave,war aid,"provider""), has_participant_role(harriet jacobs, ""school founder"").",26,0.49603174603174605,11,0.5582089552238806,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,sex_type,32,0.5742063492063493,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,female,32,0.5742063492063493,36,0.5777777777777778,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,slave,68,0.8045940170940171,100,1.0,0.0,1.0
+hasdescriptiveoccupation,slave,has_occupation,nanny,68,0.8045940170940171,20,0.4666666666666666,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,abolitionist,68,0.8045940170940171,12,0.35555555555555557,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,writer,68,0.8045940170940171,18,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,boarding house operator,68,0.8045940170940171,14,0.4956521739130435,0.0,0.0
+hasdescriptiveoccupation,slave,house,"operator"").",21,0.5750000000000001,12,0.3606060606060606,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,age,26,0.5793650793650794,50,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,between 1813 and 1815,26,0.5793650793650794,8,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,1813 and,"1815"")",12,0.4444444444444444,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,date_of_birth,38,0.6286324786324786,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,between 1813 and 1815,38,0.6286324786324786,8,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,1813 and,"1815"")",12,0.4444444444444444,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,date_of_death,43,0.652065527065527,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,march 7,43,0.652065527065527,17,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,1897,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,race_or_color,39,0.5977668845315903,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,african-american,39,0.5977668845315903,19,0.5083333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,enslaved person,39,0.6241830065359477,50,0.6444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,abolitionist,39,0.6241830065359477,12,0.35555555555555557,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,writer,39,0.6241830065359477,18,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,event,39,0.5815696649029983,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,escape to the north,39,0.5815696649029983,25,0.47485380116959064,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,purchase of freedom by cornelia willis,39,0.5815696649029983,14,0.4485380116959064,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,escape to the north,39,0.5815696649029983,25,0.47485380116959064,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,writing and abolitionist work,39,0.5815696649029983,6,0.4114942528735632,0.0,0.0
+hasdescriptiveoccupation,slave,to the,"north""), has_status_generating_event(enslaved person, ""purchase of freedom by cornelia willis""), has_status_generating_event(abolitionist, ""escape to the north""), has_status_generating_event(writer, ""writing and abolitionist work"").",20,0.4305555555555555,4,0.5405172413793103,0.0,0.0
+hasdescriptiveoccupation,social reformer,record,module:,27,0.6138888888888889,27,0.5428571428571428,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_name,name,25,0.5555555555555555,32,0.5444444444444444,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_name,harriet jacobs,25,0.5555555555555555,28,0.4984126984126984,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_surname,surname,34,0.5474386724386724,36,0.5293650793650794,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_surname,jacobs,34,0.5474386724386724,19,0.4777777777777778,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_first_name,first_name,32,0.5615079365079364,32,0.5,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_first_name,harriet,32,0.5615079365079364,36,0.5293650793650794,0.0,0.0
+hasdescriptiveoccupation,social reformer,relationship record,module:,33,0.6137539361223572,27,0.5428571428571428,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,25,0.48328664799253035,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_interagent_relationship_type_to,enslaver,41,0.6037698412698412,35,0.5194444444444444,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_interagent_relationship_type_to,sibling,41,0.6037698412698412,27,0.5428571428571428,0.0,0.0
+hasdescriptiveoccupation,social reformer,is_relationship_to,agent,38,0.6264245014245015,20,0.5111111111111111,0.0,0.0
+hasdescriptiveoccupation,social reformer,is_relationship_to,norcom,38,0.6264245014245015,38,0.5611111111111111,0.0,0.0
+hasdescriptiveoccupation,social reformer,is_relationship_to,john,38,0.6264245014245015,11,0.4388888888888889,0.0,0.0
+hasdescriptiveoccupation,social reformer,role record,module:,29,0.4873737373737373,27,0.5428571428571428,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_participant_role,participant_role_type,50,0.6805555555555555,33,0.565079365079365,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_participant_role,abolitionist,50,0.6805555555555555,22,0.45,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_participant_role,civil war aid provider,50,0.6805555555555555,43,0.6404040404040404,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_participant_role,school founder,50,0.6805555555555555,55,0.5994708994708995,0.0,0.0
+hasdescriptiveoccupation,social reformer,war aid,"provider""), has_participant_role(harriet jacobs, ""school founder"").",26,0.49603174603174605,27,0.5330526852914912,0.0,0.0
+hasdescriptiveoccupation,social reformer,record,module:,27,0.6138888888888889,27,0.5428571428571428,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_sex,sex_type,32,0.5742063492063493,26,0.4611111111111111,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_sex,female,32,0.5742063492063493,29,0.5666666666666667,0.0,0.0
+hasdescriptiveoccupation,social reformer,record,module:,27,0.6138888888888889,27,0.5428571428571428,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_occupation,occupation,68,0.8045940170940171,32,0.5444444444444444,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_occupation,slave,68,0.8045940170940171,30,0.6055555555555555,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_occupation,nanny,68,0.8045940170940171,10,0.4222222222222222,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_occupation,abolitionist,68,0.8045940170940171,22,0.45,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_occupation,writer,68,0.8045940170940171,29,0.5611111111111111,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_occupation,boarding house operator,68,0.8045940170940171,37,0.5671497584541063,0.0,0.0
+hasdescriptiveoccupation,social reformer,house,"operator"").",21,0.5750000000000001,31,0.592929292929293,0.0,0.0
+hasdescriptiveoccupation,social reformer,record,module:,27,0.6138888888888889,27,0.5428571428571428,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_age,age,26,0.5793650793650794,22,0.6,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_age,between 1813 and 1815,26,0.5793650793650794,11,0.319047619047619,0.0,0.0
+hasdescriptiveoccupation,social reformer,1813 and,"1815"")",12,0.4444444444444444,0,0.0,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_birthdate,date_of_birth,38,0.6286324786324786,29,0.45384615384615384,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_birthdate,between 1813 and 1815,38,0.6286324786324786,11,0.319047619047619,0.0,0.0
+hasdescriptiveoccupation,social reformer,1813 and,"1815"")",12,0.4444444444444444,0,0.0,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_deathdate,date_of_death,43,0.652065527065527,29,0.505982905982906,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_deathdate,march 7,43,0.652065527065527,18,0.446031746031746,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_deathdate,1897,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,social reformer,record,module:,27,0.6138888888888889,27,0.5428571428571428,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_race_or_color,race_or_color,39,0.5977668845315903,36,0.6329059829059829,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_race_or_color,african-american,39,0.5977668845315903,39,0.49186507936507934,0.0,0.0
+hasdescriptiveoccupation,social reformer,status record,module:,32,0.540954415954416,27,0.5428571428571428,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_person_status,enslaved person,39,0.6241830065359477,33,0.5638888888888889,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_person_status,abolitionist,39,0.6241830065359477,22,0.45,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_person_status,writer,39,0.6241830065359477,29,0.5611111111111111,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_status_generating_event,event,39,0.5815696649029983,20,0.4222222222222222,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_status_generating_event,escape to the north,39,0.5815696649029983,41,0.5801169590643275,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_status_generating_event,purchase of freedom by cornelia willis,39,0.5815696649029983,30,0.6080521817363923,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_status_generating_event,escape to the north,39,0.5815696649029983,41,0.5801169590643275,0.0,0.0
+hasdescriptiveoccupation,social reformer,has_status_generating_event,writing and abolitionist work,39,0.5815696649029983,27,0.5197318007662836,0.0,0.0
+hasdescriptiveoccupation,social reformer,to the,"north""), has_status_generating_event(enslaved person, ""purchase of freedom by cornelia willis""), has_status_generating_event(abolitionist, ""escape to the north""), has_status_generating_event(writer, ""writing and abolitionist work"").",20,0.4305555555555555,11,0.5326628352490421,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,record,module:,27,0.6138888888888889,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_name,name,25,0.5555555555555555,23,0.5176767676767676,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_name,harriet jacobs,25,0.5555555555555555,44,0.5728715728715729,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_surname,surname,34,0.5474386724386724,28,0.5138528138528139,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_surname,jacobs,34,0.5474386724386724,14,0.30808080808080807,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_first_name,first_name,32,0.5615079365079364,25,0.5131313131313131,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_first_name,harriet,32,0.5615079365079364,41,0.5988455988455987,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,relationship record,module:,33,0.6137539361223572,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,26,0.5641711229946523,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_interagent_relationship_type_to,enslaver,41,0.6037698412698412,40,0.6212121212121212,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_interagent_relationship_type_to,sibling,41,0.6037698412698412,21,0.5010822510822511,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,is_relationship_to,agent,38,0.6264245014245015,30,0.6606060606060606,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,is_relationship_to,norcom,38,0.6264245014245015,21,0.47474747474747475,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,is_relationship_to,john,38,0.6264245014245015,8,0.4318181818181818,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,role record,module:,29,0.4873737373737373,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_participant_role,participant_role_type,50,0.6805555555555555,33,0.5102453102453102,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_participant_role,abolitionist,50,0.6805555555555555,24,0.5386002886002886,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_participant_role,civil war aid provider,50,0.6805555555555555,41,0.6247086247086248,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_participant_role,school founder,50,0.6805555555555555,33,0.5108225108225107,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,war aid,"provider""), has_participant_role(harriet jacobs, ""school founder"").",26,0.49603174603174605,31,0.5858661239258255,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,record,module:,27,0.6138888888888889,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_sex,sex_type,32,0.5742063492063493,27,0.5606060606060607,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_sex,female,32,0.5742063492063493,21,0.5328282828282828,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,record,module:,27,0.6138888888888889,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_occupation,occupation,68,0.8045940170940171,25,0.4439393939393939,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_occupation,slave,68,0.8045940170940171,37,0.8454545454545456,0.0,0.4494364165239821
+hasdescriptiveoccupation,slave narrative author,has_occupation,nanny,68,0.8045940170940171,15,0.3303030303030303,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_occupation,abolitionist,68,0.8045940170940171,24,0.5386002886002886,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_occupation,writer,68,0.8045940170940171,29,0.5535353535353535,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_occupation,boarding house operator,68,0.8045940170940171,40,0.6446640316205534,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,house,"operator"").",21,0.5750000000000001,36,0.42727272727272725,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,record,module:,27,0.6138888888888889,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_age,age,26,0.5793650793650794,16,0.5858585858585859,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_age,between 1813 and 1815,26,0.5793650793650794,23,0.40764790764790765,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,1813 and,"1815"")",12,0.4444444444444444,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_birthdate,date_of_birth,38,0.6286324786324786,29,0.5236430236430237,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_birthdate,between 1813 and 1815,38,0.6286324786324786,23,0.40764790764790765,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,1813 and,"1815"")",12,0.4444444444444444,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_deathdate,date_of_death,43,0.652065527065527,34,0.5236430236430237,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_deathdate,march 7,43,0.652065527065527,21,0.41053391053391053,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_deathdate,1897,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,record,module:,27,0.6138888888888889,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_race_or_color,race_or_color,39,0.5977668845315903,29,0.5712620712620713,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_race_or_color,african-american,39,0.5977668845315903,32,0.5460858585858586,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,status record,module:,32,0.540954415954416,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_person_status,enslaved person,39,0.6241830065359477,43,0.5737373737373738,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_person_status,abolitionist,39,0.6241830065359477,24,0.5386002886002886,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_person_status,writer,39,0.6241830065359477,29,0.5535353535353535,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_status_generating_event,event,39,0.5815696649029983,30,0.5772727272727273,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_status_generating_event,escape to the north,39,0.5815696649029983,49,0.5590111642743222,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_status_generating_event,purchase of freedom by cornelia willis,39,0.5815696649029983,27,0.5254044201412622,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_status_generating_event,escape to the north,39,0.5815696649029983,49,0.5590111642743222,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_status_generating_event,writing and abolitionist work,39,0.5815696649029983,31,0.4749216300940439,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,to the,"north""), has_status_generating_event(enslaved person, ""purchase of freedom by cornelia willis""), has_status_generating_event(abolitionist, ""escape to the north""), has_status_generating_event(writer, ""writing and abolitionist work"").",20,0.4305555555555555,17,0.546760710553814,0.0,0.0
+hasfirstname,harriet ann,record,module:,22,0.4166666666666667,11,0.41125541125541126,0.0,0.0
+hasfirstname,harriet ann,has_name,name,70,0.8736111111111112,27,0.5606060606060607,0.0,0.0
+hasfirstname,harriet ann,has_name,harriet jacobs,70,0.8736111111111112,72,0.8922077922077922,0.0,0.33609692727625756
+hasfirstname,harriet ann,has_surname,surname,70,0.8733164983164984,22,0.45598845598845594,0.0,0.0
+hasfirstname,harriet ann,has_surname,jacobs,70,0.8733164983164984,12,0.41919191919191917,0.0,0.0
+hasfirstname,harriet ann,has_first_name,first_name,92,0.9666666666666667,29,0.604040404040404,0.0,0.0
+hasfirstname,harriet ann,has_first_name,harriet,92,0.9666666666666667,78,0.9272727272727272,0.0,0.5797386715376658
+hasfirstname,harriet ann,relationship record,module:,32,0.5077276524644946,11,0.41125541125541126,0.0,0.0
+hasfirstname,harriet ann,has_interagent_relationship_type_to,relationship_type,34,0.5949735449735449,29,0.5216874628639334,0.0,0.0
+hasfirstname,harriet ann,has_interagent_relationship_type_to,enslaver,34,0.5949735449735449,21,0.43813131313131315,0.0,0.0
+hasfirstname,harriet ann,has_interagent_relationship_type_to,sibling,34,0.5949735449735449,22,0.48917748917748916,0.0,0.0
+hasfirstname,harriet ann,is_relationship_to,agent,27,0.6203703703703703,38,0.6242424242424242,0.0,0.0
+hasfirstname,harriet ann,is_relationship_to,norcom,27,0.6203703703703703,12,0.41919191919191917,0.0,0.0
+hasfirstname,harriet ann,is_relationship_to,john,27,0.6203703703703703,27,0.44696969696969696,0.0,0.0
+hasfirstname,harriet ann,role record,module:,17,0.44949494949494956,11,0.41125541125541126,0.0,0.0
+hasfirstname,harriet ann,has_participant_role,participant_role_type,44,0.6962962962962962,31,0.5613275613275613,0.0,0.0
+hasfirstname,harriet ann,has_participant_role,abolitionist,44,0.6962962962962962,35,0.5656565656565656,0.0,0.0
+hasfirstname,harriet ann,has_participant_role,civil war aid provider,44,0.6962962962962962,30,0.42727272727272725,0.0,0.0
+hasfirstname,harriet ann,has_participant_role,school founder,44,0.6962962962962962,24,0.49567099567099565,0.0,0.0
+hasfirstname,harriet ann,war aid,"provider""), has_participant_role(harriet jacobs, ""school founder"").",32,0.5515873015873015,26,0.5527815468113976,0.0,0.1757860783933462
+hasfirstname,harriet ann,record,module:,22,0.4166666666666667,11,0.41125541125541126,0.0,0.0
+hasfirstname,harriet ann,has_sex,sex_type,53,0.6349206349206349,21,0.4772727272727273,0.0,0.0
+hasfirstname,harriet ann,has_sex,female,53,0.6349206349206349,24,0.3383838383838384,0.0,0.0
+hasfirstname,harriet ann,record,module:,22,0.4166666666666667,11,0.41125541125541126,0.0,0.0
+hasfirstname,harriet ann,has_occupation,occupation,38,0.5873015873015873,29,0.5045454545454545,0.0,0.0
+hasfirstname,harriet ann,has_occupation,slave,38,0.5873015873015873,25,0.5272727272727272,0.0,0.0
+hasfirstname,harriet ann,has_occupation,nanny,38,0.5873015873015873,38,0.43030303030303035,0.0,0.0
+hasfirstname,harriet ann,has_occupation,abolitionist,38,0.5873015873015873,35,0.5656565656565656,0.0,0.0
+hasfirstname,harriet ann,has_occupation,writer,38,0.5873015873015873,35,0.695959595959596,0.0,0.0
+hasfirstname,harriet ann,has_occupation,boarding house operator,38,0.5873015873015873,35,0.5040466779597215,0.0,0.0
+hasfirstname,harriet ann,house,"operator"").",35,0.5222222222222223,18,0.503030303030303,0.0,0.0
+hasfirstname,harriet ann,record,module:,22,0.4166666666666667,11,0.41125541125541126,0.0,0.0
+hasfirstname,harriet ann,has_age,age,53,0.7972222222222223,29,0.6161616161616161,0.0,0.0
+hasfirstname,harriet ann,has_age,between 1813 and 1815,53,0.7972222222222223,31,0.5548340548340548,0.0,0.0
+hasfirstname,harriet ann,1813 and,"1815"")",20,0.47222222222222215,0,0.0,0.0,0.0
+hasfirstname,harriet ann,has_birthdate,date_of_birth,64,0.8324786324786324,25,0.47377622377622375,0.0,0.0
+hasfirstname,harriet ann,has_birthdate,between 1813 and 1815,64,0.8324786324786324,31,0.5548340548340548,0.0,0.0
+hasfirstname,harriet ann,1813 and,"1815"")",20,0.47222222222222215,0,0.0,0.0,0.0
+hasfirstname,harriet ann,has_deathdate,date_of_death,48,0.5982905982905983,25,0.47377622377622375,0.0,0.0
+hasfirstname,harriet ann,has_deathdate,march 7,48,0.5982905982905983,33,0.5616883116883117,0.0,0.0
+hasfirstname,harriet ann,has_deathdate,1897,48,0.5982905982905983,0,0.0,0.0,0.0
+hasfirstname,harriet ann,record,module:,22,0.4166666666666667,11,0.41125541125541126,0.0,0.0
+hasfirstname,harriet ann,has_race_or_color,race_or_color,41,0.6176470588235294,25,0.39044289044289043,0.0,0.0
+hasfirstname,harriet ann,has_race_or_color,african-american,41,0.6176470588235294,44,0.6436688311688311,0.0,0.0
+hasfirstname,harriet ann,status record,module:,32,0.5427350427350427,11,0.41125541125541126,0.0,0.0
+hasfirstname,harriet ann,has_person_status,enslaved person,48,0.6857298474945533,31,0.4601010101010101,0.0,0.0
+hasfirstname,harriet ann,has_person_status,abolitionist,48,0.6857298474945533,35,0.5656565656565656,0.0,0.0
+hasfirstname,harriet ann,has_person_status,writer,48,0.6857298474945533,35,0.695959595959596,0.0,0.0
+hasfirstname,harriet ann,has_status_generating_event,event,41,0.5833333333333334,25,0.5272727272727272,0.0,0.0
+hasfirstname,harriet ann,has_status_generating_event,escape to the north,41,0.5833333333333334,33,0.4392344497607656,0.0,0.0
+hasfirstname,harriet ann,has_status_generating_event,purchase of freedom by cornelia willis,41,0.5833333333333334,24,0.4640009113693324,0.0,0.0
+hasfirstname,harriet ann,has_status_generating_event,escape to the north,41,0.5833333333333334,33,0.4392344497607656,0.0,0.0
+hasfirstname,harriet ann,has_status_generating_event,writing and abolitionist work,41,0.5833333333333334,35,0.5843782654127482,0.0,0.0
+hasfirstname,harriet ann,to the,"north""), has_status_generating_event(enslaved person, ""purchase of freedom by cornelia willis""), has_status_generating_event(abolitionist, ""escape to the north""), has_status_generating_event(writer, ""writing and abolitionist work"").",22,0.3333333333333333,9,0.5309561128526645,0.0,0.0
+hassurname,jacobs,record,module:,25,0.4222222222222222,15,0.4365079365079365,0.0,0.0
+hassurname,jacobs,has_name,name,78,0.9008333333333334,20,0.47222222222222215,0.0,0.0
+hassurname,jacobs,has_name,harriet jacobs,78,0.9008333333333334,60,0.41269841269841273,0.0,0.5797386715376658
+hassurname,jacobs,has_surname,surname,95,0.9787878787878788,15,0.0,0.0,0.0
+hassurname,jacobs,has_surname,jacobs,95,0.9787878787878788,100,1.0,0.0,1.0
+hassurname,jacobs,has_first_name,first_name,67,0.8674074074074074,12,0.4222222222222222,0.0,0.0
+hassurname,jacobs,has_first_name,harriet,67,0.8674074074074074,15,0.4365079365079365,0.0,0.0
+hassurname,jacobs,relationship record,module:,28,0.4543859649122807,15,0.4365079365079365,0.0,0.0
+hassurname,jacobs,has_interagent_relationship_type_to,relationship_type,31,0.5380952380952381,26,0.5588235294117647,0.0,0.0
+hassurname,jacobs,has_interagent_relationship_type_to,enslaver,31,0.5380952380952381,14,0.3611111111111111,0.0,0.0
+hassurname,jacobs,has_interagent_relationship_type_to,sibling,31,0.5380952380952381,15,0.4365079365079365,0.0,0.0
+hassurname,jacobs,is_relationship_to,agent,21,0.5333333333333333,18,0.45555555555555555,0.0,0.0
+hassurname,jacobs,is_relationship_to,norcom,21,0.5333333333333333,33,0.38888888888888884,0.0,0.0
+hassurname,jacobs,is_relationship_to,john,21,0.5333333333333333,40,0.611111111111111,0.0,0.0
+hassurname,jacobs,role record,module:,19,0.46060606060606063,15,0.4365079365079365,0.0,0.0
+hassurname,jacobs,has_participant_role,participant_role_type,40,0.5777777777777778,22,0.4761904761904762,0.0,0.0
+hassurname,jacobs,has_participant_role,abolitionist,40,0.5777777777777778,33,0.5833333333333334,0.0,0.0
+hassurname,jacobs,has_participant_role,civil war aid provider,40,0.5777777777777778,14,0.30808080808080807,0.0,0.0
+hassurname,jacobs,has_participant_role,school founder,40,0.5777777777777778,20,0.4603174603174603,0.0,0.0
+hassurname,jacobs,war aid,"provider""), has_participant_role(harriet jacobs, ""school founder"").",35,0.5761904761904763,16,0.4087893864013267,0.0,0.3032160644503863
+hassurname,jacobs,record,module:,25,0.4222222222222222,15,0.4365079365079365,0.0,0.0
+hassurname,jacobs,has_sex,sex_type,59,0.8166666666666667,14,0.0,0.0,0.0
+hassurname,jacobs,has_sex,female,59,0.8166666666666667,17,0.4444444444444444,0.0,0.0
+hassurname,jacobs,record,module:,25,0.4222222222222222,15,0.4365079365079365,0.0,0.0
+hassurname,jacobs,has_occupation,occupation,42,0.6190476190476191,25,0.48888888888888893,0.0,0.0
+hassurname,jacobs,has_occupation,slave,42,0.6190476190476191,18,0.45555555555555555,0.0,0.0
+hassurname,jacobs,has_occupation,nanny,42,0.6190476190476191,18,0.45555555555555555,0.0,0.0
+hassurname,jacobs,has_occupation,abolitionist,42,0.6190476190476191,33,0.5833333333333334,0.0,0.0
+hassurname,jacobs,has_occupation,writer,42,0.6190476190476191,0,0.0,0.0,0.0
+hassurname,jacobs,has_occupation,boarding house operator,42,0.6190476190476191,21,0.5301932367149759,0.0,0.0
+hassurname,jacobs,house,"operator"").",40,0.5222222222222221,24,0.3383838383838384,0.0,0.0
+hassurname,jacobs,record,module:,25,0.4222222222222222,15,0.4365079365079365,0.0,0.0
+hassurname,jacobs,has_age,age,59,0.8166666666666667,22,0.5,0.0,0.0
+hassurname,jacobs,has_age,between 1813 and 1815,59,0.8166666666666667,7,0.4047619047619047,0.0,0.0
+hassurname,jacobs,1813 and,"1815"")",22,0.48333333333333334,0,0.0,0.0,0.0
+hassurname,jacobs,has_birthdate,date_of_birth,52,0.6871794871794871,32,0.576923076923077,0.0,0.0
+hassurname,jacobs,has_birthdate,between 1813 and 1815,52,0.6871794871794871,7,0.4047619047619047,0.0,0.0
+hassurname,jacobs,1813 and,"1815"")",22,0.48333333333333334,0,0.0,0.0,0.0
+hassurname,jacobs,has_deathdate,date_of_death,43,0.5615384615384615,21,0.49572649572649574,0.0,0.0
+hassurname,jacobs,has_deathdate,march 7,43,0.5615384615384615,31,0.5396825396825397,0.0,0.0
+hassurname,jacobs,has_deathdate,1897,43,0.5615384615384615,0,0.0,0.0,0.0
+hassurname,jacobs,record,module:,25,0.4222222222222222,15,0.4365079365079365,0.0,0.0
+hassurname,jacobs,has_race_or_color,race_or_color,44,0.6509803921568628,32,0.576923076923077,0.0,0.0
+hassurname,jacobs,has_race_or_color,african-american,44,0.6509803921568628,18,0.4861111111111111,0.0,0.0
+hassurname,jacobs,status record,module:,35,0.5760683760683761,15,0.4365079365079365,0.0,0.0
+hassurname,jacobs,has_person_status,enslaved person,44,0.6735294117647058,19,0.32222222222222224,0.0,0.0
+hassurname,jacobs,has_person_status,abolitionist,44,0.6735294117647058,33,0.5833333333333334,0.0,0.0
+hassurname,jacobs,has_person_status,writer,44,0.6735294117647058,0,0.0,0.0,0.0
+hassurname,jacobs,has_status_generating_event,event,43,0.6703703703703704,0,0.0,0.0,0.0
+hassurname,jacobs,has_status_generating_event,escape to the north,43,0.6703703703703704,16,0.5423976608187134,0.0,0.0
+hassurname,jacobs,has_status_generating_event,purchase of freedom by cornelia willis,43,0.6703703703703704,18,0.5216374269005848,0.0,0.0
+hassurname,jacobs,has_status_generating_event,escape to the north,43,0.6703703703703704,16,0.5423976608187134,0.0,0.0
+hassurname,jacobs,has_status_generating_event,writing and abolitionist work,43,0.6703703703703704,17,0.4233716475095785,0.0,0.0
+hassurname,jacobs,to the,"north""), has_status_generating_event(enslaved person, ""purchase of freedom by cornelia willis""), has_status_generating_event(abolitionist, ""escape to the north""), has_status_generating_event(writer, ""writing and abolitionist work"").",25,0.5111111111111111,4,0.4849616858237548,0.0,0.0
+hasname,harriet ann jacobs,record,module:,15,0.0,8,0.3994708994708995,0.0,0.0
+hasname,harriet ann jacobs,has_name,name,93,0.9708333333333333,18,0.5370370370370371,0.0,0.0
+hasname,harriet ann jacobs,has_name,harriet jacobs,93,0.9708333333333333,88,0.9412698412698414,0.0,0.7092972666062739
+hasname,harriet ann jacobs,has_surname,surname,78,0.9151515151515152,24,0.43121693121693117,0.0,0.0
+hasname,harriet ann jacobs,has_surname,jacobs,78,0.9151515151515152,50,0.40740740740740744,0.0,0.4494364165239821
+hasname,harriet ann jacobs,has_first_name,first_name,67,0.5476190476190476,29,0.5333333333333333,0.0,0.0
+hasname,harriet ann jacobs,has_first_name,harriet,67,0.5476190476190476,56,0.8777777777777778,0.0,0.44943641652398214
+hasname,harriet ann jacobs,relationship record,module:,23,0.5106516290726817,8,0.3994708994708995,0.0,0.0
+hasname,harriet ann jacobs,has_interagent_relationship_type_to,relationship_type,29,0.6206349206349207,29,0.45098039215686275,0.0,0.0
+hasname,harriet ann jacobs,has_interagent_relationship_type_to,enslaver,29,0.6206349206349207,23,0.40740740740740744,0.0,0.0
+hasname,harriet ann jacobs,has_interagent_relationship_type_to,sibling,29,0.6206349206349207,16,0.4656084656084656,0.0,0.0
+hasname,harriet ann jacobs,is_relationship_to,agent,16,0.43121693121693117,26,0.5907407407407407,0.0,0.0
+hasname,harriet ann jacobs,is_relationship_to,norcom,16,0.43121693121693117,25,0.40740740740740744,0.0,0.0
+hasname,harriet ann jacobs,is_relationship_to,john,16,0.43121693121693117,18,0.5370370370370371,0.0,0.0
+hasname,harriet ann jacobs,role record,module:,11,0.41125541125541126,8,0.3994708994708995,0.0,0.0
+hasname,harriet ann jacobs,has_participant_role,participant_role_type,37,0.5904761904761905,31,0.6058201058201058,0.0,0.0
+hasname,harriet ann jacobs,has_participant_role,abolitionist,37,0.5904761904761905,33,0.5555555555555555,0.0,0.0
+hasname,harriet ann jacobs,has_participant_role,civil war aid provider,37,0.5904761904761905,30,0.42616642616642614,0.0,0.0
+hasname,harriet ann jacobs,has_participant_role,school founder,37,0.5904761904761905,19,0.4783068783068783,0.0,0.0
+hasname,harriet ann jacobs,war aid,"provider""), has_participant_role(harriet jacobs, ""school founder"").",29,0.5238095238095238,33,0.5758625174779697,0.0,0.3187840217537793
+hasname,harriet ann jacobs,record,module:,15,0.0,8,0.3994708994708995,0.0,0.0
+hasname,harriet ann jacobs,has_sex,sex_type,57,0.8,15,0.4537037037037037,0.0,0.0
+hasname,harriet ann jacobs,has_sex,female,57,0.8,17,0.3148148148148148,0.0,0.0
+hasname,harriet ann jacobs,record,module:,15,0.0,8,0.3994708994708995,0.0,0.0
+hasname,harriet ann jacobs,has_occupation,occupation,38,0.6190476190476191,21,0.45925925925925926,0.0,0.0
+hasname,harriet ann jacobs,has_occupation,slave,38,0.6190476190476191,17,0.5037037037037037,0.0,0.0
+hasname,harriet ann jacobs,has_occupation,nanny,38,0.6190476190476191,26,0.5888888888888889,0.0,0.0
+hasname,harriet ann jacobs,has_occupation,abolitionist,38,0.6190476190476191,33,0.5555555555555555,0.0,0.0
+hasname,harriet ann jacobs,has_occupation,writer,38,0.6190476190476191,25,0.6370370370370371,0.0,0.0
+hasname,harriet ann jacobs,has_occupation,boarding house operator,38,0.6190476190476191,34,0.544942175376958,0.0,0.0
+hasname,harriet ann jacobs,house,"operator"").",50,0.6761904761904761,21,0.4441077441077441,0.0,0.0
+hasname,harriet ann jacobs,record,module:,15,0.0,8,0.3994708994708995,0.0,0.0
+hasname,harriet ann jacobs,has_age,age,71,0.8666666666666668,19,0.5925925925925926,0.0,0.0
+hasname,harriet ann jacobs,has_age,between 1813 and 1815,71,0.8666666666666668,31,0.47883597883597884,0.0,0.0
+hasname,harriet ann jacobs,1813 and,"1815"")",27,0.3452380952380952,0,0.0,0.0,0.0
+hasname,harriet ann jacobs,has_birthdate,date_of_birth,50,0.553113553113553,26,0.4871794871794872,0.0,0.0
+hasname,harriet ann jacobs,has_birthdate,between 1813 and 1815,50,0.553113553113553,31,0.47883597883597884,0.0,0.0
+hasname,harriet ann jacobs,1813 and,"1815"")",27,0.3452380952380952,0,0.0,0.0,0.0
+hasname,harriet ann jacobs,has_deathdate,date_of_death,50,0.632967032967033,19,0.4266381766381766,0.0,0.0
+hasname,harriet ann jacobs,has_deathdate,march 7,50,0.632967032967033,24,0.5145502645502645,0.0,0.0
+hasname,harriet ann jacobs,has_deathdate,1897,50,0.632967032967033,0,0.0,0.0,0.0
+hasname,harriet ann jacobs,record,module:,15,0.0,8,0.3994708994708995,0.0,0.0
+hasname,harriet ann jacobs,has_race_or_color,race_or_color,42,0.6694677871148459,26,0.4871794871794872,0.0,0.0
+hasname,harriet ann jacobs,has_race_or_color,african-american,42,0.6694677871148459,41,0.6268518518518519,0.0,0.0
+hasname,harriet ann jacobs,status record,module:,30,0.442002442002442,8,0.3994708994708995,0.0,0.0
+hasname,harriet ann jacobs,has_person_status,enslaved person,42,0.6028011204481792,24,0.5342592592592593,0.0,0.0
+hasname,harriet ann jacobs,has_person_status,abolitionist,42,0.6028011204481792,33,0.5555555555555555,0.0,0.0
+hasname,harriet ann jacobs,has_person_status,writer,42,0.6028011204481792,25,0.6370370370370371,0.0,0.0
+hasname,harriet ann jacobs,has_status_generating_event,event,35,0.6375661375661376,17,0.4777777777777777,0.0,0.0
+hasname,harriet ann jacobs,has_status_generating_event,escape to the north,35,0.6375661375661376,32,0.44291283764967976,0.0,0.0
+hasname,harriet ann jacobs,has_status_generating_event,purchase of freedom by cornelia willis,35,0.6375661375661376,32,0.5342630079472185,0.0,0.0
+hasname,harriet ann jacobs,has_status_generating_event,escape to the north,35,0.6375661375661376,32,0.44291283764967976,0.0,0.0
+hasname,harriet ann jacobs,has_status_generating_event,writing and abolitionist work,35,0.6375661375661376,43,0.5823754789272031,0.0,0.0
+hasname,harriet ann jacobs,to the,"north""), has_status_generating_event(enslaved person, ""purchase of freedom by cornelia willis""), has_status_generating_event(abolitionist, ""escape to the north""), has_status_generating_event(writer, ""writing and abolitionist work"").",31,0.4365079365079365,12,0.5549263766809406,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",record,module:,30,0.48412698412698413,8,0.4662698412698412,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_name,name,36,0.5952380952380952,5,0.5925925925925926,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_name,harriet jacobs,36,0.5952380952380952,14,0.5079365079365079,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_surname,surname,48,0.6168831168831169,8,0.5876322751322752,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_surname,jacobs,48,0.6168831168831169,5,0.48148148148148145,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_first_name,first_name,43,0.6726190476190476,9,0.5430555555555555,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_first_name,harriet,43,0.6726190476190476,9,0.5400132275132276,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",relationship record,module:,30,0.6135338345864662,8,0.4662698412698412,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_interagent_relationship_type_to,relationship_type,37,0.5666666666666667,15,0.4973934018051665,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_interagent_relationship_type_to,enslaver,37,0.5666666666666667,11,0.5601851851851852,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_interagent_relationship_type_to,sibling,37,0.5666666666666667,9,0.4496693121693121,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",is_relationship_to,agent,44,0.6474266474266474,5,0.525925925925926,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",is_relationship_to,norcom,44,0.6474266474266474,7,0.5560185185185186,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",is_relationship_to,john,44,0.6474266474266474,4,0.4791666666666667,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",role record,module:,24,0.46645021645021645,8,0.4662698412698412,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_participant_role,participant_role_type,47,0.6876623376623376,17,0.47281746031746036,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_participant_role,abolitionist,47,0.6876623376623376,13,0.5009259259259259,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_participant_role,civil war aid provider,47,0.6876623376623376,18,0.49957912457912457,0.0,0.12433478135409166
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_participant_role,school founder,47,0.6876623376623376,15,0.5191035816035816,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",war aid,"provider""), has_participant_role(harriet jacobs, ""school founder"").",29,0.5357142857142857,29,0.5482574870744318,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",record,module:,30,0.48412698412698413,8,0.4662698412698412,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_sex,sex_type,38,0.6238095238095238,7,0.4861111111111111,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_sex,female,38,0.6238095238095238,8,0.513888888888889,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",record,module:,30,0.48412698412698413,8,0.4662698412698412,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_occupation,occupation,64,0.8074074074074075,10,0.4935185185185185,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_occupation,slave,64,0.8074074074074075,7,0.5449074074074075,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_occupation,nanny,64,0.8074074074074075,7,0.6115740740740742,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_occupation,abolitionist,64,0.8074074074074075,13,0.5009259259259259,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_occupation,writer,64,0.8074074074074075,8,0.5694444444444445,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_occupation,boarding house operator,64,0.8074074074074075,22,0.5667362026057678,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",house,"operator"").",32,0.6047619047619047,12,0.5595117845117845,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",record,module:,30,0.48412698412698413,8,0.4662698412698412,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_age,age,38,0.6190476190476191,4,0.39351851851851843,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_age,between 1813 and 1815,38,0.6190476190476191,16,0.47281746031746036,0.0,0.056988507908504925
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",1813 and,"1815"")",18,0.46428571428571425,3,0.4490740740740741,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_birthdate,date_of_birth,37,0.6318681318681318,13,0.5196354571354571,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_birthdate,between 1813 and 1815,37,0.6318681318681318,16,0.47281746031746036,0.0,0.056988507908504925
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",1813 and,"1815"")",18,0.46428571428571425,3,0.4490740740740741,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_deathdate,date_of_death,44,0.63003663003663,13,0.5196354571354571,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_deathdate,march 7,44,0.63003663003663,8,0.4496693121693121,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_deathdate,1897,44,0.63003663003663,1,0.41898148148148145,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",record,module:,30,0.48412698412698413,8,0.4662698412698412,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_race_or_color,race_or_color,39,0.5896358543417367,11,0.43678774928774927,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_race_or_color,african-american,39,0.5896358543417367,15,0.47222222222222227,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",status record,module:,37,0.5366300366300366,8,0.4662698412698412,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_person_status,enslaved person,45,0.6675070028011204,19,0.5458333333333334,0.0,0.08694821918136365
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_person_status,abolitionist,45,0.6675070028011204,13,0.5009259259259259,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_person_status,writer,45,0.6675070028011204,8,0.5694444444444445,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_status_generating_event,event,39,0.5476190476190476,7,0.5449074074074075,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_status_generating_event,escape to the north,39,0.5476190476190476,21,0.5426413255360624,0.0,0.117923684456103
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_status_generating_event,purchase of freedom by cornelia willis,39,0.5476190476190476,29,0.5750487329434697,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_status_generating_event,escape to the north,39,0.5476190476190476,21,0.5426413255360624,0.0,0.117923684456103
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",has_status_generating_event,writing and abolitionist work,39,0.5476190476190476,23,0.49152160031095565,0.0,0.056988507908504925
+hasdescription,"born enslaved. free before 13th amendment. wrote under the pseudonym ""linda brent"". antislavery activist and relief worker during the civil war.",to the,"north""), has_status_generating_event(enslaved person, ""purchase of freedom by cornelia willis""), has_status_generating_event(abolitionist, ""escape to the north""), has_status_generating_event(writer, ""writing and abolitionist work"").",20,0.4920634920634921,38,0.6651001756066411,0.0,0.08188705209491162

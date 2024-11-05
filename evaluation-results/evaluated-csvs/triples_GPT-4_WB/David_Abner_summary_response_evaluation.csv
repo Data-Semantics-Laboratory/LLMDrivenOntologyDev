@@ -1,0 +1,533 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,abner,32,0.537878787878788,36,0.5777777777777778,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,abner,40,0.5692640692640693,36,0.5777777777777778,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,relationship_type,30,0.5269480519480519,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,cousin,30,0.5269480519480519,33,0.5555555555555555,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,commander-in-chief,30,0.5269480519480519,25,0.46296296296296297,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,opponent,30,0.5269480519480519,43,0.625,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,supporter,30,0.5269480519480519,40,0.5370370370370371,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,king saul,34,0.5798460798460798,13,0.35185185185185186,0.0,0.0
+instance of,person,is_relationship_to,david,34,0.5798460798460798,0,0.0,0.0,0.0
+instance of,person,is_relationship_to,ish-bosheth,34,0.5798460798460798,24,0.5050505050505051,0.0,0.0
+instance of,person,role record,module:,27,0.49242424242424243,15,0.0,0.0,0.0
+instance of,person,has_participant_role,participant_role_type,32,0.5668831168831169,22,0.5357142857142857,0.0,0.0
+instance of,person,has_participant_role,commander,32,0.5668831168831169,27,0.5185185185185185,0.0,0.0
+instance of,person,has_participant_role,introducer,32,0.5668831168831169,25,0.48888888888888893,0.0,0.0
+instance of,person,role_provided_by,event,15,0.4356060606060606,36,0.5777777777777778,0.0,0.0
+instance of,person,role_provided_by,civil war between david and ish-bosheth,15,0.4356060606060606,13,0.41452991452991456,0.0,0.0
+instance of,person,role_provided_by,introduction of david to saul,15,0.4356060606060606,17,0.4233716475095785,0.0,0.0
+instance of,person,war between david and,"ish-bosheth""), role_provided_by(introducer, ""introduction of david to saul"").",19,0.43088023088023086,12,0.5815295815295816,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,male,22,0.45598845598845594,20,0.47222222222222215,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,commander-in-chief of king saul's army,24,0.38311688311688313,18,0.4239766081871345,0.0,0.0
+instance of,person,of king,"saul's army"").",22,0.48917748917748916,10,0.3253968253968254,0.33609692727625756,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,significant figure in the hebrew bible,29,0.449554367201426,9,0.4239766081871345,0.0,0.0
+instance of,person,figure in the hebrew,"bible"")",32,0.4348484848484849,15,0.0,0.0,0.0
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,role in the civil war,26,0.4799102132435466,22,0.5357142857142857,0.0,0.0
+instance of,person,has_status_generating_event,relationship with david and king saul,26,0.4799102132435466,14,0.6096096096096096,0.0,0.0
+instance of,person,has_status_generating_event,tomb near the cave of the patriarchs in hebron,26,0.4799102132435466,19,0.4178743961352657,0.0,0.0
+instance of,person,figure in the hebrew,"bible, ""role in the civil war""), has_status_generating_event(significant figure in the hebrew bible, ""relationship with david and king saul""), has_status_generating_event(significant figure in the hebrew bible, ""tomb near the cave of the patriarchs in hebron"").",32,0.4348484848484849,4,0.5076628352490421,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_name,name,57,0.8055555555555556,50,0.6666666666666666,0.0,0.0
+hassex,male,has_name,abner,57,0.8055555555555556,44,0.6333333333333333,0.0,0.0
+hassex,male,has_first_name,first_name,50,0.6507936507936508,29,0.0,0.0,0.0
+hassex,male,has_first_name,abner,50,0.6507936507936508,44,0.6333333333333333,0.0,0.0
+hassex,male,relationship record,module:,24,0.44152046783625726,55,0.7535714285714287,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,relationship_type,24,0.5936507936507937,19,0.5310457516339869,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,cousin,24,0.5936507936507937,0,0.0,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,commander-in-chief,24,0.5936507936507937,27,0.6388888888888888,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,opponent,24,0.5936507936507937,17,0.4583333333333333,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,supporter,24,0.5936507936507937,15,0.0,0.0,0.0
+hassex,male,is_relationship_to,agent,17,0.46296296296296297,44,0.6333333333333333,0.0,0.0
+hassex,male,is_relationship_to,king saul,17,0.46296296296296297,31,0.0,0.0,0.0
+hassex,male,is_relationship_to,david,17,0.46296296296296297,22,0.48333333333333334,0.0,0.0
+hassex,male,is_relationship_to,ish-bosheth,17,0.46296296296296297,13,0.0,0.0,0.0
+hassex,male,role record,module:,12,0.41919191919191917,55,0.7535714285714287,0.0,0.0
+hassex,male,has_participant_role,participant_role_type,31,0.5499999999999999,24,0.43253968253968256,0.0,0.0
+hassex,male,has_participant_role,commander,31,0.5499999999999999,46,0.5740740740740741,0.0,0.0
+hassex,male,has_participant_role,introducer,31,0.5499999999999999,14,0.0,0.0,0.0
+hassex,male,role_provided_by,event,9,0.40972222222222227,22,0.48333333333333334,0.0,0.0
+hassex,male,role_provided_by,civil war between david and ish-bosheth,9,0.40972222222222227,9,0.49786324786324787,0.0,0.0
+hassex,male,role_provided_by,introduction of david to saul,9,0.40972222222222227,12,0.0,0.0,0.0
+hassex,male,war between david and,"ish-bosheth""), role_provided_by(introducer, ""introduction of david to saul"").",15,0.4761904761904762,5,0.341991341991342,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_sex,sex_type,92,0.9666666666666667,17,0.4583333333333333,0.0,0.0
+hassex,male,has_sex,male,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_occupation,occupation,30,0.5714285714285715,14,0.45,0.0,0.0
+hassex,male,has_occupation,commander-in-chief of king saul's army,30,0.5714285714285715,14,0.6096491228070176,0.0,0.0
+hassex,male,of king,"saul's army"").",0,0.0,22,0.5476190476190476,0.0,0.0
+hassex,male,status record,module:,32,0.5747863247863249,55,0.7535714285714287,0.0,0.0
+hassex,male,has_person_status,significant figure in the hebrew bible,35,0.642483660130719,14,0.5175438596491228,0.0,0.0
+hassex,male,figure in the hebrew,"bible"")",15,0.4055555555555556,36,0.5952380952380952,0.0,0.0
+hassex,male,has_status_generating_event,event,30,0.6728395061728395,22,0.48333333333333334,0.0,0.0
+hassex,male,has_status_generating_event,role in the civil war,30,0.6728395061728395,16,0.5317460317460317,0.0,0.0
+hassex,male,has_status_generating_event,relationship with david and king saul,30,0.6728395061728395,10,0.49924924924924924,0.0,0.0
+hassex,male,has_status_generating_event,tomb near the cave of the patriarchs in hebron,30,0.6728395061728395,12,0.4939613526570048,0.0,0.0
+hassex,male,figure in the hebrew,"bible, ""role in the civil war""), has_status_generating_event(significant figure in the hebrew bible, ""relationship with david and king saul""), has_status_generating_event(significant figure in the hebrew bible, ""tomb near the cave of the patriarchs in hebron"").",15,0.4055555555555556,2,0.47605363984674326,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,abner,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,abner,44,0.6772486772486772,0,0.0,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,cousin,42,0.6570105820105819,36,0.5777777777777778,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,commander-in-chief,42,0.6570105820105819,26,0.4777777777777777,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,opponent,42,0.6570105820105819,0,0.0,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,supporter,42,0.6570105820105819,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,king saul,44,0.6037037037037037,29,0.43703703703703706,0.0,0.0
+hasparticipantrole,child,is_relationship_to,david,44,0.6037037037037037,40,0.6,0.0,0.0
+hasparticipantrole,child,is_relationship_to,ish-bosheth,44,0.6037037037037037,12,0.3606060606060606,0.0,0.0
+hasparticipantrole,child,role record,module:,28,0.4452861952861953,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant_role_type,95,0.9766666666666667,23,0.33174603174603173,0.0,0.0
+hasparticipantrole,child,has_participant_role,commander,95,0.9766666666666667,29,0.5407407407407407,0.0,0.0
+hasparticipantrole,child,has_participant_role,introducer,95,0.9766666666666667,27,0.5333333333333333,0.0,0.0
+hasparticipantrole,child,role_provided_by,event,29,0.4583333333333333,0,0.0,0.0,0.0
+hasparticipantrole,child,role_provided_by,civil war between david and ish-bosheth,29,0.4583333333333333,18,0.6341880341880342,0.0,0.0
+hasparticipantrole,child,role_provided_by,introduction of david to saul,29,0.4583333333333333,18,0.45670498084291183,0.0,0.0
+hasparticipantrole,child,war between david and,"ish-bosheth""), role_provided_by(introducer, ""introduction of david to saul"").",31,0.48346560846560843,7,0.533982683982684,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,male,32,0.5317460317460317,22,0.48333333333333334,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,commander-in-chief of king saul's army,50,0.6566137566137565,19,0.5517543859649123,0.0,0.0
+hasparticipantrole,child,of king,"saul's army"").",16,0.4656084656084656,11,0.4238095238095238,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,significant figure in the hebrew bible,46,0.6479302832244008,19,0.31754385964912285,0.0,0.0
+hasparticipantrole,child,figure in the hebrew,"bible"")",32,0.43677248677248676,33,0.5619047619047619,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,role in the civil war,40,0.5819304152637487,23,0.4698412698412698,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,relationship with david and king saul,40,0.5819304152637487,14,0.5527027027027027,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,tomb near the cave of the patriarchs in hebron,40,0.5819304152637487,12,0.3144927536231884,0.0,0.0
+hasparticipantrole,child,figure in the hebrew,"bible, ""role in the civil war""), has_status_generating_event(significant figure in the hebrew bible, ""relationship with david and king saul""), has_status_generating_event(significant figure in the hebrew bible, ""tomb near the cave of the patriarchs in hebron"").",32,0.43677248677248676,4,0.5397190293742017,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,abner,38,0.5675925925925926,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,abner,44,0.6772486772486772,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,cousin,42,0.6570105820105819,29,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,commander-in-chief,42,0.6570105820105819,36,0.4756613756613757,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,opponent,42,0.6570105820105819,26,0.3972222222222222,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,supporter,42,0.6570105820105819,33,0.4037037037037037,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,king saul,44,0.6037037037037037,17,0.39999999999999997,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,david,44,0.6037037037037037,30,0.6,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,ish-bosheth,44,0.6037037037037037,15,0.3797979797979798,0.0,0.0
+hasparticipantrole,deceased person,role record,module:,28,0.4452861952861953,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant_role_type,95,0.9766666666666667,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,commander,95,0.9766666666666667,42,0.4962962962962963,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,introducer,95,0.9766666666666667,32,0.5555555555555556,0.0,0.0
+hasparticipantrole,deceased person,role_provided_by,event,29,0.4583333333333333,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,role_provided_by,civil war between david and ish-bosheth,29,0.4583333333333333,26,0.5202797202797202,0.0,0.0
+hasparticipantrole,deceased person,role_provided_by,introduction of david to saul,29,0.4583333333333333,27,0.4886334610472542,0.0,0.0
+hasparticipantrole,deceased person,war between david and,"ish-bosheth""), role_provided_by(introducer, ""introduction of david to saul"").",31,0.48346560846560843,17,0.5621933621933622,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,male,32,0.5317460317460317,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,commander-in-chief of king saul's army,50,0.6566137566137565,30,0.5099415204678363,0.0,0.0
+hasparticipantrole,deceased person,of king,"saul's army"").",16,0.4656084656084656,28,0.43412698412698414,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,significant figure in the hebrew bible,46,0.6479302832244008,23,0.4641325536062378,0.0,0.0
+hasparticipantrole,deceased person,figure in the hebrew,"bible"")",32,0.43677248677248676,9,0.40317460317460313,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,role in the civil war,40,0.5819304152637487,22,0.3904761904761904,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,relationship with david and king saul,40,0.5819304152637487,23,0.46626626626626627,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,tomb near the cave of the patriarchs in hebron,40,0.5819304152637487,33,0.5059727711901625,0.0,0.0
+hasparticipantrole,deceased person,figure in the hebrew,"bible, ""role in the civil war""), has_status_generating_event(significant figure in the hebrew bible, ""relationship with david and king saul""), has_status_generating_event(significant figure in the hebrew bible, ""tomb near the cave of the patriarchs in hebron"").",32,0.43677248677248676,9,0.5302681992337165,0.0,0.0
+hasdescriptiveoccupation,farmer,record,module:,27,0.6138888888888889,31,0.4365079365079365,0.0,0.0
+hasdescriptiveoccupation,farmer,has_name,name,25,0.5555555555555555,60,0.75,0.0,0.0
+hasdescriptiveoccupation,farmer,has_name,abner,25,0.5555555555555555,55,0.5888888888888889,0.0,0.0
+hasdescriptiveoccupation,farmer,has_first_name,first_name,32,0.5615079365079364,50,0.5111111111111111,0.0,0.0
+hasdescriptiveoccupation,farmer,has_first_name,abner,32,0.5615079365079364,55,0.5888888888888889,0.0,0.0
+hasdescriptiveoccupation,farmer,relationship record,module:,33,0.6137539361223572,31,0.4365079365079365,0.0,0.0
+hasdescriptiveoccupation,farmer,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,17,0.4477124183006536,0.0,0.0
+hasdescriptiveoccupation,farmer,has_interagent_relationship_type_to,cousin,41,0.6037698412698412,0,0.0,0.0,0.0
+hasdescriptiveoccupation,farmer,has_interagent_relationship_type_to,commander-in-chief,41,0.6037698412698412,25,0.46296296296296297,0.0,0.0
+hasdescriptiveoccupation,farmer,has_interagent_relationship_type_to,opponent,41,0.6037698412698412,14,0.4305555555555555,0.0,0.0
+hasdescriptiveoccupation,farmer,has_interagent_relationship_type_to,supporter,41,0.6037698412698412,40,0.611111111111111,0.0,0.0
+hasdescriptiveoccupation,farmer,is_relationship_to,agent,38,0.6264245014245015,36,0.5777777777777778,0.0,0.0
+hasdescriptiveoccupation,farmer,is_relationship_to,king saul,38,0.6264245014245015,13,0.0,0.0,0.0
+hasdescriptiveoccupation,farmer,is_relationship_to,david,38,0.6264245014245015,18,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,farmer,is_relationship_to,ish-bosheth,38,0.6264245014245015,12,0.41919191919191917,0.0,0.0
+hasdescriptiveoccupation,farmer,role record,module:,29,0.4873737373737373,31,0.4365079365079365,0.0,0.0
+hasdescriptiveoccupation,farmer,has_participant_role,participant_role_type,50,0.6805555555555555,22,0.5476190476190476,0.0,0.0
+hasdescriptiveoccupation,farmer,has_participant_role,commander,50,0.6805555555555555,40,0.6203703703703703,0.0,0.0
+hasdescriptiveoccupation,farmer,has_participant_role,introducer,50,0.6805555555555555,38,0.6,0.0,0.0
+hasdescriptiveoccupation,farmer,role_provided_by,event,20,0.4861111111111111,18,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,farmer,role_provided_by,civil war between david and ish-bosheth,20,0.4861111111111111,13,0.5256410256410257,0.0,0.0
+hasdescriptiveoccupation,farmer,role_provided_by,introduction of david to saul,20,0.4861111111111111,11,0.4003831417624521,0.0,0.0
+hasdescriptiveoccupation,farmer,war between david and,"ish-bosheth""), role_provided_by(introducer, ""introduction of david to saul"").",31,0.530952380952381,7,0.4018759018759019,0.0,0.0
+hasdescriptiveoccupation,farmer,record,module:,27,0.6138888888888889,31,0.4365079365079365,0.0,0.0
+hasdescriptiveoccupation,farmer,has_sex,sex_type,32,0.5742063492063493,14,0.4305555555555555,0.0,0.0
+hasdescriptiveoccupation,farmer,has_sex,male,32,0.5742063492063493,40,0.611111111111111,0.0,0.0
+hasdescriptiveoccupation,farmer,record,module:,27,0.6138888888888889,31,0.4365079365079365,0.0,0.0
+hasdescriptiveoccupation,farmer,has_occupation,occupation,68,0.8045940170940171,12,0.4222222222222222,0.0,0.0
+hasdescriptiveoccupation,farmer,has_occupation,commander-in-chief of king saul's army,68,0.8045940170940171,18,0.5216374269005848,0.0,0.0
+hasdescriptiveoccupation,farmer,of king,"saul's army"").",19,0.3948412698412698,30,0.5714285714285715,0.0,0.0
+hasdescriptiveoccupation,farmer,status record,module:,32,0.540954415954416,31,0.4365079365079365,0.0,0.0
+hasdescriptiveoccupation,farmer,has_person_status,significant figure in the hebrew bible,39,0.6241830065359477,23,0.5906432748538012,0.0,0.0
+hasdescriptiveoccupation,farmer,figure in the hebrew,"bible"")",18,0.451984126984127,15,0.4365079365079365,0.0,0.0
+hasdescriptiveoccupation,farmer,has_status_generating_event,event,39,0.5815696649029983,18,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,farmer,has_status_generating_event,role in the civil war,39,0.5815696649029983,22,0.4761904761904762,0.0,0.0
+hasdescriptiveoccupation,farmer,has_status_generating_event,relationship with david and king saul,39,0.5815696649029983,9,0.41591591591591587,0.0,0.0
+hasdescriptiveoccupation,farmer,has_status_generating_event,tomb near the cave of the patriarchs in hebron,39,0.5815696649029983,19,0.5140096618357488,0.0,0.0
+hasdescriptiveoccupation,farmer,figure in the hebrew,"bible, ""role in the civil war""), has_status_generating_event(significant figure in the hebrew bible, ""relationship with david and king saul""), has_status_generating_event(significant figure in the hebrew bible, ""tomb near the cave of the patriarchs in hebron"").",18,0.451984126984127,4,0.4841634738186462,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,record,module:,27,0.6138888888888889,11,0.4087301587301588,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,has_name,name,25,0.5555555555555555,25,0.38888888888888884,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,has_name,abner,25,0.5555555555555555,35,0.5055555555555555,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,has_first_name,first_name,32,0.5615079365079364,27,0.49444444444444446,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,has_first_name,abner,32,0.5615079365079364,35,0.5055555555555555,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,relationship record,module:,33,0.6137539361223572,11,0.4087301587301588,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,34,0.562091503267974,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,has_interagent_relationship_type_to,cousin,41,0.6037698412698412,11,0.4166666666666667,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,has_interagent_relationship_type_to,commander-in-chief,41,0.6037698412698412,33,0.4981481481481482,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,has_interagent_relationship_type_to,opponent,41,0.6037698412698412,30,0.5472222222222222,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,has_interagent_relationship_type_to,supporter,41,0.6037698412698412,38,0.5907407407407408,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,is_relationship_to,agent,38,0.6264245014245015,35,0.6166666666666667,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,is_relationship_to,king saul,38,0.6264245014245015,19,0.46296296296296297,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,is_relationship_to,david,38,0.6264245014245015,0,0.0,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,is_relationship_to,ish-bosheth,38,0.6264245014245015,17,0.39141414141414144,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,role record,module:,29,0.4873737373737373,11,0.4087301587301588,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,has_participant_role,participant_role_type,50,0.6805555555555555,36,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,has_participant_role,commander,50,0.6805555555555555,29,0.4166666666666667,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,has_participant_role,introducer,50,0.6805555555555555,45,0.6444444444444445,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,role_provided_by,event,20,0.4861111111111111,35,0.6277777777777778,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,role_provided_by,civil war between david and ish-bosheth,20,0.4861111111111111,24,0.4923687423687424,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,role_provided_by,introduction of david to saul,20,0.4861111111111111,24,0.46302681992337164,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,war between david and,"ish-bosheth""), role_provided_by(introducer, ""introduction of david to saul"").",31,0.530952380952381,22,0.5652958152958153,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,record,module:,27,0.6138888888888889,11,0.4087301587301588,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,has_sex,sex_type,32,0.5742063492063493,40,0.5277777777777778,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,has_sex,male,32,0.5742063492063493,12,0.4444444444444444,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,record,module:,27,0.6138888888888889,11,0.4087301587301588,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,has_occupation,occupation,68,0.8045940170940171,18,0.4055555555555556,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,has_occupation,commander-in-chief of king saul's army,68,0.8045940170940171,28,0.38274853801169595,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,of king,"saul's army"").",19,0.3948412698412698,15,0.3849206349206349,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,status record,module:,32,0.540954415954416,11,0.4087301587301588,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,has_person_status,significant figure in the hebrew bible,39,0.6241830065359477,28,0.5882066276803118,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,figure in the hebrew,"bible"")",18,0.451984126984127,11,0.4087301587301588,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,has_status_generating_event,event,39,0.5815696649029983,35,0.6277777777777778,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,has_status_generating_event,role in the civil war,39,0.5815696649029983,30,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,has_status_generating_event,relationship with david and king saul,39,0.5815696649029983,20,0.49849849849849853,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,has_status_generating_event,tomb near the cave of the patriarchs in hebron,39,0.5815696649029983,28,0.5744766505636071,0.0,0.0
+hasdescriptiveoccupation,entrepreneur,figure in the hebrew,"bible, ""role in the civil war""), has_status_generating_event(significant figure in the hebrew bible, ""relationship with david and king saul""), has_status_generating_event(significant figure in the hebrew bible, ""tomb near the cave of the patriarchs in hebron"").",18,0.451984126984127,8,0.5431034482758621,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,abner,25,0.5555555555555555,40,0.4666666666666666,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,first_name,32,0.5615079365079364,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,abner,32,0.5615079365079364,40,0.4666666666666666,0.0,0.0
+hasdescriptiveoccupation,slave,relationship record,module:,33,0.6137539361223572,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,27,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,cousin,41,0.6037698412698412,18,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,commander-in-chief,41,0.6037698412698412,17,0.5037037037037037,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,opponent,41,0.6037698412698412,15,0.44166666666666665,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,supporter,41,0.6037698412698412,29,0.5407407407407407,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,agent,38,0.6264245014245015,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,king saul,38,0.6264245014245015,29,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,david,38,0.6264245014245015,40,0.6,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,ish-bosheth,38,0.6264245014245015,25,0.5272727272727272,0.0,0.0
+hasdescriptiveoccupation,slave,role record,module:,29,0.4873737373737373,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,participant_role_type,50,0.6805555555555555,15,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,commander,50,0.6805555555555555,29,0.5407407407407407,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,introducer,50,0.6805555555555555,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,role_provided_by,event,20,0.4861111111111111,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,role_provided_by,civil war between david and ish-bosheth,20,0.4861111111111111,18,0.5508547008547008,0.0,0.0
+hasdescriptiveoccupation,slave,role_provided_by,introduction of david to saul,20,0.4861111111111111,12,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,war between david and,"ish-bosheth""), role_provided_by(introducer, ""introduction of david to saul"").",31,0.530952380952381,10,0.533982683982684,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,sex_type,32,0.5742063492063493,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,male,32,0.5742063492063493,44,0.6722222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,commander-in-chief of king saul's army,68,0.8045940170940171,14,0.4842105263157895,0.0,0.0
+hasdescriptiveoccupation,slave,of king,"saul's army"").",19,0.3948412698412698,32,0.4936507936507937,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,significant figure in the hebrew bible,39,0.6241830065359477,14,0.5596491228070176,0.0,0.0
+hasdescriptiveoccupation,slave,figure in the hebrew,"bible"")",18,0.451984126984127,33,0.5619047619047619,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,event,39,0.5815696649029983,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,role in the civil war,39,0.5815696649029983,15,0.4984126984126984,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,relationship with david and king saul,39,0.5815696649029983,14,0.645045045045045,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,tomb near the cave of the patriarchs in hebron,39,0.5815696649029983,12,0.44396135265700476,0.0,0.0
+hasdescriptiveoccupation,slave,figure in the hebrew,"bible, ""role in the civil war""), has_status_generating_event(significant figure in the hebrew bible, ""relationship with david and king saul""), has_status_generating_event(significant figure in the hebrew bible, ""tomb near the cave of the patriarchs in hebron"").",18,0.451984126984127,4,0.5397190293742017,0.0,0.0
+hasdescriptiveoccupation,state legislator,record,module:,27,0.6138888888888889,17,0.30357142857142855,0.0,0.0
+hasdescriptiveoccupation,state legislator,has_name,name,25,0.5555555555555555,20,0.5416666666666666,0.0,0.0
+hasdescriptiveoccupation,state legislator,has_name,abner,25,0.5555555555555555,29,0.5083333333333333,0.0,0.0
+hasdescriptiveoccupation,state legislator,has_first_name,first_name,32,0.5615079365079364,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,state legislator,has_first_name,abner,32,0.5615079365079364,29,0.5083333333333333,0.0,0.0
+hasdescriptiveoccupation,state legislator,relationship record,module:,33,0.6137539361223572,17,0.30357142857142855,0.0,0.0
+hasdescriptiveoccupation,state legislator,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,30,0.5211834733893558,0.0,0.0
+hasdescriptiveoccupation,state legislator,has_interagent_relationship_type_to,cousin,41,0.6037698412698412,18,0.4861111111111111,0.0,0.0
+hasdescriptiveoccupation,state legislator,has_interagent_relationship_type_to,commander-in-chief,41,0.6037698412698412,18,0.40740740740740744,0.0,0.0
+hasdescriptiveoccupation,state legislator,has_interagent_relationship_type_to,opponent,41,0.6037698412698412,17,0.2916666666666667,0.0,0.0
+hasdescriptiveoccupation,state legislator,has_interagent_relationship_type_to,supporter,41,0.6037698412698412,32,0.5648148148148148,0.0,0.0
+hasdescriptiveoccupation,state legislator,is_relationship_to,agent,38,0.6264245014245015,29,0.6,0.0,0.0
+hasdescriptiveoccupation,state legislator,is_relationship_to,king saul,38,0.6264245014245015,24,0.4893518518518518,0.0,0.0
+hasdescriptiveoccupation,state legislator,is_relationship_to,david,38,0.6264245014245015,19,0.5083333333333333,0.0,0.0
+hasdescriptiveoccupation,state legislator,is_relationship_to,ish-bosheth,38,0.6264245014245015,22,0.4545454545454546,0.0,0.0
+hasdescriptiveoccupation,state legislator,role record,module:,29,0.4873737373737373,17,0.30357142857142855,0.0,0.0
+hasdescriptiveoccupation,state legislator,has_participant_role,participant_role_type,50,0.6805555555555555,32,0.5337301587301587,0.0,0.0
+hasdescriptiveoccupation,state legislator,has_participant_role,commander,50,0.6805555555555555,24,0.5069444444444444,0.0,0.0
+hasdescriptiveoccupation,state legislator,has_participant_role,introducer,50,0.6805555555555555,31,0.49583333333333335,0.0,0.0
+hasdescriptiveoccupation,state legislator,role_provided_by,event,20,0.4861111111111111,29,0.4847222222222222,0.0,0.0
+hasdescriptiveoccupation,state legislator,role_provided_by,civil war between david and ish-bosheth,20,0.4861111111111111,25,0.44960826210826216,0.0,0.0
+hasdescriptiveoccupation,state legislator,role_provided_by,introduction of david to saul,20,0.4861111111111111,27,0.4669540229885058,0.0,0.0
+hasdescriptiveoccupation,state legislator,war between david and,"ish-bosheth""), role_provided_by(introducer, ""introduction of david to saul"").",31,0.530952380952381,19,0.46861471861471865,0.0,0.0
+hasdescriptiveoccupation,state legislator,record,module:,27,0.6138888888888889,17,0.30357142857142855,0.0,0.0
+hasdescriptiveoccupation,state legislator,has_sex,sex_type,32,0.5742063492063493,25,0.5,0.0,0.0
+hasdescriptiveoccupation,state legislator,has_sex,male,32,0.5742063492063493,30,0.5347222222222222,0.0,0.0
+hasdescriptiveoccupation,state legislator,record,module:,27,0.6138888888888889,17,0.30357142857142855,0.0,0.0
+hasdescriptiveoccupation,state legislator,has_occupation,occupation,68,0.8045940170940171,31,0.4666666666666666,0.0,0.0
+hasdescriptiveoccupation,state legislator,has_occupation,commander-in-chief of king saul's army,68,0.8045940170940171,30,0.46271929824561403,0.0,0.0
+hasdescriptiveoccupation,state legislator,of king,"saul's army"").",19,0.3948412698412698,40,0.5982142857142857,0.0,0.0
+hasdescriptiveoccupation,state legislator,status record,module:,32,0.540954415954416,17,0.30357142857142855,0.0,0.0
+hasdescriptiveoccupation,state legislator,has_person_status,significant figure in the hebrew bible,39,0.6241830065359477,30,0.49605263157894736,0.0,0.0
+hasdescriptiveoccupation,state legislator,figure in the hebrew,"bible"")",18,0.451984126984127,17,0.30357142857142855,0.0,0.0
+hasdescriptiveoccupation,state legislator,has_status_generating_event,event,39,0.5815696649029983,29,0.4847222222222222,0.0,0.0
+hasdescriptiveoccupation,state legislator,has_status_generating_event,role in the civil war,39,0.5815696649029983,38,0.5896164021164022,0.0,0.0
+hasdescriptiveoccupation,state legislator,has_status_generating_event,relationship with david and king saul,39,0.5815696649029983,26,0.5100839475839476,0.0,0.0
+hasdescriptiveoccupation,state legislator,has_status_generating_event,tomb near the cave of the patriarchs in hebron,39,0.5815696649029983,29,0.520998023715415,0.0,0.0
+hasdescriptiveoccupation,state legislator,figure in the hebrew,"bible, ""role in the civil war""), has_status_generating_event(significant figure in the hebrew bible, ""relationship with david and king saul""), has_status_generating_event(significant figure in the hebrew bible, ""tomb near the cave of the patriarchs in hebron"").",18,0.451984126984127,12,0.5621008939974458,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,record,module:,27,0.6138888888888889,24,0.4871148459383754,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,has_name,name,25,0.5555555555555555,16,0.6225490196078431,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,has_name,abner,25,0.5555555555555555,21,0.6490196078431373,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,has_first_name,first_name,32,0.5615079365079364,27,0.5534313725490196,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,has_first_name,abner,32,0.5615079365079364,21,0.6490196078431373,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,relationship record,module:,33,0.6137539361223572,24,0.4871148459383754,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,35,0.5751633986928105,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,has_interagent_relationship_type_to,cousin,41,0.6037698412698412,20,0.511437908496732,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,has_interagent_relationship_type_to,commander-in-chief,41,0.6037698412698412,27,0.48322440087145974,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,has_interagent_relationship_type_to,opponent,41,0.6037698412698412,19,0.45588235294117646,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,has_interagent_relationship_type_to,supporter,41,0.6037698412698412,23,0.43736383442265797,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,is_relationship_to,agent,38,0.6264245014245015,21,0.5823529411764706,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,is_relationship_to,king saul,38,0.6264245014245015,33,0.5413943355119826,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,is_relationship_to,david,38,0.6264245014245015,21,0.4516339869281046,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,is_relationship_to,ish-bosheth,38,0.6264245014245015,18,0.4005347593582888,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,role record,module:,29,0.4873737373737373,24,0.4871148459383754,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,has_participant_role,participant_role_type,50,0.6805555555555555,36,0.5389283918695683,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,has_participant_role,commander,50,0.6805555555555555,28,0.5032679738562091,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,has_participant_role,introducer,50,0.6805555555555555,36,0.5534313725490196,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,role_provided_by,event,20,0.4861111111111111,15,0.4516339869281046,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,role_provided_by,civil war between david and ish-bosheth,20,0.4861111111111111,36,0.6587732528908999,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,role_provided_by,introduction of david to saul,20,0.4861111111111111,35,0.5926301555104801,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,war between david and,"ish-bosheth""), role_provided_by(introducer, ""introduction of david to saul"").",31,0.530952380952381,31,0.5861981156098802,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,record,module:,27,0.6138888888888889,24,0.4871148459383754,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,has_sex,sex_type,32,0.5742063492063493,19,0.2696078431372549,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,has_sex,male,32,0.5742063492063493,21,0.6225490196078431,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,record,module:,27,0.6138888888888889,24,0.4871148459383754,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,has_occupation,occupation,68,0.8045940170940171,23,0.41568627450980394,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,has_occupation,commander-in-chief of king saul's army,68,0.8045940170940171,36,0.6011576255216046,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,of king,"saul's army"").",19,0.3948412698412698,25,0.48770619358854655,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,status record,module:,32,0.540954415954416,24,0.4871148459383754,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,has_person_status,significant figure in the hebrew bible,39,0.6241830065359477,36,0.5964420856061724,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,figure in the hebrew,"bible"")",18,0.451984126984127,20,0.5630252100840336,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,has_status_generating_event,event,39,0.5815696649029983,15,0.4516339869281046,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,has_status_generating_event,role in the civil war,39,0.5815696649029983,40,0.549953314659197,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,has_status_generating_event,relationship with david and king saul,39,0.5815696649029983,34,0.6320658894188306,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,has_status_generating_event,tomb near the cave of the patriarchs in hebron,39,0.5815696649029983,40,0.5485324564608453,0.0,0.0
+hasdescriptiveoccupation,building materials industry leader,figure in the hebrew,"bible, ""role in the civil war""), has_status_generating_event(significant figure in the hebrew bible, ""relationship with david and king saul""), has_status_generating_event(significant figure in the hebrew bible, ""tomb near the cave of the patriarchs in hebron"").",18,0.451984126984127,19,0.5420939448576365,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,record,module:,27,0.6138888888888889,19,0.4761904761904762,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_name,name,25,0.5555555555555555,22,0.44047619047619047,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_name,abner,25,0.5555555555555555,32,0.34761904761904766,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_first_name,first_name,32,0.5615079365079364,33,0.48571428571428577,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_first_name,abner,32,0.5615079365079364,32,0.34761904761904766,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,relationship record,module:,33,0.6137539361223572,19,0.4761904761904762,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,39,0.5140056022408963,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_interagent_relationship_type_to,cousin,41,0.6037698412698412,10,0.3253968253968254,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_interagent_relationship_type_to,commander-in-chief,41,0.6037698412698412,25,0.41164021164021164,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_interagent_relationship_type_to,opponent,41,0.6037698412698412,18,0.41865079365079366,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_interagent_relationship_type_to,supporter,41,0.6037698412698412,35,0.5042328042328043,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,is_relationship_to,agent,38,0.6264245014245015,21,0.5142857142857143,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,is_relationship_to,king saul,38,0.6264245014245015,26,0.5708994708994709,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,is_relationship_to,david,38,0.6264245014245015,21,0.5142857142857143,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,is_relationship_to,ish-bosheth,38,0.6264245014245015,24,0.47056277056277057,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,role record,module:,29,0.4873737373737373,19,0.4761904761904762,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_participant_role,participant_role_type,50,0.6805555555555555,40,0.5968253968253968,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_participant_role,commander,50,0.6805555555555555,26,0.5158730158730158,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_participant_role,introducer,50,0.6805555555555555,42,0.5523809523809524,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,role_provided_by,event,20,0.4861111111111111,11,0.4238095238095238,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,role_provided_by,civil war between david and ish-bosheth,20,0.4861111111111111,19,0.4763939763939764,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,role_provided_by,introduction of david to saul,20,0.4861111111111111,23,0.3784893267651888,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,war between david and,"ish-bosheth""), role_provided_by(introducer, ""introduction of david to saul"").",31,0.530952380952381,18,0.5043290043290043,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,record,module:,27,0.6138888888888889,19,0.4761904761904762,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_sex,sex_type,32,0.5742063492063493,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_sex,male,32,0.5742063492063493,33,0.44047619047619047,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,record,module:,27,0.6138888888888889,19,0.4761904761904762,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_occupation,occupation,68,0.8045940170940171,25,0.48571428571428577,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_occupation,commander-in-chief of king saul's army,68,0.8045940170940171,23,0.418546365914787,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,of king,"saul's army"").",19,0.3948412698412698,36,0.5079365079365079,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,status record,module:,32,0.540954415954416,19,0.4761904761904762,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_person_status,significant figure in the hebrew bible,39,0.6241830065359477,27,0.4924812030075188,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,figure in the hebrew,"bible"")",18,0.451984126984127,38,0.6190476190476191,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_status_generating_event,event,39,0.5815696649029983,11,0.4238095238095238,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_status_generating_event,role in the civil war,39,0.5815696649029983,34,0.5158730158730158,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_status_generating_event,relationship with david and king saul,39,0.5815696649029983,27,0.4948519948519949,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_status_generating_event,tomb near the cave of the patriarchs in hebron,39,0.5815696649029983,30,0.4151138716356108,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,figure in the hebrew,"bible, ""role in the civil war""), has_status_generating_event(significant figure in the hebrew bible, ""relationship with david and king saul""), has_status_generating_event(significant figure in the hebrew bible, ""tomb near the cave of the patriarchs in hebron"").",18,0.451984126984127,8,0.5312548243582726,0.0,0.0
+hasfirstname,david,record,module:,22,0.4166666666666667,17,0.44761904761904764,0.0,0.0
+hasfirstname,david,has_name,name,70,0.8736111111111112,22,0.48333333333333334,0.0,0.0
+hasfirstname,david,has_name,abner,70,0.8736111111111112,20,0.4666666666666666,0.0,0.0
+hasfirstname,david,has_first_name,first_name,92,0.9666666666666667,13,0.43333333333333335,0.0,0.0
+hasfirstname,david,has_first_name,abner,92,0.9666666666666667,20,0.4666666666666666,0.0,0.0
+hasfirstname,david,relationship record,module:,32,0.5077276524644946,17,0.44761904761904764,0.0,0.0
+hasfirstname,david,has_interagent_relationship_type_to,relationship_type,34,0.5949735449735449,18,0.5058823529411764,0.0,0.0
+hasfirstname,david,has_interagent_relationship_type_to,cousin,34,0.5949735449735449,18,0.45555555555555555,0.0,0.0
+hasfirstname,david,has_interagent_relationship_type_to,commander-in-chief,34,0.5949735449735449,17,0.4777777777777777,0.0,0.0
+hasfirstname,david,has_interagent_relationship_type_to,opponent,34,0.5949735449735449,0,0.0,0.0,0.0
+hasfirstname,david,has_interagent_relationship_type_to,supporter,34,0.5949735449735449,0,0.0,0.0,0.0
+hasfirstname,david,is_relationship_to,agent,27,0.6203703703703703,20,0.4666666666666666,0.0,0.0
+hasfirstname,david,is_relationship_to,king saul,27,0.6203703703703703,14,0.43703703703703706,0.0,0.0
+hasfirstname,david,is_relationship_to,david,27,0.6203703703703703,100,1.0,0.0,1.0
+hasfirstname,david,is_relationship_to,ish-bosheth,27,0.6203703703703703,12,0.43030303030303035,0.0,0.0
+hasfirstname,david,role record,module:,17,0.44949494949494956,17,0.44761904761904764,0.0,0.0
+hasfirstname,david,has_participant_role,participant_role_type,44,0.6962962962962962,15,0.4984126984126984,0.0,0.0
+hasfirstname,david,has_participant_role,commander,44,0.6962962962962962,29,0.5407407407407407,0.0,0.0
+hasfirstname,david,has_participant_role,introducer,44,0.6962962962962962,27,0.5333333333333333,0.0,0.0
+hasfirstname,david,role_provided_by,event,14,0.3680555555555555,20,0.4666666666666666,0.0,0.0
+hasfirstname,david,role_provided_by,civil war between david and ish-bosheth,14,0.3680555555555555,23,0.5760683760683761,0.0,0.2789425453258252
+hasfirstname,david,role_provided_by,introduction of david to saul,14,0.3680555555555555,29,0.45670498084291183,0.0,0.33517574332792605
+hasfirstname,david,war between david and,"ish-bosheth""), role_provided_by(introducer, ""introduction of david to saul"").",30,0.48412698412698413,12,0.533982683982684,0.0,0.24395572500006343
+hasfirstname,david,record,module:,22,0.4166666666666667,17,0.44761904761904764,0.0,0.0
+hasfirstname,david,has_sex,sex_type,53,0.6349206349206349,0,0.0,0.0,0.0
+hasfirstname,david,has_sex,male,53,0.6349206349206349,22,0.48333333333333334,0.0,0.0
+hasfirstname,david,record,module:,22,0.4166666666666667,17,0.44761904761904764,0.0,0.0
+hasfirstname,david,has_occupation,occupation,38,0.5873015873015873,27,0.5333333333333333,0.0,0.0
+hasfirstname,david,has_occupation,commander-in-chief of king saul's army,38,0.5873015873015873,9,0.4485380116959064,0.0,0.0
+hasfirstname,david,of king,"saul's army"").",32,0.5595238095238095,11,0.4238095238095238,0.0,0.0
+hasfirstname,david,status record,module:,32,0.5427350427350427,17,0.44761904761904764,0.0,0.0
+hasfirstname,david,has_person_status,significant figure in the hebrew bible,48,0.6857298474945533,9,0.31754385964912285,0.0,0.0
+hasfirstname,david,figure in the hebrew,"bible"")",31,0.5444444444444444,17,0.44761904761904764,0.0,0.0
+hasfirstname,david,has_status_generating_event,event,41,0.5833333333333334,20,0.4666666666666666,0.0,0.0
+hasfirstname,david,has_status_generating_event,role in the civil war,41,0.5833333333333334,15,0.4158730158730159,0.0,0.0
+hasfirstname,david,has_status_generating_event,relationship with david and king saul,41,0.5833333333333334,24,0.5603603603603603,0.0,0.3032160644503863
+hasfirstname,david,has_status_generating_event,tomb near the cave of the patriarchs in hebron,41,0.5833333333333334,12,0.4811594202898551,0.0,0.0
+hasfirstname,david,figure in the hebrew,"bible, ""role in the civil war""), has_status_generating_event(significant figure in the hebrew bible, ""relationship with david and king saul""), has_status_generating_event(significant figure in the hebrew bible, ""tomb near the cave of the patriarchs in hebron"").",31,0.5444444444444444,4,0.5397190293742017,0.0,0.07929853228208632
+hassurname,abner,record,module:,25,0.4222222222222222,17,0.44761904761904764,0.0,0.0
+hassurname,abner,has_name,name,78,0.9008333333333334,44,0.6333333333333333,0.0,0.0
+hassurname,abner,has_name,abner,78,0.9008333333333334,100,1.0,0.0,1.0
+hassurname,abner,has_first_name,first_name,67,0.8674074074074074,27,0.3666666666666667,0.0,0.0
+hassurname,abner,has_first_name,abner,67,0.8674074074074074,100,1.0,0.0,1.0
+hassurname,abner,relationship record,module:,28,0.4543859649122807,17,0.44761904761904764,0.0,0.0
+hassurname,abner,has_interagent_relationship_type_to,relationship_type,31,0.5380952380952381,27,0.511764705882353,0.0,0.0
+hassurname,abner,has_interagent_relationship_type_to,cousin,31,0.5380952380952381,18,0.0,0.0,0.0
+hassurname,abner,has_interagent_relationship_type_to,commander-in-chief,31,0.5380952380952381,35,0.674074074074074,0.0,0.0
+hassurname,abner,has_interagent_relationship_type_to,opponent,31,0.5380952380952381,31,0.5499999999999999,0.0,0.0
+hassurname,abner,has_interagent_relationship_type_to,supporter,31,0.5380952380952381,29,0.43703703703703706,0.0,0.0
+hassurname,abner,is_relationship_to,agent,21,0.5333333333333333,40,0.6222222222222222,0.0,0.0
+hassurname,abner,is_relationship_to,king saul,21,0.5333333333333333,14,0.43703703703703706,0.0,0.0
+hassurname,abner,is_relationship_to,david,21,0.5333333333333333,20,0.4666666666666666,0.0,0.0
+hassurname,abner,is_relationship_to,ish-bosheth,21,0.5333333333333333,25,0.43030303030303035,0.0,0.0
+hassurname,abner,role record,module:,19,0.46060606060606063,17,0.44761904761904764,0.0,0.0
+hassurname,abner,has_participant_role,participant_role_type,40,0.5777777777777778,23,0.4698412698412698,0.0,0.0
+hassurname,abner,has_participant_role,commander,40,0.5777777777777778,57,0.43703703703703706,0.0,0.0
+hassurname,abner,has_participant_role,introducer,40,0.5777777777777778,40,0.5333333333333333,0.0,0.0
+hassurname,abner,role_provided_by,event,15,0.44166666666666665,20,0.43333333333333335,0.0,0.0
+hassurname,abner,role_provided_by,civil war between david and ish-bosheth,15,0.44166666666666665,18,0.6427350427350428,0.0,0.0
+hassurname,abner,role_provided_by,introduction of david to saul,15,0.44166666666666665,12,0.48965517241379314,0.0,0.0
+hassurname,abner,war between david and,"ish-bosheth""), role_provided_by(introducer, ""introduction of david to saul"").",26,0.5126984126984128,10,0.533982683982684,0.0,0.0
+hassurname,abner,record,module:,25,0.4222222222222222,17,0.44761904761904764,0.0,0.0
+hassurname,abner,has_sex,sex_type,59,0.8166666666666667,15,0.44166666666666665,0.0,0.0
+hassurname,abner,has_sex,male,59,0.8166666666666667,44,0.6333333333333333,0.0,0.0
+hassurname,abner,record,module:,25,0.4222222222222222,17,0.44761904761904764,0.0,0.0
+hassurname,abner,has_occupation,occupation,42,0.6190476190476191,27,0.0,0.0,0.0
+hassurname,abner,has_occupation,commander-in-chief of king saul's army,42,0.6190476190476191,19,0.6350877192982457,0.0,0.0
+hassurname,abner,of king,"saul's army"").",12,0.4142857142857143,21,0.5142857142857143,0.0,0.0
+hassurname,abner,status record,module:,35,0.5760683760683761,17,0.44761904761904764,0.0,0.0
+hassurname,abner,has_person_status,significant figure in the hebrew bible,44,0.6735294117647058,19,0.468421052631579,0.0,0.0
+hassurname,abner,figure in the hebrew,"bible"")",27,0.45,33,0.5619047619047619,0.0,0.0
+hassurname,abner,has_status_generating_event,event,43,0.6703703703703704,20,0.43333333333333335,0.0,0.0
+hassurname,abner,has_status_generating_event,role in the civil war,43,0.6703703703703704,23,0.4698412698412698,0.0,0.0
+hassurname,abner,has_status_generating_event,relationship with david and king saul,43,0.6703703703703704,10,0.4693693693693694,0.0,0.0
+hassurname,abner,has_status_generating_event,tomb near the cave of the patriarchs in hebron,43,0.6703703703703704,16,0.5695652173913044,0.0,0.0
+hassurname,abner,figure in the hebrew,"bible, ""role in the civil war""), has_status_generating_event(significant figure in the hebrew bible, ""relationship with david and king saul""), has_status_generating_event(significant figure in the hebrew bible, ""tomb near the cave of the patriarchs in hebron"").",27,0.45,4,0.5397190293742017,0.0,0.0
+hasname,david abner,record,module:,15,0.0,22,0.48917748917748916,0.0,0.0
+hasname,david abner,has_name,name,93,0.9708333333333333,27,0.44696969696969696,0.0,0.0
+hasname,david abner,has_name,abner,93,0.9708333333333333,62,0.43030303030303035,0.0,0.5797386715376658
+hasname,david abner,has_first_name,first_name,67,0.5476190476190476,29,0.5045454545454545,0.0,0.0
+hasname,david abner,has_first_name,abner,67,0.5476190476190476,62,0.43030303030303035,0.0,0.5797386715376658
+hasname,david abner,relationship record,module:,23,0.5106516290726817,22,0.48917748917748916,0.0,0.0
+hasname,david abner,has_interagent_relationship_type_to,relationship_type,29,0.6206349206349207,29,0.5329768270944741,0.0,0.0
+hasname,david abner,has_interagent_relationship_type_to,cousin,29,0.6206349206349207,24,0.5050505050505051,0.0,0.0
+hasname,david abner,has_interagent_relationship_type_to,commander-in-chief,29,0.6206349206349207,28,0.45959595959595956,0.0,0.0
+hasname,david abner,has_interagent_relationship_type_to,opponent,29,0.6206349206349207,21,0.4772727272727273,0.0,0.0
+hasname,david abner,has_interagent_relationship_type_to,supporter,29,0.6206349206349207,20,0.468013468013468,0.0,0.0
+hasname,david abner,is_relationship_to,agent,16,0.43121693121693117,25,0.43030303030303035,0.0,0.0
+hasname,david abner,is_relationship_to,king saul,16,0.43121693121693117,30,0.5353535353535354,0.0,0.0
+hasname,david abner,is_relationship_to,david,16,0.43121693121693117,62,0.890909090909091,0.0,0.5797386715376658
+hasname,david abner,is_relationship_to,ish-bosheth,16,0.43121693121693117,27,0.5151515151515151,0.0,0.0
+hasname,david abner,role record,module:,11,0.41125541125541126,22,0.48917748917748916,0.0,0.0
+hasname,david abner,has_participant_role,participant_role_type,37,0.5904761904761905,31,0.49927849927849927,0.0,0.0
+hasname,david abner,has_participant_role,commander,37,0.5904761904761905,40,0.6033670033670034,0.0,0.0
+hasname,david abner,has_participant_role,introducer,37,0.5904761904761905,38,0.5878787878787879,0.0,0.0
+hasname,david abner,role_provided_by,event,9,0.40178571428571425,25,0.43030303030303035,0.0,0.0
+hasname,david abner,role_provided_by,civil war between david and ish-bosheth,9,0.40178571428571425,36,0.6091686091686092,0.0,0.161713780662529
+hasname,david abner,role_provided_by,introduction of david to saul,9,0.40178571428571425,35,0.4830571727123451,0.0,0.19431434016858148
+hasname,david abner,war between david and,"ish-bosheth""), role_provided_by(introducer, ""introduction of david to saul"").",21,0.503968253968254,16,0.4968734968734969,0.0,0.1414305679255449
+hasname,david abner,record,module:,15,0.0,22,0.48917748917748916,0.0,0.0
+hasname,david abner,has_sex,sex_type,57,0.8,11,0.4053030303030303,0.0,0.0
+hasname,david abner,has_sex,male,57,0.8,27,0.44696969696969696,0.0,0.0
+hasname,david abner,record,module:,15,0.0,22,0.48917748917748916,0.0,0.0
+hasname,david abner,has_occupation,occupation,38,0.6190476190476191,29,0.5242424242424243,0.0,0.0
+hasname,david abner,has_occupation,commander-in-chief of king saul's army,38,0.6190476190476191,20,0.4640009113693324,0.0,0.0
+hasname,david abner,of king,"saul's army"").",14,0.42857142857142855,32,0.5497835497835498,0.0,0.0
+hasname,david abner,status record,module:,30,0.442002442002442,22,0.48917748917748916,0.0,0.0
+hasname,david abner,has_person_status,significant figure in the hebrew bible,42,0.6028011204481792,24,0.4011164274322169,0.0,0.0
+hasname,david abner,figure in the hebrew,"bible"")",15,0.29523809523809524,33,0.41125541125541126,0.0,0.0
+hasname,david abner,has_status_generating_event,event,35,0.6375661375661376,25,0.43030303030303035,0.0,0.0
+hasname,david abner,has_status_generating_event,role in the civil war,35,0.6375661375661376,31,0.43470418470418465,0.0,0.0
+hasname,david abner,has_status_generating_event,relationship with david and king saul,35,0.6375661375661376,33,0.4811629811629812,0.0,0.1757860783933462
+hasname,david abner,has_status_generating_event,tomb near the cave of the patriarchs in hebron,35,0.6375661375661376,25,0.4670619235836628,0.0,0.0
+hasname,david abner,figure in the hebrew,"bible, ""role in the civil war""), has_status_generating_event(significant figure in the hebrew bible, ""relationship with david and king saul""), has_status_generating_event(significant figure in the hebrew bible, ""tomb near the cave of the patriarchs in hebron"").",15,0.29523809523809524,8,0.5292000464414257,0.0,0.04597242576010343
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",record,module:,30,0.48412698412698413,5,0.44682124158563946,0.0,0.0
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",has_name,name,36,0.5952380952380952,4,0.5903141361256544,0.0,0.0
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",has_name,abner,36,0.5952380952380952,5,0.6087260034904014,0.0,0.10216005269411539
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",has_first_name,first_name,43,0.6726190476190476,8,0.5008919914679076,0.0,0.0
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",has_first_name,abner,43,0.6726190476190476,5,0.6087260034904014,0.0,0.10216005269411539
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",relationship record,module:,30,0.6135338345864662,5,0.44682124158563946,0.0,0.0
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",has_interagent_relationship_type_to,relationship_type,37,0.5666666666666667,12,0.48941880417088296,0.0,0.0
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",has_interagent_relationship_type_to,cousin,37,0.5666666666666667,5,0.47920302501454337,0.0,0.0
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",has_interagent_relationship_type_to,commander-in-chief,37,0.5666666666666667,13,0.49797778331809744,0.0,0.1437193995099964
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",has_interagent_relationship_type_to,opponent,37,0.5666666666666667,6,0.4826934264107039,0.0,0.0
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",has_interagent_relationship_type_to,supporter,37,0.5666666666666667,6,0.3993600930773706,0.0,0.0
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",is_relationship_to,agent,44,0.6474266474266474,5,0.5236474694589878,0.0,0.0
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",is_relationship_to,king saul,44,0.6474266474266474,8,0.46195185462201166,0.0,0.0
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",is_relationship_to,david,44,0.6474266474266474,5,0.5420593368237347,0.0,0.0
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",is_relationship_to,ish-bosheth,44,0.6474266474266474,8,0.4230525146755513,0.0,0.0
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",role record,module:,24,0.46645021645021645,5,0.44682124158563946,0.0,0.0
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",has_participant_role,participant_role_type,47,0.6876623376623376,13,0.4642732485664423,0.0,0.0
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",has_participant_role,commander,47,0.6876623376623376,8,0.5185912352142719,0.0,0.0
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",has_participant_role,introducer,47,0.6876623376623376,9,0.4472949389179756,0.0,0.0
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",role_provided_by,event,20,0.4900793650793651,5,0.5420593368237347,0.0,0.0
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",role_provided_by,civil war between david and ish-bosheth,20,0.4900793650793651,23,0.521461086906113,0.0,0.057884248069698864
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",role_provided_by,introduction of david to saul,20,0.4900793650793651,19,0.5309863392910874,0.0,0.03424157160017022
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",war between david and,"ish-bosheth""), role_provided_by(introducer, ""introduction of david to saul"").",29,0.5158730158730158,29,0.5304648111111372,0.0,0.0249225297210376
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",record,module:,30,0.48412698412698413,5,0.44682124158563946,0.0,0.0
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",has_sex,sex_type,38,0.6238095238095238,6,0.42713787085514837,0.0,0.0
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",has_sex,male,38,0.6238095238095238,4,0.5069808027923212,0.0,0.0
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",record,module:,30,0.48412698412698413,5,0.44682124158563946,0.0,0.0
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",has_occupation,occupation,64,0.8074074074074075,8,0.4326934264107039,0.0,0.0
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",has_occupation,commander-in-chief of king saul's army,64,0.8074074074074075,22,0.5088267451266234,0.0,0.08919939203430874
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",of king,"saul's army"").",19,0.4047619047619047,10,0.42221391174270756,0.0,0.0
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",status record,module:,37,0.5366300366300366,5,0.44682124158563946,0.0,0.0
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",has_person_status,significant figure in the hebrew bible,45,0.6675070028011204,23,0.5240481767245339,0.0,0.2142126756526446
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",figure in the hebrew,"bible"")",18,0.46507936507936504,5,0.44682124158563946,0.0,0.0
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",has_status_generating_event,event,39,0.5476190476190476,5,0.5420593368237347,0.0,0.0
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",has_status_generating_event,role in the civil war,39,0.5476190476190476,19,0.5101847113420549,0.0,0.2394225026829867
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",has_status_generating_event,relationship with david and king saul,39,0.5476190476190476,23,0.5420513772935239,0.0,0.06292132264320816
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",has_status_generating_event,tomb near the cave of the patriarchs in hebron,39,0.5476190476190476,29,0.551329767053646,0.0,0.24629609620555848
+hasdescription,"born enslaved. formerly enslaved in alabama and texas, abner served a term in the texas state legislature in 1874 and was a delegate to the state constitutional convention the following year.",figure in the hebrew,"bible, ""role in the civil war""), has_status_generating_event(significant figure in the hebrew bible, ""relationship with david and king saul""), has_status_generating_event(significant figure in the hebrew bible, ""tomb near the cave of the patriarchs in hebron"").",18,0.46507936507936504,39,0.6844393481329383,0.0,0.30623854068170764

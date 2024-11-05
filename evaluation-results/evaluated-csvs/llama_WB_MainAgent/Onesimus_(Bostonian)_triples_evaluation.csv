@@ -1,0 +1,325 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,on the provided,"text, the ontology module relations are as follows:",38,0.5292929292929293,14,0.49836601307189543,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,onesimus,32,0.537878787878788,29,0.5277777777777778,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,onesimus,40,0.5692640692640693,29,0.5277777777777778,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,relationship_type,30,0.5269480519480519,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,enslaved person,30,0.5269480519480519,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,cotton mather,34,0.5798460798460798,21,0.49572649572649574,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,male,22,0.45598845598845594,20,0.47222222222222215,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,slave,24,0.38311688311688313,18,0.0,0.0,0.0
+instance of,person,has_occupation,educator,24,0.38311688311688313,29,0.5277777777777778,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_age,72,33,0.45598845598845594,0,0.0,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,enslaved person,29,0.449554367201426,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,recorded_at,event,18,0.4545454545454546,36,0.5777777777777778,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,african-american,36,0.5162210338680927,27,0.4861111111111111,0.0,0.0
+instance of,person,descriptor record,module:,29,0.5398523045581869,15,0.0,0.0,0.0
+instance of,person,has_ethnolinguistic_descriptor,ethnolinguistic_descriptor,34,0.5579124579124579,19,0.5235042735042735,0.0,0.0
+instance of,person,has_ethnolinguistic_descriptor,african,34,0.5579124579124579,31,0.5396825396825397,0.0,0.0
+instance of,person,is left,blank.,44,0.5616883116883117,17,0.4444444444444444,0.0,0.0
+instance of,person,relations for which there is no information listed in the text file are,"skipped. the birth and death dates are not mentioned in the text, so the relations for age record module are left blank. the occupation and status generating events are not mentioned in the text, so the relations for occupation record module and person status record module are left blank. the race or color is mentioned as african-american, so the relation for race record module is populated. the ethnolinguistic descriptor is not mentioned in the text, so the relation for ethnolinguistic descriptor record module is left blank.",22,0.566794707639778,2,0.5037664783427495,0.0,0.03822296732771884
+hassex,male,on the provided,"text, the ontology module relations are as follows:",19,0.48888888888888893,11,0.49183006535947715,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_name,name,57,0.8055555555555556,50,0.6666666666666666,0.0,0.0
+hassex,male,has_name,onesimus,57,0.8055555555555556,17,0.4583333333333333,0.0,0.0
+hassex,male,has_surname,surname,59,0.6767676767676768,36,0.0,0.0,0.0
+hassex,male,has_first_name,first_name,50,0.6507936507936508,29,0.0,0.0,0.0
+hassex,male,has_first_name,onesimus,50,0.6507936507936508,17,0.4583333333333333,0.0,0.0
+hassex,male,relationship record,module:,24,0.44152046783625726,55,0.7535714285714287,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,relationship_type,24,0.5936507936507937,19,0.5310457516339869,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,enslaved person,24,0.5936507936507937,21,0.5388888888888889,0.0,0.0
+hassex,male,is_relationship_to,agent,17,0.46296296296296297,44,0.6333333333333333,0.0,0.0
+hassex,male,is_relationship_to,cotton mather,17,0.46296296296296297,35,0.0,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_sex,sex_type,92,0.9666666666666667,17,0.4583333333333333,0.0,0.0
+hassex,male,has_sex,male,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_occupation,occupation,30,0.5714285714285715,14,0.45,0.0,0.0
+hassex,male,has_occupation,slave,30,0.5714285714285715,44,0.6722222222222222,0.0,0.0
+hassex,male,has_occupation,educator,30,0.5714285714285715,17,0.4166666666666667,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_age,age,62,0.8222222222222222,57,0.7222222222222222,0.0,0.0
+hassex,male,has_age,72,62,0.8222222222222222,0,0.0,0.0,0.0
+hassex,male,has_birthdate,date_of_birth,42,0.576923076923077,24,0.5512820512820512,0.0,0.0
+hassex,male,has_deathdate,date_of_death,42,0.6581196581196581,24,0.5512820512820512,0.0,0.0
+hassex,male,status record,module:,32,0.5747863247863249,55,0.7535714285714287,0.0,0.0
+hassex,male,has_person_status,enslaved person,35,0.642483660130719,21,0.5388888888888889,0.0,0.0
+hassex,male,has_status_generating_event,event,30,0.6728395061728395,22,0.48333333333333334,0.0,0.0
+hassex,male,recorded_at,event,12,0.41919191919191917,22,0.48333333333333334,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_race_or_color,race_or_color,35,0.6339869281045751,24,0.5512820512820512,0.0,0.0
+hassex,male,has_race_or_color,african-american,35,0.6339869281045751,20,0.5416666666666666,0.0,0.0
+hassex,male,descriptor record,module:,17,0.31699346405228757,55,0.7535714285714287,0.0,0.0
+hassex,male,has_ethnolinguistic_descriptor,ethnolinguistic_descriptor,28,0.6,13,0.358974358974359,0.0,0.0
+hassex,male,has_ethnolinguistic_descriptor,african,28,0.6,18,0.46428571428571425,0.0,0.0
+hassex,male,is left,blank.,31,0.5396825396825397,20,0.4444444444444444,0.0,0.0
+hassex,male,relations for which there is no information listed in the text file are,"skipped. the birth and death dates are not mentioned in the text, so the relations for age record module are left blank. the occupation and status generating events are not mentioned in the text, so the relations for occupation record module and person status record module are left blank. the race or color is mentioned as african-american, so the relation for race record module is populated. the ethnolinguistic descriptor is not mentioned in the text, so the relation for ethnolinguistic descriptor record module is left blank.",13,0.5679186228482004,1,0.5858443188951664,0.0,0.0
+hasparticipantrole,child,on the provided,"text, the ontology module relations are as follows:",30,0.4756613756613757,11,0.5529411764705882,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,onesimus,38,0.5675925925925926,15,0.44166666666666665,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,onesimus,44,0.6772486772486772,15,0.44166666666666665,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,enslaved person,42,0.6570105820105819,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,cotton mather,44,0.6037037037037037,22,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,male,32,0.5317460317460317,22,0.48333333333333334,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,slave,50,0.6566137566137565,20,0.0,0.0,0.0
+hasparticipantrole,child,has_occupation,educator,50,0.6566137566137565,15,0.3833333333333333,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_age,age,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_age,72,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_birthdate,date_of_birth,52,0.6937321937321936,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_deathdate,date_of_death,52,0.6866096866096866,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,enslaved person,46,0.6479302832244008,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,recorded_at,event,28,0.36195286195286197,0,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_race_or_color,race_or_color,46,0.60239651416122,22,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_race_or_color,african-american,46,0.60239651416122,19,0.3416666666666666,0.0,0.0
+hasparticipantrole,child,descriptor record,module:,40,0.5653594771241829,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_ethnolinguistic_descriptor,ethnolinguistic_descriptor,42,0.5903133903133903,19,0.567948717948718,0.0,0.0
+hasparticipantrole,child,has_ethnolinguistic_descriptor,african,42,0.5903133903133903,17,0.44761904761904764,0.0,0.0
+hasparticipantrole,child,is left,blank.,24,0.42063492063492064,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,relations for which there is no information listed in the text file are,"skipped. the birth and death dates are not mentioned in the text, so the relations for age record module are left blank. the occupation and status generating events are not mentioned in the text, so the relations for occupation record module and person status record module are left blank. the race or color is mentioned as african-american, so the relation for race record module is populated. the ethnolinguistic descriptor is not mentioned in the text, so the relation for ethnolinguistic descriptor record module is left blank.",25,0.5259780907668232,2,0.5364720652856246,0.0,0.0
+hasparticipantrole,deceased person,on the provided,"text, the ontology module relations are as follows:",30,0.4756613756613757,27,0.4875816993464052,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,onesimus,38,0.5675925925925926,26,0.525,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,onesimus,44,0.6772486772486772,26,0.525,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,enslaved person,42,0.6570105820105819,73,0.7833333333333333,0.0,0.33609692727625756
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,cotton mather,44,0.6037037037037037,29,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,male,32,0.5317460317460317,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,slave,50,0.6566137566137565,20,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,educator,50,0.6566137566137565,35,0.5861111111111111,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_age,age,40,0.5978835978835978,22,0.4333333333333333,0.0,0.0
+hasparticipantrole,deceased person,has_age,72,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,date_of_birth,52,0.6937321937321936,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,date_of_death,52,0.6866096866096866,36,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,enslaved person,46,0.6479302832244008,73,0.7833333333333333,0.0,0.33609692727625756
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,event,28,0.36195286195286197,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,race_or_color,46,0.60239651416122,29,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,african-american,46,0.60239651416122,32,0.48194444444444445,0.0,0.0
+hasparticipantrole,deceased person,descriptor record,module:,40,0.5653594771241829,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_ethnolinguistic_descriptor,ethnolinguistic_descriptor,42,0.5903133903133903,29,0.5005698005698006,0.0,0.0
+hasparticipantrole,deceased person,has_ethnolinguistic_descriptor,african,42,0.5903133903133903,27,0.3063492063492063,0.0,0.0
+hasparticipantrole,deceased person,is left,blank.,24,0.42063492063492064,19,0.41111111111111115,0.0,0.0
+hasparticipantrole,deceased person,relations for which there is no information listed in the text file are,"skipped. the birth and death dates are not mentioned in the text, so the relations for age record module are left blank. the occupation and status generating events are not mentioned in the text, so the relations for occupation record module and person status record module are left blank. the race or color is mentioned as african-american, so the relation for race record module is populated. the ethnolinguistic descriptor is not mentioned in the text, so the relation for ethnolinguistic descriptor record module is left blank.",25,0.5259780907668232,5,0.5427495291902072,0.0,0.022159332300799323
+hasdescriptiveoccupation,slave,on the provided,"text, the ontology module relations are as follows:",26,0.561111111111111,11,0.3130718954248366,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,onesimus,25,0.5555555555555555,15,0.3833333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,surname,34,0.5474386724386724,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,first_name,32,0.5615079365079364,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,onesimus,32,0.5615079365079364,15,0.3833333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,relationship record,module:,33,0.6137539361223572,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,27,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,enslaved person,41,0.6037698412698412,50,0.6444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,agent,38,0.6264245014245015,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,cotton mather,38,0.6264245014245015,22,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,sex_type,32,0.5742063492063493,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,male,32,0.5742063492063493,44,0.6722222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,slave,68,0.8045940170940171,100,1.0,0.0,1.0
+hasdescriptiveoccupation,slave,has_occupation,educator,68,0.8045940170940171,15,0.44166666666666665,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,age,26,0.5793650793650794,50,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,72,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,date_of_birth,38,0.6286324786324786,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,date_of_death,43,0.652065527065527,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,enslaved person,39,0.6241830065359477,50,0.6444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,event,39,0.5815696649029983,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,event,34,0.5202020202020202,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,race_or_color,39,0.5977668845315903,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,african-american,39,0.5977668845315903,19,0.5083333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,descriptor record,module:,54,0.6797385620915034,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_ethnolinguistic_descriptor,ethnolinguistic_descriptor,44,0.6722222222222222,13,0.46068376068376066,0.0,0.0
+hasdescriptiveoccupation,slave,has_ethnolinguistic_descriptor,african,44,0.6722222222222222,17,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,is left,blank.,19,0.49603174603174605,36,0.5777777777777778,0.0,0.0
+hasdescriptiveoccupation,slave,relations for which there is no information listed in the text file are,"skipped. the birth and death dates are not mentioned in the text, so the relations for age record module are left blank. the occupation and status generating events are not mentioned in the text, so the relations for occupation record module and person status record module are left blank. the race or color is mentioned as african-american, so the relation for race record module is populated. the ethnolinguistic descriptor is not mentioned in the text, so the relation for ethnolinguistic descriptor record module is left blank.",25,0.49239390591917526,2,0.6031387319522913,0.0,0.0
+hasdescriptiveoccupation,medical scientist,on the provided,"text, the ontology module relations are as follows:",26,0.561111111111111,24,0.5081699346405228,0.0,0.0
+hasdescriptiveoccupation,medical scientist,record,module:,27,0.6138888888888889,33,0.5189075630252101,0.0,0.0
+hasdescriptiveoccupation,medical scientist,has_name,name,25,0.5555555555555555,19,0.5310457516339869,0.0,0.0
+hasdescriptiveoccupation,medical scientist,has_name,onesimus,25,0.5555555555555555,32,0.4950980392156863,0.0,0.0
+hasdescriptiveoccupation,medical scientist,has_surname,surname,34,0.5474386724386724,17,0.4239028944911298,0.0,0.0
+hasdescriptiveoccupation,medical scientist,has_first_name,first_name,32,0.5615079365079364,22,0.46470588235294114,0.0,0.0
+hasdescriptiveoccupation,medical scientist,has_first_name,onesimus,32,0.5615079365079364,32,0.4950980392156863,0.0,0.0
+hasdescriptiveoccupation,medical scientist,relationship record,module:,33,0.6137539361223572,33,0.5189075630252101,0.0,0.0
+hasdescriptiveoccupation,medical scientist,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,35,0.5751633986928105,0.0,0.0
+hasdescriptiveoccupation,medical scientist,has_interagent_relationship_type_to,enslaved person,41,0.6037698412698412,31,0.5616557734204793,0.0,0.0
+hasdescriptiveoccupation,medical scientist,is_relationship_to,agent,38,0.6264245014245015,36,0.33921568627450976,0.0,0.0
+hasdescriptiveoccupation,medical scientist,is_relationship_to,cotton mather,38,0.6264245014245015,20,0.5072182719241543,0.0,0.0
+hasdescriptiveoccupation,medical scientist,record,module:,27,0.6138888888888889,33,0.5189075630252101,0.0,0.0
+hasdescriptiveoccupation,medical scientist,has_sex,sex_type,32,0.5742063492063493,24,0.45588235294117646,0.0,0.0
+hasdescriptiveoccupation,medical scientist,has_sex,male,32,0.5742063492063493,38,0.6617647058823529,0.0,0.0
+hasdescriptiveoccupation,medical scientist,record,module:,27,0.6138888888888889,33,0.5189075630252101,0.0,0.0
+hasdescriptiveoccupation,medical scientist,has_occupation,occupation,68,0.8045940170940171,30,0.5398692810457516,0.0,0.0
+hasdescriptiveoccupation,medical scientist,has_occupation,slave,68,0.8045940170940171,18,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,medical scientist,has_occupation,educator,68,0.8045940170940171,40,0.5784313725490197,0.0,0.0
+hasdescriptiveoccupation,medical scientist,record,module:,27,0.6138888888888889,33,0.5189075630252101,0.0,0.0
+hasdescriptiveoccupation,medical scientist,has_age,age,26,0.5793650793650794,20,0.42810457516339867,0.0,0.0
+hasdescriptiveoccupation,medical scientist,has_age,72,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,medical scientist,has_birthdate,date_of_birth,38,0.6286324786324786,33,0.4262443438914027,0.0,0.0
+hasdescriptiveoccupation,medical scientist,has_deathdate,date_of_death,43,0.652065527065527,27,0.4929110105580694,0.0,0.0
+hasdescriptiveoccupation,medical scientist,status record,module:,32,0.540954415954416,33,0.5189075630252101,0.0,0.0
+hasdescriptiveoccupation,medical scientist,has_person_status,enslaved person,39,0.6241830065359477,31,0.5616557734204793,0.0,0.0
+hasdescriptiveoccupation,medical scientist,has_status_generating_event,event,39,0.5815696649029983,36,0.4196078431372549,0.0,0.0
+hasdescriptiveoccupation,medical scientist,recorded_at,event,34,0.5202020202020202,36,0.4196078431372549,0.0,0.0
+hasdescriptiveoccupation,medical scientist,record,module:,27,0.6138888888888889,33,0.5189075630252101,0.0,0.0
+hasdescriptiveoccupation,medical scientist,has_race_or_color,race_or_color,39,0.5977668845315903,20,0.4262443438914027,0.0,0.0
+hasdescriptiveoccupation,medical scientist,has_race_or_color,african-american,39,0.5977668845315903,36,0.47356442577030816,0.0,0.0
+hasdescriptiveoccupation,medical scientist,descriptor record,module:,54,0.6797385620915034,33,0.5189075630252101,0.0,0.0
+hasdescriptiveoccupation,medical scientist,has_ethnolinguistic_descriptor,ethnolinguistic_descriptor,44,0.6722222222222222,37,0.6266968325791855,0.0,0.0
+hasdescriptiveoccupation,medical scientist,has_ethnolinguistic_descriptor,african,44,0.6722222222222222,33,0.5189075630252101,0.0,0.0
+hasdescriptiveoccupation,medical scientist,is left,blank.,19,0.49603174603174605,17,0.31699346405228757,0.0,0.0
+hasdescriptiveoccupation,medical scientist,relations for which there is no information listed in the text file are,"skipped. the birth and death dates are not mentioned in the text, so the relations for age record module are left blank. the occupation and status generating events are not mentioned in the text, so the relations for occupation record module and person status record module are left blank. the race or color is mentioned as african-american, so the relation for race record module is populated. the ethnolinguistic descriptor is not mentioned in the text, so the relation for ethnolinguistic descriptor record module is left blank.",25,0.49239390591917526,6,0.5204756102064177,0.0,0.0
+hasfirstname,onesimus,on the provided,"text, the ontology module relations are as follows:",22,0.3666666666666667,17,0.5076797385620915,0.0,0.0
+hasfirstname,onesimus,record,module:,22,0.4166666666666667,27,0.4900793650793651,0.0,0.0
+hasfirstname,onesimus,has_name,name,70,0.8736111111111112,33,0.5972222222222222,0.0,0.0
+hasfirstname,onesimus,has_name,onesimus,70,0.8736111111111112,100,1.0,0.0,1.0
+hasfirstname,onesimus,has_surname,surname,70,0.8733164983164984,27,0.4900793650793651,0.0,0.0
+hasfirstname,onesimus,has_first_name,first_name,92,0.9666666666666667,22,0.44722222222222224,0.0,0.0
+hasfirstname,onesimus,has_first_name,onesimus,92,0.9666666666666667,100,1.0,0.0,1.0
+hasfirstname,onesimus,relationship record,module:,32,0.5077276524644946,27,0.4900793650793651,0.0,0.0
+hasfirstname,onesimus,has_interagent_relationship_type_to,relationship_type,34,0.5949735449735449,32,0.5063725490196078,0.0,0.0
+hasfirstname,onesimus,has_interagent_relationship_type_to,enslaved person,34,0.5949735449735449,26,0.5055555555555555,0.0,0.0
+hasfirstname,onesimus,is_relationship_to,agent,27,0.6203703703703703,15,0.3833333333333333,0.0,0.0
+hasfirstname,onesimus,is_relationship_to,cotton mather,27,0.6203703703703703,29,0.5352564102564102,0.0,0.0
+hasfirstname,onesimus,record,module:,22,0.4166666666666667,27,0.4900793650793651,0.0,0.0
+hasfirstname,onesimus,has_sex,sex_type,53,0.6349206349206349,12,0.3333333333333333,0.0,0.0
+hasfirstname,onesimus,has_sex,male,53,0.6349206349206349,17,0.4583333333333333,0.0,0.0
+hasfirstname,onesimus,record,module:,22,0.4166666666666667,27,0.4900793650793651,0.0,0.0
+hasfirstname,onesimus,has_occupation,occupation,38,0.5873015873015873,22,0.44722222222222224,0.0,0.0
+hasfirstname,onesimus,has_occupation,slave,38,0.5873015873015873,15,0.3833333333333333,0.0,0.0
+hasfirstname,onesimus,has_occupation,educator,38,0.5873015873015873,25,0.4166666666666667,0.0,0.0
+hasfirstname,onesimus,record,module:,22,0.4166666666666667,27,0.4900793650793651,0.0,0.0
+hasfirstname,onesimus,has_age,age,53,0.7972222222222223,18,0.4861111111111111,0.0,0.0
+hasfirstname,onesimus,has_age,72,53,0.7972222222222223,0,0.0,0.0,0.0
+hasfirstname,onesimus,has_birthdate,date_of_birth,64,0.8324786324786324,19,0.42414529914529914,0.0,0.0
+hasfirstname,onesimus,has_deathdate,date_of_death,48,0.5982905982905983,19,0.30128205128205127,0.0,0.0
+hasfirstname,onesimus,status record,module:,32,0.5427350427350427,27,0.4900793650793651,0.0,0.0
+hasfirstname,onesimus,has_person_status,enslaved person,48,0.6857298474945533,26,0.5055555555555555,0.0,0.0
+hasfirstname,onesimus,has_status_generating_event,event,41,0.5833333333333334,15,0.3833333333333333,0.0,0.0
+hasfirstname,onesimus,recorded_at,event,17,0.4823232323232323,15,0.3833333333333333,0.0,0.0
+hasfirstname,onesimus,record,module:,22,0.4166666666666667,27,0.4900793650793651,0.0,0.0
+hasfirstname,onesimus,has_race_or_color,race_or_color,41,0.6176470588235294,10,0.30128205128205127,0.0,0.0
+hasfirstname,onesimus,has_race_or_color,african-american,41,0.6176470588235294,25,0.40972222222222215,0.0,0.0
+hasfirstname,onesimus,descriptor record,module:,28,0.50359477124183,27,0.4900793650793651,0.0,0.0
+hasfirstname,onesimus,has_ethnolinguistic_descriptor,ethnolinguistic_descriptor,33,0.5611111111111111,29,0.6195054945054945,0.0,0.0
+hasfirstname,onesimus,has_ethnolinguistic_descriptor,african,33,0.5611111111111111,13,0.4226190476190476,0.0,0.0
+hasfirstname,onesimus,is left,blank.,32,0.5515873015873015,14,0.4305555555555555,0.0,0.0
+hasfirstname,onesimus,relations for which there is no information listed in the text file are,"skipped. the birth and death dates are not mentioned in the text, so the relations for age record module are left blank. the occupation and status generating events are not mentioned in the text, so the relations for occupation record module and person status record module are left blank. the race or color is mentioned as african-american, so the relation for race record module is populated. the ethnolinguistic descriptor is not mentioned in the text, so the relation for ethnolinguistic descriptor record module is left blank.",24,0.6118935837245697,3,0.5466886377903327,0.0,0.0
+hasname,onesimus,on the provided,"text, the ontology module relations are as follows:",18,0.4317460317460317,17,0.5076797385620915,0.0,0.0
+hasname,onesimus,record,module:,15,0.0,27,0.4900793650793651,0.0,0.0
+hasname,onesimus,has_name,name,93,0.9708333333333333,33,0.5972222222222222,0.0,0.0
+hasname,onesimus,has_name,onesimus,93,0.9708333333333333,100,1.0,0.0,1.0
+hasname,onesimus,has_surname,surname,78,0.9151515151515152,27,0.4900793650793651,0.0,0.0
+hasname,onesimus,has_first_name,first_name,67,0.5476190476190476,22,0.44722222222222224,0.0,0.0
+hasname,onesimus,has_first_name,onesimus,67,0.5476190476190476,100,1.0,0.0,1.0
+hasname,onesimus,relationship record,module:,23,0.5106516290726817,27,0.4900793650793651,0.0,0.0
+hasname,onesimus,has_interagent_relationship_type_to,relationship_type,29,0.6206349206349207,32,0.5063725490196078,0.0,0.0
+hasname,onesimus,has_interagent_relationship_type_to,enslaved person,29,0.6206349206349207,26,0.5055555555555555,0.0,0.0
+hasname,onesimus,is_relationship_to,agent,16,0.43121693121693117,15,0.3833333333333333,0.0,0.0
+hasname,onesimus,is_relationship_to,cotton mather,16,0.43121693121693117,29,0.5352564102564102,0.0,0.0
+hasname,onesimus,record,module:,15,0.0,27,0.4900793650793651,0.0,0.0
+hasname,onesimus,has_sex,sex_type,57,0.8,12,0.3333333333333333,0.0,0.0
+hasname,onesimus,has_sex,male,57,0.8,17,0.4583333333333333,0.0,0.0
+hasname,onesimus,record,module:,15,0.0,27,0.4900793650793651,0.0,0.0
+hasname,onesimus,has_occupation,occupation,38,0.6190476190476191,22,0.44722222222222224,0.0,0.0
+hasname,onesimus,has_occupation,slave,38,0.6190476190476191,15,0.3833333333333333,0.0,0.0
+hasname,onesimus,has_occupation,educator,38,0.6190476190476191,25,0.4166666666666667,0.0,0.0
+hasname,onesimus,record,module:,15,0.0,27,0.4900793650793651,0.0,0.0
+hasname,onesimus,has_age,age,71,0.8666666666666668,18,0.4861111111111111,0.0,0.0
+hasname,onesimus,has_age,72,71,0.8666666666666668,0,0.0,0.0,0.0
+hasname,onesimus,has_birthdate,date_of_birth,50,0.553113553113553,19,0.42414529914529914,0.0,0.0
+hasname,onesimus,has_deathdate,date_of_death,50,0.632967032967033,19,0.30128205128205127,0.0,0.0
+hasname,onesimus,status record,module:,30,0.442002442002442,27,0.4900793650793651,0.0,0.0
+hasname,onesimus,has_person_status,enslaved person,42,0.6028011204481792,26,0.5055555555555555,0.0,0.0
+hasname,onesimus,has_status_generating_event,event,35,0.6375661375661376,15,0.3833333333333333,0.0,0.0
+hasname,onesimus,recorded_at,event,11,0.41125541125541126,15,0.3833333333333333,0.0,0.0
+hasname,onesimus,record,module:,15,0.0,27,0.4900793650793651,0.0,0.0
+hasname,onesimus,has_race_or_color,race_or_color,42,0.6694677871148459,10,0.30128205128205127,0.0,0.0
+hasname,onesimus,has_race_or_color,african-american,42,0.6694677871148459,25,0.40972222222222215,0.0,0.0
+hasname,onesimus,descriptor record,module:,17,0.3011204481792717,27,0.4900793650793651,0.0,0.0
+hasname,onesimus,has_ethnolinguistic_descriptor,ethnolinguistic_descriptor,27,0.5603174603174603,29,0.6195054945054945,0.0,0.0
+hasname,onesimus,has_ethnolinguistic_descriptor,african,27,0.5603174603174603,13,0.4226190476190476,0.0,0.0
+hasname,onesimus,is left,blank.,29,0.5238095238095238,14,0.4305555555555555,0.0,0.0
+hasname,onesimus,relations for which there is no information listed in the text file are,"skipped. the birth and death dates are not mentioned in the text, so the relations for age record module are left blank. the occupation and status generating events are not mentioned in the text, so the relations for occupation record module and person status record module are left blank. the race or color is mentioned as african-american, so the relation for race record module is populated. the ethnolinguistic descriptor is not mentioned in the text, so the relation for ethnolinguistic descriptor record module is left blank.",15,0.6042924211938296,3,0.5466886377903327,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",on the provided,"text, the ontology module relations are as follows:",28,0.4984126984126984,27,0.574281045751634,0.0,0.034016651513884
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",record,module:,30,0.48412698412698413,6,0.5179365079365079,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",has_name,name,36,0.5952380952380952,4,0.5066666666666667,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",has_name,onesimus,36,0.5952380952380952,8,0.555,0.0,0.1309854230657309
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",has_surname,surname,48,0.6168831168831169,7,0.5354761904761904,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",has_first_name,first_name,43,0.6726190476190476,9,0.5001851851851852,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",has_first_name,onesimus,43,0.6726190476190476,8,0.555,0.0,0.1309854230657309
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",relationship record,module:,30,0.6135338345864662,6,0.5179365079365079,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",has_interagent_relationship_type_to,relationship_type,37,0.5666666666666667,13,0.48831932773109243,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",has_interagent_relationship_type_to,enslaved person,37,0.5666666666666667,14,0.6472222222222223,0.0,0.07593731515892596
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",is_relationship_to,agent,44,0.6474266474266474,5,0.5416666666666666,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",is_relationship_to,cotton mather,44,0.6474266474266474,11,0.5344871794871794,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",record,module:,30,0.48412698412698413,6,0.5179365079365079,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",has_sex,sex_type,38,0.6238095238095238,6,0.4822222222222223,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",has_sex,male,38,0.6238095238095238,4,0.5066666666666667,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",record,module:,30,0.48412698412698413,6,0.5179365079365079,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",has_occupation,occupation,64,0.8074074074074075,10,0.5166666666666667,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",has_occupation,slave,64,0.8074074074074075,5,0.5416666666666666,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",has_occupation,educator,64,0.8074074074074075,8,0.555,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",record,module:,30,0.48412698412698413,6,0.5179365079365079,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",has_age,age,38,0.6190476190476191,3,0.5605555555555556,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",has_age,72,38,0.6190476190476191,0,0.0,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",has_birthdate,date_of_birth,37,0.6318681318681318,9,0.5125058275058275,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",has_deathdate,date_of_death,44,0.63003663003663,9,0.5125058275058275,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",status record,module:,37,0.5366300366300366,6,0.5179365079365079,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",has_person_status,enslaved person,45,0.6675070028011204,14,0.6472222222222223,0.0,0.07593731515892596
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",has_status_generating_event,event,39,0.5476190476190476,5,0.6083333333333333,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",recorded_at,event,32,0.47056277056277057,5,0.6083333333333333,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",record,module:,30,0.48412698412698413,6,0.5179365079365079,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",has_race_or_color,race_or_color,39,0.5896358543417367,10,0.5125058275058275,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",has_race_or_color,african-american,39,0.5896358543417367,13,0.5152777777777778,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",descriptor record,module:,58,0.6870525988173046,6,0.5179365079365079,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",has_ethnolinguistic_descriptor,ethnolinguistic_descriptor,55,0.6265512265512265,19,0.5488461538461539,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",has_ethnolinguistic_descriptor,african,55,0.6265512265512265,7,0.5354761904761904,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",is left,blank.,29,0.5476190476190476,5,0.5527777777777778,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.onesimus taught his former owner about a smallpox inoculation technique developed in africa, and in light of the latter's promotion 600 bostonians were inoculated.",relations for which there is no information listed in the text file are,"skipped. the birth and death dates are not mentioned in the text, so the relations for age record module are left blank. the occupation and status generating events are not mentioned in the text, so the relations for occupation record module and person status record module are left blank. the race or color is mentioned as african-american, so the relation for race record module is populated. the ethnolinguistic descriptor is not mentioned in the text, so the relation for ethnolinguistic descriptor record module is left blank.",21,0.5364967583277442,36,0.611377077344963,0.0,0.11670710534982137

@@ -1,0 +1,562 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,allensworth,32,0.537878787878788,35,0.5934343434343434,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,allensworth,27,0.49242424242424243,35,0.5934343434343434,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,allen,40,0.5692640692640693,36,0.5777777777777778,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type,relationship_type,33,0.5340909090909091,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type,son,33,0.5340909090909091,67,0.0,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,phyllis,34,0.5798460798460798,31,0.4365079365079365,0.0,0.0
+instance of,person,role record,module:,27,0.49242424242424243,15,0.0,0.0,0.0
+instance of,person,has_participant_role,participant_role_type,32,0.5668831168831169,22,0.5357142857142857,0.0,0.0
+instance of,person,has_participant_role,slave,32,0.5668831168831169,18,0.0,0.0,0.0
+instance of,person,role_provided_by,event,15,0.4356060606060606,36,0.5777777777777778,0.0,0.0
+instance of,person,role_provided_by,enslavement,15,0.4356060606060606,35,0.47979797979797983,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,male,22,0.45598845598845594,20,0.47222222222222215,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,slave,24,0.38311688311688313,18,0.0,0.0,0.0
+instance of,person,has_occupation,soldier,24,0.38311688311688313,31,0.0,0.0,0.0
+instance of,person,has_occupation,pastor,24,0.38311688311688313,50,0.6666666666666666,0.0,0.0
+instance of,person,has_occupation,founder,24,0.38311688311688313,31,0.4365079365079365,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_birthdate,1842,33,0.5463869463869464,0,0.0,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,african-american,36,0.5162210338680927,27,0.4861111111111111,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,enslaved person,29,0.449554367201426,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,has_person_status,soldier,29,0.449554367201426,31,0.0,0.0,0.0
+instance of,person,has_person_status,pastor,29,0.449554367201426,50,0.6666666666666666,0.0,0.0
+instance of,person,has_person_status,founder,29,0.449554367201426,31,0.4365079365079365,0.0,0.0
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,born into slavery,26,0.4799102132435466,17,0.46732026143790845,0.0,0.0
+instance of,person,has_status_generating_event,civil war,26,0.4799102132435466,13,0.0,0.0,0.0
+instance of,person,has_status_generating_event,appointment to harney street baptist church,26,0.4799102132435466,16,0.6020671834625323,0.0,0.0
+instance of,person,has_status_generating_event,establishment of allensworth,26,0.4799102132435466,24,0.5198412698412699,0.0,0.0
+instance of,person,has_status_generating_event,california,26,0.4799102132435466,25,0.48888888888888893,0.0,0.0
+instance of,person,into,"slavery'), has_status_generating_event(soldier, 'civil war'), has_status_generating_event(pastor, 'appointment to harney street baptist church'), has_status_generating_event(founder, 'establishment of allensworth, california')",53,0.6742424242424242,5,0.619960668633235,0.0,0.0
+instance of,person,recorded_at,event,18,0.4545454545454546,36,0.5777777777777778,0.0,0.0
+instance of,person,recorded_at,born into slavery,18,0.4545454545454546,17,0.46732026143790845,0.0,0.0
+instance of,person,recorded_at,civil war,18,0.4545454545454546,13,0.0,0.0,0.0
+instance of,person,recorded_at,appointment to harney street baptist church,18,0.4545454545454546,16,0.6020671834625323,0.0,0.0
+instance of,person,recorded_at,establishment of allensworth,18,0.4545454545454546,24,0.5198412698412699,0.0,0.0
+instance of,person,recorded_at,california,18,0.4545454545454546,25,0.48888888888888893,0.0,0.0
+instance of,person,into,"slavery'), recorded_at(soldier, 'civil war'), recorded_at(pastor, 'appointment to harney street baptist church'), recorded_at(founder, 'establishment of allensworth, california')",53,0.6742424242424242,7,0.6223470661672909,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_name,name,57,0.8055555555555556,50,0.6666666666666666,0.0,0.0
+hassex,male,has_name,allensworth,57,0.8055555555555556,40,0.6742424242424242,0.0,0.0
+hassex,male,has_surname,surname,59,0.6767676767676768,36,0.0,0.0,0.0
+hassex,male,has_surname,allensworth,59,0.6767676767676768,40,0.6742424242424242,0.0,0.0
+hassex,male,has_first_name,first_name,50,0.6507936507936508,29,0.0,0.0,0.0
+hassex,male,has_first_name,allen,50,0.6507936507936508,67,0.7833333333333333,0.0,0.0
+hassex,male,relationship record,module:,24,0.44152046783625726,55,0.7535714285714287,0.0,0.0
+hassex,male,has_interagent_relationship_type,relationship_type,26,0.5972222222222222,19,0.5310457516339869,0.0,0.0
+hassex,male,has_interagent_relationship_type,son,26,0.5972222222222222,0,0.0,0.0,0.0
+hassex,male,is_relationship_to,agent,17,0.46296296296296297,44,0.6333333333333333,0.0,0.0
+hassex,male,is_relationship_to,phyllis,17,0.46296296296296297,18,0.46428571428571425,0.0,0.0
+hassex,male,role record,module:,12,0.41919191919191917,55,0.7535714285714287,0.0,0.0
+hassex,male,has_participant_role,participant_role_type,31,0.5499999999999999,24,0.43253968253968256,0.0,0.0
+hassex,male,has_participant_role,slave,31,0.5499999999999999,44,0.6722222222222222,0.0,0.0
+hassex,male,role_provided_by,event,9,0.40972222222222227,22,0.48333333333333334,0.0,0.0
+hassex,male,role_provided_by,enslavement,9,0.40972222222222227,27,0.5631313131313131,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_sex,sex_type,92,0.9666666666666667,17,0.4583333333333333,0.0,0.0
+hassex,male,has_sex,male,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_occupation,occupation,30,0.5714285714285715,14,0.45,0.0,0.0
+hassex,male,has_occupation,slave,30,0.5714285714285715,44,0.6722222222222222,0.0,0.0
+hassex,male,has_occupation,soldier,30,0.5714285714285715,36,0.5952380952380952,0.0,0.0
+hassex,male,has_occupation,pastor,30,0.5714285714285715,20,0.47222222222222215,0.0,0.0
+hassex,male,has_occupation,founder,30,0.5714285714285715,18,0.46428571428571425,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_birthdate,date_of_birth,42,0.576923076923077,24,0.5512820512820512,0.0,0.0
+hassex,male,has_birthdate,1842,42,0.576923076923077,0,0.0,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_race_or_color,race_or_color,35,0.6339869281045751,24,0.5512820512820512,0.0,0.0
+hassex,male,has_race_or_color,african-american,35,0.6339869281045751,20,0.5416666666666666,0.0,0.0
+hassex,male,status record,module:,32,0.5747863247863249,55,0.7535714285714287,0.0,0.0
+hassex,male,has_person_status,enslaved person,35,0.642483660130719,21,0.5388888888888889,0.0,0.0
+hassex,male,has_person_status,soldier,35,0.642483660130719,36,0.5952380952380952,0.0,0.0
+hassex,male,has_person_status,pastor,35,0.642483660130719,20,0.47222222222222215,0.0,0.0
+hassex,male,has_person_status,founder,35,0.642483660130719,18,0.46428571428571425,0.0,0.0
+hassex,male,has_status_generating_event,event,30,0.6728395061728395,22,0.48333333333333334,0.0,0.0
+hassex,male,has_status_generating_event,born into slavery,30,0.6728395061728395,19,0.0,0.0,0.0
+hassex,male,has_status_generating_event,civil war,30,0.6728395061728395,15,0.4537037037037037,0.0,0.0
+hassex,male,has_status_generating_event,appointment to harney street baptist church,30,0.6728395061728395,13,0.49547803617571057,0.0,0.0
+hassex,male,has_status_generating_event,establishment of allensworth,30,0.6728395061728395,25,0.6309523809523809,0.0,0.0
+hassex,male,has_status_generating_event,california,30,0.6728395061728395,29,0.5666666666666667,0.0,0.0
+hassex,male,into,"slavery'), has_status_generating_event(soldier, 'civil war'), has_status_generating_event(pastor, 'appointment to harney street baptist church'), has_status_generating_event(founder, 'establishment of allensworth, california')",0,0.0,3,0.5892330383480826,0.0,0.0
+hassex,male,recorded_at,event,12,0.41919191919191917,22,0.48333333333333334,0.0,0.0
+hassex,male,recorded_at,born into slavery,12,0.41919191919191917,19,0.0,0.0,0.0
+hassex,male,recorded_at,civil war,12,0.41919191919191917,15,0.4537037037037037,0.0,0.0
+hassex,male,recorded_at,appointment to harney street baptist church,12,0.41919191919191917,13,0.49547803617571057,0.0,0.0
+hassex,male,recorded_at,establishment of allensworth,12,0.41919191919191917,25,0.6309523809523809,0.0,0.0
+hassex,male,recorded_at,california,12,0.41919191919191917,29,0.5666666666666667,0.0,0.0
+hassex,male,into,"slavery'), recorded_at(soldier, 'civil war'), recorded_at(pastor, 'appointment to harney street baptist church'), recorded_at(founder, 'establishment of allensworth, california')",0,0.0,4,0.5908239700374532,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,allensworth,38,0.5675925925925926,12,0.43030303030303035,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,allensworth,41,0.6274651274651274,12,0.43030303030303035,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,allen,44,0.6772486772486772,20,0.4666666666666666,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type,relationship_type,44,0.65625,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type,son,44,0.65625,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,phyllis,44,0.6037037037037037,33,0.5619047619047619,0.0,0.0
+hasparticipantrole,child,role record,module:,28,0.4452861952861953,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant_role_type,95,0.9766666666666667,23,0.33174603174603173,0.0,0.0
+hasparticipantrole,child,has_participant_role,slave,95,0.9766666666666667,20,0.0,0.0,0.0
+hasparticipantrole,child,role_provided_by,event,29,0.4583333333333333,0,0.0,0.0,0.0
+hasparticipantrole,child,role_provided_by,enslavement,29,0.4583333333333333,12,0.43030303030303035,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,male,32,0.5317460317460317,22,0.48333333333333334,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,slave,50,0.6566137566137565,20,0.0,0.0,0.0
+hasparticipantrole,child,has_occupation,soldier,50,0.6566137566137565,33,0.565079365079365,0.0,0.0
+hasparticipantrole,child,has_occupation,pastor,50,0.6566137566137565,0,0.0,0.0,0.0
+hasparticipantrole,child,has_occupation,founder,50,0.6566137566137565,17,0.44761904761904764,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_birthdate,date_of_birth,52,0.6937321937321936,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_birthdate,1842,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_race_or_color,race_or_color,46,0.60239651416122,22,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_race_or_color,african-american,46,0.60239651416122,19,0.3416666666666666,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,enslaved person,46,0.6479302832244008,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,child,has_person_status,soldier,46,0.6479302832244008,33,0.565079365079365,0.0,0.0
+hasparticipantrole,child,has_person_status,pastor,46,0.6479302832244008,0,0.0,0.0,0.0
+hasparticipantrole,child,has_person_status,founder,46,0.6479302832244008,17,0.44761904761904764,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,born into slavery,40,0.5819304152637487,18,0.4196078431372549,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,civil war,40,0.5819304152637487,43,0.6444444444444445,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,appointment to harney street baptist church,40,0.5819304152637487,8,0.31550387596899226,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,establishment of allensworth,40,0.5819304152637487,12,0.4579365079365079,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,california,40,0.5819304152637487,27,0.5222222222222221,0.0,0.0
+hasparticipantrole,child,into,"slavery'), has_status_generating_event(soldier, 'civil war'), has_status_generating_event(pastor, 'appointment to harney street baptist church'), has_status_generating_event(founder, 'establishment of allensworth, california')",36,0.3703703703703704,3,0.6073746312684366,0.0,0.0
+hasparticipantrole,child,recorded_at,event,28,0.36195286195286197,0,0.0,0.0,0.0
+hasparticipantrole,child,recorded_at,born into slavery,28,0.36195286195286197,18,0.4196078431372549,0.0,0.0
+hasparticipantrole,child,recorded_at,civil war,28,0.36195286195286197,43,0.6444444444444445,0.0,0.0
+hasparticipantrole,child,recorded_at,appointment to harney street baptist church,28,0.36195286195286197,8,0.31550387596899226,0.0,0.0
+hasparticipantrole,child,recorded_at,establishment of allensworth,28,0.36195286195286197,12,0.4579365079365079,0.0,0.0
+hasparticipantrole,child,recorded_at,california,28,0.36195286195286197,27,0.5222222222222221,0.0,0.0
+hasparticipantrole,child,into,"slavery'), recorded_at(soldier, 'civil war'), recorded_at(pastor, 'appointment to harney street baptist church'), recorded_at(founder, 'establishment of allensworth, california')",36,0.3703703703703704,4,0.542696629213483,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,allensworth,38,0.5675925925925926,31,0.46262626262626255,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,allensworth,41,0.6274651274651274,31,0.46262626262626255,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,allen,44,0.6772486772486772,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type,relationship_type,44,0.65625,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type,son,44,0.65625,33,0.4666666666666666,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,phyllis,44,0.6037037037037037,18,0.40317460317460313,0.0,0.0
+hasparticipantrole,deceased person,role record,module:,28,0.4452861952861953,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant_role_type,95,0.9766666666666667,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,slave,95,0.9766666666666667,20,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,role_provided_by,event,29,0.4583333333333333,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,role_provided_by,enslavement,29,0.4583333333333333,38,0.592929292929293,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,male,32,0.5317460317460317,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,slave,50,0.6566137566137565,20,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,soldier,50,0.6566137566137565,36,0.5293650793650794,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,pastor,50,0.6566137566137565,29,0.5666666666666667,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,founder,50,0.6566137566137565,27,0.5428571428571428,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,date_of_birth,52,0.6937321937321936,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,1842,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,race_or_color,46,0.60239651416122,29,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,african-american,46,0.60239651416122,32,0.48194444444444445,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,enslaved person,46,0.6479302832244008,73,0.7833333333333333,0.0,0.33609692727625756
+hasparticipantrole,deceased person,has_person_status,soldier,46,0.6479302832244008,36,0.5293650793650794,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,pastor,46,0.6479302832244008,29,0.5666666666666667,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,founder,46,0.6479302832244008,27,0.5428571428571428,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,born into slavery,40,0.5819304152637487,19,0.40915032679738567,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,civil war,40,0.5819304152637487,25,0.487037037037037,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,appointment to harney street baptist church,40,0.5819304152637487,24,0.5418369743951139,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,establishment of allensworth,40,0.5819304152637487,37,0.5664021164021165,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,california,40,0.5819304152637487,32,0.5,0.0,0.0
+hasparticipantrole,deceased person,into,"slavery'), has_status_generating_event(soldier, 'civil war'), has_status_generating_event(pastor, 'appointment to harney street baptist church'), has_status_generating_event(founder, 'establishment of allensworth, california')",36,0.3703703703703704,12,0.5460457929484478,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,event,28,0.36195286195286197,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,born into slavery,28,0.36195286195286197,19,0.40915032679738567,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,civil war,28,0.36195286195286197,25,0.487037037037037,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,appointment to harney street baptist church,28,0.36195286195286197,24,0.5418369743951139,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,establishment of allensworth,28,0.36195286195286197,37,0.5664021164021165,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,california,28,0.36195286195286197,32,0.5,0.0,0.0
+hasparticipantrole,deceased person,into,"slavery'), recorded_at(soldier, 'civil war'), recorded_at(pastor, 'appointment to harney street baptist church'), recorded_at(founder, 'establishment of allensworth, california')",36,0.3703703703703704,15,0.5392009987515606,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,allensworth,25,0.5555555555555555,25,0.5131313131313131,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,surname,34,0.5474386724386724,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,allensworth,34,0.5474386724386724,25,0.5131313131313131,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,first_name,32,0.5615079365079364,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,allen,32,0.5615079365079364,40,0.6,0.0,0.0
+hasdescriptiveoccupation,slave,relationship record,module:,33,0.6137539361223572,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,27,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type,son,43,0.5868055555555555,25,0.5111111111111111,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,agent,38,0.6264245014245015,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,phyllis,38,0.6264245014245015,17,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,role record,module:,29,0.4873737373737373,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,participant_role_type,50,0.6805555555555555,15,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,slave,50,0.6805555555555555,100,1.0,0.0,1.0
+hasdescriptiveoccupation,slave,role_provided_by,event,20,0.4861111111111111,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,role_provided_by,enslavement,20,0.4861111111111111,62,0.6848484848484849,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,sex_type,32,0.5742063492063493,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,male,32,0.5742063492063493,44,0.6722222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,slave,68,0.8045940170940171,100,1.0,0.0,1.0
+hasdescriptiveoccupation,slave,has_occupation,soldier,68,0.8045940170940171,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,pastor,68,0.8045940170940171,18,0.41111111111111115,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,founder,68,0.8045940170940171,17,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,date_of_birth,38,0.6286324786324786,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,1842,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,race_or_color,39,0.5977668845315903,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,african-american,39,0.5977668845315903,19,0.5083333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,enslaved person,39,0.6241830065359477,50,0.6444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,soldier,39,0.6241830065359477,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,pastor,39,0.6241830065359477,18,0.41111111111111115,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,founder,39,0.6241830065359477,17,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,event,39,0.5815696649029983,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,born into slavery,39,0.5815696649029983,45,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,civil war,39,0.5815696649029983,29,0.37407407407407406,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,appointment to harney street baptist church,39,0.5815696649029983,8,0.4821705426356589,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,establishment of allensworth,39,0.5815696649029983,24,0.5642857142857143,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,california,39,0.5815696649029983,27,0.3666666666666667,0.0,0.0
+hasdescriptiveoccupation,slave,into,"slavery'), has_status_generating_event(soldier, 'civil war'), has_status_generating_event(pastor, 'appointment to harney street baptist church'), has_status_generating_event(founder, 'establishment of allensworth, california')",21,0.625,4,0.6740412979351031,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,event,34,0.5202020202020202,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,born into slavery,34,0.5202020202020202,45,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,civil war,34,0.5202020202020202,29,0.37407407407407406,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,appointment to harney street baptist church,34,0.5202020202020202,8,0.4821705426356589,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,establishment of allensworth,34,0.5202020202020202,24,0.5642857142857143,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,california,34,0.5202020202020202,27,0.3666666666666667,0.0,0.0
+hasdescriptiveoccupation,slave,into,"slavery'), recorded_at(soldier, 'civil war'), recorded_at(pastor, 'appointment to harney street baptist church'), recorded_at(founder, 'establishment of allensworth, california')",21,0.625,5,0.6760299625468166,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,record,module:,27,0.6138888888888889,15,0.4796918767507003,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_name,name,25,0.5555555555555555,11,0.5016339869281046,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_name,allensworth,25,0.5555555555555555,27,0.47122485357779476,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_surname,surname,34,0.5474386724386724,20,0.4796918767507003,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_surname,allensworth,34,0.5474386724386724,27,0.47122485357779476,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_first_name,first_name,32,0.5615079365079364,18,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_first_name,allen,32,0.5615079365079364,15,0.4516339869281046,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,relationship record,module:,33,0.6137539361223572,15,0.4796918767507003,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,20,0.4852941176470588,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_interagent_relationship_type,son,43,0.5868055555555555,11,0.40849673202614384,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,is_relationship_to,agent,38,0.6264245014245015,21,0.4516339869281046,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,is_relationship_to,phyllis,38,0.6264245014245015,5,0.2815126050420168,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,role record,module:,29,0.4873737373737373,15,0.4796918767507003,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_participant_role,participant_role_type,50,0.6805555555555555,29,0.5025676937441643,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_participant_role,slave,50,0.6805555555555555,10,0.4862745098039216,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,role_provided_by,event,20,0.4861111111111111,21,0.31960784313725493,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,role_provided_by,enslavement,20,0.4861111111111111,22,0.46720142602495546,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,record,module:,27,0.6138888888888889,15,0.4796918767507003,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_sex,sex_type,32,0.5742063492063493,14,0.48774509803921573,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_sex,male,32,0.5742063492063493,11,0.5196078431372549,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,record,module:,27,0.6138888888888889,15,0.4796918767507003,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_occupation,occupation,68,0.8045940170940171,23,0.5534313725490196,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_occupation,slave,68,0.8045940170940171,10,0.4862745098039216,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_occupation,soldier,68,0.8045940170940171,20,0.553781512605042,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_occupation,pastor,68,0.8045940170940171,20,0.511437908496732,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_occupation,founder,68,0.8045940170940171,34,0.6400560224089635,0.0,0.3351757433279261
+hasdescriptiveoccupation,city and town founder / benefactor,record,module:,27,0.6138888888888889,15,0.4796918767507003,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_birthdate,date_of_birth,38,0.6286324786324786,26,0.5544494720965308,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_birthdate,1842,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,record,module:,27,0.6138888888888889,15,0.4796918767507003,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_race_or_color,race_or_color,39,0.5977668845315903,26,0.4348919054801408,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_race_or_color,african-american,39,0.5977668845315903,24,0.46092047930283225,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,status record,module:,32,0.540954415954416,15,0.4796918767507003,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_person_status,enslaved person,39,0.6241830065359477,24,0.5104575163398692,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_person_status,soldier,39,0.6241830065359477,20,0.553781512605042,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_person_status,pastor,39,0.6241830065359477,20,0.511437908496732,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_person_status,founder,39,0.6241830065359477,34,0.6400560224089635,0.0,0.3351757433279261
+hasdescriptiveoccupation,city and town founder / benefactor,has_status_generating_event,event,39,0.5815696649029983,21,0.31960784313725493,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_status_generating_event,born into slavery,39,0.5815696649029983,27,0.5196078431372549,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_status_generating_event,civil war,39,0.5815696649029983,28,0.5588235294117647,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_status_generating_event,appointment to harney street baptist church,39,0.5815696649029983,39,0.6018961848305214,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_status_generating_event,establishment of allensworth,39,0.5815696649029983,35,0.5651260504201682,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,has_status_generating_event,california,39,0.5815696649029983,32,0.5400560224089636,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,into,"slavery'), has_status_generating_event(soldier, 'civil war'), has_status_generating_event(pastor, 'appointment to harney street baptist church'), has_status_generating_event(founder, 'establishment of allensworth, california')",21,0.625,21,0.538365434669443,0.0,0.048174158419515035
+hasdescriptiveoccupation,city and town founder / benefactor,recorded_at,event,34,0.5202020202020202,21,0.31960784313725493,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,recorded_at,born into slavery,34,0.5202020202020202,27,0.5196078431372549,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,recorded_at,civil war,34,0.5202020202020202,28,0.5588235294117647,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,recorded_at,appointment to harney street baptist church,34,0.5202020202020202,39,0.6018961848305214,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,recorded_at,establishment of allensworth,34,0.5202020202020202,35,0.5651260504201682,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,recorded_at,california,34,0.5202020202020202,32,0.5400560224089636,0.0,0.0
+hasdescriptiveoccupation,city and town founder / benefactor,into,"slavery'), recorded_at(soldier, 'civil war'), recorded_at(pastor, 'appointment to harney street baptist church'), recorded_at(founder, 'establishment of allensworth, california')",21,0.625,25,0.5340231404456396,0.0,0.048174158419515035
+hasdescriptiveoccupation,baptist clergy,record,module:,27,0.6138888888888889,19,0.4761904761904762,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_name,name,25,0.5555555555555555,22,0.44047619047619047,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_name,allensworth,25,0.5555555555555555,32,0.46645021645021645,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_surname,surname,34,0.5474386724386724,19,0.43650793650793646,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_surname,allensworth,34,0.5474386724386724,32,0.46645021645021645,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_first_name,first_name,32,0.5615079365079364,33,0.48571428571428577,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_first_name,allen,32,0.5615079365079364,32,0.4238095238095238,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,relationship record,module:,33,0.6137539361223572,19,0.4761904761904762,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,39,0.5140056022408963,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_interagent_relationship_type,son,43,0.5868055555555555,12,0.4682539682539682,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,is_relationship_to,agent,38,0.6264245014245015,21,0.5142857142857143,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,is_relationship_to,phyllis,38,0.6264245014245015,29,0.5357142857142857,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,role record,module:,29,0.4873737373737373,19,0.4761904761904762,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_participant_role,participant_role_type,50,0.6805555555555555,40,0.5968253968253968,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_participant_role,slave,50,0.6805555555555555,32,0.4936507936507937,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,role_provided_by,event,20,0.4861111111111111,11,0.4238095238095238,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,role_provided_by,enslavement,20,0.4861111111111111,24,0.47056277056277057,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,record,module:,27,0.6138888888888889,19,0.4761904761904762,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_sex,sex_type,32,0.5742063492063493,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_sex,male,32,0.5742063492063493,33,0.44047619047619047,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,record,module:,27,0.6138888888888889,19,0.4761904761904762,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_occupation,occupation,68,0.8045940170940171,25,0.48571428571428577,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_occupation,slave,68,0.8045940170940171,32,0.4936507936507937,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_occupation,soldier,68,0.8045940170940171,38,0.5357142857142857,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_occupation,pastor,68,0.8045940170940171,40,0.5968253968253968,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_occupation,founder,68,0.8045940170940171,19,0.4761904761904762,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,record,module:,27,0.6138888888888889,19,0.4761904761904762,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_birthdate,date_of_birth,38,0.6286324786324786,30,0.513919413919414,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_birthdate,1842,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,record,module:,27,0.6138888888888889,19,0.4761904761904762,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_race_or_color,race_or_color,39,0.5977668845315903,30,0.4478021978021978,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_race_or_color,african-american,39,0.5977668845315903,33,0.5565476190476191,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,status record,module:,32,0.540954415954416,19,0.4761904761904762,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_person_status,enslaved person,39,0.6241830065359477,28,0.4984126984126984,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_person_status,soldier,39,0.6241830065359477,38,0.5357142857142857,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_person_status,pastor,39,0.6241830065359477,40,0.5968253968253968,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_person_status,founder,39,0.6241830065359477,19,0.4761904761904762,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_status_generating_event,event,39,0.5815696649029983,11,0.4238095238095238,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_status_generating_event,born into slavery,39,0.5815696649029983,52,0.6870525988173046,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_status_generating_event,civil war,39,0.5815696649029983,26,0.5708994708994709,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_status_generating_event,appointment to harney street baptist church,39,0.5815696649029983,35,0.5489479512735326,0.0,0.1757860783933462
+hasdescriptiveoccupation,baptist clergy,has_status_generating_event,establishment of allensworth,39,0.5815696649029983,38,0.5066137566137566,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,has_status_generating_event,california,39,0.5815696649029983,25,0.5047619047619047,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,into,"slavery'), has_status_generating_event(soldier, 'civil war'), has_status_generating_event(pastor, 'appointment to harney street baptist church'), has_status_generating_event(founder, 'establishment of allensworth, california')",21,0.625,10,0.508185030308924,0.0,0.08332471296185165
+hasdescriptiveoccupation,baptist clergy,recorded_at,event,34,0.5202020202020202,11,0.4238095238095238,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,recorded_at,born into slavery,34,0.5202020202020202,52,0.6870525988173046,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,recorded_at,civil war,34,0.5202020202020202,26,0.5708994708994709,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,recorded_at,appointment to harney street baptist church,34,0.5202020202020202,35,0.5489479512735326,0.0,0.1757860783933462
+hasdescriptiveoccupation,baptist clergy,recorded_at,establishment of allensworth,34,0.5202020202020202,38,0.5066137566137566,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,recorded_at,california,34,0.5202020202020202,25,0.5047619047619047,0.0,0.0
+hasdescriptiveoccupation,baptist clergy,into,"slavery'), recorded_at(soldier, 'civil war'), recorded_at(pastor, 'appointment to harney street baptist church'), recorded_at(founder, 'establishment of allensworth, california')",21,0.625,12,0.5026306402710897,0.0,0.08332471296185165
+hasfirstname,allen,record,module:,22,0.4166666666666667,33,0.5619047619047619,0.0,0.0
+hasfirstname,allen,has_name,name,70,0.8736111111111112,44,0.6333333333333333,0.0,0.0
+hasfirstname,allen,has_name,allensworth,70,0.8736111111111112,62,0.890909090909091,0.0,0.0
+hasfirstname,allen,has_surname,surname,70,0.8733164983164984,33,0.44761904761904764,0.0,0.0
+hasfirstname,allen,has_surname,allensworth,70,0.8733164983164984,62,0.890909090909091,0.0,0.0
+hasfirstname,allen,has_first_name,first_name,92,0.9666666666666667,27,0.43333333333333335,0.0,0.0
+hasfirstname,allen,has_first_name,allen,92,0.9666666666666667,100,1.0,0.0,1.0
+hasfirstname,allen,relationship record,module:,32,0.5077276524644946,33,0.5619047619047619,0.0,0.0
+hasfirstname,allen,has_interagent_relationship_type,relationship_type,36,0.6030092592592592,18,0.5950980392156863,0.0,0.0
+hasfirstname,allen,has_interagent_relationship_type,son,36,0.6030092592592592,25,0.0,0.0,0.0
+hasfirstname,allen,is_relationship_to,agent,27,0.6203703703703703,60,0.76,0.0,0.0
+hasfirstname,allen,is_relationship_to,phyllis,27,0.6203703703703703,33,0.5619047619047619,0.0,0.0
+hasfirstname,allen,role record,module:,17,0.44949494949494956,33,0.5619047619047619,0.0,0.0
+hasfirstname,allen,has_participant_role,participant_role_type,44,0.6962962962962962,23,0.4984126984126984,0.0,0.0
+hasfirstname,allen,has_participant_role,slave,44,0.6962962962962962,40,0.6,0.0,0.0
+hasfirstname,allen,role_provided_by,event,14,0.3680555555555555,40,0.6,0.0,0.0
+hasfirstname,allen,role_provided_by,enslavement,14,0.3680555555555555,38,0.5545454545454546,0.0,0.0
+hasfirstname,allen,record,module:,22,0.4166666666666667,33,0.5619047619047619,0.0,0.0
+hasfirstname,allen,has_sex,sex_type,53,0.6349206349206349,15,0.44166666666666665,0.0,0.0
+hasfirstname,allen,has_sex,male,53,0.6349206349206349,67,0.7833333333333333,0.0,0.0
+hasfirstname,allen,record,module:,22,0.4166666666666667,33,0.5619047619047619,0.0,0.0
+hasfirstname,allen,has_occupation,occupation,38,0.5873015873015873,27,0.0,0.0,0.0
+hasfirstname,allen,has_occupation,slave,38,0.5873015873015873,40,0.6,0.0,0.0
+hasfirstname,allen,has_occupation,soldier,38,0.5873015873015873,33,0.5619047619047619,0.0,0.0
+hasfirstname,allen,has_occupation,pastor,38,0.5873015873015873,18,0.45555555555555555,0.0,0.0
+hasfirstname,allen,has_occupation,founder,38,0.5873015873015873,17,0.3952380952380952,0.0,0.0
+hasfirstname,allen,record,module:,22,0.4166666666666667,33,0.5619047619047619,0.0,0.0
+hasfirstname,allen,has_birthdate,date_of_birth,64,0.8324786324786324,22,0.517948717948718,0.0,0.0
+hasfirstname,allen,has_birthdate,1842,64,0.8324786324786324,0,0.0,0.0,0.0
+hasfirstname,allen,record,module:,22,0.4166666666666667,33,0.5619047619047619,0.0,0.0
+hasfirstname,allen,has_race_or_color,race_or_color,41,0.6176470588235294,22,0.517948717948718,0.0,0.0
+hasfirstname,allen,has_race_or_color,african-american,41,0.6176470588235294,29,0.4847222222222222,0.0,0.0
+hasfirstname,allen,status record,module:,32,0.5427350427350427,33,0.5619047619047619,0.0,0.0
+hasfirstname,allen,has_person_status,enslaved person,48,0.6857298474945533,30,0.5222222222222223,0.0,0.0
+hasfirstname,allen,has_person_status,soldier,48,0.6857298474945533,33,0.5619047619047619,0.0,0.0
+hasfirstname,allen,has_person_status,pastor,48,0.6857298474945533,18,0.45555555555555555,0.0,0.0
+hasfirstname,allen,has_person_status,founder,48,0.6857298474945533,17,0.3952380952380952,0.0,0.0
+hasfirstname,allen,has_status_generating_event,event,41,0.5833333333333334,40,0.6,0.0,0.0
+hasfirstname,allen,has_status_generating_event,born into slavery,41,0.5833333333333334,18,0.4196078431372549,0.0,0.0
+hasfirstname,allen,has_status_generating_event,civil war,41,0.5833333333333334,14,0.43703703703703706,0.0,0.0
+hasfirstname,allen,has_status_generating_event,appointment to harney street baptist church,41,0.5833333333333334,12,0.44547803617571063,0.0,0.0
+hasfirstname,allen,has_status_generating_event,establishment of allensworth,41,0.5833333333333334,30,0.5642857142857143,0.0,0.0
+hasfirstname,allen,has_status_generating_event,california,41,0.5833333333333334,40,0.6333333333333333,0.0,0.0
+hasfirstname,allen,into,"slavery'), has_status_generating_event(soldier, 'civil war'), has_status_generating_event(pastor, 'appointment to harney street baptist church'), has_status_generating_event(founder, 'establishment of allensworth, california')",25,0.5555555555555555,4,0.5407079646017698,0.0,0.0
+hasfirstname,allen,recorded_at,event,17,0.4823232323232323,40,0.6,0.0,0.0
+hasfirstname,allen,recorded_at,born into slavery,17,0.4823232323232323,18,0.4196078431372549,0.0,0.0
+hasfirstname,allen,recorded_at,civil war,17,0.4823232323232323,14,0.43703703703703706,0.0,0.0
+hasfirstname,allen,recorded_at,appointment to harney street baptist church,17,0.4823232323232323,12,0.44547803617571063,0.0,0.0
+hasfirstname,allen,recorded_at,establishment of allensworth,17,0.4823232323232323,30,0.5642857142857143,0.0,0.0
+hasfirstname,allen,recorded_at,california,17,0.4823232323232323,40,0.6333333333333333,0.0,0.0
+hasfirstname,allen,into,"slavery'), recorded_at(soldier, 'civil war'), recorded_at(pastor, 'appointment to harney street baptist church'), recorded_at(founder, 'establishment of allensworth, california')",25,0.5555555555555555,5,0.542696629213483,0.0,0.0
+hassurname,allensworth,record,module:,25,0.4222222222222222,22,0.48917748917748916,0.0,0.0
+hassurname,allensworth,has_name,name,78,0.9008333333333334,27,0.5631313131313131,0.0,0.0
+hassurname,allensworth,has_name,allensworth,78,0.9008333333333334,100,1.0,0.0,1.0
+hassurname,allensworth,has_surname,surname,95,0.9787878787878788,22,0.45598845598845594,0.0,0.0
+hassurname,allensworth,has_surname,allensworth,95,0.9787878787878788,100,1.0,0.0,1.0
+hassurname,allensworth,has_first_name,first_name,67,0.8674074074074074,19,0.29393939393939394,0.0,0.0
+hassurname,allensworth,has_first_name,allen,67,0.8674074074074074,62,0.890909090909091,0.0,0.0
+hassurname,allensworth,relationship record,module:,28,0.4543859649122807,22,0.48917748917748916,0.0,0.0
+hassurname,allensworth,has_interagent_relationship_type,relationship_type,33,0.544345238095238,29,0.6076203208556149,0.0,0.0
+hassurname,allensworth,has_interagent_relationship_type,son,33,0.544345238095238,29,0.47474747474747475,0.0,0.0
+hassurname,allensworth,is_relationship_to,agent,21,0.5333333333333333,50,0.6242424242424242,0.0,0.0
+hassurname,allensworth,is_relationship_to,phyllis,21,0.5333333333333333,33,0.5670995670995671,0.0,0.0
+hassurname,allensworth,role record,module:,19,0.46060606060606063,22,0.48917748917748916,0.0,0.0
+hassurname,allensworth,has_participant_role,participant_role_type,40,0.5777777777777778,25,0.43088023088023086,0.0,0.0
+hassurname,allensworth,has_participant_role,slave,40,0.5777777777777778,25,0.5131313131313131,0.0,0.0
+hassurname,allensworth,role_provided_by,event,15,0.44166666666666665,38,0.5272727272727272,0.0,0.0
+hassurname,allensworth,role_provided_by,enslavement,15,0.44166666666666665,36,0.5858585858585857,0.0,0.0
+hassurname,allensworth,record,module:,25,0.4222222222222222,22,0.48917748917748916,0.0,0.0
+hassurname,allensworth,has_sex,sex_type,59,0.8166666666666667,21,0.4053030303030303,0.0,0.0
+hassurname,allensworth,has_sex,male,59,0.8166666666666667,40,0.6742424242424242,0.0,0.0
+hassurname,allensworth,record,module:,25,0.4222222222222222,22,0.48917748917748916,0.0,0.0
+hassurname,allensworth,has_occupation,occupation,42,0.6190476190476191,19,0.29393939393939394,0.0,0.0
+hassurname,allensworth,has_occupation,slave,42,0.6190476190476191,25,0.5131313131313131,0.0,0.0
+hassurname,allensworth,has_occupation,soldier,42,0.6190476190476191,33,0.5670995670995671,0.0,0.0
+hassurname,allensworth,has_occupation,pastor,42,0.6190476190476191,47,0.6767676767676768,0.0,0.0
+hassurname,allensworth,has_occupation,founder,42,0.6190476190476191,22,0.45598845598845594,0.0,0.0
+hassurname,allensworth,record,module:,25,0.4222222222222222,22,0.48917748917748916,0.0,0.0
+hassurname,allensworth,has_birthdate,date_of_birth,52,0.6871794871794871,50,0.668997668997669,0.0,0.0
+hassurname,allensworth,has_birthdate,1842,52,0.6871794871794871,0,0.0,0.0,0.0
+hassurname,allensworth,record,module:,25,0.4222222222222222,22,0.48917748917748916,0.0,0.0
+hassurname,allensworth,has_race_or_color,race_or_color,44,0.6509803921568628,33,0.5571095571095571,0.0,0.0
+hassurname,allensworth,has_race_or_color,african-american,44,0.6509803921568628,22,0.4545454545454546,0.0,0.0
+hassurname,allensworth,status record,module:,35,0.5760683760683761,22,0.48917748917748916,0.0,0.0
+hassurname,allensworth,has_person_status,enslaved person,44,0.6735294117647058,31,0.5581529581529582,0.0,0.0
+hassurname,allensworth,has_person_status,soldier,44,0.6735294117647058,33,0.5670995670995671,0.0,0.0
+hassurname,allensworth,has_person_status,pastor,44,0.6735294117647058,47,0.6767676767676768,0.0,0.0
+hassurname,allensworth,has_person_status,founder,44,0.6735294117647058,22,0.45598845598845594,0.0,0.0
+hassurname,allensworth,has_status_generating_event,event,43,0.6703703703703704,38,0.5272727272727272,0.0,0.0
+hassurname,allensworth,has_status_generating_event,born into slavery,43,0.6703703703703704,21,0.449554367201426,0.0,0.0
+hassurname,allensworth,has_status_generating_event,civil war,43,0.6703703703703704,30,0.5353535353535354,0.0,0.0
+hassurname,allensworth,has_status_generating_event,appointment to harney street baptist church,43,0.6703703703703704,26,0.5127730796335448,0.0,0.0
+hassurname,allensworth,has_status_generating_event,establishment of allensworth,43,0.6703703703703704,56,0.5043290043290044,0.0,0.4494364165239821
+hassurname,allensworth,has_status_generating_event,california,43,0.6703703703703704,38,0.5848484848484848,0.0,0.0
+hassurname,allensworth,into,"slavery'), has_status_generating_event(soldier, 'civil war'), has_status_generating_event(pastor, 'appointment to harney street baptist church'), has_status_generating_event(founder, 'establishment of allensworth, california')",14,0.0,9,0.5616787342451058,0.0,0.14372805723110713
+hassurname,allensworth,recorded_at,event,19,0.41313131313131307,38,0.5272727272727272,0.0,0.0
+hassurname,allensworth,recorded_at,born into slavery,19,0.41313131313131307,21,0.449554367201426,0.0,0.0
+hassurname,allensworth,recorded_at,civil war,19,0.41313131313131307,30,0.5353535353535354,0.0,0.0
+hassurname,allensworth,recorded_at,appointment to harney street baptist church,19,0.41313131313131307,26,0.5127730796335448,0.0,0.0
+hassurname,allensworth,recorded_at,establishment of allensworth,19,0.41313131313131307,56,0.5043290043290044,0.0,0.4494364165239821
+hassurname,allensworth,recorded_at,california,19,0.41313131313131307,38,0.5848484848484848,0.0,0.0
+hassurname,allensworth,into,"slavery'), recorded_at(soldier, 'civil war'), recorded_at(pastor, 'appointment to harney street baptist church'), recorded_at(founder, 'establishment of allensworth, california')",14,0.0,12,0.566053796390875,0.0,0.14372805723110713
+hasname,allen allensworth,record,module:,15,0.0,17,0.4677871148459383,0.0,0.0
+hasname,allen allensworth,has_name,name,93,0.9708333333333333,29,0.5310457516339869,0.0,0.0
+hasname,allen allensworth,has_name,allensworth,93,0.9708333333333333,79,0.9294117647058824,0.0,0.5797386715376658
+hasname,allen allensworth,has_surname,surname,78,0.9151515151515152,25,0.4239028944911298,0.0,0.0
+hasname,allen allensworth,has_surname,allensworth,78,0.9151515151515152,79,0.9294117647058824,0.0,0.5797386715376658
+hasname,allen allensworth,has_first_name,first_name,67,0.5476190476190476,22,0.3810457516339869,0.0,0.0
+hasname,allen allensworth,has_first_name,allen,67,0.5476190476190476,45,0.8588235294117647,0.0,0.5797386715376658
+hasname,allen allensworth,relationship record,module:,23,0.5106516290726817,17,0.4677871148459383,0.0,0.0
+hasname,allen allensworth,has_interagent_relationship_type,relationship_type,31,0.6259920634920636,29,0.5751633986928105,0.0,0.0
+hasname,allen allensworth,has_interagent_relationship_type,son,31,0.6259920634920636,20,0.4640522875816993,0.0,0.0
+hasname,allen allensworth,is_relationship_to,agent,16,0.43121693121693117,36,0.592156862745098,0.0,0.0
+hasname,allen allensworth,is_relationship_to,phyllis,16,0.43121693121693117,25,0.5350140056022409,0.0,0.0
+hasname,allen allensworth,role record,module:,11,0.41125541125541126,17,0.4677871148459383,0.0,0.0
+hasname,allen allensworth,has_participant_role,participant_role_type,37,0.5904761904761905,26,0.49218020541549956,0.0,0.0
+hasname,allen allensworth,has_participant_role,slave,37,0.5904761904761905,27,0.48104575163398694,0.0,0.0
+hasname,allen allensworth,role_provided_by,event,9,0.40178571428571425,36,0.48104575163398694,0.0,0.0
+hasname,allen allensworth,role_provided_by,enslavement,9,0.40178571428571425,43,0.5874713521772345,0.0,0.0
+hasname,allen allensworth,record,module:,15,0.0,17,0.4677871148459383,0.0,0.0
+hasname,allen allensworth,has_sex,sex_type,57,0.8,16,0.45588235294117646,0.0,0.0
+hasname,allen allensworth,has_sex,male,57,0.8,29,0.6421568627450981,0.0,0.0
+hasname,allen allensworth,record,module:,15,0.0,17,0.4677871148459383,0.0,0.0
+hasname,allen allensworth,has_occupation,occupation,38,0.6190476190476191,15,0.3810457516339869,0.0,0.0
+hasname,allen allensworth,has_occupation,slave,38,0.6190476190476191,27,0.48104575163398694,0.0,0.0
+hasname,allen allensworth,has_occupation,soldier,38,0.6190476190476191,25,0.4677871148459383,0.0,0.0
+hasname,allen allensworth,has_occupation,pastor,38,0.6190476190476191,35,0.40849673202614384,0.0,0.0
+hasname,allen allensworth,has_occupation,founder,38,0.6190476190476191,25,0.3011204481792717,0.0,0.0
+hasname,allen allensworth,record,module:,15,0.0,17,0.4677871148459383,0.0,0.0
+hasname,allen allensworth,has_birthdate,date_of_birth,50,0.553113553113553,40,0.5595776772247361,0.0,0.0
+hasname,allen allensworth,has_birthdate,1842,50,0.553113553113553,0,0.0,0.0,0.0
+hasname,allen allensworth,record,module:,15,0.0,17,0.4677871148459383,0.0,0.0
+hasname,allen allensworth,has_race_or_color,race_or_color,42,0.6694677871148459,33,0.4929110105580694,0.0,0.0
+hasname,allen allensworth,has_race_or_color,african-american,42,0.6694677871148459,30,0.4648692810457516,0.0,0.0
+hasname,allen allensworth,status record,module:,30,0.442002442002442,17,0.4677871148459383,0.0,0.0
+hasname,allen allensworth,has_person_status,enslaved person,42,0.6028011204481792,38,0.6183006535947713,0.0,0.0
+hasname,allen allensworth,has_person_status,soldier,42,0.6028011204481792,25,0.4677871148459383,0.0,0.0
+hasname,allen allensworth,has_person_status,pastor,42,0.6028011204481792,35,0.40849673202614384,0.0,0.0
+hasname,allen allensworth,has_person_status,founder,42,0.6028011204481792,25,0.3011204481792717,0.0,0.0
+hasname,allen allensworth,has_status_generating_event,event,35,0.6375661375661376,36,0.48104575163398694,0.0,0.0
+hasname,allen allensworth,has_status_generating_event,born into slavery,35,0.6375661375661376,29,0.5751633986928105,0.0,0.0
+hasname,allen allensworth,has_status_generating_event,civil war,35,0.6375661375661376,31,0.48322440087145974,0.0,0.0
+hasname,allen allensworth,has_status_generating_event,appointment to harney street baptist church,35,0.6375661375661376,33,0.5505395956832345,0.0,0.0
+hasname,allen allensworth,has_status_generating_event,establishment of allensworth,35,0.6375661375661376,71,0.6708683473389355,0.0,0.2605556710562624
+hasname,allen allensworth,has_status_generating_event,california,35,0.6375661375661376,30,0.5450980392156862,0.0,0.0
+hasname,allen allensworth,into,"slavery'), has_status_generating_event(soldier, 'civil war'), has_status_generating_event(pastor, 'appointment to harney street baptist church'), has_status_generating_event(founder, 'establishment of allensworth, california')",18,0.46428571428571425,14,0.5456576435884087,0.0,0.08332471296185165
+hasname,allen allensworth,recorded_at,event,11,0.41125541125541126,36,0.48104575163398694,0.0,0.0
+hasname,allen allensworth,recorded_at,born into slavery,11,0.41125541125541126,29,0.5751633986928105,0.0,0.0
+hasname,allen allensworth,recorded_at,civil war,11,0.41125541125541126,31,0.48322440087145974,0.0,0.0
+hasname,allen allensworth,recorded_at,appointment to harney street baptist church,11,0.41125541125541126,33,0.5505395956832345,0.0,0.0
+hasname,allen allensworth,recorded_at,establishment of allensworth,11,0.41125541125541126,71,0.6708683473389355,0.0,0.2605556710562624
+hasname,allen allensworth,recorded_at,california,11,0.41125541125541126,30,0.5450980392156862,0.0,0.0
+hasname,allen allensworth,into,"slavery'), recorded_at(soldier, 'civil war'), recorded_at(pastor, 'appointment to harney street baptist church'), recorded_at(founder, 'establishment of allensworth, california')",18,0.46428571428571425,17,0.5520213703458912,0.0,0.08332471296185165
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",record,module:,30,0.48412698412698413,4,0.5154836777478287,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_name,name,36,0.5952380952380952,3,0.5050314465408805,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_name,allensworth,36,0.5952380952380952,8,0.5289879931389365,0.0,0.10547376192494475
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_surname,surname,48,0.6168831168831169,5,0.5326145552560647,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_surname,allensworth,48,0.6168831168831169,8,0.5289879931389365,0.0,0.10547376192494475
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_first_name,first_name,43,0.6726190476190476,7,0.4965059399021663,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_first_name,allen,43,0.6726190476190476,4,0.539622641509434,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",relationship record,module:,30,0.6135338345864662,4,0.5154836777478287,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_interagent_relationship_type,relationship_type,39,0.5755952380952382,9,0.5421846096929338,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_interagent_relationship_type,son,39,0.5755952380952382,2,0.559329140461216,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",is_relationship_to,agent,44,0.6474266474266474,4,0.539622641509434,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",is_relationship_to,phyllis,44,0.6474266474266474,4,0.5326145552560647,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",role record,module:,24,0.46645021645021645,4,0.5154836777478287,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_participant_role,participant_role_type,47,0.6876623376623376,12,0.5184691287968349,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_participant_role,slave,47,0.6876623376623376,4,0.539622641509434,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",role_provided_by,event,20,0.4900793650793651,4,0.6062893081761006,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",role_provided_by,enslavement,20,0.4900793650793651,8,0.6198970840480275,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",record,module:,30,0.48412698412698413,4,0.5154836777478287,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_sex,sex_type,38,0.6238095238095238,4,0.42421383647798744,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_sex,male,38,0.6238095238095238,3,0.5050314465408805,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",record,module:,30,0.48412698412698413,4,0.5154836777478287,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_occupation,occupation,64,0.8074074074074075,7,0.5125786163522013,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_occupation,slave,64,0.8074074074074075,4,0.539622641509434,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_occupation,soldier,64,0.8074074074074075,5,0.5802336028751123,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_occupation,pastor,64,0.8074074074074075,4,0.5631027253668762,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_occupation,founder,64,0.8074074074074075,5,0.5326145552560647,0.0,0.10547376192494475
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",record,module:,30,0.48412698412698413,4,0.5154836777478287,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_birthdate,date_of_birth,37,0.6318681318681318,8,0.5080089721599156,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_birthdate,1842,37,0.6318681318681318,1,0.4179245283018868,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",record,module:,30,0.48412698412698413,4,0.5154836777478287,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_race_or_color,race_or_color,39,0.5896358543417367,8,0.46898887276245765,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_race_or_color,african-american,39,0.5896358543417367,11,0.5091457023060797,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",status record,module:,37,0.5366300366300366,4,0.5154836777478287,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_person_status,enslaved person,45,0.6675070028011204,10,0.6410901467505241,0.0,0.0611472186204475
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_person_status,soldier,45,0.6675070028011204,5,0.5802336028751123,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_person_status,pastor,45,0.6675070028011204,4,0.5631027253668762,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_person_status,founder,45,0.6675070028011204,5,0.5326145552560647,0.0,0.10547376192494475
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_status_generating_event,event,39,0.5476190476190476,4,0.6062893081761006,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_status_generating_event,born into slavery,39,0.5476190476190476,11,0.5311875693673697,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_status_generating_event,civil war,39,0.5476190476190476,7,0.5298392732354996,0.0,0.14997829789540723
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_status_generating_event,appointment to harney street baptist church,39,0.5476190476190476,23,0.5657159572912095,0.0,0.03198133899365875
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_status_generating_event,establishment of allensworth,39,0.5476190476190476,18,0.5471248876909254,0.0,0.1063791967474738
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",has_status_generating_event,california,39,0.5476190476190476,7,0.5459119496855346,0.0,0.10547376192494475
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",into,"slavery'), has_status_generating_event(soldier, 'civil war'), has_status_generating_event(pastor, 'appointment to harney street baptist church'), has_status_generating_event(founder, 'establishment of allensworth, california')",33,0.0,44,0.6682608951313441,0.0,0.11705231567456637
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",recorded_at,event,32,0.47056277056277057,4,0.6062893081761006,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",recorded_at,born into slavery,32,0.47056277056277057,11,0.5311875693673697,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",recorded_at,civil war,32,0.47056277056277057,7,0.5298392732354996,0.0,0.14997829789540723
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",recorded_at,appointment to harney street baptist church,32,0.47056277056277057,23,0.5657159572912095,0.0,0.03198133899365875
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",recorded_at,establishment of allensworth,32,0.47056277056277057,18,0.5471248876909254,0.0,0.1063791967474738
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",recorded_at,california,32,0.47056277056277057,7,0.5459119496855346,0.0,0.10547376192494475
+hasdescription,"enslaved. free before 13th amendment.  after serving in the military during the civil war, he was a teacher, baptist preacher, republican political figure,  chaplain, lieutenant colonel, and the co-founder of an all-black community in california called allensworth.",into,"slavery'), recorded_at(soldier, 'civil war'), recorded_at(pastor, 'appointment to harney street baptist church'), recorded_at(founder, 'establishment of allensworth, california')",33,0.0,42,0.6512777598012415,0.0,0.11705231567456637

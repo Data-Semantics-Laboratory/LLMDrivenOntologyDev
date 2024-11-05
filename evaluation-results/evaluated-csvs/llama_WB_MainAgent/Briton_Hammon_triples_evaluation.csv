@@ -1,0 +1,408 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,on the,"text, here are the related parts of the document that match with the ontology module:",35,0.5909090909090909,11,0.634640522875817,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,briton hammon,32,0.537878787878788,32,0.576923076923077,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,hammon,27,0.49242424242424243,33,0.5555555555555555,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,briton,40,0.5692640692640693,50,0.6666666666666666,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,relationship_type,30,0.5269480519480519,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,enslaver,30,0.5269480519480519,29,0.5277777777777778,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,john winslow,34,0.5798460798460798,22,0.47222222222222215,0.0,0.0
+instance of,person,relationship type is,"enslaver, as briton hammon was enslaved by john winslow)",39,0.5424242424242425,16,0.5742063492063493,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,slave,24,0.38311688311688313,18,0.0,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_age,?,33,0.45598845598845594,0,0.0,0.0,0.0
+instance of,person,age is not mentioned in the,text),32,0.5690235690235691,18,0.45555555555555555,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,?,22,0.45598845598845594,0,0.0,0.0,0.0
+instance of,person,sex is not mentioned in the,text),32,0.5495230078563412,18,0.45555555555555555,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,enslaved person,29,0.449554367201426,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,?,36,0.5162210338680927,0,0.0,0.0,0.0
+instance of,person,race is not mentioned in the,text),31,0.5887445887445887,18,0.45555555555555555,0.0,0.0
+instance of,person,descriptor record,module:,29,0.5398523045581869,15,0.0,0.0,0.0
+instance of,person,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,34,0.5579124579124579,19,0.5255555555555556,0.0,0.0
+instance of,person,has_ethnolinguistic_descriptor,?,34,0.5579124579124579,0,0.0,0.0,0.0
+instance of,person,ethnolinguistic descriptor is not mentioned in the,text),26,0.517912457912458,18,0.45555555555555555,0.0,0.0
+instance of,person,is no,information provided in the text.,50,0.5131313131313131,21,0.4292929292929293,0.0,0.0
+instance of,person,relations for which there is no information listed in the text are marked with a question mark,"(?). the race and ethnolinguistic descriptor are not mentioned in the text, so they are left blank. the age and sex are also not mentioned, so they are left blank. the relationship type is enslaver, as briton hammon was enslaved by john winslow. the occupation is slave, as briton hammon was a slave. the person status is enslaved person, as briton hammon was enslaved. the name, surname, and first name are retrieved from the text. the rest of the relations are left blank as there is no information provided in the text.",17,0.5541586073500967,2,0.5038314176245211,0.0,0.080047767457883
+hassex,male,on the,"text, here are the related parts of the document that match with the ontology module:",33,0.4444444444444444,9,0.48398692810457516,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_name,name,57,0.8055555555555556,50,0.6666666666666666,0.0,0.0
+hassex,male,has_name,briton hammon,57,0.8055555555555556,12,0.0,0.0,0.0
+hassex,male,has_surname,surname,59,0.6767676767676768,36,0.0,0.0,0.0
+hassex,male,has_surname,hammon,59,0.6767676767676768,20,0.4444444444444444,0.0,0.0
+hassex,male,has_first_name,first_name,50,0.6507936507936508,29,0.0,0.0,0.0
+hassex,male,has_first_name,briton,50,0.6507936507936508,0,0.0,0.0,0.0
+hassex,male,relationship record,module:,24,0.44152046783625726,55,0.7535714285714287,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,relationship_type,24,0.5936507936507937,19,0.5310457516339869,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,enslaver,24,0.5936507936507937,33,0.5972222222222222,0.0,0.0
+hassex,male,is_relationship_to,agent,17,0.46296296296296297,44,0.6333333333333333,0.0,0.0
+hassex,male,is_relationship_to,john winslow,17,0.46296296296296297,12,0.0,0.0,0.0
+hassex,male,relationship type is,"enslaver, as briton hammon was enslaved by john winslow)",23,0.5388888888888889,13,0.5238095238095238,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_occupation,occupation,30,0.5714285714285715,14,0.45,0.0,0.0
+hassex,male,has_occupation,slave,30,0.5714285714285715,44,0.6722222222222222,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_age,age,62,0.8222222222222222,57,0.7222222222222222,0.0,0.0
+hassex,male,has_age,?,62,0.8222222222222222,0,0.0,0.0,0.0
+hassex,male,age is not mentioned in the,text),18,0.4259259259259259,22,0.0,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_sex,sex_type,92,0.9666666666666667,17,0.4583333333333333,0.0,0.0
+hassex,male,has_sex,?,92,0.9666666666666667,0,0.0,0.0,0.0
+hassex,male,sex is not mentioned in the,text),18,0.5216049382716049,22,0.0,0.0,0.0
+hassex,male,status record,module:,32,0.5747863247863249,55,0.7535714285714287,0.0,0.0
+hassex,male,has_person_status,enslaved person,35,0.642483660130719,21,0.5388888888888889,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_race_or_color,race_or_color,35,0.6339869281045751,24,0.5512820512820512,0.0,0.0
+hassex,male,has_race_or_color,?,35,0.6339869281045751,0,0.0,0.0,0.0
+hassex,male,race is not mentioned in the,text),18,0.4246031746031746,22,0.0,0.0,0.0
+hassex,male,descriptor record,module:,17,0.31699346405228757,55,0.7535714285714287,0.0,0.0
+hassex,male,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,28,0.6,14,0.36000000000000004,0.0,0.0
+hassex,male,has_ethnolinguistic_descriptor,?,28,0.6,0,0.0,0.0,0.0
+hassex,male,ethnolinguistic descriptor is not mentioned in the,text),14,0.4988888888888889,22,0.0,0.0,0.0
+hassex,male,is no,information provided in the text.,18,0.45555555555555555,16,0.6136363636363636,0.0,0.0
+hassex,male,relations for which there is no information listed in the text are marked with a question mark,"(?). the race and ethnolinguistic descriptor are not mentioned in the text, so they are left blank. the age and sex are also not mentioned, so they are left blank. the relationship type is enslaver, as briton hammon was enslaved by john winslow. the occupation is slave, as briton hammon was a slave. the person status is enslaved person, as briton hammon was enslaved. the name, surname, and first name are retrieved from the text. the rest of the relations are left blank as there is no information provided in the text.",10,0.5621749408983452,2,0.5858876117496807,0.0,0.0
+hasparticipantrole,child,on the,"text, here are the related parts of the document that match with the ontology module:",25,0.3148148148148148,11,0.5450980392156862,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,briton hammon,38,0.5675925925925926,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,hammon,41,0.6274651274651274,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,briton,44,0.6772486772486772,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,enslaver,42,0.6570105820105819,15,0.44166666666666665,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,john winslow,44,0.6037037037037037,35,0.5222222222222223,0.0,0.0
+hasparticipantrole,child,relationship type is,"enslaver, as briton hammon was enslaved by john winslow)",37,0.6625356125356126,10,0.44007936507936507,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,slave,50,0.6566137566137565,20,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_age,age,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_age,?,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,age is not mentioned in the,text),36,0.46296296296296297,0,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,?,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,sex is not mentioned in the,text),31,0.4552469135802469,0,0.0,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,enslaved person,46,0.6479302832244008,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_race_or_color,race_or_color,46,0.60239651416122,22,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_race_or_color,?,46,0.60239651416122,0,0.0,0.0,0.0
+hasparticipantrole,child,race is not mentioned in the,text),35,0.5164742664742664,0,0.0,0.0,0.0
+hasparticipantrole,child,descriptor record,module:,40,0.5653594771241829,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,42,0.5903133903133903,13,0.46222222222222226,0.0,0.0
+hasparticipantrole,child,has_ethnolinguistic_descriptor,?,42,0.5903133903133903,0,0.0,0.0,0.0
+hasparticipantrole,child,ethnolinguistic descriptor is not mentioned in the,text),32,0.5430687830687831,0,0.0,0.0,0.0
+hasparticipantrole,child,is no,information provided in the text.,26,0.337037037037037,11,0.4868686868686869,0.0,0.0
+hasparticipantrole,child,relations for which there is no information listed in the text are marked with a question mark,"(?). the race and ethnolinguistic descriptor are not mentioned in the text, so they are left blank. the age and sex are also not mentioned, so they are left blank. the relationship type is enslaver, as briton hammon was enslaved by john winslow. the occupation is slave, as briton hammon was a slave. the person status is enslaved person, as briton hammon was enslaved. the name, surname, and first name are retrieved from the text. the rest of the relations are left blank as there is no information provided in the text.",20,0.5087470449172576,2,0.5365261813537675,0.0,0.0
+hasparticipantrole,deceased person,on the,"text, here are the related parts of the document that match with the ontology module:",25,0.3148148148148148,22,0.5802987861811392,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,briton hammon,38,0.5675925925925926,21,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,hammon,41,0.6274651274651274,29,0.41111111111111115,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,briton,44,0.6772486772486772,29,0.0,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,enslaver,42,0.6570105820105819,35,0.5861111111111111,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,john winslow,44,0.6037037037037037,22,0.37222222222222223,0.0,0.0
+hasparticipantrole,deceased person,relationship type is,"enslaver, as briton hammon was enslaved by john winslow)",37,0.6625356125356126,25,0.522041847041847,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,slave,50,0.6566137566137565,20,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_age,age,40,0.5978835978835978,22,0.4333333333333333,0.0,0.0
+hasparticipantrole,deceased person,has_age,?,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,age is not mentioned in the,text),36,0.46296296296296297,10,0.4222222222222222,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,?,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,sex is not mentioned in the,text),31,0.4552469135802469,10,0.4222222222222222,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,enslaved person,46,0.6479302832244008,73,0.7833333333333333,0.0,0.33609692727625756
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,race_or_color,46,0.60239651416122,29,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,?,46,0.60239651416122,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,race is not mentioned in the,text),35,0.5164742664742664,10,0.4222222222222222,0.0,0.0
+hasparticipantrole,deceased person,descriptor record,module:,40,0.5653594771241829,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,42,0.5903133903133903,30,0.5051851851851852,0.0,0.0
+hasparticipantrole,deceased person,has_ethnolinguistic_descriptor,?,42,0.5903133903133903,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,ethnolinguistic descriptor is not mentioned in the,text),32,0.5430687830687831,10,0.4222222222222222,0.0,0.0
+hasparticipantrole,deceased person,is no,information provided in the text.,26,0.337037037037037,25,0.42525252525252527,0.0,0.0
+hasparticipantrole,deceased person,relations for which there is no information listed in the text are marked with a question mark,"(?). the race and ethnolinguistic descriptor are not mentioned in the text, so they are left blank. the age and sex are also not mentioned, so they are left blank. the relationship type is enslaver, as briton hammon was enslaved by john winslow. the occupation is slave, as briton hammon was a slave. the person status is enslaved person, as briton hammon was enslaved. the name, surname, and first name are retrieved from the text. the rest of the relations are left blank as there is no information provided in the text.",20,0.5087470449172576,6,0.5429118773946361,0.0,0.046406786365589085
+hasdescriptiveoccupation,slave,on the,"text, here are the related parts of the document that match with the ontology module:",13,0.4305555555555555,7,0.44901960784313727,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,briton hammon,25,0.5555555555555555,11,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,surname,34,0.5474386724386724,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,hammon,34,0.5474386724386724,18,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,first_name,32,0.5615079365079364,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,briton,32,0.5615079365079364,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,relationship record,module:,33,0.6137539361223572,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,27,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,enslaver,41,0.6037698412698412,77,0.875,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,agent,38,0.6264245014245015,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,john winslow,38,0.6264245014245015,24,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,relationship type is,"enslaver, as briton hammon was enslaved by john winslow)",32,0.642063492063492,16,0.563095238095238,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,slave,68,0.8045940170940171,100,1.0,0.0,1.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,age,26,0.5793650793650794,50,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,?,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,age is not mentioned in the,text),35,0.5648148148148148,20,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,sex_type,32,0.5742063492063493,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,?,32,0.5742063492063493,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,sex is not mentioned in the,text),35,0.5648148148148148,20,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,enslaved person,39,0.6241830065359477,50,0.6444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,race_or_color,39,0.5977668845315903,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,?,39,0.5977668845315903,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,race is not mentioned in the,text),35,0.5753968253968255,20,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,descriptor record,module:,54,0.6797385620915034,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,44,0.6722222222222222,13,0.46222222222222226,0.0,0.0
+hasdescriptiveoccupation,slave,has_ethnolinguistic_descriptor,?,44,0.6722222222222222,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,ethnolinguistic descriptor is not mentioned in the,text),43,0.5835380116959065,20,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is no,information provided in the text.,14,0.46388888888888885,16,0.5636363636363636,0.0,0.0
+hasdescriptiveoccupation,slave,relations for which there is no information listed in the text are marked with a question mark,"(?). the race and ethnolinguistic descriptor are not mentioned in the text, so they are left blank. the age and sex are also not mentioned, so they are left blank. the relationship type is enslaver, as briton hammon was enslaved by john winslow. the occupation is slave, as briton hammon was a slave. the person status is enslaved person, as briton hammon was enslaved. the name, surname, and first name are retrieved from the text. the rest of the relations are left blank as there is no information provided in the text.",24,0.4990149724192277,2,0.5365261813537675,0.0,0.080047767457883
+hasdescriptiveoccupation,sailor (trading vessel),on the,"text, here are the related parts of the document that match with the ontology module:",13,0.4305555555555555,22,0.4720862257946657,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),record,module:,27,0.6138888888888889,20,0.40855762594893025,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),has_name,name,25,0.5555555555555555,15,0.43115942028985504,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),has_name,briton hammon,25,0.5555555555555555,28,0.47141264532568883,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),has_surname,surname,34,0.5474386724386724,27,0.4984472049689441,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),has_surname,hammon,34,0.5474386724386724,21,0.5434782608695653,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),has_first_name,first_name,32,0.5615079365079364,30,0.5252587991718426,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),has_first_name,briton,32,0.5615079365079364,21,0.5502415458937198,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),relationship record,module:,33,0.6137539361223572,20,0.40855762594893025,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,30,0.5410059676044331,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),has_interagent_relationship_type_to,enslaver,41,0.6037698412698412,32,0.47463768115942023,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),is_relationship_to,agent,38,0.6264245014245015,21,0.46570048309178746,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),is_relationship_to,john winslow,38,0.6264245014245015,34,0.4202898550724638,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),relationship type is,"enslaver, as briton hammon was enslaved by john winslow)",32,0.642063492063492,33,0.5814400130761687,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),record,module:,27,0.6138888888888889,20,0.40855762594893025,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),has_occupation,occupation,68,0.8045940170940171,24,0.43913043478260866,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),has_occupation,slave,68,0.8045940170940171,36,0.46570048309178746,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),record,module:,27,0.6138888888888889,20,0.40855762594893025,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),has_age,age,26,0.5793650793650794,23,0.45893719806763283,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),has_age,?,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),age is not mentioned in the,text),35,0.5648148148148148,21,0.4144927536231884,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),record,module:,27,0.6138888888888889,20,0.40855762594893025,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),has_sex,sex_type,32,0.5742063492063493,19,0.5018115942028986,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),has_sex,?,32,0.5742063492063493,0,0.0,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),sex is not mentioned in the,text),35,0.5648148148148148,21,0.4144927536231884,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),status record,module:,32,0.540954415954416,20,0.40855762594893025,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),has_person_status,enslaved person,39,0.6241830065359477,37,0.5671497584541063,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),record,module:,27,0.6138888888888889,20,0.40855762594893025,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),has_race_or_color,race_or_color,39,0.5977668845315903,22,0.46733556298773693,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),has_race_or_color,?,39,0.5977668845315903,0,0.0,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),race is not mentioned in the,text),35,0.5753968253968255,21,0.4144927536231884,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),descriptor record,module:,54,0.6797385620915034,20,0.40855762594893025,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),has_ethnolinguistic_descriptor,etnolinguistic_descriptor,44,0.6722222222222222,25,0.5005797101449275,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),has_ethnolinguistic_descriptor,?,44,0.6722222222222222,0,0.0,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),ethnolinguistic descriptor is not mentioned in the,text),43,0.5835380116959065,21,0.4144927536231884,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),is no,information provided in the text.,14,0.46388888888888885,39,0.5585984064244934,0.0,0.0
+hasdescriptiveoccupation,sailor (trading vessel),relations for which there is no information listed in the text are marked with a question mark,"(?). the race and ethnolinguistic descriptor are not mentioned in the text, so they are left blank. the age and sex are also not mentioned, so they are left blank. the relationship type is enslaver, as briton hammon was enslaved by john winslow. the occupation is slave, as briton hammon was a slave. the person status is enslaved person, as briton hammon was enslaved. the name, surname, and first name are retrieved from the text. the rest of the relations are left blank as there is no information provided in the text.",24,0.4990149724192277,7,0.5364262313287801,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,on the,"text, here are the related parts of the document that match with the ontology module:",13,0.4305555555555555,26,0.5378271882915846,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,record,module:,27,0.6138888888888889,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_name,name,25,0.5555555555555555,23,0.5176767676767676,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_name,briton hammon,25,0.5555555555555555,29,0.476023976023976,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_surname,surname,34,0.5474386724386724,28,0.5138528138528139,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_surname,hammon,34,0.5474386724386724,14,0.47474747474747475,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_first_name,first_name,32,0.5615079365079364,25,0.5131313131313131,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_first_name,briton,32,0.5615079365079364,29,0.5328282828282828,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,relationship record,module:,33,0.6137539361223572,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,26,0.5641711229946523,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_interagent_relationship_type_to,enslaver,41,0.6037698412698412,40,0.6212121212121212,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,is_relationship_to,agent,38,0.6264245014245015,30,0.6606060606060606,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,is_relationship_to,john winslow,38,0.6264245014245015,18,0.47979797979797983,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,relationship type is,"enslaver, as briton hammon was enslaved by john winslow)",32,0.642063492063492,36,0.5939564821143769,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,record,module:,27,0.6138888888888889,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_occupation,occupation,68,0.8045940170940171,25,0.4439393939393939,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_occupation,slave,68,0.8045940170940171,37,0.8454545454545456,0.0,0.4494364165239821
+hasdescriptiveoccupation,slave narrative author,record,module:,27,0.6138888888888889,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_age,age,26,0.5793650793650794,16,0.5858585858585859,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_age,?,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,age is not mentioned in the,text),35,0.5648148148148148,22,0.496969696969697,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,record,module:,27,0.6138888888888889,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_sex,sex_type,32,0.5742063492063493,27,0.5606060606060607,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_sex,?,32,0.5742063492063493,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,sex is not mentioned in the,text),35,0.5648148148148148,22,0.496969696969697,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,status record,module:,32,0.540954415954416,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_person_status,enslaved person,39,0.6241830065359477,43,0.5737373737373738,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,record,module:,27,0.6138888888888889,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_race_or_color,race_or_color,39,0.5977668845315903,29,0.5712620712620713,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_race_or_color,?,39,0.5977668845315903,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,race is not mentioned in the,text),35,0.5753968253968255,22,0.496969696969697,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,descriptor record,module:,54,0.6797385620915034,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,44,0.6722222222222222,34,0.5362626262626263,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_ethnolinguistic_descriptor,?,44,0.6722222222222222,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,ethnolinguistic descriptor is not mentioned in the,text),43,0.5835380116959065,22,0.496969696969697,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,is no,information provided in the text.,14,0.46388888888888885,36,0.5678210678210678,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,relations for which there is no information listed in the text are marked with a question mark,"(?). the race and ethnolinguistic descriptor are not mentioned in the text, so they are left blank. the age and sex are also not mentioned, so they are left blank. the relationship type is enslaver, as briton hammon was enslaved by john winslow. the occupation is slave, as briton hammon was a slave. the person status is enslaved person, as briton hammon was enslaved. the name, surname, and first name are retrieved from the text. the rest of the relations are left blank as there is no information provided in the text.",24,0.4990149724192277,8,0.5140485312899106,0.0,0.035976381757015966
+hasfirstname,briton,on the,"text, here are the related parts of the document that match with the ontology module:",22,0.3333333333333333,11,0.48790849673202613,0.0,0.0
+hasfirstname,briton,record,module:,22,0.4166666666666667,15,0.0,0.0,0.0
+hasfirstname,briton,has_name,name,70,0.8736111111111112,20,0.0,0.0,0.0
+hasfirstname,briton,has_name,briton hammon,70,0.8736111111111112,63,0.8923076923076924,0.0,0.5797386715376658
+hasfirstname,briton,has_surname,surname,70,0.8733164983164984,31,0.5396825396825397,0.0,0.0
+hasfirstname,briton,has_surname,hammon,70,0.8733164983164984,33,0.5555555555555555,0.0,0.0
+hasfirstname,briton,has_first_name,first_name,92,0.9666666666666667,38,0.6055555555555555,0.0,0.0
+hasfirstname,briton,has_first_name,briton,92,0.9666666666666667,100,1.0,0.0,1.0
+hasfirstname,briton,relationship record,module:,32,0.5077276524644946,15,0.0,0.0,0.0
+hasfirstname,briton,has_interagent_relationship_type_to,relationship_type,34,0.5949735449735449,35,0.642483660130719,0.0,0.0
+hasfirstname,briton,has_interagent_relationship_type_to,enslaver,34,0.5949735449735449,14,0.0,0.0,0.0
+hasfirstname,briton,is_relationship_to,agent,27,0.6203703703703703,18,0.41111111111111115,0.0,0.0
+hasfirstname,briton,is_relationship_to,john winslow,27,0.6203703703703703,22,0.47222222222222215,0.0,0.0
+hasfirstname,briton,relationship type is,"enslaver, as briton hammon was enslaved by john winslow)",31,0.6055555555555555,19,0.5912698412698413,0.0,0.24395572500006343
+hasfirstname,briton,record,module:,22,0.4166666666666667,15,0.0,0.0,0.0
+hasfirstname,briton,has_occupation,occupation,38,0.5873015873015873,38,0.48888888888888893,0.0,0.0
+hasfirstname,briton,has_occupation,slave,38,0.5873015873015873,0,0.0,0.0,0.0
+hasfirstname,briton,record,module:,22,0.4166666666666667,15,0.0,0.0,0.0
+hasfirstname,briton,has_age,age,53,0.7972222222222223,0,0.0,0.0,0.0
+hasfirstname,briton,has_age,?,53,0.7972222222222223,0,0.0,0.0,0.0
+hasfirstname,briton,age is not mentioned in the,text),31,0.5189594356261024,18,0.45555555555555555,0.0,0.0
+hasfirstname,briton,record,module:,22,0.4166666666666667,15,0.0,0.0,0.0
+hasfirstname,briton,has_sex,sex_type,53,0.6349206349206349,14,0.4305555555555555,0.0,0.0
+hasfirstname,briton,has_sex,?,53,0.6349206349206349,0,0.0,0.0,0.0
+hasfirstname,briton,sex is not mentioned in the,text),31,0.5189594356261024,18,0.45555555555555555,0.0,0.0
+hasfirstname,briton,status record,module:,32,0.5427350427350427,15,0.0,0.0,0.0
+hasfirstname,briton,has_person_status,enslaved person,48,0.6857298474945533,29,0.41111111111111115,0.0,0.0
+hasfirstname,briton,record,module:,22,0.4166666666666667,15,0.0,0.0,0.0
+hasfirstname,briton,has_race_or_color,race_or_color,41,0.6176470588235294,21,0.49572649572649574,0.0,0.0
+hasfirstname,briton,has_race_or_color,?,41,0.6176470588235294,0,0.0,0.0,0.0
+hasfirstname,briton,race is not mentioned in the,text),30,0.5257936507936508,18,0.45555555555555555,0.0,0.0
+hasfirstname,briton,descriptor record,module:,28,0.50359477124183,15,0.0,0.0,0.0
+hasfirstname,briton,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,33,0.5611111111111111,26,0.5255555555555556,0.0,0.0
+hasfirstname,briton,has_ethnolinguistic_descriptor,?,33,0.5611111111111111,0,0.0,0.0,0.0
+hasfirstname,briton,ethnolinguistic descriptor is not mentioned in the,text),26,0.4951851851851852,18,0.45555555555555555,0.0,0.0
+hasfirstname,briton,is no,information provided in the text.,35,0.5055555555555555,21,0.5282828282828284,0.0,0.0
+hasfirstname,briton,relations for which there is no information listed in the text are marked with a question mark,"(?). the race and ethnolinguistic descriptor are not mentioned in the text, so they are left blank. the age and sex are also not mentioned, so they are left blank. the relationship type is enslaver, as briton hammon was enslaved by john winslow. the occupation is slave, as briton hammon was a slave. the person status is enslaved person, as briton hammon was enslaved. the name, surname, and first name are retrieved from the text. the rest of the relations are left blank as there is no information provided in the text.",21,0.5981087470449172,2,0.5593869731800766,0.0,0.12054341560015616
+hassurname,hammon,on the,"text, here are the related parts of the document that match with the ontology module:",25,0.5111111111111111,13,0.5640522875816995,0.0,0.0
+hassurname,hammon,record,module:,25,0.4222222222222222,31,0.4365079365079365,0.0,0.0
+hassurname,hammon,has_name,name,78,0.9008333333333334,40,0.611111111111111,0.0,0.0
+hassurname,hammon,has_name,briton hammon,78,0.9008333333333334,63,0.49572649572649574,0.0,0.5797386715376658
+hassurname,hammon,has_surname,surname,95,0.9787878787878788,31,0.373015873015873,0.0,0.0
+hassurname,hammon,has_surname,hammon,95,0.9787878787878788,100,1.0,0.0,1.0
+hassurname,hammon,has_first_name,first_name,67,0.8674074074074074,25,0.4222222222222222,0.0,0.0
+hassurname,hammon,has_first_name,briton,67,0.8674074074074074,33,0.5555555555555555,0.0,0.0
+hassurname,hammon,relationship record,module:,28,0.4543859649122807,31,0.4365079365079365,0.0,0.0
+hassurname,hammon,has_interagent_relationship_type_to,relationship_type,31,0.5380952380952381,26,0.5588235294117647,0.0,0.0
+hassurname,hammon,has_interagent_relationship_type_to,enslaver,31,0.5380952380952381,14,0.4305555555555555,0.0,0.0
+hassurname,hammon,is_relationship_to,agent,21,0.5333333333333333,36,0.5777777777777778,0.0,0.0
+hassurname,hammon,is_relationship_to,john winslow,21,0.5333333333333333,22,0.47222222222222215,0.0,0.0
+hassurname,hammon,relationship type is,"enslaver, as briton hammon was enslaved by john winslow)",20,0.4666666666666666,19,0.5912698412698413,0.0,0.24395572500006343
+hassurname,hammon,record,module:,25,0.4222222222222222,31,0.4365079365079365,0.0,0.0
+hassurname,hammon,has_occupation,occupation,42,0.6190476190476191,38,0.48888888888888893,0.0,0.0
+hassurname,hammon,has_occupation,slave,42,0.6190476190476191,18,0.45555555555555555,0.0,0.0
+hassurname,hammon,record,module:,25,0.4222222222222222,31,0.4365079365079365,0.0,0.0
+hassurname,hammon,has_age,age,59,0.8166666666666667,22,0.5,0.0,0.0
+hassurname,hammon,has_age,?,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,hammon,age is not mentioned in the,text),27,0.4283950617283951,0,0.0,0.0,0.0
+hassurname,hammon,record,module:,25,0.4222222222222222,31,0.4365079365079365,0.0,0.0
+hassurname,hammon,has_sex,sex_type,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,hammon,has_sex,?,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,hammon,sex is not mentioned in the,text),27,0.4283950617283951,0,0.0,0.0,0.0
+hassurname,hammon,status record,module:,35,0.5760683760683761,31,0.4365079365079365,0.0,0.0
+hassurname,hammon,has_person_status,enslaved person,44,0.6735294117647058,29,0.32222222222222224,0.0,0.0
+hassurname,hammon,record,module:,25,0.4222222222222222,31,0.4365079365079365,0.0,0.0
+hassurname,hammon,has_race_or_color,race_or_color,44,0.6509803921568628,21,0.49572649572649574,0.0,0.0
+hassurname,hammon,has_race_or_color,?,44,0.6509803921568628,0,0.0,0.0,0.0
+hassurname,hammon,race is not mentioned in the,text),26,0.4380952380952381,0,0.0,0.0,0.0
+hassurname,hammon,descriptor record,module:,22,0.49215686274509807,31,0.4365079365079365,0.0,0.0
+hassurname,hammon,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,25,0.5492063492063491,13,0.30444444444444446,0.0,0.0
+hassurname,hammon,has_ethnolinguistic_descriptor,?,25,0.5492063492063491,0,0.0,0.0,0.0
+hassurname,hammon,ethnolinguistic descriptor is not mentioned in the,text),23,0.4704761904761905,0,0.0,0.0,0.0
+hassurname,hammon,is no,information provided in the text.,27,0.5333333333333333,15,0.4292929292929293,0.0,0.0
+hassurname,hammon,relations for which there is no information listed in the text are marked with a question mark,"(?). the race and ethnolinguistic descriptor are not mentioned in the text, so they are left blank. the age and sex are also not mentioned, so they are left blank. the relationship type is enslaver, as briton hammon was enslaved by john winslow. the occupation is slave, as briton hammon was a slave. the person status is enslaved person, as briton hammon was enslaved. the name, surname, and first name are retrieved from the text. the rest of the relations are left blank as there is no information provided in the text.",15,0.5171000788022065,2,0.5593869731800766,0.0,0.12054341560015616
+hasname,briton hammon,on the,"text, here are the related parts of the document that match with the ontology module:",31,0.5396825396825397,20,0.4512485336014748,0.0,0.0
+hasname,briton hammon,record,module:,15,0.0,20,0.40659340659340665,0.0,0.0
+hasname,briton hammon,has_name,name,93,0.9708333333333333,35,0.4423076923076923,0.0,0.0
+hasname,briton hammon,has_name,briton hammon,93,0.9708333333333333,100,1.0,0.0,1.0000000000000002
+hasname,briton hammon,has_surname,surname,78,0.9151515151515152,40,0.6263736263736264,0.0,0.0
+hasname,briton hammon,has_surname,hammon,78,0.9151515151515152,63,0.49572649572649574,0.0,0.5797386715376658
+hasname,briton hammon,has_first_name,first_name,67,0.5476190476190476,43,0.6316239316239316,0.0,0.0
+hasname,briton hammon,has_first_name,briton,67,0.5476190476190476,63,0.8923076923076924,0.0,0.5797386715376658
+hasname,briton hammon,relationship record,module:,23,0.5106516290726817,20,0.40659340659340665,0.0,0.0
+hasname,briton hammon,has_interagent_relationship_type_to,relationship_type,29,0.6206349206349207,33,0.5548373195432018,0.0,0.0
+hasname,briton hammon,has_interagent_relationship_type_to,enslaver,29,0.6206349206349207,19,0.4679487179487179,0.0,0.0
+hasname,briton hammon,is_relationship_to,agent,16,0.43121693121693117,22,0.3512820512820513,0.0,0.0
+hasname,briton hammon,is_relationship_to,john winslow,16,0.43121693121693117,32,0.6120268620268621,0.0,0.0
+hasname,briton hammon,relationship type is,"enslaver, as briton hammon was enslaved by john winslow)",22,0.5214285714285715,38,0.5902014652014652,0.0,0.35547677795468396
+hasname,briton hammon,record,module:,15,0.0,20,0.40659340659340665,0.0,0.0
+hasname,briton hammon,has_occupation,occupation,38,0.6190476190476191,35,0.5205128205128206,0.0,0.0
+hasname,briton hammon,has_occupation,slave,38,0.6190476190476191,11,0.0,0.0,0.0
+hasname,briton hammon,record,module:,15,0.0,20,0.40659340659340665,0.0,0.0
+hasname,briton hammon,has_age,age,71,0.8666666666666668,12,0.0,0.0,0.0
+hasname,briton hammon,has_age,?,71,0.8666666666666668,0,0.0,0.0,0.0
+hasname,briton hammon,age is not mentioned in the,text),29,0.49982363315696654,11,0.4256410256410256,0.0,0.0
+hasname,briton hammon,record,module:,15,0.0,20,0.40659340659340665,0.0,0.0
+hasname,briton hammon,has_sex,sex_type,57,0.8,10,0.4006410256410256,0.0,0.0
+hasname,briton hammon,has_sex,?,57,0.8,0,0.0,0.0,0.0
+hasname,briton hammon,sex is not mentioned in the,text),24,0.4898589065255732,11,0.4256410256410256,0.0,0.0
+hasname,briton hammon,status record,module:,30,0.442002442002442,20,0.40659340659340665,0.0,0.0
+hasname,briton hammon,has_person_status,enslaved person,42,0.6028011204481792,29,0.505982905982906,0.0,0.0
+hasname,briton hammon,record,module:,15,0.0,20,0.40659340659340665,0.0,0.0
+hasname,briton hammon,has_race_or_color,race_or_color,42,0.6694677871148459,23,0.4871794871794872,0.0,0.0
+hasname,briton hammon,has_race_or_color,?,42,0.6694677871148459,0,0.0,0.0,0.0
+hasname,briton hammon,race is not mentioned in the,text),29,0.4976190476190476,11,0.4256410256410256,0.0,0.0
+hasname,briton hammon,descriptor record,module:,17,0.3011204481792717,20,0.40659340659340665,0.0,0.0
+hasname,briton hammon,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,27,0.5603174603174603,21,0.4615384615384615,0.0,0.0
+hasname,briton hammon,has_ethnolinguistic_descriptor,?,27,0.5603174603174603,0,0.0,0.0,0.0
+hasname,briton hammon,ethnolinguistic descriptor is not mentioned in the,text),18,0.4671428571428571,11,0.4256410256410256,0.0,0.0
+hasname,briton hammon,is no,information provided in the text.,33,0.5619047619047619,30,0.5240870240870241,0.0,0.0
+hasname,briton hammon,relations for which there is no information listed in the text are marked with a question mark,"(?). the race and ethnolinguistic descriptor are not mentioned in the text, so they are left blank. the age and sex are also not mentioned, so they are left blank. the relationship type is enslaver, as briton hammon was enslaved by john winslow. the occupation is slave, as briton hammon was a slave. the person status is enslaved person, as briton hammon was enslaved. the name, surname, and first name are retrieved from the text. the rest of the relations are left blank as there is no information provided in the text.",14,0.5962512664640324,5,0.5467629433146675,0.0,0.17169512990743674
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",on the,"text, here are the related parts of the document that match with the ontology module:",20,0.4920634920634921,33,0.6026077159315997,0.0,0.28464788561854415
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",record,module:,30,0.48412698412698413,5,0.5159686364505641,0.0,0.0
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",has_name,name,36,0.5952380952380952,3,0.5053547523427041,0.0,0.0
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",has_name,briton hammon,36,0.5952380952380952,10,0.5302234579343014,0.0,0.21665842651145695
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",has_surname,surname,48,0.6168831168831169,5,0.533180340409256,0.0,0.0
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",has_surname,hammon,48,0.6168831168831169,5,0.5635876840696118,0.0,0.2032362780929209
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",has_first_name,first_name,43,0.6726190476190476,7,0.4972333779562696,0.0,0.0
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",has_first_name,briton,43,0.6726190476190476,5,0.5635876840696118,0.0,0.10011690041382482
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",relationship record,module:,30,0.6135338345864662,5,0.5159686364505641,0.0,0.0
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",has_interagent_relationship_type_to,relationship_type,37,0.5666666666666667,9,0.5018111662335617,0.0,0.0
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",has_interagent_relationship_type_to,enslaver,37,0.5666666666666667,6,0.677376171352075,0.0,0.0
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",is_relationship_to,agent,44,0.6474266474266474,4,0.5400267737617135,0.0,0.0
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",is_relationship_to,john winslow,44,0.6474266474266474,8,0.44723337795626955,0.0,0.0
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",relationship type is,"enslaver, as briton hammon was enslaved by john winslow)",35,0.6270562770562771,29,0.5842637951071686,0.0,0.10655099743947435
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",record,module:,30,0.48412698412698413,5,0.5159686364505641,0.0,0.0
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",has_occupation,occupation,64,0.8074074074074075,7,0.5467202141900938,0.0,0.0
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",has_occupation,slave,64,0.8074074074074075,4,0.5400267737617135,0.0,0.0
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",record,module:,30,0.48412698412698413,5,0.5159686364505641,0.0,0.0
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",has_age,age,38,0.6190476190476191,2,0.5595716198125836,0.0,0.0
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",has_age,?,38,0.6190476190476191,0,0.0,0.0,0.0
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",age is not mentioned in the,text),34,0.4975749559082892,3,0.4262382864792504,0.0,0.10011690041382482
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",record,module:,30,0.48412698412698413,5,0.5159686364505641,0.0,0.0
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",has_sex,sex_type,38,0.6238095238095238,4,0.42469879518072284,0.0,0.0
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",has_sex,?,38,0.6238095238095238,0,0.0,0.0,0.0
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",sex is not mentioned in the,text),34,0.4975749559082892,3,0.4262382864792504,0.0,0.10011690041382482
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",status record,module:,37,0.5366300366300366,5,0.5159686364505641,0.0,0.0
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",has_person_status,enslaved person,45,0.6675070028011204,11,0.6423025435073628,0.0,0.05804163884437958
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",record,module:,30,0.48412698412698413,5,0.5159686364505641,0.0,0.0
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",has_race_or_color,race_or_color,39,0.5896358543417367,8,0.47859503281190025,0.0,0.0
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",has_race_or_color,?,39,0.5896358543417367,0,0.0,0.0,0.0
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",race is not mentioned in the,text),33,0.5238095238095238,3,0.4262382864792504,0.0,0.10011690041382482
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",descriptor record,module:,58,0.6870525988173046,5,0.5159686364505641,0.0,0.0
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",has_ethnolinguistic_descriptor,etnolinguistic_descriptor,55,0.6265512265512265,15,0.5326840696117805,0.0,0.0
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",has_ethnolinguistic_descriptor,?,55,0.6265512265512265,0,0.0,0.0,0.0
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",ethnolinguistic descriptor is not mentioned in the,text),41,0.5756776556776556,3,0.4262382864792504,0.0,0.10011690041382482
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",is no,information provided in the text.,21,0.4238095238095238,22,0.5639870086406231,0.0,0.19989573874683483
+hasdescription,"enslaved. possibly free before 13th amendment.the author of a narrative of the uncommon sufferings, and surprizing deliverance of briton hammon, a negro man (1760), hammon is credited with being the first black individual to write a text in america.",relations for which there is no information listed in the text are marked with a question mark,"(?). the race and ethnolinguistic descriptor are not mentioned in the text, so they are left blank. the age and sex are also not mentioned, so they are left blank. the relationship type is enslaver, as briton hammon was enslaved by john winslow. the occupation is slave, as briton hammon was a slave. the person status is enslaved person, as briton hammon was enslaved. the name, surname, and first name are retrieved from the text. the rest of the relations are left blank as there is no information provided in the text.",20,0.5351102797911308,40,0.645014481740697,0.0,0.3397892834388655
