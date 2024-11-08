@@ -1,0 +1,342 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,amos fortune,32,0.537878787878788,33,0.5833333333333334,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,fortune,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,amos,40,0.5692640692640693,20,0.4444444444444444,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,relationship_type,30,0.5269480519480519,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,enslaver,30,0.5269480519480519,29,0.5277777777777778,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,bwril nate,34,0.5798460798460798,25,0.5111111111111111,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,male,22,0.45598845598845594,20,0.47222222222222215,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,tanner,24,0.38311688311688313,33,0.4444444444444444,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_age,91,33,0.45598845598845594,0,0.0,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_birthdate,unknown,33,0.5463869463869464,31,0.373015873015873,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,january 1801,33,0.39044289044289043,11,0.3333333333333333,0.0,0.0
+instance of,person,has_person_status,enslaved person,29,0.449554367201426,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,has_person_status,free person,29,0.449554367201426,71,0.3383838383838384,0.0,0.5797386715376658
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,sale of estate of richardson,26,0.4799102132435466,29,0.4246031746031746,0.0,0.0
+instance of,person,has_status_generating_event,purchased freedom,26,0.4799102132435466,35,0.5506535947712418,0.0,0.0
+instance of,person,recorded_at,event,18,0.4545454545454546,36,0.5777777777777778,0.0,0.0
+instance of,person,recorded_at,sale of estate of richardson,18,0.4545454545454546,29,0.4246031746031746,0.0,0.0
+instance of,person,recorded_at,purchased freedom,18,0.4545454545454546,35,0.5506535947712418,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,african-american,36,0.5162210338680927,27,0.4861111111111111,0.0,0.0
+instance of,person,on the provided,"text, the ontology can be populated as follows: name record module: 1. has_name(agent, name): has_name(amos fortune, 'amos fortune') 2. has_surname(agent, surname): has_surname(amos fortune, 'fortune') 3. has_first_name(agent, first_name): has_first_name(amos fortune, 'amos').interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(amos fortune, 'enslaver') 2. is_relationship_to(agent, agent): is_relationship_to(amos fortune, 'bwril nate'). note: the interagent relationship record module describes the relationship to another agent who is an enslaver or owner. so use the keywords enslaver or owner to describe the relationship type. sex record module: 1. has_sex(agent, sex_type): has_sex(amos fortune, 'male'). occupation record module: 1. has_occupation(agent, occupation): has_occupation(amos fortune, 'tanner'). age record module: 1. has_age(agent, age): has_age(amos fortune, 91) 2. has_birthdate(agent, date_of_birth): has_birthdate(amos fortune, 'unknown') 3. has_deathdate(agent, date_of_death): has_deathdate(amos fortune, 'january 1801'). person status record module: 1. has_person_status (agent, person_status): has_person_status(amos fortune, 'enslaved person, free person') 2. has_status_generating_event(person_status, event): has_status_generating_event(enslaved person, 'sale of estate of richardson'), has_status_generating_event(free person, 'purchased freedom') 3. recorded_at(person_status_information, event): recorded_at(enslaved person, 'sale of estate of richardson'), recorded_at(free person, 'purchased freedom'). race record module: has_race_or_color(agent, race_or_color): has_race_or_color(amos fortune, african-american).  note: skip the relations for which there is no information listed in the text file.the birth and death dates are mentioned in parenthesis after the agent name. for example: amos fortune (unknown – january 1801),",38,0.5292929292929293,1,0.5010235414534289,0.0,0.14518626839376408
+hassex,male,has_name,name,57,0.8055555555555556,50,0.6666666666666666,0.0,0.0
+hassex,male,has_name,amos fortune,57,0.8055555555555556,25,0.38888888888888884,0.0,0.0
+hassex,male,has_surname,surname,59,0.6767676767676768,36,0.0,0.0,0.0
+hassex,male,has_surname,fortune,59,0.6767676767676768,18,0.0,0.0,0.0
+hassex,male,has_first_name,first_name,50,0.6507936507936508,29,0.0,0.0,0.0
+hassex,male,has_first_name,amos,50,0.6507936507936508,25,0.5,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,relationship_type,24,0.5936507936507937,19,0.5310457516339869,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,enslaver,24,0.5936507936507937,33,0.5972222222222222,0.0,0.0
+hassex,male,is_relationship_to,agent,17,0.46296296296296297,44,0.6333333333333333,0.0,0.0
+hassex,male,is_relationship_to,bwril nate,17,0.46296296296296297,29,0.45,0.0,0.0
+hassex,male,has_sex,sex_type,92,0.9666666666666667,17,0.4583333333333333,0.0,0.0
+hassex,male,has_sex,male,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,male,has_occupation,occupation,30,0.5714285714285715,14,0.45,0.0,0.0
+hassex,male,has_occupation,tanner,30,0.5714285714285715,40,0.611111111111111,0.0,0.0
+hassex,male,has_age,age,62,0.8222222222222222,57,0.7222222222222222,0.0,0.0
+hassex,male,has_age,91,62,0.8222222222222222,0,0.0,0.0,0.0
+hassex,male,has_birthdate,date_of_birth,42,0.576923076923077,24,0.5512820512820512,0.0,0.0
+hassex,male,has_birthdate,unknown,42,0.576923076923077,0,0.0,0.0,0.0
+hassex,male,has_deathdate,date_of_death,42,0.6581196581196581,24,0.5512820512820512,0.0,0.0
+hassex,male,has_deathdate,january 1801,42,0.6581196581196581,12,0.4444444444444444,0.0,0.0
+hassex,male,has_person_status,enslaved person,35,0.642483660130719,21,0.5388888888888889,0.0,0.0
+hassex,male,has_person_status,free person,35,0.642483660130719,13,0.44696969696969696,0.0,0.0
+hassex,male,has_status_generating_event,event,30,0.6728395061728395,22,0.48333333333333334,0.0,0.0
+hassex,male,has_status_generating_event,sale of estate of richardson,30,0.6728395061728395,19,0.6190476190476191,0.0,0.0
+hassex,male,has_status_generating_event,purchased freedom,30,0.6728395061728395,19,0.5392156862745098,0.0,0.0
+hassex,male,recorded_at,event,12,0.41919191919191917,22,0.48333333333333334,0.0,0.0
+hassex,male,recorded_at,sale of estate of richardson,12,0.41919191919191917,19,0.6190476190476191,0.0,0.0
+hassex,male,recorded_at,purchased freedom,12,0.41919191919191917,19,0.5392156862745098,0.0,0.0
+hassex,male,has_race_or_color,race_or_color,35,0.6339869281045751,24,0.5512820512820512,0.0,0.0
+hassex,male,has_race_or_color,african-american,35,0.6339869281045751,20,0.5416666666666666,0.0,0.0
+hassex,male,on the provided,"text, the ontology can be populated as follows: name record module: 1. has_name(agent, name): has_name(amos fortune, 'amos fortune') 2. has_surname(agent, surname): has_surname(amos fortune, 'fortune') 3. has_first_name(agent, first_name): has_first_name(amos fortune, 'amos').interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(amos fortune, 'enslaver') 2. is_relationship_to(agent, agent): is_relationship_to(amos fortune, 'bwril nate'). note: the interagent relationship record module describes the relationship to another agent who is an enslaver or owner. so use the keywords enslaver or owner to describe the relationship type. sex record module: 1. has_sex(agent, sex_type): has_sex(amos fortune, 'male'). occupation record module: 1. has_occupation(agent, occupation): has_occupation(amos fortune, 'tanner'). age record module: 1. has_age(agent, age): has_age(amos fortune, 91) 2. has_birthdate(agent, date_of_birth): has_birthdate(amos fortune, 'unknown') 3. has_deathdate(agent, date_of_death): has_deathdate(amos fortune, 'january 1801'). person status record module: 1. has_person_status (agent, person_status): has_person_status(amos fortune, 'enslaved person, free person') 2. has_status_generating_event(person_status, event): has_status_generating_event(enslaved person, 'sale of estate of richardson'), has_status_generating_event(free person, 'purchased freedom') 3. recorded_at(person_status_information, event): recorded_at(enslaved person, 'sale of estate of richardson'), recorded_at(free person, 'purchased freedom'). race record module: has_race_or_color(agent, race_or_color): has_race_or_color(amos fortune, african-american).  note: skip the relations for which there is no information listed in the text file.the birth and death dates are mentioned in parenthesis after the agent name. for example: amos fortune (unknown – january 1801),",19,0.48888888888888893,0,0.5006823609689526,0.0,0.02053514245948789
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,amos fortune,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,fortune,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,amos,44,0.6772486772486772,0,0.0,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,enslaver,42,0.6570105820105819,15,0.44166666666666665,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,bwril nate,44,0.6037037037037037,27,0.5333333333333333,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,male,32,0.5317460317460317,22,0.48333333333333334,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,tanner,50,0.6566137566137565,0,0.0,0.0,0.0
+hasparticipantrole,child,has_age,age,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_age,91,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_birthdate,date_of_birth,52,0.6937321937321936,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_birthdate,unknown,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,child,has_deathdate,date_of_death,52,0.6866096866096866,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_deathdate,january 1801,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,child,has_person_status,enslaved person,46,0.6479302832244008,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,child,has_person_status,free person,46,0.6479302832244008,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,sale of estate of richardson,40,0.5819304152637487,18,0.41190476190476194,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,purchased freedom,40,0.5819304152637487,27,0.592156862745098,0.0,0.0
+hasparticipantrole,child,recorded_at,event,28,0.36195286195286197,0,0.0,0.0,0.0
+hasparticipantrole,child,recorded_at,sale of estate of richardson,28,0.36195286195286197,18,0.41190476190476194,0.0,0.0
+hasparticipantrole,child,recorded_at,purchased freedom,28,0.36195286195286197,27,0.592156862745098,0.0,0.0
+hasparticipantrole,child,has_race_or_color,race_or_color,46,0.60239651416122,22,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_race_or_color,african-american,46,0.60239651416122,19,0.3416666666666666,0.0,0.0
+hasparticipantrole,child,on the provided,"text, the ontology can be populated as follows: name record module: 1. has_name(agent, name): has_name(amos fortune, 'amos fortune') 2. has_surname(agent, surname): has_surname(amos fortune, 'fortune') 3. has_first_name(agent, first_name): has_first_name(amos fortune, 'amos').interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(amos fortune, 'enslaver') 2. is_relationship_to(agent, agent): is_relationship_to(amos fortune, 'bwril nate'). note: the interagent relationship record module describes the relationship to another agent who is an enslaver or owner. so use the keywords enslaver or owner to describe the relationship type. sex record module: 1. has_sex(agent, sex_type): has_sex(amos fortune, 'male'). occupation record module: 1. has_occupation(agent, occupation): has_occupation(amos fortune, 'tanner'). age record module: 1. has_age(agent, age): has_age(amos fortune, 91) 2. has_birthdate(agent, date_of_birth): has_birthdate(amos fortune, 'unknown') 3. has_deathdate(agent, date_of_death): has_deathdate(amos fortune, 'january 1801'). person status record module: 1. has_person_status (agent, person_status): has_person_status(amos fortune, 'enslaved person, free person') 2. has_status_generating_event(person_status, event): has_status_generating_event(enslaved person, 'sale of estate of richardson'), has_status_generating_event(free person, 'purchased freedom') 3. recorded_at(person_status_information, event): recorded_at(enslaved person, 'sale of estate of richardson'), recorded_at(free person, 'purchased freedom'). race record module: has_race_or_color(agent, race_or_color): has_race_or_color(amos fortune, african-american).  note: skip the relations for which there is no information listed in the text file.the birth and death dates are mentioned in parenthesis after the agent name. for example: amos fortune (unknown – january 1801),",30,0.4756613756613757,1,0.534186284544524,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,amos fortune,38,0.5675925925925926,37,0.5222222222222223,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,fortune,41,0.6274651274651274,18,0.40317460317460313,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,amos,44,0.6772486772486772,21,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,enslaver,42,0.6570105820105819,35,0.5861111111111111,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,bwril nate,44,0.6037037037037037,16,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,male,32,0.5317460317460317,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,tanner,50,0.6566137566137565,29,0.45555555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_age,age,40,0.5978835978835978,22,0.4333333333333333,0.0,0.0
+hasparticipantrole,deceased person,has_age,91,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,date_of_birth,52,0.6937321937321936,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,unknown,52,0.6937321937321936,18,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,date_of_death,52,0.6866096866096866,36,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,january 1801,52,0.6866096866096866,15,0.37222222222222223,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,enslaved person,46,0.6479302832244008,73,0.7833333333333333,0.0,0.33609692727625756
+hasparticipantrole,deceased person,has_person_status,free person,46,0.6479302832244008,69,0.7319865319865321,0.0,0.33609692727625756
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,sale of estate of richardson,40,0.5819304152637487,42,0.5412698412698412,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,purchased freedom,40,0.5819304152637487,50,0.6183006535947713,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,event,28,0.36195286195286197,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,sale of estate of richardson,28,0.36195286195286197,42,0.5412698412698412,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,purchased freedom,28,0.36195286195286197,50,0.6183006535947713,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,race_or_color,46,0.60239651416122,29,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,african-american,46,0.60239651416122,32,0.48194444444444445,0.0,0.0
+hasparticipantrole,deceased person,on the provided,"text, the ontology can be populated as follows: name record module: 1. has_name(agent, name): has_name(amos fortune, 'amos fortune') 2. has_surname(agent, surname): has_surname(amos fortune, 'fortune') 3. has_first_name(agent, first_name): has_first_name(amos fortune, 'amos').interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(amos fortune, 'enslaver') 2. is_relationship_to(agent, agent): is_relationship_to(amos fortune, 'bwril nate'). note: the interagent relationship record module describes the relationship to another agent who is an enslaver or owner. so use the keywords enslaver or owner to describe the relationship type. sex record module: 1. has_sex(agent, sex_type): has_sex(amos fortune, 'male'). occupation record module: 1. has_occupation(agent, occupation): has_occupation(amos fortune, 'tanner'). age record module: 1. has_age(agent, age): has_age(amos fortune, 91) 2. has_birthdate(agent, date_of_birth): has_birthdate(amos fortune, 'unknown') 3. has_deathdate(agent, date_of_death): has_deathdate(amos fortune, 'january 1801'). person status record module: 1. has_person_status (agent, person_status): has_person_status(amos fortune, 'enslaved person, free person') 2. has_status_generating_event(person_status, event): has_status_generating_event(enslaved person, 'sale of estate of richardson'), has_status_generating_event(free person, 'purchased freedom') 3. recorded_at(person_status_information, event): recorded_at(enslaved person, 'sale of estate of richardson'), recorded_at(free person, 'purchased freedom'). race record module: has_race_or_color(agent, race_or_color): has_race_or_color(amos fortune, african-american).  note: skip the relations for which there is no information listed in the text file.the birth and death dates are mentioned in parenthesis after the agent name. for example: amos fortune (unknown – january 1801),",30,0.4756613756613757,2,0.5136699647446833,0.0,0.08417009436411181
+hasdescriptiveoccupation,bookbinder,has_name,name,25,0.5555555555555555,29,0.0,0.0,0.0
+hasdescriptiveoccupation,bookbinder,has_name,amos fortune,25,0.5555555555555555,36,0.5722222222222223,0.0,0.0
+hasdescriptiveoccupation,bookbinder,has_surname,surname,34,0.5474386724386724,24,0.49523809523809526,0.0,0.0
+hasdescriptiveoccupation,bookbinder,has_surname,fortune,34,0.5474386724386724,35,0.5761904761904763,0.0,0.0
+hasdescriptiveoccupation,bookbinder,has_first_name,first_name,32,0.5615079365079364,30,0.5333333333333333,0.0,0.0
+hasdescriptiveoccupation,bookbinder,has_first_name,amos,32,0.5615079365079364,14,0.45,0.0,0.0
+hasdescriptiveoccupation,bookbinder,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,22,0.4617647058823529,0.0,0.0
+hasdescriptiveoccupation,bookbinder,has_interagent_relationship_type_to,enslaver,41,0.6037698412698412,33,0.48333333333333334,0.0,0.0
+hasdescriptiveoccupation,bookbinder,is_relationship_to,agent,38,0.6264245014245015,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,bookbinder,is_relationship_to,bwril nate,38,0.6264245014245015,40,0.6,0.0,0.0
+hasdescriptiveoccupation,bookbinder,has_sex,sex_type,32,0.5742063492063493,11,0.4083333333333334,0.0,0.0
+hasdescriptiveoccupation,bookbinder,has_sex,male,32,0.5742063492063493,14,0.0,0.0,0.0
+hasdescriptiveoccupation,bookbinder,has_occupation,occupation,68,0.8045940170940171,30,0.5333333333333333,0.0,0.0
+hasdescriptiveoccupation,bookbinder,has_occupation,tanner,68,0.8045940170940171,38,0.6,0.0,0.0
+hasdescriptiveoccupation,bookbinder,has_age,age,26,0.5793650793650794,15,0.0,0.0,0.0
+hasdescriptiveoccupation,bookbinder,has_age,91,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,bookbinder,has_birthdate,date_of_birth,38,0.6286324786324786,35,0.4948717948717949,0.0,0.0
+hasdescriptiveoccupation,bookbinder,has_birthdate,unknown,38,0.6286324786324786,24,0.46507936507936504,0.0,0.0
+hasdescriptiveoccupation,bookbinder,has_deathdate,date_of_death,43,0.652065527065527,26,0.3991452991452991,0.0,0.0
+hasdescriptiveoccupation,bookbinder,has_deathdate,january 1801,43,0.652065527065527,18,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,bookbinder,has_person_status,enslaved person,39,0.6241830065359477,32,0.47222222222222227,0.0,0.0
+hasdescriptiveoccupation,bookbinder,has_person_status,free person,39,0.6241830065359477,19,0.41313131313131307,0.0,0.0
+hasdescriptiveoccupation,bookbinder,has_status_generating_event,event,39,0.5815696649029983,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,bookbinder,has_status_generating_event,sale of estate of richardson,39,0.5815696649029983,21,0.430952380952381,0.0,0.0
+hasdescriptiveoccupation,bookbinder,has_status_generating_event,purchased freedom,39,0.5815696649029983,15,0.3810457516339869,0.0,0.0
+hasdescriptiveoccupation,bookbinder,recorded_at,event,34,0.5202020202020202,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,bookbinder,recorded_at,sale of estate of richardson,34,0.5202020202020202,21,0.430952380952381,0.0,0.0
+hasdescriptiveoccupation,bookbinder,recorded_at,purchased freedom,34,0.5202020202020202,15,0.3810457516339869,0.0,0.0
+hasdescriptiveoccupation,bookbinder,has_race_or_color,race_or_color,39,0.5977668845315903,26,0.3991452991452991,0.0,0.0
+hasdescriptiveoccupation,bookbinder,has_race_or_color,african-american,39,0.5977668845315903,31,0.3833333333333333,0.0,0.0
+hasdescriptiveoccupation,bookbinder,on the provided,"text, the ontology can be populated as follows: name record module: 1. has_name(agent, name): has_name(amos fortune, 'amos fortune') 2. has_surname(agent, surname): has_surname(amos fortune, 'fortune') 3. has_first_name(agent, first_name): has_first_name(amos fortune, 'amos').interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(amos fortune, 'enslaver') 2. is_relationship_to(agent, agent): is_relationship_to(amos fortune, 'bwril nate'). note: the interagent relationship record module describes the relationship to another agent who is an enslaver or owner. so use the keywords enslaver or owner to describe the relationship type. sex record module: 1. has_sex(agent, sex_type): has_sex(amos fortune, 'male'). occupation record module: 1. has_occupation(agent, occupation): has_occupation(amos fortune, 'tanner'). age record module: 1. has_age(agent, age): has_age(amos fortune, 91) 2. has_birthdate(agent, date_of_birth): has_birthdate(amos fortune, 'unknown') 3. has_deathdate(agent, date_of_death): has_deathdate(amos fortune, 'january 1801'). person status record module: 1. has_person_status (agent, person_status): has_person_status(amos fortune, 'enslaved person, free person') 2. has_status_generating_event(person_status, event): has_status_generating_event(enslaved person, 'sale of estate of richardson'), has_status_generating_event(free person, 'purchased freedom') 3. recorded_at(person_status_information, event): recorded_at(enslaved person, 'sale of estate of richardson'), recorded_at(free person, 'purchased freedom'). race record module: has_race_or_color(agent, race_or_color): has_race_or_color(amos fortune, african-american).  note: skip the relations for which there is no information listed in the text file.the birth and death dates are mentioned in parenthesis after the agent name. for example: amos fortune (unknown – january 1801),",26,0.561111111111111,1,0.5350392357557148,0.0,0.0
+hasdescriptiveoccupation,tanner,has_name,name,25,0.5555555555555555,40,0.6388888888888888,0.0,0.0
+hasdescriptiveoccupation,tanner,has_name,amos fortune,25,0.5555555555555555,33,0.5,0.0,0.0
+hasdescriptiveoccupation,tanner,has_surname,surname,34,0.5474386724386724,31,0.5396825396825397,0.0,0.0
+hasdescriptiveoccupation,tanner,has_surname,fortune,34,0.5474386724386724,46,0.5396825396825397,0.0,0.0
+hasdescriptiveoccupation,tanner,has_first_name,first_name,32,0.5615079365079364,38,0.48888888888888893,0.0,0.0
+hasdescriptiveoccupation,tanner,has_first_name,amos,32,0.5615079365079364,20,0.47222222222222215,0.0,0.0
+hasdescriptiveoccupation,tanner,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,26,0.5758169934640524,0.0,0.0
+hasdescriptiveoccupation,tanner,has_interagent_relationship_type_to,enslaver,41,0.6037698412698412,43,0.6388888888888888,0.0,0.0
+hasdescriptiveoccupation,tanner,is_relationship_to,agent,38,0.6264245014245015,36,0.5888888888888889,0.0,0.0
+hasdescriptiveoccupation,tanner,is_relationship_to,bwril nate,38,0.6264245014245015,25,0.3444444444444444,0.0,0.0
+hasdescriptiveoccupation,tanner,has_sex,sex_type,32,0.5742063492063493,29,0.4305555555555555,0.0,0.0
+hasdescriptiveoccupation,tanner,has_sex,male,32,0.5742063492063493,40,0.611111111111111,0.0,0.0
+hasdescriptiveoccupation,tanner,has_occupation,occupation,68,0.8045940170940171,25,0.4222222222222222,0.0,0.0
+hasdescriptiveoccupation,tanner,has_occupation,tanner,68,0.8045940170940171,100,1.0,0.0,1.0
+hasdescriptiveoccupation,tanner,has_age,age,26,0.5793650793650794,44,0.6666666666666666,0.0,0.0
+hasdescriptiveoccupation,tanner,has_age,91,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,tanner,has_birthdate,date_of_birth,38,0.6286324786324786,32,0.5747863247863249,0.0,0.0
+hasdescriptiveoccupation,tanner,has_birthdate,unknown,38,0.6286324786324786,31,0.5396825396825397,0.0,0.0
+hasdescriptiveoccupation,tanner,has_deathdate,date_of_death,43,0.652065527065527,21,0.46581196581196577,0.0,0.0
+hasdescriptiveoccupation,tanner,has_deathdate,january 1801,43,0.652065527065527,33,0.5833333333333334,0.0,0.0
+hasdescriptiveoccupation,tanner,has_person_status,enslaved person,39,0.6241830065359477,29,0.5611111111111111,0.0,0.0
+hasdescriptiveoccupation,tanner,has_person_status,free person,39,0.6241830065359477,24,0.3383838383838384,0.0,0.0
+hasdescriptiveoccupation,tanner,has_status_generating_event,event,39,0.5815696649029983,18,0.41111111111111115,0.0,0.0
+hasdescriptiveoccupation,tanner,has_status_generating_event,sale of estate of richardson,39,0.5815696649029983,24,0.5198412698412699,0.0,0.0
+hasdescriptiveoccupation,tanner,has_status_generating_event,purchased freedom,39,0.5815696649029983,26,0.4477124183006536,0.0,0.0
+hasdescriptiveoccupation,tanner,recorded_at,event,34,0.5202020202020202,18,0.41111111111111115,0.0,0.0
+hasdescriptiveoccupation,tanner,recorded_at,sale of estate of richardson,34,0.5202020202020202,24,0.5198412698412699,0.0,0.0
+hasdescriptiveoccupation,tanner,recorded_at,purchased freedom,34,0.5202020202020202,26,0.4477124183006536,0.0,0.0
+hasdescriptiveoccupation,tanner,has_race_or_color,race_or_color,39,0.5977668845315903,32,0.46581196581196577,0.0,0.0
+hasdescriptiveoccupation,tanner,has_race_or_color,african-american,39,0.5977668845315903,36,0.5555555555555555,0.0,0.0
+hasdescriptiveoccupation,tanner,on the provided,"text, the ontology can be populated as follows: name record module: 1. has_name(agent, name): has_name(amos fortune, 'amos fortune') 2. has_surname(agent, surname): has_surname(amos fortune, 'fortune') 3. has_first_name(agent, first_name): has_first_name(amos fortune, 'amos').interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(amos fortune, 'enslaver') 2. is_relationship_to(agent, agent): is_relationship_to(amos fortune, 'bwril nate'). note: the interagent relationship record module describes the relationship to another agent who is an enslaver or owner. so use the keywords enslaver or owner to describe the relationship type. sex record module: 1. has_sex(agent, sex_type): has_sex(amos fortune, 'male'). occupation record module: 1. has_occupation(agent, occupation): has_occupation(amos fortune, 'tanner'). age record module: 1. has_age(agent, age): has_age(amos fortune, 91) 2. has_birthdate(agent, date_of_birth): has_birthdate(amos fortune, 'unknown') 3. has_deathdate(agent, date_of_death): has_deathdate(amos fortune, 'january 1801'). person status record module: 1. has_person_status (agent, person_status): has_person_status(amos fortune, 'enslaved person, free person') 2. has_status_generating_event(person_status, event): has_status_generating_event(enslaved person, 'sale of estate of richardson'), has_status_generating_event(free person, 'purchased freedom') 3. recorded_at(person_status_information, event): recorded_at(enslaved person, 'sale of estate of richardson'), recorded_at(free person, 'purchased freedom'). race record module: has_race_or_color(agent, race_or_color): has_race_or_color(amos fortune, african-american).  note: skip the relations for which there is no information listed in the text file.the birth and death dates are mentioned in parenthesis after the agent name. for example: amos fortune (unknown – january 1801),",26,0.561111111111111,1,0.6121346525645399,0.0,0.02053514245948789
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,amos fortune,25,0.5555555555555555,24,0.35555555555555557,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,surname,34,0.5474386724386724,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,fortune,34,0.5474386724386724,17,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,first_name,32,0.5615079365079364,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,amos,32,0.5615079365079364,22,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,27,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,enslaver,41,0.6037698412698412,77,0.875,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,agent,38,0.6264245014245015,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,bwril nate,38,0.6264245014245015,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,sex_type,32,0.5742063492063493,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,male,32,0.5742063492063493,44,0.6722222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,tanner,68,0.8045940170940171,36,0.5777777777777778,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,age,26,0.5793650793650794,50,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,91,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,date_of_birth,38,0.6286324786324786,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,unknown,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,date_of_death,43,0.652065527065527,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,january 1801,43,0.652065527065527,12,0.42777777777777776,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,enslaved person,39,0.6241830065359477,50,0.6444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,free person,39,0.6241830065359477,12,0.43030303030303035,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,event,39,0.5815696649029983,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,sale of estate of richardson,39,0.5815696649029983,24,0.5642857142857143,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,purchased freedom,39,0.5815696649029983,18,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,event,34,0.5202020202020202,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,sale of estate of richardson,34,0.5202020202020202,24,0.5642857142857143,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,purchased freedom,34,0.5202020202020202,18,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,race_or_color,39,0.5977668845315903,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,african-american,39,0.5977668845315903,19,0.5083333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,on the provided,"text, the ontology can be populated as follows: name record module: 1. has_name(agent, name): has_name(amos fortune, 'amos fortune') 2. has_surname(agent, surname): has_surname(amos fortune, 'fortune') 3. has_first_name(agent, first_name): has_first_name(amos fortune, 'amos').interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(amos fortune, 'enslaver') 2. is_relationship_to(agent, agent): is_relationship_to(amos fortune, 'bwril nate'). note: the interagent relationship record module describes the relationship to another agent who is an enslaver or owner. so use the keywords enslaver or owner to describe the relationship type. sex record module: 1. has_sex(agent, sex_type): has_sex(amos fortune, 'male'). occupation record module: 1. has_occupation(agent, occupation): has_occupation(amos fortune, 'tanner'). age record module: 1. has_age(agent, age): has_age(amos fortune, 91) 2. has_birthdate(agent, date_of_birth): has_birthdate(amos fortune, 'unknown') 3. has_deathdate(agent, date_of_death): has_deathdate(amos fortune, 'january 1801'). person status record module: 1. has_person_status (agent, person_status): has_person_status(amos fortune, 'enslaved person, free person') 2. has_status_generating_event(person_status, event): has_status_generating_event(enslaved person, 'sale of estate of richardson'), has_status_generating_event(free person, 'purchased freedom') 3. recorded_at(person_status_information, event): recorded_at(enslaved person, 'sale of estate of richardson'), recorded_at(free person, 'purchased freedom'). race record module: has_race_or_color(agent, race_or_color): has_race_or_color(amos fortune, african-american).  note: skip the relations for which there is no information listed in the text file.the birth and death dates are mentioned in parenthesis after the agent name. for example: amos fortune (unknown – january 1801),",26,0.561111111111111,1,0.6008529512111908,0.0,0.0
+hasfirstname,amos,has_name,name,70,0.8736111111111112,50,0.6666666666666666,0.0,0.0
+hasfirstname,amos,has_name,amos fortune,70,0.8736111111111112,50,0.8666666666666666,0.0,0.5797386715376658
+hasfirstname,amos,has_surname,surname,70,0.8733164983164984,36,0.0,0.0,0.0
+hasfirstname,amos,has_surname,fortune,70,0.8733164983164984,18,0.46428571428571425,0.0,0.0
+hasfirstname,amos,has_first_name,first_name,92,0.9666666666666667,29,0.45,0.0,0.0
+hasfirstname,amos,has_first_name,amos,92,0.9666666666666667,100,1.0,0.0,1.0
+hasfirstname,amos,has_interagent_relationship_type_to,relationship_type,34,0.5949735449735449,29,0.6421568627450981,0.0,0.0
+hasfirstname,amos,has_interagent_relationship_type_to,enslaver,34,0.5949735449735449,17,0.4583333333333333,0.0,0.0
+hasfirstname,amos,is_relationship_to,agent,27,0.6203703703703703,22,0.48333333333333334,0.0,0.0
+hasfirstname,amos,is_relationship_to,bwril nate,27,0.6203703703703703,14,0.0,0.0,0.0
+hasfirstname,amos,has_sex,sex_type,53,0.6349206349206349,17,0.4583333333333333,0.0,0.0
+hasfirstname,amos,has_sex,male,53,0.6349206349206349,25,0.5,0.0,0.0
+hasfirstname,amos,has_occupation,occupation,38,0.5873015873015873,29,0.45,0.0,0.0
+hasfirstname,amos,has_occupation,tanner,38,0.5873015873015873,20,0.47222222222222215,0.0,0.0
+hasfirstname,amos,has_age,age,53,0.7972222222222223,29,0.5277777777777778,0.0,0.0
+hasfirstname,amos,has_age,91,53,0.7972222222222223,0,0.0,0.0,0.0
+hasfirstname,amos,has_birthdate,date_of_birth,64,0.8324786324786324,24,0.5512820512820512,0.0,0.0
+hasfirstname,amos,has_birthdate,unknown,64,0.8324786324786324,18,0.46428571428571425,0.0,0.0
+hasfirstname,amos,has_deathdate,date_of_death,48,0.5982905982905983,24,0.5512820512820512,0.0,0.0
+hasfirstname,amos,has_deathdate,january 1801,48,0.5982905982905983,12,0.4444444444444444,0.0,0.0
+hasfirstname,amos,has_person_status,enslaved person,48,0.6857298474945533,21,0.37777777777777777,0.0,0.0
+hasfirstname,amos,has_person_status,free person,48,0.6857298474945533,13,0.0,0.0,0.0
+hasfirstname,amos,has_status_generating_event,event,41,0.5833333333333334,0,0.0,0.0,0.0
+hasfirstname,amos,has_status_generating_event,sale of estate of richardson,41,0.5833333333333334,19,0.5079365079365079,0.0,0.0
+hasfirstname,amos,has_status_generating_event,purchased freedom,41,0.5833333333333334,19,0.5392156862745098,0.0,0.0
+hasfirstname,amos,recorded_at,event,17,0.4823232323232323,0,0.0,0.0,0.0
+hasfirstname,amos,recorded_at,sale of estate of richardson,17,0.4823232323232323,19,0.5079365079365079,0.0,0.0
+hasfirstname,amos,recorded_at,purchased freedom,17,0.4823232323232323,19,0.5392156862745098,0.0,0.0
+hasfirstname,amos,has_race_or_color,race_or_color,41,0.6176470588235294,24,0.5512820512820512,0.0,0.0
+hasfirstname,amos,has_race_or_color,african-american,41,0.6176470588235294,20,0.4375,0.0,0.0
+hasfirstname,amos,on the provided,"text, the ontology can be populated as follows: name record module: 1. has_name(agent, name): has_name(amos fortune, 'amos fortune') 2. has_surname(agent, surname): has_surname(amos fortune, 'fortune') 3. has_first_name(agent, first_name): has_first_name(amos fortune, 'amos').interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(amos fortune, 'enslaver') 2. is_relationship_to(agent, agent): is_relationship_to(amos fortune, 'bwril nate'). note: the interagent relationship record module describes the relationship to another agent who is an enslaver or owner. so use the keywords enslaver or owner to describe the relationship type. sex record module: 1. has_sex(agent, sex_type): has_sex(amos fortune, 'male'). occupation record module: 1. has_occupation(agent, occupation): has_occupation(amos fortune, 'tanner'). age record module: 1. has_age(agent, age): has_age(amos fortune, 91) 2. has_birthdate(agent, date_of_birth): has_birthdate(amos fortune, 'unknown') 3. has_deathdate(agent, date_of_death): has_deathdate(amos fortune, 'january 1801'). person status record module: 1. has_person_status (agent, person_status): has_person_status(amos fortune, 'enslaved person, free person') 2. has_status_generating_event(person_status, event): has_status_generating_event(enslaved person, 'sale of estate of richardson'), has_status_generating_event(free person, 'purchased freedom') 3. recorded_at(person_status_information, event): recorded_at(enslaved person, 'sale of estate of richardson'), recorded_at(free person, 'purchased freedom'). race record module: has_race_or_color(agent, race_or_color): has_race_or_color(amos fortune, african-american).  note: skip the relations for which there is no information listed in the text file.the birth and death dates are mentioned in parenthesis after the agent name. for example: amos fortune (unknown – january 1801),",22,0.3666666666666667,0,0.5006823609689526,0.0,0.3232785500097725
+hassurname,fortune,has_name,name,78,0.9008333333333334,36,0.0,0.0,0.0
+hassurname,fortune,has_name,amos fortune,78,0.9008333333333334,74,0.8134920634920636,0.0,0.5797386715376658
+hassurname,fortune,has_surname,surname,95,0.9787878787878788,43,0.6190476190476191,0.0,0.0
+hassurname,fortune,has_surname,fortune,95,0.9787878787878788,100,1.0,0.0,1.0
+hassurname,fortune,has_first_name,first_name,67,0.8674074074074074,59,0.7642857142857143,0.0,0.0
+hassurname,fortune,has_first_name,amos,67,0.8674074074074074,18,0.46428571428571425,0.0,0.0
+hassurname,fortune,has_interagent_relationship_type_to,relationship_type,31,0.5380952380952381,33,0.5361344537815126,0.0,0.0
+hassurname,fortune,has_interagent_relationship_type_to,enslaver,31,0.5380952380952381,27,0.4226190476190476,0.0,0.0
+hassurname,fortune,is_relationship_to,agent,21,0.5333333333333333,17,0.3952380952380952,0.0,0.0
+hassurname,fortune,is_relationship_to,bwril nate,21,0.5333333333333333,35,0.5761904761904763,0.0,0.0
+hassurname,fortune,has_sex,sex_type,59,0.8166666666666667,27,0.5119047619047619,0.0,0.0
+hassurname,fortune,has_sex,male,59,0.8166666666666667,18,0.0,0.0,0.0
+hassurname,fortune,has_occupation,occupation,42,0.6190476190476191,35,0.5738095238095239,0.0,0.0
+hassurname,fortune,has_occupation,tanner,42,0.6190476190476191,46,0.5396825396825397,0.0,0.0
+hassurname,fortune,has_age,age,59,0.8166666666666667,20,0.0,0.0,0.0
+hassurname,fortune,has_age,91,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,fortune,has_birthdate,date_of_birth,52,0.6871794871794871,30,0.442002442002442,0.0,0.0
+hassurname,fortune,has_birthdate,unknown,52,0.6871794871794871,29,0.42857142857142855,0.0,0.0
+hassurname,fortune,has_deathdate,date_of_death,43,0.5615384615384615,20,0.442002442002442,0.0,0.0
+hassurname,fortune,has_deathdate,january 1801,43,0.5615384615384615,11,0.44841269841269843,0.0,0.0
+hassurname,fortune,has_person_status,enslaved person,44,0.6735294117647058,18,0.3063492063492063,0.0,0.0
+hassurname,fortune,has_person_status,free person,44,0.6735294117647058,33,0.5670995670995671,0.0,0.0
+hassurname,fortune,has_status_generating_event,event,43,0.6703703703703704,17,0.3952380952380952,0.0,0.0
+hassurname,fortune,has_status_generating_event,sale of estate of richardson,43,0.6703703703703704,23,0.4880952380952381,0.0,0.0
+hassurname,fortune,has_status_generating_event,purchased freedom,43,0.6703703703703704,25,0.4239028944911298,0.0,0.0
+hassurname,fortune,recorded_at,event,19,0.41313131313131307,17,0.3952380952380952,0.0,0.0
+hassurname,fortune,recorded_at,sale of estate of richardson,19,0.41313131313131307,23,0.4880952380952381,0.0,0.0
+hassurname,fortune,recorded_at,purchased freedom,19,0.41313131313131307,25,0.4239028944911298,0.0,0.0
+hassurname,fortune,has_race_or_color,race_or_color,44,0.6509803921568628,20,0.442002442002442,0.0,0.0
+hassurname,fortune,has_race_or_color,african-american,44,0.6509803921568628,35,0.6071428571428571,0.0,0.0
+hassurname,fortune,on the provided,"text, the ontology can be populated as follows: name record module: 1. has_name(agent, name): has_name(amos fortune, 'amos fortune') 2. has_surname(agent, surname): has_surname(amos fortune, 'fortune') 3. has_first_name(agent, first_name): has_first_name(amos fortune, 'amos').interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(amos fortune, 'enslaver') 2. is_relationship_to(agent, agent): is_relationship_to(amos fortune, 'bwril nate'). note: the interagent relationship record module describes the relationship to another agent who is an enslaver or owner. so use the keywords enslaver or owner to describe the relationship type. sex record module: 1. has_sex(agent, sex_type): has_sex(amos fortune, 'male'). occupation record module: 1. has_occupation(agent, occupation): has_occupation(amos fortune, 'tanner'). age record module: 1. has_age(agent, age): has_age(amos fortune, 91) 2. has_birthdate(agent, date_of_birth): has_birthdate(amos fortune, 'unknown') 3. has_deathdate(agent, date_of_death): has_deathdate(amos fortune, 'january 1801'). person status record module: 1. has_person_status (agent, person_status): has_person_status(amos fortune, 'enslaved person, free person') 2. has_status_generating_event(person_status, event): has_status_generating_event(enslaved person, 'sale of estate of richardson'), has_status_generating_event(free person, 'purchased freedom') 3. recorded_at(person_status_information, event): recorded_at(enslaved person, 'sale of estate of richardson'), recorded_at(free person, 'purchased freedom'). race record module: has_race_or_color(agent, race_or_color): has_race_or_color(amos fortune, african-american).  note: skip the relations for which there is no information listed in the text file.the birth and death dates are mentioned in parenthesis after the agent name. for example: amos fortune (unknown – january 1801),",24,0.3888888888888889,1,0.5250036555051908,0.0,0.3232785500097724
+hasname,amos fortune,has_name,name,93,0.9708333333333333,38,0.5555555555555555,0.0,0.0
+hasname,amos fortune,has_name,amos fortune,93,0.9708333333333333,100,1.0,0.0,1.0000000000000002
+hasname,amos fortune,has_surname,surname,78,0.9151515151515152,42,0.576984126984127,0.0,0.0
+hasname,amos fortune,has_surname,fortune,78,0.9151515151515152,74,0.8134920634920636,0.0,0.5797386715376658
+hasname,amos fortune,has_first_name,first_name,67,0.5476190476190476,45,0.6444444444444445,0.0,0.0
+hasname,amos fortune,has_first_name,amos,67,0.5476190476190476,50,0.8666666666666666,0.0,0.5797386715376658
+hasname,amos fortune,has_interagent_relationship_type_to,relationship_type,29,0.6206349206349207,34,0.5221755368814193,0.0,0.0
+hasname,amos fortune,has_interagent_relationship_type_to,enslaver,29,0.6206349206349207,20,0.4444444444444444,0.0,0.0
+hasname,amos fortune,is_relationship_to,agent,16,0.43121693121693117,24,0.5222222222222223,0.0,0.0
+hasname,amos fortune,is_relationship_to,bwril nate,16,0.43121693121693117,27,0.5055555555555555,0.0,0.0
+hasname,amos fortune,has_sex,sex_type,57,0.8,30,0.5416666666666666,0.0,0.0
+hasname,amos fortune,has_sex,male,57,0.8,25,0.38888888888888884,0.0,0.0
+hasname,amos fortune,has_occupation,occupation,38,0.6190476190476191,27,0.5055555555555555,0.0,0.0
+hasname,amos fortune,has_occupation,tanner,38,0.6190476190476191,33,0.5,0.0,0.0
+hasname,amos fortune,has_age,age,71,0.8666666666666668,27,0.47222222222222215,0.0,0.0
+hasname,amos fortune,has_age,91,71,0.8666666666666668,0,0.0,0.0,0.0
+hasname,amos fortune,has_birthdate,date_of_birth,50,0.553113553113553,40,0.6004273504273504,0.0,0.0
+hasname,amos fortune,has_birthdate,unknown,50,0.553113553113553,21,0.48412698412698413,0.0,0.0
+hasname,amos fortune,has_deathdate,date_of_death,50,0.632967032967033,32,0.5337606837606838,0.0,0.0
+hasname,amos fortune,has_deathdate,january 1801,50,0.632967032967033,17,0.38888888888888884,0.0,0.0
+hasname,amos fortune,has_person_status,enslaved person,42,0.6028011204481792,30,0.4666666666666666,0.0,0.0
+hasname,amos fortune,has_person_status,free person,42,0.6028011204481792,26,0.597041847041847,0.0,0.0
+hasname,amos fortune,has_status_generating_event,event,35,0.6375661375661376,12,0.42777777777777776,0.0,0.0
+hasname,amos fortune,has_status_generating_event,sale of estate of richardson,35,0.6375661375661376,35,0.5423280423280423,0.0,0.0
+hasname,amos fortune,has_status_generating_event,purchased freedom,35,0.6375661375661376,41,0.45098039215686275,0.0,0.0
+hasname,amos fortune,recorded_at,event,11,0.41125541125541126,12,0.42777777777777776,0.0,0.0
+hasname,amos fortune,recorded_at,sale of estate of richardson,11,0.41125541125541126,35,0.5423280423280423,0.0,0.0
+hasname,amos fortune,recorded_at,purchased freedom,11,0.41125541125541126,41,0.45098039215686275,0.0,0.0
+hasname,amos fortune,has_race_or_color,race_or_color,42,0.6694677871148459,32,0.46367521367521364,0.0,0.0
+hasname,amos fortune,has_race_or_color,african-american,42,0.6694677871148459,36,0.576388888888889,0.0,0.0
+hasname,amos fortune,on the provided,"text, the ontology can be populated as follows: name record module: 1. has_name(agent, name): has_name(amos fortune, 'amos fortune') 2. has_surname(agent, surname): has_surname(amos fortune, 'fortune') 3. has_first_name(agent, first_name): has_first_name(amos fortune, 'amos').interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(amos fortune, 'enslaver') 2. is_relationship_to(agent, agent): is_relationship_to(amos fortune, 'bwril nate'). note: the interagent relationship record module describes the relationship to another agent who is an enslaver or owner. so use the keywords enslaver or owner to describe the relationship type. sex record module: 1. has_sex(agent, sex_type): has_sex(amos fortune, 'male'). occupation record module: 1. has_occupation(agent, occupation): has_occupation(amos fortune, 'tanner'). age record module: 1. has_age(agent, age): has_age(amos fortune, 91) 2. has_birthdate(agent, date_of_birth): has_birthdate(amos fortune, 'unknown') 3. has_deathdate(agent, date_of_death): has_deathdate(amos fortune, 'january 1801'). person status record module: 1. has_person_status (agent, person_status): has_person_status(amos fortune, 'enslaved person, free person') 2. has_status_generating_event(person_status, event): has_status_generating_event(enslaved person, 'sale of estate of richardson'), has_status_generating_event(free person, 'purchased freedom') 3. recorded_at(person_status_information, event): recorded_at(enslaved person, 'sale of estate of richardson'), recorded_at(free person, 'purchased freedom'). race record module: has_race_or_color(agent, race_or_color): has_race_or_color(amos fortune, african-american).  note: skip the relations for which there is no information listed in the text file.the birth and death dates are mentioned in parenthesis after the agent name. for example: amos fortune (unknown – january 1801),",18,0.4317460317460317,1,0.5020470829068577,0.0,0.48243303305531315
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",has_name,name,36,0.5952380952380952,5,0.5093240093240093,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",has_name,amos fortune,36,0.5952380952380952,14,0.5433177933177933,0.0,0.08894671608737015
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",has_surname,surname,48,0.6168831168831169,8,0.521922521922522,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",has_surname,fortune,48,0.6168831168831169,9,0.46636696636696634,0.0,0.15342553542521659
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",has_first_name,first_name,43,0.6726190476190476,10,0.5061642061642062,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",has_first_name,amos,43,0.6726190476190476,4,0.5926573426573426,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",has_interagent_relationship_type_to,relationship_type,37,0.5666666666666667,12,0.4646921705745235,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",has_interagent_relationship_type_to,enslaver,37,0.5666666666666667,11,0.6853146853146853,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",is_relationship_to,agent,44,0.6474266474266474,5,0.5259906759906761,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",is_relationship_to,bwril nate,44,0.6474266474266474,10,0.5432012432012432,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",has_sex,sex_type,38,0.6238095238095238,7,0.41998834498834503,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",has_sex,male,38,0.6238095238095238,5,0.5093240093240093,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",has_occupation,occupation,64,0.8074074074074075,10,0.45198135198135203,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",has_occupation,tanner,64,0.8074074074074075,8,0.513986013986014,0.0,0.15342553542521659
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",has_age,age,38,0.6190476190476191,3,0.39355089355089357,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",has_age,91,38,0.6190476190476191,1,0.5023310023310024,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",has_birthdate,date_of_birth,37,0.6318681318681318,12,0.5198135198135199,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",has_birthdate,unknown,37,0.6318681318681318,7,0.44980019980019986,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",has_deathdate,date_of_death,44,0.63003663003663,12,0.5198135198135199,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",has_deathdate,january 1801,44,0.63003663003663,8,0.4488566988566989,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",has_person_status,enslaved person,45,0.6675070028011204,18,0.6571872571872572,0.0,0.1843555419263006
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",has_person_status,free person,45,0.6675070028011204,13,0.5710955710955711,0.0,0.08894671608737015
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",has_status_generating_event,event,39,0.5476190476190476,7,0.6116550116550117,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",has_status_generating_event,sale of estate of richardson,39,0.5476190476190476,26,0.5771728271728271,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",has_status_generating_event,purchased freedom,39,0.5476190476190476,18,0.5385215274921157,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",recorded_at,event,32,0.47056277056277057,7,0.6116550116550117,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",recorded_at,sale of estate of richardson,32,0.47056277056277057,26,0.5771728271728271,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",recorded_at,purchased freedom,32,0.47056277056277057,18,0.5385215274921157,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",has_race_or_color,race_or_color,39,0.5896358543417367,13,0.5198135198135199,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",has_race_or_color,african-american,39,0.5896358543417367,18,0.49096736596736595,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. enslaved and transported to america c. 1725, fortune later became a tanner, a bookbinder, and a freedman.",on the provided,"text, the ontology can be populated as follows: name record module: 1. has_name(agent, name): has_name(amos fortune, 'amos fortune') 2. has_surname(agent, surname): has_surname(amos fortune, 'fortune') 3. has_first_name(agent, first_name): has_first_name(amos fortune, 'amos').interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(amos fortune, 'enslaver') 2. is_relationship_to(agent, agent): is_relationship_to(amos fortune, 'bwril nate'). note: the interagent relationship record module describes the relationship to another agent who is an enslaver or owner. so use the keywords enslaver or owner to describe the relationship type. sex record module: 1. has_sex(agent, sex_type): has_sex(amos fortune, 'male'). occupation record module: 1. has_occupation(agent, occupation): has_occupation(amos fortune, 'tanner'). age record module: 1. has_age(agent, age): has_age(amos fortune, 91) 2. has_birthdate(agent, date_of_birth): has_birthdate(amos fortune, 'unknown') 3. has_deathdate(agent, date_of_death): has_deathdate(amos fortune, 'january 1801'). person status record module: 1. has_person_status (agent, person_status): has_person_status(amos fortune, 'enslaved person, free person') 2. has_status_generating_event(person_status, event): has_status_generating_event(enslaved person, 'sale of estate of richardson'), has_status_generating_event(free person, 'purchased freedom') 3. recorded_at(person_status_information, event): recorded_at(enslaved person, 'sale of estate of richardson'), recorded_at(free person, 'purchased freedom'). race record module: has_race_or_color(agent, race_or_color): has_race_or_color(amos fortune, african-american).  note: skip the relations for which there is no information listed in the text file.the birth and death dates are mentioned in parenthesis after the agent name. for example: amos fortune (unknown – january 1801),",28,0.4984126984126984,12,0.534757649753621,0.0,0.1115226137584614

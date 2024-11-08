@@ -1,0 +1,551 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,paul jennings,32,0.537878787878788,32,0.576923076923077,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,jennings,27,0.49242424242424243,29,0.5277777777777778,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,paul,40,0.5692640692640693,20,0.47222222222222215,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,relationship_type,30,0.5269480519480519,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,enslaved by,30,0.5269480519480519,24,0.47979797979797983,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,bought by,30,0.5269480519480519,13,0.4259259259259259,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,president james madison,34,0.5798460798460798,34,0.6169082125603865,0.0,0.0
+instance of,person,is_relationship_to,senator daniel webster,34,0.5798460798460798,21,0.5535353535353535,0.0,0.0
+instance of,person,james,"madison""), is_relationship_to(paul jennings, ""senator daniel webster"").",25,0.5131313131313131,13,0.528169014084507,0.0,0.0
+instance of,person,role record,module:,27,0.49242424242424243,15,0.0,0.0,0.0
+instance of,person,has_participant_role,participant_role_type,32,0.5668831168831169,22,0.5357142857142857,0.0,0.0
+instance of,person,has_participant_role,saved the gilbert stuart portrait of george washington,32,0.5668831168831169,20,0.5753086419753086,0.0,0.0
+instance of,person,has_participant_role,planned a mass escape of 77 enslaved people,32,0.5668831168831169,20,0.5165374677002584,0.0,0.0
+instance of,person,the gilbert stuart portrait of george,"washington""), has_participant_role(paul jennings, ""planned a mass escape of 77 enslaved people"").",29,0.46566046566046565,10,0.520618556701031,0.1757860783933462,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,male,22,0.45598845598845594,20,0.47222222222222215,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,slave,24,0.38311688311688313,18,0.0,0.0,0.0
+instance of,person,has_occupation,footman,24,0.38311688311688313,31,0.5396825396825397,0.0,0.0
+instance of,person,has_occupation,body servant,24,0.38311688311688313,33,0.6166666666666667,0.0,0.0
+instance of,person,has_occupation,abolitionist,24,0.38311688311688313,22,0.5,0.0,0.0
+instance of,person,has_occupation,writer,24,0.38311688311688313,33,0.4444444444444444,0.0,0.0
+instance of,person,has_occupation,worker at the pension bureau,24,0.38311688311688313,29,0.5198412698412699,0.0,0.0
+instance of,person,at the pension,"bureau"").",32,0.5468975468975469,13,0.35185185185185186,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_age,75,33,0.45598845598845594,0,0.0,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_birthdate,around 1799,33,0.5463869463869464,35,0.5909090909090909,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,1874,33,0.39044289044289043,0,0.0,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,african-native american,36,0.5162210338680927,21,0.4734299516908213,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,enslaved person,29,0.449554367201426,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,has_person_status,freed person,29,0.449554367201426,67,0.3333333333333333,0.0,0.5797386715376658
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,sold to an insurance agent,26,0.4799102132435466,19,0.5384615384615384,0.0,0.0
+instance of,person,has_status_generating_event,bought by senator daniel webster,26,0.4799102132435466,16,0.5298611111111111,0.0,0.0
+instance of,person,has_status_generating_event,participated in a mass escape of enslaved people,26,0.4799102132435466,19,0.5125000000000001,0.0,0.0
+instance of,person,to an insurance,"agent""), has_status_generating_event(freed person, ""bought by senator daniel webster""), has_status_generating_event(freed person, ""participated in a mass escape of enslaved people"").",54,0.5581529581529582,6,0.5109890109890111,0.0,0.2965584720074706
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_name,name,57,0.8055555555555556,50,0.6666666666666666,0.0,0.0
+hassex,male,has_name,paul jennings,57,0.8055555555555556,35,0.6602564102564102,0.0,0.0
+hassex,male,has_surname,surname,59,0.6767676767676768,36,0.0,0.0,0.0
+hassex,male,has_surname,jennings,59,0.6767676767676768,17,0.4583333333333333,0.0,0.0
+hassex,male,has_first_name,first_name,50,0.6507936507936508,29,0.0,0.0,0.0
+hassex,male,has_first_name,paul,50,0.6507936507936508,50,0.6666666666666666,0.0,0.0
+hassex,male,relationship record,module:,24,0.44152046783625726,55,0.7535714285714287,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,relationship_type,24,0.5936507936507937,19,0.5310457516339869,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,enslaved by,24,0.5936507936507937,27,0.5631313131313131,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,bought by,24,0.5936507936507937,0,0.0,0.0,0.0
+hassex,male,is_relationship_to,agent,17,0.46296296296296297,44,0.6333333333333333,0.0,0.0
+hassex,male,is_relationship_to,president james madison,17,0.46296296296296297,15,0.36231884057971014,0.0,0.0
+hassex,male,is_relationship_to,senator daniel webster,17,0.46296296296296297,23,0.3636363636363636,0.0,0.0
+hassex,male,james,"madison""), is_relationship_to(paul jennings, ""senator daniel webster"").",36,0.5888888888888889,11,0.602112676056338,0.0,0.0
+hassex,male,role record,module:,12,0.41919191919191917,55,0.7535714285714287,0.0,0.0
+hassex,male,has_participant_role,participant_role_type,31,0.5499999999999999,24,0.43253968253968256,0.0,0.0
+hassex,male,has_participant_role,saved the gilbert stuart portrait of george washington,31,0.5499999999999999,10,0.49074074074074076,0.0,0.0
+hassex,male,has_participant_role,planned a mass escape of 77 enslaved people,31,0.5499999999999999,17,0.6143410852713178,0.0,0.0
+hassex,male,the gilbert stuart portrait of george,"washington""), has_participant_role(paul jennings, ""planned a mass escape of 77 enslaved people"").",14,0.5082582582582583,8,0.5936426116838488,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_sex,sex_type,92,0.9666666666666667,17,0.4583333333333333,0.0,0.0
+hassex,male,has_sex,male,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_occupation,occupation,30,0.5714285714285715,14,0.45,0.0,0.0
+hassex,male,has_occupation,slave,30,0.5714285714285715,44,0.6722222222222222,0.0,0.0
+hassex,male,has_occupation,footman,30,0.5714285714285715,36,0.0,0.0,0.0
+hassex,male,has_occupation,body servant,30,0.5714285714285715,12,0.4444444444444444,0.0,0.0
+hassex,male,has_occupation,abolitionist,30,0.5714285714285715,25,0.5555555555555555,0.0,0.0
+hassex,male,has_occupation,writer,30,0.5714285714285715,20,0.47222222222222215,0.0,0.0
+hassex,male,has_occupation,worker at the pension bureau,30,0.5714285714285715,12,0.35714285714285715,0.0,0.0
+hassex,male,at the pension,"bureau"").",20,0.4603174603174603,15,0.40740740740740744,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_age,age,62,0.8222222222222222,57,0.7222222222222222,0.0,0.0
+hassex,male,has_age,75,62,0.8222222222222222,0,0.0,0.0,0.0
+hassex,male,has_birthdate,date_of_birth,42,0.576923076923077,24,0.5512820512820512,0.0,0.0
+hassex,male,has_birthdate,around 1799,42,0.576923076923077,13,0.44696969696969696,0.0,0.0
+hassex,male,has_deathdate,date_of_death,42,0.6581196581196581,24,0.5512820512820512,0.0,0.0
+hassex,male,has_deathdate,1874,42,0.6581196581196581,0,0.0,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_race_or_color,race_or_color,35,0.6339869281045751,24,0.5512820512820512,0.0,0.0
+hassex,male,has_race_or_color,african-native american,35,0.6339869281045751,15,0.5289855072463768,0.0,0.0
+hassex,male,status record,module:,32,0.5747863247863249,55,0.7535714285714287,0.0,0.0
+hassex,male,has_person_status,enslaved person,35,0.642483660130719,21,0.5388888888888889,0.0,0.0
+hassex,male,has_person_status,freed person,35,0.642483660130719,12,0.4444444444444444,0.0,0.0
+hassex,male,has_status_generating_event,event,30,0.6728395061728395,22,0.48333333333333334,0.0,0.0
+hassex,male,has_status_generating_event,sold to an insurance agent,30,0.6728395061728395,13,0.358974358974359,0.0,0.0
+hassex,male,has_status_generating_event,bought by senator daniel webster,30,0.6728395061728395,17,0.3541666666666667,0.0,0.0
+hassex,male,has_status_generating_event,participated in a mass escape of enslaved people,30,0.6728395061728395,15,0.4930555555555555,0.0,0.0
+hassex,male,to an insurance,"agent""), has_status_generating_event(freed person, ""bought by senator daniel webster""), has_status_generating_event(freed person, ""participated in a mass escape of enslaved people"").",29,0.48888888888888893,4,0.47771672771672774,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,paul jennings,38,0.5675925925925926,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,jennings,41,0.6274651274651274,15,0.44166666666666665,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,paul,44,0.6772486772486772,22,0.48333333333333334,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,enslaved by,42,0.6570105820105819,25,0.5272727272727272,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,bought by,42,0.6570105820105819,14,0.43703703703703706,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,president james madison,44,0.6037037037037037,14,0.4956521739130435,0.0,0.0
+hasparticipantrole,child,is_relationship_to,senator daniel webster,44,0.6037037037037037,15,0.46767676767676764,0.0,0.0
+hasparticipantrole,child,james,"madison""), is_relationship_to(paul jennings, ""senator daniel webster"").",17,0.5037037037037037,11,0.5354460093896715,0.0,0.0
+hasparticipantrole,child,role record,module:,28,0.4452861952861953,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant_role_type,95,0.9766666666666667,23,0.33174603174603173,0.0,0.0
+hasparticipantrole,child,has_participant_role,saved the gilbert stuart portrait of george washington,95,0.9766666666666667,10,0.45802469135802476,0.0,0.0
+hasparticipantrole,child,has_participant_role,planned a mass escape of 77 enslaved people,95,0.9766666666666667,12,0.44547803617571063,0.0,0.0
+hasparticipantrole,child,the gilbert stuart portrait of george,"washington""), has_participant_role(paul jennings, ""planned a mass escape of 77 enslaved people"").",36,0.5758615758615758,8,0.5304123711340206,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,male,32,0.5317460317460317,22,0.48333333333333334,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,slave,50,0.6566137566137565,20,0.0,0.0,0.0
+hasparticipantrole,child,has_occupation,footman,50,0.6566137566137565,0,0.0,0.0,0.0
+hasparticipantrole,child,has_occupation,body servant,50,0.6566137566137565,12,0.42777777777777776,0.0,0.0
+hasparticipantrole,child,has_occupation,abolitionist,50,0.6566137566137565,12,0.35555555555555557,0.0,0.0
+hasparticipantrole,child,has_occupation,writer,50,0.6566137566137565,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,has_occupation,worker at the pension bureau,50,0.6566137566137565,12,0.41190476190476194,0.0,0.0
+hasparticipantrole,child,at the pension,"bureau"").",31,0.546957671957672,0,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_age,age,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_age,75,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_birthdate,date_of_birth,52,0.6937321937321936,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_birthdate,around 1799,52,0.6937321937321936,12,0.43030303030303035,0.0,0.0
+hasparticipantrole,child,has_deathdate,date_of_death,52,0.6866096866096866,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_deathdate,1874,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_race_or_color,race_or_color,46,0.60239651416122,22,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_race_or_color,african-native american,46,0.60239651416122,14,0.3289855072463768,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,enslaved person,46,0.6479302832244008,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,child,has_person_status,freed person,46,0.6479302832244008,12,0.42777777777777776,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,sold to an insurance agent,40,0.5819304152637487,13,0.46068376068376066,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,bought by senator daniel webster,40,0.5819304152637487,16,0.4875,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,participated in a mass escape of enslaved people,40,0.5819304152637487,15,0.44305555555555554,0.0,0.0
+hasparticipantrole,child,to an insurance,"agent""), has_status_generating_event(freed person, ""bought by senator daniel webster""), has_status_generating_event(freed person, ""participated in a mass escape of enslaved people"").",36,0.5518518518518519,4,0.523992673992674,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,paul jennings,38,0.5675925925925926,29,0.4393162393162393,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,jennings,41,0.6274651274651274,17,0.4611111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,paul,44,0.6772486772486772,11,0.4388888888888889,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,enslaved by,42,0.6570105820105819,38,0.592929292929293,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,bought by,42,0.6570105820105819,8,0.3925925925925926,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,president james madison,44,0.6037037037037037,42,0.635024154589372,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,senator daniel webster,44,0.6037037037037037,32,0.6429292929292929,0.0,0.0
+hasparticipantrole,deceased person,james,"madison""), is_relationship_to(paul jennings, ""senator daniel webster"").",17,0.5037037037037037,21,0.5082088490539195,0.0,0.0
+hasparticipantrole,deceased person,role record,module:,28,0.4452861952861953,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant_role_type,95,0.9766666666666667,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,saved the gilbert stuart portrait of george washington,95,0.9766666666666667,32,0.5244668911335578,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,planned a mass escape of 77 enslaved people,95,0.9766666666666667,38,0.5947922878155437,0.0,0.0
+hasparticipantrole,deceased person,the gilbert stuart portrait of george,"washington""), has_participant_role(paul jennings, ""planned a mass escape of 77 enslaved people"").",36,0.5758615758615758,20,0.502348224513173,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,male,32,0.5317460317460317,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,slave,50,0.6566137566137565,20,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,footman,50,0.6566137566137565,18,0.40317460317460313,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,body servant,50,0.6566137566137565,37,0.5880952380952381,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,abolitionist,50,0.6566137566137565,22,0.45,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,writer,50,0.6566137566137565,19,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,worker at the pension bureau,50,0.6566137566137565,42,0.5412698412698412,0.0,0.0
+hasparticipantrole,deceased person,at the pension,"bureau"").",31,0.546957671957672,17,0.4518518518518519,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_age,age,40,0.5978835978835978,22,0.4333333333333333,0.0,0.0
+hasparticipantrole,deceased person,has_age,75,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,date_of_birth,52,0.6937321937321936,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,around 1799,52,0.6937321937321936,31,0.3797979797979798,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,date_of_death,52,0.6866096866096866,36,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,1874,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,race_or_color,46,0.60239651416122,29,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,african-native american,46,0.60239651416122,37,0.4474810213940648,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,enslaved person,46,0.6479302832244008,73,0.7833333333333333,0.0,0.33609692727625756
+hasparticipantrole,deceased person,has_person_status,freed person,46,0.6479302832244008,74,0.7333333333333334,0.0,0.33609692727625756
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,sold to an insurance agent,40,0.5819304152637487,34,0.5376068376068376,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,bought by senator daniel webster,40,0.5819304152637487,26,0.5159722222222222,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,participated in a mass escape of enslaved people,40,0.5819304152637487,35,0.5988095238095238,0.0,0.0
+hasparticipantrole,deceased person,to an insurance,"agent""), has_status_generating_event(freed person, ""bought by senator daniel webster""), has_status_generating_event(freed person, ""participated in a mass escape of enslaved people"").",36,0.5518518518518519,14,0.551037851037851,0.0,0.17192641459485106
+hasdescriptiveoccupation,domestic servant,record,module:,27,0.6138888888888889,17,0.5238095238095238,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_name,name,25,0.5555555555555555,20,0.5416666666666666,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_name,paul jennings,25,0.5555555555555555,21,0.4323717948717949,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_surname,surname,34,0.5474386724386724,26,0.4275793650793651,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_surname,jennings,34,0.5474386724386724,25,0.40972222222222215,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_first_name,first_name,32,0.5615079365079364,23,0.4916666666666667,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_first_name,paul,32,0.5615079365079364,10,0.0,0.0,0.0
+hasdescriptiveoccupation,domestic servant,relationship record,module:,33,0.6137539361223572,17,0.5238095238095238,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,30,0.4901960784313726,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_interagent_relationship_type_to,enslaved by,41,0.6037698412698412,22,0.47348484848484845,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_interagent_relationship_type_to,bought by,41,0.6037698412698412,24,0.5069444444444444,0.0,0.0
+hasdescriptiveoccupation,domestic servant,is_relationship_to,agent,38,0.6264245014245015,29,0.5083333333333333,0.0,0.0
+hasdescriptiveoccupation,domestic servant,is_relationship_to,president james madison,38,0.6264245014245015,36,0.5905797101449276,0.0,0.0
+hasdescriptiveoccupation,domestic servant,is_relationship_to,senator daniel webster,38,0.6264245014245015,37,0.6729312354312355,0.0,0.0
+hasdescriptiveoccupation,domestic servant,james,"madison""), is_relationship_to(paul jennings, ""senator daniel webster"").",21,0.46388888888888885,30,0.5716800804828974,0.0,0.0
+hasdescriptiveoccupation,domestic servant,role record,module:,29,0.4873737373737373,17,0.5238095238095238,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_participant_role,participant_role_type,50,0.6805555555555555,32,0.4603174603174603,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_participant_role,saved the gilbert stuart portrait of george washington,50,0.6805555555555555,31,0.5305674264007597,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_participant_role,planned a mass escape of 77 enslaved people,50,0.6805555555555555,27,0.4858527131782946,0.0,0.0
+hasdescriptiveoccupation,domestic servant,the gilbert stuart portrait of george,"washington""), has_participant_role(paul jennings, ""planned a mass escape of 77 enslaved people"").",30,0.5434684684684684,18,0.5206350779804388,0.0,0.0
+hasdescriptiveoccupation,domestic servant,record,module:,27,0.6138888888888889,17,0.5238095238095238,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_sex,sex_type,32,0.5742063492063493,25,0.5,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_sex,male,32,0.5742063492063493,20,0.5416666666666666,0.0,0.0
+hasdescriptiveoccupation,domestic servant,record,module:,27,0.6138888888888889,17,0.5238095238095238,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_occupation,occupation,68,0.8045940170940171,31,0.5375,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_occupation,slave,68,0.8045940170940171,19,0.3416666666666666,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_occupation,footman,68,0.8045940170940171,35,0.4275793650793651,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_occupation,body servant,68,0.8045940170940171,64,0.6861111111111112,0.0,0.33609692727625756
+hasdescriptiveoccupation,domestic servant,has_occupation,abolitionist,68,0.8045940170940171,36,0.5694444444444445,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_occupation,writer,68,0.8045940170940171,27,0.5555555555555555,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_occupation,worker at the pension bureau,68,0.8045940170940171,32,0.5419372294372294,0.0,0.0
+hasdescriptiveoccupation,domestic servant,at the pension,"bureau"").",37,0.6103174603174603,16,0.3912037037037037,0.0,0.0
+hasdescriptiveoccupation,domestic servant,record,module:,27,0.6138888888888889,17,0.5238095238095238,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_age,age,26,0.5793650793650794,11,0.46527777777777773,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_age,75,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_birthdate,date_of_birth,38,0.6286324786324786,34,0.6110347985347985,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_birthdate,around 1799,38,0.6286324786324786,15,0.37563131313131315,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_deathdate,date_of_death,43,0.652065527065527,34,0.6110347985347985,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_deathdate,1874,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,domestic servant,record,module:,27,0.6138888888888889,17,0.5238095238095238,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_race_or_color,race_or_color,39,0.5977668845315903,21,0.4358974358974359,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_race_or_color,african-native american,39,0.5977668845315903,36,0.519927536231884,0.0,0.0
+hasdescriptiveoccupation,domestic servant,status record,module:,32,0.540954415954416,17,0.5238095238095238,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_person_status,enslaved person,39,0.6241830065359477,39,0.6097222222222222,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_person_status,freed person,39,0.6241830065359477,36,0.5783730158730159,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_status_generating_event,event,39,0.5815696649029983,38,0.5083333333333333,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_status_generating_event,sold to an insurance agent,39,0.5815696649029983,38,0.6426282051282052,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_status_generating_event,bought by senator daniel webster,39,0.5815696649029983,38,0.5255681818181818,0.0,0.0
+hasdescriptiveoccupation,domestic servant,has_status_generating_event,participated in a mass escape of enslaved people,39,0.5815696649029983,25,0.5555555555555556,0.0,0.0
+hasdescriptiveoccupation,domestic servant,to an insurance,"agent""), has_status_generating_event(freed person, ""bought by senator daniel webster""), has_status_generating_event(freed person, ""participated in a mass escape of enslaved people"").",26,0.5277777777777778,12,0.5077838827838828,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,paul jennings,25,0.5555555555555555,22,0.49914529914529915,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,surname,34,0.5474386724386724,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,jennings,34,0.5474386724386724,15,0.44166666666666665,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,first_name,32,0.5615079365079364,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,paul,32,0.5615079365079364,22,0.48333333333333334,0.0,0.0
+hasdescriptiveoccupation,slave,relationship record,module:,33,0.6137539361223572,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,27,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,enslaved by,41,0.6037698412698412,62,0.6848484848484849,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,bought by,41,0.6037698412698412,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,agent,38,0.6264245014245015,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,president james madison,38,0.6264245014245015,21,0.46570048309178746,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,senator daniel webster,38,0.6264245014245015,22,0.46767676767676764,0.0,0.0
+hasdescriptiveoccupation,slave,james,"madison""), is_relationship_to(paul jennings, ""senator daniel webster"").",21,0.46388888888888885,11,0.4521126760563381,0.0,0.0
+hasdescriptiveoccupation,slave,role record,module:,29,0.4873737373737373,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,participant_role_type,50,0.6805555555555555,15,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,saved the gilbert stuart portrait of george washington,50,0.6805555555555555,14,0.5641975308641975,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,planned a mass escape of 77 enslaved people,50,0.6805555555555555,21,0.46434108527131784,0.0,0.0
+hasdescriptiveoccupation,slave,the gilbert stuart portrait of george,"washington""), has_participant_role(paul jennings, ""planned a mass escape of 77 enslaved people"").",30,0.5434684684684684,10,0.5304123711340206,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,sex_type,32,0.5742063492063493,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,male,32,0.5742063492063493,44,0.6722222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,slave,68,0.8045940170940171,100,1.0,0.0,1.0
+hasdescriptiveoccupation,slave,has_occupation,footman,68,0.8045940170940171,17,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,body servant,68,0.8045940170940171,24,0.5055555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,abolitionist,68,0.8045940170940171,12,0.35555555555555557,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,writer,68,0.8045940170940171,18,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,worker at the pension bureau,68,0.8045940170940171,12,0.3238095238095238,0.0,0.0
+hasdescriptiveoccupation,slave,at the pension,"bureau"").",37,0.6103174603174603,14,0.37407407407407406,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,age,26,0.5793650793650794,50,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,75,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,date_of_birth,38,0.6286324786324786,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,around 1799,38,0.6286324786324786,12,0.43030303030303035,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,date_of_death,43,0.652065527065527,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,1874,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,race_or_color,39,0.5977668845315903,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,african-native american,39,0.5977668845315903,21,0.5768115942028985,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,enslaved person,39,0.6241830065359477,50,0.6444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,freed person,39,0.6241830065359477,12,0.42777777777777776,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,event,39,0.5815696649029983,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,sold to an insurance agent,39,0.5815696649029983,26,0.5717948717948719,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,bought by senator daniel webster,39,0.5815696649029983,16,0.4534722222222222,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,participated in a mass escape of enslaved people,39,0.5815696649029983,19,0.44305555555555554,0.0,0.0
+hasdescriptiveoccupation,slave,to an insurance,"agent""), has_status_generating_event(freed person, ""bought by senator daniel webster""), has_status_generating_event(freed person, ""participated in a mass escape of enslaved people"").",26,0.5277777777777778,5,0.5424908424908425,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,record,module:,27,0.6138888888888889,12,0.4035409035409035,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_name,name,25,0.5555555555555555,20,0.5256410256410257,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_name,paul jennings,25,0.5555555555555555,31,0.5160256410256411,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_surname,surname,34,0.5474386724386724,30,0.5021978021978022,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_surname,jennings,34,0.5474386724386724,18,0.38568376068376065,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_first_name,first_name,32,0.5615079365079364,28,0.44358974358974357,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_first_name,paul,32,0.5615079365079364,13,0.5106837606837606,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,relationship record,module:,33,0.6137539361223572,12,0.4035409035409035,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,33,0.5385300973536268,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_interagent_relationship_type_to,enslaved by,41,0.6037698412698412,16,0.4822843822843823,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_interagent_relationship_type_to,bought by,41,0.6037698412698412,29,0.5394790394790395,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,is_relationship_to,agent,38,0.6264245014245015,26,0.567948717948718,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,is_relationship_to,president james madison,38,0.6264245014245015,33,0.6096989966555184,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,is_relationship_to,senator daniel webster,38,0.6264245014245015,42,0.5687645687645687,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,james,"madison""), is_relationship_to(paul jennings, ""senator daniel webster"").",21,0.46388888888888885,29,0.5671558488459897,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,role record,module:,29,0.4873737373737373,12,0.4035409035409035,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_participant_role,participant_role_type,50,0.6805555555555555,30,0.49744699744699744,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_participant_role,saved the gilbert stuart portrait of george washington,50,0.6805555555555555,35,0.5996719330052663,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_participant_role,planned a mass escape of 77 enslaved people,50,0.6805555555555555,23,0.4384181709763106,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,the gilbert stuart portrait of george,"washington""), has_participant_role(paul jennings, ""planned a mass escape of 77 enslaved people"").",30,0.5434684684684684,23,0.5477449240335838,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,record,module:,27,0.6138888888888889,12,0.4035409035409035,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_sex,sex_type,32,0.5742063492063493,18,0.4679487179487179,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_sex,male,32,0.5742063492063493,13,0.5256410256410257,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,record,module:,27,0.6138888888888889,12,0.4035409035409035,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_occupation,occupation,68,0.8045940170940171,22,0.5135531135531135,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_occupation,slave,68,0.8045940170940171,13,0.49230769230769234,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_occupation,footman,68,0.8045940170940171,18,0.4084249084249085,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_occupation,body servant,68,0.8045940170940171,32,0.4746642246642247,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_occupation,abolitionist,68,0.8045940170940171,37,0.56990231990232,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_occupation,writer,68,0.8045940170940171,19,0.6085470085470086,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_occupation,worker at the pension bureau,68,0.8045940170940171,33,0.5486568986568986,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,at the pension,"bureau"").",37,0.6103174603174603,17,0.44928774928774934,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,record,module:,27,0.6138888888888889,12,0.4035409035409035,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_age,age,26,0.5793650793650794,21,0.7346153846153847,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_age,75,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_birthdate,date_of_birth,38,0.6286324786324786,36,0.5160256410256411,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_birthdate,around 1799,38,0.6286324786324786,16,0.4822843822843823,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_deathdate,date_of_death,43,0.652065527065527,26,0.5073260073260073,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_deathdate,1874,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,record,module:,27,0.6138888888888889,12,0.4035409035409035,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_race_or_color,race_or_color,39,0.5977668845315903,31,0.5160256410256411,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_race_or_color,african-native american,39,0.5977668845315903,37,0.5777591973244147,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,status record,module:,32,0.540954415954416,12,0.4035409035409035,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_person_status,enslaved person,39,0.6241830065359477,29,0.44700854700854703,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_person_status,freed person,39,0.6241830065359477,32,0.4746642246642247,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_status_generating_event,event,39,0.5815696649029983,19,0.32564102564102565,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_status_generating_event,sold to an insurance agent,39,0.5815696649029983,35,0.5384615384615384,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_status_generating_event,bought by senator daniel webster,39,0.5815696649029983,41,0.5849358974358975,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,has_status_generating_event,participated in a mass escape of enslaved people,39,0.5815696649029983,30,0.4829059829059829,0.0,0.0
+hasdescriptiveoccupation,autobiographer / memoirist,to an insurance,"agent""), has_status_generating_event(freed person, ""bought by senator daniel webster""), has_status_generating_event(freed person, ""participated in a mass escape of enslaved people"").",26,0.5277777777777778,17,0.5398948877209747,0.0,0.0
+hasfirstname,paul,record,module:,22,0.4166666666666667,36,0.5952380952380952,0.0,0.0
+hasfirstname,paul,has_name,name,70,0.8736111111111112,25,0.5,0.0,0.0
+hasfirstname,paul,has_name,paul jennings,70,0.8736111111111112,47,0.8615384615384615,0.0,0.5797386715376658
+hasfirstname,paul,has_surname,surname,70,0.8733164983164984,18,0.46428571428571425,0.0,0.0
+hasfirstname,paul,has_surname,jennings,70,0.8733164983164984,0,0.0,0.0,0.0
+hasfirstname,paul,has_first_name,first_name,92,0.9666666666666667,14,0.0,0.0,0.0
+hasfirstname,paul,has_first_name,paul,92,0.9666666666666667,100,1.0,0.0,1.0
+hasfirstname,paul,relationship record,module:,32,0.5077276524644946,36,0.5952380952380952,0.0,0.0
+hasfirstname,paul,has_interagent_relationship_type_to,relationship_type,34,0.5949735449735449,10,0.37254901960784315,0.0,0.0
+hasfirstname,paul,has_interagent_relationship_type_to,enslaved by,34,0.5949735449735449,13,0.393939393939394,0.0,0.0
+hasfirstname,paul,has_interagent_relationship_type_to,bought by,34,0.5949735449735449,15,0.4537037037037037,0.0,0.0
+hasfirstname,paul,is_relationship_to,agent,27,0.6203703703703703,22,0.48333333333333334,0.0,0.0
+hasfirstname,paul,is_relationship_to,president james madison,27,0.6203703703703703,15,0.5289855072463768,0.0,0.0
+hasfirstname,paul,is_relationship_to,senator daniel webster,27,0.6203703703703703,15,0.5303030303030303,0.0,0.0
+hasfirstname,paul,james,"madison""), is_relationship_to(paul jennings, ""senator daniel webster"").",35,0.5222222222222223,11,0.5187793427230046,0.0,0.2789425453258252
+hasfirstname,paul,role record,module:,17,0.44949494949494956,36,0.5952380952380952,0.0,0.0
+hasfirstname,paul,has_participant_role,participant_role_type,44,0.6962962962962962,24,0.5317460317460317,0.0,0.0
+hasfirstname,paul,has_participant_role,saved the gilbert stuart portrait of george washington,44,0.6962962962962962,7,0.6080246913580246,0.0,0.0
+hasfirstname,paul,has_participant_role,planned a mass escape of 77 enslaved people,44,0.6962962962962962,13,0.49547803617571057,0.0,0.0
+hasfirstname,paul,the gilbert stuart portrait of george,"washington""), has_participant_role(paul jennings, ""planned a mass escape of 77 enslaved people"").",29,0.5442942942942942,8,0.513745704467354,0.0,0.21951095080860836
+hasfirstname,paul,record,module:,22,0.4166666666666667,36,0.5952380952380952,0.0,0.0
+hasfirstname,paul,has_sex,sex_type,53,0.6349206349206349,17,0.0,0.0,0.0
+hasfirstname,paul,has_sex,male,53,0.6349206349206349,50,0.6666666666666666,0.0,0.0
+hasfirstname,paul,record,module:,22,0.4166666666666667,36,0.5952380952380952,0.0,0.0
+hasfirstname,paul,has_occupation,occupation,38,0.5873015873015873,29,0.5722222222222223,0.0,0.0
+hasfirstname,paul,has_occupation,slave,38,0.5873015873015873,22,0.48333333333333334,0.0,0.0
+hasfirstname,paul,has_occupation,footman,38,0.5873015873015873,18,0.0,0.0,0.0
+hasfirstname,paul,has_occupation,body servant,38,0.5873015873015873,12,0.0,0.0,0.0
+hasfirstname,paul,has_occupation,abolitionist,38,0.5873015873015873,25,0.5555555555555555,0.0,0.0
+hasfirstname,paul,has_occupation,writer,38,0.5873015873015873,0,0.0,0.0,0.0
+hasfirstname,paul,has_occupation,worker at the pension bureau,38,0.5873015873015873,19,0.42857142857142855,0.0,0.0
+hasfirstname,paul,at the pension,"bureau"").",31,0.5317460317460317,31,0.40740740740740744,0.0,0.0
+hasfirstname,paul,record,module:,22,0.4166666666666667,36,0.5952380952380952,0.0,0.0
+hasfirstname,paul,has_age,age,53,0.7972222222222223,29,0.5277777777777778,0.0,0.0
+hasfirstname,paul,has_age,75,53,0.7972222222222223,0,0.0,0.0,0.0
+hasfirstname,paul,has_birthdate,date_of_birth,64,0.8324786324786324,12,0.4423076923076923,0.0,0.0
+hasfirstname,paul,has_birthdate,around 1799,64,0.8324786324786324,27,0.5606060606060607,0.0,0.0
+hasfirstname,paul,has_deathdate,date_of_death,48,0.5982905982905983,12,0.4423076923076923,0.0,0.0
+hasfirstname,paul,has_deathdate,1874,48,0.5982905982905983,0,0.0,0.0,0.0
+hasfirstname,paul,record,module:,22,0.4166666666666667,36,0.5952380952380952,0.0,0.0
+hasfirstname,paul,has_race_or_color,race_or_color,41,0.6176470588235294,24,0.4423076923076923,0.0,0.0
+hasfirstname,paul,has_race_or_color,african-native american,41,0.6176470588235294,7,0.43115942028985504,0.0,0.0
+hasfirstname,paul,status record,module:,32,0.5427350427350427,36,0.5952380952380952,0.0,0.0
+hasfirstname,paul,has_person_status,enslaved person,48,0.6857298474945533,11,0.37777777777777777,0.0,0.0
+hasfirstname,paul,has_person_status,freed person,48,0.6857298474945533,12,0.0,0.0,0.0
+hasfirstname,paul,has_status_generating_event,event,41,0.5833333333333334,0,0.0,0.0,0.0
+hasfirstname,paul,has_status_generating_event,sold to an insurance agent,41,0.5833333333333334,13,0.5106837606837606,0.0,0.0
+hasfirstname,paul,has_status_generating_event,bought by senator daniel webster,41,0.5833333333333334,11,0.3541666666666667,0.0,0.0
+hasfirstname,paul,has_status_generating_event,participated in a mass escape of enslaved people,41,0.5833333333333334,12,0.5138888888888888,0.0,0.0
+hasfirstname,paul,to an insurance,"agent""), has_status_generating_event(freed person, ""bought by senator daniel webster""), has_status_generating_event(freed person, ""participated in a mass escape of enslaved people"").",37,0.6357142857142857,4,0.5906593406593407,0.0,0.0
+hassurname,jennings,record,module:,25,0.4222222222222222,13,0.0,0.0,0.0
+hassurname,jennings,has_name,name,78,0.9008333333333334,17,0.4166666666666667,0.0,0.0
+hassurname,jennings,has_name,paul jennings,78,0.9008333333333334,76,0.8717948717948718,0.0,0.5797386715376658
+hassurname,jennings,has_surname,surname,95,0.9787878787878788,13,0.4226190476190476,0.0,0.0
+hassurname,jennings,has_surname,jennings,95,0.9787878787878788,100,1.0,0.0,1.0
+hassurname,jennings,has_first_name,first_name,67,0.8674074074074074,22,0.44722222222222224,0.0,0.0
+hassurname,jennings,has_first_name,paul,67,0.8674074074074074,0,0.0,0.0,0.0
+hassurname,jennings,relationship record,module:,28,0.4543859649122807,13,0.0,0.0,0.0
+hassurname,jennings,has_interagent_relationship_type_to,relationship_type,31,0.5380952380952381,32,0.4950980392156863,0.0,0.0
+hassurname,jennings,has_interagent_relationship_type_to,enslaved by,31,0.5380952380952381,32,0.4772727272727273,0.0,0.0
+hassurname,jennings,has_interagent_relationship_type_to,bought by,31,0.5380952380952381,12,0.41203703703703703,0.0,0.0
+hassurname,jennings,is_relationship_to,agent,21,0.5333333333333333,31,0.5499999999999999,0.0,0.0
+hassurname,jennings,is_relationship_to,president james madison,21,0.5333333333333333,26,0.48079710144927534,0.0,0.0
+hassurname,jennings,is_relationship_to,senator daniel webster,21,0.5333333333333333,33,0.48409090909090907,0.0,0.0
+hassurname,jennings,james,"madison""), is_relationship_to(paul jennings, ""senator daniel webster"").",40,0.5333333333333333,20,0.5003912363067292,0.0,0.2789425453258252
+hassurname,jennings,role record,module:,19,0.46060606060606063,13,0.0,0.0,0.0
+hassurname,jennings,has_participant_role,participant_role_type,40,0.5777777777777778,14,0.28174603174603174,0.0,0.0
+hassurname,jennings,has_participant_role,saved the gilbert stuart portrait of george washington,40,0.5777777777777778,13,0.441358024691358,0.0,0.0
+hassurname,jennings,has_participant_role,planned a mass escape of 77 enslaved people,40,0.5777777777777778,16,0.4476744186046511,0.0,0.0
+hassurname,jennings,the gilbert stuart portrait of george,"washington""), has_participant_role(paul jennings, ""planned a mass escape of 77 enslaved people"").",26,0.5344916344916345,15,0.5691580756013745,0.0,0.21951095080860836
+hassurname,jennings,record,module:,25,0.4222222222222222,13,0.0,0.0,0.0
+hassurname,jennings,has_sex,sex_type,59,0.8166666666666667,12,0.4166666666666667,0.0,0.0
+hassurname,jennings,has_sex,male,59,0.8166666666666667,17,0.4583333333333333,0.0,0.0
+hassurname,jennings,record,module:,25,0.4222222222222222,13,0.0,0.0,0.0
+hassurname,jennings,has_occupation,occupation,42,0.6190476190476191,22,0.48333333333333334,0.0,0.0
+hassurname,jennings,has_occupation,slave,42,0.6190476190476191,15,0.44166666666666665,0.0,0.0
+hassurname,jennings,has_occupation,footman,42,0.6190476190476191,13,0.4226190476190476,0.0,0.0
+hassurname,jennings,has_occupation,body servant,42,0.6190476190476191,20,0.4305555555555555,0.0,0.0
+hassurname,jennings,has_occupation,abolitionist,42,0.6190476190476191,30,0.4305555555555555,0.0,0.0
+hassurname,jennings,has_occupation,writer,42,0.6190476190476191,14,0.3611111111111111,0.0,0.0
+hassurname,jennings,has_occupation,worker at the pension bureau,42,0.6190476190476191,22,0.49404761904761907,0.0,0.0
+hassurname,jennings,at the pension,"bureau"").",25,0.3952380952380952,12,0.41203703703703703,0.0,0.0
+hassurname,jennings,record,module:,25,0.4222222222222222,13,0.0,0.0,0.0
+hassurname,jennings,has_age,age,59,0.8166666666666667,18,0.4861111111111111,0.0,0.0
+hassurname,jennings,has_age,75,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,jennings,has_birthdate,date_of_birth,52,0.6871794871794871,19,0.4679487179487179,0.0,0.0
+hassurname,jennings,has_birthdate,around 1799,52,0.6871794871794871,11,0.4053030303030303,0.0,0.0
+hassurname,jennings,has_deathdate,date_of_death,43,0.5615384615384615,10,0.4006410256410256,0.0,0.0
+hassurname,jennings,has_deathdate,1874,43,0.5615384615384615,0,0.0,0.0,0.0
+hassurname,jennings,record,module:,25,0.4222222222222222,13,0.0,0.0,0.0
+hassurname,jennings,has_race_or_color,race_or_color,44,0.6509803921568628,10,0.4006410256410256,0.0,0.0
+hassurname,jennings,has_race_or_color,african-native american,44,0.6509803921568628,26,0.39070048309178745,0.0,0.0
+hassurname,jennings,status record,module:,35,0.5760683760683761,13,0.0,0.0,0.0
+hassurname,jennings,has_person_status,enslaved person,44,0.6735294117647058,26,0.525,0.0,0.0
+hassurname,jennings,has_person_status,freed person,44,0.6735294117647058,20,0.47222222222222215,0.0,0.0
+hassurname,jennings,has_status_generating_event,event,43,0.6703703703703704,31,0.5499999999999999,0.0,0.0
+hassurname,jennings,has_status_generating_event,sold to an insurance agent,43,0.6703703703703704,24,0.5391025641025641,0.0,0.0
+hassurname,jennings,has_status_generating_event,bought by senator daniel webster,43,0.6703703703703704,25,0.4604166666666667,0.0,0.0
+hassurname,jennings,has_status_generating_event,participated in a mass escape of enslaved people,43,0.6703703703703704,14,0.4444444444444445,0.0,0.0
+hassurname,jennings,to an insurance,"agent""), has_status_generating_event(freed person, ""bought by senator daniel webster""), has_status_generating_event(freed person, ""participated in a mass escape of enslaved people"").",48,0.626984126984127,7,0.5425824175824175,0.0,0.0
+hasname,paul jennings,record,module:,15,0.0,30,0.553113553113553,0.0,0.0
+hasname,paul jennings,has_name,name,93,0.9708333333333333,24,0.5512820512820512,0.0,0.0
+hasname,paul jennings,has_name,paul jennings,93,0.9708333333333333,100,1.0,0.0,1.0000000000000002
+hasname,paul jennings,has_surname,surname,78,0.9151515151515152,20,0.4597069597069597,0.0,0.0
+hasname,paul jennings,has_surname,jennings,78,0.9151515151515152,76,0.8717948717948718,0.0,0.5797386715376658
+hasname,paul jennings,has_first_name,first_name,67,0.5476190476190476,17,0.28461538461538466,0.0,0.0
+hasname,paul jennings,has_first_name,paul,67,0.5476190476190476,47,0.8615384615384615,0.0,0.5797386715376658
+hasname,paul jennings,relationship record,module:,23,0.5106516290726817,30,0.553113553113553,0.0,0.0
+hasname,paul jennings,has_interagent_relationship_type_to,relationship_type,29,0.6206349206349207,27,0.4937154348919055,0.0,0.0
+hasname,paul jennings,has_interagent_relationship_type_to,enslaved by,29,0.6206349206349207,25,0.39044289044289043,0.0,0.0
+hasname,paul jennings,has_interagent_relationship_type_to,bought by,29,0.6206349206349207,18,0.4586894586894587,0.0,0.0
+hasname,paul jennings,is_relationship_to,agent,16,0.43121693121693117,33,0.6102564102564102,0.0,0.0
+hasname,paul jennings,is_relationship_to,president james madison,16,0.43121693121693117,33,0.5294035674470458,0.0,0.0
+hasname,paul jennings,is_relationship_to,senator daniel webster,16,0.43121693121693117,29,0.5346736596736598,0.0,0.0
+hasname,paul jennings,james,"madison""), is_relationship_to(paul jennings, ""senator daniel webster"").",50,0.5619047619047619,31,0.5994944023113037,0.0,0.41036264495218466
+hasname,paul jennings,role record,module:,11,0.41125541125541126,30,0.553113553113553,0.0,0.0
+hasname,paul jennings,has_participant_role,participant_role_type,37,0.5904761904761905,24,0.4742368742368743,0.0,0.0
+hasname,paul jennings,has_participant_role,saved the gilbert stuart portrait of george washington,37,0.5904761904761905,21,0.4715099715099715,0.0,0.0
+hasname,paul jennings,has_participant_role,planned a mass escape of 77 enslaved people,37,0.5904761904761905,21,0.48572185781488103,0.0,0.0
+hasname,paul jennings,the gilbert stuart portrait of george,"washington""), has_participant_role(paul jennings, ""planned a mass escape of 77 enslaved people"").",18,0.4765122265122265,24,0.5574940523394131,0.0,0.31799766166594773
+hasname,paul jennings,record,module:,15,0.0,30,0.553113553113553,0.0,0.0
+hasname,paul jennings,has_sex,sex_type,57,0.8,19,0.4006410256410256,0.0,0.0
+hasname,paul jennings,has_sex,male,57,0.8,35,0.6602564102564102,0.0,0.0
+hasname,paul jennings,record,module:,15,0.0,30,0.553113553113553,0.0,0.0
+hasname,paul jennings,has_occupation,occupation,38,0.6190476190476191,35,0.4948717948717949,0.0,0.0
+hasname,paul jennings,has_occupation,slave,38,0.6190476190476191,22,0.49914529914529915,0.0,0.0
+hasname,paul jennings,has_occupation,footman,38,0.6190476190476191,20,0.47985347985347987,0.0,0.0
+hasname,paul jennings,has_occupation,body servant,38,0.6190476190476191,24,0.4935897435897436,0.0,0.0
+hasname,paul jennings,has_occupation,abolitionist,38,0.6190476190476191,40,0.5337606837606838,0.0,0.0
+hasname,paul jennings,has_occupation,writer,38,0.6190476190476191,11,0.41452991452991456,0.0,0.0
+hasname,paul jennings,has_occupation,worker at the pension bureau,38,0.6190476190476191,29,0.5009157509157509,0.0,0.0
+hasname,paul jennings,at the pension,"bureau"").",29,0.4523809523809524,18,0.4102564102564103,0.0,0.0
+hasname,paul jennings,record,module:,15,0.0,30,0.553113553113553,0.0,0.0
+hasname,paul jennings,has_age,age,71,0.8666666666666668,25,0.6068376068376068,0.0,0.0
+hasname,paul jennings,has_age,75,71,0.8666666666666668,0,0.0,0.0,0.0
+hasname,paul jennings,has_birthdate,date_of_birth,50,0.553113553113553,23,0.4871794871794872,0.0,0.0
+hasname,paul jennings,has_birthdate,around 1799,50,0.553113553113553,25,0.47377622377622375,0.0,0.0
+hasname,paul jennings,has_deathdate,date_of_death,50,0.632967032967033,15,0.4358974358974359,0.0,0.0
+hasname,paul jennings,has_deathdate,1874,50,0.632967032967033,0,0.0,0.0,0.0
+hasname,paul jennings,record,module:,15,0.0,30,0.553113553113553,0.0,0.0
+hasname,paul jennings,has_race_or_color,race_or_color,42,0.6694677871148459,15,0.4358974358974359,0.0,0.0
+hasname,paul jennings,has_race_or_color,african-native american,42,0.6694677871148459,28,0.46302489780750644,0.0,0.0
+hasname,paul jennings,status record,module:,30,0.442002442002442,30,0.553113553113553,0.0,0.0
+hasname,paul jennings,has_person_status,enslaved person,42,0.6028011204481792,29,0.5255189255189255,0.0,0.0
+hasname,paul jennings,has_person_status,freed person,42,0.6028011204481792,24,0.3803418803418803,0.0,0.0
+hasname,paul jennings,has_status_generating_event,event,35,0.6375661375661376,22,0.517948717948718,0.0,0.0
+hasname,paul jennings,has_status_generating_event,sold to an insurance agent,35,0.6375661375661376,31,0.5846153846153846,0.0,0.0
+hasname,paul jennings,has_status_generating_event,bought by senator daniel webster,35,0.6375661375661376,31,0.546741452991453,0.0,0.0
+hasname,paul jennings,has_status_generating_event,participated in a mass escape of enslaved people,35,0.6375661375661376,20,0.5138125763125764,0.0,0.0
+hasname,paul jennings,to an insurance,"agent""), has_status_generating_event(freed person, ""bought by senator daniel webster""), has_status_generating_event(freed person, ""participated in a mass escape of enslaved people"").",36,0.4317460317460317,10,0.5518925518925518,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",record,module:,30,0.48412698412698413,6,0.44664224664224667,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_name,name,36,0.5952380952380952,4,0.5068376068376068,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_name,paul jennings,36,0.5952380952380952,12,0.5129759129759129,0.0,0.06735353829406697
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_surname,surname,48,0.6168831168831169,6,0.5181929181929181,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_surname,jennings,48,0.6168831168831169,8,0.49410866910866913,0.0,0.11617913656755428
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_first_name,first_name,43,0.6726190476190476,9,0.5005698005698006,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_first_name,paul,43,0.6726190476190476,4,0.47735042735042726,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",relationship record,module:,30,0.6135338345864662,6,0.44664224664224667,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_interagent_relationship_type_to,relationship_type,37,0.5666666666666667,13,0.5285759175465058,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_interagent_relationship_type_to,enslaved by,37,0.5666666666666667,11,0.6854700854700854,0.0,0.13744860896577518
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_interagent_relationship_type_to,bought by,37,0.5666666666666667,7,0.4547008547008547,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",is_relationship_to,agent,44,0.6474266474266474,5,0.5235042735042735,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",is_relationship_to,president james madison,44,0.6474266474266474,21,0.5610553697510219,0.0,0.2039307492046469
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",is_relationship_to,senator daniel webster,44,0.6474266474266474,18,0.5445554445554446,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",james,"madison""), is_relationship_to(paul jennings, ""senator daniel webster"").",32,0.4936507936507937,32,0.5564764656313952,0.0,0.06787168174472892
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",role record,module:,24,0.46645021645021645,6,0.44664224664224667,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_participant_role,participant_role_type,47,0.6876623376623376,13,0.47537168713639305,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_participant_role,saved the gilbert stuart portrait of george washington,47,0.6876623376623376,31,0.5631005678624726,0.0,0.030171488622968624
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_participant_role,planned a mass escape of 77 enslaved people,47,0.6876623376623376,26,0.5349695048593457,0.0,0.06613370250895258
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",the gilbert stuart portrait of george,"washington""), has_participant_role(paul jennings, ""planned a mass escape of 77 enslaved people"").",31,0.5281853281853283,34,0.5851352542074192,0.0,0.08052023915346183
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",record,module:,30,0.48412698412698413,6,0.44664224664224667,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_sex,sex_type,38,0.6238095238095238,6,0.4269230769230769,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_sex,male,38,0.6238095238095238,4,0.5068376068376068,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",record,module:,30,0.48412698412698413,6,0.44664224664224667,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_occupation,occupation,64,0.8074074074074075,7,0.4357753357753357,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_occupation,slave,64,0.8074074074074075,5,0.5418803418803418,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_occupation,footman,64,0.8074074074074075,7,0.5357753357753358,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_occupation,body servant,64,0.8074074074074075,11,0.5482905982905982,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_occupation,abolitionist,64,0.8074074074074075,12,0.5482905982905982,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_occupation,writer,64,0.8074074074074075,5,0.4863247863247864,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_occupation,worker at the pension bureau,64,0.8074074074074075,21,0.5072954822954823,0.0,0.03894042845822664
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",at the pension,"bureau"").",43,0.5892857142857143,6,0.39373219373219376,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",record,module:,30,0.48412698412698413,6,0.44664224664224667,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_age,age,38,0.6190476190476191,3,0.39230769230769225,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_age,75,38,0.6190476190476191,1,0.0,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_birthdate,date_of_birth,37,0.6318681318681318,9,0.5129759129759129,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_birthdate,around 1799,37,0.6318681318681318,8,0.41456321456321454,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_deathdate,date_of_death,44,0.63003663003663,10,0.5129759129759129,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_deathdate,1874,44,0.63003663003663,2,0.4183760683760684,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",record,module:,30,0.48412698412698413,6,0.44664224664224667,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_race_or_color,race_or_color,39,0.5896358543417367,9,0.43133903133903134,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_race_or_color,african-native american,39,0.5896358543417367,17,0.5073764399851356,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",status record,module:,37,0.5366300366300366,6,0.44664224664224667,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_person_status,enslaved person,45,0.6675070028011204,14,0.6478632478632479,0.0,0.13744860896577518
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_person_status,freed person,45,0.6675070028011204,12,0.5760683760683761,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_status_generating_event,event,39,0.5476190476190476,5,0.6085470085470085,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_status_generating_event,sold to an insurance agent,39,0.5476190476190476,20,0.5292735042735043,0.0,0.03894042845822664
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_status_generating_event,bought by senator daniel webster,39,0.5476190476190476,23,0.5002433523266857,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",has_status_generating_event,participated in a mass escape of enslaved people,39,0.5476190476190476,27,0.5581618962432916,0.0,0.18369132199911364
+hasdescription,"enslaved. free before 13th amendment. formerly enslaved as a personal assistant to president james madison, jennings had a memoir about his time in the oval office published in book form in 1865.",to an insurance,"agent""), has_status_generating_event(freed person, ""bought by senator daniel webster""), has_status_generating_event(freed person, ""participated in a mass escape of enslaved people"").",28,0.43015873015873013,38,0.6673886499973457,0.0,0.09191728098956718

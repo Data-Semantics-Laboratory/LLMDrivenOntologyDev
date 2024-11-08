@@ -1,0 +1,691 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+hasname,jean françois papillon,is no,"information about the name of the author, so we cannot determine the name of the author. but we can determine the name of the agent based on the text. in the text, the name of the agent is jean-françois. so we can populate the ontology with the following relations:",33,0.5619047619047619,14,0.45005002858776444,0.0,0.04779237625552267
+hasname,jean françois papillon,is no information about the name of the,"author, so we cannot determine the name of the author. but we can determine the name of the agent based on the text. in the text, the name of the agent is jean-françois. so we can populate the ontology with the following relations:",22,0.48083028083028084,16,0.45301226551226553,0.0,0.055900124845229056
+hasname,jean françois papillon,has_name,name,93,0.9708333333333333,15,0.5176767676767676,0.0,0.0
+hasname,jean françois papillon,has_name,jean-françois,93,0.9708333333333333,69,0.8937062937062936,0.0,0.7092972666062739
+hasname,jean françois papillon,record,"module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois')",15,0.0,31,0.4606564606564607,0.0,0.42941085663405565
+hasname,jean françois papillon,has_surname,surname,78,0.9151515151515152,21,0.41774891774891776,0.0,0.0
+hasname,jean françois papillon,has_first_name,first_name,67,0.5476190476190476,25,0.5298701298701298,0.0,0.0
+hasname,jean françois papillon,has_first_name,jean-françois,67,0.5476190476190476,69,0.8937062937062936,0.0,0.7092972666062739
+hasname,jean françois papillon,has_interagent_relationship_type_to,relationship_type,29,0.6206349206349207,31,0.5809269162210339,0.0,0.0
+hasname,jean françois papillon,has_interagent_relationship_type_to,black leader,29,0.6206349206349207,18,0.41464646464646465,0.0,0.0
+hasname,jean françois papillon,relationship record,"module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(jean-françois, 'black leader')",23,0.5106516290726817,19,0.5260993392572341,0.0,0.22555487220684337
+hasname,jean françois papillon,is_relationship_to,agent,16,0.43121693121693117,15,0.46767676767676764,0.0,0.0
+hasname,jean françois papillon,is_relationship_to,toussaint bréda,16,0.43121693121693117,27,0.46565656565656566,0.0,0.0
+hasname,jean françois papillon,has_sex,sex_type,57,0.8,13,0.44696969696969696,0.0,0.0
+hasname,jean françois papillon,has_sex,male,57,0.8,15,0.3636363636363636,0.0,0.0
+hasname,jean françois papillon,record,"module: 1. has_sex(agent, sex_type): has_sex(jean-françois, 'male')",15,0.0,34,0.4637418965777174,0.0,0.23773923857522397
+hasname,jean françois papillon,has_occupation,occupation,38,0.6190476190476191,38,0.4424242424242424,0.0,0.0
+hasname,jean françois papillon,has_occupation,general,38,0.6190476190476191,34,0.5010822510822511,0.0,0.0
+hasname,jean françois papillon,record,"module: 1. has_occupation(agent, occupation): has_occupation(jean-françois, 'general')",15,0.0,28,0.5195456618165236,0.0,0.23773923857522397
+hasname,jean françois papillon,has_age,age,71,0.8666666666666668,8,0.41919191919191917,0.0,0.0
+hasname,jean françois papillon,record,"module: 1. has_age(agent, age): has_age(jean-françois, '')",15,0.0,32,0.4723092998955068,0.0,0.2521387069452626
+hasname,jean françois papillon,has_birthdate,date_of_birth,50,0.553113553113553,17,0.41142191142191137,0.0,0.0
+hasname,jean françois papillon,has_deathdate,date_of_death,50,0.632967032967033,17,0.4039627039627039,0.0,0.0
+hasname,jean françois papillon,has_person_status,black leader,42,0.6028011204481792,18,0.41464646464646465,0.0,0.0
+hasname,jean françois papillon,status record,"module: 1. has_person_status (agent, person_status): has_person_status(jean-françois, 'black leader')",30,0.442002442002442,24,0.5035628562856286,0.0,0.22555487220684337
+hasname,jean françois papillon,has_status_generating_event,event,35,0.6375661375661376,15,0.496969696969697,0.0,0.0
+hasname,jean françois papillon,has_status_generating_event,oath of loyalty to the spanish king,35,0.6375661375661376,35,0.5479076479076479,0.0,0.0
+hasname,jean françois papillon,of loyalty to the spanish,king'),19,0.4552380952380952,14,0.30808080808080807,0.0,0.0
+hasname,jean françois papillon,recorded_at,event,11,0.41125541125541126,15,0.496969696969697,0.0,0.0
+hasname,jean françois papillon,recorded_at,oath of loyalty to the spanish king,11,0.41125541125541126,35,0.5479076479076479,0.0,0.0
+hasname,jean françois papillon,of loyalty to the spanish,king'),19,0.4552380952380952,14,0.30808080808080807,0.0,0.0
+hasname,jean françois papillon,has_race_or_color,race_or_color,42,0.6694677871148459,29,0.5225330225330226,0.0,0.0
+hasname,jean françois papillon,has_race_or_color,black,42,0.6694677871148459,7,0.4151515151515152,0.0,0.0
+hasname,jean françois papillon,record,"module: 1. has_race_or_color(agent, race_or_color): has_race_or_color(jean-françois, 'black').",15,0.0,24,0.448197192878044,0.0,0.23773923857522397
+hasname,jean françois papillon,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,27,0.5603174603174603,30,0.4785858585858585,0.0,0.0
+hasname,jean françois papillon,has_ethnolinguistic_descriptor,haitian,27,0.5603174603174603,28,0.5010822510822511,0.0,0.0
+hasname,jean françois papillon,descriptor record,"module: 1. has_ethnolinguistic_descriptor(agent, etnolinguistic_descriptor): has_ethnolinguistic_descriptor(jean-françois, 'haitian').",17,0.3011204481792717,21,0.5281249256111785,0.0,0.23773923857522397
+hasname,jean françois papillon,has_name,name,93,0.9708333333333333,15,0.5176767676767676,0.0,0.0
+hasname,jean françois papillon,has_name,jean-françois,93,0.9708333333333333,69,0.8937062937062936,0.0,0.7092972666062739
+hasname,jean françois papillon,has_surname,surname,78,0.9151515151515152,21,0.41774891774891776,0.0,0.0
+hasname,jean françois papillon,has_first_name,first_name,67,0.5476190476190476,25,0.5298701298701298,0.0,0.0
+hasname,jean françois papillon,has_first_name,jean-françois,67,0.5476190476190476,69,0.8937062937062936,0.0,0.7092972666062739
+hasname,jean françois papillon,has_interagent_relationship_type_to,relationship_type,29,0.6206349206349207,31,0.5809269162210339,0.0,0.0
+hasname,jean françois papillon,has_interagent_relationship_type_to,black leader,29,0.6206349206349207,18,0.41464646464646465,0.0,0.0
+hasname,jean françois papillon,is_relationship_to,agent,16,0.43121693121693117,15,0.46767676767676764,0.0,0.0
+hasname,jean françois papillon,is_relationship_to,toussaint bréda,16,0.43121693121693117,27,0.46565656565656566,0.0,0.0
+hasname,jean françois papillon,has_sex,sex_type,57,0.8,13,0.44696969696969696,0.0,0.0
+hasname,jean françois papillon,has_sex,male,57,0.8,15,0.3636363636363636,0.0,0.0
+hasname,jean françois papillon,has_occupation,occupation,38,0.6190476190476191,38,0.4424242424242424,0.0,0.0
+hasname,jean françois papillon,has_occupation,general,38,0.6190476190476191,34,0.5010822510822511,0.0,0.0
+hasname,jean françois papillon,has_age,age,71,0.8666666666666668,8,0.41919191919191917,0.0,0.0
+hasname,jean françois papillon,has_birthdate,date_of_birth,50,0.553113553113553,17,0.41142191142191137,0.0,0.0
+hasname,jean françois papillon,has_deathdate,date_of_death,50,0.632967032967033,17,0.4039627039627039,0.0,0.0
+hasname,jean françois papillon,has_person_status,black leader,42,0.6028011204481792,18,0.41464646464646465,0.0,0.0
+hasname,jean françois papillon,has_status_generating_event,event,35,0.6375661375661376,15,0.496969696969697,0.0,0.0
+hasname,jean françois papillon,has_status_generating_event,oath of loyalty to the spanish king,35,0.6375661375661376,35,0.5479076479076479,0.0,0.0
+hasname,jean françois papillon,recorded_at,event,11,0.41125541125541126,15,0.496969696969697,0.0,0.0
+hasname,jean françois papillon,recorded_at,oath of loyalty to the spanish king,11,0.41125541125541126,35,0.5479076479076479,0.0,0.0
+hasname,jean françois papillon,has_race_or_color,race_or_color,42,0.6694677871148459,29,0.5225330225330226,0.0,0.0
+hasname,jean françois papillon,has_race_or_color,black,42,0.6694677871148459,7,0.4151515151515152,0.0,0.0
+hasname,jean françois papillon,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,27,0.5603174603174603,30,0.4785858585858585,0.0,0.0
+hasname,jean françois papillon,has_ethnolinguistic_descriptor,haitian,27,0.5603174603174603,28,0.5010822510822511,0.0,0.0
+hasname,jean françois papillon,has_name,name,93,0.9708333333333333,15,0.5176767676767676,0.0,0.0
+hasname,jean françois papillon,has_name,jean-françois,93,0.9708333333333333,69,0.8937062937062936,0.0,0.7092972666062739
+hasname,jean françois papillon,has_surname,surname,78,0.9151515151515152,21,0.41774891774891776,0.0,0.0
+hasname,jean françois papillon,has_first_name,first_name,67,0.5476190476190476,25,0.5298701298701298,0.0,0.0
+hasname,jean françois papillon,has_first_name,jean-françois,67,0.5476190476190476,69,0.8937062937062936,0.0,0.7092972666062739
+hasname,jean françois papillon,has_interagent_relationship_type_to,relationship_type,29,0.6206349206349207,31,0.5809269162210339,0.0,0.0
+hasname,jean françois papillon,has_interagent_relationship_type_to,black leader,29,0.6206349206349207,18,0.41464646464646465,0.0,0.0
+hasname,jean françois papillon,is_relationship_to,agent,16,0.43121693121693117,15,0.46767676767676764,0.0,0.0
+hasname,jean françois papillon,is_relationship_to,toussaint bréda,16,0.43121693121693117,27,0.46565656565656566,0.0,0.0
+hasname,jean françois papillon,has_sex,sex_type,57,0.8,13,0.44696969696969696,0.0,0.0
+hasname,jean françois papillon,has_sex,male,57,0.8,15,0.3636363636363636,0.0,0.0
+hasname,jean françois papillon,has_occupation,occupation,38,0.6190476190476191,38,0.4424242424242424,0.0,0.0
+hasname,jean françois papillon,has_occupation,general,38,0.6190476190476191,34,0.5010822510822511,0.0,0.0
+hasname,jean françois papillon,has_age,age,71,0.8666666666666668,8,0.41919191919191917,0.0,0.0
+hasname,jean françois papillon,has_birthdate,date_of_birth,50,0.553113553113553,17,0.41142191142191137,0.0,0.0
+hasname,jean françois papillon,has_deathdate,date_of_death,50,0.632967032967033,17,0.4039627039627039,0.0,0.0
+hasname,jean françois papillon,has_person_status,black leader,42,0.6028011204481792,18,0.41464646464646465,0.0,0.0
+hasname,jean françois papillon,has_status_generating_event,event,35,0.6375661375661376,15,0.496969696969697,0.0,0.0
+hasname,jean françois papillon,has_status_generating_event,oath of loyalty to the spanish king,35,0.6375661375661376,35,0.5479076479076479,0.0,0.0
+hasname,jean françois papillon,recorded_at,event,11,0.41125541125541126,15,0.496969696969697,0.0,0.0
+hasname,jean françois papillon,recorded_at,oath of loyalty to the spanish king,11,0.41125541125541126,35,0.5479076479076479,0.0,0.0
+hasname,jean françois papillon,has_race_or_color,race_or_color,42,0.6694677871148459,29,0.5225330225330226,0.0,0.0
+hasname,jean françois papillon,has_race_or_color,black,42,0.6694677871148459,7,0.4151515151515152,0.0,0.0
+hasname,jean françois papillon,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,27,0.5603174603174603,30,0.4785858585858585,0.0,0.0
+hasname,jean françois papillon,has_ethnolinguistic_descriptor,haitian,27,0.5603174603174603,28,0.5010822510822511,0.0,0.0
+hasname,jean françois papillon,has_name,name,93,0.9708333333333333,15,0.5176767676767676,0.0,0.0
+hasname,jean françois papillon,has_name,jean-françois,93,0.9708333333333333,69,0.8937062937062936,0.0,0.7092972666062739
+hasname,jean françois papillon,has_surname,surname,78,0.9151515151515152,21,0.41774891774891776,0.0,0.0
+hasname,jean françois papillon,has_first_name,first_name,67,0.5476190476190476,25,0.5298701298701298,0.0,0.0
+hasname,jean françois papillon,has_first_name,jean-françois,67,0.5476190476190476,69,0.8937062937062936,0.0,0.7092972666062739
+hasname,jean françois papillon,has_interagent_relationship_type_to,relationship_type,29,0.6206349206349207,31,0.5809269162210339,0.0,0.0
+hasname,jean françois papillon,has_interagent_relationship_type_to,black leader,29,0.6206349206349207,18,0.41464646464646465,0.0,0.0
+hasname,jean françois papillon,is_relationship_to,agent,16,0.43121693121693117,15,0.46767676767676764,0.0,0.0
+hasname,jean françois papillon,is_relationship_to,toussaint bréda,16,0.43121693121693117,27,0.46565656565656566,0.0,0.0
+hasname,jean françois papillon,has_sex,sex_type,57,0.8,13,0.44696969696969696,0.0,0.0
+hasname,jean françois papillon,has_sex,male,57,0.8,15,0.3636363636363636,0.0,0.0
+hasname,jean françois papillon,has_occupation,occupation,38,0.6190476190476191,38,0.4424242424242424,0.0,0.0
+hasname,jean françois papillon,has_occupation,general,38,0.6190476190476191,34,0.5010822510822511,0.0,0.0
+hasname,jean françois papillon,has_age,age,71,0.8666666666666668,8,0.41919191919191917,0.0,0.0
+hasname,jean françois papillon,has_birthdate,date_of_birth,50,0.553113553113553,17,0.41142191142191137,0.0,0.0
+hasname,jean françois papillon,has_deathdate,date_of_death,50,0.632967032967033,17,0.4039627039627039,0.0,0.0
+hasname,jean françois papillon,has_person_status,black leader,42,0.6028011204481792,18,0.41464646464646465,0.0,0.0
+hasname,jean françois papillon,has_status_generating_event,event,35,0.6375661375661376,15,0.496969696969697,0.0,0.0
+hasname,jean françois papillon,has_status_generating_event,oath of loyalty to the spanish king,35,0.6375661375661376,35,0.5479076479076479,0.0,0.0
+hasname,jean françois papillon,recorded_at,event,11,0.41125541125541126,15,0.496969696969697,0.0,0.0
+hasname,jean françois papillon,recorded_at,oath of loyalty to the spanish king,11,0.41125541125541126,35,0.5479076479076479,0.0,0.0
+hasname,jean françois papillon,has_race_or_color,race_or_color,42,0.6694677871148459,29,0.5225330225330226,0.0,0.0
+hasname,jean françois papillon,has_race_or_color,black,42,0.6694677871148459,7,0.4151515151515152,0.0,0.0
+hasname,jean françois papillon,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,27,0.5603174603174603,30,0.4785858585858585,0.0,0.0
+hasname,jean françois papillon,has_ethnolinguistic_descriptor,haitian,27,0.5603174603174603,28,0.5010822510822511,0.0,0.0
+hasname,jean françois papillon,has_name,name,93,0.9708333333333333,15,0.5176767676767676,0.0,0.0
+hasname,jean françois papillon,has_name,jean-françois,93,0.9708333333333333,69,0.8937062937062936,0.0,0.7092972666062739
+hasname,jean françois papillon,there is no information about the birth and death dates of,"jean-françois, we cannot populate the age record module with those relations. also, there is no information about the occupation of jean-françois before becoming a general, so we cannot populate the occupation record module with that relation.  answer: the ontology populated based on the text is as follows: name record module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois') 2. has_surname(agent, surname): has_surname(jean-françois, '') 3. has_first_name(agent, first_name): has_first_name(jean-françois, 'jean-françois') interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(jean-françois, 'black leader') 2. is_relationship_to(agent, agent): is_relationship_to(jean-françois, 'toussaint bréda') sex record module: 1. has_sex(agent, sex_type): has_sex(jean-françois, 'male') occupation record module: 1. has_occupation(agent, occupation): has_occupation(jean-françois, 'general') age record module: 1. has_age(agent, age): has_age(jean-françois, '') 2. has_birthdate(agent, date_of_birth): has_birthdate(jean-françois, '') 3. has_deathdate(agent, date_of_death): has_deathdate(jean-françois, '') person status record module: 1. has_person_status (agent, person_status): has_person_status(jean-françois, 'black leader') 2. has_status_generating_event(person_status, event): has_status_generating_event(black leader, 'oath of loyalty to the spanish king') 3. recorded_at(person_status_information, event): recorded_at(black leader, 'oath of loyalty to the spanish king') race record module: 1. has_race_or_color(agent, race_or_color): has_race_or_color(jean-françois, 'black') ethnolinguistic descriptor record module: 1. has_ethnolinguistic_descriptor(agent, etnolinguistic_descriptor): has_ethnolinguistic_descriptor(jean-françois, 'haitian').  the ontology populated based on the text is as follows: name record module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois') 2. has_surname(agent, surname): has_surname(jean-françois, '') 3. has_first_name(agent, first_name): has_first_name(jean-françois, 'jean-françois') interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(jean-françois, 'black leader') 2. is_relationship_to(agent, agent): is_relationship_to(jean-françois, 'toussaint bréda') sex record module: 1. has_sex(agent, sex_type): has_sex(jean-françois, 'male') occupation record module: 1. has_occupation(agent, occupation): has_occupation(jean-françois, 'general') age record module: 1. has_age(agent, age): has_age(jean-françois, '') 2. has_birthdate(agent, date_of_birth): has_birthdate(jean-françois, '') 3. has_deathdate(agent, date_of_death): has_deathdate(jean-françois, '') person status record module: 1. has_person_status (agent, person_status): has_person_status(jean-françois, 'black leader') 2. has_status_generating_event(person_status, event): has_status_generating_event(black leader, 'oath of loyalty to the spanish king') 3. recorded_at(person_status_information, event): recorded_at(black leader, 'oath of loyalty to the spanish king') race record module: 1. has_race_or_color(agent, race_or_color): has_race_or_color(jean-françois, 'black') ethnolinguistic descriptor record module: 1. has_ethnolinguistic_descriptor(agent, etnolinguistic_descriptor): has_ethnolinguistic_descriptor(jean-françois, 'haitian').  the ontology populated based on the text is as follows: name record module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois') 2. has_surname(agent, surname): has_surname(jean-françois, '') 3. has_first_name(agent, first_name): has_first_name(jean-françois, 'jean-françois') interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(jean-françois, 'black leader') 2. is_relationship_to(agent, agent): is_relationship_to(jean-françois, 'toussaint bréda') sex record module: 1. has_sex(agent, sex_type): has_sex(jean-françois, 'male') occupation record module: 1. has_occupation(agent, occupation): has_occupation(jean-françois, 'general') age record module: 1. has_age(agent, age): has_age(jean-françois, '') 2. has_birthdate(agent, date_of_birth): has_birthdate(jean-françois, '') 3. has_deathdate(agent, date_of_death): has_deathdate(jean-françois, '') person status record module: 1. has_person_status (agent, person_status): has_person_status(jean-françois, 'black leader') 2. has_status_generating_event(person_status, event): has_status_generating_event(black leader, 'oath of loyalty to the spanish king') 3. recorded_at(person_status_information, event): recorded_at(black leader, 'oath of loyalty to the spanish king') race record module: 1. has_race_or_color(agent, race_or_color): has_race_or_color(jean-françois, 'black') ethnolinguistic descriptor record module: 1. has_ethnolinguistic_descriptor(agent, etnolinguistic_descriptor): has_ethnolinguistic_descriptor(jean-françois, 'haitian').  the ontology populated based on the text is as follows: name record module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois') 2. has_surname(agent",15,0.6116584564860427,1,0.5468588605317827,0.0,0.39314174813829245
+hasfirstname,jean françois,is no,"information about the name of the author, so we cannot determine the name of the author. but we can determine the name of the agent based on the text. in the text, the name of the agent is jean-françois. so we can populate the ontology with the following relations:",35,0.5055555555555555,9,0.4777059418568852,0.0,0.06737989627986526
+hasfirstname,jean françois,is no information about the name of the,"author, so we cannot determine the name of the author. but we can determine the name of the agent based on the text. in the text, the name of the agent is jean-françois. so we can populate the ontology with the following relations:",31,0.5965811965811966,10,0.5403485403485403,0.0,0.07881057417955462
+hasfirstname,jean françois,has_name,name,70,0.8736111111111112,24,0.5491452991452991,0.0,0.0
+hasfirstname,jean françois,has_name,jean-françois,70,0.8736111111111112,92,0.9692307692307692,0.0,1.0000000000000002
+hasfirstname,jean françois,record,"module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois')",22,0.4166666666666667,30,0.4494975744975745,0.0,0.6054032305645678
+hasfirstname,jean françois,has_surname,surname,70,0.8733164983164984,20,0.4597069597069597,0.0,0.0
+hasfirstname,jean françois,has_first_name,first_name,92,0.9666666666666667,26,0.40256410256410263,0.0,0.0
+hasfirstname,jean françois,has_first_name,jean-françois,92,0.9666666666666667,92,0.9692307692307692,0.0,1.0000000000000002
+hasfirstname,jean françois,has_interagent_relationship_type_to,relationship_type,34,0.5949735449735449,27,0.5548373195432018,0.0,0.0
+hasfirstname,jean françois,has_interagent_relationship_type_to,black leader,34,0.5949735449735449,24,0.46367521367521364,0.0,0.0
+hasfirstname,jean françois,relationship record,"module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(jean-françois, 'black leader')",32,0.5077276524644946,16,0.48021978021978023,0.0,0.31799766166594773
+hasfirstname,jean françois,is_relationship_to,agent,27,0.6203703703703703,22,0.49914529914529915,0.0,0.0
+hasfirstname,jean françois,is_relationship_to,toussaint bréda,27,0.6203703703703703,36,0.4393162393162393,0.0,0.0
+hasfirstname,jean françois,has_sex,sex_type,53,0.6349206349206349,10,0.4006410256410256,0.0,0.0
+hasfirstname,jean françois,has_sex,male,53,0.6349206349206349,12,0.3846153846153846,0.0,0.0
+hasfirstname,jean françois,record,"module: 1. has_sex(agent, sex_type): has_sex(jean-françois, 'male')",22,0.4166666666666667,30,0.4047892406101361,0.0,0.3351757433279261
+hasfirstname,jean françois,has_occupation,occupation,38,0.5873015873015873,17,0.48589743589743595,0.0,0.0
+hasfirstname,jean françois,has_occupation,general,38,0.5873015873015873,40,0.543040293040293,0.0,0.0
+hasfirstname,jean françois,record,"module: 1. has_occupation(agent, occupation): has_occupation(jean-françois, 'general')",22,0.4166666666666667,24,0.4508381368846485,0.0,0.3351757433279261
+hasfirstname,jean françois,has_age,age,53,0.7972222222222223,12,0.44017094017094016,0.0,0.0
+hasfirstname,jean françois,record,"module: 1. has_age(agent, age): has_age(jean-françois, '')",22,0.4166666666666667,34,0.4101932550208412,0.0,0.3554767779546839
+hasfirstname,jean françois,has_birthdate,date_of_birth,64,0.8324786324786324,23,0.4743589743589744,0.0,0.0
+hasfirstname,jean françois,has_deathdate,date_of_death,48,0.5982905982905983,23,0.4564102564102564,0.0,0.0
+hasfirstname,jean françois,has_person_status,black leader,48,0.6857298474945533,24,0.46367521367521364,0.0,0.0
+hasfirstname,jean françois,status record,"module: 1. has_person_status (agent, person_status): has_person_status(jean-françois, 'black leader')",32,0.5427350427350427,21,0.4456573862514457,0.0,0.31799766166594773
+hasfirstname,jean françois,has_status_generating_event,event,41,0.5833333333333334,22,0.517948717948718,0.0,0.0
+hasfirstname,jean françois,has_status_generating_event,oath of loyalty to the spanish king,41,0.5833333333333334,29,0.43663003663003663,0.0,0.0
+hasfirstname,jean françois,of loyalty to the spanish,king'),22,0.4055555555555556,11,0.41452991452991456,0.0,0.0
+hasfirstname,jean françois,recorded_at,event,17,0.4823232323232323,22,0.517948717948718,0.0,0.0
+hasfirstname,jean françois,recorded_at,oath of loyalty to the spanish king,17,0.4823232323232323,29,0.43663003663003663,0.0,0.0
+hasfirstname,jean françois,of loyalty to the spanish,king'),22,0.4055555555555556,11,0.41452991452991456,0.0,0.0
+hasfirstname,jean françois,has_race_or_color,race_or_color,41,0.6176470588235294,23,0.3717948717948718,0.0,0.0
+hasfirstname,jean françois,has_race_or_color,black,41,0.6176470588235294,11,0.4256410256410256,0.0,0.0
+hasfirstname,jean françois,record,"module: 1. has_race_or_color(agent, race_or_color): has_race_or_color(jean-françois, 'black').",22,0.4166666666666667,22,0.400163666121113,0.0,0.3351757433279261
+hasfirstname,jean françois,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,33,0.5611111111111111,26,0.5116239316239316,0.0,0.0
+hasfirstname,jean françois,has_ethnolinguistic_descriptor,haitian,33,0.5611111111111111,30,0.442002442002442,0.0,0.0
+hasfirstname,jean françois,descriptor record,"module: 1. has_ethnolinguistic_descriptor(agent, etnolinguistic_descriptor): has_ethnolinguistic_descriptor(jean-françois, 'haitian').",28,0.50359477124183,16,0.44795254496747033,0.0,0.3351757433279261
+hasfirstname,jean françois,has_name,name,70,0.8736111111111112,24,0.5491452991452991,0.0,0.0
+hasfirstname,jean françois,has_name,jean-françois,70,0.8736111111111112,92,0.9692307692307692,0.0,1.0000000000000002
+hasfirstname,jean françois,has_surname,surname,70,0.8733164983164984,20,0.4597069597069597,0.0,0.0
+hasfirstname,jean françois,has_first_name,first_name,92,0.9666666666666667,26,0.40256410256410263,0.0,0.0
+hasfirstname,jean françois,has_first_name,jean-françois,92,0.9666666666666667,92,0.9692307692307692,0.0,1.0000000000000002
+hasfirstname,jean françois,has_interagent_relationship_type_to,relationship_type,34,0.5949735449735449,27,0.5548373195432018,0.0,0.0
+hasfirstname,jean françois,has_interagent_relationship_type_to,black leader,34,0.5949735449735449,24,0.46367521367521364,0.0,0.0
+hasfirstname,jean françois,is_relationship_to,agent,27,0.6203703703703703,22,0.49914529914529915,0.0,0.0
+hasfirstname,jean françois,is_relationship_to,toussaint bréda,27,0.6203703703703703,36,0.4393162393162393,0.0,0.0
+hasfirstname,jean françois,has_sex,sex_type,53,0.6349206349206349,10,0.4006410256410256,0.0,0.0
+hasfirstname,jean françois,has_sex,male,53,0.6349206349206349,12,0.3846153846153846,0.0,0.0
+hasfirstname,jean françois,has_occupation,occupation,38,0.5873015873015873,17,0.48589743589743595,0.0,0.0
+hasfirstname,jean françois,has_occupation,general,38,0.5873015873015873,40,0.543040293040293,0.0,0.0
+hasfirstname,jean françois,has_age,age,53,0.7972222222222223,12,0.44017094017094016,0.0,0.0
+hasfirstname,jean françois,has_birthdate,date_of_birth,64,0.8324786324786324,23,0.4743589743589744,0.0,0.0
+hasfirstname,jean françois,has_deathdate,date_of_death,48,0.5982905982905983,23,0.4564102564102564,0.0,0.0
+hasfirstname,jean françois,has_person_status,black leader,48,0.6857298474945533,24,0.46367521367521364,0.0,0.0
+hasfirstname,jean françois,has_status_generating_event,event,41,0.5833333333333334,22,0.517948717948718,0.0,0.0
+hasfirstname,jean françois,has_status_generating_event,oath of loyalty to the spanish king,41,0.5833333333333334,29,0.43663003663003663,0.0,0.0
+hasfirstname,jean françois,recorded_at,event,17,0.4823232323232323,22,0.517948717948718,0.0,0.0
+hasfirstname,jean françois,recorded_at,oath of loyalty to the spanish king,17,0.4823232323232323,29,0.43663003663003663,0.0,0.0
+hasfirstname,jean françois,has_race_or_color,race_or_color,41,0.6176470588235294,23,0.3717948717948718,0.0,0.0
+hasfirstname,jean françois,has_race_or_color,black,41,0.6176470588235294,11,0.4256410256410256,0.0,0.0
+hasfirstname,jean françois,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,33,0.5611111111111111,26,0.5116239316239316,0.0,0.0
+hasfirstname,jean françois,has_ethnolinguistic_descriptor,haitian,33,0.5611111111111111,30,0.442002442002442,0.0,0.0
+hasfirstname,jean françois,has_name,name,70,0.8736111111111112,24,0.5491452991452991,0.0,0.0
+hasfirstname,jean françois,has_name,jean-françois,70,0.8736111111111112,92,0.9692307692307692,0.0,1.0000000000000002
+hasfirstname,jean françois,has_surname,surname,70,0.8733164983164984,20,0.4597069597069597,0.0,0.0
+hasfirstname,jean françois,has_first_name,first_name,92,0.9666666666666667,26,0.40256410256410263,0.0,0.0
+hasfirstname,jean françois,has_first_name,jean-françois,92,0.9666666666666667,92,0.9692307692307692,0.0,1.0000000000000002
+hasfirstname,jean françois,has_interagent_relationship_type_to,relationship_type,34,0.5949735449735449,27,0.5548373195432018,0.0,0.0
+hasfirstname,jean françois,has_interagent_relationship_type_to,black leader,34,0.5949735449735449,24,0.46367521367521364,0.0,0.0
+hasfirstname,jean françois,is_relationship_to,agent,27,0.6203703703703703,22,0.49914529914529915,0.0,0.0
+hasfirstname,jean françois,is_relationship_to,toussaint bréda,27,0.6203703703703703,36,0.4393162393162393,0.0,0.0
+hasfirstname,jean françois,has_sex,sex_type,53,0.6349206349206349,10,0.4006410256410256,0.0,0.0
+hasfirstname,jean françois,has_sex,male,53,0.6349206349206349,12,0.3846153846153846,0.0,0.0
+hasfirstname,jean françois,has_occupation,occupation,38,0.5873015873015873,17,0.48589743589743595,0.0,0.0
+hasfirstname,jean françois,has_occupation,general,38,0.5873015873015873,40,0.543040293040293,0.0,0.0
+hasfirstname,jean françois,has_age,age,53,0.7972222222222223,12,0.44017094017094016,0.0,0.0
+hasfirstname,jean françois,has_birthdate,date_of_birth,64,0.8324786324786324,23,0.4743589743589744,0.0,0.0
+hasfirstname,jean françois,has_deathdate,date_of_death,48,0.5982905982905983,23,0.4564102564102564,0.0,0.0
+hasfirstname,jean françois,has_person_status,black leader,48,0.6857298474945533,24,0.46367521367521364,0.0,0.0
+hasfirstname,jean françois,has_status_generating_event,event,41,0.5833333333333334,22,0.517948717948718,0.0,0.0
+hasfirstname,jean françois,has_status_generating_event,oath of loyalty to the spanish king,41,0.5833333333333334,29,0.43663003663003663,0.0,0.0
+hasfirstname,jean françois,recorded_at,event,17,0.4823232323232323,22,0.517948717948718,0.0,0.0
+hasfirstname,jean françois,recorded_at,oath of loyalty to the spanish king,17,0.4823232323232323,29,0.43663003663003663,0.0,0.0
+hasfirstname,jean françois,has_race_or_color,race_or_color,41,0.6176470588235294,23,0.3717948717948718,0.0,0.0
+hasfirstname,jean françois,has_race_or_color,black,41,0.6176470588235294,11,0.4256410256410256,0.0,0.0
+hasfirstname,jean françois,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,33,0.5611111111111111,26,0.5116239316239316,0.0,0.0
+hasfirstname,jean françois,has_ethnolinguistic_descriptor,haitian,33,0.5611111111111111,30,0.442002442002442,0.0,0.0
+hasfirstname,jean françois,has_name,name,70,0.8736111111111112,24,0.5491452991452991,0.0,0.0
+hasfirstname,jean françois,has_name,jean-françois,70,0.8736111111111112,92,0.9692307692307692,0.0,1.0000000000000002
+hasfirstname,jean françois,has_surname,surname,70,0.8733164983164984,20,0.4597069597069597,0.0,0.0
+hasfirstname,jean françois,has_first_name,first_name,92,0.9666666666666667,26,0.40256410256410263,0.0,0.0
+hasfirstname,jean françois,has_first_name,jean-françois,92,0.9666666666666667,92,0.9692307692307692,0.0,1.0000000000000002
+hasfirstname,jean françois,has_interagent_relationship_type_to,relationship_type,34,0.5949735449735449,27,0.5548373195432018,0.0,0.0
+hasfirstname,jean françois,has_interagent_relationship_type_to,black leader,34,0.5949735449735449,24,0.46367521367521364,0.0,0.0
+hasfirstname,jean françois,is_relationship_to,agent,27,0.6203703703703703,22,0.49914529914529915,0.0,0.0
+hasfirstname,jean françois,is_relationship_to,toussaint bréda,27,0.6203703703703703,36,0.4393162393162393,0.0,0.0
+hasfirstname,jean françois,has_sex,sex_type,53,0.6349206349206349,10,0.4006410256410256,0.0,0.0
+hasfirstname,jean françois,has_sex,male,53,0.6349206349206349,12,0.3846153846153846,0.0,0.0
+hasfirstname,jean françois,has_occupation,occupation,38,0.5873015873015873,17,0.48589743589743595,0.0,0.0
+hasfirstname,jean françois,has_occupation,general,38,0.5873015873015873,40,0.543040293040293,0.0,0.0
+hasfirstname,jean françois,has_age,age,53,0.7972222222222223,12,0.44017094017094016,0.0,0.0
+hasfirstname,jean françois,has_birthdate,date_of_birth,64,0.8324786324786324,23,0.4743589743589744,0.0,0.0
+hasfirstname,jean françois,has_deathdate,date_of_death,48,0.5982905982905983,23,0.4564102564102564,0.0,0.0
+hasfirstname,jean françois,has_person_status,black leader,48,0.6857298474945533,24,0.46367521367521364,0.0,0.0
+hasfirstname,jean françois,has_status_generating_event,event,41,0.5833333333333334,22,0.517948717948718,0.0,0.0
+hasfirstname,jean françois,has_status_generating_event,oath of loyalty to the spanish king,41,0.5833333333333334,29,0.43663003663003663,0.0,0.0
+hasfirstname,jean françois,recorded_at,event,17,0.4823232323232323,22,0.517948717948718,0.0,0.0
+hasfirstname,jean françois,recorded_at,oath of loyalty to the spanish king,17,0.4823232323232323,29,0.43663003663003663,0.0,0.0
+hasfirstname,jean françois,has_race_or_color,race_or_color,41,0.6176470588235294,23,0.3717948717948718,0.0,0.0
+hasfirstname,jean françois,has_race_or_color,black,41,0.6176470588235294,11,0.4256410256410256,0.0,0.0
+hasfirstname,jean françois,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,33,0.5611111111111111,26,0.5116239316239316,0.0,0.0
+hasfirstname,jean françois,has_ethnolinguistic_descriptor,haitian,33,0.5611111111111111,30,0.442002442002442,0.0,0.0
+hasfirstname,jean françois,has_name,name,70,0.8736111111111112,24,0.5491452991452991,0.0,0.0
+hasfirstname,jean françois,has_name,jean-françois,70,0.8736111111111112,92,0.9692307692307692,0.0,1.0000000000000002
+hasfirstname,jean françois,there is no information about the birth and death dates of,"jean-françois, we cannot populate the age record module with those relations. also, there is no information about the occupation of jean-françois before becoming a general, so we cannot populate the occupation record module with that relation.  answer: the ontology populated based on the text is as follows: name record module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois') 2. has_surname(agent, surname): has_surname(jean-françois, '') 3. has_first_name(agent, first_name): has_first_name(jean-françois, 'jean-françois') interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(jean-françois, 'black leader') 2. is_relationship_to(agent, agent): is_relationship_to(jean-françois, 'toussaint bréda') sex record module: 1. has_sex(agent, sex_type): has_sex(jean-françois, 'male') occupation record module: 1. has_occupation(agent, occupation): has_occupation(jean-françois, 'general') age record module: 1. has_age(agent, age): has_age(jean-françois, '') 2. has_birthdate(agent, date_of_birth): has_birthdate(jean-françois, '') 3. has_deathdate(agent, date_of_death): has_deathdate(jean-françois, '') person status record module: 1. has_person_status (agent, person_status): has_person_status(jean-françois, 'black leader') 2. has_status_generating_event(person_status, event): has_status_generating_event(black leader, 'oath of loyalty to the spanish king') 3. recorded_at(person_status_information, event): recorded_at(black leader, 'oath of loyalty to the spanish king') race record module: 1. has_race_or_color(agent, race_or_color): has_race_or_color(jean-françois, 'black') ethnolinguistic descriptor record module: 1. has_ethnolinguistic_descriptor(agent, etnolinguistic_descriptor): has_ethnolinguistic_descriptor(jean-françois, 'haitian').  the ontology populated based on the text is as follows: name record module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois') 2. has_surname(agent, surname): has_surname(jean-françois, '') 3. has_first_name(agent, first_name): has_first_name(jean-françois, 'jean-françois') interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(jean-françois, 'black leader') 2. is_relationship_to(agent, agent): is_relationship_to(jean-françois, 'toussaint bréda') sex record module: 1. has_sex(agent, sex_type): has_sex(jean-françois, 'male') occupation record module: 1. has_occupation(agent, occupation): has_occupation(jean-françois, 'general') age record module: 1. has_age(agent, age): has_age(jean-françois, '') 2. has_birthdate(agent, date_of_birth): has_birthdate(jean-françois, '') 3. has_deathdate(agent, date_of_death): has_deathdate(jean-françois, '') person status record module: 1. has_person_status (agent, person_status): has_person_status(jean-françois, 'black leader') 2. has_status_generating_event(person_status, event): has_status_generating_event(black leader, 'oath of loyalty to the spanish king') 3. recorded_at(person_status_information, event): recorded_at(black leader, 'oath of loyalty to the spanish king') race record module: 1. has_race_or_color(agent, race_or_color): has_race_or_color(jean-françois, 'black') ethnolinguistic descriptor record module: 1. has_ethnolinguistic_descriptor(agent, etnolinguistic_descriptor): has_ethnolinguistic_descriptor(jean-françois, 'haitian').  the ontology populated based on the text is as follows: name record module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois') 2. has_surname(agent, surname): has_surname(jean-françois, '') 3. has_first_name(agent, first_name): has_first_name(jean-françois, 'jean-françois') interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(jean-françois, 'black leader') 2. is_relationship_to(agent, agent): is_relationship_to(jean-françois, 'toussaint bréda') sex record module: 1. has_sex(agent, sex_type): has_sex(jean-françois, 'male') occupation record module: 1. has_occupation(agent, occupation): has_occupation(jean-françois, 'general') age record module: 1. has_age(agent, age): has_age(jean-françois, '') 2. has_birthdate(agent, date_of_birth): has_birthdate(jean-françois, '') 3. has_deathdate(agent, date_of_death): has_deathdate(jean-françois, '') person status record module: 1. has_person_status (agent, person_status): has_person_status(jean-françois, 'black leader') 2. has_status_generating_event(person_status, event): has_status_generating_event(black leader, 'oath of loyalty to the spanish king') 3. recorded_at(person_status_information, event): recorded_at(black leader, 'oath of loyalty to the spanish king') race record module: 1. has_race_or_color(agent, race_or_color): has_race_or_color(jean-françois, 'black') ethnolinguistic descriptor record module: 1. has_ethnolinguistic_descriptor(agent, etnolinguistic_descriptor): has_ethnolinguistic_descriptor(jean-françois, 'haitian').  the ontology populated based on the text is as follows: name record module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois') 2. has_surname(agent",26,0.550592128178335,0,0.5649323866482043,0.0,0.5542693686376813
+hassurname,papillon,is no,"information about the name of the author, so we cannot determine the name of the author. but we can determine the name of the agent based on the text. in the text, the name of the agent is jean-françois. so we can populate the ontology with the following relations:",27,0.5333333333333333,5,0.4216981132075472,0.0,0.0
+hassurname,papillon,is no information about the name of the,"author, so we cannot determine the name of the author. but we can determine the name of the agent based on the text. in the text, the name of the agent is jean-françois. so we can populate the ontology with the following relations:",24,0.5433760683760683,6,0.4224386724386724,0.0,0.0
+hassurname,papillon,has_name,name,78,0.9008333333333334,17,0.4583333333333333,0.0,0.0
+hassurname,papillon,has_name,jean-françois,78,0.9008333333333334,19,0.42414529914529914,0.0,0.0
+hassurname,papillon,record,"module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois')",25,0.4222222222222222,7,0.43468468468468463,0.0,0.0
+hassurname,papillon,has_surname,surname,95,0.9787878787878788,13,0.4226190476190476,0.0,0.0
+hassurname,papillon,has_first_name,first_name,67,0.8674074074074074,22,0.48333333333333334,0.0,0.0
+hassurname,papillon,has_first_name,jean-françois,67,0.8674074074074074,19,0.42414529914529914,0.0,0.0
+hassurname,papillon,has_interagent_relationship_type_to,relationship_type,31,0.5380952380952381,32,0.5730392156862746,0.0,0.0
+hassurname,papillon,has_interagent_relationship_type_to,black leader,31,0.5380952380952381,20,0.4305555555555555,0.0,0.0
+hassurname,papillon,relationship record,"module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(jean-françois, 'black leader')",28,0.4543859649122807,9,0.5607142857142857,0.0,0.0
+hassurname,papillon,is_relationship_to,agent,21,0.5333333333333333,31,0.44166666666666665,0.0,0.0
+hassurname,papillon,is_relationship_to,toussaint bréda,21,0.5333333333333333,26,0.5055555555555555,0.0,0.0
+hassurname,papillon,has_sex,sex_type,59,0.8166666666666667,12,0.0,0.0,0.0
+hassurname,papillon,has_sex,male,59,0.8166666666666667,33,0.5833333333333334,0.0,0.0
+hassurname,papillon,record,"module: 1. has_sex(agent, sex_type): has_sex(jean-françois, 'male')",25,0.4222222222222222,11,0.43320895522388064,0.0,0.0
+hassurname,papillon,has_occupation,occupation,42,0.6190476190476191,56,0.7083333333333334,0.0,0.0
+hassurname,papillon,has_occupation,general,42,0.6190476190476191,27,0.4226190476190476,0.0,0.0
+hassurname,papillon,record,"module: 1. has_occupation(agent, occupation): has_occupation(jean-françois, 'general')",25,0.4222222222222222,13,0.5092746400885936,0.0,0.0
+hassurname,papillon,has_age,age,59,0.8166666666666667,18,0.4861111111111111,0.0,0.0
+hassurname,papillon,record,"module: 1. has_age(agent, age): has_age(jean-françois, '')",25,0.4222222222222222,6,0.43965517241379315,0.0,0.0
+hassurname,papillon,has_birthdate,date_of_birth,52,0.6871794871794871,19,0.4679487179487179,0.0,0.0
+hassurname,papillon,has_deathdate,date_of_death,43,0.5615384615384615,19,0.4679487179487179,0.0,0.0
+hassurname,papillon,has_person_status,black leader,44,0.6735294117647058,20,0.4305555555555555,0.0,0.0
+hassurname,papillon,status record,"module: 1. has_person_status (agent, person_status): has_person_status(jean-françois, 'black leader')",35,0.5760683760683761,11,0.4364686468646865,0.0,0.0
+hassurname,papillon,has_status_generating_event,event,43,0.6703703703703704,15,0.0,0.0,0.0
+hassurname,papillon,has_status_generating_event,oath of loyalty to the spanish king,43,0.6703703703703704,23,0.45476190476190476,0.0,0.0
+hassurname,papillon,of loyalty to the spanish,king'),17,0.4266666666666667,29,0.4305555555555555,0.0,0.0
+hassurname,papillon,recorded_at,event,19,0.41313131313131307,15,0.0,0.0,0.0
+hassurname,papillon,recorded_at,oath of loyalty to the spanish king,19,0.41313131313131307,23,0.45476190476190476,0.0,0.0
+hassurname,papillon,of loyalty to the spanish,king'),17,0.4266666666666667,29,0.4305555555555555,0.0,0.0
+hassurname,papillon,has_race_or_color,race_or_color,44,0.6509803921568628,29,0.42414529914529914,0.0,0.0
+hassurname,papillon,has_race_or_color,black,44,0.6509803921568628,15,0.3833333333333333,0.0,0.0
+hassurname,papillon,record,"module: 1. has_race_or_color(agent, race_or_color): has_race_or_color(jean-françois, 'black').",25,0.4222222222222222,10,0.4927304964539007,0.0,0.0
+hassurname,papillon,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,25,0.5492063492063491,12,0.3866666666666667,0.0,0.0
+hassurname,papillon,has_ethnolinguistic_descriptor,haitian,25,0.5492063492063491,40,0.6011904761904762,0.0,0.0
+hassurname,papillon,descriptor record,"module: 1. has_ethnolinguistic_descriptor(agent, etnolinguistic_descriptor): has_ethnolinguistic_descriptor(jean-françois, 'haitian').",22,0.49215686274509807,8,0.4995557924662402,0.0,0.0
+hassurname,papillon,has_name,name,78,0.9008333333333334,17,0.4583333333333333,0.0,0.0
+hassurname,papillon,has_name,jean-françois,78,0.9008333333333334,19,0.42414529914529914,0.0,0.0
+hassurname,papillon,has_surname,surname,95,0.9787878787878788,13,0.4226190476190476,0.0,0.0
+hassurname,papillon,has_first_name,first_name,67,0.8674074074074074,22,0.48333333333333334,0.0,0.0
+hassurname,papillon,has_first_name,jean-françois,67,0.8674074074074074,19,0.42414529914529914,0.0,0.0
+hassurname,papillon,has_interagent_relationship_type_to,relationship_type,31,0.5380952380952381,32,0.5730392156862746,0.0,0.0
+hassurname,papillon,has_interagent_relationship_type_to,black leader,31,0.5380952380952381,20,0.4305555555555555,0.0,0.0
+hassurname,papillon,is_relationship_to,agent,21,0.5333333333333333,31,0.44166666666666665,0.0,0.0
+hassurname,papillon,is_relationship_to,toussaint bréda,21,0.5333333333333333,26,0.5055555555555555,0.0,0.0
+hassurname,papillon,has_sex,sex_type,59,0.8166666666666667,12,0.0,0.0,0.0
+hassurname,papillon,has_sex,male,59,0.8166666666666667,33,0.5833333333333334,0.0,0.0
+hassurname,papillon,has_occupation,occupation,42,0.6190476190476191,56,0.7083333333333334,0.0,0.0
+hassurname,papillon,has_occupation,general,42,0.6190476190476191,27,0.4226190476190476,0.0,0.0
+hassurname,papillon,has_age,age,59,0.8166666666666667,18,0.4861111111111111,0.0,0.0
+hassurname,papillon,has_birthdate,date_of_birth,52,0.6871794871794871,19,0.4679487179487179,0.0,0.0
+hassurname,papillon,has_deathdate,date_of_death,43,0.5615384615384615,19,0.4679487179487179,0.0,0.0
+hassurname,papillon,has_person_status,black leader,44,0.6735294117647058,20,0.4305555555555555,0.0,0.0
+hassurname,papillon,has_status_generating_event,event,43,0.6703703703703704,15,0.0,0.0,0.0
+hassurname,papillon,has_status_generating_event,oath of loyalty to the spanish king,43,0.6703703703703704,23,0.45476190476190476,0.0,0.0
+hassurname,papillon,recorded_at,event,19,0.41313131313131307,15,0.0,0.0,0.0
+hassurname,papillon,recorded_at,oath of loyalty to the spanish king,19,0.41313131313131307,23,0.45476190476190476,0.0,0.0
+hassurname,papillon,has_race_or_color,race_or_color,44,0.6509803921568628,29,0.42414529914529914,0.0,0.0
+hassurname,papillon,has_race_or_color,black,44,0.6509803921568628,15,0.3833333333333333,0.0,0.0
+hassurname,papillon,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,25,0.5492063492063491,12,0.3866666666666667,0.0,0.0
+hassurname,papillon,has_ethnolinguistic_descriptor,haitian,25,0.5492063492063491,40,0.6011904761904762,0.0,0.0
+hassurname,papillon,has_name,name,78,0.9008333333333334,17,0.4583333333333333,0.0,0.0
+hassurname,papillon,has_name,jean-françois,78,0.9008333333333334,19,0.42414529914529914,0.0,0.0
+hassurname,papillon,has_surname,surname,95,0.9787878787878788,13,0.4226190476190476,0.0,0.0
+hassurname,papillon,has_first_name,first_name,67,0.8674074074074074,22,0.48333333333333334,0.0,0.0
+hassurname,papillon,has_first_name,jean-françois,67,0.8674074074074074,19,0.42414529914529914,0.0,0.0
+hassurname,papillon,has_interagent_relationship_type_to,relationship_type,31,0.5380952380952381,32,0.5730392156862746,0.0,0.0
+hassurname,papillon,has_interagent_relationship_type_to,black leader,31,0.5380952380952381,20,0.4305555555555555,0.0,0.0
+hassurname,papillon,is_relationship_to,agent,21,0.5333333333333333,31,0.44166666666666665,0.0,0.0
+hassurname,papillon,is_relationship_to,toussaint bréda,21,0.5333333333333333,26,0.5055555555555555,0.0,0.0
+hassurname,papillon,has_sex,sex_type,59,0.8166666666666667,12,0.0,0.0,0.0
+hassurname,papillon,has_sex,male,59,0.8166666666666667,33,0.5833333333333334,0.0,0.0
+hassurname,papillon,has_occupation,occupation,42,0.6190476190476191,56,0.7083333333333334,0.0,0.0
+hassurname,papillon,has_occupation,general,42,0.6190476190476191,27,0.4226190476190476,0.0,0.0
+hassurname,papillon,has_age,age,59,0.8166666666666667,18,0.4861111111111111,0.0,0.0
+hassurname,papillon,has_birthdate,date_of_birth,52,0.6871794871794871,19,0.4679487179487179,0.0,0.0
+hassurname,papillon,has_deathdate,date_of_death,43,0.5615384615384615,19,0.4679487179487179,0.0,0.0
+hassurname,papillon,has_person_status,black leader,44,0.6735294117647058,20,0.4305555555555555,0.0,0.0
+hassurname,papillon,has_status_generating_event,event,43,0.6703703703703704,15,0.0,0.0,0.0
+hassurname,papillon,has_status_generating_event,oath of loyalty to the spanish king,43,0.6703703703703704,23,0.45476190476190476,0.0,0.0
+hassurname,papillon,recorded_at,event,19,0.41313131313131307,15,0.0,0.0,0.0
+hassurname,papillon,recorded_at,oath of loyalty to the spanish king,19,0.41313131313131307,23,0.45476190476190476,0.0,0.0
+hassurname,papillon,has_race_or_color,race_or_color,44,0.6509803921568628,29,0.42414529914529914,0.0,0.0
+hassurname,papillon,has_race_or_color,black,44,0.6509803921568628,15,0.3833333333333333,0.0,0.0
+hassurname,papillon,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,25,0.5492063492063491,12,0.3866666666666667,0.0,0.0
+hassurname,papillon,has_ethnolinguistic_descriptor,haitian,25,0.5492063492063491,40,0.6011904761904762,0.0,0.0
+hassurname,papillon,has_name,name,78,0.9008333333333334,17,0.4583333333333333,0.0,0.0
+hassurname,papillon,has_name,jean-françois,78,0.9008333333333334,19,0.42414529914529914,0.0,0.0
+hassurname,papillon,has_surname,surname,95,0.9787878787878788,13,0.4226190476190476,0.0,0.0
+hassurname,papillon,has_first_name,first_name,67,0.8674074074074074,22,0.48333333333333334,0.0,0.0
+hassurname,papillon,has_first_name,jean-françois,67,0.8674074074074074,19,0.42414529914529914,0.0,0.0
+hassurname,papillon,has_interagent_relationship_type_to,relationship_type,31,0.5380952380952381,32,0.5730392156862746,0.0,0.0
+hassurname,papillon,has_interagent_relationship_type_to,black leader,31,0.5380952380952381,20,0.4305555555555555,0.0,0.0
+hassurname,papillon,is_relationship_to,agent,21,0.5333333333333333,31,0.44166666666666665,0.0,0.0
+hassurname,papillon,is_relationship_to,toussaint bréda,21,0.5333333333333333,26,0.5055555555555555,0.0,0.0
+hassurname,papillon,has_sex,sex_type,59,0.8166666666666667,12,0.0,0.0,0.0
+hassurname,papillon,has_sex,male,59,0.8166666666666667,33,0.5833333333333334,0.0,0.0
+hassurname,papillon,has_occupation,occupation,42,0.6190476190476191,56,0.7083333333333334,0.0,0.0
+hassurname,papillon,has_occupation,general,42,0.6190476190476191,27,0.4226190476190476,0.0,0.0
+hassurname,papillon,has_age,age,59,0.8166666666666667,18,0.4861111111111111,0.0,0.0
+hassurname,papillon,has_birthdate,date_of_birth,52,0.6871794871794871,19,0.4679487179487179,0.0,0.0
+hassurname,papillon,has_deathdate,date_of_death,43,0.5615384615384615,19,0.4679487179487179,0.0,0.0
+hassurname,papillon,has_person_status,black leader,44,0.6735294117647058,20,0.4305555555555555,0.0,0.0
+hassurname,papillon,has_status_generating_event,event,43,0.6703703703703704,15,0.0,0.0,0.0
+hassurname,papillon,has_status_generating_event,oath of loyalty to the spanish king,43,0.6703703703703704,23,0.45476190476190476,0.0,0.0
+hassurname,papillon,recorded_at,event,19,0.41313131313131307,15,0.0,0.0,0.0
+hassurname,papillon,recorded_at,oath of loyalty to the spanish king,19,0.41313131313131307,23,0.45476190476190476,0.0,0.0
+hassurname,papillon,has_race_or_color,race_or_color,44,0.6509803921568628,29,0.42414529914529914,0.0,0.0
+hassurname,papillon,has_race_or_color,black,44,0.6509803921568628,15,0.3833333333333333,0.0,0.0
+hassurname,papillon,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,25,0.5492063492063491,12,0.3866666666666667,0.0,0.0
+hassurname,papillon,has_ethnolinguistic_descriptor,haitian,25,0.5492063492063491,40,0.6011904761904762,0.0,0.0
+hassurname,papillon,has_name,name,78,0.9008333333333334,17,0.4583333333333333,0.0,0.0
+hassurname,papillon,has_name,jean-françois,78,0.9008333333333334,19,0.42414529914529914,0.0,0.0
+hassurname,papillon,there is no information about the birth and death dates of,"jean-françois, we cannot populate the age record module with those relations. also, there is no information about the occupation of jean-françois before becoming a general, so we cannot populate the occupation record module with that relation.  answer: the ontology populated based on the text is as follows: name record module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois') 2. has_surname(agent, surname): has_surname(jean-françois, '') 3. has_first_name(agent, first_name): has_first_name(jean-françois, 'jean-françois') interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(jean-françois, 'black leader') 2. is_relationship_to(agent, agent): is_relationship_to(jean-françois, 'toussaint bréda') sex record module: 1. has_sex(agent, sex_type): has_sex(jean-françois, 'male') occupation record module: 1. has_occupation(agent, occupation): has_occupation(jean-françois, 'general') age record module: 1. has_age(agent, age): has_age(jean-françois, '') 2. has_birthdate(agent, date_of_birth): has_birthdate(jean-françois, '') 3. has_deathdate(agent, date_of_death): has_deathdate(jean-françois, '') person status record module: 1. has_person_status (agent, person_status): has_person_status(jean-françois, 'black leader') 2. has_status_generating_event(person_status, event): has_status_generating_event(black leader, 'oath of loyalty to the spanish king') 3. recorded_at(person_status_information, event): recorded_at(black leader, 'oath of loyalty to the spanish king') race record module: 1. has_race_or_color(agent, race_or_color): has_race_or_color(jean-françois, 'black') ethnolinguistic descriptor record module: 1. has_ethnolinguistic_descriptor(agent, etnolinguistic_descriptor): has_ethnolinguistic_descriptor(jean-françois, 'haitian').  the ontology populated based on the text is as follows: name record module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois') 2. has_surname(agent, surname): has_surname(jean-françois, '') 3. has_first_name(agent, first_name): has_first_name(jean-françois, 'jean-françois') interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(jean-françois, 'black leader') 2. is_relationship_to(agent, agent): is_relationship_to(jean-françois, 'toussaint bréda') sex record module: 1. has_sex(agent, sex_type): has_sex(jean-françois, 'male') occupation record module: 1. has_occupation(agent, occupation): has_occupation(jean-françois, 'general') age record module: 1. has_age(agent, age): has_age(jean-françois, '') 2. has_birthdate(agent, date_of_birth): has_birthdate(jean-françois, '') 3. has_deathdate(agent, date_of_death): has_deathdate(jean-françois, '') person status record module: 1. has_person_status (agent, person_status): has_person_status(jean-françois, 'black leader') 2. has_status_generating_event(person_status, event): has_status_generating_event(black leader, 'oath of loyalty to the spanish king') 3. recorded_at(person_status_information, event): recorded_at(black leader, 'oath of loyalty to the spanish king') race record module: 1. has_race_or_color(agent, race_or_color): has_race_or_color(jean-françois, 'black') ethnolinguistic descriptor record module: 1. has_ethnolinguistic_descriptor(agent, etnolinguistic_descriptor): has_ethnolinguistic_descriptor(jean-françois, 'haitian').  the ontology populated based on the text is as follows: name record module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois') 2. has_surname(agent, surname): has_surname(jean-françois, '') 3. has_first_name(agent, first_name): has_first_name(jean-françois, 'jean-françois') interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(jean-françois, 'black leader') 2. is_relationship_to(agent, agent): is_relationship_to(jean-françois, 'toussaint bréda') sex record module: 1. has_sex(agent, sex_type): has_sex(jean-françois, 'male') occupation record module: 1. has_occupation(agent, occupation): has_occupation(jean-françois, 'general') age record module: 1. has_age(agent, age): has_age(jean-françois, '') 2. has_birthdate(agent, date_of_birth): has_birthdate(jean-françois, '') 3. has_deathdate(agent, date_of_death): has_deathdate(jean-françois, '') person status record module: 1. has_person_status (agent, person_status): has_person_status(jean-françois, 'black leader') 2. has_status_generating_event(person_status, event): has_status_generating_event(black leader, 'oath of loyalty to the spanish king') 3. recorded_at(person_status_information, event): recorded_at(black leader, 'oath of loyalty to the spanish king') race record module: 1. has_race_or_color(agent, race_or_color): has_race_or_color(jean-françois, 'black') ethnolinguistic descriptor record module: 1. has_ethnolinguistic_descriptor(agent, etnolinguistic_descriptor): has_ethnolinguistic_descriptor(jean-françois, 'haitian').  the ontology populated based on the text is as follows: name record module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois') 2. has_surname(agent",21,0.5739463601532567,0,0.5421773266947529,0.0,0.0
+haspersonstatus,enslaver or owner,is no,"information about the name of the author, so we cannot determine the name of the author. but we can determine the name of the agent based on the text. in the text, the name of the agent is jean-françois. so we can populate the ontology with the following relations:",20,0.48888888888888893,11,0.5129855715871253,0.0,0.0
+haspersonstatus,enslaver or owner,is no information about the name of the,"author, so we cannot determine the name of the author. but we can determine the name of the agent based on the text. in the text, the name of the agent is jean-françois. so we can populate the ontology with the following relations:",26,0.49914529914529915,11,0.5157626687038451,0.0,0.0
+haspersonstatus,enslaver or owner,has_name,name,43,0.6611111111111111,29,0.5310457516339869,0.0,0.0
+haspersonstatus,enslaver or owner,has_name,jean-françois,43,0.6611111111111111,27,0.4937154348919055,0.0,0.0
+haspersonstatus,enslaver or owner,record,"module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois')",19,0.45555555555555555,22,0.4837926161455573,0.0,0.0
+haspersonstatus,enslaver or owner,has_surname,surname,46,0.6702020202020202,33,0.5361344537815126,0.0,0.0
+haspersonstatus,enslaver or owner,has_first_name,first_name,48,0.6599206349206349,22,0.46470588235294114,0.0,0.0
+haspersonstatus,enslaver or owner,has_first_name,jean-françois,48,0.6599206349206349,27,0.4937154348919055,0.0,0.0
+haspersonstatus,enslaver or owner,has_interagent_relationship_type_to,relationship_type,40,0.5916305916305916,35,0.5220588235294118,0.0,0.0
+haspersonstatus,enslaver or owner,has_interagent_relationship_type_to,black leader,40,0.5916305916305916,34,0.5065359477124183,0.0,0.0
+haspersonstatus,enslaver or owner,relationship record,"module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(jean-françois, 'black leader')",29,0.48479532163742683,15,0.5298319327731092,0.0,0.0
+haspersonstatus,enslaver or owner,is_relationship_to,agent,36,0.6259259259259259,27,0.48104575163398694,0.0,0.0
+haspersonstatus,enslaver or owner,is_relationship_to,toussaint bréda,36,0.6259259259259259,25,0.40915032679738567,0.0,0.0
+haspersonstatus,enslaver or owner,has_sex,sex_type,36,0.6158730158730159,24,0.406045751633987,0.0,0.0
+haspersonstatus,enslaver or owner,has_sex,male,36,0.6158730158730159,19,0.5310457516339869,0.0,0.0
+haspersonstatus,enslaver or owner,record,"module: 1. has_sex(agent, sex_type): has_sex(jean-françois, 'male')",19,0.45555555555555555,21,0.41249634182031025,0.0,0.0
+haspersonstatus,enslaver or owner,has_occupation,occupation,41,0.6365079365079365,22,0.49215686274509807,0.0,0.0
+haspersonstatus,enslaver or owner,has_occupation,general,41,0.6365079365079365,33,0.6255835667600373,0.0,0.0
+haspersonstatus,enslaver or owner,record,"module: 1. has_occupation(agent, occupation): has_occupation(jean-françois, 'general')",19,0.45555555555555555,21,0.47044314554574473,0.0,0.0
+haspersonstatus,enslaver or owner,has_age,age,36,0.6126984126984126,20,0.42810457516339867,0.0,0.0
+haspersonstatus,enslaver or owner,record,"module: 1. has_age(agent, age): has_age(jean-françois, '')",19,0.45555555555555555,21,0.4202163624070318,0.0,0.0
+haspersonstatus,enslaver or owner,has_birthdate,date_of_birth,50,0.6683760683760683,27,0.3476621417797889,0.0,0.0
+haspersonstatus,enslaver or owner,has_deathdate,date_of_death,50,0.6207570207570208,27,0.3476621417797889,0.0,0.0
+haspersonstatus,enslaver or owner,has_person_status,black leader,94,0.9725490196078431,34,0.5065359477124183,0.0,0.0
+haspersonstatus,enslaver or owner,status record,"module: 1. has_person_status (agent, person_status): has_person_status(jean-françois, 'black leader')",43,0.5094017094017094,20,0.543622597553873,0.0,0.0
+haspersonstatus,enslaver or owner,has_status_generating_event,event,43,0.637037037037037,36,0.5950980392156863,0.0,0.0
+haspersonstatus,enslaver or owner,has_status_generating_event,oath of loyalty to the spanish king,43,0.637037037037037,23,0.4413865546218487,0.0,0.0
+haspersonstatus,enslaver or owner,of loyalty to the spanish,king'),25,0.486984126984127,9,0.40849673202614384,0.0,0.0
+haspersonstatus,enslaver or owner,recorded_at,event,31,0.46262626262626255,36,0.5950980392156863,0.0,0.0
+haspersonstatus,enslaver or owner,recorded_at,oath of loyalty to the spanish king,31,0.46262626262626255,23,0.4413865546218487,0.0,0.0
+haspersonstatus,enslaver or owner,of loyalty to the spanish,king'),25,0.486984126984127,9,0.40849673202614384,0.0,0.0
+haspersonstatus,enslaver or owner,has_race_or_color,race_or_color,38,0.530905695611578,40,0.5703242835595778,0.0,0.0
+haspersonstatus,enslaver or owner,has_race_or_color,black,38,0.530905695611578,18,0.5058823529411764,0.0,0.0
+haspersonstatus,enslaver or owner,record,"module: 1. has_race_or_color(agent, race_or_color): has_race_or_color(jean-françois, 'black').",19,0.45555555555555555,22,0.5146313844686811,0.0,0.0
+haspersonstatus,enslaver or owner,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,40,0.609090909090909,33,0.5627450980392157,0.0,0.0
+haspersonstatus,enslaver or owner,has_ethnolinguistic_descriptor,haitian,40,0.609090909090909,17,0.3011204481792717,0.0,0.0
+haspersonstatus,enslaver or owner,descriptor record,"module: 1. has_ethnolinguistic_descriptor(agent, etnolinguistic_descriptor): has_ethnolinguistic_descriptor(jean-françois, 'haitian').",25,0.4176470588235294,17,0.5092088576724222,0.0,0.0
+haspersonstatus,enslaver or owner,has_name,name,43,0.6611111111111111,29,0.5310457516339869,0.0,0.0
+haspersonstatus,enslaver or owner,has_name,jean-françois,43,0.6611111111111111,27,0.4937154348919055,0.0,0.0
+haspersonstatus,enslaver or owner,has_surname,surname,46,0.6702020202020202,33,0.5361344537815126,0.0,0.0
+haspersonstatus,enslaver or owner,has_first_name,first_name,48,0.6599206349206349,22,0.46470588235294114,0.0,0.0
+haspersonstatus,enslaver or owner,has_first_name,jean-françois,48,0.6599206349206349,27,0.4937154348919055,0.0,0.0
+haspersonstatus,enslaver or owner,has_interagent_relationship_type_to,relationship_type,40,0.5916305916305916,35,0.5220588235294118,0.0,0.0
+haspersonstatus,enslaver or owner,has_interagent_relationship_type_to,black leader,40,0.5916305916305916,34,0.5065359477124183,0.0,0.0
+haspersonstatus,enslaver or owner,is_relationship_to,agent,36,0.6259259259259259,27,0.48104575163398694,0.0,0.0
+haspersonstatus,enslaver or owner,is_relationship_to,toussaint bréda,36,0.6259259259259259,25,0.40915032679738567,0.0,0.0
+haspersonstatus,enslaver or owner,has_sex,sex_type,36,0.6158730158730159,24,0.406045751633987,0.0,0.0
+haspersonstatus,enslaver or owner,has_sex,male,36,0.6158730158730159,19,0.5310457516339869,0.0,0.0
+haspersonstatus,enslaver or owner,has_occupation,occupation,41,0.6365079365079365,22,0.49215686274509807,0.0,0.0
+haspersonstatus,enslaver or owner,has_occupation,general,41,0.6365079365079365,33,0.6255835667600373,0.0,0.0
+haspersonstatus,enslaver or owner,has_age,age,36,0.6126984126984126,20,0.42810457516339867,0.0,0.0
+haspersonstatus,enslaver or owner,has_birthdate,date_of_birth,50,0.6683760683760683,27,0.3476621417797889,0.0,0.0
+haspersonstatus,enslaver or owner,has_deathdate,date_of_death,50,0.6207570207570208,27,0.3476621417797889,0.0,0.0
+haspersonstatus,enslaver or owner,has_person_status,black leader,94,0.9725490196078431,34,0.5065359477124183,0.0,0.0
+haspersonstatus,enslaver or owner,has_status_generating_event,event,43,0.637037037037037,36,0.5950980392156863,0.0,0.0
+haspersonstatus,enslaver or owner,has_status_generating_event,oath of loyalty to the spanish king,43,0.637037037037037,23,0.4413865546218487,0.0,0.0
+haspersonstatus,enslaver or owner,recorded_at,event,31,0.46262626262626255,36,0.5950980392156863,0.0,0.0
+haspersonstatus,enslaver or owner,recorded_at,oath of loyalty to the spanish king,31,0.46262626262626255,23,0.4413865546218487,0.0,0.0
+haspersonstatus,enslaver or owner,has_race_or_color,race_or_color,38,0.530905695611578,40,0.5703242835595778,0.0,0.0
+haspersonstatus,enslaver or owner,has_race_or_color,black,38,0.530905695611578,18,0.5058823529411764,0.0,0.0
+haspersonstatus,enslaver or owner,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,40,0.609090909090909,33,0.5627450980392157,0.0,0.0
+haspersonstatus,enslaver or owner,has_ethnolinguistic_descriptor,haitian,40,0.609090909090909,17,0.3011204481792717,0.0,0.0
+haspersonstatus,enslaver or owner,has_name,name,43,0.6611111111111111,29,0.5310457516339869,0.0,0.0
+haspersonstatus,enslaver or owner,has_name,jean-françois,43,0.6611111111111111,27,0.4937154348919055,0.0,0.0
+haspersonstatus,enslaver or owner,has_surname,surname,46,0.6702020202020202,33,0.5361344537815126,0.0,0.0
+haspersonstatus,enslaver or owner,has_first_name,first_name,48,0.6599206349206349,22,0.46470588235294114,0.0,0.0
+haspersonstatus,enslaver or owner,has_first_name,jean-françois,48,0.6599206349206349,27,0.4937154348919055,0.0,0.0
+haspersonstatus,enslaver or owner,has_interagent_relationship_type_to,relationship_type,40,0.5916305916305916,35,0.5220588235294118,0.0,0.0
+haspersonstatus,enslaver or owner,has_interagent_relationship_type_to,black leader,40,0.5916305916305916,34,0.5065359477124183,0.0,0.0
+haspersonstatus,enslaver or owner,is_relationship_to,agent,36,0.6259259259259259,27,0.48104575163398694,0.0,0.0
+haspersonstatus,enslaver or owner,is_relationship_to,toussaint bréda,36,0.6259259259259259,25,0.40915032679738567,0.0,0.0
+haspersonstatus,enslaver or owner,has_sex,sex_type,36,0.6158730158730159,24,0.406045751633987,0.0,0.0
+haspersonstatus,enslaver or owner,has_sex,male,36,0.6158730158730159,19,0.5310457516339869,0.0,0.0
+haspersonstatus,enslaver or owner,has_occupation,occupation,41,0.6365079365079365,22,0.49215686274509807,0.0,0.0
+haspersonstatus,enslaver or owner,has_occupation,general,41,0.6365079365079365,33,0.6255835667600373,0.0,0.0
+haspersonstatus,enslaver or owner,has_age,age,36,0.6126984126984126,20,0.42810457516339867,0.0,0.0
+haspersonstatus,enslaver or owner,has_birthdate,date_of_birth,50,0.6683760683760683,27,0.3476621417797889,0.0,0.0
+haspersonstatus,enslaver or owner,has_deathdate,date_of_death,50,0.6207570207570208,27,0.3476621417797889,0.0,0.0
+haspersonstatus,enslaver or owner,has_person_status,black leader,94,0.9725490196078431,34,0.5065359477124183,0.0,0.0
+haspersonstatus,enslaver or owner,has_status_generating_event,event,43,0.637037037037037,36,0.5950980392156863,0.0,0.0
+haspersonstatus,enslaver or owner,has_status_generating_event,oath of loyalty to the spanish king,43,0.637037037037037,23,0.4413865546218487,0.0,0.0
+haspersonstatus,enslaver or owner,recorded_at,event,31,0.46262626262626255,36,0.5950980392156863,0.0,0.0
+haspersonstatus,enslaver or owner,recorded_at,oath of loyalty to the spanish king,31,0.46262626262626255,23,0.4413865546218487,0.0,0.0
+haspersonstatus,enslaver or owner,has_race_or_color,race_or_color,38,0.530905695611578,40,0.5703242835595778,0.0,0.0
+haspersonstatus,enslaver or owner,has_race_or_color,black,38,0.530905695611578,18,0.5058823529411764,0.0,0.0
+haspersonstatus,enslaver or owner,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,40,0.609090909090909,33,0.5627450980392157,0.0,0.0
+haspersonstatus,enslaver or owner,has_ethnolinguistic_descriptor,haitian,40,0.609090909090909,17,0.3011204481792717,0.0,0.0
+haspersonstatus,enslaver or owner,has_name,name,43,0.6611111111111111,29,0.5310457516339869,0.0,0.0
+haspersonstatus,enslaver or owner,has_name,jean-françois,43,0.6611111111111111,27,0.4937154348919055,0.0,0.0
+haspersonstatus,enslaver or owner,has_surname,surname,46,0.6702020202020202,33,0.5361344537815126,0.0,0.0
+haspersonstatus,enslaver or owner,has_first_name,first_name,48,0.6599206349206349,22,0.46470588235294114,0.0,0.0
+haspersonstatus,enslaver or owner,has_first_name,jean-françois,48,0.6599206349206349,27,0.4937154348919055,0.0,0.0
+haspersonstatus,enslaver or owner,has_interagent_relationship_type_to,relationship_type,40,0.5916305916305916,35,0.5220588235294118,0.0,0.0
+haspersonstatus,enslaver or owner,has_interagent_relationship_type_to,black leader,40,0.5916305916305916,34,0.5065359477124183,0.0,0.0
+haspersonstatus,enslaver or owner,is_relationship_to,agent,36,0.6259259259259259,27,0.48104575163398694,0.0,0.0
+haspersonstatus,enslaver or owner,is_relationship_to,toussaint bréda,36,0.6259259259259259,25,0.40915032679738567,0.0,0.0
+haspersonstatus,enslaver or owner,has_sex,sex_type,36,0.6158730158730159,24,0.406045751633987,0.0,0.0
+haspersonstatus,enslaver or owner,has_sex,male,36,0.6158730158730159,19,0.5310457516339869,0.0,0.0
+haspersonstatus,enslaver or owner,has_occupation,occupation,41,0.6365079365079365,22,0.49215686274509807,0.0,0.0
+haspersonstatus,enslaver or owner,has_occupation,general,41,0.6365079365079365,33,0.6255835667600373,0.0,0.0
+haspersonstatus,enslaver or owner,has_age,age,36,0.6126984126984126,20,0.42810457516339867,0.0,0.0
+haspersonstatus,enslaver or owner,has_birthdate,date_of_birth,50,0.6683760683760683,27,0.3476621417797889,0.0,0.0
+haspersonstatus,enslaver or owner,has_deathdate,date_of_death,50,0.6207570207570208,27,0.3476621417797889,0.0,0.0
+haspersonstatus,enslaver or owner,has_person_status,black leader,94,0.9725490196078431,34,0.5065359477124183,0.0,0.0
+haspersonstatus,enslaver or owner,has_status_generating_event,event,43,0.637037037037037,36,0.5950980392156863,0.0,0.0
+haspersonstatus,enslaver or owner,has_status_generating_event,oath of loyalty to the spanish king,43,0.637037037037037,23,0.4413865546218487,0.0,0.0
+haspersonstatus,enslaver or owner,recorded_at,event,31,0.46262626262626255,36,0.5950980392156863,0.0,0.0
+haspersonstatus,enslaver or owner,recorded_at,oath of loyalty to the spanish king,31,0.46262626262626255,23,0.4413865546218487,0.0,0.0
+haspersonstatus,enslaver or owner,has_race_or_color,race_or_color,38,0.530905695611578,40,0.5703242835595778,0.0,0.0
+haspersonstatus,enslaver or owner,has_race_or_color,black,38,0.530905695611578,18,0.5058823529411764,0.0,0.0
+haspersonstatus,enslaver or owner,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,40,0.609090909090909,33,0.5627450980392157,0.0,0.0
+haspersonstatus,enslaver or owner,has_ethnolinguistic_descriptor,haitian,40,0.609090909090909,17,0.3011204481792717,0.0,0.0
+haspersonstatus,enslaver or owner,has_name,name,43,0.6611111111111111,29,0.5310457516339869,0.0,0.0
+haspersonstatus,enslaver or owner,has_name,jean-françois,43,0.6611111111111111,27,0.4937154348919055,0.0,0.0
+haspersonstatus,enslaver or owner,there is no information about the birth and death dates of,"jean-françois, we cannot populate the age record module with those relations. also, there is no information about the occupation of jean-françois before becoming a general, so we cannot populate the occupation record module with that relation.  answer: the ontology populated based on the text is as follows: name record module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois') 2. has_surname(agent, surname): has_surname(jean-françois, '') 3. has_first_name(agent, first_name): has_first_name(jean-françois, 'jean-françois') interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(jean-françois, 'black leader') 2. is_relationship_to(agent, agent): is_relationship_to(jean-françois, 'toussaint bréda') sex record module: 1. has_sex(agent, sex_type): has_sex(jean-françois, 'male') occupation record module: 1. has_occupation(agent, occupation): has_occupation(jean-françois, 'general') age record module: 1. has_age(agent, age): has_age(jean-françois, '') 2. has_birthdate(agent, date_of_birth): has_birthdate(jean-françois, '') 3. has_deathdate(agent, date_of_death): has_deathdate(jean-françois, '') person status record module: 1. has_person_status (agent, person_status): has_person_status(jean-françois, 'black leader') 2. has_status_generating_event(person_status, event): has_status_generating_event(black leader, 'oath of loyalty to the spanish king') 3. recorded_at(person_status_information, event): recorded_at(black leader, 'oath of loyalty to the spanish king') race record module: 1. has_race_or_color(agent, race_or_color): has_race_or_color(jean-françois, 'black') ethnolinguistic descriptor record module: 1. has_ethnolinguistic_descriptor(agent, etnolinguistic_descriptor): has_ethnolinguistic_descriptor(jean-françois, 'haitian').  the ontology populated based on the text is as follows: name record module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois') 2. has_surname(agent, surname): has_surname(jean-françois, '') 3. has_first_name(agent, first_name): has_first_name(jean-françois, 'jean-françois') interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(jean-françois, 'black leader') 2. is_relationship_to(agent, agent): is_relationship_to(jean-françois, 'toussaint bréda') sex record module: 1. has_sex(agent, sex_type): has_sex(jean-françois, 'male') occupation record module: 1. has_occupation(agent, occupation): has_occupation(jean-françois, 'general') age record module: 1. has_age(agent, age): has_age(jean-françois, '') 2. has_birthdate(agent, date_of_birth): has_birthdate(jean-françois, '') 3. has_deathdate(agent, date_of_death): has_deathdate(jean-françois, '') person status record module: 1. has_person_status (agent, person_status): has_person_status(jean-françois, 'black leader') 2. has_status_generating_event(person_status, event): has_status_generating_event(black leader, 'oath of loyalty to the spanish king') 3. recorded_at(person_status_information, event): recorded_at(black leader, 'oath of loyalty to the spanish king') race record module: 1. has_race_or_color(agent, race_or_color): has_race_or_color(jean-françois, 'black') ethnolinguistic descriptor record module: 1. has_ethnolinguistic_descriptor(agent, etnolinguistic_descriptor): has_ethnolinguistic_descriptor(jean-françois, 'haitian').  the ontology populated based on the text is as follows: name record module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois') 2. has_surname(agent, surname): has_surname(jean-françois, '') 3. has_first_name(agent, first_name): has_first_name(jean-françois, 'jean-françois') interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(jean-françois, 'black leader') 2. is_relationship_to(agent, agent): is_relationship_to(jean-françois, 'toussaint bréda') sex record module: 1. has_sex(agent, sex_type): has_sex(jean-françois, 'male') occupation record module: 1. has_occupation(agent, occupation): has_occupation(jean-françois, 'general') age record module: 1. has_age(agent, age): has_age(jean-françois, '') 2. has_birthdate(agent, date_of_birth): has_birthdate(jean-françois, '') 3. has_deathdate(agent, date_of_death): has_deathdate(jean-françois, '') person status record module: 1. has_person_status (agent, person_status): has_person_status(jean-françois, 'black leader') 2. has_status_generating_event(person_status, event): has_status_generating_event(black leader, 'oath of loyalty to the spanish king') 3. recorded_at(person_status_information, event): recorded_at(black leader, 'oath of loyalty to the spanish king') race record module: 1. has_race_or_color(agent, race_or_color): has_race_or_color(jean-françois, 'black') ethnolinguistic descriptor record module: 1. has_ethnolinguistic_descriptor(agent, etnolinguistic_descriptor): has_ethnolinguistic_descriptor(jean-françois, 'haitian').  the ontology populated based on the text is as follows: name record module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois') 2. has_surname(agent",27,0.4894810170672239,1,0.5108890741283109,0.0,0.0
+instance of,person,is no,"information about the name of the author, so we cannot determine the name of the author. but we can determine the name of the agent based on the text. in the text, the name of the agent is jean-françois. so we can populate the ontology with the following relations:",50,0.5131313131313131,4,0.48406708595387843,0.0,0.0
+instance of,person,is no information about the name of the,"author, so we cannot determine the name of the author. but we can determine the name of the agent based on the text. in the text, the name of the agent is jean-françois. so we can populate the ontology with the following relations:",36,0.5718725718725719,4,0.5516594516594516,0.13378509294631244,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,jean-françois,32,0.537878787878788,32,0.46581196581196577,0.0,0.0
+instance of,person,record,"module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois')",24,0.41919191919191917,10,0.4902402402402402,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,jean-françois,40,0.5692640692640693,32,0.46581196581196577,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,relationship_type,30,0.5269480519480519,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,black leader,30,0.5269480519480519,22,0.0,0.0,0.0
+instance of,person,relationship record,"module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(jean-françois, 'black leader')",33,0.5494417862838915,8,0.5698412698412699,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,toussaint bréda,34,0.5798460798460798,19,0.45555555555555555,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,male,22,0.45598845598845594,20,0.47222222222222215,0.0,0.0
+instance of,person,record,"module: 1. has_sex(agent, sex_type): has_sex(jean-françois, 'male')",24,0.41919191919191917,11,0.5693200663349917,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,general,24,0.38311688311688313,31,0.5396825396825397,0.0,0.0
+instance of,person,record,"module: 1. has_occupation(agent, occupation): has_occupation(jean-françois, 'general')",24,0.41919191919191917,11,0.5638242894056847,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,record,"module: 1. has_age(agent, age): has_age(jean-françois, '')",24,0.41919191919191917,9,0.4952107279693487,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_person_status,black leader,29,0.449554367201426,22,0.0,0.0,0.0
+instance of,person,status record,"module: 1. has_person_status (agent, person_status): has_person_status(jean-françois, 'black leader')",42,0.6773226773226773,11,0.5753575357535753,0.0,0.0
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,oath of loyalty to the spanish king,26,0.4799102132435466,15,0.3984126984126984,0.0,0.0
+instance of,person,of loyalty to the spanish,king'),17,0.42848484848484847,17,0.0,0.19431434016858148,0.0
+instance of,person,recorded_at,event,18,0.4545454545454546,36,0.5777777777777778,0.0,0.0
+instance of,person,recorded_at,oath of loyalty to the spanish king,18,0.4545454545454546,15,0.3984126984126984,0.0,0.0
+instance of,person,of loyalty to the spanish,king'),17,0.42848484848484847,17,0.0,0.19431434016858148,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,black,36,0.5162210338680927,0,0.0,0.0,0.0
+instance of,person,record,"module: 1. has_race_or_color(agent, race_or_color): has_race_or_color(jean-françois, 'black').",24,0.41919191919191917,10,0.5621749408983452,0.0,0.0
+instance of,person,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,34,0.5579124579124579,19,0.5255555555555556,0.0,0.0
+instance of,person,has_ethnolinguistic_descriptor,haitian,34,0.5579124579124579,15,0.4365079365079365,0.0,0.0
+instance of,person,descriptor record,"module: 1. has_ethnolinguistic_descriptor(agent, etnolinguistic_descriptor): has_ethnolinguistic_descriptor(jean-françois, 'haitian').",29,0.5398523045581869,9,0.5704809286898839,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,jean-françois,32,0.537878787878788,32,0.46581196581196577,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,jean-françois,40,0.5692640692640693,32,0.46581196581196577,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,relationship_type,30,0.5269480519480519,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,black leader,30,0.5269480519480519,22,0.0,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,toussaint bréda,34,0.5798460798460798,19,0.45555555555555555,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,male,22,0.45598845598845594,20,0.47222222222222215,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,general,24,0.38311688311688313,31,0.5396825396825397,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_person_status,black leader,29,0.449554367201426,22,0.0,0.0,0.0
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,oath of loyalty to the spanish king,26,0.4799102132435466,15,0.3984126984126984,0.0,0.0
+instance of,person,recorded_at,event,18,0.4545454545454546,36,0.5777777777777778,0.0,0.0
+instance of,person,recorded_at,oath of loyalty to the spanish king,18,0.4545454545454546,15,0.3984126984126984,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,black,36,0.5162210338680927,0,0.0,0.0,0.0
+instance of,person,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,34,0.5579124579124579,19,0.5255555555555556,0.0,0.0
+instance of,person,has_ethnolinguistic_descriptor,haitian,34,0.5579124579124579,15,0.4365079365079365,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,jean-françois,32,0.537878787878788,32,0.46581196581196577,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,jean-françois,40,0.5692640692640693,32,0.46581196581196577,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,relationship_type,30,0.5269480519480519,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,black leader,30,0.5269480519480519,22,0.0,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,toussaint bréda,34,0.5798460798460798,19,0.45555555555555555,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,male,22,0.45598845598845594,20,0.47222222222222215,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,general,24,0.38311688311688313,31,0.5396825396825397,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_person_status,black leader,29,0.449554367201426,22,0.0,0.0,0.0
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,oath of loyalty to the spanish king,26,0.4799102132435466,15,0.3984126984126984,0.0,0.0
+instance of,person,recorded_at,event,18,0.4545454545454546,36,0.5777777777777778,0.0,0.0
+instance of,person,recorded_at,oath of loyalty to the spanish king,18,0.4545454545454546,15,0.3984126984126984,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,black,36,0.5162210338680927,0,0.0,0.0,0.0
+instance of,person,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,34,0.5579124579124579,19,0.5255555555555556,0.0,0.0
+instance of,person,has_ethnolinguistic_descriptor,haitian,34,0.5579124579124579,15,0.4365079365079365,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,jean-françois,32,0.537878787878788,32,0.46581196581196577,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,jean-françois,40,0.5692640692640693,32,0.46581196581196577,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,relationship_type,30,0.5269480519480519,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,black leader,30,0.5269480519480519,22,0.0,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,toussaint bréda,34,0.5798460798460798,19,0.45555555555555555,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,male,22,0.45598845598845594,20,0.47222222222222215,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,general,24,0.38311688311688313,31,0.5396825396825397,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_person_status,black leader,29,0.449554367201426,22,0.0,0.0,0.0
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,oath of loyalty to the spanish king,26,0.4799102132435466,15,0.3984126984126984,0.0,0.0
+instance of,person,recorded_at,event,18,0.4545454545454546,36,0.5777777777777778,0.0,0.0
+instance of,person,recorded_at,oath of loyalty to the spanish king,18,0.4545454545454546,15,0.3984126984126984,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,black,36,0.5162210338680927,0,0.0,0.0,0.0
+instance of,person,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,34,0.5579124579124579,19,0.5255555555555556,0.0,0.0
+instance of,person,has_ethnolinguistic_descriptor,haitian,34,0.5579124579124579,15,0.4365079365079365,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,jean-françois,32,0.537878787878788,32,0.46581196581196577,0.0,0.0
+instance of,person,there is no information about the birth and death dates of,"jean-françois, we cannot populate the age record module with those relations. also, there is no information about the occupation of jean-françois before becoming a general, so we cannot populate the occupation record module with that relation.  answer: the ontology populated based on the text is as follows: name record module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois') 2. has_surname(agent, surname): has_surname(jean-françois, '') 3. has_first_name(agent, first_name): has_first_name(jean-françois, 'jean-françois') interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(jean-françois, 'black leader') 2. is_relationship_to(agent, agent): is_relationship_to(jean-françois, 'toussaint bréda') sex record module: 1. has_sex(agent, sex_type): has_sex(jean-françois, 'male') occupation record module: 1. has_occupation(agent, occupation): has_occupation(jean-françois, 'general') age record module: 1. has_age(agent, age): has_age(jean-françois, '') 2. has_birthdate(agent, date_of_birth): has_birthdate(jean-françois, '') 3. has_deathdate(agent, date_of_death): has_deathdate(jean-françois, '') person status record module: 1. has_person_status (agent, person_status): has_person_status(jean-françois, 'black leader') 2. has_status_generating_event(person_status, event): has_status_generating_event(black leader, 'oath of loyalty to the spanish king') 3. recorded_at(person_status_information, event): recorded_at(black leader, 'oath of loyalty to the spanish king') race record module: 1. has_race_or_color(agent, race_or_color): has_race_or_color(jean-françois, 'black') ethnolinguistic descriptor record module: 1. has_ethnolinguistic_descriptor(agent, etnolinguistic_descriptor): has_ethnolinguistic_descriptor(jean-françois, 'haitian').  the ontology populated based on the text is as follows: name record module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois') 2. has_surname(agent, surname): has_surname(jean-françois, '') 3. has_first_name(agent, first_name): has_first_name(jean-françois, 'jean-françois') interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(jean-françois, 'black leader') 2. is_relationship_to(agent, agent): is_relationship_to(jean-françois, 'toussaint bréda') sex record module: 1. has_sex(agent, sex_type): has_sex(jean-françois, 'male') occupation record module: 1. has_occupation(agent, occupation): has_occupation(jean-françois, 'general') age record module: 1. has_age(agent, age): has_age(jean-françois, '') 2. has_birthdate(agent, date_of_birth): has_birthdate(jean-françois, '') 3. has_deathdate(agent, date_of_death): has_deathdate(jean-françois, '') person status record module: 1. has_person_status (agent, person_status): has_person_status(jean-françois, 'black leader') 2. has_status_generating_event(person_status, event): has_status_generating_event(black leader, 'oath of loyalty to the spanish king') 3. recorded_at(person_status_information, event): recorded_at(black leader, 'oath of loyalty to the spanish king') race record module: 1. has_race_or_color(agent, race_or_color): has_race_or_color(jean-françois, 'black') ethnolinguistic descriptor record module: 1. has_ethnolinguistic_descriptor(agent, etnolinguistic_descriptor): has_ethnolinguistic_descriptor(jean-françois, 'haitian').  the ontology populated based on the text is as follows: name record module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois') 2. has_surname(agent, surname): has_surname(jean-françois, '') 3. has_first_name(agent, first_name): has_first_name(jean-françois, 'jean-françois') interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(jean-françois, 'black leader') 2. is_relationship_to(agent, agent): is_relationship_to(jean-françois, 'toussaint bréda') sex record module: 1. has_sex(agent, sex_type): has_sex(jean-françois, 'male') occupation record module: 1. has_occupation(agent, occupation): has_occupation(jean-françois, 'general') age record module: 1. has_age(agent, age): has_age(jean-françois, '') 2. has_birthdate(agent, date_of_birth): has_birthdate(jean-françois, '') 3. has_deathdate(agent, date_of_death): has_deathdate(jean-françois, '') person status record module: 1. has_person_status (agent, person_status): has_person_status(jean-françois, 'black leader') 2. has_status_generating_event(person_status, event): has_status_generating_event(black leader, 'oath of loyalty to the spanish king') 3. recorded_at(person_status_information, event): recorded_at(black leader, 'oath of loyalty to the spanish king') race record module: 1. has_race_or_color(agent, race_or_color): has_race_or_color(jean-françois, 'black') ethnolinguistic descriptor record module: 1. has_ethnolinguistic_descriptor(agent, etnolinguistic_descriptor): has_ethnolinguistic_descriptor(jean-françois, 'haitian').  the ontology populated based on the text is as follows: name record module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois') 2. has_surname(agent",26,0.5605015673981191,0,0.5559385505766202,0.12725898700975252,0.021053000649059527
+hasparticipantrole,participant,is no,"information about the name of the author, so we cannot determine the name of the author. but we can determine the name of the agent based on the text. in the text, the name of the agent is jean-françois. so we can populate the ontology with the following relations:",26,0.337037037037037,7,0.506270249666476,0.0,0.0
+hasparticipantrole,participant,is no information about the name of the,"author, so we cannot determine the name of the author. but we can determine the name of the agent based on the text. in the text, the name of the agent is jean-françois. so we can populate the ontology with the following relations:",28,0.5192307692307693,8,0.47089947089947093,0.0,0.0
+hasparticipantrole,participant,has_name,name,38,0.5675925925925926,13,0.44696969696969696,0.0,0.0
+hasparticipantrole,participant,has_name,jean-françois,38,0.5675925925925926,33,0.5463869463869464,0.0,0.0
+hasparticipantrole,participant,record,"module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois')",25,0.48148148148148145,12,0.3892301392301392,0.0,0.0
+hasparticipantrole,participant,has_surname,surname,41,0.6274651274651274,22,0.32251082251082247,0.0,0.0
+hasparticipantrole,participant,has_first_name,first_name,44,0.6772486772486772,29,0.5181818181818182,0.0,0.0
+hasparticipantrole,participant,has_first_name,jean-françois,44,0.6772486772486772,33,0.5463869463869464,0.0,0.0
+hasparticipantrole,participant,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,43,0.6492869875222816,0.0,0.0
+hasparticipantrole,participant,has_interagent_relationship_type_to,black leader,42,0.6570105820105819,26,0.5075757575757576,0.0,0.0
+hasparticipantrole,participant,relationship record,"module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(jean-françois, 'black leader')",38,0.5994152046783626,13,0.5268398268398268,0.0,0.0
+hasparticipantrole,participant,is_relationship_to,agent,44,0.6037037037037037,38,0.5272727272727272,0.0,0.0
+hasparticipantrole,participant,is_relationship_to,toussaint bréda,44,0.6037037037037037,31,0.5373737373737374,0.0,0.0
+hasparticipantrole,participant,has_sex,sex_type,32,0.5317460317460317,21,0.4772727272727273,0.0,0.0
+hasparticipantrole,participant,has_sex,male,32,0.5317460317460317,13,0.44696969696969696,0.0,0.0
+hasparticipantrole,participant,record,"module: 1. has_sex(agent, sex_type): has_sex(jean-françois, 'male')",25,0.48148148148148145,13,0.4338911503090608,0.0,0.0
+hasparticipantrole,participant,has_occupation,occupation,50,0.6566137566137565,48,0.604040404040404,0.0,0.0
+hasparticipantrole,participant,has_occupation,general,50,0.6566137566137565,22,0.32251082251082247,0.0,0.0
+hasparticipantrole,participant,record,"module: 1. has_occupation(agent, occupation): has_occupation(jean-françois, 'general')",25,0.48148148148148145,19,0.5417899929527836,0.0,0.0
+hasparticipantrole,participant,has_age,age,40,0.5978835978835978,14,0.47474747474747475,0.0,0.0
+hasparticipantrole,participant,record,"module: 1. has_age(agent, age): has_age(jean-françois, '')",25,0.48148148148148145,12,0.3942006269592477,0.0,0.0
+hasparticipantrole,participant,has_birthdate,date_of_birth,52,0.6937321937321936,33,0.5571095571095571,0.0,0.0
+hasparticipantrole,participant,has_deathdate,date_of_death,52,0.6866096866096866,33,0.5571095571095571,0.0,0.0
+hasparticipantrole,participant,has_person_status,black leader,46,0.6479302832244008,26,0.5075757575757576,0.0,0.0
+hasparticipantrole,participant,status record,"module: 1. has_person_status (agent, person_status): has_person_status(jean-françois, 'black leader')",39,0.4995929995929996,12,0.47716021602160213,0.0,0.0
+hasparticipantrole,participant,has_status_generating_event,event,40,0.5819304152637487,25,0.43030303030303035,0.0,0.0
+hasparticipantrole,participant,has_status_generating_event,oath of loyalty to the spanish king,40,0.5819304152637487,22,0.4926406926406926,0.0,0.0
+hasparticipantrole,participant,of loyalty to the spanish,king'),23,0.4718518518518519,24,0.41919191919191917,0.0,0.0
+hasparticipantrole,participant,recorded_at,event,28,0.36195286195286197,25,0.43030303030303035,0.0,0.0
+hasparticipantrole,participant,recorded_at,oath of loyalty to the spanish king,28,0.36195286195286197,22,0.4926406926406926,0.0,0.0
+hasparticipantrole,participant,of loyalty to the spanish,king'),23,0.4718518518518519,24,0.41919191919191917,0.0,0.0
+hasparticipantrole,participant,has_race_or_color,race_or_color,46,0.60239651416122,25,0.3900543900543901,0.0,0.0
+hasparticipantrole,participant,has_race_or_color,black,46,0.60239651416122,25,0.5272727272727272,0.0,0.0
+hasparticipantrole,participant,record,"module: 1. has_race_or_color(agent, race_or_color): has_race_or_color(jean-françois, 'black').",25,0.48148148148148145,11,0.4808725553406405,0.0,0.0
+hasparticipantrole,participant,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,42,0.5903133903133903,33,0.48404040404040405,0.0,0.0
+hasparticipantrole,participant,has_ethnolinguistic_descriptor,haitian,42,0.5903133903133903,56,0.7453102453102454,0.0,0.0
+hasparticipantrole,participant,descriptor record,"module: 1. has_ethnolinguistic_descriptor(agent, etnolinguistic_descriptor): has_ethnolinguistic_descriptor(jean-françois, 'haitian').",40,0.5653594771241829,15,0.5425146992311171,0.0,0.0
+hasparticipantrole,participant,has_name,name,38,0.5675925925925926,13,0.44696969696969696,0.0,0.0
+hasparticipantrole,participant,has_name,jean-françois,38,0.5675925925925926,33,0.5463869463869464,0.0,0.0
+hasparticipantrole,participant,has_surname,surname,41,0.6274651274651274,22,0.32251082251082247,0.0,0.0
+hasparticipantrole,participant,has_first_name,first_name,44,0.6772486772486772,29,0.5181818181818182,0.0,0.0
+hasparticipantrole,participant,has_first_name,jean-françois,44,0.6772486772486772,33,0.5463869463869464,0.0,0.0
+hasparticipantrole,participant,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,43,0.6492869875222816,0.0,0.0
+hasparticipantrole,participant,has_interagent_relationship_type_to,black leader,42,0.6570105820105819,26,0.5075757575757576,0.0,0.0
+hasparticipantrole,participant,is_relationship_to,agent,44,0.6037037037037037,38,0.5272727272727272,0.0,0.0
+hasparticipantrole,participant,is_relationship_to,toussaint bréda,44,0.6037037037037037,31,0.5373737373737374,0.0,0.0
+hasparticipantrole,participant,has_sex,sex_type,32,0.5317460317460317,21,0.4772727272727273,0.0,0.0
+hasparticipantrole,participant,has_sex,male,32,0.5317460317460317,13,0.44696969696969696,0.0,0.0
+hasparticipantrole,participant,has_occupation,occupation,50,0.6566137566137565,48,0.604040404040404,0.0,0.0
+hasparticipantrole,participant,has_occupation,general,50,0.6566137566137565,22,0.32251082251082247,0.0,0.0
+hasparticipantrole,participant,has_age,age,40,0.5978835978835978,14,0.47474747474747475,0.0,0.0
+hasparticipantrole,participant,has_birthdate,date_of_birth,52,0.6937321937321936,33,0.5571095571095571,0.0,0.0
+hasparticipantrole,participant,has_deathdate,date_of_death,52,0.6866096866096866,33,0.5571095571095571,0.0,0.0
+hasparticipantrole,participant,has_person_status,black leader,46,0.6479302832244008,26,0.5075757575757576,0.0,0.0
+hasparticipantrole,participant,has_status_generating_event,event,40,0.5819304152637487,25,0.43030303030303035,0.0,0.0
+hasparticipantrole,participant,has_status_generating_event,oath of loyalty to the spanish king,40,0.5819304152637487,22,0.4926406926406926,0.0,0.0
+hasparticipantrole,participant,recorded_at,event,28,0.36195286195286197,25,0.43030303030303035,0.0,0.0
+hasparticipantrole,participant,recorded_at,oath of loyalty to the spanish king,28,0.36195286195286197,22,0.4926406926406926,0.0,0.0
+hasparticipantrole,participant,has_race_or_color,race_or_color,46,0.60239651416122,25,0.3900543900543901,0.0,0.0
+hasparticipantrole,participant,has_race_or_color,black,46,0.60239651416122,25,0.5272727272727272,0.0,0.0
+hasparticipantrole,participant,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,42,0.5903133903133903,33,0.48404040404040405,0.0,0.0
+hasparticipantrole,participant,has_ethnolinguistic_descriptor,haitian,42,0.5903133903133903,56,0.7453102453102454,0.0,0.0
+hasparticipantrole,participant,has_name,name,38,0.5675925925925926,13,0.44696969696969696,0.0,0.0
+hasparticipantrole,participant,has_name,jean-françois,38,0.5675925925925926,33,0.5463869463869464,0.0,0.0
+hasparticipantrole,participant,has_surname,surname,41,0.6274651274651274,22,0.32251082251082247,0.0,0.0
+hasparticipantrole,participant,has_first_name,first_name,44,0.6772486772486772,29,0.5181818181818182,0.0,0.0
+hasparticipantrole,participant,has_first_name,jean-françois,44,0.6772486772486772,33,0.5463869463869464,0.0,0.0
+hasparticipantrole,participant,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,43,0.6492869875222816,0.0,0.0
+hasparticipantrole,participant,has_interagent_relationship_type_to,black leader,42,0.6570105820105819,26,0.5075757575757576,0.0,0.0
+hasparticipantrole,participant,is_relationship_to,agent,44,0.6037037037037037,38,0.5272727272727272,0.0,0.0
+hasparticipantrole,participant,is_relationship_to,toussaint bréda,44,0.6037037037037037,31,0.5373737373737374,0.0,0.0
+hasparticipantrole,participant,has_sex,sex_type,32,0.5317460317460317,21,0.4772727272727273,0.0,0.0
+hasparticipantrole,participant,has_sex,male,32,0.5317460317460317,13,0.44696969696969696,0.0,0.0
+hasparticipantrole,participant,has_occupation,occupation,50,0.6566137566137565,48,0.604040404040404,0.0,0.0
+hasparticipantrole,participant,has_occupation,general,50,0.6566137566137565,22,0.32251082251082247,0.0,0.0
+hasparticipantrole,participant,has_age,age,40,0.5978835978835978,14,0.47474747474747475,0.0,0.0
+hasparticipantrole,participant,has_birthdate,date_of_birth,52,0.6937321937321936,33,0.5571095571095571,0.0,0.0
+hasparticipantrole,participant,has_deathdate,date_of_death,52,0.6866096866096866,33,0.5571095571095571,0.0,0.0
+hasparticipantrole,participant,has_person_status,black leader,46,0.6479302832244008,26,0.5075757575757576,0.0,0.0
+hasparticipantrole,participant,has_status_generating_event,event,40,0.5819304152637487,25,0.43030303030303035,0.0,0.0
+hasparticipantrole,participant,has_status_generating_event,oath of loyalty to the spanish king,40,0.5819304152637487,22,0.4926406926406926,0.0,0.0
+hasparticipantrole,participant,recorded_at,event,28,0.36195286195286197,25,0.43030303030303035,0.0,0.0
+hasparticipantrole,participant,recorded_at,oath of loyalty to the spanish king,28,0.36195286195286197,22,0.4926406926406926,0.0,0.0
+hasparticipantrole,participant,has_race_or_color,race_or_color,46,0.60239651416122,25,0.3900543900543901,0.0,0.0
+hasparticipantrole,participant,has_race_or_color,black,46,0.60239651416122,25,0.5272727272727272,0.0,0.0
+hasparticipantrole,participant,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,42,0.5903133903133903,33,0.48404040404040405,0.0,0.0
+hasparticipantrole,participant,has_ethnolinguistic_descriptor,haitian,42,0.5903133903133903,56,0.7453102453102454,0.0,0.0
+hasparticipantrole,participant,has_name,name,38,0.5675925925925926,13,0.44696969696969696,0.0,0.0
+hasparticipantrole,participant,has_name,jean-françois,38,0.5675925925925926,33,0.5463869463869464,0.0,0.0
+hasparticipantrole,participant,has_surname,surname,41,0.6274651274651274,22,0.32251082251082247,0.0,0.0
+hasparticipantrole,participant,has_first_name,first_name,44,0.6772486772486772,29,0.5181818181818182,0.0,0.0
+hasparticipantrole,participant,has_first_name,jean-françois,44,0.6772486772486772,33,0.5463869463869464,0.0,0.0
+hasparticipantrole,participant,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,43,0.6492869875222816,0.0,0.0
+hasparticipantrole,participant,has_interagent_relationship_type_to,black leader,42,0.6570105820105819,26,0.5075757575757576,0.0,0.0
+hasparticipantrole,participant,is_relationship_to,agent,44,0.6037037037037037,38,0.5272727272727272,0.0,0.0
+hasparticipantrole,participant,is_relationship_to,toussaint bréda,44,0.6037037037037037,31,0.5373737373737374,0.0,0.0
+hasparticipantrole,participant,has_sex,sex_type,32,0.5317460317460317,21,0.4772727272727273,0.0,0.0
+hasparticipantrole,participant,has_sex,male,32,0.5317460317460317,13,0.44696969696969696,0.0,0.0
+hasparticipantrole,participant,has_occupation,occupation,50,0.6566137566137565,48,0.604040404040404,0.0,0.0
+hasparticipantrole,participant,has_occupation,general,50,0.6566137566137565,22,0.32251082251082247,0.0,0.0
+hasparticipantrole,participant,has_age,age,40,0.5978835978835978,14,0.47474747474747475,0.0,0.0
+hasparticipantrole,participant,has_birthdate,date_of_birth,52,0.6937321937321936,33,0.5571095571095571,0.0,0.0
+hasparticipantrole,participant,has_deathdate,date_of_death,52,0.6866096866096866,33,0.5571095571095571,0.0,0.0
+hasparticipantrole,participant,has_person_status,black leader,46,0.6479302832244008,26,0.5075757575757576,0.0,0.0
+hasparticipantrole,participant,has_status_generating_event,event,40,0.5819304152637487,25,0.43030303030303035,0.0,0.0
+hasparticipantrole,participant,has_status_generating_event,oath of loyalty to the spanish king,40,0.5819304152637487,22,0.4926406926406926,0.0,0.0
+hasparticipantrole,participant,recorded_at,event,28,0.36195286195286197,25,0.43030303030303035,0.0,0.0
+hasparticipantrole,participant,recorded_at,oath of loyalty to the spanish king,28,0.36195286195286197,22,0.4926406926406926,0.0,0.0
+hasparticipantrole,participant,has_race_or_color,race_or_color,46,0.60239651416122,25,0.3900543900543901,0.0,0.0
+hasparticipantrole,participant,has_race_or_color,black,46,0.60239651416122,25,0.5272727272727272,0.0,0.0
+hasparticipantrole,participant,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,42,0.5903133903133903,33,0.48404040404040405,0.0,0.0
+hasparticipantrole,participant,has_ethnolinguistic_descriptor,haitian,42,0.5903133903133903,56,0.7453102453102454,0.0,0.0
+hasparticipantrole,participant,has_name,name,38,0.5675925925925926,13,0.44696969696969696,0.0,0.0
+hasparticipantrole,participant,has_name,jean-françois,38,0.5675925925925926,33,0.5463869463869464,0.0,0.0
+hasparticipantrole,participant,there is no information about the birth and death dates of,"jean-françois, we cannot populate the age record module with those relations. also, there is no information about the occupation of jean-françois before becoming a general, so we cannot populate the occupation record module with that relation.  answer: the ontology populated based on the text is as follows: name record module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois') 2. has_surname(agent, surname): has_surname(jean-françois, '') 3. has_first_name(agent, first_name): has_first_name(jean-françois, 'jean-françois') interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(jean-françois, 'black leader') 2. is_relationship_to(agent, agent): is_relationship_to(jean-françois, 'toussaint bréda') sex record module: 1. has_sex(agent, sex_type): has_sex(jean-françois, 'male') occupation record module: 1. has_occupation(agent, occupation): has_occupation(jean-françois, 'general') age record module: 1. has_age(agent, age): has_age(jean-françois, '') 2. has_birthdate(agent, date_of_birth): has_birthdate(jean-françois, '') 3. has_deathdate(agent, date_of_death): has_deathdate(jean-françois, '') person status record module: 1. has_person_status (agent, person_status): has_person_status(jean-françois, 'black leader') 2. has_status_generating_event(person_status, event): has_status_generating_event(black leader, 'oath of loyalty to the spanish king') 3. recorded_at(person_status_information, event): recorded_at(black leader, 'oath of loyalty to the spanish king') race record module: 1. has_race_or_color(agent, race_or_color): has_race_or_color(jean-françois, 'black') ethnolinguistic descriptor record module: 1. has_ethnolinguistic_descriptor(agent, etnolinguistic_descriptor): has_ethnolinguistic_descriptor(jean-françois, 'haitian').  the ontology populated based on the text is as follows: name record module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois') 2. has_surname(agent, surname): has_surname(jean-françois, '') 3. has_first_name(agent, first_name): has_first_name(jean-françois, 'jean-françois') interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(jean-françois, 'black leader') 2. is_relationship_to(agent, agent): is_relationship_to(jean-françois, 'toussaint bréda') sex record module: 1. has_sex(agent, sex_type): has_sex(jean-françois, 'male') occupation record module: 1. has_occupation(agent, occupation): has_occupation(jean-françois, 'general') age record module: 1. has_age(agent, age): has_age(jean-françois, '') 2. has_birthdate(agent, date_of_birth): has_birthdate(jean-françois, '') 3. has_deathdate(agent, date_of_death): has_deathdate(jean-françois, '') person status record module: 1. has_person_status (agent, person_status): has_person_status(jean-françois, 'black leader') 2. has_status_generating_event(person_status, event): has_status_generating_event(black leader, 'oath of loyalty to the spanish king') 3. recorded_at(person_status_information, event): recorded_at(black leader, 'oath of loyalty to the spanish king') race record module: 1. has_race_or_color(agent, race_or_color): has_race_or_color(jean-françois, 'black') ethnolinguistic descriptor record module: 1. has_ethnolinguistic_descriptor(agent, etnolinguistic_descriptor): has_ethnolinguistic_descriptor(jean-françois, 'haitian').  the ontology populated based on the text is as follows: name record module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois') 2. has_surname(agent, surname): has_surname(jean-françois, '') 3. has_first_name(agent, first_name): has_first_name(jean-françois, 'jean-françois') interagent relationship record module: 1. has_interagent_relationship_type_to(agent, relationship_type): has_interagent_relationship_type_to(jean-françois, 'black leader') 2. is_relationship_to(agent, agent): is_relationship_to(jean-françois, 'toussaint bréda') sex record module: 1. has_sex(agent, sex_type): has_sex(jean-françois, 'male') occupation record module: 1. has_occupation(agent, occupation): has_occupation(jean-françois, 'general') age record module: 1. has_age(agent, age): has_age(jean-françois, '') 2. has_birthdate(agent, date_of_birth): has_birthdate(jean-françois, '') 3. has_deathdate(agent, date_of_death): has_deathdate(jean-françois, '') person status record module: 1. has_person_status (agent, person_status): has_person_status(jean-françois, 'black leader') 2. has_status_generating_event(person_status, event): has_status_generating_event(black leader, 'oath of loyalty to the spanish king') 3. recorded_at(person_status_information, event): recorded_at(black leader, 'oath of loyalty to the spanish king') race record module: 1. has_race_or_color(agent, race_or_color): has_race_or_color(jean-françois, 'black') ethnolinguistic descriptor record module: 1. has_ethnolinguistic_descriptor(agent, etnolinguistic_descriptor): has_ethnolinguistic_descriptor(jean-françois, 'haitian').  the ontology populated based on the text is as follows: name record module: 1. has_name(agent, name): has_name(jean-françois, 'jean-françois') 2. has_surname(agent",26,0.4949405639060811,0,0.5764597332961944,0.0,0.0

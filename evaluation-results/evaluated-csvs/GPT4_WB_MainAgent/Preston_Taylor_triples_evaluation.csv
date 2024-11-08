@@ -1,0 +1,541 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,on the provided,"text, the following ontology can be populated:",38,0.5292929292929293,12,0.5217391304347826,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,taylor,32,0.537878787878788,17,0.4444444444444444,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,taylor,27,0.49242424242424243,17,0.4444444444444444,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type,relationship_type,33,0.5340909090909091,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type,spouse,33,0.5340909090909091,33,0.5555555555555555,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,georgia gordon taylor,34,0.5798460798460798,30,0.5357142857142857,0.0,0.0
+instance of,person,is_relationship_to,ida d,34,0.5798460798460798,0,0.0,0.0,0.0
+instance of,person,gordon,"taylor'), is_relationship_to(taylor, 'ida d')",12,0.41919191919191917,16,0.5814814814814815,0.0,0.0
+instance of,person,role record,module:,27,0.49242424242424243,15,0.0,0.0,0.0
+instance of,person,has_participant_role,participant_role_type,32,0.5668831168831169,22,0.5357142857142857,0.0,0.0
+instance of,person,has_participant_role,minister,32,0.5668831168831169,29,0.3611111111111111,0.0,0.0
+instance of,person,has_participant_role,businessman,32,0.5668831168831169,35,0.47979797979797983,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,not provided in the,text,27,0.5093035619351408,20,0.47222222222222215,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,minister,24,0.38311688311688313,29,0.3611111111111111,0.0,0.0
+instance of,person,has_occupation,railroad contractor,24,0.38311688311688313,24,0.5526315789473685,0.0,0.0
+instance of,person,has_occupation,businessman,24,0.38311688311688313,35,0.47979797979797983,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,not provided in the,text,27,0.5093035619351408,20,0.47222222222222215,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,not provided in the,text,27,0.5093035619351408,20,0.47222222222222215,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,not provided in the,text,27,0.5093035619351408,20,0.47222222222222215,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,african american,36,0.5162210338680927,27,0.4861111111111111,0.0,0.0
+instance of,person,descriptor record,module:,29,0.5398523045581869,15,0.0,0.0,0.0
+instance of,person,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,34,0.5579124579124579,19,0.5255555555555556,0.0,0.0
+instance of,person,not provided in the,text,27,0.5093035619351408,20,0.47222222222222215,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,free man,29,0.449554367201426,29,0.5138888888888888,0.0,0.0
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,end of civil war,26,0.4799102132435466,18,0.45138888888888884,0.0,0.0
+instance of,person,of civil,war'),21,0.3106060606060606,18,0.45555555555555555,0.33609692727625756,0.0
+instance of,person,is no,"explicit information on taylor's first name, sex, age, birth date, death date, or ethnolinguistic descriptor.",50,0.5131313131313131,9,0.518348623853211,0.0,0.0
+instance of,person,text does not provide information on all the,"modules. for example, there is no explicit information on taylor's first name, sex, age, birth date, death date, or ethnolinguistic descriptor.",22,0.5260942760942761,8,0.5695415695415695,0.0,0.0
+hassex,male,on the provided,"text, the following ontology can be populated:",19,0.48888888888888893,12,0.34782608695652173,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_name,name,57,0.8055555555555556,50,0.6666666666666666,0.0,0.0
+hassex,male,has_name,taylor,57,0.8055555555555556,40,0.611111111111111,0.0,0.0
+hassex,male,has_surname,surname,59,0.6767676767676768,36,0.0,0.0,0.0
+hassex,male,has_surname,taylor,59,0.6767676767676768,40,0.611111111111111,0.0,0.0
+hassex,male,relationship record,module:,24,0.44152046783625726,55,0.7535714285714287,0.0,0.0
+hassex,male,has_interagent_relationship_type,relationship_type,26,0.5972222222222222,19,0.5310457516339869,0.0,0.0
+hassex,male,has_interagent_relationship_type,spouse,26,0.5972222222222222,20,0.47222222222222215,0.0,0.0
+hassex,male,is_relationship_to,agent,17,0.46296296296296297,44,0.6333333333333333,0.0,0.0
+hassex,male,is_relationship_to,georgia gordon taylor,17,0.46296296296296297,16,0.3650793650793651,0.0,0.0
+hassex,male,is_relationship_to,ida d,17,0.46296296296296297,22,0.48333333333333334,0.0,0.0
+hassex,male,gordon,"taylor'), is_relationship_to(taylor, 'ida d')",0,0.0,12,0.6055555555555555,0.0,0.0
+hassex,male,role record,module:,12,0.41919191919191917,55,0.7535714285714287,0.0,0.0
+hassex,male,has_participant_role,participant_role_type,31,0.5499999999999999,24,0.43253968253968256,0.0,0.0
+hassex,male,has_participant_role,minister,31,0.5499999999999999,33,0.5833333333333334,0.0,0.0
+hassex,male,has_participant_role,businessman,31,0.5499999999999999,27,0.44696969696969696,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_sex,sex_type,92,0.9666666666666667,17,0.4583333333333333,0.0,0.0
+hassex,male,not provided in the,text,16,0.4064327485380117,25,0.0,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_occupation,occupation,30,0.5714285714285715,14,0.45,0.0,0.0
+hassex,male,has_occupation,minister,30,0.5714285714285715,33,0.5833333333333334,0.0,0.0
+hassex,male,has_occupation,railroad contractor,30,0.5714285714285715,17,0.5350877192982456,0.0,0.0
+hassex,male,has_occupation,businessman,30,0.5714285714285715,27,0.44696969696969696,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_age,age,62,0.8222222222222222,57,0.7222222222222222,0.0,0.0
+hassex,male,not provided in the,text,16,0.4064327485380117,25,0.0,0.0,0.0
+hassex,male,has_birthdate,date_of_birth,42,0.576923076923077,24,0.5512820512820512,0.0,0.0
+hassex,male,not provided in the,text,16,0.4064327485380117,25,0.0,0.0,0.0
+hassex,male,has_deathdate,date_of_death,42,0.6581196581196581,24,0.5512820512820512,0.0,0.0
+hassex,male,not provided in the,text,16,0.4064327485380117,25,0.0,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_race_or_color,race_or_color,35,0.6339869281045751,24,0.5512820512820512,0.0,0.0
+hassex,male,has_race_or_color,african american,35,0.6339869281045751,20,0.5416666666666666,0.0,0.0
+hassex,male,descriptor record,module:,17,0.31699346405228757,55,0.7535714285714287,0.0,0.0
+hassex,male,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,28,0.6,14,0.36000000000000004,0.0,0.0
+hassex,male,not provided in the,text,16,0.4064327485380117,25,0.0,0.0,0.0
+hassex,male,status record,module:,32,0.5747863247863249,55,0.7535714285714287,0.0,0.0
+hassex,male,has_person_status,free man,35,0.642483660130719,33,0.4583333333333333,0.0,0.0
+hassex,male,has_status_generating_event,event,30,0.6728395061728395,22,0.48333333333333334,0.0,0.0
+hassex,male,has_status_generating_event,end of civil war,30,0.6728395061728395,10,0.4375,0.0,0.0
+hassex,male,of civil,war'),0,0.0,22,0.48333333333333334,0.0,0.0
+hassex,male,is no,"explicit information on taylor's first name, sex, age, birth date, death date, or ethnolinguistic descriptor.",18,0.45555555555555555,7,0.5122324159021406,0.0,0.0
+hassex,male,text does not provide information on all the,"modules. for example, there is no explicit information on taylor's first name, sex, age, birth date, death date, or ethnolinguistic descriptor.",8,0.4116161616161616,5,0.5926573426573426,0.0,0.0
+hasparticipantrole,child,on the provided,"text, the following ontology can be populated:",30,0.4756613756613757,16,0.44396135265700476,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,taylor,38,0.5675925925925926,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,taylor,41,0.6274651274651274,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type,relationship_type,44,0.65625,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type,spouse,44,0.65625,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,georgia gordon taylor,44,0.6037037037037037,15,0.4984126984126984,0.0,0.0
+hasparticipantrole,child,is_relationship_to,ida d,44,0.6037037037037037,40,0.4666666666666666,0.0,0.0
+hasparticipantrole,child,gordon,"taylor'), is_relationship_to(taylor, 'ida d')",17,0.48148148148148145,16,0.4444444444444444,0.0,0.0
+hasparticipantrole,child,role record,module:,28,0.4452861952861953,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant_role_type,95,0.9766666666666667,23,0.33174603174603173,0.0,0.0
+hasparticipantrole,child,has_participant_role,minister,95,0.9766666666666667,15,0.44166666666666665,0.0,0.0
+hasparticipantrole,child,has_participant_role,businessman,95,0.9766666666666667,12,0.43030303030303035,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,not provided in the,text,38,0.4968323586744639,0,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,minister,50,0.6566137566137565,15,0.44166666666666665,0.0,0.0
+hasparticipantrole,child,has_occupation,railroad contractor,50,0.6566137566137565,25,0.5859649122807017,0.0,0.0
+hasparticipantrole,child,has_occupation,businessman,50,0.6566137566137565,12,0.43030303030303035,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_age,age,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,not provided in the,text,38,0.4968323586744639,0,0.0,0.0,0.0
+hasparticipantrole,child,has_birthdate,date_of_birth,52,0.6937321937321936,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,not provided in the,text,38,0.4968323586744639,0,0.0,0.0,0.0
+hasparticipantrole,child,has_deathdate,date_of_death,52,0.6866096866096866,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,not provided in the,text,38,0.4968323586744639,0,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_race_or_color,race_or_color,46,0.60239651416122,22,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_race_or_color,african american,46,0.60239651416122,19,0.3416666666666666,0.0,0.0
+hasparticipantrole,child,descriptor record,module:,40,0.5653594771241829,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,42,0.5903133903133903,13,0.46222222222222226,0.0,0.0
+hasparticipantrole,child,not provided in the,text,38,0.4968323586744639,0,0.0,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,free man,46,0.6479302832244008,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,end of civil war,40,0.5819304152637487,29,0.4847222222222222,0.0,0.0
+hasparticipantrole,child,of civil,war'),23,0.40277777777777773,0,0.0,0.0,0.0
+hasparticipantrole,child,is no,"explicit information on taylor's first name, sex, age, birth date, death date, or ethnolinguistic descriptor.",26,0.337037037037037,7,0.4313965341488277,0.0,0.0
+hasparticipantrole,child,text does not provide information on all the,"modules. for example, there is no explicit information on taylor's first name, sex, age, birth date, death date, or ethnolinguistic descriptor.",32,0.47979797979797983,5,0.544988344988345,0.0,0.0
+hasparticipantrole,deceased person,on the provided,"text, the following ontology can be populated:",30,0.4756613756613757,23,0.4140096618357488,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,taylor,38,0.5675925925925926,19,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,taylor,41,0.6274651274651274,19,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type,relationship_type,44,0.65625,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type,spouse,44,0.65625,29,0.32222222222222224,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,georgia gordon taylor,44,0.6037037037037037,33,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,ida d,44,0.6037037037037037,30,0.6055555555555555,0.0,0.0
+hasparticipantrole,deceased person,gordon,"taylor'), is_relationship_to(taylor, 'ida d')",17,0.48148148148148145,17,0.4518518518518519,0.0,0.0
+hasparticipantrole,deceased person,role record,module:,28,0.4452861952861953,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant_role_type,95,0.9766666666666667,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,minister,95,0.9766666666666667,26,0.4138888888888889,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,businessman,95,0.9766666666666667,31,0.5292929292929293,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,not provided in the,text,38,0.4968323586744639,11,0.4388888888888889,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,minister,50,0.6566137566137565,26,0.4138888888888889,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,railroad contractor,50,0.6566137566137565,29,0.46883876357560567,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,businessman,50,0.6566137566137565,31,0.5292929292929293,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_age,age,40,0.5978835978835978,22,0.4333333333333333,0.0,0.0
+hasparticipantrole,deceased person,not provided in the,text,38,0.4968323586744639,11,0.4388888888888889,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,date_of_birth,52,0.6937321937321936,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,not provided in the,text,38,0.4968323586744639,11,0.4388888888888889,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,date_of_death,52,0.6866096866096866,36,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,not provided in the,text,38,0.4968323586744639,11,0.4388888888888889,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,race_or_color,46,0.60239651416122,29,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,african american,46,0.60239651416122,39,0.48055555555555557,0.0,0.0
+hasparticipantrole,deceased person,descriptor record,module:,40,0.5653594771241829,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,42,0.5903133903133903,30,0.5051851851851852,0.0,0.0
+hasparticipantrole,deceased person,not provided in the,text,38,0.4968323586744639,11,0.4388888888888889,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,free man,46,0.6479302832244008,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,end of civil war,40,0.5819304152637487,26,0.4152777777777777,0.0,0.0
+hasparticipantrole,deceased person,of civil,war'),23,0.40277777777777773,20,0.4222222222222222,0.0,0.0
+hasparticipantrole,deceased person,is no,"explicit information on taylor's first name, sex, age, birth date, death date, or ethnolinguistic descriptor.",26,0.337037037037037,18,0.5081314200580255,0.0,0.0
+hasparticipantrole,deceased person,text does not provide information on all the,"modules. for example, there is no explicit information on taylor's first name, sex, age, birth date, death date, or ethnolinguistic descriptor.",32,0.47979797979797983,15,0.5580308580308581,0.0,0.0
+hasdescriptiveoccupation,slave,on the provided,"text, the following ontology can be populated:",26,0.561111111111111,12,0.3144927536231884,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,taylor,25,0.5555555555555555,18,0.41111111111111115,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,surname,34,0.5474386724386724,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,taylor,34,0.5474386724386724,18,0.41111111111111115,0.0,0.0
+hasdescriptiveoccupation,slave,relationship record,module:,33,0.6137539361223572,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,27,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type,spouse,43,0.5868055555555555,36,0.5777777777777778,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,agent,38,0.6264245014245015,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,georgia gordon taylor,38,0.6264245014245015,8,0.33174603174603173,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,ida d,38,0.6264245014245015,20,0.4666666666666666,0.0,0.0
+hasdescriptiveoccupation,slave,gordon,"taylor'), is_relationship_to(taylor, 'ida d')",20,0.4305555555555555,12,0.5462962962962963,0.0,0.0
+hasdescriptiveoccupation,slave,role record,module:,29,0.4873737373737373,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,participant_role_type,50,0.6805555555555555,15,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,minister,50,0.6805555555555555,31,0.44166666666666665,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,businessman,50,0.6805555555555555,25,0.5272727272727272,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,sex_type,32,0.5742063492063493,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,not provided in the,text,23,0.5716374269005847,22,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,minister,68,0.8045940170940171,31,0.44166666666666665,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,railroad contractor,68,0.8045940170940171,17,0.3350877192982456,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,businessman,68,0.8045940170940171,25,0.5272727272727272,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,age,26,0.5793650793650794,50,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,not provided in the,text,23,0.5716374269005847,22,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,date_of_birth,38,0.6286324786324786,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,not provided in the,text,23,0.5716374269005847,22,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,date_of_death,43,0.652065527065527,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,not provided in the,text,23,0.5716374269005847,22,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,race_or_color,39,0.5977668845315903,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,african american,39,0.5977668845315903,19,0.5083333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,descriptor record,module:,54,0.6797385620915034,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,44,0.6722222222222222,13,0.46222222222222226,0.0,0.0
+hasdescriptiveoccupation,slave,not provided in the,text,23,0.5716374269005847,22,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,free man,39,0.6241830065359477,15,0.44166666666666665,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,event,39,0.5815696649029983,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,end of civil war,39,0.5815696649029983,19,0.3416666666666666,0.0,0.0
+hasdescriptiveoccupation,slave,of civil,war'),25,0.47222222222222215,20,0.4666666666666666,0.0,0.0
+hasdescriptiveoccupation,slave,is no,"explicit information on taylor's first name, sex, age, birth date, death date, or ethnolinguistic descriptor.",14,0.46388888888888885,5,0.5288990825688074,0.0,0.0
+hasdescriptiveoccupation,slave,text does not provide information on all the,"modules. for example, there is no explicit information on taylor's first name, sex, age, birth date, death date, or ethnolinguistic descriptor.",35,0.5309343434343434,5,0.44265734265734274,0.0,0.0
+hasdescriptiveoccupation,soldier,on the provided,"text, the following ontology can be populated:",26,0.561111111111111,15,0.3861283643892339,0.0,0.0
+hasdescriptiveoccupation,soldier,record,module:,27,0.6138888888888889,43,0.6309523809523809,0.0,0.0
+hasdescriptiveoccupation,soldier,has_name,name,25,0.5555555555555555,18,0.46428571428571425,0.0,0.0
+hasdescriptiveoccupation,soldier,has_name,taylor,25,0.5555555555555555,31,0.5396825396825397,0.0,0.0
+hasdescriptiveoccupation,soldier,has_surname,surname,34,0.5474386724386724,29,0.5238095238095238,0.0,0.0
+hasdescriptiveoccupation,soldier,has_surname,taylor,34,0.5474386724386724,31,0.5396825396825397,0.0,0.0
+hasdescriptiveoccupation,soldier,relationship record,module:,33,0.6137539361223572,43,0.6309523809523809,0.0,0.0
+hasdescriptiveoccupation,soldier,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,25,0.5361344537815126,0.0,0.0
+hasdescriptiveoccupation,soldier,has_interagent_relationship_type,spouse,43,0.5868055555555555,46,0.6428571428571429,0.0,0.0
+hasdescriptiveoccupation,soldier,is_relationship_to,agent,38,0.6264245014245015,17,0.0,0.0,0.0
+hasdescriptiveoccupation,soldier,is_relationship_to,georgia gordon taylor,38,0.6264245014245015,21,0.5174603174603174,0.0,0.0
+hasdescriptiveoccupation,soldier,is_relationship_to,ida d,38,0.6264245014245015,17,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,soldier,gordon,"taylor'), is_relationship_to(taylor, 'ida d')",20,0.4305555555555555,15,0.5523809523809523,0.0,0.0
+hasdescriptiveoccupation,soldier,role record,module:,29,0.4873737373737373,43,0.6309523809523809,0.0,0.0
+hasdescriptiveoccupation,soldier,has_participant_role,participant_role_type,50,0.6805555555555555,21,0.29365079365079366,0.0,0.0
+hasdescriptiveoccupation,soldier,has_participant_role,minister,50,0.6805555555555555,40,0.6011904761904762,0.0,0.0
+hasdescriptiveoccupation,soldier,has_participant_role,businessman,50,0.6805555555555555,33,0.5670995670995671,0.0,0.0
+hasdescriptiveoccupation,soldier,record,module:,27,0.6138888888888889,43,0.6309523809523809,0.0,0.0
+hasdescriptiveoccupation,soldier,has_sex,sex_type,32,0.5742063492063493,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,soldier,not provided in the,text,23,0.5716374269005847,18,0.0,0.0,0.0
+hasdescriptiveoccupation,soldier,record,module:,27,0.6138888888888889,43,0.6309523809523809,0.0,0.0
+hasdescriptiveoccupation,soldier,has_occupation,occupation,68,0.8045940170940171,24,0.49523809523809526,0.0,0.0
+hasdescriptiveoccupation,soldier,has_occupation,minister,68,0.8045940170940171,40,0.6011904761904762,0.0,0.0
+hasdescriptiveoccupation,soldier,has_occupation,railroad contractor,68,0.8045940170940171,23,0.5258145363408522,0.0,0.0
+hasdescriptiveoccupation,soldier,has_occupation,businessman,68,0.8045940170940171,33,0.5670995670995671,0.0,0.0
+hasdescriptiveoccupation,soldier,record,module:,27,0.6138888888888889,43,0.6309523809523809,0.0,0.0
+hasdescriptiveoccupation,soldier,has_age,age,26,0.5793650793650794,20,0.0,0.0,0.0
+hasdescriptiveoccupation,soldier,not provided in the,text,23,0.5716374269005847,18,0.0,0.0,0.0
+hasdescriptiveoccupation,soldier,has_birthdate,date_of_birth,38,0.6286324786324786,30,0.5663003663003664,0.0,0.0
+hasdescriptiveoccupation,soldier,not provided in the,text,23,0.5716374269005847,18,0.0,0.0,0.0
+hasdescriptiveoccupation,soldier,has_deathdate,date_of_death,43,0.652065527065527,30,0.442002442002442,0.0,0.0
+hasdescriptiveoccupation,soldier,not provided in the,text,23,0.5716374269005847,18,0.0,0.0,0.0
+hasdescriptiveoccupation,soldier,record,module:,27,0.6138888888888889,43,0.6309523809523809,0.0,0.0
+hasdescriptiveoccupation,soldier,has_race_or_color,race_or_color,39,0.5977668845315903,30,0.442002442002442,0.0,0.0
+hasdescriptiveoccupation,soldier,has_race_or_color,african american,39,0.5977668845315903,26,0.4275793650793651,0.0,0.0
+hasdescriptiveoccupation,soldier,descriptor record,module:,54,0.6797385620915034,43,0.6309523809523809,0.0,0.0
+hasdescriptiveoccupation,soldier,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,44,0.6722222222222222,31,0.5714285714285715,0.0,0.0
+hasdescriptiveoccupation,soldier,not provided in the,text,23,0.5716374269005847,18,0.0,0.0,0.0
+hasdescriptiveoccupation,soldier,status record,module:,32,0.540954415954416,43,0.6309523809523809,0.0,0.0
+hasdescriptiveoccupation,soldier,has_person_status,free man,39,0.6241830065359477,13,0.4226190476190476,0.0,0.0
+hasdescriptiveoccupation,soldier,has_status_generating_event,event,39,0.5815696649029983,17,0.0,0.0,0.0
+hasdescriptiveoccupation,soldier,has_status_generating_event,end of civil war,39,0.5815696649029983,26,0.5238095238095238,0.0,0.0
+hasdescriptiveoccupation,soldier,of civil,war'),25,0.47222222222222215,17,0.0,0.0,0.0
+hasdescriptiveoccupation,soldier,is no,"explicit information on taylor's first name, sex, age, birth date, death date, or ethnolinguistic descriptor.",14,0.46388888888888885,10,0.4707295762341634,0.0,0.0
+hasdescriptiveoccupation,soldier,text does not provide information on all the,"modules. for example, there is no explicit information on taylor's first name, sex, age, birth date, death date, or ethnolinguistic descriptor.",35,0.5309343434343434,9,0.5401265401265402,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,on the provided,"text, the following ontology can be populated:",26,0.561111111111111,28,0.5547713156408808,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,record,module:,27,0.6138888888888889,25,0.5552669552669552,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,has_name,name,25,0.5555555555555555,22,0.6237373737373737,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,has_name,taylor,25,0.5555555555555555,26,0.5282828282828284,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,has_surname,surname,34,0.5474386724386724,25,0.5685425685425685,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,has_surname,taylor,34,0.5474386724386724,26,0.5282828282828284,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,relationship record,module:,33,0.6137539361223572,25,0.5552669552669552,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,28,0.5304218657159834,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,has_interagent_relationship_type,spouse,43,0.5868055555555555,15,0.5303030303030303,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,is_relationship_to,agent,38,0.6264245014245015,16,0.5570707070707072,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,is_relationship_to,georgia gordon taylor,38,0.6264245014245015,41,0.6030844155844156,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,is_relationship_to,ida d,38,0.6264245014245015,21,0.5636363636363636,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,gordon,"taylor'), is_relationship_to(taylor, 'ida d')",20,0.4305555555555555,28,0.5422799422799423,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,role record,module:,29,0.4873737373737373,25,0.5552669552669552,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,has_participant_role,participant_role_type,50,0.6805555555555555,41,0.6255411255411255,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,has_participant_role,minister,50,0.6805555555555555,29,0.6004689754689755,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,has_participant_role,businessman,50,0.6805555555555555,18,0.4733044733044733,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,record,module:,27,0.6138888888888889,25,0.5552669552669552,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,has_sex,sex_type,32,0.5742063492063493,10,0.27020202020202017,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,not provided in the,text,23,0.5716374269005847,16,0.5202020202020202,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,record,module:,27,0.6138888888888889,25,0.5552669552669552,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,has_occupation,occupation,68,0.8045940170940171,28,0.5558080808080809,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,has_occupation,minister,68,0.8045940170940171,29,0.6004689754689755,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,has_occupation,railroad contractor,68,0.8045940170940171,42,0.7052569033993183,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,has_occupation,businessman,68,0.8045940170940171,18,0.4733044733044733,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,record,module:,27,0.6138888888888889,25,0.5552669552669552,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,has_age,age,26,0.5793650793650794,11,0.5757575757575758,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,not provided in the,text,23,0.5716374269005847,16,0.5202020202020202,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,has_birthdate,date_of_birth,38,0.6286324786324786,26,0.49426961926961926,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,not provided in the,text,23,0.5716374269005847,16,0.5202020202020202,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,has_deathdate,date_of_death,43,0.652065527065527,26,0.49426961926961926,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,not provided in the,text,23,0.5716374269005847,16,0.5202020202020202,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,record,module:,27,0.6138888888888889,25,0.5552669552669552,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,has_race_or_color,race_or_color,39,0.5977668845315903,35,0.5439005439005439,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,has_race_or_color,african american,39,0.5977668845315903,45,0.6072746697746698,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,descriptor record,module:,54,0.6797385620915034,25,0.5552669552669552,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,44,0.6722222222222222,34,0.607003367003367,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,not provided in the,text,23,0.5716374269005847,16,0.5202020202020202,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,status record,module:,32,0.540954415954416,25,0.5552669552669552,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,has_person_status,free man,39,0.6241830065359477,20,0.5528499278499278,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,has_status_generating_event,event,39,0.5815696649029983,16,0.4525252525252525,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,has_status_generating_event,end of civil war,39,0.5815696649029983,24,0.5816336441336442,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,of civil,war'),25,0.47222222222222215,11,0.3202020202020202,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,is no,"explicit information on taylor's first name, sex, age, birth date, death date, or ethnolinguistic descriptor.",14,0.46388888888888885,32,0.594773422296358,0.0,0.0
+hasdescriptiveoccupation,mortician / funeral home director,text does not provide information on all the,"modules. for example, there is no explicit information on taylor's first name, sex, age, birth date, death date, or ethnolinguistic descriptor.",35,0.5309343434343434,31,0.5896934606612025,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,on the provided,"text, the following ontology can be populated:",26,0.561111111111111,35,0.5748125937031484,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,record,module:,27,0.6138888888888889,11,0.451559934318555,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,has_name,name,25,0.5555555555555555,18,0.5067049808429118,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,has_name,taylor,25,0.5555555555555555,29,0.5352490421455939,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,has_surname,surname,34,0.5474386724386724,22,0.49556650246305417,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,has_surname,taylor,34,0.5474386724386724,29,0.5352490421455939,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,relationship record,module:,33,0.6137539361223572,11,0.451559934318555,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,26,0.5954473743520396,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,has_interagent_relationship_type,spouse,43,0.5868055555555555,11,0.46743295019157083,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,is_relationship_to,agent,38,0.6264245014245015,18,0.5908045977011495,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,is_relationship_to,georgia gordon taylor,38,0.6264245014245015,40,0.5736179529282978,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,is_relationship_to,ida d,38,0.6264245014245015,24,0.567816091954023,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,gordon,"taylor'), is_relationship_to(taylor, 'ida d')",20,0.4305555555555555,32,0.6128062231510508,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,role record,module:,29,0.4873737373737373,11,0.451559934318555,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,has_participant_role,participant_role_type,50,0.6805555555555555,36,0.5609026988337333,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,has_participant_role,minister,50,0.6805555555555555,27,0.5626026272577996,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,has_participant_role,businessman,50,0.6805555555555555,25,0.4089864158829675,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,record,module:,27,0.6138888888888889,11,0.451559934318555,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,has_sex,sex_type,32,0.5742063492063493,22,0.46264367816091956,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,not provided in the,text,23,0.5716374269005847,12,0.5229885057471265,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,record,module:,27,0.6138888888888889,11,0.451559934318555,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,has_occupation,occupation,68,0.8045940170940171,21,0.4911877394636015,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,has_occupation,minister,68,0.8045940170940171,27,0.5626026272577996,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,has_occupation,railroad contractor,68,0.8045940170940171,33,0.5429017947166767,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,has_occupation,businessman,68,0.8045940170940171,25,0.4089864158829675,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,record,module:,27,0.6138888888888889,11,0.451559934318555,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,has_age,age,26,0.5793650793650794,19,0.5900383141762452,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,not provided in the,text,23,0.5716374269005847,12,0.5229885057471265,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,has_birthdate,date_of_birth,38,0.6286324786324786,14,0.3894783377541999,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,not provided in the,text,23,0.5716374269005847,12,0.5229885057471265,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,has_deathdate,date_of_death,43,0.652065527065527,19,0.38567639257294434,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,not provided in the,text,23,0.5716374269005847,12,0.5229885057471265,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,record,module:,27,0.6138888888888889,11,0.451559934318555,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,has_race_or_color,race_or_color,39,0.5977668845315903,33,0.45042314007831247,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,has_race_or_color,african american,39,0.5977668845315903,36,0.6101532567049808,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,descriptor record,module:,54,0.6797385620915034,11,0.451559934318555,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,44,0.6722222222222222,30,0.5380623973727422,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,not provided in the,text,23,0.5716374269005847,12,0.5229885057471265,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,status record,module:,32,0.540954415954416,11,0.451559934318555,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,has_person_status,free man,39,0.6241830065359477,22,0.4658045977011494,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,has_status_generating_event,event,39,0.5815696649029983,12,0.45670498084291183,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,has_status_generating_event,end of civil war,39,0.5815696649029983,31,0.5374216300940439,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,of civil,war'),25,0.47222222222222215,12,0.32298850574712645,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,is no,"explicit information on taylor's first name, sex, age, birth date, death date, or ethnolinguistic descriptor.",14,0.46388888888888885,28,0.5437010088228057,0.0,0.0
+hasdescriptiveoccupation,christian clergy / lay leader,text does not provide information on all the,"modules. for example, there is no explicit information on taylor's first name, sex, age, birth date, death date, or ethnolinguistic descriptor.",35,0.5309343434343434,24,0.5189647134474721,0.0,0.0
+hasfirstname,preston,on the provided,"text, the following ontology can be populated:",22,0.3666666666666667,15,0.46946169772256724,0.0,0.0
+hasfirstname,preston,record,module:,22,0.4166666666666667,14,0.0,0.0,0.0
+hasfirstname,preston,has_name,name,70,0.8736111111111112,18,0.46428571428571425,0.0,0.0
+hasfirstname,preston,has_name,taylor,70,0.8736111111111112,31,0.4365079365079365,0.0,0.0
+hasfirstname,preston,has_surname,surname,70,0.8733164983164984,29,0.42857142857142855,0.0,0.0
+hasfirstname,preston,has_surname,taylor,70,0.8733164983164984,31,0.4365079365079365,0.0,0.0
+hasfirstname,preston,relationship record,module:,32,0.5077276524644946,14,0.0,0.0,0.0
+hasfirstname,preston,has_interagent_relationship_type,relationship_type,36,0.6030092592592592,42,0.6255835667600373,0.0,0.0
+hasfirstname,preston,has_interagent_relationship_type,spouse,36,0.6030092592592592,31,0.5396825396825397,0.0,0.0
+hasfirstname,preston,is_relationship_to,agent,27,0.6203703703703703,33,0.5619047619047619,0.0,0.0
+hasfirstname,preston,is_relationship_to,georgia gordon taylor,27,0.6203703703703703,21,0.503968253968254,0.0,0.0
+hasfirstname,preston,is_relationship_to,ida d,27,0.6203703703703703,0,0.0,0.0,0.0
+hasfirstname,preston,gordon,"taylor'), is_relationship_to(taylor, 'ida d')",22,0.5,19,0.5523809523809523,0.0,0.0
+hasfirstname,preston,role record,module:,17,0.44949494949494956,14,0.0,0.0,0.0
+hasfirstname,preston,has_participant_role,participant_role_type,44,0.6962962962962962,29,0.5841269841269842,0.0,0.0
+hasfirstname,preston,has_participant_role,minister,44,0.6962962962962962,27,0.5119047619047619,0.0,0.0
+hasfirstname,preston,has_participant_role,businessman,44,0.6962962962962962,33,0.45598845598845594,0.0,0.0
+hasfirstname,preston,record,module:,22,0.4166666666666667,14,0.0,0.0,0.0
+hasfirstname,preston,has_sex,sex_type,53,0.6349206349206349,27,0.4900793650793651,0.0,0.0
+hasfirstname,preston,not provided in the,text,19,0.4266081871345029,36,0.5952380952380952,0.0,0.0
+hasfirstname,preston,record,module:,22,0.4166666666666667,14,0.0,0.0,0.0
+hasfirstname,preston,has_occupation,occupation,38,0.5873015873015873,47,0.6571428571428571,0.0,0.0
+hasfirstname,preston,has_occupation,minister,38,0.5873015873015873,27,0.5119047619047619,0.0,0.0
+hasfirstname,preston,has_occupation,railroad contractor,38,0.5873015873015873,23,0.5106516290726817,0.0,0.0
+hasfirstname,preston,has_occupation,businessman,38,0.5873015873015873,33,0.45598845598845594,0.0,0.0
+hasfirstname,preston,record,module:,22,0.4166666666666667,14,0.0,0.0,0.0
+hasfirstname,preston,has_age,age,53,0.7972222222222223,20,0.4920634920634921,0.0,0.0
+hasfirstname,preston,not provided in the,text,19,0.4266081871345029,36,0.5952380952380952,0.0,0.0
+hasfirstname,preston,has_birthdate,date_of_birth,64,0.8324786324786324,20,0.442002442002442,0.0,0.0
+hasfirstname,preston,not provided in the,text,19,0.4266081871345029,36,0.5952380952380952,0.0,0.0
+hasfirstname,preston,has_deathdate,date_of_death,48,0.5982905982905983,20,0.442002442002442,0.0,0.0
+hasfirstname,preston,not provided in the,text,19,0.4266081871345029,36,0.5952380952380952,0.0,0.0
+hasfirstname,preston,record,module:,22,0.4166666666666667,14,0.0,0.0,0.0
+hasfirstname,preston,has_race_or_color,race_or_color,41,0.6176470588235294,30,0.553113553113553,0.0,0.0
+hasfirstname,preston,has_race_or_color,african american,41,0.6176470588235294,26,0.4702380952380952,0.0,0.0
+hasfirstname,preston,descriptor record,module:,28,0.50359477124183,14,0.0,0.0,0.0
+hasfirstname,preston,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,33,0.5611111111111111,25,0.5714285714285715,0.0,0.0
+hasfirstname,preston,not provided in the,text,19,0.4266081871345029,36,0.5952380952380952,0.0,0.0
+hasfirstname,preston,status record,module:,32,0.5427350427350427,14,0.0,0.0,0.0
+hasfirstname,preston,has_person_status,free man,48,0.6857298474945533,40,0.6011904761904762,0.0,0.0
+hasfirstname,preston,has_status_generating_event,event,41,0.5833333333333334,33,0.5619047619047619,0.0,0.0
+hasfirstname,preston,has_status_generating_event,end of civil war,41,0.5833333333333334,17,0.4275793650793651,0.0,0.0
+hasfirstname,preston,of civil,war'),20,0.47222222222222215,17,0.44761904761904764,0.0,0.0
+hasfirstname,preston,is no,"explicit information on taylor's first name, sex, age, birth date, death date, or ethnolinguistic descriptor.",35,0.5055555555555555,12,0.54521625163827,0.0,0.0
+hasfirstname,preston,text does not provide information on all the,"modules. for example, there is no explicit information on taylor's first name, sex, age, birth date, death date, or ethnolinguistic descriptor.",25,0.5033670033670034,9,0.5401265401265402,0.0,0.0
+hassurname,taylor,on the provided,"text, the following ontology can be populated:",24,0.3888888888888889,12,0.4106280193236715,0.0,0.0
+hassurname,taylor,record,module:,25,0.4222222222222222,15,0.4365079365079365,0.0,0.0
+hassurname,taylor,has_name,name,78,0.9008333333333334,20,0.47222222222222215,0.0,0.0
+hassurname,taylor,has_name,taylor,78,0.9008333333333334,100,1.0,0.0,1.0
+hassurname,taylor,has_surname,surname,95,0.9787878787878788,15,0.0,0.0,0.0
+hassurname,taylor,has_surname,taylor,95,0.9787878787878788,100,1.0,0.0,1.0
+hassurname,taylor,relationship record,module:,28,0.4543859649122807,15,0.4365079365079365,0.0,0.0
+hassurname,taylor,has_interagent_relationship_type,relationship_type,33,0.544345238095238,17,0.5758169934640524,0.0,0.0
+hassurname,taylor,has_interagent_relationship_type,spouse,33,0.544345238095238,17,0.4444444444444444,0.0,0.0
+hassurname,taylor,is_relationship_to,agent,21,0.5333333333333333,18,0.45555555555555555,0.0,0.0
+hassurname,taylor,is_relationship_to,georgia gordon taylor,21,0.5333333333333333,44,0.43650793650793646,0.0,0.4494364165239821
+hassurname,taylor,is_relationship_to,ida d,21,0.5333333333333333,18,0.45555555555555555,0.0,0.0
+hassurname,taylor,gordon,"taylor'), is_relationship_to(taylor, 'ida d')",25,0.5111111111111111,24,0.8266666666666667,0.0,0.7092972666062738
+hassurname,taylor,role record,module:,19,0.46060606060606063,15,0.4365079365079365,0.0,0.0
+hassurname,taylor,has_participant_role,participant_role_type,40,0.5777777777777778,22,0.4523809523809524,0.0,0.0
+hassurname,taylor,has_participant_role,minister,40,0.5777777777777778,29,0.4305555555555555,0.0,0.0
+hassurname,taylor,has_participant_role,businessman,40,0.5777777777777778,12,0.0,0.0,0.0
+hassurname,taylor,record,module:,25,0.4222222222222222,15,0.4365079365079365,0.0,0.0
+hassurname,taylor,has_sex,sex_type,59,0.8166666666666667,29,0.4305555555555555,0.0,0.0
+hassurname,taylor,not provided in the,text,21,0.3748538011695906,20,0.47222222222222215,0.0,0.0
+hassurname,taylor,record,module:,25,0.4222222222222222,15,0.4365079365079365,0.0,0.0
+hassurname,taylor,has_occupation,occupation,42,0.6190476190476191,25,0.3444444444444444,0.0,0.0
+hassurname,taylor,has_occupation,minister,42,0.6190476190476191,29,0.4305555555555555,0.0,0.0
+hassurname,taylor,has_occupation,railroad contractor,42,0.6190476190476191,32,0.4590643274853801,0.0,0.0
+hassurname,taylor,has_occupation,businessman,42,0.6190476190476191,12,0.0,0.0,0.0
+hassurname,taylor,record,module:,25,0.4222222222222222,15,0.4365079365079365,0.0,0.0
+hassurname,taylor,has_age,age,59,0.8166666666666667,22,0.5,0.0,0.0
+hassurname,taylor,not provided in the,text,21,0.3748538011695906,20,0.47222222222222215,0.0,0.0
+hassurname,taylor,has_birthdate,date_of_birth,52,0.6871794871794871,32,0.5747863247863249,0.0,0.0
+hassurname,taylor,not provided in the,text,21,0.3748538011695906,20,0.47222222222222215,0.0,0.0
+hassurname,taylor,has_deathdate,date_of_death,43,0.5615384615384615,21,0.46581196581196577,0.0,0.0
+hassurname,taylor,not provided in the,text,21,0.3748538011695906,20,0.47222222222222215,0.0,0.0
+hassurname,taylor,record,module:,25,0.4222222222222222,15,0.4365079365079365,0.0,0.0
+hassurname,taylor,has_race_or_color,race_or_color,44,0.6509803921568628,42,0.46581196581196577,0.0,0.0
+hassurname,taylor,has_race_or_color,african american,44,0.6509803921568628,18,0.4861111111111111,0.0,0.0
+hassurname,taylor,descriptor record,module:,22,0.49215686274509807,15,0.4365079365079365,0.0,0.0
+hassurname,taylor,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,25,0.5492063492063491,26,0.4288888888888889,0.0,0.0
+hassurname,taylor,not provided in the,text,21,0.3748538011695906,20,0.47222222222222215,0.0,0.0
+hassurname,taylor,status record,module:,35,0.5760683760683761,15,0.4365079365079365,0.0,0.0
+hassurname,taylor,has_person_status,free man,44,0.6735294117647058,14,0.0,0.0,0.0
+hassurname,taylor,has_status_generating_event,event,43,0.6703703703703704,18,0.0,0.0,0.0
+hassurname,taylor,has_status_generating_event,end of civil war,43,0.6703703703703704,18,0.40972222222222227,0.0,0.0
+hassurname,taylor,of civil,war'),0,0.0,36,0.45555555555555555,0.0,0.0
+hassurname,taylor,is no,"explicit information on taylor's first name, sex, age, birth date, death date, or ethnolinguistic descriptor.",27,0.5333333333333333,10,0.518348623853211,0.0,0.17512808619292847
+hassurname,taylor,text does not provide information on all the,"modules. for example, there is no explicit information on taylor's first name, sex, age, birth date, death date, or ethnolinguistic descriptor.",19,0.46767676767676764,8,0.513986013986014,0.0,0.14997829789540718
+hasname,preston taylor,on the provided,"text, the following ontology can be populated:",18,0.4317460317460317,27,0.4772256728778468,0.0,0.0
+hasname,preston taylor,record,module:,15,0.0,19,0.30952380952380953,0.0,0.0
+hasname,preston taylor,has_name,name,93,0.9708333333333333,22,0.38095238095238093,0.0,0.0
+hasname,preston taylor,has_name,taylor,93,0.9708333333333333,60,0.4603174603174603,0.0,0.5797386715376658
+hasname,preston taylor,has_surname,surname,78,0.9151515151515152,29,0.557142857142857,0.0,0.0
+hasname,preston taylor,has_surname,taylor,78,0.9151515151515152,60,0.4603174603174603,0.0,0.5797386715376658
+hasname,preston taylor,relationship record,module:,23,0.5106516290726817,19,0.30952380952380953,0.0,0.0
+hasname,preston taylor,has_interagent_relationship_type,relationship_type,31,0.6259920634920636,45,0.6870525988173046,0.0,0.0
+hasname,preston taylor,has_interagent_relationship_type,spouse,31,0.6259920634920636,20,0.48412698412698413,0.0,0.0
+hasname,preston taylor,is_relationship_to,agent,16,0.43121693121693117,32,0.4936507936507937,0.0,0.0
+hasname,preston taylor,is_relationship_to,georgia gordon taylor,16,0.43121693121693117,57,0.6183261183261183,0.0,0.2605556710562624
+hasname,preston taylor,is_relationship_to,ida d,16,0.43121693121693117,11,0.4238095238095238,0.0,0.0
+hasname,preston taylor,gordon,"taylor'), is_relationship_to(taylor, 'ida d')",15,0.4365079365079365,37,0.610948310948311,0.0,0.41120705506761873
+hasname,preston taylor,role record,module:,11,0.41125541125541126,19,0.30952380952380953,0.0,0.0
+hasname,preston taylor,has_participant_role,participant_role_type,37,0.5904761904761905,34,0.6301587301587301,0.0,0.0
+hasname,preston taylor,has_participant_role,minister,37,0.5904761904761905,27,0.5273809523809524,0.0,0.0
+hasname,preston taylor,has_participant_role,businessman,37,0.5904761904761905,24,0.46645021645021645,0.0,0.0
+hasname,preston taylor,record,module:,15,0.0,19,0.30952380952380953,0.0,0.0
+hasname,preston taylor,has_sex,sex_type,57,0.8,27,0.5273809523809524,0.0,0.0
+hasname,preston taylor,not provided in the,text,15,0.46365914786967416,22,0.5436507936507936,0.0,0.0
+hasname,preston taylor,record,module:,15,0.0,19,0.30952380952380953,0.0,0.0
+hasname,preston taylor,has_occupation,occupation,38,0.6190476190476191,33,0.5095238095238095,0.0,0.0
+hasname,preston taylor,has_occupation,minister,38,0.6190476190476191,27,0.5273809523809524,0.0,0.0
+hasname,preston taylor,has_occupation,railroad contractor,38,0.6190476190476191,42,0.6135338345864662,0.0,0.0
+hasname,preston taylor,has_occupation,businessman,38,0.6190476190476191,24,0.46645021645021645,0.0,0.0
+hasname,preston taylor,record,module:,15,0.0,19,0.30952380952380953,0.0,0.0
+hasname,preston taylor,has_age,age,71,0.8666666666666668,12,0.4682539682539682,0.0,0.0
+hasname,preston taylor,not provided in the,text,15,0.46365914786967416,22,0.5436507936507936,0.0,0.0
+hasname,preston taylor,has_birthdate,date_of_birth,50,0.553113553113553,22,0.4472527472527473,0.0,0.0
+hasname,preston taylor,not provided in the,text,15,0.46365914786967416,22,0.5436507936507936,0.0,0.0
+hasname,preston taylor,has_deathdate,date_of_death,50,0.632967032967033,22,0.4472527472527473,0.0,0.0
+hasname,preston taylor,not provided in the,text,15,0.46365914786967416,22,0.5436507936507936,0.0,0.0
+hasname,preston taylor,record,module:,15,0.0,19,0.30952380952380953,0.0,0.0
+hasname,preston taylor,has_race_or_color,race_or_color,42,0.6694677871148459,44,0.5744810744810745,0.0,0.0
+hasname,preston taylor,has_race_or_color,african american,42,0.6694677871148459,33,0.4898809523809524,0.0,0.0
+hasname,preston taylor,descriptor record,module:,17,0.3011204481792717,19,0.30952380952380953,0.0,0.0
+hasname,preston taylor,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,27,0.5603174603174603,36,0.5565079365079365,0.0,0.0
+hasname,preston taylor,not provided in the,text,15,0.46365914786967416,22,0.5436507936507936,0.0,0.0
+hasname,preston taylor,status record,module:,30,0.442002442002442,19,0.30952380952380953,0.0,0.0
+hasname,preston taylor,has_person_status,free man,42,0.6028011204481792,36,0.594047619047619,0.0,0.0
+hasname,preston taylor,has_status_generating_event,event,35,0.6375661375661376,32,0.4936507936507937,0.0,0.0
+hasname,preston taylor,has_status_generating_event,end of civil war,35,0.6375661375661376,33,0.5505952380952381,0.0,0.0
+hasname,preston taylor,of civil,war'),0,0.0,21,0.4238095238095238,0.0,0.0
+hasname,preston taylor,is no,"explicit information on taylor's first name, sex, age, birth date, death date, or ethnolinguistic descriptor.",33,0.5619047619047619,20,0.5428134556574924,0.0,0.10152852403842218
+hasname,preston taylor,text does not provide information on all the,"modules. for example, there is no explicit information on taylor's first name, sex, age, birth date, death date, or ethnolinguistic descriptor.",16,0.38780663780663777,18,0.5802530802530802,0.0,0.08694821918136365
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",on the provided,"text, the following ontology can be populated:",28,0.4984126984126984,22,0.5442201518288474,0.0,0.03854966387223764
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",record,module:,30,0.48412698412698413,7,0.46428571428571425,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",has_name,name,36,0.5952380952380952,5,0.5912698412698413,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",has_name,taylor,36,0.5952380952380952,7,0.511904761904762,0.0,0.13819929773426579
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",has_surname,surname,48,0.6168831168831169,8,0.5376984126984127,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",has_surname,taylor,48,0.6168831168831169,7,0.511904761904762,0.0,0.13819929773426579
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",relationship record,module:,30,0.6135338345864662,7,0.46428571428571425,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",has_interagent_relationship_type,relationship_type,39,0.5755952380952382,14,0.4927637721755369,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",has_interagent_relationship_type,spouse,39,0.5755952380952382,7,0.5674603174603176,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",is_relationship_to,agent,44,0.6474266474266474,5,0.5246031746031746,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",is_relationship_to,georgia gordon taylor,44,0.6474266474266474,16,0.5066137566137566,0.0,0.06211179713981929
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",is_relationship_to,ida d,44,0.6474266474266474,6,0.5432539682539682,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",gordon,"taylor'), is_relationship_to(taylor, 'ida d')",30,0.3253968253968254,25,0.5001322751322751,0.0,0.09802438412982133
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",role record,module:,24,0.46645021645021645,7,0.46428571428571425,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",has_participant_role,participant_role_type,47,0.6876623376623376,16,0.4800420168067227,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",has_participant_role,minister,47,0.6876623376623376,8,0.5158730158730159,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",has_participant_role,businessman,47,0.6876623376623376,12,0.5672799422799423,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",record,module:,30,0.48412698412698413,7,0.46428571428571425,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",has_sex,sex_type,38,0.6238095238095238,7,0.48412698412698413,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",not provided in the,text,24,0.5944026733500417,3,0.4781746031746032,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",record,module:,30,0.48412698412698413,7,0.46428571428571425,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",has_occupation,occupation,64,0.8074074074074075,10,0.5030423280423281,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",has_occupation,minister,64,0.8074074074074075,8,0.5158730158730159,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",has_occupation,railroad contractor,64,0.8074074074074075,18,0.5366889445836814,0.0,0.08011947727590159
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",has_occupation,businessman,64,0.8074074074074075,12,0.5672799422799423,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",record,module:,30,0.48412698412698413,7,0.46428571428571425,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",has_age,age,38,0.6190476190476191,2,0.3928571428571428,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",not provided in the,text,24,0.5944026733500417,3,0.4781746031746032,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",has_birthdate,date_of_birth,37,0.6318681318681318,11,0.4708485958485958,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",not provided in the,text,24,0.5944026733500417,3,0.4781746031746032,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",has_deathdate,date_of_death,44,0.63003663003663,12,0.4708485958485958,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",not provided in the,text,24,0.5944026733500417,3,0.4781746031746032,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",record,module:,30,0.48412698412698413,7,0.46428571428571425,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",has_race_or_color,race_or_color,39,0.5896358543417367,11,0.4762515262515263,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",has_race_or_color,african american,39,0.5896358543417367,14,0.48611111111111116,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",descriptor record,module:,58,0.6870525988173046,7,0.46428571428571425,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",has_ethnolinguistic_descriptor,etnolinguistic_descriptor,55,0.6265512265512265,18,0.5121428571428571,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",not provided in the,text,24,0.5944026733500417,3,0.4781746031746032,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",status record,module:,37,0.5366300366300366,7,0.46428571428571425,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",has_person_status,free man,45,0.6675070028011204,9,0.49603174603174605,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",has_status_generating_event,event,39,0.5476190476190476,6,0.5432539682539682,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",has_status_generating_event,end of civil war,39,0.5476190476190476,13,0.5422619047619047,0.0,0.0525127427260942
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",of civil,war'),27,0.5297619047619048,3,0.42817460317460315,0.0,0.0
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",is no,"explicit information on taylor's first name, sex, age, birth date, death date, or ethnolinguistic descriptor.",21,0.4238095238095238,40,0.6680819499053444,0.0,0.049610031776959565
+hasdescription,"born enslaved. a union army drummer, taylor was later a stonecutter, railroad porter, and funeral director who amassed almost $500,000 by the time of his death in 1931.",text does not provide information on all the,"modules. for example, there is no explicit information on taylor's first name, sex, age, birth date, death date, or ethnolinguistic descriptor.",31,0.4805194805194805,41,0.7150427485793339,0.0,0.04231207731002973

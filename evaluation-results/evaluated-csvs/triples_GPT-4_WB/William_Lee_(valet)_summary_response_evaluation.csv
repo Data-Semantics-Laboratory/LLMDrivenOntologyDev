@@ -1,0 +1,496 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,william lee,32,0.537878787878788,12,0.0,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,lee,27,0.49242424242424243,22,0.5,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,william,40,0.5692640692640693,0,0.0,0.0,0.0
+instance of,person,has_alternate_name,alternate_name,34,0.5107744107744108,30,0.5714285714285715,0.0,0.0
+instance of,person,has_alternate_name,billy,34,0.5107744107744108,0,0.0,0.0,0.0
+instance of,person,has_alternate_name,will lee,34,0.5107744107744108,14,0.0,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,relationship_type,30,0.5269480519480519,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,enslaver or owner,30,0.5269480519480519,35,0.642483660130719,0.0,0.0
+instance of,person,or,"owner"")",15,0.0,31,0.5396825396825397,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,george washington,34,0.5798460798460798,43,0.642483660130719,0.0,0.0
+instance of,person,role record,module:,27,0.49242424242424243,15,0.0,0.0,0.0
+instance of,person,has_participant_role,participant_role_type,32,0.5668831168831169,22,0.5357142857142857,0.0,0.0
+instance of,person,has_participant_role,valet,32,0.5668831168831169,18,0.45555555555555555,0.0,0.0
+instance of,person,has_participant_role,huntsman,32,0.5668831168831169,29,0.3611111111111111,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,male,22,0.45598845598845594,20,0.47222222222222215,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,slave,24,0.38311688311688313,18,0.0,0.0,0.0
+instance of,person,has_occupation,personal assistant,24,0.38311688311688313,50,0.8666666666666666,0.0,0.0
+instance of,person,has_occupation,valet,24,0.38311688311688313,18,0.45555555555555555,0.0,0.0
+instance of,person,has_occupation,huntsman,24,0.38311688311688313,29,0.3611111111111111,0.0,0.0
+instance of,person,has_occupation,shoemaker,24,0.38311688311688313,27,0.5,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_age,unknown,33,0.45598845598845594,31,0.373015873015873,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_birthdate,around 1750,33,0.5463869463869464,35,0.5909090909090909,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,african-american,36,0.5162210338680927,27,0.4861111111111111,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,enslaved person,29,0.449554367201426,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,has_person_status,free man,29,0.449554367201426,29,0.5138888888888888,0.0,0.0
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,purchase by washington in 1768,26,0.4799102132435466,28,0.6,0.0,0.0
+instance of,person,has_status_generating_event,washington's will,26,0.4799102132435466,26,0.4477124183006536,0.0,0.0
+instance of,person,by washington in,"1768""), has_status_generating_event(free man, ""washington's will"").",37,0.6174242424242424,14,0.4087893864013267,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_name,name,57,0.8055555555555556,50,0.6666666666666666,0.0,0.0
+hassex,male,has_name,william lee,57,0.8055555555555556,40,0.393939393939394,0.0,0.0
+hassex,male,has_surname,surname,59,0.6767676767676768,36,0.0,0.0,0.0
+hassex,male,has_surname,lee,59,0.6767676767676768,57,0.5277777777777778,0.0,0.0
+hassex,male,has_first_name,first_name,50,0.6507936507936508,29,0.0,0.0,0.0
+hassex,male,has_first_name,william,50,0.6507936507936508,18,0.46428571428571425,0.0,0.0
+hassex,male,has_alternate_name,alternate_name,33,0.6296296296296297,33,0.6547619047619048,0.0,0.0
+hassex,male,has_alternate_name,billy,33,0.6296296296296297,22,0.48333333333333334,0.0,0.0
+hassex,male,has_alternate_name,will lee,33,0.6296296296296297,33,0.5833333333333334,0.0,0.0
+hassex,male,relationship record,module:,24,0.44152046783625726,55,0.7535714285714287,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,relationship_type,24,0.5936507936507937,19,0.5310457516339869,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,enslaver or owner,24,0.5936507936507937,19,0.5310457516339869,0.0,0.0
+hassex,male,or,"owner"")",0,0.0,18,0.46428571428571425,0.0,0.0
+hassex,male,is_relationship_to,agent,17,0.46296296296296297,44,0.6333333333333333,0.0,0.0
+hassex,male,is_relationship_to,george washington,17,0.46296296296296297,10,0.37254901960784315,0.0,0.0
+hassex,male,role record,module:,12,0.41919191919191917,55,0.7535714285714287,0.0,0.0
+hassex,male,has_participant_role,participant_role_type,31,0.5499999999999999,24,0.43253968253968256,0.0,0.0
+hassex,male,has_participant_role,valet,31,0.5499999999999999,67,0.7833333333333333,0.0,0.0
+hassex,male,has_participant_role,huntsman,31,0.5499999999999999,33,0.0,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_sex,sex_type,92,0.9666666666666667,17,0.4583333333333333,0.0,0.0
+hassex,male,has_sex,male,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_occupation,occupation,30,0.5714285714285715,14,0.45,0.0,0.0
+hassex,male,has_occupation,slave,30,0.5714285714285715,44,0.6722222222222222,0.0,0.0
+hassex,male,has_occupation,personal assistant,30,0.5714285714285715,18,0.5277777777777778,0.0,0.0
+hassex,male,has_occupation,valet,30,0.5714285714285715,67,0.7833333333333333,0.0,0.0
+hassex,male,has_occupation,huntsman,30,0.5714285714285715,33,0.0,0.0,0.0
+hassex,male,has_occupation,shoemaker,30,0.5714285714285715,46,0.4537037037037037,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_age,age,62,0.8222222222222222,57,0.7222222222222222,0.0,0.0
+hassex,male,has_age,unknown,62,0.8222222222222222,0,0.0,0.0,0.0
+hassex,male,has_birthdate,date_of_birth,42,0.576923076923077,24,0.5512820512820512,0.0,0.0
+hassex,male,has_birthdate,around 1750,42,0.576923076923077,13,0.44696969696969696,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_race_or_color,race_or_color,35,0.6339869281045751,24,0.5512820512820512,0.0,0.0
+hassex,male,has_race_or_color,african-american,35,0.6339869281045751,20,0.5416666666666666,0.0,0.0
+hassex,male,status record,module:,32,0.5747863247863249,55,0.7535714285714287,0.0,0.0
+hassex,male,has_person_status,enslaved person,35,0.642483660130719,21,0.5388888888888889,0.0,0.0
+hassex,male,has_person_status,free man,35,0.642483660130719,33,0.4583333333333333,0.0,0.0
+hassex,male,has_status_generating_event,event,30,0.6728395061728395,22,0.48333333333333334,0.0,0.0
+hassex,male,has_status_generating_event,purchase by washington in 1768,30,0.6728395061728395,12,0.5222222222222223,0.0,0.0
+hassex,male,has_status_generating_event,washington's will,30,0.6728395061728395,19,0.4362745098039216,0.0,0.0
+hassex,male,by washington in,"1768""), has_status_generating_event(free man, ""washington's will"").",18,0.45138888888888884,8,0.509950248756219,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,william lee,38,0.5675925925925926,25,0.5272727272727272,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,lee,41,0.6274651274651274,25,0.0,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,william,44,0.6772486772486772,33,0.5619047619047619,0.0,0.0
+hasparticipantrole,child,has_alternate_name,alternate_name,44,0.6370370370370371,11,0.4238095238095238,0.0,0.0
+hasparticipantrole,child,has_alternate_name,billy,44,0.6370370370370371,40,0.6,0.0,0.0
+hasparticipantrole,child,has_alternate_name,will lee,44,0.6370370370370371,31,0.5499999999999999,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,enslaver or owner,42,0.6570105820105819,9,0.4196078431372549,0.0,0.0
+hasparticipantrole,child,or,"owner"")",10,0.5185185185185185,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,george washington,44,0.6037037037037037,18,0.0,0.0,0.0
+hasparticipantrole,child,role record,module:,28,0.4452861952861953,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant_role_type,95,0.9766666666666667,23,0.33174603174603173,0.0,0.0
+hasparticipantrole,child,has_participant_role,valet,95,0.9766666666666667,20,0.4666666666666666,0.0,0.0
+hasparticipantrole,child,has_participant_role,huntsman,95,0.9766666666666667,15,0.44166666666666665,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,male,32,0.5317460317460317,22,0.48333333333333334,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,slave,50,0.6566137566137565,20,0.0,0.0,0.0
+hasparticipantrole,child,has_occupation,personal assistant,50,0.6566137566137565,9,0.4185185185185185,0.0,0.0
+hasparticipantrole,child,has_occupation,valet,50,0.6566137566137565,20,0.4666666666666666,0.0,0.0
+hasparticipantrole,child,has_occupation,huntsman,50,0.6566137566137565,15,0.44166666666666665,0.0,0.0
+hasparticipantrole,child,has_occupation,shoemaker,50,0.6566137566137565,14,0.43703703703703706,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_age,age,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_age,unknown,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_birthdate,date_of_birth,52,0.6937321937321936,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_birthdate,around 1750,52,0.6937321937321936,12,0.43030303030303035,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_race_or_color,race_or_color,46,0.60239651416122,22,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_race_or_color,african-american,46,0.60239651416122,19,0.3416666666666666,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,enslaved person,46,0.6479302832244008,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,child,has_person_status,free man,46,0.6479302832244008,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,purchase by washington in 1768,40,0.5819304152637487,17,0.5666666666666667,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,washington's will,40,0.5819304152637487,27,0.5058823529411764,0.0,0.0
+hasparticipantrole,child,by washington in,"1768""), has_status_generating_event(free man, ""washington's will"").",35,0.48148148148148145,8,0.4766169154228856,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,william lee,38,0.5675925925925926,23,0.4601010101010101,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,lee,41,0.6274651274651274,22,0.6,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,william,44,0.6772486772486772,9,0.40317460317460313,0.0,0.0
+hasparticipantrole,deceased person,has_alternate_name,alternate_name,44,0.6370370370370371,28,0.43015873015873013,0.0,0.0
+hasparticipantrole,deceased person,has_alternate_name,billy,44,0.6370370370370371,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_alternate_name,will lee,44,0.6370370370370371,17,0.4138888888888889,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,enslaver or owner,42,0.6570105820105819,44,0.5986928104575163,0.0,0.0
+hasparticipantrole,deceased person,or,"owner"")",10,0.5185185185185185,18,0.40317460317460313,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,george washington,44,0.6037037037037037,38,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,role record,module:,28,0.4452861952861953,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant_role_type,95,0.9766666666666667,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,valet,95,0.9766666666666667,20,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,huntsman,95,0.9766666666666667,17,0.29444444444444445,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,male,32,0.5317460317460317,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,slave,50,0.6566137566137565,20,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,personal assistant,50,0.6566137566137565,36,0.5222222222222223,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,valet,50,0.6566137566137565,20,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,huntsman,50,0.6566137566137565,17,0.29444444444444445,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,shoemaker,50,0.6566137566137565,33,0.562962962962963,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_age,age,40,0.5978835978835978,22,0.4333333333333333,0.0,0.0
+hasparticipantrole,deceased person,has_age,unknown,40,0.5978835978835978,18,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,date_of_birth,52,0.6937321937321936,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,around 1750,52,0.6937321937321936,31,0.3797979797979798,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,race_or_color,46,0.60239651416122,29,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,african-american,46,0.60239651416122,32,0.48194444444444445,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,enslaved person,46,0.6479302832244008,73,0.7833333333333333,0.0,0.33609692727625756
+hasparticipantrole,deceased person,has_person_status,free man,46,0.6479302832244008,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,purchase by washington in 1768,40,0.5819304152637487,36,0.5333333333333333,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,washington's will,40,0.5819304152637487,25,0.4732026143790849,0.0,0.0
+hasparticipantrole,deceased person,by washington in,"1768""), has_status_generating_event(free man, ""washington's will"").",35,0.48148148148148145,22,0.5053067993366501,0.0,0.0
+hasdescriptiveoccupation,servant,record,module:,27,0.6138888888888889,14,0.0,0.0,0.0
+hasdescriptiveoccupation,servant,has_name,name,25,0.5555555555555555,18,0.46428571428571425,0.0,0.0
+hasdescriptiveoccupation,servant,has_name,william lee,25,0.5555555555555555,11,0.41125541125541126,0.0,0.0
+hasdescriptiveoccupation,servant,has_surname,surname,34,0.5474386724386724,43,0.6309523809523809,0.0,0.0
+hasdescriptiveoccupation,servant,has_surname,lee,34,0.5474386724386724,20,0.4920634920634921,0.0,0.0
+hasdescriptiveoccupation,servant,has_first_name,first_name,32,0.5615079365079364,24,0.6047619047619048,0.0,0.0
+hasdescriptiveoccupation,servant,has_first_name,william,32,0.5615079365079364,14,0.42857142857142855,0.0,0.0
+hasdescriptiveoccupation,servant,has_alternate_name,alternate_name,38,0.5574074074074075,38,0.557142857142857,0.0,0.0
+hasdescriptiveoccupation,servant,has_alternate_name,billy,38,0.5574074074074075,0,0.0,0.0,0.0
+hasdescriptiveoccupation,servant,has_alternate_name,will lee,38,0.5574074074074075,13,0.0,0.0,0.0
+hasdescriptiveoccupation,servant,relationship record,module:,33,0.6137539361223572,14,0.0,0.0,0.0
+hasdescriptiveoccupation,servant,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,33,0.5361344537815126,0.0,0.0
+hasdescriptiveoccupation,servant,has_interagent_relationship_type_to,enslaver or owner,41,0.6037698412698412,33,0.5700280112044818,0.0,0.0
+hasdescriptiveoccupation,servant,or,"owner"")",8,0.5138888888888888,29,0.5238095238095238,0.0,0.0
+hasdescriptiveoccupation,servant,is_relationship_to,agent,38,0.6264245014245015,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,servant,is_relationship_to,george washington,38,0.6264245014245015,42,0.6022408963585434,0.0,0.0
+hasdescriptiveoccupation,servant,role record,module:,29,0.4873737373737373,14,0.0,0.0,0.0
+hasdescriptiveoccupation,servant,has_participant_role,participant_role_type,50,0.6805555555555555,29,0.42063492063492064,0.0,0.0
+hasdescriptiveoccupation,servant,has_participant_role,valet,50,0.6805555555555555,50,0.5619047619047619,0.0,0.0
+hasdescriptiveoccupation,servant,has_participant_role,huntsman,50,0.6805555555555555,40,0.4900793650793651,0.0,0.0
+hasdescriptiveoccupation,servant,record,module:,27,0.6138888888888889,14,0.0,0.0,0.0
+hasdescriptiveoccupation,servant,has_sex,sex_type,32,0.5742063492063493,40,0.6011904761904762,0.0,0.0
+hasdescriptiveoccupation,servant,has_sex,male,32,0.5742063492063493,18,0.46428571428571425,0.0,0.0
+hasdescriptiveoccupation,servant,record,module:,27,0.6138888888888889,14,0.0,0.0,0.0
+hasdescriptiveoccupation,servant,has_occupation,occupation,68,0.8045940170940171,24,0.46507936507936504,0.0,0.0
+hasdescriptiveoccupation,servant,has_occupation,slave,68,0.8045940170940171,33,0.565079365079365,0.0,0.0
+hasdescriptiveoccupation,servant,has_occupation,personal assistant,68,0.8045940170940171,40,0.6190476190476191,0.0,0.0
+hasdescriptiveoccupation,servant,has_occupation,valet,68,0.8045940170940171,50,0.5619047619047619,0.0,0.0
+hasdescriptiveoccupation,servant,has_occupation,huntsman,68,0.8045940170940171,40,0.4900793650793651,0.0,0.0
+hasdescriptiveoccupation,servant,has_occupation,shoemaker,68,0.8045940170940171,38,0.5873015873015873,0.0,0.0
+hasdescriptiveoccupation,servant,record,module:,27,0.6138888888888889,14,0.0,0.0,0.0
+hasdescriptiveoccupation,servant,has_age,age,26,0.5793650793650794,20,0.4920634920634921,0.0,0.0
+hasdescriptiveoccupation,servant,has_age,unknown,26,0.5793650793650794,14,0.42857142857142855,0.0,0.0
+hasdescriptiveoccupation,servant,has_birthdate,date_of_birth,38,0.6286324786324786,30,0.442002442002442,0.0,0.0
+hasdescriptiveoccupation,servant,has_birthdate,around 1750,38,0.6286324786324786,22,0.45598845598845594,0.0,0.0
+hasdescriptiveoccupation,servant,record,module:,27,0.6138888888888889,14,0.0,0.0,0.0
+hasdescriptiveoccupation,servant,has_race_or_color,race_or_color,39,0.5977668845315903,20,0.442002442002442,0.0,0.0
+hasdescriptiveoccupation,servant,has_race_or_color,african-american,39,0.5977668845315903,35,0.4275793650793651,0.0,0.0
+hasdescriptiveoccupation,servant,status record,module:,32,0.540954415954416,14,0.0,0.0,0.0
+hasdescriptiveoccupation,servant,has_person_status,enslaved person,39,0.6241830065359477,36,0.5492063492063491,0.0,0.0
+hasdescriptiveoccupation,servant,has_person_status,free man,39,0.6241830065359477,40,0.6071428571428571,0.0,0.0
+hasdescriptiveoccupation,servant,has_status_generating_event,event,39,0.5815696649029983,67,0.7904761904761904,0.0,0.0
+hasdescriptiveoccupation,servant,has_status_generating_event,purchase by washington in 1768,39,0.5815696649029983,27,0.5746031746031747,0.0,0.0
+hasdescriptiveoccupation,servant,has_status_generating_event,washington's will,39,0.5815696649029983,25,0.5189075630252101,0.0,0.0
+hasdescriptiveoccupation,servant,by washington in,"1768""), has_status_generating_event(free man, ""washington's will"").",35,0.4861111111111111,19,0.55863539445629,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,william lee,25,0.5555555555555555,38,0.5272727272727272,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,surname,34,0.5474386724386724,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,lee,34,0.5474386724386724,50,0.5111111111111111,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,first_name,32,0.5615079365079364,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,william,32,0.5615079365079364,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_alternate_name,alternate_name,38,0.5574074074074075,32,0.4936507936507937,0.0,0.0
+hasdescriptiveoccupation,slave,has_alternate_name,billy,38,0.5574074074074075,20,0.4666666666666666,0.0,0.0
+hasdescriptiveoccupation,slave,has_alternate_name,will lee,38,0.5574074074074075,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,relationship record,module:,33,0.6137539361223572,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,27,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,enslaver or owner,41,0.6037698412698412,45,0.6313725490196078,0.0,0.0
+hasdescriptiveoccupation,slave,or,"owner"")",8,0.5138888888888888,17,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,agent,38,0.6264245014245015,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,george washington,38,0.6264245014245015,9,0.33921568627450976,0.0,0.0
+hasdescriptiveoccupation,slave,role record,module:,29,0.4873737373737373,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,participant_role_type,50,0.6805555555555555,15,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,valet,50,0.6805555555555555,40,0.6222222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,huntsman,50,0.6805555555555555,31,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,sex_type,32,0.5742063492063493,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,male,32,0.5742063492063493,44,0.6722222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,slave,68,0.8045940170940171,100,1.0,0.0,1.0
+hasdescriptiveoccupation,slave,has_occupation,personal assistant,68,0.8045940170940171,26,0.5907407407407407,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,valet,68,0.8045940170940171,40,0.6222222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,huntsman,68,0.8045940170940171,31,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,shoemaker,68,0.8045940170940171,43,0.5333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,age,26,0.5793650793650794,50,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,unknown,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,date_of_birth,38,0.6286324786324786,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,around 1750,38,0.6286324786324786,12,0.43030303030303035,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,race_or_color,39,0.5977668845315903,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,african-american,39,0.5977668845315903,19,0.5083333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,enslaved person,39,0.6241830065359477,50,0.6444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,free man,39,0.6241830065359477,15,0.44166666666666665,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,event,39,0.5815696649029983,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,purchase by washington in 1768,39,0.5815696649029983,11,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,washington's will,39,0.5815696649029983,18,0.33921568627450976,0.0,0.0
+hasdescriptiveoccupation,slave,by washington in,"1768""), has_status_generating_event(free man, ""washington's will"").",35,0.4861111111111111,11,0.4532338308457711,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,record,module:,27,0.6138888888888889,14,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_name,name,25,0.5555555555555555,16,0.5634920634920635,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_name,william lee,25,0.5555555555555555,25,0.43088023088023086,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_surname,surname,34,0.5474386724386724,21,0.5174603174603174,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_surname,lee,34,0.5474386724386724,17,0.5873015873015873,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_first_name,first_name,32,0.5615079365079364,26,0.5174603174603174,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_first_name,william,32,0.5615079365079364,14,0.29365079365079366,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_alternate_name,alternate_name,38,0.5574074074074075,23,0.5257936507936508,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_alternate_name,billy,38,0.5574074074074075,0,0.0,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_alternate_name,will lee,38,0.5574074074074075,21,0.39484126984126977,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,relationship record,module:,33,0.6137539361223572,14,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,26,0.5107376283846872,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_interagent_relationship_type_to,enslaver or owner,41,0.6037698412698412,32,0.6479925303454714,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,or,"owner"")",8,0.5138888888888888,14,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,is_relationship_to,agent,38,0.6264245014245015,23,0.4698412698412698,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,is_relationship_to,george washington,38,0.6264245014245015,32,0.5415499533146592,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,role record,module:,29,0.4873737373737373,14,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_participant_role,participant_role_type,50,0.6805555555555555,29,0.4603174603174603,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_participant_role,valet,50,0.6805555555555555,15,0.33174603174603173,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_participant_role,huntsman,50,0.6805555555555555,28,0.39484126984126977,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,record,module:,27,0.6138888888888889,14,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_sex,sex_type,32,0.5742063492063493,14,0.44841269841269843,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_sex,male,32,0.5742063492063493,24,0.5198412698412698,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,record,module:,27,0.6138888888888889,14,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_occupation,occupation,68,0.8045940170940171,19,0.36984126984126986,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_occupation,slave,68,0.8045940170940171,15,0.33174603174603173,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_occupation,personal assistant,68,0.8045940170940171,26,0.47883597883597884,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_occupation,valet,68,0.8045940170940171,15,0.33174603174603173,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_occupation,huntsman,68,0.8045940170940171,28,0.39484126984126977,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_occupation,shoemaker,68,0.8045940170940171,27,0.46455026455026455,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,record,module:,27,0.6138888888888889,14,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_age,age,26,0.5793650793650794,17,0.42063492063492064,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_age,unknown,26,0.5793650793650794,21,0.3968253968253968,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_birthdate,date_of_birth,38,0.6286324786324786,24,0.4075702075702076,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_birthdate,around 1750,38,0.6286324786324786,25,0.43088023088023086,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,record,module:,27,0.6138888888888889,14,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_race_or_color,race_or_color,39,0.5977668845315903,24,0.4742368742368743,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_race_or_color,african-american,39,0.5977668845315903,38,0.5525793650793651,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,status record,module:,32,0.540954415954416,14,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_person_status,enslaved person,39,0.6241830065359477,39,0.6142857142857142,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_person_status,free man,39,0.6241830065359477,55,0.8261904761904763,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_status_generating_event,event,39,0.5815696649029983,23,0.580952380952381,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_status_generating_event,purchase by washington in 1768,39,0.5815696649029983,27,0.5031746031746032,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_status_generating_event,washington's will,39,0.5815696649029983,21,0.4440709617180206,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,by washington in,"1768""), has_status_generating_event(free man, ""washington's will"").",35,0.4861111111111111,25,0.5127221037668799,0.0,0.0
+hasfirstname,william,record,module:,22,0.4166666666666667,14,0.42857142857142855,0.0,0.0
+hasfirstname,william,has_name,name,70,0.8736111111111112,36,0.0,0.0,0.0
+hasfirstname,william,has_name,william lee,70,0.8736111111111112,78,0.9272727272727272,0.0,0.5797386715376658
+hasfirstname,william,has_surname,surname,70,0.8733164983164984,29,0.5238095238095238,0.0,0.0
+hasfirstname,william,has_surname,lee,70,0.8733164983164984,20,0.4920634920634921,0.0,0.0
+hasfirstname,william,has_first_name,first_name,92,0.9666666666666667,35,0.5761904761904763,0.0,0.0
+hasfirstname,william,has_first_name,william,92,0.9666666666666667,100,1.0,0.0,1.0
+hasfirstname,william,has_alternate_name,alternate_name,60,0.6759259259259259,29,0.43650793650793646,0.0,0.0
+hasfirstname,william,has_alternate_name,billy,60,0.6759259259259259,50,0.6761904761904761,0.0,0.0
+hasfirstname,william,has_alternate_name,will lee,60,0.6759259259259259,53,0.6904761904761904,0.0,0.0
+hasfirstname,william,relationship record,module:,32,0.5077276524644946,14,0.42857142857142855,0.0,0.0
+hasfirstname,william,has_interagent_relationship_type_to,relationship_type,34,0.5949735449735449,17,0.5189075630252101,0.0,0.0
+hasfirstname,william,has_interagent_relationship_type_to,enslaver or owner,34,0.5949735449735449,17,0.4677871148459383,0.0,0.0
+hasfirstname,william,or,"owner"")",14,0.5277777777777778,14,0.42857142857142855,0.0,0.0
+hasfirstname,william,is_relationship_to,agent,27,0.6203703703703703,17,0.0,0.0,0.0
+hasfirstname,william,is_relationship_to,george washington,27,0.6203703703703703,17,0.4239028944911298,0.0,0.0
+hasfirstname,william,role record,module:,17,0.44949494949494956,14,0.42857142857142855,0.0,0.0
+hasfirstname,william,has_participant_role,participant_role_type,44,0.6962962962962962,21,0.41269841269841273,0.0,0.0
+hasfirstname,william,has_participant_role,valet,44,0.6962962962962962,17,0.44761904761904764,0.0,0.0
+hasfirstname,william,has_participant_role,huntsman,44,0.6962962962962962,13,0.3452380952380952,0.0,0.0
+hasfirstname,william,record,module:,22,0.4166666666666667,14,0.42857142857142855,0.0,0.0
+hasfirstname,william,has_sex,sex_type,53,0.6349206349206349,0,0.0,0.0,0.0
+hasfirstname,william,has_sex,male,53,0.6349206349206349,18,0.46428571428571425,0.0,0.0
+hasfirstname,william,record,module:,22,0.4166666666666667,14,0.42857142857142855,0.0,0.0
+hasfirstname,william,has_occupation,occupation,38,0.5873015873015873,12,0.32857142857142857,0.0,0.0
+hasfirstname,william,has_occupation,slave,38,0.5873015873015873,33,0.44761904761904764,0.0,0.0
+hasfirstname,william,has_occupation,personal assistant,38,0.5873015873015873,24,0.42063492063492064,0.0,0.0
+hasfirstname,william,has_occupation,valet,38,0.5873015873015873,17,0.44761904761904764,0.0,0.0
+hasfirstname,william,has_occupation,huntsman,38,0.5873015873015873,13,0.3452380952380952,0.0,0.0
+hasfirstname,william,has_occupation,shoemaker,38,0.5873015873015873,12,0.335978835978836,0.0,0.0
+hasfirstname,william,record,module:,22,0.4166666666666667,14,0.42857142857142855,0.0,0.0
+hasfirstname,william,has_age,age,53,0.7972222222222223,20,0.0,0.0,0.0
+hasfirstname,william,has_age,unknown,53,0.7972222222222223,14,0.0,0.0,0.0
+hasfirstname,william,has_birthdate,date_of_birth,64,0.8324786324786324,10,0.3131868131868132,0.0,0.0
+hasfirstname,william,has_birthdate,around 1750,64,0.8324786324786324,11,0.0,0.0,0.0
+hasfirstname,william,record,module:,22,0.4166666666666667,14,0.42857142857142855,0.0,0.0
+hasfirstname,william,has_race_or_color,race_or_color,41,0.6176470588235294,10,0.40659340659340665,0.0,0.0
+hasfirstname,william,has_race_or_color,african-american,41,0.6176470588235294,26,0.4275793650793651,0.0,0.0
+hasfirstname,william,status record,module:,32,0.5427350427350427,14,0.42857142857142855,0.0,0.0
+hasfirstname,william,has_person_status,enslaved person,48,0.6857298474945533,18,0.47301587301587295,0.0,0.0
+hasfirstname,william,has_person_status,free man,48,0.6857298474945533,13,0.3452380952380952,0.0,0.0
+hasfirstname,william,has_status_generating_event,event,41,0.5833333333333334,0,0.0,0.0,0.0
+hasfirstname,william,has_status_generating_event,purchase by washington in 1768,41,0.5833333333333334,16,0.3984126984126984,0.0,0.0
+hasfirstname,william,has_status_generating_event,washington's will,41,0.5833333333333334,33,0.4239028944911298,0.0,0.0
+hasfirstname,william,by washington in,"1768""), has_status_generating_event(free man, ""washington's will"").",36,0.5138888888888888,11,0.2718550106609808,0.0,0.0
+hassurname,lee,record,module:,25,0.4222222222222222,40,0.0,0.0,0.0
+hassurname,lee,has_name,name,78,0.9008333333333334,29,0.5277777777777778,0.0,0.0
+hassurname,lee,has_name,william lee,78,0.9008333333333334,43,0.47474747474747475,0.0,0.5797386715376658
+hassurname,lee,has_surname,surname,95,0.9787878787878788,20,0.0,0.0,0.0
+hassurname,lee,has_surname,lee,95,0.9787878787878788,100,1.0,0.0,1.0
+hassurname,lee,has_first_name,first_name,67,0.8674074074074074,15,0.0,0.0,0.0
+hassurname,lee,has_first_name,william,67,0.8674074074074074,20,0.4920634920634921,0.0,0.0
+hassurname,lee,has_alternate_name,alternate_name,57,0.6648148148148149,35,0.7380952380952381,0.0,0.0
+hassurname,lee,has_alternate_name,billy,57,0.6648148148148149,25,0.0,0.0,0.0
+hassurname,lee,has_alternate_name,will lee,57,0.6648148148148149,55,0.4861111111111111,0.0,0.5797386715376658
+hassurname,lee,relationship record,module:,28,0.4543859649122807,40,0.0,0.0,0.0
+hassurname,lee,has_interagent_relationship_type_to,relationship_type,31,0.5380952380952381,20,0.42810457516339867,0.0,0.0
+hassurname,lee,has_interagent_relationship_type_to,enslaver or owner,31,0.5380952380952381,30,0.6143790849673203,0.0,0.0
+hassurname,lee,or,"owner"")",17,0.5333333333333333,20,0.4920634920634921,0.0,0.0
+hassurname,lee,is_relationship_to,agent,21,0.5333333333333333,25,0.5111111111111111,0.0,0.0
+hassurname,lee,is_relationship_to,george washington,21,0.5333333333333333,20,0.5947712418300654,0.0,0.0
+hassurname,lee,role record,module:,19,0.46060606060606063,40,0.0,0.0,0.0
+hassurname,lee,has_participant_role,participant_role_type,40,0.5777777777777778,25,0.0,0.0,0.0
+hassurname,lee,has_participant_role,valet,40,0.5777777777777778,50,0.5111111111111111,0.0,0.0
+hassurname,lee,has_participant_role,huntsman,40,0.5777777777777778,0,0.0,0.0,0.0
+hassurname,lee,record,module:,25,0.4222222222222222,40,0.0,0.0,0.0
+hassurname,lee,has_sex,sex_type,59,0.8166666666666667,36,0.4861111111111111,0.0,0.0
+hassurname,lee,has_sex,male,59,0.8166666666666667,57,0.5277777777777778,0.0,0.0
+hassurname,lee,record,module:,25,0.4222222222222222,40,0.0,0.0,0.0
+hassurname,lee,has_occupation,occupation,42,0.6190476190476191,0,0.0,0.0,0.0
+hassurname,lee,has_occupation,slave,42,0.6190476190476191,50,0.5111111111111111,0.0,0.0
+hassurname,lee,has_occupation,personal assistant,42,0.6190476190476191,10,0.4259259259259259,0.0,0.0
+hassurname,lee,has_occupation,valet,42,0.6190476190476191,50,0.5111111111111111,0.0,0.0
+hassurname,lee,has_occupation,huntsman,42,0.6190476190476191,0,0.0,0.0,0.0
+hassurname,lee,has_occupation,shoemaker,42,0.6190476190476191,33,0.48148148148148145,0.0,0.0
+hassurname,lee,record,module:,25,0.4222222222222222,40,0.0,0.0,0.0
+hassurname,lee,has_age,age,59,0.8166666666666667,33,0.5555555555555555,0.0,0.0
+hassurname,lee,has_age,unknown,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,lee,has_birthdate,date_of_birth,52,0.6871794871794871,12,0.47008547008547,0.0,0.0
+hassurname,lee,has_birthdate,around 1750,52,0.6871794871794871,0,0.0,0.0,0.0
+hassurname,lee,record,module:,25,0.4222222222222222,40,0.0,0.0,0.0
+hassurname,lee,has_race_or_color,race_or_color,44,0.6509803921568628,12,0.47008547008547,0.0,0.0
+hassurname,lee,has_race_or_color,african-american,44,0.6509803921568628,11,0.0,0.0,0.0
+hassurname,lee,status record,module:,35,0.5760683760683761,40,0.0,0.0,0.0
+hassurname,lee,has_person_status,enslaved person,44,0.6735294117647058,33,0.6222222222222222,0.0,0.0
+hassurname,lee,has_person_status,free man,44,0.6735294117647058,36,0.6388888888888888,0.0,0.0
+hassurname,lee,has_status_generating_event,event,43,0.6703703703703704,50,0.6888888888888888,0.0,0.0
+hassurname,lee,has_status_generating_event,purchase by washington in 1768,43,0.6703703703703704,6,0.45555555555555555,0.0,0.0
+hassurname,lee,has_status_generating_event,washington's will,43,0.6703703703703704,10,0.0,0.0,0.0
+hassurname,lee,by washington in,"1768""), has_status_generating_event(free man, ""washington's will"").",23,0.4666666666666666,6,0.5655058043117744,0.0,0.0
+hasname,william lee,record,module:,15,0.0,33,0.48917748917748916,0.0,0.0
+hasname,william lee,has_name,name,93,0.9708333333333333,40,0.5606060606060607,0.0,0.0
+hasname,william lee,has_name,william lee,93,0.9708333333333333,100,1.0,0.0,1.0000000000000002
+hasname,william lee,has_surname,surname,78,0.9151515151515152,33,0.5670995670995671,0.0,0.0
+hasname,william lee,has_surname,lee,78,0.9151515151515152,43,0.47474747474747475,0.0,0.5797386715376658
+hasname,william lee,has_first_name,first_name,67,0.5476190476190476,38,0.5878787878787879,0.0,0.0
+hasname,william lee,has_first_name,william,67,0.5476190476190476,78,0.9272727272727272,0.0,0.5797386715376658
+hasname,william lee,has_alternate_name,alternate_name,56,0.6746031746031745,32,0.47056277056277057,0.0,0.0
+hasname,william lee,has_alternate_name,billy,56,0.6746031746031745,38,0.6242424242424242,0.0,0.0
+hasname,william lee,has_alternate_name,will lee,56,0.6746031746031745,84,0.9454545454545455,0.0,0.33609692727625756
+hasname,william lee,relationship record,module:,23,0.5106516290726817,33,0.48917748917748916,0.0,0.0
+hasname,william lee,has_interagent_relationship_type_to,relationship_type,29,0.6206349206349207,21,0.5162210338680927,0.0,0.0
+hasname,william lee,has_interagent_relationship_type_to,enslaver or owner,29,0.6206349206349207,29,0.5162210338680927,0.0,0.0
+hasname,william lee,or,"owner"")",0,0.0,22,0.41125541125541126,0.0,0.0
+hasname,william lee,is_relationship_to,agent,16,0.43121693121693117,25,0.0,0.0,0.0
+hasname,william lee,is_relationship_to,george washington,16,0.43121693121693117,14,0.449554367201426,0.0,0.0
+hasname,william lee,role record,module:,11,0.41125541125541126,33,0.48917748917748916,0.0,0.0
+hasname,william lee,has_participant_role,participant_role_type,37,0.5904761904761905,38,0.4975468975468975,0.0,0.0
+hasname,william lee,has_participant_role,valet,37,0.5904761904761905,38,0.3606060606060606,0.0,0.0
+hasname,william lee,has_participant_role,huntsman,37,0.5904761904761905,11,0.3106060606060606,0.0,0.0
+hasname,william lee,record,module:,15,0.0,33,0.48917748917748916,0.0,0.0
+hasname,william lee,has_sex,sex_type,57,0.8,21,0.4053030303030303,0.0,0.0
+hasname,william lee,has_sex,male,57,0.8,40,0.393939393939394,0.0,0.0
+hasname,william lee,record,module:,15,0.0,33,0.48917748917748916,0.0,0.0
+hasname,william lee,has_occupation,occupation,38,0.6190476190476191,10,0.29393939393939394,0.0,0.0
+hasname,william lee,has_occupation,slave,38,0.6190476190476191,38,0.5272727272727272,0.0,0.0
+hasname,william lee,has_occupation,personal assistant,38,0.6190476190476191,21,0.4441077441077441,0.0,0.0
+hasname,william lee,has_occupation,valet,38,0.6190476190476191,38,0.3606060606060606,0.0,0.0
+hasname,william lee,has_occupation,huntsman,38,0.6190476190476191,11,0.3106060606060606,0.0,0.0
+hasname,william lee,has_occupation,shoemaker,38,0.6190476190476191,20,0.42424242424242414,0.0,0.0
+hasname,william lee,record,module:,15,0.0,33,0.48917748917748916,0.0,0.0
+hasname,william lee,has_age,age,71,0.8666666666666668,29,0.0,0.0,0.0
+hasname,william lee,has_age,unknown,71,0.8666666666666668,11,0.0,0.0,0.0
+hasname,william lee,has_birthdate,date_of_birth,50,0.553113553113553,17,0.27855477855477856,0.0,0.0
+hasname,william lee,has_birthdate,around 1750,50,0.553113553113553,18,0.393939393939394,0.0,0.0
+hasname,william lee,record,module:,15,0.0,33,0.48917748917748916,0.0,0.0
+hasname,william lee,has_race_or_color,race_or_color,42,0.6694677871148459,17,0.4452214452214452,0.0,0.0
+hasname,william lee,has_race_or_color,african-american,42,0.6694677871148459,30,0.4545454545454546,0.0,0.0
+hasname,william lee,status record,module:,30,0.442002442002442,33,0.48917748917748916,0.0,0.0
+hasname,william lee,has_person_status,enslaved person,42,0.6028011204481792,31,0.5292929292929293,0.0,0.0
+hasname,william lee,has_person_status,free man,42,0.6028011204481792,21,0.43813131313131315,0.0,0.0
+hasname,william lee,has_status_generating_event,event,35,0.6375661375661376,25,0.0,0.0,0.0
+hasname,william lee,has_status_generating_event,purchase by washington in 1768,35,0.6375661375661376,20,0.4070707070707071,0.0,0.0
+hasname,william lee,has_status_generating_event,washington's will,35,0.6375661375661376,29,0.5162210338680927,0.0,0.0
+hasname,william lee,by washington in,"1768""), has_status_generating_event(free man, ""washington's will"").",26,0.5238095238095238,10,0.44305744007236547,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",record,module:,30,0.48412698412698413,6,0.44813539873780844,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_name,name,36,0.5952380952380952,5,0.5080321285140562,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_name,william lee,36,0.5952380952380952,11,0.5231106243154436,0.0,0.08332471296185165
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_surname,surname,48,0.6168831168831169,8,0.5199847007075923,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_surname,lee,48,0.6168831168831169,4,0.5615796519410977,0.0,0.14372805723110713
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_first_name,first_name,43,0.6726190476190476,10,0.5032574743418117,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_first_name,william,43,0.6726190476190476,8,0.5199847007075923,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_alternate_name,alternate_name,44,0.582010582010582,14,0.5151154066816718,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_alternate_name,billy,44,0.582010582010582,5,0.5246987951807229,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_alternate_name,will lee,44,0.582010582010582,9,0.5577309236947791,0.0,0.08332471296185165
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",relationship record,module:,30,0.6135338345864662,6,0.44813539873780844,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_interagent_relationship_type_to,relationship_type,37,0.5666666666666667,14,0.4604935579421759,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_interagent_relationship_type_to,enslaver or owner,37,0.5666666666666667,19,0.6027639971651312,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",or,"owner"")",12,0.5238095238095238,6,0.44813539873780844,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",is_relationship_to,agent,44,0.6474266474266474,6,0.5433734939759036,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",is_relationship_to,george washington,44,0.6474266474266474,19,0.5439404677533664,0.0,0.20534132006450445
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",role record,module:,24,0.46645021645021645,6,0.44813539873780844,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_participant_role,participant_role_type,47,0.6876623376623376,14,0.4408108624976095,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_participant_role,valet,47,0.6876623376623376,6,0.5433734939759036,0.0,0.14372805723110713
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_participant_role,huntsman,47,0.6876623376623376,8,0.4961990820424555,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",record,module:,30,0.48412698412698413,6,0.44813539873780844,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_sex,sex_type,38,0.6238095238095238,6,0.4183734939759036,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_sex,male,38,0.6238095238095238,5,0.5080321285140562,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",record,module:,30,0.48412698412698413,6,0.44813539873780844,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_occupation,occupation,64,0.8074074074074075,8,0.4854847963281698,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_occupation,slave,64,0.8074074074074075,6,0.5433734939759036,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_occupation,personal assistant,64,0.8074074074074075,20,0.5546630968317715,0.0,0.08332471296185165
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_occupation,valet,64,0.8074074074074075,6,0.5433734939759036,0.0,0.14372805723110713
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_occupation,huntsman,64,0.8074074074074075,8,0.4961990820424555,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_occupation,shoemaker,64,0.8074074074074075,9,0.5206938866577421,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",record,module:,30,0.48412698412698413,6,0.44813539873780844,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_age,age,38,0.6190476190476191,4,0.5615796519410977,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_age,unknown,38,0.6190476190476191,6,0.44813539873780844,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_birthdate,date_of_birth,37,0.6318681318681318,10,0.5162608475861488,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_birthdate,around 1750,37,0.6318681318681318,8,0.41665362749700097,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",record,module:,30,0.48412698412698413,6,0.44813539873780844,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_race_or_color,race_or_color,39,0.5896358543417367,10,0.43402670511104247,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_race_or_color,african-american,39,0.5896358543417367,14,0.49631860776439085,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",status record,module:,37,0.5366300366300366,6,0.44813539873780844,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_person_status,enslaved person,45,0.6675070028011204,17,0.6523427041499331,0.0,0.08332471296185165
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_person_status,free man,45,0.6675070028011204,9,0.5577309236947791,0.0,0.08332471296185165
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_status_generating_event,event,39,0.5476190476190476,6,0.6100401606425703,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_status_generating_event,purchase by washington in 1768,39,0.5476190476190476,21,0.5046388452360165,0.0,0.10314885442724915
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",has_status_generating_event,washington's will,39,0.5476190476190476,16,0.46928892038743203,0.0,0.08332471296185165
+hasdescription,"enslaved. free before 13th amendment. a personal valet to george washington and a talented horseman, lee gained his freedom late in life but remained at mount vernon.",by washington in,"1768""), has_status_generating_event(free man, ""washington's will"").",40,0.5654761904761905,28,0.532611570073093,0.0,0.09228786705409496

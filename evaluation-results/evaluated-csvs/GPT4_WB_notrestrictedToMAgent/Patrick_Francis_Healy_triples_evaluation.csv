@@ -1,0 +1,529 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,patrick healy,32,0.537878787878788,21,0.49572649572649574,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,healy,27,0.49242424242424243,18,0.45555555555555555,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,patrick,40,0.5692640692640693,31,0.5396825396825397,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type,relationship_type,33,0.5340909090909091,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type,sibling,33,0.5340909090909091,31,0.4365079365079365,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,eliza healy,34,0.5798460798460798,12,0.41919191919191917,0.0,0.0
+instance of,person,is_relationship_to,james augustine healy,34,0.5798460798460798,22,0.5476190476190476,0.0,0.0
+instance of,person,is_relationship_to,michael healy,34,0.5798460798460798,11,0.41452991452991456,0.0,0.0
+instance of,person,augustine,"healy'), is_relationship_to(patrick healy, 'michael healy')",40,0.6033670033670034,12,0.5894538606403014,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,male,22,0.45598845598845594,20,0.47222222222222215,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,priest,24,0.38311688311688313,50,0.6944444444444443,0.0,0.0
+instance of,person,has_occupation,bishop of portland,24,0.38311688311688313,25,0.4444444444444444,0.0,0.0
+instance of,person,has_occupation,maine,24,0.38311688311688313,18,0.45555555555555555,0.0,0.0
+instance of,person,has_occupation,president of georgetown university,24,0.38311688311688313,25,0.6143790849673203,0.0,0.0
+instance of,person,of,"portland, maine'), has_occupation(patrick healy, 'president of georgetown university')",31,0.0,13,0.5788113695090439,0.5797386715376658,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,not,provided,29,0.6161616161616161,43,0.625,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,january 10,33,0.39044289044289043,12,0.3444444444444444,0.0,0.0
+instance of,person,has_deathdate,1910,33,0.39044289044289043,0,0.0,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,black,36,0.5162210338680927,0,0.0,0.0,0.0
+instance of,person,descriptor record,module:,29,0.5398523045581869,15,0.0,0.0,0.0
+instance of,person,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,34,0.5579124579124579,19,0.5255555555555556,0.0,0.0
+instance of,person,not,provided,29,0.6161616161616161,43,0.625,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,slave,29,0.449554367201426,18,0.0,0.0,0.0
+instance of,person,has_person_status,free,29,0.449554367201426,20,0.4444444444444444,0.0,0.0
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,birth,26,0.4799102132435466,18,0.45555555555555555,0.0,0.0
+instance of,person,has_status_generating_event,education in the north,26,0.4799102132435466,21,0.5454545454545454,0.0,0.0
+instance of,person,in the,north'),47,0.6767676767676768,15,0.4365079365079365,0.0,0.0
+instance of,person,recorded_at,event,18,0.4545454545454546,36,0.5777777777777778,0.0,0.0
+instance of,person,recorded_at,birth,18,0.4545454545454546,18,0.45555555555555555,0.0,0.0
+instance of,person,recorded_at,education in the north,18,0.4545454545454546,21,0.5454545454545454,0.0,0.0
+instance of,person,in the,north'),47,0.6767676767676768,15,0.4365079365079365,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_name,name,57,0.8055555555555556,50,0.6666666666666666,0.0,0.0
+hassex,male,has_name,patrick healy,57,0.8055555555555556,24,0.4423076923076923,0.0,0.0
+hassex,male,has_surname,surname,59,0.6767676767676768,36,0.0,0.0,0.0
+hassex,male,has_surname,healy,59,0.6767676767676768,44,0.6333333333333333,0.0,0.0
+hassex,male,has_first_name,first_name,50,0.6507936507936508,29,0.0,0.0,0.0
+hassex,male,has_first_name,patrick,50,0.6507936507936508,18,0.46428571428571425,0.0,0.0
+hassex,male,relationship record,module:,24,0.44152046783625726,55,0.7535714285714287,0.0,0.0
+hassex,male,has_interagent_relationship_type,relationship_type,26,0.5972222222222222,19,0.5310457516339869,0.0,0.0
+hassex,male,has_interagent_relationship_type,sibling,26,0.5972222222222222,18,0.46428571428571425,0.0,0.0
+hassex,male,is_relationship_to,agent,17,0.46296296296296297,44,0.6333333333333333,0.0,0.0
+hassex,male,is_relationship_to,eliza healy,17,0.46296296296296297,27,0.5631313131313131,0.0,0.0
+hassex,male,is_relationship_to,james augustine healy,17,0.46296296296296297,24,0.5198412698412698,0.0,0.0
+hassex,male,is_relationship_to,michael healy,17,0.46296296296296297,47,0.6858974358974358,0.0,0.0
+hassex,male,augustine,"healy'), is_relationship_to(patrick healy, 'michael healy')",40,0.5185185185185185,13,0.4891713747645951,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_sex,sex_type,92,0.9666666666666667,17,0.4583333333333333,0.0,0.0
+hassex,male,has_sex,male,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_occupation,occupation,30,0.5714285714285715,14,0.45,0.0,0.0
+hassex,male,has_occupation,priest,30,0.5714285714285715,20,0.47222222222222215,0.0,0.0
+hassex,male,has_occupation,bishop of portland,30,0.5714285714285715,9,0.0,0.0,0.0
+hassex,male,has_occupation,maine,30,0.5714285714285715,67,0.8266666666666667,0.0,0.0
+hassex,male,has_occupation,president of georgetown university,30,0.5714285714285715,5,0.4264705882352941,0.0,0.0
+hassex,male,of,"portland, maine'), has_occupation(patrick healy, 'president of georgetown university')",0,0.0,9,0.5988372093023256,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_birthdate,date_of_birth,42,0.576923076923077,24,0.5512820512820512,0.0,0.0
+hassex,male,not,provided,0,0.0,17,0.4583333333333333,0.0,0.0
+hassex,male,has_deathdate,date_of_death,42,0.6581196581196581,24,0.5512820512820512,0.0,0.0
+hassex,male,has_deathdate,january 10,42,0.6581196581196581,14,0.45,0.0,0.0
+hassex,male,has_deathdate,1910,42,0.6581196581196581,0,0.0,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_race_or_color,race_or_color,35,0.6339869281045751,24,0.5512820512820512,0.0,0.0
+hassex,male,has_race_or_color,black,35,0.6339869281045751,22,0.4666666666666666,0.0,0.0
+hassex,male,descriptor record,module:,17,0.31699346405228757,55,0.7535714285714287,0.0,0.0
+hassex,male,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,28,0.6,14,0.36000000000000004,0.0,0.0
+hassex,male,not,provided,0,0.0,17,0.4583333333333333,0.0,0.0
+hassex,male,status record,module:,32,0.5747863247863249,55,0.7535714285714287,0.0,0.0
+hassex,male,has_person_status,slave,35,0.642483660130719,44,0.6722222222222222,0.0,0.0
+hassex,male,has_person_status,free,35,0.642483660130719,25,0.5,0.0,0.0
+hassex,male,has_status_generating_event,event,30,0.6728395061728395,22,0.48333333333333334,0.0,0.0
+hassex,male,has_status_generating_event,birth,30,0.6728395061728395,0,0.0,0.0,0.0
+hassex,male,has_status_generating_event,education in the north,30,0.6728395061728395,15,0.3636363636363636,0.0,0.0
+hassex,male,in the,north'),33,0.4444444444444444,0,0.0,0.0,0.0
+hassex,male,recorded_at,event,12,0.41919191919191917,22,0.48333333333333334,0.0,0.0
+hassex,male,recorded_at,birth,12,0.41919191919191917,0,0.0,0.0,0.0
+hassex,male,recorded_at,education in the north,12,0.41919191919191917,15,0.3636363636363636,0.0,0.0
+hassex,male,in the,north'),33,0.4444444444444444,0,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,patrick healy,38,0.5675925925925926,33,0.3512820512820513,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,healy,41,0.6274651274651274,40,0.6,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,patrick,44,0.6772486772486772,17,0.44761904761904764,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type,relationship_type,44,0.65625,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type,sibling,44,0.65625,33,0.5619047619047619,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,eliza healy,44,0.6037037037037037,25,0.3606060606060606,0.0,0.0
+hasparticipantrole,child,is_relationship_to,james augustine healy,44,0.6037037037037037,15,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,michael healy,44,0.6037037037037037,33,0.6192307692307693,0.0,0.0
+hasparticipantrole,child,augustine,"healy'), is_relationship_to(patrick healy, 'michael healy')",44,0.6111111111111112,12,0.43917137476459506,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,male,32,0.5317460317460317,22,0.48333333333333334,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,priest,50,0.6566137566137565,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,has_occupation,bishop of portland,50,0.6566137566137565,26,0.337037037037037,0.0,0.0
+hasparticipantrole,child,has_occupation,maine,50,0.6566137566137565,20,0.4666666666666666,0.0,0.0
+hasparticipantrole,child,has_occupation,president of georgetown university,50,0.6566137566137565,10,0.4862745098039216,0.0,0.0
+hasparticipantrole,child,of,"portland, maine'), has_occupation(patrick healy, 'president of georgetown university')",10,0.0,9,0.5527131782945737,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_birthdate,date_of_birth,52,0.6937321937321936,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,not,provided,19,0.46296296296296297,31,0.5499999999999999,0.0,0.0
+hasparticipantrole,child,has_deathdate,date_of_death,52,0.6866096866096866,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_deathdate,january 10,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,child,has_deathdate,1910,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_race_or_color,race_or_color,46,0.60239651416122,22,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_race_or_color,black,46,0.60239651416122,20,0.0,0.0,0.0
+hasparticipantrole,child,descriptor record,module:,40,0.5653594771241829,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,42,0.5903133903133903,13,0.46222222222222226,0.0,0.0
+hasparticipantrole,child,not,provided,19,0.46296296296296297,31,0.5499999999999999,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,slave,46,0.6479302832244008,20,0.0,0.0,0.0
+hasparticipantrole,child,has_person_status,free,46,0.6479302832244008,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,birth,40,0.5819304152637487,20,0.4666666666666666,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,education in the north,40,0.5819304152637487,15,0.46767676767676764,0.0,0.0
+hasparticipantrole,child,in the,north'),33,0.4444444444444444,17,0.0,0.0,0.0
+hasparticipantrole,child,recorded_at,event,28,0.36195286195286197,0,0.0,0.0,0.0
+hasparticipantrole,child,recorded_at,birth,28,0.36195286195286197,20,0.4666666666666666,0.0,0.0
+hasparticipantrole,child,recorded_at,education in the north,28,0.36195286195286197,15,0.46767676767676764,0.0,0.0
+hasparticipantrole,child,in the,north'),33,0.4444444444444444,17,0.0,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,patrick healy,38,0.5675925925925926,21,0.3581196581196581,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,healy,41,0.6274651274651274,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,patrick,44,0.6772486772486772,18,0.3063492063492063,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type,relationship_type,44,0.65625,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type,sibling,44,0.65625,18,0.40317460317460313,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,eliza healy,44,0.6037037037037037,31,0.4601010101010101,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,james augustine healy,44,0.6037037037037037,33,0.513095238095238,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,michael healy,44,0.6037037037037037,36,0.4393162393162393,0.0,0.0
+hasparticipantrole,deceased person,augustine,"healy'), is_relationship_to(patrick healy, 'michael healy')",44,0.6111111111111112,19,0.5187125492210237,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,male,32,0.5317460317460317,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,priest,50,0.6566137566137565,29,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,bishop of portland,50,0.6566137566137565,30,0.4666666666666666,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,maine,50,0.6566137566137565,20,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,president of georgetown university,50,0.6566137566137565,33,0.5644087938205585,0.0,0.0
+hasparticipantrole,deceased person,of,"portland, maine'), has_occupation(patrick healy, 'president of georgetown university')",10,0.0,24,0.5187636652752933,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,date_of_birth,52,0.6937321937321936,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,not,provided,19,0.46296296296296297,26,0.525,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,date_of_death,52,0.6866096866096866,36,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,january 10,52,0.6866096866096866,16,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,1910,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,race_or_color,46,0.60239651416122,29,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,black,46,0.60239651416122,10,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,descriptor record,module:,40,0.5653594771241829,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,42,0.5903133903133903,30,0.5051851851851852,0.0,0.0
+hasparticipantrole,deceased person,not,provided,19,0.46296296296296297,26,0.525,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,slave,46,0.6479302832244008,20,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,free,46,0.6479302832244008,21,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,birth,40,0.5819304152637487,10,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,education in the north,40,0.5819304152637487,32,0.5585858585858586,0.0,0.0
+hasparticipantrole,deceased person,in the,north'),33,0.4444444444444444,9,0.0,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,event,28,0.36195286195286197,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,birth,28,0.36195286195286197,10,0.0,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,education in the north,28,0.36195286195286197,32,0.5585858585858586,0.0,0.0
+hasparticipantrole,deceased person,in the,north'),33,0.4444444444444444,9,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,patrick healy,25,0.5555555555555555,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,surname,34,0.5474386724386724,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,healy,34,0.5474386724386724,20,0.4666666666666666,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,first_name,32,0.5615079365079364,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,patrick,32,0.5615079365079364,17,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,relationship record,module:,33,0.6137539361223572,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,27,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type,sibling,43,0.5868055555555555,33,0.5619047619047619,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,agent,38,0.6264245014245015,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,eliza healy,38,0.6264245014245015,38,0.5131313131313131,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,james augustine healy,38,0.6264245014245015,23,0.4698412698412698,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,michael healy,38,0.6264245014245015,22,0.49914529914529915,0.0,0.0
+hasdescriptiveoccupation,slave,augustine,"healy'), is_relationship_to(patrick healy, 'michael healy')",30,0.5212962962962964,12,0.45593220338983054,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,sex_type,32,0.5742063492063493,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,male,32,0.5742063492063493,44,0.6722222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,priest,68,0.8045940170940171,18,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,bishop of portland,68,0.8045940170940171,26,0.4185185185185185,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,maine,68,0.8045940170940171,40,0.6,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,president of georgetown university,68,0.8045940170940171,15,0.31960784313725493,0.0,0.0
+hasdescriptiveoccupation,slave,of,"portland, maine'), has_occupation(patrick healy, 'president of georgetown university')",8,0.0,9,0.44883720930232557,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,date_of_birth,38,0.6286324786324786,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,not,provided,15,0.4583333333333333,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,date_of_death,43,0.652065527065527,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,january 10,43,0.652065527065527,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,1910,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,race_or_color,39,0.5977668845315903,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,black,39,0.5977668845315903,40,0.6,0.0,0.0
+hasdescriptiveoccupation,slave,descriptor record,module:,54,0.6797385620915034,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,44,0.6722222222222222,13,0.46222222222222226,0.0,0.0
+hasdescriptiveoccupation,slave,not,provided,15,0.4583333333333333,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,slave,39,0.6241830065359477,100,1.0,0.0,1.0
+hasdescriptiveoccupation,slave,has_person_status,free,39,0.6241830065359477,22,0.48333333333333334,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,event,39,0.5815696649029983,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,birth,39,0.5815696649029983,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,education in the north,39,0.5815696649029983,15,0.3303030303030303,0.0,0.0
+hasdescriptiveoccupation,slave,in the,north'),20,0.4444444444444444,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,event,34,0.5202020202020202,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,birth,34,0.5202020202020202,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,education in the north,34,0.5202020202020202,15,0.3303030303030303,0.0,0.0
+hasdescriptiveoccupation,slave,in the,north'),20,0.4444444444444444,0,0.0,0.0,0.0
+hasdescriptiveoccupation,educational institution official,record,module:,27,0.6138888888888889,15,0.5568452380952381,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_name,name,25,0.5555555555555555,11,0.5034722222222222,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_name,patrick healy,25,0.5555555555555555,27,0.4551282051282051,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_surname,surname,34,0.5474386724386724,21,0.4901785714285714,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_surname,healy,34,0.5474386724386724,16,0.5645833333333333,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_first_name,first_name,32,0.5615079365079364,24,0.4847222222222222,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_first_name,patrick,32,0.5615079365079364,21,0.3988095238095238,0.0,0.0
+hasdescriptiveoccupation,educational institution official,relationship record,module:,33,0.6137539361223572,15,0.5568452380952381,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,37,0.5002450980392157,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_interagent_relationship_type,sibling,43,0.5868055555555555,21,0.5568452380952381,0.0,0.0
+hasdescriptiveoccupation,educational institution official,is_relationship_to,agent,38,0.6264245014245015,16,0.47500000000000003,0.0,0.0
+hasdescriptiveoccupation,educational institution official,is_relationship_to,eliza healy,38,0.6264245014245015,28,0.5220959595959597,0.0,0.0
+hasdescriptiveoccupation,educational institution official,is_relationship_to,james augustine healy,38,0.6264245014245015,34,0.5212530525030524,0.0,0.0
+hasdescriptiveoccupation,educational institution official,is_relationship_to,michael healy,38,0.6264245014245015,27,0.4904990842490842,0.0,0.0
+hasdescriptiveoccupation,educational institution official,augustine,"healy'), is_relationship_to(patrick healy, 'michael healy')",30,0.5212962962962964,35,0.5596162900188323,0.0,0.0
+hasdescriptiveoccupation,educational institution official,record,module:,27,0.6138888888888889,15,0.5568452380952381,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_sex,sex_type,32,0.5742063492063493,10,0.37847222222222215,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_sex,male,32,0.5742063492063493,11,0.5034722222222222,0.0,0.0
+hasdescriptiveoccupation,educational institution official,record,module:,27,0.6138888888888889,15,0.5568452380952381,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_occupation,occupation,68,0.8045940170940171,29,0.5583333333333333,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_occupation,priest,68,0.8045940170940171,16,0.4305555555555555,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_occupation,bishop of portland,68,0.8045940170940171,28,0.5001052188552189,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_occupation,maine,68,0.8045940170940171,16,0.47500000000000003,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_occupation,president of georgetown university,68,0.8045940170940171,33,0.5771736326109391,0.0,0.0
+hasdescriptiveoccupation,educational institution official,of,"portland, maine'), has_occupation(patrick healy, 'president of georgetown university')",8,0.0,32,0.6025747508305649,0.0,0.0
+hasdescriptiveoccupation,educational institution official,record,module:,27,0.6138888888888889,15,0.5568452380952381,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_birthdate,date_of_birth,38,0.6286324786324786,27,0.44288003663003667,0.0,0.0
+hasdescriptiveoccupation,educational institution official,not,provided,15,0.4583333333333333,10,0.375,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_deathdate,date_of_death,43,0.652065527065527,27,0.4904990842490842,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_deathdate,january 10,43,0.652065527065527,19,0.48541666666666666,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_deathdate,1910,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,educational institution official,record,module:,27,0.6138888888888889,15,0.5568452380952381,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_race_or_color,race_or_color,39,0.5977668845315903,22,0.4904990842490842,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_race_or_color,black,39,0.5977668845315903,11,0.4534722222222222,0.0,0.0
+hasdescriptiveoccupation,educational institution official,descriptor record,module:,54,0.6797385620915034,15,0.5568452380952381,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,44,0.6722222222222222,39,0.6312037037037037,0.0,0.0
+hasdescriptiveoccupation,educational institution official,not,provided,15,0.4583333333333333,10,0.375,0.0,0.0
+hasdescriptiveoccupation,educational institution official,status record,module:,32,0.540954415954416,15,0.5568452380952381,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_person_status,slave,39,0.6241830065359477,11,0.47500000000000003,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_person_status,free,39,0.6241830065359477,6,0.4270833333333333,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_status_generating_event,event,39,0.5815696649029983,16,0.4534722222222222,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_status_generating_event,birth,39,0.5815696649029983,11,0.32083333333333336,0.0,0.0
+hasdescriptiveoccupation,educational institution official,has_status_generating_event,education in the north,39,0.5815696649029983,56,0.8372660427807488,0.0,0.0
+hasdescriptiveoccupation,educational institution official,in the,north'),20,0.4444444444444444,10,0.3963293650793651,0.0,0.0
+hasdescriptiveoccupation,educational institution official,recorded_at,event,34,0.5202020202020202,16,0.4534722222222222,0.0,0.0
+hasdescriptiveoccupation,educational institution official,recorded_at,birth,34,0.5202020202020202,11,0.32083333333333336,0.0,0.0
+hasdescriptiveoccupation,educational institution official,recorded_at,education in the north,34,0.5202020202020202,56,0.8372660427807488,0.0,0.0
+hasdescriptiveoccupation,educational institution official,in the,north'),20,0.4444444444444444,10,0.3963293650793651,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,record,module:,27,0.6138888888888889,29,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_name,name,25,0.5555555555555555,24,0.5198412698412698,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_name,patrick healy,25,0.5555555555555555,41,0.6687756687756687,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_surname,surname,34,0.5474386724386724,29,0.503968253968254,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_surname,healy,34,0.5474386724386724,23,0.4698412698412698,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_first_name,first_name,32,0.5615079365079364,26,0.5174603174603174,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_first_name,patrick,32,0.5615079365079364,29,0.5174603174603174,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,relationship record,module:,33,0.6137539361223572,29,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,32,0.5548085901027077,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_interagent_relationship_type,sibling,43,0.5868055555555555,21,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,is_relationship_to,agent,38,0.6264245014245015,23,0.580952380952381,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,is_relationship_to,eliza healy,38,0.6264245014245015,31,0.4975468975468975,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,is_relationship_to,james augustine healy,38,0.6264245014245015,38,0.5753968253968255,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,is_relationship_to,michael healy,38,0.6264245014245015,41,0.6151404151404152,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,augustine,"healy'), is_relationship_to(patrick healy, 'michael healy')",30,0.5212962962962964,32,0.5423570558166769,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,record,module:,27,0.6138888888888889,29,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_sex,sex_type,32,0.5742063492063493,14,0.39087301587301587,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_sex,male,32,0.5742063492063493,32,0.6309523809523809,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,record,module:,27,0.6138888888888889,29,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_occupation,occupation,68,0.8045940170940171,32,0.5825396825396826,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_occupation,priest,68,0.8045940170940171,22,0.4761904761904762,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_occupation,bishop of portland,68,0.8045940170940171,26,0.4947089947089947,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_occupation,maine,68,0.8045940170940171,31,0.580952380952381,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_occupation,president of georgetown university,68,0.8045940170940171,33,0.5303454715219421,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,of,"portland, maine'), has_occupation(patrick healy, 'president of georgetown university')",8,0.0,32,0.5783130306386121,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,record,module:,27,0.6138888888888889,29,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_birthdate,date_of_birth,38,0.6286324786324786,29,0.4157509157509158,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,not,provided,15,0.4583333333333333,28,0.5059523809523809,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_deathdate,date_of_death,43,0.652065527065527,24,0.4157509157509158,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_deathdate,january 10,43,0.652065527065527,32,0.44603174603174606,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_deathdate,1910,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,record,module:,27,0.6138888888888889,29,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_race_or_color,race_or_color,39,0.5977668845315903,41,0.5404456654456654,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_race_or_color,black,39,0.5977668845315903,15,0.4984126984126984,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,descriptor record,module:,54,0.6797385620915034,29,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,44,0.6722222222222222,30,0.48507936507936505,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,not,provided,15,0.4583333333333333,28,0.5059523809523809,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,status record,module:,32,0.540954415954416,29,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_person_status,slave,39,0.6241830065359477,15,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_person_status,free,39,0.6241830065359477,16,0.43253968253968256,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_status_generating_event,event,39,0.5815696649029983,15,0.4984126984126984,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_status_generating_event,birth,39,0.5815696649029983,23,0.580952380952381,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,has_status_generating_event,education in the north,39,0.5815696649029983,37,0.5667388167388167,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,in the,north'),20,0.4444444444444444,21,0.5841269841269842,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,recorded_at,event,34,0.5202020202020202,15,0.4984126984126984,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,recorded_at,birth,34,0.5202020202020202,23,0.580952380952381,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,recorded_at,education in the north,34,0.5202020202020202,37,0.5667388167388167,0.0,0.0
+hasdescriptiveoccupation,roman catholic clergy,in the,north'),20,0.4444444444444444,21,0.5841269841269842,0.0,0.0
+hasfirstname,patrick francis,record,module:,22,0.4166666666666667,0,0.0,0.0,0.0
+hasfirstname,patrick francis,has_name,name,70,0.8736111111111112,11,0.4388888888888889,0.0,0.0
+hasfirstname,patrick francis,has_name,patrick healy,70,0.8736111111111112,64,0.8584615384615384,0.0,0.33609692727625756
+hasfirstname,patrick francis,has_surname,surname,70,0.8733164983164984,18,0.3063492063492063,0.0,0.0
+hasfirstname,patrick francis,has_surname,healy,70,0.8733164983164984,10,0.4222222222222222,0.0,0.0
+hasfirstname,patrick francis,has_first_name,first_name,92,0.9666666666666667,24,0.4777777777777777,0.0,0.0
+hasfirstname,patrick francis,has_first_name,patrick,92,0.9666666666666667,64,0.8933333333333334,0.0,0.5797386715376658
+hasfirstname,patrick francis,relationship record,module:,32,0.5077276524644946,0,0.0,0.0,0.0
+hasfirstname,patrick francis,has_interagent_relationship_type,relationship_type,36,0.6030092592592592,31,0.530905695611578,0.0,0.0
+hasfirstname,patrick francis,has_interagent_relationship_type,sibling,36,0.6030092592592592,18,0.47301587301587295,0.0,0.0
+hasfirstname,patrick francis,is_relationship_to,agent,27,0.6203703703703703,20,0.5111111111111111,0.0,0.0
+hasfirstname,patrick francis,is_relationship_to,eliza healy,27,0.6203703703703703,23,0.4601010101010101,0.0,0.0
+hasfirstname,patrick francis,is_relationship_to,james augustine healy,27,0.6203703703703703,28,0.45714285714285713,0.0,0.0
+hasfirstname,patrick francis,is_relationship_to,michael healy,27,0.6203703703703703,29,0.505982905982906,0.0,0.0
+hasfirstname,patrick francis,augustine,"healy'), is_relationship_to(patrick healy, 'michael healy')",48,0.6666666666666666,27,0.5418223960596843,0.0,0.12160331478619012
+hasfirstname,patrick francis,record,module:,22,0.4166666666666667,0,0.0,0.0,0.0
+hasfirstname,patrick francis,has_sex,sex_type,53,0.6349206349206349,9,0.29444444444444445,0.0,0.0
+hasfirstname,patrick francis,has_sex,male,53,0.6349206349206349,11,0.4388888888888889,0.0,0.0
+hasfirstname,patrick francis,record,module:,22,0.4166666666666667,0,0.0,0.0,0.0
+hasfirstname,patrick francis,has_occupation,occupation,38,0.5873015873015873,40,0.5555555555555555,0.0,0.0
+hasfirstname,patrick francis,has_occupation,priest,38,0.5873015873015873,38,0.5611111111111111,0.0,0.0
+hasfirstname,patrick francis,has_occupation,bishop of portland,38,0.5873015873015873,36,0.5708994708994709,0.0,0.0
+hasfirstname,patrick francis,has_occupation,maine,38,0.5873015873015873,30,0.5111111111111111,0.0,0.0
+hasfirstname,patrick francis,has_occupation,president of georgetown university,38,0.5873015873015873,37,0.5202614379084967,0.0,0.0
+hasfirstname,patrick francis,of,"portland, maine'), has_occupation(patrick healy, 'president of georgetown university')",14,0.5277777777777778,26,0.5558508674787744,0.0,0.1414305679255449
+hasfirstname,patrick francis,record,module:,22,0.4166666666666667,0,0.0,0.0,0.0
+hasfirstname,patrick francis,has_birthdate,date_of_birth,64,0.8324786324786324,29,0.505982905982906,0.0,0.0
+hasfirstname,patrick francis,not,provided,13,0.47222222222222215,26,0.525,0.0,0.0
+hasfirstname,patrick francis,has_deathdate,date_of_death,48,0.5982905982905983,29,0.5247863247863248,0.0,0.0
+hasfirstname,patrick francis,has_deathdate,january 10,48,0.5982905982905983,24,0.47222222222222227,0.0,0.0
+hasfirstname,patrick francis,has_deathdate,1910,48,0.5982905982905983,0,0.0,0.0,0.0
+hasfirstname,patrick francis,record,module:,22,0.4166666666666667,0,0.0,0.0,0.0
+hasfirstname,patrick francis,has_race_or_color,race_or_color,41,0.6176470588235294,29,0.505982905982906,0.0,0.0
+hasfirstname,patrick francis,has_race_or_color,black,41,0.6176470588235294,30,0.6,0.0,0.0
+hasfirstname,patrick francis,descriptor record,module:,28,0.50359477124183,0,0.0,0.0,0.0
+hasfirstname,patrick francis,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,33,0.5611111111111111,25,0.49277777777777776,0.0,0.0
+hasfirstname,patrick francis,not,provided,13,0.47222222222222215,26,0.525,0.0,0.0
+hasfirstname,patrick francis,status record,module:,32,0.5427350427350427,0,0.0,0.0,0.0
+hasfirstname,patrick francis,has_person_status,slave,48,0.6857298474945533,10,0.4222222222222222,0.0,0.0
+hasfirstname,patrick francis,has_person_status,free,48,0.6857298474945533,21,0.4388888888888889,0.0,0.0
+hasfirstname,patrick francis,has_status_generating_event,event,41,0.5833333333333334,10,0.4222222222222222,0.0,0.0
+hasfirstname,patrick francis,has_status_generating_event,birth,41,0.5833333333333334,20,0.48888888888888893,0.0,0.0
+hasfirstname,patrick francis,has_status_generating_event,education in the north,41,0.5833333333333334,27,0.46565656565656566,0.0,0.0
+hasfirstname,patrick francis,in the,north'),33,0.47222222222222215,9,0.3063492063492063,0.0,0.0
+hasfirstname,patrick francis,recorded_at,event,17,0.4823232323232323,10,0.4222222222222222,0.0,0.0
+hasfirstname,patrick francis,recorded_at,birth,17,0.4823232323232323,20,0.48888888888888893,0.0,0.0
+hasfirstname,patrick francis,recorded_at,education in the north,17,0.4823232323232323,27,0.46565656565656566,0.0,0.0
+hasfirstname,patrick francis,in the,north'),33,0.47222222222222215,9,0.3063492063492063,0.0,0.0
+hassurname,healy,record,module:,25,0.4222222222222222,17,0.44761904761904764,0.0,0.0
+hassurname,healy,has_name,name,78,0.9008333333333334,22,0.48333333333333334,0.0,0.0
+hassurname,healy,has_name,patrick healy,78,0.9008333333333334,56,0.4256410256410256,0.0,0.5797386715376658
+hassurname,healy,has_surname,surname,95,0.9787878787878788,17,0.44761904761904764,0.0,0.0
+hassurname,healy,has_surname,healy,95,0.9787878787878788,100,1.0,0.0,1.0
+hassurname,healy,has_first_name,first_name,67,0.8674074074074074,13,0.0,0.0,0.0
+hassurname,healy,has_first_name,patrick,67,0.8674074074074074,17,0.44761904761904764,0.0,0.0
+hassurname,healy,relationship record,module:,28,0.4543859649122807,17,0.44761904761904764,0.0,0.0
+hassurname,healy,has_interagent_relationship_type,relationship_type,33,0.544345238095238,27,0.48104575163398694,0.0,0.0
+hassurname,healy,has_interagent_relationship_type,sibling,33,0.544345238095238,17,0.44761904761904764,0.0,0.0
+hassurname,healy,is_relationship_to,agent,21,0.5333333333333333,20,0.4666666666666666,0.0,0.0
+hassurname,healy,is_relationship_to,eliza healy,21,0.5333333333333333,62,0.5131313131313131,0.0,0.5797386715376658
+hassurname,healy,is_relationship_to,james augustine healy,21,0.5333333333333333,38,0.33174603174603173,0.0,0.44943641652398214
+hassurname,healy,is_relationship_to,michael healy,21,0.5333333333333333,56,0.6192307692307693,0.0,0.5797386715376658
+hassurname,healy,augustine,"healy'), is_relationship_to(patrick healy, 'michael healy')",42,0.6185185185185186,16,0.6949152542372881,0.0,0.7765145304745155
+hassurname,healy,record,module:,25,0.4222222222222222,17,0.44761904761904764,0.0,0.0
+hassurname,healy,has_sex,sex_type,59,0.8166666666666667,31,0.5499999999999999,0.0,0.0
+hassurname,healy,has_sex,male,59,0.8166666666666667,44,0.6333333333333333,0.0,0.0
+hassurname,healy,record,module:,25,0.4222222222222222,17,0.44761904761904764,0.0,0.0
+hassurname,healy,has_occupation,occupation,42,0.6190476190476191,13,0.43333333333333335,0.0,0.0
+hassurname,healy,has_occupation,priest,42,0.6190476190476191,18,0.45555555555555555,0.0,0.0
+hassurname,healy,has_occupation,bishop of portland,42,0.6190476190476191,17,0.4185185185185185,0.0,0.0
+hassurname,healy,has_occupation,maine,42,0.6190476190476191,20,0.4666666666666666,0.0,0.0
+hassurname,healy,has_occupation,president of georgetown university,42,0.6190476190476191,10,0.4098039215686275,0.0,0.0
+hassurname,healy,of,"portland, maine'), has_occupation(patrick healy, 'president of georgetown university')",0,0.0,11,0.5527131782945737,0.0,0.24395572500006343
+hassurname,healy,record,module:,25,0.4222222222222222,17,0.44761904761904764,0.0,0.0
+hassurname,healy,has_birthdate,date_of_birth,52,0.6871794871794871,11,0.3512820512820513,0.0,0.0
+hassurname,healy,not,provided,15,0.0,15,0.0,0.0,0.0
+hassurname,healy,has_deathdate,date_of_death,43,0.5615384615384615,22,0.3512820512820513,0.0,0.0
+hassurname,healy,has_deathdate,january 10,43,0.5615384615384615,27,0.5333333333333333,0.0,0.0
+hassurname,healy,has_deathdate,1910,43,0.5615384615384615,0,0.0,0.0,0.0
+hassurname,healy,record,module:,25,0.4222222222222222,17,0.44761904761904764,0.0,0.0
+hassurname,healy,has_race_or_color,race_or_color,44,0.6509803921568628,22,0.3512820512820513,0.0,0.0
+hassurname,healy,has_race_or_color,black,44,0.6509803921568628,20,0.4666666666666666,0.0,0.0
+hassurname,healy,descriptor record,module:,22,0.49215686274509807,17,0.44761904761904764,0.0,0.0
+hassurname,healy,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,25,0.5492063492063491,13,0.49333333333333335,0.0,0.0
+hassurname,healy,not,provided,15,0.0,15,0.0,0.0,0.0
+hassurname,healy,status record,module:,35,0.5760683760683761,17,0.44761904761904764,0.0,0.0
+hassurname,healy,has_person_status,slave,44,0.6735294117647058,20,0.4666666666666666,0.0,0.0
+hassurname,healy,has_person_status,free,44,0.6735294117647058,22,0.48333333333333334,0.0,0.0
+hassurname,healy,has_status_generating_event,event,43,0.6703703703703704,20,0.4666666666666666,0.0,0.0
+hassurname,healy,has_status_generating_event,birth,43,0.6703703703703704,20,0.0,0.0,0.0
+hassurname,healy,has_status_generating_event,education in the north,43,0.6703703703703704,15,0.496969696969697,0.0,0.0
+hassurname,healy,in the,north'),25,0.5111111111111111,17,0.0,0.0,0.0
+hassurname,healy,recorded_at,event,19,0.41313131313131307,20,0.4666666666666666,0.0,0.0
+hassurname,healy,recorded_at,birth,19,0.41313131313131307,20,0.0,0.0,0.0
+hassurname,healy,recorded_at,education in the north,19,0.41313131313131307,15,0.496969696969697,0.0,0.0
+hassurname,healy,in the,north'),25,0.5111111111111111,17,0.0,0.0,0.0
+hasname,patrick francis healy,record,module:,15,0.0,7,0.0,0.0,0.0
+hasname,patrick francis healy,has_name,name,93,0.9708333333333333,16,0.43253968253968256,0.0,0.0
+hasname,patrick francis healy,has_name,patrick healy,93,0.9708333333333333,76,0.9084249084249084,0.0,0.7092972666062739
+hasname,patrick francis healy,has_surname,surname,78,0.9151515151515152,21,0.41269841269841273,0.0,0.0
+hasname,patrick francis healy,has_surname,healy,78,0.9151515151515152,38,0.4158730158730159,0.0,0.44943641652398214
+hasname,patrick francis healy,has_first_name,first_name,67,0.5476190476190476,26,0.5825396825396826,0.0,0.0
+hasname,patrick francis healy,has_first_name,patrick,67,0.5476190476190476,50,0.8666666666666666,0.0,0.4494364165239821
+hasname,patrick francis healy,relationship record,module:,23,0.5106516290726817,7,0.0,0.0,0.0
+hasname,patrick francis healy,has_interagent_relationship_type,relationship_type,31,0.6259920634920636,37,0.5548085901027077,0.0,0.0
+hasname,patrick francis healy,has_interagent_relationship_type,sibling,31,0.6259920634920636,14,0.41269841269841273,0.0,0.0
+hasname,patrick francis healy,is_relationship_to,agent,16,0.43121693121693117,15,0.4698412698412698,0.0,0.0
+hasname,patrick francis healy,is_relationship_to,eliza healy,16,0.43121693121693117,50,0.43470418470418465,0.0,0.26055567105626243
+hasname,patrick francis healy,is_relationship_to,james augustine healy,16,0.43121693121693117,48,0.6434676434676435,0.0,0.20199309249791833
+hasname,patrick francis healy,is_relationship_to,michael healy,16,0.43121693121693117,53,0.5958485958485958,0.0,0.2605556710562624
+hasname,patrick francis healy,augustine,"healy'), is_relationship_to(patrick healy, 'michael healy')",50,0.5873015873015873,40,0.601914390496014,0.0,0.5371255791561927
+hasname,patrick francis healy,record,module:,15,0.0,7,0.0,0.0,0.0
+hasname,patrick francis healy,has_sex,sex_type,57,0.8,21,0.28174603174603174,0.0,0.0
+hasname,patrick francis healy,has_sex,male,57,0.8,16,0.43253968253968256,0.0,0.0
+hasname,patrick francis healy,record,module:,15,0.0,7,0.0,0.0,0.0
+hasname,patrick francis healy,has_occupation,occupation,38,0.6190476190476191,32,0.5174603174603174,0.0,0.0
+hasname,patrick francis healy,has_occupation,priest,38,0.6190476190476191,30,0.5357142857142857,0.0,0.0
+hasname,patrick francis healy,has_occupation,bishop of portland,38,0.6190476190476191,31,0.4947089947089947,0.0,0.0
+hasname,patrick francis healy,has_occupation,maine,38,0.6190476190476191,31,0.580952380952381,0.0,0.0
+hasname,patrick francis healy,has_occupation,president of georgetown university,38,0.6190476190476191,36,0.5389283918695683,0.0,0.0
+hasname,patrick francis healy,of,"portland, maine'), has_occupation(patrick healy, 'president of georgetown university')",0,0.0,26,0.5949796973052787,0.0,0.25213870694526264
+hasname,patrick francis healy,record,module:,15,0.0,7,0.0,0.0,0.0
+hasname,patrick francis healy,has_birthdate,date_of_birth,50,0.553113553113553,29,0.5268620268620269,0.0,0.0
+hasname,patrick francis healy,not,provided,20,0.0,28,0.5059523809523809,0.0,0.0
+hasname,patrick francis healy,has_deathdate,date_of_death,50,0.632967032967033,29,0.5268620268620269,0.0,0.0
+hasname,patrick francis healy,has_deathdate,january 10,50,0.632967032967033,26,0.44603174603174606,0.0,0.0
+hasname,patrick francis healy,has_deathdate,1910,50,0.632967032967033,0,0.0,0.0,0.0
+hasname,patrick francis healy,record,module:,15,0.0,7,0.0,0.0,0.0
+hasname,patrick francis healy,has_race_or_color,race_or_color,42,0.6694677871148459,29,0.5268620268620269,0.0,0.0
+hasname,patrick francis healy,has_race_or_color,black,42,0.6694677871148459,23,0.580952380952381,0.0,0.0
+hasname,patrick francis healy,descriptor record,module:,17,0.3011204481792717,7,0.0,0.0,0.0
+hasname,patrick francis healy,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,27,0.5603174603174603,26,0.48507936507936505,0.0,0.0
+hasname,patrick francis healy,not,provided,20,0.0,28,0.5059523809523809,0.0,0.0
+hasname,patrick francis healy,status record,module:,30,0.442002442002442,7,0.0,0.0,0.0
+hasname,patrick francis healy,has_person_status,slave,42,0.6028011204481792,15,0.4158730158730159,0.0,0.0
+hasname,patrick francis healy,has_person_status,free,42,0.6028011204481792,24,0.3650793650793651,0.0,0.0
+hasname,patrick francis healy,has_status_generating_event,event,35,0.6375661375661376,8,0.33174603174603173,0.0,0.0
+hasname,patrick francis healy,has_status_generating_event,birth,35,0.6375661375661376,23,0.4698412698412698,0.0,0.0
+hasname,patrick francis healy,has_status_generating_event,education in the north,35,0.6375661375661376,37,0.523088023088023,0.0,0.0
+hasname,patrick francis healy,in the,north'),31,0.5396825396825397,14,0.29365079365079366,0.0,0.0
+hasname,patrick francis healy,recorded_at,event,11,0.41125541125541126,8,0.33174603174603173,0.0,0.0
+hasname,patrick francis healy,recorded_at,birth,11,0.41125541125541126,23,0.4698412698412698,0.0,0.0
+hasname,patrick francis healy,recorded_at,education in the north,11,0.41125541125541126,37,0.523088023088023,0.0,0.0
+hasname,patrick francis healy,in the,north'),31,0.5396825396825397,14,0.29365079365079366,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",record,module:,30,0.48412698412698413,4,0.5143881208397337,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_name,name,36,0.5952380952380952,3,0.5043010752688172,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_name,patrick healy,36,0.5952380952380952,7,0.5150399779432038,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_surname,surname,48,0.6168831168831169,4,0.5313364055299539,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_surname,healy,48,0.6168831168831169,3,0.6053763440860215,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_first_name,first_name,43,0.6726190476190476,6,0.4948626045400239,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_first_name,patrick,43,0.6726190476190476,4,0.5143881208397337,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",relationship record,module:,30,0.6135338345864662,4,0.5143881208397337,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_interagent_relationship_type,relationship_type,39,0.5755952380952382,9,0.5184297912713473,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_interagent_relationship_type,sibling,39,0.5755952380952382,4,0.5789554531490015,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",is_relationship_to,agent,44,0.6474266474266474,3,0.5387096774193548,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",is_relationship_to,eliza healy,44,0.6474266474266474,6,0.5804496578690127,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",is_relationship_to,james augustine healy,44,0.6474266474266474,11,0.5305171530977982,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",is_relationship_to,michael healy,44,0.6474266474266474,7,0.5267990074441687,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",augustine,"healy'), is_relationship_to(patrick healy, 'michael healy')",43,0.6428571428571428,20,0.529582649899763,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",record,module:,30,0.48412698412698413,4,0.5143881208397337,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_sex,sex_type,38,0.6238095238095238,4,0.47867383512544803,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_sex,male,38,0.6238095238095238,3,0.5043010752688172,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",record,module:,30,0.48412698412698413,4,0.5143881208397337,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_occupation,occupation,64,0.8074074074074075,6,0.510752688172043,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_occupation,priest,64,0.8074074074074075,4,0.5064516129032258,0.0,0.08724664210222645
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_occupation,bishop of portland,64,0.8074074074074075,10,0.5193548387096775,0.0,0.07931185116301348
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_occupation,maine,64,0.8074074074074075,3,0.5387096774193548,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_occupation,president of georgetown university,64,0.8074074074074075,17,0.5561669829222011,0.0,0.22314320375468252
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",of,"portland, maine'), has_occupation(patrick healy, 'president of georgetown university')",12,0.0,29,0.5587344888170094,0.0,0.1198039597950873
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",record,module:,30,0.48412698412698413,4,0.5143881208397337,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_birthdate,date_of_birth,37,0.6318681318681318,7,0.5060004511617415,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",not,provided,12,0.0,5,0.5502688172043011,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_deathdate,date_of_death,44,0.63003663003663,7,0.5060004511617415,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_deathdate,january 10,44,0.63003663003663,5,0.4948626045400239,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_deathdate,1910,44,0.63003663003663,1,0.5021505376344085,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",record,module:,30,0.48412698412698413,4,0.5143881208397337,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_race_or_color,race_or_color,39,0.5896358543417367,7,0.5363034814647718,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_race_or_color,black,39,0.5896358543417367,3,0.5209677419354839,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",descriptor record,module:,58,0.6870525988173046,4,0.5143881208397337,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_ethnolinguistic_descriptor,etnolinguistic_descriptor,55,0.6265512265512265,14,0.5402508960573477,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",not,provided,12,0.0,5,0.5502688172043011,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",status record,module:,37,0.5366300366300366,4,0.5143881208397337,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_person_status,slave,45,0.6675070028011204,3,0.5387096774193548,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_person_status,free,45,0.6675070028011204,3,0.5043010752688172,0.0,0.08724664210222645
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_status_generating_event,event,39,0.5476190476190476,3,0.6053763440860215,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_status_generating_event,birth,39,0.5476190476190476,3,0.5387096774193548,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",has_status_generating_event,education in the north,39,0.5476190476190476,13,0.5388074291300098,0.0,0.18736927446282375
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",in the,north'),20,0.4920634920634921,3,0.5101382488479262,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",recorded_at,event,32,0.47056277056277057,3,0.6053763440860215,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",recorded_at,birth,32,0.47056277056277057,3,0.5387096774193548,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",recorded_at,education in the north,32,0.47056277056277057,13,0.5388074291300098,0.0,0.18736927446282375
+hasdescription,"enslaved. free before 13th amendment. a roman catholic priest who, upon finishing his studies at catholic university of louvain in belgium in  26 july 1865, apparently became the first african american to earn a phd. he was also the first african american jesuit and served as the 29th president of georgetown.",in the,north'),20,0.4920634920634921,3,0.5101382488479262,0.0,0.0

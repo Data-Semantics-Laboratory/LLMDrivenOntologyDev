@@ -1,0 +1,461 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,jenny slew,32,0.537878787878788,25,0.48888888888888893,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,slew,27,0.49242424242424243,20,0.47222222222222215,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,jenny,40,0.5692640692640693,36,0.5777777777777778,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,relationship_type,30,0.5269480519480519,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,enslaver or owner,30,0.5269480519480519,35,0.642483660130719,0.0,0.0
+instance of,person,or,"owner"")",15,0.0,31,0.5396825396825397,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,john whipple jr.,34,0.5798460798460798,27,0.4861111111111111,0.0,0.0
+instance of,person,whipple,"jr."").",22,0.48917748917748916,17,0.4444444444444444,0.0,0.0
+instance of,person,role record,module:,27,0.49242424242424243,15,0.0,0.0,0.0
+instance of,person,has_participant_role,participant_role_type,32,0.5668831168831169,22,0.5357142857142857,0.0,0.0
+instance of,person,has_participant_role,legal case participant,32,0.5668831168831169,21,0.47474747474747475,0.0,0.0
+instance of,person,case,"participant"").",27,0.5631313131313131,30,0.5714285714285715,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,female,22,0.45598845598845594,17,0.4444444444444444,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,free woman,24,0.38311688311688313,38,0.6055555555555555,0.0,0.0
+instance of,person,has_occupation,enslaved person,24,0.38311688311688313,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_age,46,33,0.45598845598845594,0,0.0,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_birthdate,1719,33,0.5463869463869464,0,0.0,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,1765,33,0.39044289044289043,0,0.0,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,black american,36,0.5162210338680927,30,0.0,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,enslaved person,29,0.449554367201426,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,has_person_status,free woman,29,0.449554367201426,38,0.6055555555555555,0.0,0.0
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,enslavement by john whipple jr.,26,0.4799102132435466,22,0.5152329749103942,0.0,0.0
+instance of,person,has_status_generating_event,jury trial,26,0.4799102132435466,12,0.4222222222222222,0.0,0.0
+instance of,person,by john whipple,"jr.""), has_status_generating_event(free woman, ""jury trial"")",15,0.3797979797979798,12,0.49444444444444446,0.0,0.0
+instance of,person,recorded_at,event,18,0.4545454545454546,36,0.5777777777777778,0.0,0.0
+instance of,person,recorded_at,enslavement by john whipple jr.,18,0.4545454545454546,22,0.5152329749103942,0.0,0.0
+instance of,person,recorded_at,jury trial,18,0.4545454545454546,12,0.4222222222222222,0.0,0.0
+instance of,person,by john whipple,"jr.""), recorded_at(free woman, ""jury trial"").",15,0.3797979797979798,16,0.41111111111111115,0.0,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_name,name,57,0.8055555555555556,40,0.6388888888888888,0.0,0.0
+hassex,female,has_name,jenny slew,57,0.8055555555555556,38,0.6,0.0,0.0
+hassex,female,has_surname,surname,59,0.6767676767676768,31,0.5396825396825397,0.0,0.0
+hassex,female,has_surname,slew,59,0.6767676767676768,40,0.47222222222222215,0.0,0.0
+hassex,female,has_first_name,first_name,50,0.6507936507936508,38,0.6,0.0,0.0
+hassex,female,has_first_name,jenny,50,0.6507936507936508,18,0.45555555555555555,0.0,0.0
+hassex,female,relationship record,module:,24,0.44152046783625726,46,0.6428571428571429,0.0,0.0
+hassex,female,has_interagent_relationship_type_to,relationship_type,24,0.5936507936507937,26,0.4477124183006536,0.0,0.0
+hassex,female,has_interagent_relationship_type_to,enslaver or owner,24,0.5936507936507937,26,0.5506535947712418,0.0,0.0
+hassex,female,or,"owner"")",0,0.0,15,0.4365079365079365,0.0,0.0
+hassex,female,is_relationship_to,agent,17,0.46296296296296297,36,0.45555555555555555,0.0,0.0
+hassex,female,is_relationship_to,john whipple jr.,17,0.46296296296296297,18,0.4861111111111111,0.0,0.0
+hassex,female,whipple,"jr."").",31,0.5396825396825397,0,0.0,0.0,0.0
+hassex,female,role record,module:,12,0.41919191919191917,46,0.6428571428571429,0.0,0.0
+hassex,female,has_participant_role,participant_role_type,31,0.5499999999999999,22,0.4047619047619047,0.0,0.0
+hassex,female,has_participant_role,legal case participant,31,0.5499999999999999,29,0.5328282828282828,0.0,0.0
+hassex,female,case,"participant"").",60,0.75,10,0.41269841269841273,0.0,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_sex,sex_type,92,0.9666666666666667,29,0.5277777777777778,0.0,0.0
+hassex,female,has_sex,female,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_occupation,occupation,30,0.5714285714285715,12,0.4222222222222222,0.0,0.0
+hassex,female,has_occupation,free woman,30,0.5714285714285715,50,0.6,0.0,0.0
+hassex,female,has_occupation,enslaved person,30,0.5714285714285715,29,0.5611111111111111,0.0,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_age,age,62,0.8222222222222222,44,0.5,0.0,0.0
+hassex,female,has_age,46,62,0.8222222222222222,0,0.0,0.0,0.0
+hassex,female,has_birthdate,date_of_birth,42,0.576923076923077,21,0.32905982905982906,0.0,0.0
+hassex,female,has_birthdate,1719,42,0.576923076923077,0,0.0,0.0,0.0
+hassex,female,has_deathdate,date_of_death,42,0.6581196581196581,32,0.46581196581196577,0.0,0.0
+hassex,female,has_deathdate,1765,42,0.6581196581196581,0,0.0,0.0,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_race_or_color,race_or_color,35,0.6339869281045751,21,0.32905982905982906,0.0,0.0
+hassex,female,has_race_or_color,black american,35,0.6339869281045751,20,0.5674603174603174,0.0,0.0
+hassex,female,status record,module:,32,0.5747863247863249,46,0.6428571428571429,0.0,0.0
+hassex,female,has_person_status,enslaved person,35,0.642483660130719,29,0.5611111111111111,0.0,0.0
+hassex,female,has_person_status,free woman,35,0.642483660130719,50,0.6,0.0,0.0
+hassex,female,has_status_generating_event,event,30,0.6728395061728395,36,0.45555555555555555,0.0,0.0
+hassex,female,has_status_generating_event,enslavement by john whipple jr.,30,0.6728395061728395,22,0.5982078853046595,0.0,0.0
+hassex,female,has_status_generating_event,jury trial,30,0.6728395061728395,25,0.0,0.0,0.0
+hassex,female,by john whipple,"jr.""), has_status_generating_event(free woman, ""jury trial"")",19,0.41111111111111115,15,0.4055555555555556,0.0,0.0
+hassex,female,recorded_at,event,12,0.41919191919191917,36,0.45555555555555555,0.0,0.0
+hassex,female,recorded_at,enslavement by john whipple jr.,12,0.41919191919191917,22,0.5982078853046595,0.0,0.0
+hassex,female,recorded_at,jury trial,12,0.41919191919191917,25,0.0,0.0,0.0
+hassex,female,by john whipple,"jr.""), recorded_at(free woman, ""jury trial"").",19,0.41111111111111115,20,0.5018518518518519,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,jenny slew,38,0.5675925925925926,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,slew,41,0.6274651274651274,22,0.0,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,jenny,44,0.6772486772486772,0,0.0,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,enslaver or owner,42,0.6570105820105819,9,0.4196078431372549,0.0,0.0
+hasparticipantrole,child,or,"owner"")",10,0.5185185185185185,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,john whipple jr.,44,0.6037037037037037,29,0.5958333333333333,0.0,0.0
+hasparticipantrole,child,whipple,"jr."").",40,0.5145502645502645,0,0.0,0.0,0.0
+hasparticipantrole,child,role record,module:,28,0.4452861952861953,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant_role_type,95,0.9766666666666667,23,0.33174603174603173,0.0,0.0
+hasparticipantrole,child,has_participant_role,legal case participant,95,0.9766666666666667,15,0.3303030303030303,0.0,0.0
+hasparticipantrole,child,case,"participant"").",27,0.5277777777777778,21,0.34761904761904766,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,female,32,0.5317460317460317,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,free woman,50,0.6566137566137565,0,0.0,0.0,0.0
+hasparticipantrole,child,has_occupation,enslaved person,50,0.6566137566137565,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_age,age,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_age,46,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_birthdate,date_of_birth,52,0.6937321937321936,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_birthdate,1719,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,child,has_deathdate,date_of_death,52,0.6866096866096866,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_deathdate,1765,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_race_or_color,race_or_color,46,0.60239651416122,22,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_race_or_color,black american,46,0.60239651416122,21,0.34761904761904766,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,enslaved person,46,0.6479302832244008,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,child,has_person_status,free woman,46,0.6479302832244008,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,enslavement by john whipple jr.,40,0.5819304152637487,17,0.41075268817204297,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,jury trial,40,0.5819304152637487,27,0.0,0.0,0.0
+hasparticipantrole,child,by john whipple,"jr.""), has_status_generating_event(free woman, ""jury trial"")",30,0.5708994708994709,9,0.4777777777777778,0.0,0.0
+hasparticipantrole,child,recorded_at,event,28,0.36195286195286197,0,0.0,0.0,0.0
+hasparticipantrole,child,recorded_at,enslavement by john whipple jr.,28,0.36195286195286197,17,0.41075268817204297,0.0,0.0
+hasparticipantrole,child,recorded_at,jury trial,28,0.36195286195286197,27,0.0,0.0,0.0
+hasparticipantrole,child,by john whipple,"jr.""), recorded_at(free woman, ""jury trial"").",30,0.5708994708994709,12,0.48148148148148145,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,jenny slew,38,0.5675925925925926,24,0.47222222222222227,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,slew,41,0.6274651274651274,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,jenny,44,0.6772486772486772,20,0.4222222222222222,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,enslaver or owner,42,0.6570105820105819,44,0.5986928104575163,0.0,0.0
+hasparticipantrole,deceased person,or,"owner"")",10,0.5185185185185185,18,0.40317460317460313,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,john whipple jr.,44,0.6037037037037037,26,0.4222222222222222,0.0,0.0
+hasparticipantrole,deceased person,whipple,"jr."").",40,0.5145502645502645,10,0.0,0.0,0.0
+hasparticipantrole,deceased person,role record,module:,28,0.4452861952861953,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant_role_type,95,0.9766666666666667,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,legal case participant,95,0.9766666666666667,49,0.5956228956228956,0.0,0.0
+hasparticipantrole,deceased person,case,"participant"").",27,0.5277777777777778,21,0.43412698412698414,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,female,32,0.5317460317460317,29,0.45555555555555555,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,free woman,50,0.6566137566137565,40,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,enslaved person,50,0.6566137566137565,73,0.7833333333333333,0.0,0.33609692727625756
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_age,age,40,0.5978835978835978,22,0.4333333333333333,0.0,0.0
+hasparticipantrole,deceased person,has_age,46,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,date_of_birth,52,0.6937321937321936,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,1719,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,date_of_death,52,0.6866096866096866,36,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,1765,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,race_or_color,46,0.60239651416122,29,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,black american,46,0.60239651416122,34,0.4984126984126984,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,enslaved person,46,0.6479302832244008,73,0.7833333333333333,0.0,0.33609692727625756
+hasparticipantrole,deceased person,has_person_status,free woman,46,0.6479302832244008,40,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,enslavement by john whipple jr.,40,0.5819304152637487,30,0.5189964157706094,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,jury trial,40,0.5819304152637487,16,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,by john whipple,"jr.""), has_status_generating_event(free woman, ""jury trial"")",30,0.5708994708994709,21,0.5176767676767676,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,event,28,0.36195286195286197,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,enslavement by john whipple jr.,28,0.36195286195286197,30,0.5189964157706094,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,jury trial,28,0.36195286195286197,16,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,by john whipple,"jr.""), recorded_at(free woman, ""jury trial"").",30,0.5708994708994709,27,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,jenny slew,25,0.5555555555555555,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,surname,34,0.5474386724386724,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,slew,34,0.5474386724386724,67,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,first_name,32,0.5615079365079364,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,jenny,32,0.5615079365079364,20,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,relationship record,module:,33,0.6137539361223572,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,27,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,enslaver or owner,41,0.6037698412698412,45,0.6313725490196078,0.0,0.0
+hasdescriptiveoccupation,slave,or,"owner"")",8,0.5138888888888888,17,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,agent,38,0.6264245014245015,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,john whipple jr.,38,0.6264245014245015,19,0.42083333333333334,0.0,0.0
+hasdescriptiveoccupation,slave,whipple,"jr."").",26,0.49603174603174605,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,role record,module:,29,0.4873737373737373,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,participant_role_type,50,0.6805555555555555,15,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,legal case participant,50,0.6805555555555555,22,0.5772727272727273,0.0,0.0
+hasdescriptiveoccupation,slave,case,"participant"").",21,0.5555555555555556,11,0.4238095238095238,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,sex_type,32,0.5742063492063493,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,female,32,0.5742063492063493,36,0.5777777777777778,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,free woman,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,enslaved person,68,0.8045940170940171,50,0.6444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,age,26,0.5793650793650794,50,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,46,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,date_of_birth,38,0.6286324786324786,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,1719,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,date_of_death,43,0.652065527065527,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,1765,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,race_or_color,39,0.5977668845315903,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,black american,39,0.5977668845315903,32,0.6047619047619047,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,enslaved person,39,0.6241830065359477,50,0.6444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,free woman,39,0.6241830065359477,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,event,39,0.5815696649029983,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,enslavement by john whipple jr.,39,0.5815696649029983,28,0.5870967741935483,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,jury trial,39,0.5815696649029983,13,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,by john whipple,"jr.""), has_status_generating_event(free woman, ""jury trial"")",21,0.4388888888888889,12,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,event,34,0.5202020202020202,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,enslavement by john whipple jr.,34,0.5202020202020202,28,0.5870967741935483,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,jury trial,34,0.5202020202020202,13,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,by john whipple,"jr.""), recorded_at(free woman, ""jury trial"").",21,0.4388888888888889,8,0.3148148148148148,0.0,0.0
+hasdescriptiveoccupation,litigant,record,module:,27,0.6138888888888889,13,0.0,0.0,0.0
+hasdescriptiveoccupation,litigant,has_name,name,25,0.5555555555555555,17,0.0,0.0,0.0
+hasdescriptiveoccupation,litigant,has_name,jenny slew,25,0.5555555555555555,11,0.4083333333333334,0.0,0.0
+hasdescriptiveoccupation,litigant,has_surname,surname,34,0.5474386724386724,13,0.3452380952380952,0.0,0.0
+hasdescriptiveoccupation,litigant,has_surname,slew,34,0.5474386724386724,17,0.4583333333333333,0.0,0.0
+hasdescriptiveoccupation,litigant,has_first_name,first_name,32,0.5615079365079364,33,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,litigant,has_first_name,jenny,32,0.5615079365079364,15,0.44166666666666665,0.0,0.0
+hasdescriptiveoccupation,litigant,relationship record,module:,33,0.6137539361223572,13,0.0,0.0,0.0
+hasdescriptiveoccupation,litigant,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,40,0.7146358543417367,0.0,0.0
+hasdescriptiveoccupation,litigant,has_interagent_relationship_type_to,enslaver or owner,41,0.6037698412698412,24,0.406045751633987,0.0,0.0
+hasdescriptiveoccupation,litigant,or,"owner"")",8,0.5138888888888888,13,0.0,0.0,0.0
+hasdescriptiveoccupation,litigant,is_relationship_to,agent,38,0.6264245014245015,46,0.5472222222222222,0.0,0.0
+hasdescriptiveoccupation,litigant,is_relationship_to,john whipple jr.,38,0.6264245014245015,8,0.2916666666666667,0.0,0.0
+hasdescriptiveoccupation,litigant,whipple,"jr."").",26,0.49603174603174605,0,0.0,0.0,0.0
+hasdescriptiveoccupation,litigant,role record,module:,29,0.4873737373737373,13,0.0,0.0,0.0
+hasdescriptiveoccupation,litigant,has_participant_role,participant_role_type,50,0.6805555555555555,34,0.623015873015873,0.0,0.0
+hasdescriptiveoccupation,litigant,has_participant_role,legal case participant,50,0.6805555555555555,40,0.5606060606060607,0.0,0.0
+hasdescriptiveoccupation,litigant,case,"participant"").",21,0.5555555555555556,45,0.6706349206349206,0.0,0.0
+hasdescriptiveoccupation,litigant,record,module:,27,0.6138888888888889,13,0.0,0.0,0.0
+hasdescriptiveoccupation,litigant,has_sex,sex_type,32,0.5742063492063493,12,0.4166666666666667,0.0,0.0
+hasdescriptiveoccupation,litigant,has_sex,female,32,0.5742063492063493,14,0.4305555555555555,0.0,0.0
+hasdescriptiveoccupation,litigant,record,module:,27,0.6138888888888889,13,0.0,0.0,0.0
+hasdescriptiveoccupation,litigant,has_occupation,occupation,68,0.8045940170940171,33,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,litigant,has_occupation,free woman,68,0.8045940170940171,22,0.48333333333333334,0.0,0.0
+hasdescriptiveoccupation,litigant,has_occupation,enslaved person,68,0.8045940170940171,26,0.4138888888888889,0.0,0.0
+hasdescriptiveoccupation,litigant,record,module:,27,0.6138888888888889,13,0.0,0.0,0.0
+hasdescriptiveoccupation,litigant,has_age,age,26,0.5793650793650794,18,0.4861111111111111,0.0,0.0
+hasdescriptiveoccupation,litigant,has_age,46,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,litigant,has_birthdate,date_of_birth,38,0.6286324786324786,29,0.42414529914529914,0.0,0.0
+hasdescriptiveoccupation,litigant,has_birthdate,1719,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,litigant,has_deathdate,date_of_death,43,0.652065527065527,29,0.42414529914529914,0.0,0.0
+hasdescriptiveoccupation,litigant,has_deathdate,1765,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,litigant,record,module:,27,0.6138888888888889,13,0.0,0.0,0.0
+hasdescriptiveoccupation,litigant,has_race_or_color,race_or_color,39,0.5977668845315903,10,0.4006410256410256,0.0,0.0
+hasdescriptiveoccupation,litigant,has_race_or_color,black american,39,0.5977668845315903,36,0.46428571428571425,0.0,0.0
+hasdescriptiveoccupation,litigant,status record,module:,32,0.540954415954416,13,0.0,0.0,0.0
+hasdescriptiveoccupation,litigant,has_person_status,enslaved person,39,0.6241830065359477,26,0.4138888888888889,0.0,0.0
+hasdescriptiveoccupation,litigant,has_person_status,free woman,39,0.6241830065359477,22,0.48333333333333334,0.0,0.0
+hasdescriptiveoccupation,litigant,has_status_generating_event,event,39,0.5815696649029983,31,0.3833333333333333,0.0,0.0
+hasdescriptiveoccupation,litigant,has_status_generating_event,enslavement by john whipple jr.,39,0.5815696649029983,21,0.4596774193548387,0.0,0.0
+hasdescriptiveoccupation,litigant,has_status_generating_event,jury trial,39,0.5815696649029983,33,0.5583333333333333,0.0,0.0
+hasdescriptiveoccupation,litigant,by john whipple,"jr.""), has_status_generating_event(free woman, ""jury trial"")",21,0.4388888888888889,18,0.5055555555555555,0.0,0.0
+hasdescriptiveoccupation,litigant,recorded_at,event,34,0.5202020202020202,31,0.3833333333333333,0.0,0.0
+hasdescriptiveoccupation,litigant,recorded_at,enslavement by john whipple jr.,34,0.5202020202020202,21,0.4596774193548387,0.0,0.0
+hasdescriptiveoccupation,litigant,recorded_at,jury trial,34,0.5202020202020202,33,0.5583333333333333,0.0,0.0
+hasdescriptiveoccupation,litigant,by john whipple,"jr.""), recorded_at(free woman, ""jury trial"").",21,0.4388888888888889,15,0.26481481481481484,0.0,0.0
+hasfirstname,jenny,record,module:,22,0.4166666666666667,17,0.0,0.0,0.0
+hasfirstname,jenny,has_name,name,70,0.8736111111111112,22,0.0,0.0,0.0
+hasfirstname,jenny,has_name,jenny slew,70,0.8736111111111112,67,0.9,0.0,0.5797386715376658
+hasfirstname,jenny,has_surname,surname,70,0.8733164983164984,17,0.44761904761904764,0.0,0.0
+hasfirstname,jenny,has_surname,slew,70,0.8733164983164984,22,0.48333333333333334,0.0,0.0
+hasfirstname,jenny,has_first_name,first_name,92,0.9666666666666667,13,0.43333333333333335,0.0,0.0
+hasfirstname,jenny,has_first_name,jenny,92,0.9666666666666667,100,1.0,0.0,1.0
+hasfirstname,jenny,relationship record,module:,32,0.5077276524644946,17,0.0,0.0,0.0
+hasfirstname,jenny,has_interagent_relationship_type_to,relationship_type,34,0.5949735449735449,27,0.5058823529411764,0.0,0.0
+hasfirstname,jenny,has_interagent_relationship_type_to,enslaver or owner,34,0.5949735449735449,27,0.5058823529411764,0.0,0.0
+hasfirstname,jenny,or,"owner"")",14,0.5277777777777778,17,0.3952380952380952,0.0,0.0
+hasfirstname,jenny,is_relationship_to,agent,27,0.6203703703703703,40,0.6,0.0,0.0
+hasfirstname,jenny,is_relationship_to,john whipple jr.,27,0.6203703703703703,19,0.5083333333333333,0.0,0.0
+hasfirstname,jenny,whipple,"jr."").",32,0.5595238095238095,18,0.45555555555555555,0.0,0.0
+hasfirstname,jenny,role record,module:,17,0.44949494949494956,17,0.0,0.0,0.0
+hasfirstname,jenny,has_participant_role,participant_role_type,44,0.6962962962962962,15,0.4158730158730159,0.0,0.0
+hasfirstname,jenny,has_participant_role,legal case participant,44,0.6962962962962962,15,0.4151515151515152,0.0,0.0
+hasfirstname,jenny,case,"participant"").",38,0.5555555555555555,11,0.4238095238095238,0.0,0.0
+hasfirstname,jenny,record,module:,22,0.4166666666666667,17,0.0,0.0,0.0
+hasfirstname,jenny,has_sex,sex_type,53,0.6349206349206349,31,0.5499999999999999,0.0,0.0
+hasfirstname,jenny,has_sex,female,53,0.6349206349206349,18,0.45555555555555555,0.0,0.0
+hasfirstname,jenny,record,module:,22,0.4166666666666667,17,0.0,0.0,0.0
+hasfirstname,jenny,has_occupation,occupation,38,0.5873015873015873,13,0.0,0.0,0.0
+hasfirstname,jenny,has_occupation,free woman,38,0.5873015873015873,27,0.43333333333333335,0.0,0.0
+hasfirstname,jenny,has_occupation,enslaved person,38,0.5873015873015873,30,0.5111111111111111,0.0,0.0
+hasfirstname,jenny,record,module:,22,0.4166666666666667,17,0.0,0.0,0.0
+hasfirstname,jenny,has_age,age,53,0.7972222222222223,25,0.5111111111111111,0.0,0.0
+hasfirstname,jenny,has_age,46,53,0.7972222222222223,0,0.0,0.0,0.0
+hasfirstname,jenny,has_birthdate,date_of_birth,64,0.8324786324786324,11,0.4256410256410256,0.0,0.0
+hasfirstname,jenny,has_birthdate,1719,64,0.8324786324786324,0,0.0,0.0,0.0
+hasfirstname,jenny,has_deathdate,date_of_death,48,0.5982905982905983,11,0.4256410256410256,0.0,0.0
+hasfirstname,jenny,has_deathdate,1765,48,0.5982905982905983,0,0.0,0.0,0.0
+hasfirstname,jenny,record,module:,22,0.4166666666666667,17,0.0,0.0,0.0
+hasfirstname,jenny,has_race_or_color,race_or_color,41,0.6176470588235294,11,0.4256410256410256,0.0,0.0
+hasfirstname,jenny,has_race_or_color,black american,41,0.6176470588235294,21,0.0,0.0,0.0
+hasfirstname,jenny,status record,module:,32,0.5427350427350427,17,0.0,0.0,0.0
+hasfirstname,jenny,has_person_status,enslaved person,48,0.6857298474945533,30,0.5111111111111111,0.0,0.0
+hasfirstname,jenny,has_person_status,free woman,48,0.6857298474945533,27,0.43333333333333335,0.0,0.0
+hasfirstname,jenny,has_status_generating_event,event,41,0.5833333333333334,40,0.6,0.0,0.0
+hasfirstname,jenny,has_status_generating_event,enslavement by john whipple jr.,41,0.5833333333333334,22,0.6430107526881721,0.0,0.0
+hasfirstname,jenny,has_status_generating_event,jury trial,41,0.5833333333333334,27,0.5333333333333333,0.0,0.0
+hasfirstname,jenny,by john whipple,"jr.""), has_status_generating_event(free woman, ""jury trial"")",22,0.45,15,0.6222222222222222,0.0,0.0
+hasfirstname,jenny,recorded_at,event,17,0.4823232323232323,40,0.6,0.0,0.0
+hasfirstname,jenny,recorded_at,enslavement by john whipple jr.,17,0.4823232323232323,22,0.6430107526881721,0.0,0.0
+hasfirstname,jenny,recorded_at,jury trial,17,0.4823232323232323,27,0.5333333333333333,0.0,0.0
+hasfirstname,jenny,by john whipple,"jr.""), recorded_at(free woman, ""jury trial"").",22,0.45,16,0.48148148148148145,0.0,0.0
+hassurname,slew,record,module:,25,0.4222222222222222,36,0.0,0.0,0.0
+hassurname,slew,has_name,name,78,0.9008333333333334,25,0.5,0.0,0.0
+hassurname,slew,has_name,jenny slew,78,0.9008333333333334,57,0.45,0.0,0.5797386715376658
+hassurname,slew,has_surname,surname,95,0.9787878787878788,36,0.46428571428571425,0.0,0.0
+hassurname,slew,has_surname,slew,95,0.9787878787878788,100,1.0,0.0,1.0
+hassurname,slew,has_first_name,first_name,67,0.8674074074074074,29,0.45,0.0,0.0
+hassurname,slew,has_first_name,jenny,67,0.8674074074074074,22,0.48333333333333334,0.0,0.0
+hassurname,slew,relationship record,module:,28,0.4543859649122807,36,0.0,0.0,0.0
+hassurname,slew,has_interagent_relationship_type_to,relationship_type,31,0.5380952380952381,19,0.37254901960784315,0.0,0.0
+hassurname,slew,has_interagent_relationship_type_to,enslaver or owner,31,0.5380952380952381,38,0.5310457516339869,0.0,0.0
+hassurname,slew,or,"owner"")",17,0.5333333333333333,18,0.42857142857142855,0.0,0.0
+hassurname,slew,is_relationship_to,agent,21,0.5333333333333333,22,0.48333333333333334,0.0,0.0
+hassurname,slew,is_relationship_to,john whipple jr.,21,0.5333333333333333,20,0.4375,0.0,0.0
+hassurname,slew,whipple,"jr."").",24,0.49523809523809526,0,0.0,0.0,0.0
+hassurname,slew,role record,module:,19,0.46060606060606063,36,0.0,0.0,0.0
+hassurname,slew,has_participant_role,participant_role_type,40,0.5777777777777778,16,0.0,0.0,0.0
+hassurname,slew,has_participant_role,legal case participant,40,0.5777777777777778,15,0.5176767676767676,0.0,0.0
+hassurname,slew,case,"participant"").",43,0.5666666666666667,0,0.0,0.0,0.0
+hassurname,slew,record,module:,25,0.4222222222222222,36,0.0,0.0,0.0
+hassurname,slew,has_sex,sex_type,59,0.8166666666666667,33,0.5833333333333334,0.0,0.0
+hassurname,slew,has_sex,female,59,0.8166666666666667,40,0.47222222222222215,0.0,0.0
+hassurname,slew,record,module:,25,0.4222222222222222,36,0.0,0.0,0.0
+hassurname,slew,has_occupation,occupation,42,0.6190476190476191,0,0.0,0.0,0.0
+hassurname,slew,has_occupation,free woman,42,0.6190476190476191,29,0.5666666666666667,0.0,0.0
+hassurname,slew,has_occupation,enslaved person,42,0.6190476190476191,32,0.5388888888888889,0.0,0.0
+hassurname,slew,record,module:,25,0.4222222222222222,36,0.0,0.0,0.0
+hassurname,slew,has_age,age,59,0.8166666666666667,29,0.5277777777777778,0.0,0.0
+hassurname,slew,has_age,46,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,slew,has_birthdate,date_of_birth,52,0.6871794871794871,12,0.4423076923076923,0.0,0.0
+hassurname,slew,has_birthdate,1719,52,0.6871794871794871,0,0.0,0.0,0.0
+hassurname,slew,has_deathdate,date_of_death,43,0.5615384615384615,12,0.4423076923076923,0.0,0.0
+hassurname,slew,has_deathdate,1765,43,0.5615384615384615,0,0.0,0.0,0.0
+hassurname,slew,record,module:,25,0.4222222222222222,36,0.0,0.0,0.0
+hassurname,slew,has_race_or_color,race_or_color,44,0.6509803921568628,12,0.4423076923076923,0.0,0.0
+hassurname,slew,has_race_or_color,black american,44,0.6509803921568628,22,0.5476190476190476,0.0,0.0
+hassurname,slew,status record,module:,35,0.5760683760683761,36,0.0,0.0,0.0
+hassurname,slew,has_person_status,enslaved person,44,0.6735294117647058,32,0.5388888888888889,0.0,0.0
+hassurname,slew,has_person_status,free woman,44,0.6735294117647058,29,0.5666666666666667,0.0,0.0
+hassurname,slew,has_status_generating_event,event,43,0.6703703703703704,22,0.48333333333333334,0.0,0.0
+hassurname,slew,has_status_generating_event,enslavement by john whipple jr.,43,0.6703703703703704,23,0.5044802867383512,0.0,0.0
+hassurname,slew,has_status_generating_event,jury trial,43,0.6703703703703704,14,0.0,0.0,0.0
+hassurname,slew,by john whipple,"jr.""), has_status_generating_event(free woman, ""jury trial"")",24,0.5,9,0.5111111111111111,0.0,0.0
+hassurname,slew,recorded_at,event,19,0.41313131313131307,22,0.48333333333333334,0.0,0.0
+hassurname,slew,recorded_at,enslavement by john whipple jr.,19,0.41313131313131307,23,0.5044802867383512,0.0,0.0
+hassurname,slew,recorded_at,jury trial,19,0.41313131313131307,14,0.0,0.0,0.0
+hassurname,slew,by john whipple,"jr.""), recorded_at(free woman, ""jury trial"").",24,0.5,8,0.5148148148148147,0.0,0.0
+hasname,jenny slew,record,module:,15,0.0,24,0.32857142857142857,0.0,0.0
+hasname,jenny slew,has_name,name,93,0.9708333333333333,29,0.39999999999999997,0.0,0.0
+hasname,jenny slew,has_name,jenny slew,93,0.9708333333333333,100,1.0,0.0,1.0000000000000002
+hasname,jenny slew,has_surname,surname,78,0.9151515151515152,24,0.49523809523809526,0.0,0.0
+hasname,jenny slew,has_surname,slew,78,0.9151515151515152,57,0.45,0.0,0.5797386715376658
+hasname,jenny slew,has_first_name,first_name,67,0.5476190476190476,20,0.4222222222222222,0.0,0.0
+hasname,jenny slew,has_first_name,jenny,67,0.5476190476190476,67,0.9,0.0,0.5797386715376658
+hasname,jenny slew,relationship record,module:,23,0.5106516290726817,24,0.32857142857142857,0.0,0.0
+hasname,jenny slew,has_interagent_relationship_type_to,relationship_type,29,0.6206349206349207,30,0.4617647058823529,0.0,0.0
+hasname,jenny slew,has_interagent_relationship_type_to,enslaver or owner,29,0.6206349206349207,44,0.6086834733893558,0.0,0.0
+hasname,jenny slew,or,"owner"")",0,0.0,24,0.32857142857142857,0.0,0.0
+hasname,jenny slew,is_relationship_to,agent,16,0.43121693121693117,27,0.5333333333333333,0.0,0.0
+hasname,jenny slew,is_relationship_to,john whipple jr.,16,0.43121693121693117,38,0.6027777777777777,0.0,0.0
+hasname,jenny slew,whipple,"jr."").",29,0.5238095238095238,12,0.4222222222222222,0.0,0.0
+hasname,jenny slew,role record,module:,11,0.41125541125541126,24,0.32857142857142857,0.0,0.0
+hasname,jenny slew,has_participant_role,participant_role_type,37,0.5904761904761905,19,0.48095238095238096,0.0,0.0
+hasname,jenny slew,has_participant_role,legal case participant,37,0.5904761904761905,25,0.4424242424242424,0.0,0.0
+hasname,jenny slew,case,"participant"").",55,0.5952380952380952,8,0.3904761904761905,0.0,0.0
+hasname,jenny slew,record,module:,15,0.0,24,0.32857142857142857,0.0,0.0
+hasname,jenny slew,has_sex,sex_type,57,0.8,33,0.5583333333333333,0.0,0.0
+hasname,jenny slew,has_sex,female,57,0.8,38,0.6,0.0,0.0
+hasname,jenny slew,record,module:,15,0.0,24,0.32857142857142857,0.0,0.0
+hasname,jenny slew,has_occupation,occupation,38,0.6190476190476191,10,0.0,0.0,0.0
+hasname,jenny slew,has_occupation,free woman,38,0.6190476190476191,30,0.5333333333333333,0.0,0.0
+hasname,jenny slew,has_occupation,enslaved person,38,0.6190476190476191,40,0.5555555555555555,0.0,0.0
+hasname,jenny slew,record,module:,15,0.0,24,0.32857142857142857,0.0,0.0
+hasname,jenny slew,has_age,age,71,0.8666666666666668,15,0.4777777777777778,0.0,0.0
+hasname,jenny slew,has_age,46,71,0.8666666666666668,0,0.0,0.0,0.0
+hasname,jenny slew,has_birthdate,date_of_birth,50,0.553113553113553,9,0.3923076923076923,0.0,0.0
+hasname,jenny slew,has_birthdate,1719,50,0.553113553113553,0,0.0,0.0,0.0
+hasname,jenny slew,has_deathdate,date_of_death,50,0.632967032967033,17,0.4512820512820513,0.0,0.0
+hasname,jenny slew,has_deathdate,1765,50,0.632967032967033,0,0.0,0.0,0.0
+hasname,jenny slew,record,module:,15,0.0,24,0.32857142857142857,0.0,0.0
+hasname,jenny slew,has_race_or_color,race_or_color,42,0.6694677871148459,17,0.4512820512820513,0.0,0.0
+hasname,jenny slew,has_race_or_color,black american,42,0.6694677871148459,17,0.3936507936507936,0.0,0.0
+hasname,jenny slew,status record,module:,30,0.442002442002442,24,0.32857142857142857,0.0,0.0
+hasname,jenny slew,has_person_status,enslaved person,42,0.6028011204481792,40,0.5555555555555555,0.0,0.0
+hasname,jenny slew,has_person_status,free woman,42,0.6028011204481792,30,0.5333333333333333,0.0,0.0
+hasname,jenny slew,has_status_generating_event,event,35,0.6375661375661376,27,0.5333333333333333,0.0,0.0
+hasname,jenny slew,has_status_generating_event,enslavement by john whipple jr.,35,0.6375661375661376,34,0.6189964157706093,0.0,0.0
+hasname,jenny slew,has_status_generating_event,jury trial,35,0.6375661375661376,40,0.6,0.0,0.0
+hasname,jenny slew,by john whipple,"jr.""), has_status_generating_event(free woman, ""jury trial"")",27,0.47301587301587295,20,0.46269841269841266,0.0,0.0
+hasname,jenny slew,recorded_at,event,11,0.41125541125541126,27,0.5333333333333333,0.0,0.0
+hasname,jenny slew,recorded_at,enslavement by john whipple jr.,11,0.41125541125541126,34,0.6189964157706093,0.0,0.0
+hasname,jenny slew,recorded_at,jury trial,11,0.41125541125541126,40,0.6,0.0,0.0
+hasname,jenny slew,by john whipple,"jr.""), recorded_at(free woman, ""jury trial"").",27,0.47301587301587295,22,0.4703703703703704,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,record,module:,30,0.48412698412698413,8,0.4529761904761904,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_name,name,36,0.5952380952380952,7,0.511904761904762,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_name,jenny slew,36,0.5952380952380952,15,0.4988095238095238,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_surname,surname,48,0.6168831168831169,8,0.5257936507936508,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_surname,slew,48,0.6168831168831169,7,0.48115079365079366,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_first_name,first_name,43,0.6726190476190476,13,0.5119708994708995,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_first_name,jenny,43,0.6726190476190476,7,0.611904761904762,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,relationship record,module:,30,0.6135338345864662,8,0.4529761904761904,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_interagent_relationship_type_to,relationship_type,37,0.5666666666666667,17,0.5066526610644257,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_interagent_relationship_type_to,enslaver or owner,37,0.5666666666666667,26,0.6054271708683473,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,or,"owner"")",12,0.5238095238095238,8,0.4523809523809524,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,is_relationship_to,agent,44,0.6474266474266474,7,0.5285714285714286,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,is_relationship_to,john whipple jr.,44,0.6474266474266474,19,0.4523809523809524,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,whipple,"jr."").",29,0.5357142857142857,5,0.3978174603174603,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,role record,module:,24,0.46645021645021645,8,0.4529761904761904,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_participant_role,participant_role_type,47,0.6876623376623376,18,0.460515873015873,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_participant_role,legal case participant,47,0.6876623376623376,21,0.5238572701807996,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,case,"participant"").",33,0.5952380952380952,14,0.4226190476190476,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,record,module:,30,0.48412698412698413,8,0.4529761904761904,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_sex,sex_type,38,0.6238095238095238,10,0.4232142857142857,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_sex,female,38,0.6238095238095238,10,0.5178571428571429,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,record,module:,30,0.48412698412698413,8,0.4529761904761904,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_occupation,occupation,64,0.8074074074074075,10,0.381547619047619,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_occupation,free woman,64,0.8074074074074075,15,0.5490079365079366,0.0,0.09339537641256736
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_occupation,enslaved person,64,0.8074074074074075,24,0.6668650793650794,0.0,0.36047912526198805
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,record,module:,30,0.48412698412698413,8,0.4529761904761904,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_age,age,38,0.6190476190476191,5,0.3948412698412698,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_age,46,38,0.6190476190476191,0,0.0,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_birthdate,date_of_birth,37,0.6318681318681318,14,0.5269105894105893,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_birthdate,1719,37,0.6318681318681318,2,0.41964285714285715,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_deathdate,date_of_death,44,0.63003663003663,16,0.5269105894105893,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_deathdate,1765,44,0.63003663003663,2,0.41964285714285715,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,record,module:,30,0.48412698412698413,8,0.4529761904761904,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_race_or_color,race_or_color,39,0.5896358543417367,13,0.3907967032967033,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_race_or_color,black american,39,0.5896358543417367,14,0.4764610389610389,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,status record,module:,37,0.5366300366300366,8,0.4529761904761904,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_person_status,enslaved person,45,0.6675070028011204,24,0.6668650793650794,0.0,0.36047912526198805
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_person_status,free woman,45,0.6675070028011204,15,0.5490079365079366,0.0,0.09339537641256736
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_status_generating_event,event,39,0.5476190476190476,9,0.6148809523809524,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_status_generating_event,enslavement by john whipple jr.,39,0.5476190476190476,35,0.5986943164362519,0.0,0.05399650954704321
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,has_status_generating_event,jury trial,39,0.5476190476190476,13,0.4988095238095238,0.0,0.2307679296112307
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,by john whipple,"jr.""), has_status_generating_event(free woman, ""jury trial"")",21,0.47142857142857136,35,0.5691137566137566,0.0,0.16602259880482967
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,recorded_at,event,32,0.47056277056277057,9,0.6148809523809524,0.0,0.0
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,recorded_at,enslavement by john whipple jr.,32,0.47056277056277057,35,0.5986943164362519,0.0,0.05399650954704321
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,recorded_at,jury trial,32,0.47056277056277057,13,0.4988095238095238,0.0,0.2307679296112307
+hasdescription,enslaved. free before 13th amendment. may be the first enslaved person who gained freedom through trial by jury.,by john whipple,"jr.""), recorded_at(free woman, ""jury trial"").",21,0.47142857142857136,36,0.5197751322751323,0.0,0.1660225988048297

@@ -1,0 +1,859 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,henry walton bibb,32,0.537878787878788,35,0.5506535947712418,0.0,0.0
+instance of,person,walton,"bibb, ""henry walton bibb"")",24,0.47979797979797983,25,0.42735042735042733,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,bibb,27,0.49242424242424243,0,0.0,0.0,0.0
+instance of,person,walton,"bibb, ""bibb"")",24,0.47979797979797983,0,0.0,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,henry,40,0.5692640692640693,36,0.5777777777777778,0.0,0.0
+instance of,person,walton,"bibb, ""henry"").",24,0.47979797979797983,19,0.41111111111111115,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,relationship_type,30,0.5269480519480519,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,parent,30,0.5269480519480519,50,0.6944444444444443,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,spouse,30,0.5269480519480519,33,0.5555555555555555,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,child,30,0.5269480519480519,0,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,abolitionist,30,0.5269480519480519,22,0.5,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,enslaver or owner,30,0.5269480519480519,35,0.642483660130719,0.0,0.0
+instance of,person,walton,"bibb, ""parent""), has_interagent_relationship_type_to(henry walton bibb, ""spouse""), has_interagent_relationship_type_to(henry walton bibb, ""child""), has_interagent_relationship_type_to(henry walton bibb, ""abolitionist""), has_interagent_relationship_type_to(henry walton bibb, ""enslaver or owner"")",24,0.47979797979797983,4,0.5623352165725047,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,mildred jackson,34,0.5798460798460798,38,0.32222222222222224,0.0,0.0
+instance of,person,is_relationship_to,senator james bibb,34,0.5798460798460798,25,0.5703703703703704,0.0,0.0
+instance of,person,is_relationship_to,malinda,34,0.5798460798460798,15,0.4365079365079365,0.0,0.0
+instance of,person,is_relationship_to,mary e. miles,34,0.5798460798460798,21,0.32905982905982906,0.0,0.0
+instance of,person,is_relationship_to,mary frances,34,0.5798460798460798,22,0.5,0.0,0.0
+instance of,person,is_relationship_to,frederick douglass,34,0.5798460798460798,25,0.4444444444444444,0.0,0.0
+instance of,person,is_relationship_to,william wells brown,34,0.5798460798460798,32,0.4064327485380117,0.0,0.0
+instance of,person,is_relationship_to,albert g. sibley,34,0.5798460798460798,27,0.5625,0.0,0.0
+instance of,person,walton,"bibb, ""mildred jackson""), is_relationship_to(henry walton bibb, ""senator james bibb""), is_relationship_to(henry walton bibb, ""malinda""), is_relationship_to(henry walton bibb, ""mary e. miles""), is_relationship_to(henry walton bibb, ""mary frances""), is_relationship_to(henry walton bibb, ""frederick douglass""), is_relationship_to(henry walton bibb, ""william wells brown""), is_relationship_to(henry walton bibb, ""albert g. sibley"").",24,0.47979797979797983,3,0.5602175602175602,0.0,0.0
+instance of,person,role record,module:,27,0.49242424242424243,15,0.0,0.0,0.0
+instance of,person,has_participant_role,participant_role_type,32,0.5668831168831169,22,0.5357142857142857,0.0,0.0
+instance of,person,has_participant_role,participant in the underground railroad,32,0.5668831168831169,22,0.5064102564102564,0.0,0.0
+instance of,person,walton,"bibb, ""participant in the underground railroad"").",24,0.47979797979797983,18,0.4994331065759637,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,male,22,0.45598845598845594,20,0.47222222222222215,0.0,0.0
+instance of,person,walton,"bibb, ""male"").",24,0.47979797979797983,10,0.0,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,slave,24,0.38311688311688313,18,0.0,0.0,0.0
+instance of,person,has_occupation,author,24,0.38311688311688313,17,0.4444444444444444,0.0,0.0
+instance of,person,has_occupation,abolitionist,24,0.38311688311688313,22,0.5,0.0,0.0
+instance of,person,has_occupation,founder of the abolitionist newspaper 'voice of the fugitive,24,0.38311688311688313,12,0.5055555555555555,0.0,0.0
+instance of,person,walton,"bibb, ""slave, author, abolitionist, founder of the abolitionist newspaper 'voice of the fugitive'"").",24,0.47979797979797983,9,0.49444444444444446,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_age,39,33,0.45598845598845594,0,0.0,0.0,0.0
+instance of,person,walton,"bibb, 39)",24,0.47979797979797983,0,0.0,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_birthdate,may 10,33,0.5463869463869464,0,0.0,0.0,0.0
+instance of,person,has_birthdate,1815,33,0.5463869463869464,0,0.0,0.0,0.0
+instance of,person,walton,"bibb, ""may 10, 1815"")",24,0.47979797979797983,0,0.0,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,august 1,33,0.39044289044289043,14,0.4305555555555555,0.0,0.0
+instance of,person,has_deathdate,1854,33,0.39044289044289043,0,0.0,0.0,0.0
+instance of,person,walton,"bibb, ""august 1, 1854"").",24,0.47979797979797983,7,0.40277777777777773,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,enslaved person,29,0.449554367201426,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,has_person_status,abolitionist,29,0.449554367201426,22,0.5,0.0,0.0
+instance of,person,walton,"bibb, ""enslaved person, abolitionist"")",24,0.47979797979797983,27,0.5526315789473685,0.0,0.3799783615910079
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,sold away from family,26,0.4799102132435466,15,0.43650793650793646,0.0,0.0
+instance of,person,has_status_generating_event,hired out for wages,26,0.4799102132435466,24,0.44152046783625726,0.0,0.0
+instance of,person,has_status_generating_event,recaptured and enslaved again,26,0.4799102132435466,23,0.518199233716475,0.0,0.0
+instance of,person,has_status_generating_event,sold to cherokees,26,0.4799102132435466,26,0.48366013071895425,0.0,0.0
+instance of,person,has_status_generating_event,escape from slavery around 1837,26,0.4799102132435466,32,0.5315412186379929,0.0,0.0
+instance of,person,away from,"family, hired out for wages, recaptured and enslaved again, sold to cherokees""), has_status_generating_event(abolitionist, ""escape from slavery around 1837"").",30,0.5353535353535354,7,0.6237693389592124,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_name,name,57,0.8055555555555556,50,0.6666666666666666,0.0,0.0
+hassex,male,has_name,henry walton bibb,57,0.8055555555555556,19,0.5310457516339869,0.0,0.0
+hassex,male,walton,"bibb, ""henry walton bibb"")",17,0.4444444444444444,13,0.42948717948717946,0.0,0.0
+hassex,male,has_surname,surname,59,0.6767676767676768,36,0.0,0.0,0.0
+hassex,male,has_surname,bibb,59,0.6767676767676768,0,0.0,0.0,0.0
+hassex,male,walton,"bibb, ""bibb"")",17,0.4444444444444444,0,0.0,0.0,0.0
+hassex,male,has_first_name,first_name,50,0.6507936507936508,29,0.0,0.0,0.0
+hassex,male,has_first_name,henry,50,0.6507936507936508,22,0.0,0.0,0.0
+hassex,male,walton,"bibb, ""henry"").",17,0.4444444444444444,11,0.4388888888888889,0.0,0.0
+hassex,male,relationship record,module:,24,0.44152046783625726,55,0.7535714285714287,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,relationship_type,24,0.5936507936507937,19,0.5310457516339869,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,parent,24,0.5936507936507937,40,0.611111111111111,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,spouse,24,0.5936507936507937,20,0.47222222222222215,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,child,24,0.5936507936507937,22,0.48333333333333334,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,abolitionist,24,0.5936507936507937,25,0.5555555555555555,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,enslaver or owner,24,0.5936507936507937,19,0.5310457516339869,0.0,0.0
+hassex,male,walton,"bibb, ""parent""), has_interagent_relationship_type_to(henry walton bibb, ""spouse""), has_interagent_relationship_type_to(henry walton bibb, ""child""), has_interagent_relationship_type_to(henry walton bibb, ""abolitionist""), has_interagent_relationship_type_to(henry walton bibb, ""enslaver or owner"")",17,0.4444444444444444,2,0.4756120527306968,0.0,0.0
+hassex,male,is_relationship_to,agent,17,0.46296296296296297,44,0.6333333333333333,0.0,0.0
+hassex,male,is_relationship_to,mildred jackson,17,0.46296296296296297,32,0.65,0.0,0.0
+hassex,male,is_relationship_to,senator james bibb,17,0.46296296296296297,18,0.3703703703703704,0.0,0.0
+hassex,male,is_relationship_to,malinda,17,0.46296296296296297,55,0.8083333333333333,0.0,0.0
+hassex,male,is_relationship_to,mary e. miles,17,0.46296296296296297,47,0.6602564102564102,0.0,0.0
+hassex,male,is_relationship_to,mary frances,17,0.46296296296296297,38,0.5555555555555555,0.0,0.0
+hassex,male,is_relationship_to,frederick douglass,17,0.46296296296296297,9,0.4351851851851852,0.0,0.0
+hassex,male,is_relationship_to,william wells brown,17,0.46296296296296297,17,0.6535087719298246,0.0,0.0
+hassex,male,is_relationship_to,albert g. sibley,17,0.46296296296296297,30,0.6458333333333334,0.0,0.0
+hassex,male,walton,"bibb, ""mildred jackson""), is_relationship_to(henry walton bibb, ""senator james bibb""), is_relationship_to(henry walton bibb, ""malinda""), is_relationship_to(henry walton bibb, ""mary e. miles""), is_relationship_to(henry walton bibb, ""mary frances""), is_relationship_to(henry walton bibb, ""frederick douglass""), is_relationship_to(henry walton bibb, ""william wells brown""), is_relationship_to(henry walton bibb, ""albert g. sibley"").",17,0.4444444444444444,2,0.5864413364413364,0.0,0.0
+hassex,male,role record,module:,12,0.41919191919191917,55,0.7535714285714287,0.0,0.0
+hassex,male,has_participant_role,participant_role_type,31,0.5499999999999999,24,0.43253968253968256,0.0,0.0
+hassex,male,has_participant_role,participant in the underground railroad,31,0.5499999999999999,9,0.5170940170940171,0.0,0.0
+hassex,male,walton,"bibb, ""participant in the underground railroad"").",17,0.4444444444444444,8,0.5136054421768708,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_sex,sex_type,92,0.9666666666666667,17,0.4583333333333333,0.0,0.0
+hassex,male,has_sex,male,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,male,walton,"bibb, ""male"").",17,0.4444444444444444,44,0.0,0.0,0.5797386715376658
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_occupation,occupation,30,0.5714285714285715,14,0.45,0.0,0.0
+hassex,male,has_occupation,slave,30,0.5714285714285715,44,0.6722222222222222,0.0,0.0
+hassex,male,has_occupation,author,30,0.5714285714285715,20,0.47222222222222215,0.0,0.0
+hassex,male,has_occupation,abolitionist,30,0.5714285714285715,25,0.5555555555555555,0.0,0.0
+hassex,male,has_occupation,founder of the abolitionist newspaper 'voice of the fugitive,30,0.5714285714285715,9,0.48888888888888893,0.0,0.0
+hassex,male,walton,"bibb, ""slave, author, abolitionist, founder of the abolitionist newspaper 'voice of the fugitive'"").",17,0.4444444444444444,6,0.4822222222222223,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_age,age,62,0.8222222222222222,57,0.7222222222222222,0.0,0.0
+hassex,male,has_age,39,62,0.8222222222222222,0,0.0,0.0,0.0
+hassex,male,walton,"bibb, 39)",17,0.4444444444444444,0,0.0,0.0,0.0
+hassex,male,has_birthdate,date_of_birth,42,0.576923076923077,24,0.5512820512820512,0.0,0.0
+hassex,male,has_birthdate,may 10,42,0.576923076923077,40,0.611111111111111,0.0,0.0
+hassex,male,has_birthdate,1815,42,0.576923076923077,0,0.0,0.0,0.0
+hassex,male,walton,"bibb, ""may 10, 1815"")",17,0.4444444444444444,16,0.5317460317460317,0.0,0.0
+hassex,male,has_deathdate,date_of_death,42,0.6581196581196581,24,0.5512820512820512,0.0,0.0
+hassex,male,has_deathdate,august 1,42,0.6581196581196581,17,0.4583333333333333,0.0,0.0
+hassex,male,has_deathdate,1854,42,0.6581196581196581,0,0.0,0.0,0.0
+hassex,male,walton,"bibb, ""august 1, 1854"").",17,0.4444444444444444,7,0.4305555555555556,0.0,0.0
+hassex,male,status record,module:,32,0.5747863247863249,55,0.7535714285714287,0.0,0.0
+hassex,male,has_person_status,enslaved person,35,0.642483660130719,21,0.5388888888888889,0.0,0.0
+hassex,male,has_person_status,abolitionist,35,0.642483660130719,25,0.5555555555555555,0.0,0.0
+hassex,male,walton,"bibb, ""enslaved person, abolitionist"")",17,0.4444444444444444,10,0.4985380116959064,0.0,0.0
+hassex,male,has_status_generating_event,event,30,0.6728395061728395,22,0.48333333333333334,0.0,0.0
+hassex,male,has_status_generating_event,sold away from family,30,0.6728395061728395,24,0.3650793650793651,0.0,0.0
+hassex,male,has_status_generating_event,hired out for wages,30,0.6728395061728395,17,0.43421052631578944,0.0,0.0
+hassex,male,has_status_generating_event,recaptured and enslaved again,30,0.6728395061728395,18,0.35632183908045983,0.0,0.0
+hassex,male,has_status_generating_event,sold to cherokees,30,0.6728395061728395,19,0.5392156862745098,0.0,0.0
+hassex,male,has_status_generating_event,escape from slavery around 1837,30,0.6728395061728395,17,0.6263440860215054,0.0,0.0
+hassex,male,away from,"family, hired out for wages, recaptured and enslaved again, sold to cherokees""), has_status_generating_event(abolitionist, ""escape from slavery around 1837"").",13,0.4259259259259259,5,0.5917721518987341,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,henry walton bibb,38,0.5675925925925926,18,0.5058823529411764,0.0,0.0
+hasparticipantrole,child,walton,"bibb, ""henry walton bibb"")",25,0.5555555555555555,13,0.46068376068376066,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,bibb,41,0.6274651274651274,22,0.48333333333333334,0.0,0.0
+hasparticipantrole,child,walton,"bibb, ""bibb"")",25,0.5555555555555555,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,henry,44,0.6772486772486772,20,0.4666666666666666,0.0,0.0
+hasparticipantrole,child,walton,"bibb, ""henry"").",25,0.5555555555555555,10,0.3444444444444444,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,parent,42,0.6570105820105819,0,0.0,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,spouse,42,0.6570105820105819,0,0.0,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,child,42,0.6570105820105819,100,1.0,0.0,1.0
+hasparticipantrole,child,has_interagent_relationship_type_to,abolitionist,42,0.6570105820105819,12,0.35555555555555557,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,enslaver or owner,42,0.6570105820105819,9,0.4196078431372549,0.0,0.0
+hasparticipantrole,child,walton,"bibb, ""parent""), has_interagent_relationship_type_to(henry walton bibb, ""spouse""), has_interagent_relationship_type_to(henry walton bibb, ""child""), has_interagent_relationship_type_to(henry walton bibb, ""abolitionist""), has_interagent_relationship_type_to(henry walton bibb, ""enslaver or owner"")",25,0.5555555555555555,3,0.6056497175141243,0.0,0.07979566771033515
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,mildred jackson,44,0.6037037037037037,30,0.6,0.0,0.0
+hasparticipantrole,child,is_relationship_to,senator james bibb,44,0.6037037037037037,9,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,malinda,44,0.6037037037037037,33,0.565079365079365,0.0,0.0
+hasparticipantrole,child,is_relationship_to,mary e. miles,44,0.6037037037037037,22,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,mary frances,44,0.6037037037037037,12,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,frederick douglass,44,0.6037037037037037,17,0.4777777777777777,0.0,0.0
+hasparticipantrole,child,is_relationship_to,william wells brown,44,0.6037037037037037,17,0.5017543859649123,0.0,0.0
+hasparticipantrole,child,is_relationship_to,albert g. sibley,44,0.6037037037037037,19,0.42083333333333334,0.0,0.0
+hasparticipantrole,child,walton,"bibb, ""mildred jackson""), is_relationship_to(henry walton bibb, ""senator james bibb""), is_relationship_to(henry walton bibb, ""malinda""), is_relationship_to(henry walton bibb, ""mary e. miles""), is_relationship_to(henry walton bibb, ""mary frances""), is_relationship_to(henry walton bibb, ""frederick douglass""), is_relationship_to(henry walton bibb, ""william wells brown""), is_relationship_to(henry walton bibb, ""albert g. sibley"").",25,0.5555555555555555,2,0.5372183372183371,0.0,0.0
+hasparticipantrole,child,role record,module:,28,0.4452861952861953,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant_role_type,95,0.9766666666666667,23,0.33174603174603173,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant in the underground railroad,95,0.9766666666666667,23,0.5508547008547008,0.0,0.0
+hasparticipantrole,child,walton,"bibb, ""participant in the underground railroad"").",25,0.5555555555555555,19,0.44263038548752826,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,male,32,0.5317460317460317,22,0.48333333333333334,0.0,0.0
+hasparticipantrole,child,walton,"bibb, ""male"").",25,0.5555555555555555,21,0.5142857142857143,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,slave,50,0.6566137566137565,20,0.0,0.0,0.0
+hasparticipantrole,child,has_occupation,author,50,0.6566137566137565,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,has_occupation,abolitionist,50,0.6566137566137565,12,0.35555555555555557,0.0,0.0
+hasparticipantrole,child,has_occupation,founder of the abolitionist newspaper 'voice of the fugitive,50,0.6566137566137565,9,0.5388888888888889,0.0,0.0
+hasparticipantrole,child,walton,"bibb, ""slave, author, abolitionist, founder of the abolitionist newspaper 'voice of the fugitive'"").",25,0.5555555555555555,6,0.53,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_age,age,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_age,39,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,walton,"bibb, 39)",25,0.5555555555555555,14,0.43703703703703706,0.0,0.0
+hasparticipantrole,child,has_birthdate,date_of_birth,52,0.6937321937321936,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_birthdate,may 10,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,child,has_birthdate,1815,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,child,walton,"bibb, ""may 10, 1815"")",25,0.5555555555555555,8,0.4158730158730159,0.0,0.0
+hasparticipantrole,child,has_deathdate,date_of_death,52,0.6866096866096866,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_deathdate,august 1,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,child,has_deathdate,1854,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,child,walton,"bibb, ""august 1, 1854"").",25,0.5555555555555555,7,0.4138888888888889,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,enslaved person,46,0.6479302832244008,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,child,has_person_status,abolitionist,46,0.6479302832244008,12,0.35555555555555557,0.0,0.0
+hasparticipantrole,child,walton,"bibb, ""enslaved person, abolitionist"")",25,0.5555555555555555,14,0.5596491228070176,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,sold away from family,40,0.5819304152637487,15,0.4984126984126984,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,hired out for wages,40,0.5819304152637487,25,0.5859649122807017,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,recaptured and enslaved again,40,0.5819304152637487,18,0.48965517241379314,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,sold to cherokees,40,0.5819304152637487,18,0.5058823529411764,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,escape from slavery around 1837,40,0.5819304152637487,17,0.48817204301075273,0.0,0.0
+hasparticipantrole,child,away from,"family, hired out for wages, recaptured and enslaved again, sold to cherokees""), has_status_generating_event(abolitionist, ""escape from slavery around 1837"").",30,0.5555555555555555,6,0.5438818565400844,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,henry walton bibb,38,0.5675925925925926,25,0.4758169934640523,0.0,0.0
+hasparticipantrole,deceased person,walton,"bibb, ""henry walton bibb"")",25,0.5555555555555555,24,0.43247863247863244,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,bibb,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,walton,"bibb, ""bibb"")",25,0.5555555555555555,7,0.3811965811965812,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,henry,44,0.6772486772486772,20,0.4222222222222222,0.0,0.0
+hasparticipantrole,deceased person,walton,"bibb, ""henry"").",25,0.5555555555555555,20,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,parent,42,0.6570105820105819,29,0.32222222222222224,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,spouse,42,0.6570105820105819,29,0.32222222222222224,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,child,42,0.6570105820105819,20,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,abolitionist,42,0.6570105820105819,22,0.45,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,enslaver or owner,42,0.6570105820105819,44,0.5986928104575163,0.0,0.0
+hasparticipantrole,deceased person,walton,"bibb, ""parent""), has_interagent_relationship_type_to(henry walton bibb, ""spouse""), has_interagent_relationship_type_to(henry walton bibb, ""child""), has_interagent_relationship_type_to(henry walton bibb, ""abolitionist""), has_interagent_relationship_type_to(henry walton bibb, ""enslaver or owner"")",25,0.5555555555555555,8,0.5174065106268496,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,mildred jackson,44,0.6037037037037037,47,0.6472222222222223,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,senator james bibb,44,0.6037037037037037,30,0.5342592592592593,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,malinda,44,0.6037037037037037,18,0.3063492063492063,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,mary e. miles,44,0.6037037037037037,36,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,mary frances,44,0.6037037037037037,30,0.5222222222222223,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,frederick douglass,44,0.6037037037037037,36,0.5518518518518519,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,william wells brown,44,0.6037037037037037,35,0.5164578111946533,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,albert g. sibley,44,0.6037037037037037,26,0.48055555555555557,0.0,0.0
+hasparticipantrole,deceased person,walton,"bibb, ""mildred jackson""), is_relationship_to(henry walton bibb, ""senator james bibb""), is_relationship_to(henry walton bibb, ""malinda""), is_relationship_to(henry walton bibb, ""mary e. miles""), is_relationship_to(henry walton bibb, ""mary frances""), is_relationship_to(henry walton bibb, ""frederick douglass""), is_relationship_to(henry walton bibb, ""william wells brown""), is_relationship_to(henry walton bibb, ""albert g. sibley"").",25,0.5555555555555555,7,0.5227661227661228,0.0,0.0
+hasparticipantrole,deceased person,role record,module:,28,0.4452861952861953,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant_role_type,95,0.9766666666666667,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant in the underground railroad,95,0.9766666666666667,30,0.5076923076923077,0.0,0.0
+hasparticipantrole,deceased person,walton,"bibb, ""participant in the underground railroad"").",25,0.5555555555555555,25,0.4902494331065759,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,male,32,0.5317460317460317,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,walton,"bibb, ""male"").",25,0.5555555555555555,14,0.3603174603174603,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,slave,50,0.6566137566137565,20,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,author,50,0.6566137566137565,19,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,abolitionist,50,0.6566137566137565,22,0.45,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,founder of the abolitionist newspaper 'voice of the fugitive,50,0.6566137566137565,27,0.5405982905982906,0.0,0.0
+hasparticipantrole,deceased person,walton,"bibb, ""slave, author, abolitionist, founder of the abolitionist newspaper 'voice of the fugitive'"").",25,0.5555555555555555,17,0.4629292929292929,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_age,age,40,0.5978835978835978,22,0.4333333333333333,0.0,0.0
+hasparticipantrole,deceased person,has_age,39,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,walton,"bibb, 39)",25,0.5555555555555555,8,0.3925925925925926,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,date_of_birth,52,0.6937321937321936,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,may 10,52,0.6937321937321936,19,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,1815,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,walton,"bibb, ""may 10, 1815"")",25,0.5555555555555555,11,0.24285714285714285,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,date_of_death,52,0.6866096866096866,36,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,august 1,52,0.6866096866096866,26,0.525,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,1854,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,walton,"bibb, ""august 1, 1854"").",25,0.5555555555555555,15,0.33055555555555555,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,enslaved person,46,0.6479302832244008,73,0.7833333333333333,0.0,0.33609692727625756
+hasparticipantrole,deceased person,has_person_status,abolitionist,46,0.6479302832244008,22,0.45,0.0,0.0
+hasparticipantrole,deceased person,walton,"bibb, ""enslaved person, abolitionist"")",25,0.5555555555555555,42,0.5941520467836257,0.0,0.22028815056182974
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,sold away from family,40,0.5819304152637487,28,0.4507936507936508,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,hired out for wages,40,0.5819304152637487,29,0.5164578111946533,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,recaptured and enslaved again,40,0.5819304152637487,41,0.6434423813734159,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,sold to cherokees,40,0.5819304152637487,38,0.5986928104575163,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,escape from slavery around 1837,40,0.5819304152637487,39,0.6456989247311827,0.0,0.0
+hasparticipantrole,deceased person,away from,"family, hired out for wages, recaptured and enslaved again, sold to cherokees""), has_status_generating_event(abolitionist, ""escape from slavery around 1837"").",30,0.5555555555555555,17,0.5649789029535865,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,henry walton bibb,25,0.5555555555555555,9,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,walton,"bibb, ""henry walton bibb"")",27,0.5416666666666666,6,0.32564102564102565,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,surname,34,0.5474386724386724,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,bibb,34,0.5474386724386724,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,walton,"bibb, ""bibb"")",27,0.5416666666666666,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,first_name,32,0.5615079365079364,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,henry,32,0.5615079365079364,20,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,walton,"bibb, ""henry"").",27,0.5416666666666666,10,0.4222222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,relationship record,module:,33,0.6137539361223572,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,27,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,parent,41,0.6037698412698412,36,0.5777777777777778,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,spouse,41,0.6037698412698412,36,0.5777777777777778,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,child,41,0.6037698412698412,20,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,abolitionist,41,0.6037698412698412,12,0.35555555555555557,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,enslaver or owner,41,0.6037698412698412,45,0.6313725490196078,0.0,0.0
+hasdescriptiveoccupation,slave,walton,"bibb, ""parent""), has_interagent_relationship_type_to(henry walton bibb, ""spouse""), has_interagent_relationship_type_to(henry walton bibb, ""child""), has_interagent_relationship_type_to(henry walton bibb, ""abolitionist""), has_interagent_relationship_type_to(henry walton bibb, ""enslaver or owner"")",27,0.5416666666666666,3,0.4378531073446328,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,agent,38,0.6264245014245015,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,mildred jackson,38,0.6264245014245015,20,0.5111111111111111,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,senator james bibb,38,0.6264245014245015,26,0.4777777777777777,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,malinda,38,0.6264245014245015,33,0.3952380952380952,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,mary e. miles,38,0.6264245014245015,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,mary frances,38,0.6264245014245015,24,0.42777777777777776,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,frederick douglass,38,0.6264245014245015,17,0.4185185185185185,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,william wells brown,38,0.6264245014245015,25,0.5859649122807017,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,albert g. sibley,38,0.6264245014245015,29,0.4847222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,walton,"bibb, ""mildred jackson""), is_relationship_to(henry walton bibb, ""senator james bibb""), is_relationship_to(henry walton bibb, ""malinda""), is_relationship_to(henry walton bibb, ""mary e. miles""), is_relationship_to(henry walton bibb, ""mary frances""), is_relationship_to(henry walton bibb, ""frederick douglass""), is_relationship_to(henry walton bibb, ""william wells brown""), is_relationship_to(henry walton bibb, ""albert g. sibley"").",27,0.5416666666666666,2,0.5197746697746698,0.0,0.0
+hasdescriptiveoccupation,slave,role record,module:,29,0.4873737373737373,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,participant_role_type,50,0.6805555555555555,15,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,participant in the underground railroad,50,0.6805555555555555,9,0.48376068376068376,0.0,0.0
+hasdescriptiveoccupation,slave,walton,"bibb, ""participant in the underground railroad"").",27,0.5416666666666666,7,0.4802721088435374,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,sex_type,32,0.5742063492063493,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,male,32,0.5742063492063493,44,0.6722222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,walton,"bibb, ""male"").",27,0.5416666666666666,21,0.5142857142857143,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,slave,68,0.8045940170940171,100,1.0,0.0,1.0
+hasdescriptiveoccupation,slave,has_occupation,author,68,0.8045940170940171,18,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,abolitionist,68,0.8045940170940171,12,0.35555555555555557,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,founder of the abolitionist newspaper 'voice of the fugitive,68,0.8045940170940171,12,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,walton,"bibb, ""slave, author, abolitionist, founder of the abolitionist newspaper 'voice of the fugitive'"").",27,0.5416666666666666,10,0.6833333333333332,0.0,0.16539439585841767
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,age,26,0.5793650793650794,50,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,39,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,walton,"bibb, 39)",27,0.5416666666666666,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,date_of_birth,38,0.6286324786324786,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,may 10,38,0.6286324786324786,18,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,1815,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,walton,"bibb, ""may 10, 1815"")",27,0.5416666666666666,8,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,date_of_death,43,0.652065527065527,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,august 1,43,0.652065527065527,15,0.44166666666666665,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,1854,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,walton,"bibb, ""august 1, 1854"").",27,0.5416666666666666,7,0.3277777777777778,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,enslaved person,39,0.6241830065359477,50,0.6444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,abolitionist,39,0.6241830065359477,12,0.35555555555555557,0.0,0.0
+hasdescriptiveoccupation,slave,walton,"bibb, ""enslaved person, abolitionist"")",27,0.5416666666666666,23,0.5771929824561403,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,event,39,0.5815696649029983,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,sold away from family,39,0.5815696649029983,23,0.580952380952381,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,hired out for wages,39,0.5815696649029983,17,0.4175438596491228,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,recaptured and enslaved again,39,0.5815696649029983,29,0.32298850574712645,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,sold to cherokees,39,0.5815696649029983,27,0.592156862745098,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,escape from slavery around 1837,39,0.5815696649029983,28,0.5870967741935483,0.0,0.0
+hasdescriptiveoccupation,slave,away from,"family, hired out for wages, recaptured and enslaved again, sold to cherokees""), has_status_generating_event(abolitionist, ""escape from slavery around 1837"").",18,0.4861111111111111,6,0.5438818565400844,0.0,0.0
+hasdescriptiveoccupation,lecturer,record,module:,27,0.6138888888888889,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_name,name,25,0.5555555555555555,17,0.4583333333333333,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_name,henry walton bibb,25,0.5555555555555555,16,0.406045751633987,0.0,0.0
+hasdescriptiveoccupation,lecturer,walton,"bibb, ""henry walton bibb"")",27,0.5416666666666666,12,0.4423076923076923,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_surname,surname,34,0.5474386724386724,40,0.6011904761904762,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_surname,bibb,34,0.5474386724386724,0,0.0,0.0,0.0
+hasdescriptiveoccupation,lecturer,walton,"bibb, ""bibb"")",27,0.5416666666666666,0,0.0,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_first_name,first_name,32,0.5615079365079364,22,0.44722222222222224,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_first_name,henry,32,0.5615079365079364,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,lecturer,walton,"bibb, ""henry"").",27,0.5416666666666666,17,0.29444444444444445,0.0,0.0
+hasdescriptiveoccupation,lecturer,relationship record,module:,33,0.6137539361223572,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,24,0.4950980392156863,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_interagent_relationship_type_to,parent,41,0.6037698412698412,29,0.5138888888888888,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_interagent_relationship_type_to,spouse,41,0.6037698412698412,29,0.5277777777777778,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_interagent_relationship_type_to,child,41,0.6037698412698412,15,0.3833333333333333,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_interagent_relationship_type_to,abolitionist,41,0.6037698412698412,20,0.47222222222222215,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_interagent_relationship_type_to,enslaver or owner,41,0.6037698412698412,40,0.5063725490196078,0.0,0.0
+hasdescriptiveoccupation,lecturer,walton,"bibb, ""parent""), has_interagent_relationship_type_to(henry walton bibb, ""spouse""), has_interagent_relationship_type_to(henry walton bibb, ""child""), has_interagent_relationship_type_to(henry walton bibb, ""abolitionist""), has_interagent_relationship_type_to(henry walton bibb, ""enslaver or owner"")",27,0.5416666666666666,5,0.5507062146892655,0.0,0.0
+hasdescriptiveoccupation,lecturer,is_relationship_to,agent,38,0.6264245014245015,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,lecturer,is_relationship_to,mildred jackson,38,0.6264245014245015,26,0.4138888888888889,0.0,0.0
+hasdescriptiveoccupation,lecturer,is_relationship_to,senator james bibb,38,0.6264245014245015,31,0.5740740740740741,0.0,0.0
+hasdescriptiveoccupation,lecturer,is_relationship_to,malinda,38,0.6264245014245015,13,0.4226190476190476,0.0,0.0
+hasdescriptiveoccupation,lecturer,is_relationship_to,mary e. miles,38,0.6264245014245015,19,0.42414529914529914,0.0,0.0
+hasdescriptiveoccupation,lecturer,is_relationship_to,mary frances,38,0.6264245014245015,20,0.4305555555555555,0.0,0.0
+hasdescriptiveoccupation,lecturer,is_relationship_to,frederick douglass,38,0.6264245014245015,23,0.5833333333333334,0.0,0.0
+hasdescriptiveoccupation,lecturer,is_relationship_to,william wells brown,38,0.6264245014245015,22,0.5109649122807017,0.0,0.0
+hasdescriptiveoccupation,lecturer,is_relationship_to,albert g. sibley,38,0.6264245014245015,33,0.5,0.0,0.0
+hasdescriptiveoccupation,lecturer,walton,"bibb, ""mildred jackson""), is_relationship_to(henry walton bibb, ""senator james bibb""), is_relationship_to(henry walton bibb, ""malinda""), is_relationship_to(henry walton bibb, ""mary e. miles""), is_relationship_to(henry walton bibb, ""mary frances""), is_relationship_to(henry walton bibb, ""frederick douglass""), is_relationship_to(henry walton bibb, ""william wells brown""), is_relationship_to(henry walton bibb, ""albert g. sibley"").",27,0.5416666666666666,4,0.5352009102009102,0.0,0.0
+hasdescriptiveoccupation,lecturer,role record,module:,29,0.4873737373737373,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_participant_role,participant_role_type,50,0.6805555555555555,28,0.48769841269841274,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_participant_role,participant in the underground railroad,50,0.6805555555555555,21,0.5895909645909646,0.0,0.0
+hasdescriptiveoccupation,lecturer,walton,"bibb, ""participant in the underground railroad"").",27,0.5416666666666666,18,0.5773809523809524,0.0,0.0
+hasdescriptiveoccupation,lecturer,record,module:,27,0.6138888888888889,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_sex,sex_type,32,0.5742063492063493,38,0.5833333333333334,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_sex,male,32,0.5742063492063493,33,0.5833333333333334,0.0,0.0
+hasdescriptiveoccupation,lecturer,walton,"bibb, ""male"").",27,0.5416666666666666,18,0.3988095238095238,0.0,0.0
+hasdescriptiveoccupation,lecturer,record,module:,27,0.6138888888888889,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_occupation,occupation,68,0.8045940170940171,22,0.44722222222222224,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_occupation,slave,68,0.8045940170940171,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_occupation,author,68,0.8045940170940171,29,0.5138888888888888,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_occupation,abolitionist,68,0.8045940170940171,20,0.47222222222222215,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_occupation,founder of the abolitionist newspaper 'voice of the fugitive,68,0.8045940170940171,18,0.5686507936507937,0.0,0.0
+hasdescriptiveoccupation,lecturer,walton,"bibb, ""slave, author, abolitionist, founder of the abolitionist newspaper 'voice of the fugitive'"").",27,0.5416666666666666,13,0.6007142857142856,0.0,0.0
+hasdescriptiveoccupation,lecturer,record,module:,27,0.6138888888888889,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_age,age,26,0.5793650793650794,18,0.4861111111111111,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_age,39,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,lecturer,walton,"bibb, 39)",27,0.5416666666666666,0,0.0,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_birthdate,date_of_birth,38,0.6286324786324786,29,0.42414529914529914,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_birthdate,may 10,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_birthdate,1815,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,lecturer,walton,"bibb, ""may 10, 1815"")",27,0.5416666666666666,0,0.0,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_deathdate,date_of_death,43,0.652065527065527,19,0.42414529914529914,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_deathdate,august 1,43,0.652065527065527,12,0.3333333333333333,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_deathdate,1854,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,lecturer,walton,"bibb, ""august 1, 1854"").",27,0.5416666666666666,6,0.27777777777777773,0.0,0.0
+hasdescriptiveoccupation,lecturer,status record,module:,32,0.540954415954416,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_person_status,enslaved person,39,0.6241830065359477,35,0.4222222222222222,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_person_status,abolitionist,39,0.6241830065359477,20,0.47222222222222215,0.0,0.0
+hasdescriptiveoccupation,lecturer,walton,"bibb, ""enslaved person, abolitionist"")",27,0.5416666666666666,17,0.3684210526315789,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_status_generating_event,event,39,0.5815696649029983,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_status_generating_event,sold away from family,39,0.5815696649029983,14,0.44841269841269843,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_status_generating_event,hired out for wages,39,0.5815696649029983,30,0.5627192982456141,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_status_generating_event,recaptured and enslaved again,39,0.5815696649029983,32,0.5626026272577996,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_status_generating_event,sold to cherokees,39,0.5815696649029983,32,0.5063725490196078,0.0,0.0
+hasdescriptiveoccupation,lecturer,has_status_generating_event,escape from slavery around 1837,39,0.5815696649029983,26,0.5367383512544803,0.0,0.0
+hasdescriptiveoccupation,lecturer,away from,"family, hired out for wages, recaptured and enslaved again, sold to cherokees""), has_status_generating_event(abolitionist, ""escape from slavery around 1837"").",18,0.4861111111111111,10,0.6002109704641351,0.0,0.0
+hasdescriptiveoccupation,abolitionist,record,module:,27,0.6138888888888889,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_name,name,25,0.5555555555555555,12,0.4444444444444444,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_name,henry walton bibb,25,0.5555555555555555,41,0.5065359477124183,0.0,0.0
+hasdescriptiveoccupation,abolitionist,walton,"bibb, ""henry walton bibb"")",27,0.5416666666666666,32,0.5222832722832723,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_surname,surname,34,0.5474386724386724,11,0.31746031746031744,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_surname,bibb,34,0.5474386724386724,25,0.5555555555555555,0.0,0.0
+hasdescriptiveoccupation,abolitionist,walton,"bibb, ""bibb"")",27,0.5416666666666666,24,0.4935897435897436,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_first_name,first_name,32,0.5615079365079364,27,0.5166666666666667,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_first_name,henry,32,0.5615079365079364,12,0.0,0.0,0.0
+hasdescriptiveoccupation,abolitionist,walton,"bibb, ""henry"").",27,0.5416666666666666,22,0.48333333333333334,0.0,0.0
+hasdescriptiveoccupation,abolitionist,relationship record,module:,33,0.6137539361223572,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,48,0.6486928104575163,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_interagent_relationship_type_to,parent,41,0.6037698412698412,33,0.47222222222222215,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_interagent_relationship_type_to,spouse,41,0.6037698412698412,22,0.4166666666666667,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_interagent_relationship_type_to,child,41,0.6037698412698412,12,0.35555555555555557,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_interagent_relationship_type_to,abolitionist,41,0.6037698412698412,100,1.0,0.0,1.0
+hasdescriptiveoccupation,abolitionist,has_interagent_relationship_type_to,enslaver or owner,41,0.6037698412698412,28,0.4369281045751634,0.0,0.0
+hasdescriptiveoccupation,abolitionist,walton,"bibb, ""parent""), has_interagent_relationship_type_to(henry walton bibb, ""spouse""), has_interagent_relationship_type_to(henry walton bibb, ""child""), has_interagent_relationship_type_to(henry walton bibb, ""abolitionist""), has_interagent_relationship_type_to(henry walton bibb, ""enslaver or owner"")",27,0.5416666666666666,8,0.5413370998116761,0.0,0.07979566771033515
+hasdescriptiveoccupation,abolitionist,is_relationship_to,agent,38,0.6264245014245015,35,0.5055555555555555,0.0,0.0
+hasdescriptiveoccupation,abolitionist,is_relationship_to,mildred jackson,38,0.6264245014245015,22,0.45,0.0,0.0
+hasdescriptiveoccupation,abolitionist,is_relationship_to,senator james bibb,38,0.6264245014245015,27,0.5,0.0,0.0
+hasdescriptiveoccupation,abolitionist,is_relationship_to,malinda,38,0.6264245014245015,42,0.6349206349206349,0.0,0.0
+hasdescriptiveoccupation,abolitionist,is_relationship_to,mary e. miles,38,0.6264245014245015,24,0.4935897435897436,0.0,0.0
+hasdescriptiveoccupation,abolitionist,is_relationship_to,mary frances,38,0.6264245014245015,25,0.5,0.0,0.0
+hasdescriptiveoccupation,abolitionist,is_relationship_to,frederick douglass,38,0.6264245014245015,20,0.47222222222222215,0.0,0.0
+hasdescriptiveoccupation,abolitionist,is_relationship_to,william wells brown,38,0.6264245014245015,26,0.4932748538011696,0.0,0.0
+hasdescriptiveoccupation,abolitionist,is_relationship_to,albert g. sibley,38,0.6264245014245015,29,0.5138888888888888,0.0,0.0
+hasdescriptiveoccupation,abolitionist,walton,"bibb, ""mildred jackson""), is_relationship_to(henry walton bibb, ""senator james bibb""), is_relationship_to(henry walton bibb, ""malinda""), is_relationship_to(henry walton bibb, ""mary e. miles""), is_relationship_to(henry walton bibb, ""mary frances""), is_relationship_to(henry walton bibb, ""frederick douglass""), is_relationship_to(henry walton bibb, ""william wells brown""), is_relationship_to(henry walton bibb, ""albert g. sibley"").",27,0.5416666666666666,5,0.5371017871017871,0.0,0.0
+hasdescriptiveoccupation,abolitionist,role record,module:,29,0.4873737373737373,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_participant_role,participant_role_type,50,0.6805555555555555,30,0.5436507936507936,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_participant_role,participant in the underground railroad,50,0.6805555555555555,27,0.4923687423687424,0.0,0.0
+hasdescriptiveoccupation,abolitionist,walton,"bibb, ""participant in the underground railroad"").",27,0.5416666666666666,23,0.5266439909297053,0.0,0.0
+hasdescriptiveoccupation,abolitionist,record,module:,27,0.6138888888888889,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_sex,sex_type,32,0.5742063492063493,20,0.40277777777777773,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_sex,male,32,0.5742063492063493,25,0.5555555555555555,0.0,0.0
+hasdescriptiveoccupation,abolitionist,walton,"bibb, ""male"").",27,0.5416666666666666,15,0.376984126984127,0.0,0.0
+hasdescriptiveoccupation,abolitionist,record,module:,27,0.6138888888888889,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_occupation,occupation,68,0.8045940170940171,45,0.5888888888888889,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_occupation,slave,68,0.8045940170940171,12,0.35555555555555557,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_occupation,author,68,0.8045940170940171,33,0.47222222222222215,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_occupation,abolitionist,68,0.8045940170940171,100,1.0,0.0,1.0
+hasdescriptiveoccupation,abolitionist,has_occupation,founder of the abolitionist newspaper 'voice of the fugitive,68,0.8045940170940171,33,0.5944444444444444,0.0,0.2011946755849157
+hasdescriptiveoccupation,abolitionist,walton,"bibb, ""slave, author, abolitionist, founder of the abolitionist newspaper 'voice of the fugitive'"").",27,0.5416666666666666,21,0.5955555555555555,0.0,0.34487893971764216
+hasdescriptiveoccupation,abolitionist,record,module:,27,0.6138888888888889,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_age,age,26,0.5793650793650794,13,0.47222222222222215,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_age,39,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,abolitionist,walton,"bibb, 39)",27,0.5416666666666666,19,0.46296296296296297,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_birthdate,date_of_birth,38,0.6286324786324786,40,0.5337606837606838,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_birthdate,may 10,38,0.6286324786324786,11,0.4166666666666667,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_birthdate,1815,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,abolitionist,walton,"bibb, ""may 10, 1815"")",27,0.5416666666666666,12,0.3531746031746032,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_deathdate,date_of_death,43,0.652065527065527,32,0.46367521367521364,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_deathdate,august 1,43,0.652065527065527,30,0.47222222222222215,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_deathdate,1854,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,abolitionist,walton,"bibb, ""august 1, 1854"").",27,0.5416666666666666,22,0.4083333333333334,0.0,0.0
+hasdescriptiveoccupation,abolitionist,status record,module:,32,0.540954415954416,21,0.48412698412698413,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_person_status,enslaved person,39,0.6241830065359477,22,0.45,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_person_status,abolitionist,39,0.6241830065359477,100,1.0,0.0,1.0
+hasdescriptiveoccupation,abolitionist,walton,"bibb, ""enslaved person, abolitionist"")",27,0.5416666666666666,48,0.5007309941520468,0.0,0.3799783615910079
+hasdescriptiveoccupation,abolitionist,has_status_generating_event,event,39,0.5815696649029983,24,0.35555555555555557,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_status_generating_event,sold away from family,39,0.5815696649029983,24,0.484920634920635,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_status_generating_event,hired out for wages,39,0.5815696649029983,26,0.4932748538011696,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_status_generating_event,recaptured and enslaved again,39,0.5815696649029983,20,0.4904214559386973,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_status_generating_event,sold to cherokees,39,0.5815696649029983,34,0.5702614379084968,0.0,0.0
+hasdescriptiveoccupation,abolitionist,has_status_generating_event,escape from slavery around 1837,39,0.5815696649029983,23,0.32078853046594985,0.0,0.0
+hasdescriptiveoccupation,abolitionist,away from,"family, hired out for wages, recaptured and enslaved again, sold to cherokees""), has_status_generating_event(abolitionist, ""escape from slavery around 1837"").",18,0.4861111111111111,14,0.5711865490346503,0.0,0.16539439585841767
+hasdescriptiveoccupation,newspaper editor / publisher,record,module:,27,0.6138888888888889,23,0.40079365079365076,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_name,name,25,0.5555555555555555,19,0.5079365079365079,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_name,henry walton bibb,25,0.5555555555555555,36,0.5284568372803667,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,walton,"bibb, ""henry walton bibb"")",27,0.5416666666666666,30,0.5604395604395603,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_surname,surname,34,0.5474386724386724,17,0.4976190476190476,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_surname,bibb,34,0.5474386724386724,12,0.42857142857142855,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,walton,"bibb, ""bibb"")",27,0.5416666666666666,20,0.33485958485958484,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_first_name,first_name,32,0.5615079365079364,21,0.5071428571428571,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_first_name,henry,32,0.5615079365079364,18,0.4579365079365079,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,walton,"bibb, ""henry"").",27,0.5416666666666666,23,0.37063492063492065,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,relationship record,module:,33,0.6137539361223572,23,0.40079365079365076,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,31,0.5725957049486462,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_interagent_relationship_type_to,parent,41,0.6037698412698412,29,0.626984126984127,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_interagent_relationship_type_to,spouse,41,0.6037698412698412,35,0.4365079365079365,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_interagent_relationship_type_to,child,41,0.6037698412698412,12,0.3238095238095238,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_interagent_relationship_type_to,abolitionist,41,0.6037698412698412,30,0.4047619047619048,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_interagent_relationship_type_to,enslaver or owner,41,0.6037698412698412,49,0.589151045033398,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,walton,"bibb, ""parent""), has_interagent_relationship_type_to(henry walton bibb, ""spouse""), has_interagent_relationship_type_to(henry walton bibb, ""child""), has_interagent_relationship_type_to(henry walton bibb, ""abolitionist""), has_interagent_relationship_type_to(henry walton bibb, ""enslaver or owner"")",27,0.5416666666666666,15,0.5371222311900278,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,is_relationship_to,agent,38,0.6264245014245015,18,0.5642857142857143,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,is_relationship_to,mildred jackson,38,0.6264245014245015,23,0.48134920634920636,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,is_relationship_to,senator james bibb,38,0.6264245014245015,39,0.6262718762718763,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,is_relationship_to,malinda,38,0.6264245014245015,17,0.4047619047619047,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,is_relationship_to,mary e. miles,38,0.6264245014245015,34,0.523097273097273,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,is_relationship_to,mary frances,38,0.6264245014245015,25,0.4682539682539682,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,is_relationship_to,frederick douglass,38,0.6264245014245015,39,0.6006308506308506,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,is_relationship_to,william wells brown,38,0.6264245014245015,30,0.5057530189109136,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,is_relationship_to,albert g. sibley,38,0.6264245014245015,41,0.5419372294372294,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,walton,"bibb, ""mildred jackson""), is_relationship_to(henry walton bibb, ""senator james bibb""), is_relationship_to(henry walton bibb, ""malinda""), is_relationship_to(henry walton bibb, ""mary e. miles""), is_relationship_to(henry walton bibb, ""mary frances""), is_relationship_to(henry walton bibb, ""frederick douglass""), is_relationship_to(henry walton bibb, ""william wells brown""), is_relationship_to(henry walton bibb, ""albert g. sibley"").",27,0.5416666666666666,11,0.5092130092130093,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,role record,module:,29,0.4873737373737373,23,0.40079365079365076,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_participant_role,participant_role_type,50,0.6805555555555555,33,0.5405982905982906,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_participant_role,participant in the underground railroad,50,0.6805555555555555,30,0.5757020757020758,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,walton,"bibb, ""participant in the underground railroad"").",27,0.5416666666666666,26,0.5674603174603176,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,record,module:,27,0.6138888888888889,23,0.40079365079365076,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_sex,sex_type,32,0.5742063492063493,28,0.4678571428571428,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_sex,male,32,0.5742063492063493,19,0.35714285714285715,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,walton,"bibb, ""male"").",27,0.5416666666666666,19,0.37857142857142856,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,record,module:,27,0.6138888888888889,23,0.40079365079365076,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_occupation,occupation,68,0.8045940170940171,21,0.4936507936507937,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_occupation,slave,68,0.8045940170940171,18,0.4579365079365079,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_occupation,author,68,0.8045940170940171,24,0.5198412698412699,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_occupation,abolitionist,68,0.8045940170940171,30,0.4047619047619048,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_occupation,founder of the abolitionist newspaper 'voice of the fugitive,68,0.8045940170940171,39,0.6098412698412699,0.0,0.09042421401858962
+hasdescriptiveoccupation,newspaper editor / publisher,walton,"bibb, ""slave, author, abolitionist, founder of the abolitionist newspaper 'voice of the fugitive'"").",27,0.5416666666666666,27,0.5601587301587302,0.0,0.07433426458775617
+hasdescriptiveoccupation,newspaper editor / publisher,record,module:,27,0.6138888888888889,23,0.40079365079365076,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_age,age,26,0.5793650793650794,13,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_age,39,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,walton,"bibb, 39)",27,0.5416666666666666,11,0.26455026455026454,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_birthdate,date_of_birth,38,0.6286324786324786,29,0.56013431013431,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_birthdate,may 10,38,0.6286324786324786,12,0.4682539682539682,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_birthdate,1815,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,walton,"bibb, ""may 10, 1815"")",27,0.5416666666666666,12,0.4055555555555556,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_deathdate,date_of_death,43,0.652065527065527,24,0.5009157509157509,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_deathdate,august 1,43,0.652065527065527,17,0.38095238095238093,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_deathdate,1854,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,walton,"bibb, ""august 1, 1854"").",27,0.5416666666666666,15,0.4146825396825397,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,status record,module:,32,0.540954415954416,23,0.40079365079365076,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_person_status,enslaved person,39,0.6241830065359477,42,0.603968253968254,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_person_status,abolitionist,39,0.6241830065359477,30,0.4047619047619048,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,walton,"bibb, ""enslaved person, abolitionist"")",27,0.5416666666666666,36,0.5858395989974937,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_status_generating_event,event,39,0.5815696649029983,18,0.5642857142857143,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_status_generating_event,sold away from family,39,0.5815696649029983,24,0.5176767676767677,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_status_generating_event,hired out for wages,39,0.5815696649029983,34,0.6195071010860485,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_status_generating_event,recaptured and enslaved again,39,0.5815696649029983,35,0.593861682604076,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_status_generating_event,sold to cherokees,39,0.5815696649029983,36,0.5284568372803667,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,has_status_generating_event,escape from slavery around 1837,39,0.5815696649029983,37,0.5812550826782327,0.0,0.0
+hasdescriptiveoccupation,newspaper editor / publisher,away from,"family, hired out for wages, recaptured and enslaved again, sold to cherokees""), has_status_generating_event(abolitionist, ""escape from slavery around 1837"").",18,0.4861111111111111,23,0.5169027526622463,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,record,module:,27,0.6138888888888889,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_name,name,25,0.5555555555555555,23,0.5176767676767676,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_name,henry walton bibb,25,0.5555555555555555,36,0.5809269162210339,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,walton,"bibb, ""henry walton bibb"")",27,0.5416666666666666,29,0.47972027972027975,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_surname,surname,34,0.5474386724386724,28,0.5138528138528139,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_surname,bibb,34,0.5474386724386724,8,0.0,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,walton,"bibb, ""bibb"")",27,0.5416666666666666,11,0.4149184149184149,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_first_name,first_name,32,0.5615079365079364,25,0.5131313131313131,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_first_name,henry,32,0.5615079365079364,22,0.5787878787878787,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,walton,"bibb, ""henry"").",27,0.5416666666666666,22,0.3994949494949495,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,relationship record,module:,33,0.6137539361223572,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,26,0.5641711229946523,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_interagent_relationship_type_to,parent,41,0.6037698412698412,29,0.6202020202020202,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_interagent_relationship_type_to,spouse,41,0.6037698412698412,14,0.47474747474747475,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_interagent_relationship_type_to,child,41,0.6037698412698412,7,0.3303030303030303,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_interagent_relationship_type_to,abolitionist,41,0.6037698412698412,24,0.5386002886002886,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_interagent_relationship_type_to,enslaver or owner,41,0.6037698412698412,51,0.6826408885232415,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,walton,"bibb, ""parent""), has_interagent_relationship_type_to(henry walton bibb, ""spouse""), has_interagent_relationship_type_to(henry walton bibb, ""child""), has_interagent_relationship_type_to(henry walton bibb, ""abolitionist""), has_interagent_relationship_type_to(henry walton bibb, ""enslaver or owner"")",27,0.5416666666666666,12,0.5422958397534668,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,is_relationship_to,agent,38,0.6264245014245015,30,0.6606060606060606,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,is_relationship_to,mildred jackson,38,0.6264245014245015,32,0.4997113997113997,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,is_relationship_to,senator james bibb,38,0.6264245014245015,40,0.5521885521885522,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,is_relationship_to,malinda,38,0.6264245014245015,21,0.5138528138528139,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,is_relationship_to,mary e. miles,38,0.6264245014245015,29,0.5346736596736598,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,is_relationship_to,mary frances,38,0.6264245014245015,29,0.5386002886002886,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,is_relationship_to,frederick douglass,38,0.6264245014245015,25,0.5252525252525252,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,is_relationship_to,william wells brown,38,0.6264245014245015,29,0.5115629984051037,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,is_relationship_to,albert g. sibley,38,0.6264245014245015,32,0.5598484848484849,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,walton,"bibb, ""mildred jackson""), is_relationship_to(henry walton bibb, ""senator james bibb""), is_relationship_to(henry walton bibb, ""malinda""), is_relationship_to(henry walton bibb, ""mary e. miles""), is_relationship_to(henry walton bibb, ""mary frances""), is_relationship_to(henry walton bibb, ""frederick douglass""), is_relationship_to(henry walton bibb, ""william wells brown""), is_relationship_to(henry walton bibb, ""albert g. sibley"").",27,0.5416666666666666,9,0.49562425878215355,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,role record,module:,29,0.4873737373737373,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_participant_role,participant_role_type,50,0.6805555555555555,33,0.5102453102453102,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_participant_role,participant in the underground railroad,50,0.6805555555555555,33,0.5989533342474519,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,walton,"bibb, ""participant in the underground railroad"").",27,0.5416666666666666,31,0.5693004474517079,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,record,module:,27,0.6138888888888889,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_sex,sex_type,32,0.5742063492063493,27,0.5606060606060607,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_sex,male,32,0.5742063492063493,15,0.5176767676767676,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,walton,"bibb, ""male"").",27,0.5416666666666666,17,0.40584415584415584,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,record,module:,27,0.6138888888888889,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_occupation,occupation,68,0.8045940170940171,25,0.4439393939393939,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_occupation,slave,68,0.8045940170940171,37,0.8454545454545456,0.0,0.4494364165239821
+hasdescriptiveoccupation,slave narrative author,has_occupation,author,68,0.8045940170940171,43,0.4343434343434343,0.0,0.4494364165239821
+hasdescriptiveoccupation,slave narrative author,has_occupation,abolitionist,68,0.8045940170940171,24,0.5386002886002886,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_occupation,founder of the abolitionist newspaper 'voice of the fugitive,68,0.8045940170940171,24,0.5579124579124579,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,walton,"bibb, ""slave, author, abolitionist, founder of the abolitionist newspaper 'voice of the fugitive'"").",27,0.5416666666666666,28,0.5363636363636364,0.0,0.16816529140565506
+hasdescriptiveoccupation,slave narrative author,record,module:,27,0.6138888888888889,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_age,age,26,0.5793650793650794,16,0.5858585858585859,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_age,39,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,walton,"bibb, 39)",27,0.5416666666666666,13,0.38552188552188554,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_birthdate,date_of_birth,38,0.6286324786324786,29,0.5236430236430237,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_birthdate,may 10,38,0.6286324786324786,14,0.47474747474747475,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_birthdate,1815,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,walton,"bibb, ""may 10, 1815"")",27,0.5416666666666666,14,0.31529581529581524,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_deathdate,date_of_death,43,0.652065527065527,34,0.5236430236430237,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_deathdate,august 1,43,0.652065527065527,20,0.393939393939394,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_deathdate,1854,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,walton,"bibb, ""august 1, 1854"").",27,0.5416666666666666,22,0.39375901875901875,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,status record,module:,32,0.540954415954416,14,0.4588744588744589,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_person_status,enslaved person,39,0.6241830065359477,43,0.5737373737373738,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_person_status,abolitionist,39,0.6241830065359477,24,0.5386002886002886,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,walton,"bibb, ""enslaved person, abolitionist"")",27,0.5416666666666666,37,0.536629452418926,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_status_generating_event,event,39,0.5815696649029983,30,0.5772727272727273,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_status_generating_event,sold away from family,39,0.5815696649029983,33,0.5435786435786435,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_status_generating_event,hired out for wages,39,0.5815696649029983,34,0.49362041467304624,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_status_generating_event,recaptured and enslaved again,39,0.5815696649029983,35,0.5635169428272876,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_status_generating_event,sold to cherokees,39,0.5815696649029983,36,0.5809269162210339,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,has_status_generating_event,escape from slavery around 1837,39,0.5815696649029983,42,0.5885630498533724,0.0,0.0
+hasdescriptiveoccupation,slave narrative author,away from,"family, hired out for wages, recaptured and enslaved again, sold to cherokees""), has_status_generating_event(abolitionist, ""escape from slavery around 1837"").",18,0.4861111111111111,20,0.5529618061263631,0.0,0.0
+hasfirstname,henry walton,record,module:,22,0.4166666666666667,11,0.31746031746031744,0.0,0.0
+hasfirstname,henry walton,has_name,name,70,0.8736111111111112,25,0.38888888888888884,0.0,0.0
+hasfirstname,henry walton,has_name,henry walton bibb,70,0.8736111111111112,83,0.9411764705882353,0.0,0.7092972666062739
+hasfirstname,henry walton,walton,"bibb, ""henry walton bibb"")",33,0.5833333333333334,63,0.7371794871794872,0.0,0.4494364165239822
+hasfirstname,henry walton,has_surname,surname,70,0.8733164983164984,21,0.5515873015873015,0.0,0.0
+hasfirstname,henry walton,has_surname,bibb,70,0.8733164983164984,0,0.0,0.0,0.0
+hasfirstname,henry walton,walton,"bibb, ""bibb"")",33,0.5833333333333334,8,0.3867521367521367,0.0,0.0
+hasfirstname,henry walton,has_first_name,first_name,92,0.9666666666666667,27,0.41111111111111115,0.0,0.0
+hasfirstname,henry walton,has_first_name,henry,92,0.9666666666666667,59,0.8833333333333334,0.0,0.5797386715376658
+hasfirstname,henry walton,walton,"bibb, ""henry"").",33,0.5833333333333334,37,0.43333333333333335,0.0,0.33609692727625756
+hasfirstname,henry walton,relationship record,module:,32,0.5077276524644946,11,0.31746031746031744,0.0,0.0
+hasfirstname,henry walton,has_interagent_relationship_type_to,relationship_type,34,0.5949735449735449,34,0.5221755368814193,0.0,0.0
+hasfirstname,henry walton,has_interagent_relationship_type_to,parent,34,0.5949735449735449,33,0.5833333333333334,0.0,0.0
+hasfirstname,henry walton,has_interagent_relationship_type_to,spouse,34,0.5949735449735449,11,0.4166666666666667,0.0,0.0
+hasfirstname,henry walton,has_interagent_relationship_type_to,child,34,0.5949735449735449,24,0.5222222222222223,0.0,0.0
+hasfirstname,henry walton,has_interagent_relationship_type_to,abolitionist,34,0.5949735449735449,42,0.5555555555555555,0.0,0.0
+hasfirstname,henry walton,has_interagent_relationship_type_to,enslaver or owner,34,0.5949735449735449,41,0.6486928104575163,0.0,0.0
+hasfirstname,henry walton,walton,"bibb, ""parent""), has_interagent_relationship_type_to(henry walton bibb, ""spouse""), has_interagent_relationship_type_to(henry walton bibb, ""child""), has_interagent_relationship_type_to(henry walton bibb, ""abolitionist""), has_interagent_relationship_type_to(henry walton bibb, ""enslaver or owner"")",33,0.5833333333333334,8,0.5413370998116761,0.0,0.5023287782256719
+hasfirstname,henry walton,is_relationship_to,agent,27,0.6203703703703703,35,0.6166666666666667,0.0,0.0
+hasfirstname,henry walton,is_relationship_to,mildred jackson,27,0.6203703703703703,37,0.5880952380952381,0.0,0.0
+hasfirstname,henry walton,is_relationship_to,senator james bibb,27,0.6203703703703703,33,0.5621693121693122,0.0,0.0
+hasfirstname,henry walton,is_relationship_to,malinda,27,0.6203703703703703,32,0.48412698412698413,0.0,0.0
+hasfirstname,henry walton,is_relationship_to,mary e. miles,27,0.6203703703703703,32,0.46709401709401704,0.0,0.0
+hasfirstname,henry walton,is_relationship_to,mary frances,27,0.6203703703703703,42,0.6111111111111112,0.0,0.0
+hasfirstname,henry walton,is_relationship_to,frederick douglass,27,0.6203703703703703,27,0.5,0.0,0.0
+hasfirstname,henry walton,is_relationship_to,william wells brown,27,0.6203703703703703,32,0.5553467000835423,0.0,0.0
+hasfirstname,henry walton,is_relationship_to,albert g. sibley,27,0.6203703703703703,29,0.4583333333333333,0.0,0.0
+hasfirstname,henry walton,walton,"bibb, ""mildred jackson""), is_relationship_to(henry walton bibb, ""senator james bibb""), is_relationship_to(henry walton bibb, ""malinda""), is_relationship_to(henry walton bibb, ""mary e. miles""), is_relationship_to(henry walton bibb, ""mary frances""), is_relationship_to(henry walton bibb, ""frederick douglass""), is_relationship_to(henry walton bibb, ""william wells brown""), is_relationship_to(henry walton bibb, ""albert g. sibley"").",33,0.5833333333333334,5,0.5093240093240093,0.0,0.5010561679544251
+hasfirstname,henry walton,role record,module:,17,0.44949494949494956,11,0.31746031746031744,0.0,0.0
+hasfirstname,henry walton,has_participant_role,participant_role_type,44,0.6962962962962962,24,0.48412698412698413,0.0,0.0
+hasfirstname,henry walton,has_participant_role,participant in the underground railroad,44,0.6962962962962962,31,0.5121082621082621,0.0,0.0
+hasfirstname,henry walton,walton,"bibb, ""participant in the underground railroad"").",33,0.5833333333333334,26,0.49640967498110355,0.0,0.0
+hasfirstname,henry walton,record,module:,22,0.4166666666666667,11,0.31746031746031744,0.0,0.0
+hasfirstname,henry walton,has_sex,sex_type,53,0.6349206349206349,20,0.4305555555555555,0.0,0.0
+hasfirstname,henry walton,has_sex,male,53,0.6349206349206349,25,0.4444444444444444,0.0,0.0
+hasfirstname,henry walton,walton,"bibb, ""male"").",33,0.5833333333333334,23,0.48809523809523814,0.0,0.0
+hasfirstname,henry walton,record,module:,22,0.4166666666666667,11,0.31746031746031744,0.0,0.0
+hasfirstname,henry walton,has_occupation,occupation,38,0.5873015873015873,36,0.5777777777777778,0.0,0.0
+hasfirstname,henry walton,has_occupation,slave,38,0.5873015873015873,12,0.35555555555555557,0.0,0.0
+hasfirstname,henry walton,has_occupation,author,38,0.5873015873015873,33,0.5,0.0,0.0
+hasfirstname,henry walton,has_occupation,abolitionist,38,0.5873015873015873,42,0.5555555555555555,0.0,0.0
+hasfirstname,henry walton,has_occupation,founder of the abolitionist newspaper 'voice of the fugitive,38,0.5873015873015873,22,0.5787878787878787,0.0,0.0
+hasfirstname,henry walton,walton,"bibb, ""slave, author, abolitionist, founder of the abolitionist newspaper 'voice of the fugitive'"").",33,0.5833333333333334,16,0.5111111111111111,0.0,0.0
+hasfirstname,henry walton,record,module:,22,0.4166666666666667,11,0.31746031746031744,0.0,0.0
+hasfirstname,henry walton,has_age,age,53,0.7972222222222223,13,0.47222222222222215,0.0,0.0
+hasfirstname,henry walton,has_age,39,53,0.7972222222222223,0,0.0,0.0,0.0
+hasfirstname,henry walton,walton,"bibb, 39)",33,0.5833333333333334,10,0.39814814814814814,0.0,0.0
+hasfirstname,henry walton,has_birthdate,date_of_birth,64,0.8324786324786324,24,0.38247863247863245,0.0,0.0
+hasfirstname,henry walton,has_birthdate,may 10,64,0.8324786324786324,22,0.5,0.0,0.0
+hasfirstname,henry walton,has_birthdate,1815,64,0.8324786324786324,0,0.0,0.0,0.0
+hasfirstname,henry walton,walton,"bibb, ""may 10, 1815"")",33,0.5833333333333334,12,0.3531746031746032,0.0,0.0
+hasfirstname,henry walton,has_deathdate,date_of_death,48,0.5982905982905983,24,0.46367521367521364,0.0,0.0
+hasfirstname,henry walton,has_deathdate,august 1,48,0.5982905982905983,20,0.3055555555555555,0.0,0.0
+hasfirstname,henry walton,has_deathdate,1854,48,0.5982905982905983,0,0.0,0.0,0.0
+hasfirstname,henry walton,walton,"bibb, ""august 1, 1854"").",33,0.5833333333333334,17,0.4583333333333333,0.0,0.0
+hasfirstname,henry walton,status record,module:,32,0.5427350427350427,11,0.31746031746031744,0.0,0.0
+hasfirstname,henry walton,has_person_status,enslaved person,48,0.6857298474945533,37,0.6357142857142857,0.0,0.0
+hasfirstname,henry walton,has_person_status,abolitionist,48,0.6857298474945533,42,0.5555555555555555,0.0,0.0
+hasfirstname,henry walton,walton,"bibb, ""enslaved person, abolitionist"")",33,0.5833333333333334,36,0.5423976608187134,0.0,0.0
+hasfirstname,henry walton,has_status_generating_event,event,41,0.5833333333333334,35,0.6166666666666667,0.0,0.0
+hasfirstname,henry walton,has_status_generating_event,sold away from family,41,0.5833333333333334,24,0.49603174603174605,0.0,0.0
+hasfirstname,henry walton,has_status_generating_event,hired out for wages,41,0.5833333333333334,39,0.5709064327485379,0.0,0.0
+hasfirstname,henry walton,has_status_generating_event,recaptured and enslaved again,41,0.5833333333333334,29,0.48084291187739464,0.0,0.0
+hasfirstname,henry walton,has_status_generating_event,sold to cherokees,41,0.5833333333333334,28,0.4395424836601307,0.0,0.0
+hasfirstname,henry walton,has_status_generating_event,escape from slavery around 1837,41,0.5833333333333334,33,0.5582437275985663,0.0,0.0
+hasfirstname,henry walton,away from,"family, hired out for wages, recaptured and enslaved again, sold to cherokees""), has_status_generating_event(abolitionist, ""escape from slavery around 1837"").",38,0.5925925925925926,12,0.5530942334739803,0.0,0.0
+hassurname,bibb,record,module:,25,0.4222222222222222,0,0.0,0.0,0.0
+hassurname,bibb,has_name,name,78,0.9008333333333334,0,0.0,0.0,0.0
+hassurname,bibb,has_name,henry walton bibb,78,0.9008333333333334,38,0.0,0.0,0.4494364165239821
+hassurname,bibb,walton,"bibb, ""henry walton bibb"")",25,0.5111111111111111,27,0.8307692307692308,0.0,0.7092972666062738
+hassurname,bibb,has_surname,surname,95,0.9787878787878788,0,0.0,0.0,0.0
+hassurname,bibb,has_surname,bibb,95,0.9787878787878788,100,1.0,0.0,1.0
+hassurname,bibb,walton,"bibb, ""bibb"")",25,0.5111111111111111,47,0.8615384615384615,0.0,1.0
+hassurname,bibb,has_first_name,first_name,67,0.8674074074074074,14,0.45,0.0,0.0
+hassurname,bibb,has_first_name,henry,67,0.8674074074074074,0,0.0,0.0,0.0
+hassurname,bibb,walton,"bibb, ""henry"").",25,0.5111111111111111,42,0.8533333333333333,0.0,0.5797386715376658
+hassurname,bibb,relationship record,module:,28,0.4543859649122807,0,0.0,0.0,0.0
+hassurname,bibb,has_interagent_relationship_type_to,relationship_type,31,0.5380952380952381,10,0.4362745098039216,0.0,0.0
+hassurname,bibb,has_interagent_relationship_type_to,parent,31,0.5380952380952381,0,0.0,0.0,0.0
+hassurname,bibb,has_interagent_relationship_type_to,spouse,31,0.5380952380952381,0,0.0,0.0,0.0
+hassurname,bibb,has_interagent_relationship_type_to,child,31,0.5380952380952381,22,0.48333333333333334,0.0,0.0
+hassurname,bibb,has_interagent_relationship_type_to,abolitionist,31,0.5380952380952381,25,0.5555555555555555,0.0,0.0
+hassurname,bibb,has_interagent_relationship_type_to,enslaver or owner,31,0.5380952380952381,0,0.0,0.0,0.0
+hassurname,bibb,walton,"bibb, ""parent""), has_interagent_relationship_type_to(henry walton bibb, ""spouse""), has_interagent_relationship_type_to(henry walton bibb, ""child""), has_interagent_relationship_type_to(henry walton bibb, ""abolitionist""), has_interagent_relationship_type_to(henry walton bibb, ""enslaver or owner"")",25,0.5111111111111111,3,0.6711864406779661,0.0,0.43251030421815223
+hassurname,bibb,is_relationship_to,agent,21,0.5333333333333333,0,0.0,0.0,0.0
+hassurname,bibb,is_relationship_to,mildred jackson,21,0.5333333333333333,11,0.4388888888888889,0.0,0.0
+hassurname,bibb,is_relationship_to,senator james bibb,21,0.5333333333333333,36,0.0,0.0,0.4494364165239821
+hassurname,bibb,is_relationship_to,malinda,21,0.5333333333333333,18,0.46428571428571425,0.0,0.0
+hassurname,bibb,is_relationship_to,mary e. miles,21,0.5333333333333333,12,0.0,0.0,0.0
+hassurname,bibb,is_relationship_to,mary frances,21,0.5333333333333333,0,0.0,0.0,0.0
+hassurname,bibb,is_relationship_to,frederick douglass,21,0.5333333333333333,9,0.4351851851851852,0.0,0.0
+hassurname,bibb,is_relationship_to,william wells brown,21,0.5333333333333333,17,0.43421052631578944,0.0,0.0
+hassurname,bibb,is_relationship_to,albert g. sibley,21,0.5333333333333333,30,0.4375,0.0,0.0
+hassurname,bibb,walton,"bibb, ""mildred jackson""), is_relationship_to(henry walton bibb, ""senator james bibb""), is_relationship_to(henry walton bibb, ""malinda""), is_relationship_to(henry walton bibb, ""mary e. miles""), is_relationship_to(henry walton bibb, ""mary frances""), is_relationship_to(henry walton bibb, ""frederick douglass""), is_relationship_to(henry walton bibb, ""william wells brown""), is_relationship_to(henry walton bibb, ""albert g. sibley"").",25,0.5111111111111111,2,0.6697746697746698,0.0,0.44615191111533686
+hassurname,bibb,role record,module:,19,0.46060606060606063,0,0.0,0.0,0.0
+hassurname,bibb,has_participant_role,participant_role_type,40,0.5777777777777778,8,0.43253968253968256,0.0,0.0
+hassurname,bibb,has_participant_role,participant in the underground railroad,40,0.5777777777777778,5,0.4252136752136752,0.0,0.0
+hassurname,bibb,walton,"bibb, ""participant in the underground railroad"").",25,0.5111111111111111,15,0.6938775510204082,0.0,0.3032160644503863
+hassurname,bibb,record,module:,25,0.4222222222222222,0,0.0,0.0,0.0
+hassurname,bibb,has_sex,sex_type,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,bibb,has_sex,male,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,bibb,walton,"bibb, ""male"").",25,0.5111111111111111,44,0.8571428571428571,0.0,0.5797386715376658
+hassurname,bibb,record,module:,25,0.4222222222222222,0,0.0,0.0,0.0
+hassurname,bibb,has_occupation,occupation,42,0.6190476190476191,14,0.0,0.0,0.0
+hassurname,bibb,has_occupation,slave,42,0.6190476190476191,0,0.0,0.0,0.0
+hassurname,bibb,has_occupation,author,42,0.6190476190476191,0,0.0,0.0,0.0
+hassurname,bibb,has_occupation,abolitionist,42,0.6190476190476191,25,0.5555555555555555,0.0,0.0
+hassurname,bibb,has_occupation,founder of the abolitionist newspaper 'voice of the fugitive,42,0.6190476190476191,6,0.5111111111111111,0.0,0.0
+hassurname,bibb,walton,"bibb, ""slave, author, abolitionist, founder of the abolitionist newspaper 'voice of the fugitive'"").",25,0.5111111111111111,8,0.68,0.0,0.16539439585841764
+hassurname,bibb,record,module:,25,0.4222222222222222,0,0.0,0.0,0.0
+hassurname,bibb,has_age,age,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,bibb,has_age,39,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,bibb,walton,"bibb, 39)",25,0.5111111111111111,62,0.888888888888889,0.0,0.5797386715376658
+hassurname,bibb,has_birthdate,date_of_birth,52,0.6871794871794871,24,0.4423076923076923,0.0,0.0
+hassurname,bibb,has_birthdate,may 10,52,0.6871794871794871,0,0.0,0.0,0.0
+hassurname,bibb,has_birthdate,1815,52,0.6871794871794871,0,0.0,0.0,0.0
+hassurname,bibb,walton,"bibb, ""may 10, 1815"")",25,0.5111111111111111,32,0.8380952380952381,0.0,0.3799783615910079
+hassurname,bibb,has_deathdate,date_of_death,43,0.5615384615384615,0,0.0,0.0,0.0
+hassurname,bibb,has_deathdate,august 1,43,0.5615384615384615,0,0.0,0.0,0.0
+hassurname,bibb,has_deathdate,1854,43,0.5615384615384615,0,0.0,0.0,0.0
+hassurname,bibb,walton,"bibb, ""august 1, 1854"").",25,0.5111111111111111,29,0.8333333333333334,0.0,0.4494364165239821
+hassurname,bibb,status record,module:,35,0.5760683760683761,0,0.0,0.0,0.0
+hassurname,bibb,has_person_status,enslaved person,44,0.6735294117647058,0,0.0,0.0,0.0
+hassurname,bibb,has_person_status,abolitionist,44,0.6735294117647058,25,0.5555555555555555,0.0,0.0
+hassurname,bibb,walton,"bibb, ""enslaved person, abolitionist"")",25,0.5111111111111111,19,0.8210526315789474,0.0,0.3799783615910079
+hassurname,bibb,has_status_generating_event,event,43,0.6703703703703704,0,0.0,0.0,0.0
+hassurname,bibb,has_status_generating_event,sold away from family,43,0.6703703703703704,8,0.0,0.0,0.0
+hassurname,bibb,has_status_generating_event,hired out for wages,43,0.6703703703703704,9,0.43421052631578944,0.0,0.0
+hassurname,bibb,has_status_generating_event,recaptured and enslaved again,43,0.6703703703703704,6,0.0,0.0,0.0
+hassurname,bibb,has_status_generating_event,sold to cherokees,43,0.6703703703703704,0,0.0,0.0,0.0
+hassurname,bibb,has_status_generating_event,escape from slavery around 1837,43,0.6703703703703704,0,0.0,0.0,0.0
+hassurname,bibb,away from,"family, hired out for wages, recaptured and enslaved again, sold to cherokees""), has_status_generating_event(abolitionist, ""escape from slavery around 1837"").",32,0.5444444444444444,2,0.41877637130801687,0.0,0.0
+hasname,henry walton bibb,record,module:,15,0.0,8,0.3011204481792717,0.0,0.0
+hasname,henry walton bibb,has_name,name,93,0.9708333333333333,19,0.5310457516339869,0.0,0.0
+hasname,henry walton bibb,has_name,henry walton bibb,93,0.9708333333333333,100,1.0,0.0,1.0000000000000002
+hasname,henry walton bibb,walton,"bibb, ""henry walton bibb"")",31,0.5396825396825397,79,0.7277526395173454,0.0,0.9428090415820636
+hasname,henry walton bibb,has_surname,surname,78,0.9151515151515152,17,0.5189075630252101,0.0,0.0
+hasname,henry walton bibb,has_surname,bibb,78,0.9151515151515152,38,0.0,0.0,0.4494364165239821
+hasname,henry walton bibb,walton,"bibb, ""bibb"")",31,0.5396825396825397,33,0.5595776772247361,0.0,0.4494364165239821
+hasname,henry walton bibb,has_first_name,first_name,67,0.5476190476190476,22,0.3784313725490196,0.0,0.0
+hasname,henry walton bibb,has_first_name,henry,67,0.5476190476190476,45,0.8588235294117647,0.0,0.44943641652398214
+hasname,henry walton bibb,walton,"bibb, ""henry"").",31,0.5396825396825397,31,0.4176470588235294,0.0,0.7092972666062739
+hasname,henry walton bibb,relationship record,module:,23,0.5106516290726817,8,0.3011204481792717,0.0,0.0
+hasname,henry walton bibb,has_interagent_relationship_type_to,relationship_type,29,0.6206349206349207,35,0.5220588235294118,0.0,0.0
+hasname,henry walton bibb,has_interagent_relationship_type_to,parent,29,0.6206349206349207,26,0.5758169934640524,0.0,0.0
+hasname,henry walton bibb,has_interagent_relationship_type_to,spouse,29,0.6206349206349207,9,0.40849673202614384,0.0,0.0
+hasname,henry walton bibb,has_interagent_relationship_type_to,child,29,0.6206349206349207,18,0.5058823529411764,0.0,0.0
+hasname,henry walton bibb,has_interagent_relationship_type_to,abolitionist,29,0.6206349206349207,41,0.5065359477124183,0.0,0.0
+hasname,henry walton bibb,has_interagent_relationship_type_to,enslaver or owner,29,0.6206349206349207,35,0.592156862745098,0.0,0.0
+hasname,henry walton bibb,walton,"bibb, ""parent""), has_interagent_relationship_type_to(henry walton bibb, ""spouse""), has_interagent_relationship_type_to(henry walton bibb, ""child""), has_interagent_relationship_type_to(henry walton bibb, ""abolitionist""), has_interagent_relationship_type_to(henry walton bibb, ""enslaver or owner"")",31,0.5396825396825397,11,0.5290129611166501,0.0,0.7415894488700532
+hasname,henry walton bibb,is_relationship_to,agent,16,0.43121693121693117,27,0.5950980392156863,0.0,0.0
+hasname,henry walton bibb,is_relationship_to,mildred jackson,16,0.43121693121693117,31,0.530905695611578,0.0,0.0
+hasname,henry walton bibb,is_relationship_to,senator james bibb,16,0.43121693121693117,57,0.7352941176470589,0.0,0.20199309249791833
+hasname,henry walton bibb,is_relationship_to,malinda,16,0.43121693121693117,25,0.4239028944911298,0.0,0.0
+hasname,henry walton bibb,is_relationship_to,mary e. miles,16,0.43121693121693117,33,0.6119909502262444,0.0,0.0
+hasname,henry walton bibb,is_relationship_to,mary frances,16,0.43121693121693117,34,0.50359477124183,0.0,0.0
+hasname,henry walton bibb,is_relationship_to,frederick douglass,16,0.43121693121693117,23,0.45736072206660444,0.0,0.0
+hasname,henry walton bibb,is_relationship_to,william wells brown,16,0.43121693121693117,28,0.5195505102625846,0.0,0.0
+hasname,henry walton bibb,is_relationship_to,albert g. sibley,16,0.43121693121693117,36,0.5491557734204793,0.0,0.0
+hasname,henry walton bibb,walton,"bibb, ""mildred jackson""), is_relationship_to(henry walton bibb, ""senator james bibb""), is_relationship_to(henry walton bibb, ""malinda""), is_relationship_to(henry walton bibb, ""mary e. miles""), is_relationship_to(henry walton bibb, ""mary frances""), is_relationship_to(henry walton bibb, ""frederick douglass""), is_relationship_to(henry walton bibb, ""william wells brown""), is_relationship_to(henry walton bibb, ""albert g. sibley"").",31,0.5396825396825397,8,0.5426207779148956,0.0,0.7525661633847032
+hasname,henry walton bibb,role record,module:,11,0.41125541125541126,8,0.3011204481792717,0.0,0.0
+hasname,henry walton bibb,has_participant_role,participant_role_type,37,0.5904761904761905,21,0.48646125116713357,0.0,0.0
+hasname,henry walton bibb,has_participant_role,participant in the underground railroad,37,0.5904761904761905,29,0.49152155034507977,0.0,0.0
+hasname,henry walton bibb,walton,"bibb, ""participant in the underground railroad"").",31,0.5396825396825397,24,0.5840336134453782,0.0,0.13627634143908643
+hasname,henry walton bibb,record,module:,15,0.0,8,0.3011204481792717,0.0,0.0
+hasname,henry walton bibb,has_sex,sex_type,57,0.8,16,0.406045751633987,0.0,0.0
+hasname,henry walton bibb,has_sex,male,57,0.8,19,0.5310457516339869,0.0,0.0
+hasname,henry walton bibb,walton,"bibb, ""male"").",31,0.5396825396825397,26,0.46358543417366943,0.0,0.26055567105626243
+hasname,henry walton bibb,record,module:,15,0.0,8,0.3011204481792717,0.0,0.0
+hasname,henry walton bibb,has_occupation,occupation,38,0.6190476190476191,30,0.46470588235294114,0.0,0.0
+hasname,henry walton bibb,has_occupation,slave,38,0.6190476190476191,9,0.48104575163398694,0.0,0.0
+hasname,henry walton bibb,has_occupation,author,38,0.6190476190476191,26,0.5758169934640524,0.0,0.0
+hasname,henry walton bibb,has_occupation,abolitionist,38,0.6190476190476191,41,0.5065359477124183,0.0,0.0
+hasname,henry walton bibb,has_occupation,founder of the abolitionist newspaper 'voice of the fugitive,38,0.6190476190476191,26,0.5427637721755368,0.0,0.0
+hasname,henry walton bibb,walton,"bibb, ""slave, author, abolitionist, founder of the abolitionist newspaper 'voice of the fugitive'"").",31,0.5396825396825397,19,0.5218954248366012,0.0,0.07433426458775617
+hasname,henry walton bibb,record,module:,15,0.0,8,0.3011204481792717,0.0,0.0
+hasname,henry walton bibb,has_age,age,71,0.8666666666666668,10,0.42810457516339867,0.0,0.0
+hasname,henry walton bibb,has_age,39,71,0.8666666666666668,0,0.0,0.0,0.0
+hasname,henry walton bibb,walton,"bibb, 39)",31,0.5396825396825397,31,0.3899782135076253,0.0,0.2605556710562624
+hasname,henry walton bibb,has_birthdate,date_of_birth,50,0.553113553113553,33,0.5072182719241543,0.0,0.0
+hasname,henry walton bibb,has_birthdate,may 10,50,0.553113553113553,17,0.4477124183006536,0.0,0.0
+hasname,henry walton bibb,has_birthdate,1815,50,0.553113553113553,0,0.0,0.0,0.0
+hasname,henry walton bibb,walton,"bibb, ""may 10, 1815"")",31,0.5396825396825397,21,0.3919234360410831,0.0,0.17077611319011649
+hasname,henry walton bibb,has_deathdate,date_of_death,50,0.632967032967033,20,0.4309954751131222,0.0,0.0
+hasname,henry walton bibb,has_deathdate,august 1,50,0.632967032967033,24,0.406045751633987,0.0,0.0
+hasname,henry walton bibb,has_deathdate,1854,50,0.632967032967033,0,0.0,0.0,0.0
+hasname,henry walton bibb,walton,"bibb, ""august 1, 1854"").",31,0.5396825396825397,20,0.367483660130719,0.0,0.20199309249791833
+hasname,henry walton bibb,status record,module:,30,0.442002442002442,8,0.3011204481792717,0.0,0.0
+hasname,henry walton bibb,has_person_status,enslaved person,42,0.6028011204481792,31,0.5785247432306256,0.0,0.0
+hasname,henry walton bibb,has_person_status,abolitionist,42,0.6028011204481792,41,0.5065359477124183,0.0,0.0
+hasname,henry walton bibb,walton,"bibb, ""enslaved person, abolitionist"")",31,0.5396825396825397,36,0.5484242279907914,0.0,0.1707761131901165
+hasname,henry walton bibb,has_status_generating_event,event,35,0.6375661375661376,27,0.592156862745098,0.0,0.0
+hasname,henry walton bibb,has_status_generating_event,sold away from family,35,0.6375661375661376,32,0.5415499533146592,0.0,0.0
+hasname,henry walton bibb,has_status_generating_event,hired out for wages,35,0.6375661375661376,33,0.5565875472996216,0.0,0.0
+hasname,henry walton bibb,has_status_generating_event,recaptured and enslaved again,35,0.6375661375661376,30,0.5110209601081812,0.0,0.0
+hasname,henry walton bibb,has_status_generating_event,sold to cherokees,35,0.6375661375661376,24,0.46274509803921565,0.0,0.0
+hasname,henry walton bibb,has_status_generating_event,escape from slavery around 1837,35,0.6375661375661376,33,0.45842996696886645,0.0,0.0
+hasname,henry walton bibb,away from,"family, hired out for wages, recaptured and enslaved again, sold to cherokees""), has_status_generating_event(abolitionist, ""escape from slavery around 1837"").",38,0.5873015873015873,14,0.47071233556713826,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",record,module:,30,0.48412698412698413,4,0.4597069597069597,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_name,name,36,0.5952380952380952,3,0.5882173382173382,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_name,henry walton bibb,36,0.5952380952380952,11,0.550168785462903,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",walton,"bibb, ""henry walton bibb"")",40,0.41269841269841273,13,0.49073149073149075,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_surname,surname,48,0.6168831168831169,5,0.57997557997558,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_surname,bibb,48,0.6168831168831169,3,0.5882173382173382,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",walton,"bibb, ""bibb"")",40,0.41269841269841273,7,0.501017501017501,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_first_name,first_name,43,0.6726190476190476,6,0.5332112332112332,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_first_name,henry,43,0.6726190476190476,4,0.5394383394383394,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",walton,"bibb, ""henry"").",40,0.41269841269841273,8,0.4757631257631258,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",relationship record,module:,30,0.6135338345864662,4,0.4597069597069597,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_interagent_relationship_type_to,relationship_type,37,0.5666666666666667,10,0.49021044315161966,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_interagent_relationship_type_to,parent,37,0.5666666666666667,4,0.5073260073260073,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_interagent_relationship_type_to,spouse,37,0.5666666666666667,4,0.5073260073260073,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_interagent_relationship_type_to,child,37,0.5666666666666667,4,0.5394383394383394,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_interagent_relationship_type_to,abolitionist,37,0.5666666666666667,8,0.5424297924297924,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_interagent_relationship_type_to,enslaver or owner,37,0.5666666666666667,12,0.5305609423256482,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",walton,"bibb, ""parent""), has_interagent_relationship_type_to(henry walton bibb, ""spouse""), has_interagent_relationship_type_to(henry walton bibb, ""child""), has_interagent_relationship_type_to(henry walton bibb, ""abolitionist""), has_interagent_relationship_type_to(henry walton bibb, ""enslaver or owner"")",40,0.41269841269841273,34,0.6214448451736587,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",is_relationship_to,agent,44,0.6474266474266474,4,0.5394383394383394,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",is_relationship_to,mildred jackson,44,0.6474266474266474,10,0.4842490842490843,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",is_relationship_to,senator james bibb,44,0.6474266474266474,12,0.5120424238071296,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",is_relationship_to,malinda,44,0.6474266474266474,5,0.5323565323565324,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",is_relationship_to,mary e. miles,44,0.6474266474266474,8,0.5286935286935287,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",is_relationship_to,mary frances,44,0.6474266474266474,8,0.5146520146520147,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",is_relationship_to,frederick douglass,44,0.6474266474266474,11,0.5120424238071296,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",is_relationship_to,william wells brown,44,0.6474266474266474,11,0.4954732230274026,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",is_relationship_to,albert g. sibley,44,0.6474266474266474,10,0.5612026862026862,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",walton,"bibb, ""mildred jackson""), is_relationship_to(henry walton bibb, ""senator james bibb""), is_relationship_to(henry walton bibb, ""malinda""), is_relationship_to(henry walton bibb, ""mary e. miles""), is_relationship_to(henry walton bibb, ""mary frances""), is_relationship_to(henry walton bibb, ""frederick douglass""), is_relationship_to(henry walton bibb, ""william wells brown""), is_relationship_to(henry walton bibb, ""albert g. sibley"").",40,0.41269841269841273,36,0.6353690169479643,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",role record,module:,24,0.46645021645021645,4,0.4597069597069597,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_participant_role,participant_role_type,47,0.6876623376623376,11,0.46706887883358467,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_participant_role,participant in the underground railroad,47,0.6876623376623376,21,0.5641668273247221,0.0,0.1726302481240315
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",walton,"bibb, ""participant in the underground railroad"").",40,0.41269841269841273,23,0.5388452817024246,0.0,0.15445326539833415
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",record,module:,30,0.48412698412698413,4,0.4597069597069597,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_sex,sex_type,38,0.6238095238095238,4,0.423992673992674,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_sex,male,38,0.6238095238095238,3,0.5048840048840049,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",walton,"bibb, ""male"").",40,0.41269841269841273,7,0.4571539571539571,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",record,module:,30,0.48412698412698413,4,0.4597069597069597,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_occupation,occupation,64,0.8074074074074075,7,0.5455433455433455,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_occupation,slave,64,0.8074074074074075,4,0.5394383394383394,0.0,0.0922356180913893
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_occupation,author,64,0.8074074074074075,4,0.5073260073260073,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_occupation,abolitionist,64,0.8074074074074075,8,0.5424297924297924,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_occupation,founder of the abolitionist newspaper 'voice of the fugitive,64,0.8074074074074075,31,0.5769483390173046,0.0,0.3241954200260254
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",walton,"bibb, ""slave, author, abolitionist, founder of the abolitionist newspaper 'voice of the fugitive'"").",40,0.41269841269841273,36,0.596535010882837,0.0,0.27043557639986704
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",record,module:,30,0.48412698412698413,4,0.4597069597069597,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_age,age,38,0.6190476190476191,2,0.5592185592185591,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_age,39,38,0.6190476190476191,1,0.5012210012210012,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",walton,"bibb, 39)",40,0.41269841269841273,4,0.5059015059015058,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_birthdate,date_of_birth,37,0.6318681318681318,8,0.5076035076035076,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_birthdate,may 10,37,0.6318681318681318,4,0.5628815628815628,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_birthdate,1815,37,0.6318681318681318,2,0.5882173382173382,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",walton,"bibb, ""may 10, 1815"")",40,0.41269841269841273,8,0.4610042735042735,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_deathdate,date_of_death,44,0.63003663003663,8,0.5076035076035076,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_deathdate,august 1,44,0.63003663003663,5,0.5097680097680097,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_deathdate,1854,44,0.63003663003663,2,0.586996336996337,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",walton,"bibb, ""august 1, 1854"").",40,0.41269841269841273,10,0.480070368228263,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",status record,module:,37,0.5366300366300366,4,0.4597069597069597,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_person_status,enslaved person,45,0.6675070028011204,10,0.5294261294261294,0.0,0.05347255470075753
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_person_status,abolitionist,45,0.6675070028011204,8,0.5424297924297924,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",walton,"bibb, ""enslaved person, abolitionist"")",40,0.41269841269841273,19,0.5260341653530508,0.0,0.035047539042700034
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_status_generating_event,event,39,0.5476190476190476,4,0.5394383394383394,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_status_generating_event,sold away from family,39,0.5476190476190476,12,0.5653235653235653,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_status_generating_event,hired out for wages,39,0.5476190476190476,12,0.5319709530235847,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_status_generating_event,recaptured and enslaved again,39,0.5476190476190476,18,0.541156161845817,0.0,0.11536303372523767
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_status_generating_event,sold to cherokees,39,0.5476190476190476,11,0.49992817639876463,0.0,0.08395966598126195
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",has_status_generating_event,escape from slavery around 1837,39,0.5476190476190476,17,0.5369884595691047,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. became an antislavery lecturer and autobiography writer who, after moving to canada in 1850 because of the fugitive slave law, established a journal called the voice of the fugitive and hoped to establish a black colony in canada.",away from,"family, hired out for wages, recaptured and enslaved again, sold to cherokees""), has_status_generating_event(abolitionist, ""escape from slavery around 1837"").",26,0.5158730158730158,36,0.6513639883224479,0.0,0.0811357555378238

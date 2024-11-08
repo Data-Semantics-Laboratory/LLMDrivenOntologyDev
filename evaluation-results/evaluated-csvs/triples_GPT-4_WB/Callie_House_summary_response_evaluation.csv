@@ -1,0 +1,518 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,callie house,32,0.537878787878788,22,0.5,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,callie,40,0.5692640692640693,17,0.0,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,relationship_type,30,0.5269480519480519,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,travel companion,30,0.5269480519480519,27,0.5555555555555555,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,isaiah h. dickerson,34,0.5798460798460798,40,0.4064327485380117,0.0,0.0
+instance of,person,role record,module:,27,0.49242424242424243,15,0.0,0.0,0.0
+instance of,person,has_participant_role,participant_role_type,32,0.5668831168831169,22,0.5357142857142857,0.0,0.0
+instance of,person,has_participant_role,leader,32,0.5668831168831169,33,0.4444444444444444,0.0,0.0
+instance of,person,has_participant_role,lawsuit participant,32,0.5668831168831169,24,0.44152046783625726,0.0,0.0
+instance of,person,role_provided_by,event,15,0.4356060606060606,36,0.5777777777777778,0.0,0.0
+instance of,person,role_provided_by,national ex-slave mutual relief,15,0.4356060606060606,11,0.4318996415770609,0.0,0.0
+instance of,person,role_provided_by,bounty and pension association,15,0.4356060606060606,28,0.5333333333333333,0.0,0.0
+instance of,person,role_provided_by,class-action lawsuit against the u.s. treasury department,15,0.4356060606060606,13,0.5175438596491228,0.0,0.0
+instance of,person,mutual,"relief, bounty and pension association""), role_provided_by(lawsuit participant, ""class-action lawsuit against the u.s. treasury department"").",24,0.5050505050505051,8,0.5697399527186762,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,female,22,0.45598845598845594,17,0.4444444444444444,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,slave,24,0.38311688311688313,18,0.0,0.0,0.0
+instance of,person,has_occupation,washerwoman,24,0.38311688311688313,47,0.5934343434343434,0.0,0.0
+instance of,person,has_occupation,leader of an organization campaigning for reparations for slavery,24,0.38311688311688313,14,0.5034188034188034,0.0,0.0
+instance of,person,of an organization campaigning for reparations for,"slavery"").",23,0.554949494949495,25,0.48888888888888893,0.1414305679255449,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_age,67,33,0.45598845598845594,0,0.0,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_birthdate,1861,33,0.5463869463869464,0,0.0,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,1928,33,0.39044289044289043,0,0.0,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,enslaved person,29,0.449554367201426,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,has_person_status,leader of reparations movement,29,0.449554367201426,28,0.5333333333333333,0.0,0.0
+instance of,person,has_person_status,prisoner,29,0.449554367201426,71,0.8375000000000001,0.0,0.0
+instance of,person,has_person_status,recognized by vanderbilt university,29,0.449554367201426,15,0.5103174603174603,0.0,0.0
+instance of,person,of reparations,"movement""), has_person_status(callie house, ""prisoner""), has_person_status(callie house, ""recognized by vanderbilt university"")",24,0.47056277056277057,9,0.5713035870516184,0.33609692727625756,0.0
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,birth,26,0.4799102132435466,18,0.45555555555555555,0.0,0.0
+instance of,person,has_status_generating_event,leadership in the reparations movement,26,0.4799102132435466,27,0.5216374269005848,0.0,0.0
+instance of,person,has_status_generating_event,unjust imprisonment in 1916,26,0.4799102132435466,30,0.5395061728395062,0.0,0.0
+instance of,person,has_status_generating_event,posthumous recognition by vanderbilt university in 2015,26,0.4799102132435466,16,0.591919191919192,0.0,0.0
+instance of,person,of reparations,"movement, ""leadership in the reparations movement""), has_status_generating_event(prisoner, ""unjust imprisonment in 1916""), has_status_generating_event(recognized by vanderbilt university, ""posthumous recognition by vanderbilt university in 2015"").",24,0.47056277056277057,5,0.5636527215474584,0.33609692727625756,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_name,name,57,0.8055555555555556,40,0.6388888888888888,0.0,0.0
+hassex,female,has_name,callie house,57,0.8055555555555556,33,0.47222222222222215,0.0,0.0
+hassex,female,has_first_name,first_name,50,0.6507936507936508,38,0.6,0.0,0.0
+hassex,female,has_first_name,callie,50,0.6507936507936508,50,0.6666666666666666,0.0,0.0
+hassex,female,relationship record,module:,24,0.44152046783625726,46,0.6428571428571429,0.0,0.0
+hassex,female,has_interagent_relationship_type_to,relationship_type,24,0.5936507936507937,26,0.4477124183006536,0.0,0.0
+hassex,female,has_interagent_relationship_type_to,travel companion,24,0.5936507936507937,27,0.47222222222222215,0.0,0.0
+hassex,female,is_relationship_to,agent,17,0.46296296296296297,36,0.45555555555555555,0.0,0.0
+hassex,female,is_relationship_to,isaiah h. dickerson,17,0.46296296296296297,16,0.4064327485380117,0.0,0.0
+hassex,female,role record,module:,12,0.41919191919191917,46,0.6428571428571429,0.0,0.0
+hassex,female,has_participant_role,participant_role_type,31,0.5499999999999999,22,0.4047619047619047,0.0,0.0
+hassex,female,has_participant_role,leader,31,0.5499999999999999,50,0.6666666666666666,0.0,0.0
+hassex,female,has_participant_role,lawsuit participant,31,0.5499999999999999,8,0.3128654970760234,0.0,0.0
+hassex,female,role_provided_by,event,9,0.40972222222222227,36,0.45555555555555555,0.0,0.0
+hassex,female,role_provided_by,national ex-slave mutual relief,9,0.40972222222222227,27,0.5152329749103942,0.0,0.0
+hassex,female,role_provided_by,bounty and pension association,9,0.40972222222222227,11,0.3,0.0,0.0
+hassex,female,role_provided_by,class-action lawsuit against the u.s. treasury department,9,0.40972222222222227,10,0.4064327485380117,0.0,0.0
+hassex,female,mutual,"relief, bounty and pension association""), role_provided_by(lawsuit participant, ""class-action lawsuit against the u.s. treasury department"").",17,0.0,7,0.48959810874704496,0.0,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_sex,sex_type,92,0.9666666666666667,29,0.5277777777777778,0.0,0.0
+hassex,female,has_sex,female,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_occupation,occupation,30,0.5714285714285715,12,0.4222222222222222,0.0,0.0
+hassex,female,has_occupation,slave,30,0.5714285714285715,36,0.5777777777777778,0.0,0.0
+hassex,female,has_occupation,washerwoman,30,0.5714285714285715,35,0.3383838383838384,0.0,0.0
+hassex,female,has_occupation,leader of an organization campaigning for reparations for slavery,30,0.5714285714285715,14,0.5863247863247864,0.0,0.0
+hassex,female,of an organization campaigning for reparations for,"slavery"").",7,0.3955555555555555,25,0.48888888888888893,0.0,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_age,age,62,0.8222222222222222,44,0.5,0.0,0.0
+hassex,female,has_age,67,62,0.8222222222222222,0,0.0,0.0,0.0
+hassex,female,has_birthdate,date_of_birth,42,0.576923076923077,21,0.32905982905982906,0.0,0.0
+hassex,female,has_birthdate,1861,42,0.576923076923077,0,0.0,0.0,0.0
+hassex,female,has_deathdate,date_of_death,42,0.6581196581196581,32,0.46581196581196577,0.0,0.0
+hassex,female,has_deathdate,1928,42,0.6581196581196581,0,0.0,0.0,0.0
+hassex,female,status record,module:,32,0.5747863247863249,46,0.6428571428571429,0.0,0.0
+hassex,female,has_person_status,enslaved person,35,0.642483660130719,29,0.5611111111111111,0.0,0.0
+hassex,female,has_person_status,leader of reparations movement,35,0.642483660130719,22,0.6,0.0,0.0
+hassex,female,has_person_status,prisoner,35,0.642483660130719,14,0.4305555555555555,0.0,0.0
+hassex,female,has_person_status,recognized by vanderbilt university,35,0.642483660130719,20,0.4174603174603175,0.0,0.0
+hassex,female,of reparations,"movement""), has_person_status(callie house, ""prisoner""), has_person_status(callie house, ""recognized by vanderbilt university"")",20,0.3253968253968254,8,0.4909011373578303,0.0,0.0
+hassex,female,has_status_generating_event,event,30,0.6728395061728395,36,0.45555555555555555,0.0,0.0
+hassex,female,has_status_generating_event,birth,30,0.6728395061728395,0,0.0,0.0,0.0
+hassex,female,has_status_generating_event,leadership in the reparations movement,30,0.6728395061728395,14,0.5073099415204678,0.0,0.0
+hassex,female,has_status_generating_event,unjust imprisonment in 1916,30,0.6728395061728395,12,0.46913580246913583,0.0,0.0
+hassex,female,has_status_generating_event,posthumous recognition by vanderbilt university in 2015,30,0.6728395061728395,13,0.49646464646464644,0.0,0.0
+hassex,female,of reparations,"movement, ""leadership in the reparations movement""), has_status_generating_event(prisoner, ""unjust imprisonment in 1916""), has_status_generating_event(recognized by vanderbilt university, ""posthumous recognition by vanderbilt university in 2015"").",20,0.3253968253968254,4,0.4845254161043635,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,callie house,38,0.5675925925925926,24,0.5055555555555555,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,callie,44,0.6772486772486772,36,0.5888888888888889,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,travel companion,42,0.6570105820105819,19,0.3416666666666666,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,isaiah h. dickerson,44,0.6037037037037037,17,0.47485380116959064,0.0,0.0
+hasparticipantrole,child,role record,module:,28,0.4452861952861953,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant_role_type,95,0.9766666666666667,23,0.33174603174603173,0.0,0.0
+hasparticipantrole,child,has_participant_role,leader,95,0.9766666666666667,36,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,has_participant_role,lawsuit participant,95,0.9766666666666667,17,0.3350877192982456,0.0,0.0
+hasparticipantrole,child,role_provided_by,event,29,0.4583333333333333,0,0.0,0.0,0.0
+hasparticipantrole,child,role_provided_by,national ex-slave mutual relief,29,0.4583333333333333,11,0.48817204301075273,0.0,0.0
+hasparticipantrole,child,role_provided_by,bounty and pension association,29,0.4583333333333333,11,0.32222222222222224,0.0,0.0
+hasparticipantrole,child,role_provided_by,class-action lawsuit against the u.s. treasury department,29,0.4583333333333333,13,0.4397660818713451,0.0,0.0
+hasparticipantrole,child,mutual,"relief, bounty and pension association""), role_provided_by(lawsuit participant, ""class-action lawsuit against the u.s. treasury department"").",25,0.3148148148148148,5,0.5261229314420804,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,female,32,0.5317460317460317,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,slave,50,0.6566137566137565,20,0.0,0.0,0.0
+hasparticipantrole,child,has_occupation,washerwoman,50,0.6566137566137565,12,0.43030303030303035,0.0,0.0
+hasparticipantrole,child,has_occupation,leader of an organization campaigning for reparations for slavery,50,0.6566137566137565,9,0.45384615384615384,0.0,0.0
+hasparticipantrole,child,of an organization campaigning for reparations for,"slavery"").",29,0.5325356125356125,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_age,age,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_age,67,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_birthdate,date_of_birth,52,0.6937321937321936,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_birthdate,1861,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,child,has_deathdate,date_of_death,52,0.6866096866096866,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_deathdate,1928,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,enslaved person,46,0.6479302832244008,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,child,has_person_status,leader of reparations movement,46,0.6479302832244008,11,0.48888888888888893,0.0,0.0
+hasparticipantrole,child,has_person_status,prisoner,46,0.6479302832244008,15,0.44166666666666665,0.0,0.0
+hasparticipantrole,child,has_person_status,recognized by vanderbilt university,46,0.6479302832244008,15,0.5619047619047619,0.0,0.0
+hasparticipantrole,child,of reparations,"movement""), has_person_status(callie house, ""prisoner""), has_person_status(callie house, ""recognized by vanderbilt university"")",38,0.6031746031746031,8,0.44383202099737534,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,birth,40,0.5819304152637487,20,0.4666666666666666,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,leadership in the reparations movement,40,0.5819304152637487,9,0.468421052631579,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,unjust imprisonment in 1916,40,0.5819304152637487,6,0.41234567901234565,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,posthumous recognition by vanderbilt university in 2015,40,0.5819304152637487,10,0.5409090909090909,0.0,0.0
+hasparticipantrole,child,of reparations,"movement, ""leadership in the reparations movement""), has_status_generating_event(prisoner, ""unjust imprisonment in 1916""), has_status_generating_event(recognized by vanderbilt university, ""posthumous recognition by vanderbilt university in 2015"").",38,0.6031746031746031,3,0.4387314439946019,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,callie house,38,0.5675925925925926,37,0.5404761904761904,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,callie,44,0.6772486772486772,29,0.45555555555555555,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,travel companion,42,0.6570105820105819,39,0.49186507936507934,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,isaiah h. dickerson,44,0.6037037037037037,41,0.6171539961013646,0.0,0.0
+hasparticipantrole,deceased person,role record,module:,28,0.4452861952861953,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant_role_type,95,0.9766666666666667,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,leader,95,0.9766666666666667,48,0.5888888888888889,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,lawsuit participant,95,0.9766666666666667,35,0.5719298245614035,0.0,0.0
+hasparticipantrole,deceased person,role_provided_by,event,29,0.4583333333333333,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,role_provided_by,national ex-slave mutual relief,29,0.4583333333333333,22,0.43046594982078856,0.0,0.0
+hasparticipantrole,deceased person,role_provided_by,bounty and pension association,29,0.4583333333333333,36,0.48518518518518516,0.0,0.0
+hasparticipantrole,deceased person,role_provided_by,class-action lawsuit against the u.s. treasury department,29,0.4583333333333333,22,0.4745614035087719,0.0,0.0
+hasparticipantrole,deceased person,mutual,"relief, bounty and pension association""), role_provided_by(lawsuit participant, ""class-action lawsuit against the u.s. treasury department"").",25,0.3148148148148148,15,0.5687943262411347,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,female,32,0.5317460317460317,29,0.45555555555555555,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,slave,50,0.6566137566137565,20,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,washerwoman,50,0.6566137566137565,46,0.592929292929293,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,leader of an organization campaigning for reparations for slavery,50,0.6566137566137565,22,0.47350427350427343,0.0,0.0
+hasparticipantrole,deceased person,of an organization campaigning for reparations for,"slavery"").",29,0.5325356125356125,24,0.47222222222222227,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_age,age,40,0.5978835978835978,22,0.4333333333333333,0.0,0.0
+hasparticipantrole,deceased person,has_age,67,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,date_of_birth,52,0.6937321937321936,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,1861,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,date_of_death,52,0.6866096866096866,36,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,1928,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,enslaved person,46,0.6479302832244008,73,0.7833333333333333,0.0,0.33609692727625756
+hasparticipantrole,deceased person,has_person_status,leader of reparations movement,46,0.6479302832244008,40,0.5484848484848485,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,prisoner,46,0.6479302832244008,43,0.4138888888888889,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,recognized by vanderbilt university,46,0.6479302832244008,36,0.5916305916305916,0.0,0.0
+hasparticipantrole,deceased person,of reparations,"movement""), has_person_status(callie house, ""prisoner""), has_person_status(callie house, ""recognized by vanderbilt university"")",38,0.6031746031746031,17,0.5537788545662562,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,birth,40,0.5819304152637487,10,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,leadership in the reparations movement,40,0.5819304152637487,38,0.5824111560953665,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,unjust imprisonment in 1916,40,0.5819304152637487,33,0.4848765432098765,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,posthumous recognition by vanderbilt university in 2015,40,0.5819304152637487,26,0.5338383838383839,0.0,0.0
+hasparticipantrole,deceased person,of reparations,"movement, ""leadership in the reparations movement""), has_status_generating_event(prisoner, ""unjust imprisonment in 1916""), has_status_generating_event(recognized by vanderbilt university, ""posthumous recognition by vanderbilt university in 2015"").",38,0.6031746031746031,10,0.5628430049482681,0.0,0.0
+hasdescriptiveoccupation,seamstress,record,module:,27,0.6138888888888889,24,0.32857142857142857,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_name,name,25,0.5555555555555555,43,0.5722222222222223,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_name,callie house,25,0.5555555555555555,27,0.41111111111111115,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_first_name,first_name,32,0.5615079365079364,40,0.5166666666666667,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_first_name,callie,32,0.5615079365079364,25,0.3444444444444444,0.0,0.0
+hasdescriptiveoccupation,seamstress,relationship record,module:,33,0.6137539361223572,24,0.32857142857142857,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,37,0.46470588235294114,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_interagent_relationship_type_to,travel companion,41,0.6037698412698412,23,0.4708333333333334,0.0,0.0
+hasdescriptiveoccupation,seamstress,is_relationship_to,agent,38,0.6264245014245015,27,0.5222222222222221,0.0,0.0
+hasdescriptiveoccupation,seamstress,is_relationship_to,isaiah h. dickerson,38,0.6264245014245015,28,0.5368421052631579,0.0,0.0
+hasdescriptiveoccupation,seamstress,role record,module:,29,0.4873737373737373,24,0.32857142857142857,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_participant_role,participant_role_type,50,0.6805555555555555,26,0.44682539682539685,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_participant_role,leader,50,0.6805555555555555,38,0.6055555555555555,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_participant_role,lawsuit participant,50,0.6805555555555555,28,0.4535087719298246,0.0,0.0
+hasdescriptiveoccupation,seamstress,role_provided_by,event,20,0.4861111111111111,27,0.5333333333333333,0.0,0.0
+hasdescriptiveoccupation,seamstress,role_provided_by,national ex-slave mutual relief,20,0.4861111111111111,29,0.4204301075268817,0.0,0.0
+hasdescriptiveoccupation,seamstress,role_provided_by,bounty and pension association,20,0.4861111111111111,20,0.48888888888888893,0.0,0.0
+hasdescriptiveoccupation,seamstress,role_provided_by,class-action lawsuit against the u.s. treasury department,20,0.4861111111111111,21,0.5123642439431912,0.0,0.0
+hasdescriptiveoccupation,seamstress,mutual,"relief, bounty and pension association""), role_provided_by(lawsuit participant, ""class-action lawsuit against the u.s. treasury department"").",20,0.3055555555555555,12,0.543498817966903,0.0,0.0
+hasdescriptiveoccupation,seamstress,record,module:,27,0.6138888888888889,24,0.32857142857142857,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_sex,sex_type,32,0.5742063492063493,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_sex,female,32,0.5742063492063493,38,0.6055555555555555,0.0,0.0
+hasdescriptiveoccupation,seamstress,record,module:,27,0.6138888888888889,24,0.32857142857142857,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_occupation,occupation,68,0.8045940170940171,20,0.4666666666666666,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_occupation,slave,68,0.8045940170940171,40,0.5222222222222221,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_occupation,washerwoman,68,0.8045940170940171,29,0.5045454545454545,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_occupation,leader of an organization campaigning for reparations for slavery,68,0.8045940170940171,19,0.452991452991453,0.0,0.0
+hasdescriptiveoccupation,seamstress,of an organization campaigning for reparations for,"slavery"").",35,0.48611111111111116,30,0.5166666666666667,0.0,0.0
+hasdescriptiveoccupation,seamstress,record,module:,27,0.6138888888888889,24,0.32857142857142857,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_age,age,26,0.5793650793650794,31,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_age,67,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_birthdate,date_of_birth,38,0.6286324786324786,26,0.48589743589743595,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_birthdate,1861,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_deathdate,date_of_death,43,0.652065527065527,26,0.48589743589743595,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_deathdate,1928,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,seamstress,status record,module:,32,0.540954415954416,24,0.32857142857142857,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_person_status,enslaved person,39,0.6241830065359477,32,0.5555555555555555,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_person_status,leader of reparations movement,39,0.6241830065359477,25,0.5444444444444444,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_person_status,prisoner,39,0.6241830065359477,33,0.44722222222222224,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_person_status,recognized by vanderbilt university,39,0.6241830065359477,22,0.33809523809523806,0.0,0.0
+hasdescriptiveoccupation,seamstress,of reparations,"movement""), has_person_status(callie house, ""prisoner""), has_person_status(callie house, ""recognized by vanderbilt university"")",42,0.576984126984127,12,0.5929133858267717,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_status_generating_event,event,39,0.5815696649029983,27,0.5333333333333333,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_status_generating_event,birth,39,0.5815696649029983,13,0.3666666666666667,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_status_generating_event,leadership in the reparations movement,39,0.5815696649029983,29,0.41929824561403506,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_status_generating_event,unjust imprisonment in 1916,39,0.5815696649029983,22,0.4962962962962963,0.0,0.0
+hasdescriptiveoccupation,seamstress,has_status_generating_event,posthumous recognition by vanderbilt university in 2015,39,0.5815696649029983,22,0.5234848484848486,0.0,0.0
+hasdescriptiveoccupation,seamstress,of reparations,"movement, ""leadership in the reparations movement""), has_status_generating_event(prisoner, ""unjust imprisonment in 1916""), has_status_generating_event(recognized by vanderbilt university, ""posthumous recognition by vanderbilt university in 2015"").",42,0.576984126984127,8,0.5801619433198381,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,callie house,25,0.5555555555555555,24,0.5055555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,first_name,32,0.5615079365079364,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,callie,32,0.5615079365079364,36,0.5888888888888889,0.0,0.0
+hasdescriptiveoccupation,slave,relationship record,module:,33,0.6137539361223572,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,27,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,travel companion,41,0.6037698412698412,29,0.5166666666666667,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,agent,38,0.6264245014245015,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,isaiah h. dickerson,38,0.6264245014245015,25,0.5017543859649123,0.0,0.0
+hasdescriptiveoccupation,slave,role record,module:,29,0.4873737373737373,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,participant_role_type,50,0.6805555555555555,15,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,leader,50,0.6805555555555555,55,0.7000000000000001,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,lawsuit participant,50,0.6805555555555555,17,0.47485380116959064,0.0,0.0
+hasdescriptiveoccupation,slave,role_provided_by,event,20,0.4861111111111111,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,role_provided_by,national ex-slave mutual relief,20,0.4861111111111111,28,0.5870967741935483,0.0,0.33517574332792605
+hasdescriptiveoccupation,slave,role_provided_by,bounty and pension association,20,0.4861111111111111,11,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,role_provided_by,class-action lawsuit against the u.s. treasury department,20,0.4861111111111111,13,0.5400584795321638,0.0,0.0
+hasdescriptiveoccupation,slave,mutual,"relief, bounty and pension association""), role_provided_by(lawsuit participant, ""class-action lawsuit against the u.s. treasury department"").",20,0.3055555555555555,5,0.6118203309692671,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,sex_type,32,0.5742063492063493,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,female,32,0.5742063492063493,36,0.5777777777777778,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,slave,68,0.8045940170940171,100,1.0,0.0,1.0
+hasdescriptiveoccupation,slave,has_occupation,washerwoman,68,0.8045940170940171,25,0.5131313131313131,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,leader of an organization campaigning for reparations for slavery,68,0.8045940170940171,14,0.43760683760683755,0.0,0.0
+hasdescriptiveoccupation,slave,of an organization campaigning for reparations for,"slavery"").",35,0.48611111111111116,67,0.9,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,age,26,0.5793650793650794,50,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,67,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,date_of_birth,38,0.6286324786324786,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,1861,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,date_of_death,43,0.652065527065527,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,1928,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,enslaved person,39,0.6241830065359477,50,0.6444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,leader of reparations movement,39,0.6241830065359477,23,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,prisoner,39,0.6241830065359477,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,recognized by vanderbilt university,39,0.6241830065359477,15,0.4507936507936508,0.0,0.0
+hasdescriptiveoccupation,slave,of reparations,"movement""), has_person_status(callie house, ""prisoner""), has_person_status(callie house, ""recognized by vanderbilt university"")",42,0.576984126984127,8,0.5464566929133858,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,event,39,0.5815696649029983,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,birth,39,0.5815696649029983,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,leadership in the reparations movement,39,0.5815696649029983,19,0.5517543859649123,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,unjust imprisonment in 1916,39,0.5815696649029983,12,0.49135802469135803,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,posthumous recognition by vanderbilt university in 2015,39,0.5815696649029983,13,0.5409090909090909,0.0,0.0
+hasdescriptiveoccupation,slave,of reparations,"movement, ""leadership in the reparations movement""), has_status_generating_event(prisoner, ""unjust imprisonment in 1916""), has_status_generating_event(recognized by vanderbilt university, ""posthumous recognition by vanderbilt university in 2015"").",42,0.576984126984127,4,0.540080971659919,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,record,module:,27,0.6138888888888889,16,0.5084485407066052,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_name,name,25,0.5555555555555555,17,0.3548387096774193,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_name,callie house,25,0.5555555555555555,28,0.453405017921147,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_first_name,first_name,32,0.5615079365079364,20,0.49907834101382487,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_first_name,callie,32,0.5615079365079364,16,0.532258064516129,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,relationship record,module:,33,0.6137539361223572,16,0.5084485407066052,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,29,0.4512175838077166,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_interagent_relationship_type_to,travel companion,41,0.6037698412698412,26,0.5595674486803519,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,is_relationship_to,agent,38,0.6264245014245015,17,0.5596774193548387,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,is_relationship_to,isaiah h. dickerson,38,0.6264245014245015,32,0.49308020785100587,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,role record,module:,29,0.4873737373737373,16,0.5084485407066052,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_participant_role,participant_role_type,50,0.6805555555555555,27,0.4995903737839222,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_participant_role,leader,50,0.6805555555555555,22,0.4318996415770609,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_participant_role,lawsuit participant,50,0.6805555555555555,36,0.5340030182984342,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,role_provided_by,event,20,0.4861111111111111,11,0.48817204301075273,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,role_provided_by,national ex-slave mutual relief,20,0.4861111111111111,35,0.5616698292220114,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,role_provided_by,bounty and pension association,20,0.4861111111111111,39,0.6654889912954429,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,role_provided_by,class-action lawsuit against the u.s. treasury department,20,0.4861111111111111,30,0.5083946425202792,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,mutual,"relief, bounty and pension association""), role_provided_by(lawsuit participant, ""class-action lawsuit against the u.s. treasury department"").",20,0.3055555555555555,22,0.5333433058209996,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,record,module:,27,0.6138888888888889,16,0.5084485407066052,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_sex,sex_type,32,0.5742063492063493,10,0.4381720430107527,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_sex,female,32,0.5742063492063493,22,0.4211469534050179,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,record,module:,27,0.6138888888888889,16,0.5084485407066052,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_occupation,occupation,68,0.8045940170940171,29,0.5466973886328725,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_occupation,slave,68,0.8045940170940171,11,0.48817204301075273,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_occupation,washerwoman,68,0.8045940170940171,24,0.46855653307266215,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_occupation,leader of an organization campaigning for reparations for slavery,68,0.8045940170940171,42,0.6444539516842075,0.0,0.09865621511919305
+hasdescriptiveoccupation,organization founder / official,of an organization campaigning for reparations for,"slavery"").",35,0.48611111111111116,15,0.35448028673835125,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,record,module:,27,0.6138888888888889,16,0.5084485407066052,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_age,age,26,0.5793650793650794,12,0.4103942652329749,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_age,67,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_birthdate,date_of_birth,38,0.6286324786324786,27,0.38502894954507855,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_birthdate,1861,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_deathdate,date_of_death,43,0.652065527065527,32,0.445232187167671,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_deathdate,1928,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,status record,module:,32,0.540954415954416,16,0.5084485407066052,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_person_status,enslaved person,39,0.6241830065359477,26,0.43046594982078856,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_person_status,leader of reparations movement,39,0.6241830065359477,36,0.5787335722819594,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_person_status,prisoner,39,0.6241830065359477,31,0.5367383512544803,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_person_status,recognized by vanderbilt university,39,0.6241830065359477,39,0.6162826420890937,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,of reparations,"movement""), has_person_status(callie house, ""prisoner""), has_person_status(callie house, ""recognized by vanderbilt university"")",42,0.576984126984127,24,0.5105778327498683,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_status_generating_event,event,39,0.5815696649029983,11,0.48817204301075273,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_status_generating_event,birth,39,0.5815696649029983,11,0.4544802867383512,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_status_generating_event,leadership in the reparations movement,39,0.5815696649029983,29,0.5366283091240647,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_status_generating_event,unjust imprisonment in 1916,39,0.5815696649029983,28,0.5138533310576321,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,has_status_generating_event,posthumous recognition by vanderbilt university in 2015,39,0.5815696649029983,40,0.5840746171391332,0.0,0.0
+hasdescriptiveoccupation,organization founder / official,of reparations,"movement, ""leadership in the reparations movement""), has_status_generating_event(prisoner, ""unjust imprisonment in 1916""), has_status_generating_event(recognized by vanderbilt university, ""posthumous recognition by vanderbilt university in 2015"").",42,0.576984126984127,17,0.4892220626006704,0.0,0.0
+hasfirstname,callie delphia,record,module:,22,0.4166666666666667,19,0.43650793650793646,0.0,0.0
+hasfirstname,callie delphia,has_name,name,70,0.8736111111111112,22,0.5476190476190476,0.0,0.0
+hasfirstname,callie delphia,has_name,callie house,70,0.8736111111111112,62,0.8563492063492064,0.0,0.33609692727625756
+hasfirstname,callie delphia,has_first_name,first_name,92,0.9666666666666667,17,0.3936507936507936,0.0,0.0
+hasfirstname,callie delphia,has_first_name,callie,92,0.9666666666666667,60,0.8857142857142858,0.0,0.5797386715376658
+hasfirstname,callie delphia,relationship record,module:,32,0.5077276524644946,19,0.43650793650793646,0.0,0.0
+hasfirstname,callie delphia,has_interagent_relationship_type_to,relationship_type,34,0.5949735449735449,26,0.4943977591036415,0.0,0.0
+hasfirstname,callie delphia,has_interagent_relationship_type_to,travel companion,34,0.5949735449735449,33,0.5654761904761905,0.0,0.0
+hasfirstname,callie delphia,is_relationship_to,agent,27,0.6203703703703703,21,0.5142857142857143,0.0,0.0
+hasfirstname,callie delphia,is_relationship_to,isaiah h. dickerson,27,0.6203703703703703,30,0.4799498746867168,0.0,0.0
+hasfirstname,callie delphia,role record,module:,17,0.44949494949494956,19,0.43650793650793646,0.0,0.0
+hasfirstname,callie delphia,has_participant_role,participant_role_type,44,0.6962962962962962,29,0.48412698412698413,0.0,0.0
+hasfirstname,callie delphia,has_participant_role,leader,44,0.6962962962962962,40,0.6634920634920635,0.0,0.0
+hasfirstname,callie delphia,has_participant_role,lawsuit participant,44,0.6962962962962962,36,0.5275689223057644,0.0,0.0
+hasfirstname,callie delphia,role_provided_by,event,14,0.3680555555555555,21,0.5142857142857143,0.0,0.0
+hasfirstname,callie delphia,role_provided_by,national ex-slave mutual relief,14,0.3680555555555555,36,0.4962450930192866,0.0,0.0
+hasfirstname,callie delphia,role_provided_by,bounty and pension association,14,0.3680555555555555,23,0.446031746031746,0.0,0.0
+hasfirstname,callie delphia,role_provided_by,class-action lawsuit against the u.s. treasury department,14,0.3680555555555555,28,0.4965747702589807,0.0,0.0
+hasfirstname,callie delphia,mutual,"relief, bounty and pension association""), role_provided_by(lawsuit participant, ""class-action lawsuit against the u.s. treasury department"").",22,0.3333333333333333,14,0.5197438495310837,0.0,0.0
+hasfirstname,callie delphia,record,module:,22,0.4166666666666667,19,0.43650793650793646,0.0,0.0
+hasfirstname,callie delphia,has_sex,sex_type,53,0.6349206349206349,18,0.41865079365079366,0.0,0.0
+hasfirstname,callie delphia,has_sex,female,53,0.6349206349206349,30,0.5674603174603174,0.0,0.0
+hasfirstname,callie delphia,record,module:,22,0.4166666666666667,19,0.43650793650793646,0.0,0.0
+hasfirstname,callie delphia,has_occupation,occupation,38,0.5873015873015873,25,0.4785714285714286,0.0,0.0
+hasfirstname,callie delphia,has_occupation,slave,38,0.5873015873015873,21,0.4936507936507937,0.0,0.0
+hasfirstname,callie delphia,has_occupation,washerwoman,38,0.5873015873015873,24,0.49567099567099565,0.0,0.0
+hasfirstname,callie delphia,has_occupation,leader of an organization campaigning for reparations for slavery,38,0.5873015873015873,20,0.5304362304362304,0.0,0.0
+hasfirstname,callie delphia,of an organization campaigning for reparations for,"slavery"").",23,0.48388888888888887,17,0.3936507936507936,0.0,0.0
+hasfirstname,callie delphia,record,module:,22,0.4166666666666667,19,0.43650793650793646,0.0,0.0
+hasfirstname,callie delphia,has_age,age,53,0.7972222222222223,24,0.6031746031746031,0.0,0.0
+hasfirstname,callie delphia,has_age,67,53,0.7972222222222223,0,0.0,0.0,0.0
+hasfirstname,callie delphia,has_birthdate,date_of_birth,64,0.8324786324786324,22,0.4478021978021978,0.0,0.0
+hasfirstname,callie delphia,has_birthdate,1861,64,0.8324786324786324,0,0.0,0.0,0.0
+hasfirstname,callie delphia,has_deathdate,date_of_death,48,0.5982905982905983,37,0.5744810744810745,0.0,0.0
+hasfirstname,callie delphia,has_deathdate,1928,48,0.5982905982905983,0,0.0,0.0,0.0
+hasfirstname,callie delphia,status record,module:,32,0.5427350427350427,19,0.43650793650793646,0.0,0.0
+hasfirstname,callie delphia,has_person_status,enslaved person,48,0.6857298474945533,28,0.5603174603174603,0.0,0.0
+hasfirstname,callie delphia,has_person_status,leader of reparations movement,48,0.6857298474945533,27,0.49947089947089945,0.0,0.0
+hasfirstname,callie delphia,has_person_status,prisoner,48,0.6857298474945533,18,0.46428571428571425,0.0,0.0
+hasfirstname,callie delphia,has_person_status,recognized by vanderbilt university,48,0.6857298474945533,33,0.5222222222222223,0.0,0.0
+hasfirstname,callie delphia,of reparations,"movement""), has_person_status(callie house, ""prisoner""), has_person_status(callie house, ""recognized by vanderbilt university"")",31,0.5515873015873016,17,0.5116547931508562,0.0,0.20608363501393828
+hasfirstname,callie delphia,has_status_generating_event,event,41,0.5833333333333334,21,0.5142857142857143,0.0,0.0
+hasfirstname,callie delphia,has_status_generating_event,birth,41,0.5833333333333334,21,0.4238095238095238,0.0,0.0
+hasfirstname,callie delphia,has_status_generating_event,leadership in the reparations movement,41,0.5833333333333334,27,0.5705172020961494,0.0,0.0
+hasfirstname,callie delphia,has_status_generating_event,unjust imprisonment in 1916,41,0.5833333333333334,20,0.38077601410934747,0.0,0.0
+hasfirstname,callie delphia,has_status_generating_event,posthumous recognition by vanderbilt university in 2015,41,0.5833333333333334,20,0.5103896103896104,0.0,0.0
+hasfirstname,callie delphia,of reparations,"movement, ""leadership in the reparations movement""), has_status_generating_event(prisoner, ""unjust imprisonment in 1916""), has_status_generating_event(recognized by vanderbilt university, ""posthumous recognition by vanderbilt university in 2015"").",31,0.5515873015873016,8,0.4888707783444626,0.0,0.0
+hassurname,house,record,module:,25,0.4222222222222222,50,0.6761904761904761,0.0,0.0
+hassurname,house,has_name,name,78,0.9008333333333334,22,0.48333333333333334,0.0,0.0
+hassurname,house,has_name,callie house,78,0.9008333333333334,59,0.42777777777777776,0.0,0.5797386715376658
+hassurname,house,has_first_name,first_name,67,0.8674074074074074,27,0.43333333333333335,0.0,0.0
+hassurname,house,has_first_name,callie,67,0.8674074074074074,18,0.45555555555555555,0.0,0.0
+hassurname,house,relationship record,module:,28,0.4543859649122807,50,0.6761904761904761,0.0,0.0
+hassurname,house,has_interagent_relationship_type_to,relationship_type,31,0.5380952380952381,27,0.48104575163398694,0.0,0.0
+hassurname,house,has_interagent_relationship_type_to,travel companion,31,0.5380952380952381,10,0.3416666666666666,0.0,0.0
+hassurname,house,is_relationship_to,agent,21,0.5333333333333333,20,0.0,0.0,0.0
+hassurname,house,is_relationship_to,isaiah h. dickerson,21,0.5333333333333333,17,0.3350877192982456,0.0,0.0
+hassurname,house,role record,module:,19,0.46060606060606063,50,0.6761904761904761,0.0,0.0
+hassurname,house,has_participant_role,participant_role_type,40,0.5777777777777778,15,0.0,0.0,0.0
+hassurname,house,has_participant_role,leader,40,0.5777777777777778,18,0.45555555555555555,0.0,0.0
+hassurname,house,has_participant_role,lawsuit participant,40,0.5777777777777778,8,0.3350877192982456,0.0,0.0
+hassurname,house,role_provided_by,event,15,0.44166666666666665,20,0.0,0.0,0.0
+hassurname,house,role_provided_by,national ex-slave mutual relief,15,0.44166666666666665,17,0.4544802867383512,0.0,0.0
+hassurname,house,role_provided_by,bounty and pension association,15,0.44166666666666665,17,0.5611111111111111,0.0,0.0
+hassurname,house,role_provided_by,class-action lawsuit against the u.s. treasury department,15,0.44166666666666665,13,0.5400584795321638,0.0,0.0
+hassurname,house,mutual,"relief, bounty and pension association""), role_provided_by(lawsuit participant, ""class-action lawsuit against the u.s. treasury department"").",25,0.3444444444444444,5,0.4427895981087471,0.0,0.0
+hassurname,house,record,module:,25,0.4222222222222222,50,0.6761904761904761,0.0,0.0
+hassurname,house,has_sex,sex_type,59,0.8166666666666667,31,0.5499999999999999,0.0,0.0
+hassurname,house,has_sex,female,59,0.8166666666666667,18,0.45555555555555555,0.0,0.0
+hassurname,house,record,module:,25,0.4222222222222222,50,0.6761904761904761,0.0,0.0
+hassurname,house,has_occupation,occupation,42,0.6190476190476191,27,0.5333333333333333,0.0,0.0
+hassurname,house,has_occupation,slave,42,0.6190476190476191,40,0.4666666666666666,0.0,0.0
+hassurname,house,has_occupation,washerwoman,42,0.6190476190476191,25,0.5131313131313131,0.0,0.0
+hassurname,house,has_occupation,leader of an organization campaigning for reparations for slavery,42,0.6190476190476191,9,0.31025641025641026,0.0,0.0
+hassurname,house,of an organization campaigning for reparations for,"slavery"").",20,0.4666666666666666,27,0.5333333333333333,0.0,0.0
+hassurname,house,record,module:,25,0.4222222222222222,50,0.6761904761904761,0.0,0.0
+hassurname,house,has_age,age,59,0.8166666666666667,25,0.0,0.0,0.0
+hassurname,house,has_age,67,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,house,has_birthdate,date_of_birth,52,0.6871794871794871,11,0.3512820512820513,0.0,0.0
+hassurname,house,has_birthdate,1861,52,0.6871794871794871,0,0.0,0.0,0.0
+hassurname,house,has_deathdate,date_of_death,43,0.5615384615384615,22,0.3512820512820513,0.0,0.0
+hassurname,house,has_deathdate,1928,43,0.5615384615384615,0,0.0,0.0,0.0
+hassurname,house,status record,module:,35,0.5760683760683761,50,0.6761904761904761,0.0,0.0
+hassurname,house,has_person_status,enslaved person,44,0.6735294117647058,20,0.3444444444444444,0.0,0.0
+hassurname,house,has_person_status,leader of reparations movement,44,0.6735294117647058,17,0.32222222222222224,0.0,0.0
+hassurname,house,has_person_status,prisoner,44,0.6735294117647058,31,0.5472222222222222,0.0,0.0
+hassurname,house,has_person_status,recognized by vanderbilt university,44,0.6735294117647058,15,0.3190476190476191,0.0,0.0
+hassurname,house,of reparations,"movement""), has_person_status(callie house, ""prisoner""), has_person_status(callie house, ""recognized by vanderbilt university"")",25,0.48571428571428577,8,0.5464566929133858,0.0,0.35547677795468396
+hassurname,house,has_status_generating_event,event,43,0.6703703703703704,20,0.0,0.0,0.0
+hassurname,house,has_status_generating_event,birth,43,0.6703703703703704,20,0.0,0.0,0.0
+hassurname,house,has_status_generating_event,leadership in the reparations movement,43,0.6703703703703704,19,0.4485380116959064,0.0,0.0
+hassurname,house,has_status_generating_event,unjust imprisonment in 1916,43,0.6703703703703704,19,0.5660493827160494,0.0,0.0
+hassurname,house,has_status_generating_event,posthumous recognition by vanderbilt university in 2015,43,0.6703703703703704,17,0.5636363636363636,0.0,0.0
+hassurname,house,of reparations,"movement, ""leadership in the reparations movement""), has_status_generating_event(prisoner, ""unjust imprisonment in 1916""), has_status_generating_event(recognized by vanderbilt university, ""posthumous recognition by vanderbilt university in 2015"").",25,0.48571428571428577,4,0.540080971659919,0.0,0.0
+hasname,callie delphia house,record,module:,15,0.0,22,0.4150793650793651,0.0,0.0
+hasname,callie delphia house,has_name,name,93,0.9708333333333333,17,0.5333333333333333,0.0,0.0
+hasname,callie delphia house,has_name,callie house,93,0.9708333333333333,75,0.8866666666666667,0.0,0.7092972666062739
+hasname,callie delphia house,has_first_name,first_name,67,0.5476190476190476,20,0.37222222222222223,0.0,0.0
+hasname,callie delphia house,has_first_name,callie,67,0.5476190476190476,46,0.86,0.0,0.4494364165239821
+hasname,callie delphia house,relationship record,module:,23,0.5106516290726817,22,0.4150793650793651,0.0,0.0
+hasname,callie delphia house,has_interagent_relationship_type_to,relationship_type,29,0.6206349206349207,32,0.4985294117647059,0.0,0.0
+hasname,callie delphia house,has_interagent_relationship_type_to,travel companion,29,0.6206349206349207,33,0.5597222222222222,0.0,0.0
+hasname,callie delphia house,is_relationship_to,agent,16,0.43121693121693117,16,0.5,0.0,0.0
+hasname,callie delphia house,is_relationship_to,isaiah h. dickerson,16,0.43121693121693117,31,0.5771929824561403,0.0,0.0
+hasname,callie delphia house,role record,module:,11,0.41125541125541126,22,0.4150793650793651,0.0,0.0
+hasname,callie delphia house,has_participant_role,participant_role_type,37,0.5904761904761905,29,0.5253968253968254,0.0,0.0
+hasname,callie delphia house,has_participant_role,leader,37,0.5904761904761905,31,0.6277777777777779,0.0,0.0
+hasname,callie delphia house,has_participant_role,lawsuit participant,37,0.5904761904761905,31,0.4775689223057644,0.0,0.0
+hasname,callie delphia house,role_provided_by,event,9,0.40178571428571425,16,0.5,0.0,0.0
+hasname,callie delphia house,role_provided_by,national ex-slave mutual relief,9,0.40178571428571425,35,0.6219662058371735,0.0,0.0
+hasname,callie delphia house,role_provided_by,bounty and pension association,9,0.40178571428571425,24,0.4873737373737374,0.0,0.0
+hasname,callie delphia house,role_provided_by,class-action lawsuit against the u.s. treasury department,9,0.40178571428571425,31,0.537719298245614,0.0,0.0
+hasname,callie delphia house,mutual,"relief, bounty and pension association""), role_provided_by(lawsuit participant, ""class-action lawsuit against the u.s. treasury department"").",15,0.4365079365079365,19,0.5277383766745469,0.0,0.0
+hasname,callie delphia house,record,module:,15,0.0,22,0.4150793650793651,0.0,0.0
+hasname,callie delphia house,has_sex,sex_type,57,0.8,21,0.3972222222222222,0.0,0.0
+hasname,callie delphia house,has_sex,female,57,0.8,23,0.5388888888888889,0.0,0.0
+hasname,callie delphia house,record,module:,15,0.0,22,0.4150793650793651,0.0,0.0
+hasname,callie delphia house,has_occupation,occupation,38,0.6190476190476191,27,0.5166666666666667,0.0,0.0
+hasname,callie delphia house,has_occupation,slave,38,0.6190476190476191,24,0.47222222222222215,0.0,0.0
+hasname,callie delphia house,has_occupation,washerwoman,38,0.6190476190476191,19,0.4348484848484849,0.0,0.0
+hasname,callie delphia house,has_occupation,leader of an organization campaigning for reparations for slavery,38,0.6190476190476191,26,0.5194139194139195,0.0,0.0
+hasname,callie delphia house,of an organization campaigning for reparations for,"slavery"").",18,0.5504761904761905,20,0.37222222222222223,0.0,0.0
+hasname,callie delphia house,record,module:,15,0.0,22,0.4150793650793651,0.0,0.0
+hasname,callie delphia house,has_age,age,71,0.8666666666666668,17,0.5888888888888889,0.0,0.0
+hasname,callie delphia house,has_age,67,71,0.8666666666666668,0,0.0,0.0,0.0
+hasname,callie delphia house,has_birthdate,date_of_birth,50,0.553113553113553,24,0.4782051282051282,0.0,0.0
+hasname,callie delphia house,has_birthdate,1861,50,0.553113553113553,0,0.0,0.0,0.0
+hasname,callie delphia house,has_deathdate,date_of_death,50,0.632967032967033,36,0.476068376068376,0.0,0.0
+hasname,callie delphia house,has_deathdate,1928,50,0.632967032967033,0,0.0,0.0,0.0
+hasname,callie delphia house,status record,module:,30,0.442002442002442,22,0.4150793650793651,0.0,0.0
+hasname,callie delphia house,has_person_status,enslaved person,42,0.6028011204481792,29,0.6222222222222221,0.0,0.0
+hasname,callie delphia house,has_person_status,leader of reparations movement,42,0.6028011204481792,36,0.5405982905982906,0.0,0.0
+hasname,callie delphia house,has_person_status,prisoner,42,0.6028011204481792,29,0.45,0.0,0.0
+hasname,callie delphia house,has_person_status,recognized by vanderbilt university,42,0.6028011204481792,36,0.5571428571428572,0.0,0.0
+hasname,callie delphia house,of reparations,"movement""), has_person_status(callie house, ""prisoner""), has_person_status(callie house, ""recognized by vanderbilt university"")",19,0.43650793650793646,23,0.5139107611548557,0.0,0.3808165329771113
+hasname,callie delphia house,has_status_generating_event,event,35,0.6375661375661376,16,0.5,0.0,0.0
+hasname,callie delphia house,has_status_generating_event,birth,35,0.6375661375661376,16,0.5,0.0,0.0
+hasname,callie delphia house,has_status_generating_event,leadership in the reparations movement,35,0.6375661375661376,38,0.5945175438596492,0.0,0.0
+hasname,callie delphia house,has_status_generating_event,unjust imprisonment in 1916,35,0.6375661375661376,21,0.3987654320987654,0.0,0.0
+hasname,callie delphia house,has_status_generating_event,posthumous recognition by vanderbilt university in 2015,35,0.6375661375661376,24,0.5511363636363636,0.0,0.0
+hasname,callie delphia house,of reparations,"movement, ""leadership in the reparations movement""), has_status_generating_event(prisoner, ""unjust imprisonment in 1916""), has_status_generating_event(recognized by vanderbilt university, ""posthumous recognition by vanderbilt university in 2015"").",19,0.43650793650793646,11,0.4827458918790188,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,record,module:,30,0.48412698412698413,9,0.4567363530778165,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_name,name,36,0.5952380952380952,9,0.4844173441734417,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_name,callie house,36,0.5952380952380952,17,0.4717705510388437,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_first_name,first_name,43,0.6726190476190476,15,0.507520325203252,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_first_name,callie,43,0.6726190476190476,11,0.49810298102981027,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,relationship record,module:,30,0.6135338345864662,9,0.4567363530778165,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_interagent_relationship_type_to,relationship_type,37,0.5666666666666667,24,0.44221990348245727,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_interagent_relationship_type_to,travel companion,37,0.5666666666666667,24,0.5734756097560975,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,is_relationship_to,agent,44,0.6474266474266474,9,0.5329268292682927,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,is_relationship_to,isaiah h. dickerson,44,0.6474266474266474,22,0.49300079466960084,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,role record,module:,24,0.46645021645021645,9,0.4567363530778165,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_participant_role,participant_role_type,47,0.6876623376623376,17,0.44579945799457993,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_participant_role,leader,47,0.6876623376623376,14,0.5799457994579945,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_participant_role,lawsuit participant,47,0.6876623376623376,20,0.4604028833810605,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,role_provided_by,event,20,0.4900793650793651,11,0.5536585365853659,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,role_provided_by,national ex-slave mutual relief,20,0.4900793650793651,37,0.5775686416913797,0.0,0.06261451546913585
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,role_provided_by,bounty and pension association,20,0.4900793650793651,39,0.6072869617585065,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,role_provided_by,class-action lawsuit against the u.s. treasury department,20,0.4900793650793651,33,0.633141427108051,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,mutual,"relief, bounty and pension association""), role_provided_by(lawsuit participant, ""class-action lawsuit against the u.s. treasury department"").",10,0.41269841269841273,37,0.6388216187126411,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,record,module:,30,0.48412698412698413,9,0.4567363530778165,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_sex,sex_type,38,0.6238095238095238,11,0.4286585365853659,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_sex,female,38,0.6238095238095238,9,0.49810298102981027,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,record,module:,30,0.48412698412698413,9,0.4567363530778165,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_occupation,occupation,64,0.8074074074074075,15,0.507520325203252,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_occupation,slave,64,0.8074074074074075,11,0.5536585365853659,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_occupation,washerwoman,64,0.8074074074074075,15,0.4310526871502481,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_occupation,leader of an organization campaigning for reparations for slavery,64,0.8074074074074075,48,0.6816204572302134,0.0,0.3088048415820829
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,of an organization campaigning for reparations for,"slavery"").",25,0.4965079365079365,17,0.4522648083623693,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,record,module:,30,0.48412698412698413,9,0.4567363530778165,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_age,age,38,0.6190476190476191,5,0.39701897018970184,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_age,67,38,0.6190476190476191,0,0.0,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_birthdate,date_of_birth,37,0.6318681318681318,19,0.4525397818080745,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_birthdate,1861,37,0.6318681318681318,0,0.0,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_deathdate,date_of_death,44,0.63003663003663,19,0.4895768188451115,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_deathdate,1928,44,0.63003663003663,0,0.0,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,status record,module:,37,0.5366300366300366,9,0.4567363530778165,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_person_status,enslaved person,45,0.6675070028011204,31,0.5720867208672087,0.0,0.10830156041911583
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_person_status,leader of reparations movement,45,0.6675070028011204,36,0.5949412827461608,0.0,0.07098413734701413
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_person_status,prisoner,45,0.6675070028011204,18,0.5741869918699187,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_person_status,recognized by vanderbilt university,45,0.6675070028011204,31,0.5520841398890179,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,of reparations,"movement""), has_person_status(callie house, ""prisoner""), has_person_status(callie house, ""recognized by vanderbilt university"")",43,0.6309523809523809,35,0.6322903439399888,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_status_generating_event,event,39,0.5476190476190476,11,0.5536585365853659,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_status_generating_event,birth,39,0.5476190476190476,9,0.5329268292682927,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_status_generating_event,leadership in the reparations movement,39,0.5476190476190476,33,0.5878663885323063,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_status_generating_event,unjust imprisonment in 1916,39,0.5476190476190476,28,0.47506066563933613,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,has_status_generating_event,posthumous recognition by vanderbilt university in 2015,39,0.5476190476190476,31,0.5458200994786361,0.0,0.0
+hasdescription,born enslaved. an advocate of pensions for ex-slaves; imprisoned for her advocacy.,of reparations,"movement, ""leadership in the reparations movement""), has_status_generating_event(prisoner, ""unjust imprisonment in 1916""), has_status_generating_event(recognized by vanderbilt university, ""posthumous recognition by vanderbilt university in 2015"").",43,0.6309523809523809,30,0.5544651552731293,0.0,0.0

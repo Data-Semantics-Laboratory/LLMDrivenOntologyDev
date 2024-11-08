@@ -1,0 +1,599 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,joshua houston,32,0.537878787878788,30,0.3253968253968254,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,houston,27,0.49242424242424243,46,0.6428571428571429,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,joshua,40,0.5692640692640693,17,0.4444444444444444,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,relationship_type,30,0.5269480519480519,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,enslaver or owner,30,0.5269480519480519,35,0.642483660130719,0.0,0.0
+instance of,person,or,"owner"")",15,0.0,31,0.5396825396825397,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,margaret lea houston,34,0.5798460798460798,31,0.3111111111111111,0.0,0.0
+instance of,person,is_relationship_to,sam houston,34,0.5798460798460798,35,0.5050505050505051,0.0,0.0
+instance of,person,lea,"houston""), is_relationship_to(joshua houston, ""sam houston"").",14,0.47474747474747475,12,0.5327868852459017,0.0,0.0
+instance of,person,role record,module:,27,0.49242424242424243,15,0.0,0.0,0.0
+instance of,person,has_participant_role,participant_role_type,32,0.5668831168831169,22,0.5357142857142857,0.0,0.0
+instance of,person,has_participant_role,construction worker,32,0.5668831168831169,24,0.4590643274853801,0.0,0.0
+instance of,person,has_participant_role,delegate,32,0.5668831168831169,14,0.4305555555555555,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,male,22,0.45598845598845594,20,0.47222222222222215,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,slave,24,0.38311688311688313,18,0.0,0.0,0.0
+instance of,person,has_occupation,public office holder,24,0.38311688311688313,23,0.4777777777777778,0.0,0.0
+instance of,person,has_occupation,delegate,24,0.38311688311688313,14,0.4305555555555555,0.0,0.0
+instance of,person,office,"holder, delegate"").",35,0.5909090909090909,16,0.44152046783625726,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_age,80,33,0.45598845598845594,0,0.0,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_birthdate,1822,33,0.5463869463869464,0,0.0,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,1902,33,0.39044289044289043,0,0.0,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,enslaved person,29,0.449554367201426,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,has_person_status,freed person,29,0.449554367201426,67,0.3333333333333333,0.0,0.5797386715376658
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,ownership by sam houston,26,0.4799102132435466,33,0.5833333333333334,0.0,0.0
+instance of,person,has_status_generating_event,emancipation by sam houston in 1863,26,0.4799102132435466,20,0.5253968253968254,0.0,0.0
+instance of,person,by sam,"houston""), has_status_generating_event(freed person, ""emancipation by sam houston in 1863"")",24,0.5050505050505051,12,0.4960927960927961,0.0,0.2097553962782169
+instance of,person,recorded_at,event,18,0.4545454545454546,36,0.5777777777777778,0.0,0.0
+instance of,person,recorded_at,ownership by sam houston,18,0.4545454545454546,33,0.5833333333333334,0.0,0.0
+instance of,person,recorded_at,emancipation by sam houston in 1863,18,0.4545454545454546,20,0.5253968253968254,0.0,0.0
+instance of,person,by sam,"houston""), recorded_at(freed person, ""emancipation by sam houston in 1863"").",24,0.5050505050505051,15,0.5263157894736842,0.0,0.2097553962782169
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_name,name,57,0.8055555555555556,50,0.6666666666666666,0.0,0.0
+hassex,male,has_name,joshua houston,57,0.8055555555555556,11,0.44047619047619047,0.0,0.0
+hassex,male,has_surname,surname,59,0.6767676767676768,36,0.0,0.0,0.0
+hassex,male,has_surname,houston,59,0.6767676767676768,0,0.0,0.0,0.0
+hassex,male,has_first_name,first_name,50,0.6507936507936508,29,0.0,0.0,0.0
+hassex,male,has_first_name,joshua,50,0.6507936507936508,20,0.0,0.0,0.0
+hassex,male,relationship record,module:,24,0.44152046783625726,55,0.7535714285714287,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,relationship_type,24,0.5936507936507937,19,0.5310457516339869,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,enslaver or owner,24,0.5936507936507937,19,0.5310457516339869,0.0,0.0
+hassex,male,or,"owner"")",0,0.0,18,0.46428571428571425,0.0,0.0
+hassex,male,is_relationship_to,agent,17,0.46296296296296297,44,0.6333333333333333,0.0,0.0
+hassex,male,is_relationship_to,margaret lea houston,17,0.46296296296296297,33,0.65,0.0,0.0
+hassex,male,is_relationship_to,sam houston,17,0.46296296296296297,13,0.393939393939394,0.0,0.0
+hassex,male,lea,"houston""), is_relationship_to(joshua houston, ""sam houston"").",22,0.5,3,0.4886156648451731,0.0,0.0
+hassex,male,role record,module:,12,0.41919191919191917,55,0.7535714285714287,0.0,0.0
+hassex,male,has_participant_role,participant_role_type,31,0.5499999999999999,24,0.43253968253968256,0.0,0.0
+hassex,male,has_participant_role,construction worker,31,0.5499999999999999,9,0.0,0.0,0.0
+hassex,male,has_participant_role,delegate,31,0.5499999999999999,33,0.4166666666666667,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_sex,sex_type,92,0.9666666666666667,17,0.4583333333333333,0.0,0.0
+hassex,male,has_sex,male,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_occupation,occupation,30,0.5714285714285715,14,0.45,0.0,0.0
+hassex,male,has_occupation,slave,30,0.5714285714285715,44,0.6722222222222222,0.0,0.0
+hassex,male,has_occupation,public office holder,30,0.5714285714285715,17,0.5333333333333333,0.0,0.0
+hassex,male,has_occupation,delegate,30,0.5714285714285715,33,0.4166666666666667,0.0,0.0
+hassex,male,office,"holder, delegate"").",17,0.4444444444444444,17,0.5350877192982456,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_age,age,62,0.8222222222222222,57,0.7222222222222222,0.0,0.0
+hassex,male,has_age,80,62,0.8222222222222222,0,0.0,0.0,0.0
+hassex,male,has_birthdate,date_of_birth,42,0.576923076923077,24,0.5512820512820512,0.0,0.0
+hassex,male,has_birthdate,1822,42,0.576923076923077,0,0.0,0.0,0.0
+hassex,male,has_deathdate,date_of_death,42,0.6581196581196581,24,0.5512820512820512,0.0,0.0
+hassex,male,has_deathdate,1902,42,0.6581196581196581,0,0.0,0.0,0.0
+hassex,male,status record,module:,32,0.5747863247863249,55,0.7535714285714287,0.0,0.0
+hassex,male,has_person_status,enslaved person,35,0.642483660130719,21,0.5388888888888889,0.0,0.0
+hassex,male,has_person_status,freed person,35,0.642483660130719,12,0.4444444444444444,0.0,0.0
+hassex,male,has_status_generating_event,event,30,0.6728395061728395,22,0.48333333333333334,0.0,0.0
+hassex,male,has_status_generating_event,ownership by sam houston,30,0.6728395061728395,7,0.4305555555555556,0.0,0.0
+hassex,male,has_status_generating_event,emancipation by sam houston in 1863,30,0.6728395061728395,10,0.5007936507936508,0.0,0.0
+hassex,male,by sam,"houston""), has_status_generating_event(freed person, ""emancipation by sam houston in 1863"")",17,0.4444444444444444,4,0.5073260073260073,0.0,0.0
+hassex,male,recorded_at,event,12,0.41919191919191917,22,0.48333333333333334,0.0,0.0
+hassex,male,recorded_at,ownership by sam houston,12,0.41919191919191917,7,0.4305555555555556,0.0,0.0
+hassex,male,recorded_at,emancipation by sam houston in 1863,12,0.41919191919191917,10,0.5007936507936508,0.0,0.0
+hassex,male,by sam,"houston""), recorded_at(freed person, ""emancipation by sam houston in 1863"").",17,0.4444444444444444,5,0.3421052631578947,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,joshua houston,38,0.5675925925925926,11,0.4238095238095238,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,houston,41,0.6274651274651274,17,0.44761904761904764,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,joshua,44,0.6772486772486772,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,enslaver or owner,42,0.6570105820105819,9,0.4196078431372549,0.0,0.0
+hasparticipantrole,child,or,"owner"")",10,0.5185185185185185,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,margaret lea houston,44,0.6037037037037037,8,0.4166666666666667,0.0,0.0
+hasparticipantrole,child,is_relationship_to,sam houston,44,0.6037037037037037,12,0.43030303030303035,0.0,0.0
+hasparticipantrole,child,lea,"houston""), is_relationship_to(joshua houston, ""sam houston"").",19,0.46296296296296297,9,0.5497267759562842,0.0,0.0
+hasparticipantrole,child,role record,module:,28,0.4452861952861953,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant_role_type,95,0.9766666666666667,23,0.33174603174603173,0.0,0.0
+hasparticipantrole,child,has_participant_role,construction worker,95,0.9766666666666667,17,0.5017543859649123,0.0,0.0
+hasparticipantrole,child,has_participant_role,delegate,95,0.9766666666666667,15,0.44166666666666665,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,male,32,0.5317460317460317,22,0.48333333333333334,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,slave,50,0.6566137566137565,20,0.0,0.0,0.0
+hasparticipantrole,child,has_occupation,public office holder,50,0.6566137566137565,32,0.47222222222222215,0.0,0.0
+hasparticipantrole,child,has_occupation,delegate,50,0.6566137566137565,15,0.44166666666666665,0.0,0.0
+hasparticipantrole,child,office,"holder, delegate"").",25,0.48148148148148145,25,0.5859649122807017,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_age,age,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_age,80,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_birthdate,date_of_birth,52,0.6937321937321936,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_birthdate,1822,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,child,has_deathdate,date_of_death,52,0.6866096866096866,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_deathdate,1902,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,enslaved person,46,0.6479302832244008,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,child,has_person_status,freed person,46,0.6479302832244008,12,0.42777777777777776,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,ownership by sam houston,40,0.5819304152637487,14,0.49444444444444446,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,emancipation by sam houston in 1863,40,0.5819304152637487,15,0.48571428571428577,0.0,0.0
+hasparticipantrole,child,by sam,"houston""), has_status_generating_event(freed person, ""emancipation by sam houston in 1863"")",17,0.3148148148148148,6,0.5443223443223443,0.0,0.0
+hasparticipantrole,child,recorded_at,event,28,0.36195286195286197,0,0.0,0.0,0.0
+hasparticipantrole,child,recorded_at,ownership by sam houston,28,0.36195286195286197,14,0.49444444444444446,0.0,0.0
+hasparticipantrole,child,recorded_at,emancipation by sam houston in 1863,28,0.36195286195286197,15,0.48571428571428577,0.0,0.0
+hasparticipantrole,child,by sam,"houston""), recorded_at(freed person, ""emancipation by sam houston in 1863"").",17,0.3148148148148148,7,0.4353801169590643,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,joshua houston,38,0.5675925925925926,34,0.4984126984126984,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,houston,41,0.6274651274651274,27,0.40317460317460313,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,joshua,44,0.6772486772486772,10,0.32222222222222224,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,enslaver or owner,42,0.6570105820105819,44,0.5986928104575163,0.0,0.0
+hasparticipantrole,deceased person,or,"owner"")",10,0.5185185185185185,18,0.40317460317460313,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,margaret lea houston,44,0.6037037037037037,40,0.5194444444444445,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,sam houston,44,0.6037037037037037,38,0.592929292929293,0.0,0.0
+hasparticipantrole,deceased person,lea,"houston""), is_relationship_to(joshua houston, ""sam houston"").",19,0.46296296296296297,18,0.4714025500910746,0.0,0.0
+hasparticipantrole,deceased person,role record,module:,28,0.4452861952861953,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant_role_type,95,0.9766666666666667,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,construction worker,95,0.9766666666666667,29,0.5164578111946533,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,delegate,95,0.9766666666666667,43,0.6527777777777778,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,male,32,0.5317460317460317,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,slave,50,0.6566137566137565,20,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,public office holder,50,0.6566137566137565,29,0.5103174603174603,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,delegate,50,0.6566137566137565,43,0.6527777777777778,0.0,0.0
+hasparticipantrole,deceased person,office,"holder, delegate"").",25,0.48148148148148145,29,0.5681286549707601,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_age,age,40,0.5978835978835978,22,0.4333333333333333,0.0,0.0
+hasparticipantrole,deceased person,has_age,80,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,date_of_birth,52,0.6937321937321936,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,1822,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,date_of_death,52,0.6866096866096866,36,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,1902,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,enslaved person,46,0.6479302832244008,73,0.7833333333333333,0.0,0.33609692727625756
+hasparticipantrole,deceased person,has_person_status,freed person,46,0.6479302832244008,74,0.7333333333333334,0.0,0.33609692727625756
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,ownership by sam houston,40,0.5819304152637487,31,0.5842592592592593,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,emancipation by sam houston in 1863,40,0.5819304152637487,32,0.4708994708994709,0.0,0.0
+hasparticipantrole,deceased person,by sam,"houston""), has_status_generating_event(freed person, ""emancipation by sam houston in 1863"")",17,0.3148148148148148,23,0.5159951159951159,0.0,0.12160331478619012
+hasparticipantrole,deceased person,recorded_at,event,28,0.36195286195286197,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,ownership by sam houston,28,0.36195286195286197,31,0.5842592592592593,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,emancipation by sam houston in 1863,28,0.36195286195286197,32,0.4708994708994709,0.0,0.0
+hasparticipantrole,deceased person,by sam,"houston""), recorded_at(freed person, ""emancipation by sam houston in 1863"").",17,0.3148148148148148,29,0.5769005847953217,0.0,0.12160331478619012
+hasdescriptiveoccupation,blacksmith,record,module:,27,0.6138888888888889,12,0.4142857142857143,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_name,name,25,0.5555555555555555,29,0.5666666666666667,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_name,joshua houston,25,0.5555555555555555,25,0.3952380952380952,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_surname,surname,34,0.5474386724386724,24,0.49523809523809526,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_surname,houston,34,0.5474386724386724,24,0.49523809523809526,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_first_name,first_name,32,0.5615079365079364,20,0.4222222222222222,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_first_name,joshua,32,0.5615079365079364,25,0.3444444444444444,0.0,0.0
+hasdescriptiveoccupation,blacksmith,relationship record,module:,33,0.6137539361223572,12,0.4142857142857143,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,37,0.5954248366013072,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_interagent_relationship_type_to,enslaver or owner,41,0.6037698412698412,15,0.3810457516339869,0.0,0.0
+hasdescriptiveoccupation,blacksmith,or,"owner"")",8,0.5138888888888888,0,0.0,0.0,0.0
+hasdescriptiveoccupation,blacksmith,is_relationship_to,agent,38,0.6264245014245015,27,0.5333333333333333,0.0,0.0
+hasdescriptiveoccupation,blacksmith,is_relationship_to,margaret lea houston,38,0.6264245014245015,27,0.5166666666666667,0.0,0.0
+hasdescriptiveoccupation,blacksmith,is_relationship_to,sam houston,38,0.6264245014245015,29,0.5045454545454545,0.0,0.0
+hasdescriptiveoccupation,blacksmith,lea,"houston""), is_relationship_to(joshua houston, ""sam houston"").",15,0.4166666666666667,17,0.4550091074681239,0.0,0.0
+hasdescriptiveoccupation,blacksmith,role record,module:,29,0.4873737373737373,12,0.4142857142857143,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_participant_role,participant_role_type,50,0.6805555555555555,26,0.44682539682539685,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_participant_role,construction worker,50,0.6805555555555555,21,0.4535087719298246,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_participant_role,delegate,50,0.6805555555555555,33,0.5583333333333333,0.0,0.0
+hasdescriptiveoccupation,blacksmith,record,module:,27,0.6138888888888889,12,0.4142857142857143,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_sex,sex_type,32,0.5742063492063493,22,0.4083333333333334,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_sex,male,32,0.5742063492063493,14,0.39999999999999997,0.0,0.0
+hasdescriptiveoccupation,blacksmith,record,module:,27,0.6138888888888889,12,0.4142857142857143,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_occupation,occupation,68,0.8045940170940171,20,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_occupation,slave,68,0.8045940170940171,27,0.5333333333333333,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_occupation,public office holder,68,0.8045940170940171,33,0.5166666666666667,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_occupation,delegate,68,0.8045940170940171,33,0.5583333333333333,0.0,0.0
+hasdescriptiveoccupation,blacksmith,office,"holder, delegate"").",13,0.4305555555555555,21,0.43508771929824563,0.0,0.0
+hasdescriptiveoccupation,blacksmith,record,module:,27,0.6138888888888889,12,0.4142857142857143,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_age,age,26,0.5793650793650794,15,0.4777777777777778,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_age,80,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_birthdate,date_of_birth,38,0.6286324786324786,35,0.5692307692307693,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_birthdate,1822,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_deathdate,date_of_death,43,0.652065527065527,26,0.5102564102564102,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_deathdate,1902,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,blacksmith,status record,module:,32,0.540954415954416,12,0.4142857142857143,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_person_status,enslaved person,39,0.6241830065359477,24,0.38888888888888884,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_person_status,freed person,39,0.6241830065359477,9,0.39444444444444443,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_status_generating_event,event,39,0.5815696649029983,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_status_generating_event,ownership by sam houston,39,0.5815696649029983,24,0.4361111111111111,0.0,0.0
+hasdescriptiveoccupation,blacksmith,has_status_generating_event,emancipation by sam houston in 1863,39,0.5815696649029983,22,0.5928571428571429,0.0,0.0
+hasdescriptiveoccupation,blacksmith,by sam,"houston""), has_status_generating_event(freed person, ""emancipation by sam houston in 1863"")",13,0.3055555555555555,12,0.38498168498168495,0.0,0.0
+hasdescriptiveoccupation,blacksmith,recorded_at,event,34,0.5202020202020202,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,blacksmith,recorded_at,ownership by sam houston,34,0.5202020202020202,24,0.4361111111111111,0.0,0.0
+hasdescriptiveoccupation,blacksmith,recorded_at,emancipation by sam houston in 1863,34,0.5202020202020202,22,0.5928571428571429,0.0,0.0
+hasdescriptiveoccupation,blacksmith,by sam,"houston""), recorded_at(freed person, ""emancipation by sam houston in 1863"").",13,0.3055555555555555,14,0.4545112781954887,0.0,0.0
+hasdescriptiveoccupation,carpenter,record,module:,27,0.6138888888888889,12,0.41798941798941797,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_name,name,25,0.5555555555555555,31,0.5740740740740741,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_name,joshua houston,25,0.5555555555555555,17,0.45502645502645506,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_surname,surname,34,0.5474386724386724,38,0.5052910052910052,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_surname,houston,34,0.5474386724386724,12,0.335978835978836,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_first_name,first_name,32,0.5615079365079364,32,0.5314814814814816,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_first_name,joshua,32,0.5615079365079364,13,0.0,0.0,0.0
+hasdescriptiveoccupation,carpenter,relationship record,module:,33,0.6137539361223572,12,0.41798941798941797,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,38,0.48322440087145974,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_interagent_relationship_type_to,enslaver or owner,41,0.6037698412698412,38,0.5620915032679737,0.0,0.0
+hasdescriptiveoccupation,carpenter,or,"owner"")",8,0.5138888888888888,38,0.4761904761904761,0.0,0.0
+hasdescriptiveoccupation,carpenter,is_relationship_to,agent,38,0.6264245014245015,57,0.7481481481481481,0.0,0.0
+hasdescriptiveoccupation,carpenter,is_relationship_to,margaret lea houston,38,0.6264245014245015,34,0.5444444444444444,0.0,0.0
+hasdescriptiveoccupation,carpenter,is_relationship_to,sam houston,38,0.6264245014245015,20,0.468013468013468,0.0,0.0
+hasdescriptiveoccupation,carpenter,lea,"houston""), is_relationship_to(joshua houston, ""sam houston"").",15,0.4166666666666667,11,0.47723132969034604,0.0,0.0
+hasdescriptiveoccupation,carpenter,role record,module:,29,0.4873737373737373,12,0.41798941798941797,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_participant_role,participant_role_type,50,0.6805555555555555,40,0.6316137566137566,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_participant_role,construction worker,50,0.6805555555555555,36,0.5395711500974659,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_participant_role,delegate,50,0.6805555555555555,35,0.5694444444444444,0.0,0.0
+hasdescriptiveoccupation,carpenter,record,module:,27,0.6138888888888889,12,0.41798941798941797,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_sex,sex_type,32,0.5742063492063493,35,0.5648148148148148,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_sex,male,32,0.5742063492063493,31,0.5740740740740741,0.0,0.0
+hasdescriptiveoccupation,carpenter,record,module:,27,0.6138888888888889,12,0.41798941798941797,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_occupation,occupation,68,0.8045940170940171,32,0.5518518518518518,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_occupation,slave,68,0.8045940170940171,29,0.5407407407407407,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_occupation,public office holder,68,0.8045940170940171,28,0.3833333333333333,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_occupation,delegate,68,0.8045940170940171,35,0.5694444444444444,0.0,0.0
+hasdescriptiveoccupation,carpenter,office,"holder, delegate"").",13,0.4305555555555555,29,0.38499025341130605,0.0,0.0
+hasdescriptiveoccupation,carpenter,record,module:,27,0.6138888888888889,12,0.41798941798941797,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_age,age,26,0.5793650793650794,33,0.6296296296296297,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_age,80,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_birthdate,date_of_birth,38,0.6286324786324786,36,0.5007122507122507,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_birthdate,1822,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_deathdate,date_of_death,43,0.652065527065527,27,0.5007122507122507,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_deathdate,1902,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,carpenter,status record,module:,32,0.540954415954416,12,0.41798941798941797,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_person_status,enslaved person,39,0.6241830065359477,33,0.5777777777777778,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_person_status,freed person,39,0.6241830065359477,38,0.5907407407407408,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_status_generating_event,event,39,0.5815696649029983,43,0.6444444444444445,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_status_generating_event,ownership by sam houston,39,0.5815696649029983,18,0.3703703703703704,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_status_generating_event,emancipation by sam houston in 1863,39,0.5815696649029983,18,0.5015873015873016,0.0,0.0
+hasdescriptiveoccupation,carpenter,by sam,"houston""), has_status_generating_event(freed person, ""emancipation by sam houston in 1863"")",13,0.3055555555555555,14,0.533933658933659,0.0,0.0
+hasdescriptiveoccupation,carpenter,recorded_at,event,34,0.5202020202020202,43,0.6444444444444445,0.0,0.0
+hasdescriptiveoccupation,carpenter,recorded_at,ownership by sam houston,34,0.5202020202020202,18,0.3703703703703704,0.0,0.0
+hasdescriptiveoccupation,carpenter,recorded_at,emancipation by sam houston in 1863,34,0.5202020202020202,18,0.5015873015873016,0.0,0.0
+hasdescriptiveoccupation,carpenter,by sam,"houston""), recorded_at(freed person, ""emancipation by sam houston in 1863"").",13,0.3055555555555555,16,0.5579922027290448,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,joshua houston,25,0.5555555555555555,21,0.5142857142857143,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,surname,34,0.5474386724386724,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,houston,34,0.5474386724386724,17,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,first_name,32,0.5615079365079364,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,joshua,32,0.5615079365079364,36,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,relationship record,module:,33,0.6137539361223572,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,27,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,enslaver or owner,41,0.6037698412698412,45,0.6313725490196078,0.0,0.0
+hasdescriptiveoccupation,slave,or,"owner"")",8,0.5138888888888888,17,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,agent,38,0.6264245014245015,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,margaret lea houston,38,0.6264245014245015,16,0.47222222222222215,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,sam houston,38,0.6264245014245015,25,0.5272727272727272,0.0,0.0
+hasdescriptiveoccupation,slave,lea,"houston""), is_relationship_to(joshua houston, ""sam houston"").",15,0.4166666666666667,9,0.5385245901639344,0.0,0.0
+hasdescriptiveoccupation,slave,role record,module:,29,0.4873737373737373,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,participant_role_type,50,0.6805555555555555,15,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,construction worker,50,0.6805555555555555,17,0.4175438596491228,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,delegate,50,0.6805555555555555,46,0.5472222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,sex_type,32,0.5742063492063493,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,male,32,0.5742063492063493,44,0.6722222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,slave,68,0.8045940170940171,100,1.0,0.0,1.0
+hasdescriptiveoccupation,slave,has_occupation,public office holder,68,0.8045940170940171,16,0.5,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,delegate,68,0.8045940170940171,46,0.5472222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,office,"holder, delegate"").",13,0.4305555555555555,25,0.5017543859649123,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,age,26,0.5793650793650794,50,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,80,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,date_of_birth,38,0.6286324786324786,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,1822,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,date_of_death,43,0.652065527065527,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,1902,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,enslaved person,39,0.6241830065359477,50,0.6444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,freed person,39,0.6241830065359477,12,0.42777777777777776,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,event,39,0.5815696649029983,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,ownership by sam houston,39,0.5815696649029983,14,0.3277777777777778,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,emancipation by sam houston in 1863,39,0.5815696649029983,10,0.4507936507936508,0.0,0.0
+hasdescriptiveoccupation,slave,by sam,"houston""), has_status_generating_event(freed person, ""emancipation by sam houston in 1863"")",13,0.3055555555555555,8,0.5313186813186813,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,event,34,0.5202020202020202,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,ownership by sam houston,34,0.5202020202020202,14,0.3277777777777778,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,emancipation by sam houston in 1863,34,0.5202020202020202,10,0.4507936507936508,0.0,0.0
+hasdescriptiveoccupation,slave,by sam,"houston""), recorded_at(freed person, ""emancipation by sam houston in 1863"").",13,0.3055555555555555,7,0.4353801169590643,0.0,0.0
+hasdescriptiveoccupation,county official,record,module:,27,0.6138888888888889,27,0.47301587301587295,0.0,0.0
+hasdescriptiveoccupation,county official,has_name,name,25,0.5555555555555555,21,0.4388888888888889,0.0,0.0
+hasdescriptiveoccupation,county official,has_name,joshua houston,25,0.5555555555555555,28,0.5174603174603175,0.0,0.0
+hasdescriptiveoccupation,county official,has_surname,surname,34,0.5474386724386724,27,0.47301587301587295,0.0,0.0
+hasdescriptiveoccupation,county official,has_surname,houston,34,0.5474386724386724,36,0.6158730158730159,0.0,0.0
+hasdescriptiveoccupation,county official,has_first_name,first_name,32,0.5615079365079364,24,0.38888888888888884,0.0,0.0
+hasdescriptiveoccupation,county official,has_first_name,joshua,32,0.5615079365079364,29,0.48888888888888893,0.0,0.0
+hasdescriptiveoccupation,county official,relationship record,module:,33,0.6137539361223572,27,0.47301587301587295,0.0,0.0
+hasdescriptiveoccupation,county official,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,25,0.40915032679738567,0.0,0.0
+hasdescriptiveoccupation,county official,has_interagent_relationship_type_to,enslaver or owner,41,0.6037698412698412,19,0.4588235294117647,0.0,0.0
+hasdescriptiveoccupation,county official,or,"owner"")",8,0.5138888888888888,18,0.47301587301587295,0.0,0.0
+hasdescriptiveoccupation,county official,is_relationship_to,agent,38,0.6264245014245015,20,0.5111111111111111,0.0,0.0
+hasdescriptiveoccupation,county official,is_relationship_to,margaret lea houston,38,0.6264245014245015,23,0.3944444444444444,0.0,0.0
+hasdescriptiveoccupation,county official,is_relationship_to,sam houston,38,0.6264245014245015,31,0.46262626262626255,0.0,0.0
+hasdescriptiveoccupation,county official,lea,"houston""), is_relationship_to(joshua houston, ""sam houston"").",15,0.4166666666666667,18,0.5102003642987248,0.0,0.0
+hasdescriptiveoccupation,county official,role record,module:,29,0.4873737373737373,27,0.47301587301587295,0.0,0.0
+hasdescriptiveoccupation,county official,has_participant_role,participant_role_type,50,0.6805555555555555,33,0.513095238095238,0.0,0.0
+hasdescriptiveoccupation,county official,has_participant_role,construction worker,50,0.6805555555555555,35,0.5801169590643275,0.0,0.0
+hasdescriptiveoccupation,county official,has_participant_role,delegate,50,0.6805555555555555,9,0.3972222222222222,0.0,0.0
+hasdescriptiveoccupation,county official,record,module:,27,0.6138888888888889,27,0.47301587301587295,0.0,0.0
+hasdescriptiveoccupation,county official,has_sex,sex_type,32,0.5742063492063493,17,0.4611111111111111,0.0,0.0
+hasdescriptiveoccupation,county official,has_sex,male,32,0.5742063492063493,21,0.0,0.0,0.0
+hasdescriptiveoccupation,county official,record,module:,27,0.6138888888888889,27,0.47301587301587295,0.0,0.0
+hasdescriptiveoccupation,county official,has_occupation,occupation,68,0.8045940170940171,32,0.626984126984127,0.0,0.0
+hasdescriptiveoccupation,county official,has_occupation,slave,68,0.8045940170940171,10,0.0,0.0,0.0
+hasdescriptiveoccupation,county official,has_occupation,public office holder,68,0.8045940170940171,46,0.7005050505050505,0.0,0.0
+hasdescriptiveoccupation,county official,has_occupation,delegate,68,0.8045940170940171,9,0.3972222222222222,0.0,0.0
+hasdescriptiveoccupation,county official,office,"holder, delegate"").",13,0.4305555555555555,18,0.4090643274853801,0.0,0.0
+hasdescriptiveoccupation,county official,record,module:,27,0.6138888888888889,27,0.47301587301587295,0.0,0.0
+hasdescriptiveoccupation,county official,has_age,age,26,0.5793650793650794,11,0.0,0.0,0.0
+hasdescriptiveoccupation,county official,has_age,80,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,county official,has_birthdate,date_of_birth,38,0.6286324786324786,29,0.44145299145299144,0.0,0.0
+hasdescriptiveoccupation,county official,has_birthdate,1822,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,county official,has_deathdate,date_of_death,43,0.652065527065527,29,0.44145299145299144,0.0,0.0
+hasdescriptiveoccupation,county official,has_deathdate,1902,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,county official,status record,module:,32,0.540954415954416,27,0.47301587301587295,0.0,0.0
+hasdescriptiveoccupation,county official,has_person_status,enslaved person,39,0.6241830065359477,20,0.4666666666666666,0.0,0.0
+hasdescriptiveoccupation,county official,has_person_status,freed person,39,0.6241830065359477,15,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,county official,has_status_generating_event,event,39,0.5815696649029983,20,0.5111111111111111,0.0,0.0
+hasdescriptiveoccupation,county official,has_status_generating_event,ownership by sam houston,39,0.5815696649029983,26,0.4908730158730159,0.0,0.0
+hasdescriptiveoccupation,county official,has_status_generating_event,emancipation by sam houston in 1863,39,0.5815696649029983,28,0.5174603174603174,0.0,0.0
+hasdescriptiveoccupation,county official,by sam,"houston""), has_status_generating_event(freed person, ""emancipation by sam houston in 1863"")",13,0.3055555555555555,17,0.4551892551892552,0.0,0.0
+hasdescriptiveoccupation,county official,recorded_at,event,34,0.5202020202020202,20,0.5111111111111111,0.0,0.0
+hasdescriptiveoccupation,county official,recorded_at,ownership by sam houston,34,0.5202020202020202,26,0.4908730158730159,0.0,0.0
+hasdescriptiveoccupation,county official,recorded_at,emancipation by sam houston in 1863,34,0.5202020202020202,28,0.5174603174603174,0.0,0.0
+hasdescriptiveoccupation,county official,by sam,"houston""), recorded_at(freed person, ""emancipation by sam houston in 1863"").",13,0.3055555555555555,20,0.5415204678362574,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,record,module:,27,0.6138888888888889,15,0.4871148459383754,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_name,name,25,0.5555555555555555,16,0.6127450980392157,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_name,joshua houston,25,0.5555555555555555,33,0.48770619358854655,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_surname,surname,34,0.5474386724386724,24,0.553781512605042,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_surname,houston,34,0.5474386724386724,20,0.5667600373482725,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_first_name,first_name,32,0.5615079365079364,27,0.5400560224089636,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_first_name,joshua,32,0.5615079365079364,15,0.511437908496732,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,relationship record,module:,33,0.6137539361223572,15,0.4871148459383754,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,24,0.49411764705882355,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_interagent_relationship_type_to,enslaver or owner,41,0.6037698412698412,39,0.6029411764705882,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,or,"owner"")",8,0.5138888888888888,20,0.4796918767507003,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,is_relationship_to,agent,38,0.6264245014245015,21,0.4516339869281046,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,is_relationship_to,margaret lea houston,38,0.6264245014245015,26,0.5372549019607843,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,is_relationship_to,sam houston,38,0.6264245014245015,31,0.4875222816399287,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,lea,"houston""), is_relationship_to(joshua houston, ""sam houston"").",15,0.4166666666666667,34,0.5747749919639987,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,role record,module:,29,0.4873737373737373,15,0.4871148459383754,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_participant_role,participant_role_type,50,0.6805555555555555,29,0.5581232492997199,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_participant_role,construction worker,50,0.6805555555555555,49,0.5862903865999841,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_participant_role,delegate,50,0.6805555555555555,24,0.37254901960784315,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,record,module:,27,0.6138888888888889,15,0.4871148459383754,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_sex,sex_type,32,0.5742063492063493,14,0.48774509803921573,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_sex,male,32,0.5742063492063493,16,0.6127450980392157,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,record,module:,27,0.6138888888888889,15,0.4871148459383754,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_occupation,occupation,68,0.8045940170940171,23,0.49243697478991594,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_occupation,slave,68,0.8045940170940171,15,0.5558823529411765,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_occupation,public office holder,68,0.8045940170940171,30,0.5236048265460029,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_occupation,delegate,68,0.8045940170940171,24,0.37254901960784315,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,office,"holder, delegate"").",13,0.4305555555555555,38,0.4734778121775025,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,record,module:,27,0.6138888888888889,15,0.4871148459383754,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_age,age,26,0.5793650793650794,11,0.4542483660130719,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_age,80,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_birthdate,date_of_birth,38,0.6286324786324786,21,0.5412267471091,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_birthdate,1822,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_deathdate,date_of_death,43,0.652065527065527,30,0.5335595776772247,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_deathdate,1902,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,status record,module:,32,0.540954415954416,15,0.4871148459383754,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_person_status,enslaved person,39,0.6241830065359477,29,0.5644087938205585,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_person_status,freed person,39,0.6241830065359477,22,0.5089869281045751,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_status_generating_event,event,39,0.5815696649029983,21,0.4862745098039216,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_status_generating_event,ownership by sam houston,39,0.5815696649029983,31,0.5665849673202614,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,has_status_generating_event,emancipation by sam houston in 1863,39,0.5815696649029983,38,0.5777532065457762,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,by sam,"houston""), has_status_generating_event(freed person, ""emancipation by sam houston in 1863"")",13,0.3055555555555555,29,0.5744488776943137,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,recorded_at,event,34,0.5202020202020202,21,0.4862745098039216,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,recorded_at,ownership by sam houston,34,0.5202020202020202,31,0.5665849673202614,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,recorded_at,emancipation by sam houston in 1863,34,0.5202020202020202,38,0.5777532065457762,0.0,0.0
+hasdescriptiveoccupation,institutional founder / benefactor,by sam,"houston""), recorded_at(freed person, ""emancipation by sam houston in 1863"").",13,0.3055555555555555,31,0.5683121201697053,0.0,0.0
+hasfirstname,joshua,record,module:,22,0.4166666666666667,31,0.5396825396825397,0.0,0.0
+hasfirstname,joshua,has_name,name,70,0.8736111111111112,20,0.0,0.0,0.0
+hasfirstname,joshua,has_name,joshua houston,70,0.8736111111111112,60,0.8857142857142858,0.0,0.5797386715376658
+hasfirstname,joshua,has_surname,surname,70,0.8733164983164984,46,0.5396825396825397,0.0,0.0
+hasfirstname,joshua,has_surname,houston,70,0.8733164983164984,31,0.5317460317460317,0.0,0.0
+hasfirstname,joshua,has_first_name,first_name,92,0.9666666666666667,25,0.5111111111111111,0.0,0.0
+hasfirstname,joshua,has_first_name,joshua,92,0.9666666666666667,100,1.0,0.0,1.0
+hasfirstname,joshua,relationship record,module:,32,0.5077276524644946,31,0.5396825396825397,0.0,0.0
+hasfirstname,joshua,has_interagent_relationship_type_to,relationship_type,34,0.5949735449735449,26,0.46732026143790845,0.0,0.0
+hasfirstname,joshua,has_interagent_relationship_type_to,enslaver or owner,34,0.5949735449735449,17,0.48366013071895425,0.0,0.0
+hasfirstname,joshua,or,"owner"")",14,0.5277777777777778,15,0.4365079365079365,0.0,0.0
+hasfirstname,joshua,is_relationship_to,agent,27,0.6203703703703703,18,0.0,0.0,0.0
+hasfirstname,joshua,is_relationship_to,margaret lea houston,27,0.6203703703703703,15,0.4055555555555556,0.0,0.0
+hasfirstname,joshua,is_relationship_to,sam houston,27,0.6203703703703703,35,0.6292929292929292,0.0,0.0
+hasfirstname,joshua,lea,"houston""), is_relationship_to(joshua houston, ""sam houston"").",13,0.47222222222222215,18,0.5051001821493625,0.0,0.20975539627821693
+hasfirstname,joshua,role record,module:,17,0.44949494949494956,31,0.5396825396825397,0.0,0.0
+hasfirstname,joshua,has_participant_role,participant_role_type,44,0.6962962962962962,7,0.4047619047619047,0.0,0.0
+hasfirstname,joshua,has_participant_role,construction worker,44,0.6962962962962962,24,0.5526315789473685,0.0,0.0
+hasfirstname,joshua,has_participant_role,delegate,44,0.6962962962962962,14,0.4305555555555555,0.0,0.0
+hasfirstname,joshua,record,module:,22,0.4166666666666667,31,0.5396825396825397,0.0,0.0
+hasfirstname,joshua,has_sex,sex_type,53,0.6349206349206349,14,0.4305555555555555,0.0,0.0
+hasfirstname,joshua,has_sex,male,53,0.6349206349206349,20,0.0,0.0,0.0
+hasfirstname,joshua,record,module:,22,0.4166666666666667,31,0.5396825396825397,0.0,0.0
+hasfirstname,joshua,has_occupation,occupation,38,0.5873015873015873,38,0.6,0.0,0.0
+hasfirstname,joshua,has_occupation,slave,38,0.5873015873015873,36,0.45555555555555555,0.0,0.0
+hasfirstname,joshua,has_occupation,public office holder,38,0.5873015873015873,15,0.3111111111111111,0.0,0.0
+hasfirstname,joshua,has_occupation,delegate,38,0.5873015873015873,14,0.4305555555555555,0.0,0.0
+hasfirstname,joshua,office,"holder, delegate"").",33,0.5,16,0.44152046783625726,0.0,0.0
+hasfirstname,joshua,record,module:,22,0.4166666666666667,31,0.5396825396825397,0.0,0.0
+hasfirstname,joshua,has_age,age,53,0.7972222222222223,22,0.0,0.0,0.0
+hasfirstname,joshua,has_age,80,53,0.7972222222222223,0,0.0,0.0,0.0
+hasfirstname,joshua,has_birthdate,date_of_birth,64,0.8324786324786324,21,0.32905982905982906,0.0,0.0
+hasfirstname,joshua,has_birthdate,1822,64,0.8324786324786324,0,0.0,0.0,0.0
+hasfirstname,joshua,has_deathdate,date_of_death,48,0.5982905982905983,21,0.32905982905982906,0.0,0.0
+hasfirstname,joshua,has_deathdate,1902,48,0.5982905982905983,0,0.0,0.0,0.0
+hasfirstname,joshua,status record,module:,32,0.5427350427350427,31,0.5396825396825397,0.0,0.0
+hasfirstname,joshua,has_person_status,enslaved person,48,0.6857298474945533,19,0.48888888888888893,0.0,0.0
+hasfirstname,joshua,has_person_status,freed person,48,0.6857298474945533,11,0.0,0.0,0.0
+hasfirstname,joshua,has_status_generating_event,event,41,0.5833333333333334,0,0.0,0.0,0.0
+hasfirstname,joshua,has_status_generating_event,ownership by sam houston,41,0.5833333333333334,27,0.611111111111111,0.0,0.0
+hasfirstname,joshua,has_status_generating_event,emancipation by sam houston in 1863,41,0.5833333333333334,20,0.4174603174603175,0.0,0.0
+hasfirstname,joshua,by sam,"houston""), has_status_generating_event(freed person, ""emancipation by sam houston in 1863"")",33,0.47222222222222215,10,0.4960927960927961,0.0,0.0
+hasfirstname,joshua,recorded_at,event,17,0.4823232323232323,0,0.0,0.0,0.0
+hasfirstname,joshua,recorded_at,ownership by sam houston,17,0.4823232323232323,27,0.611111111111111,0.0,0.0
+hasfirstname,joshua,recorded_at,emancipation by sam houston in 1863,17,0.4823232323232323,20,0.4174603174603175,0.0,0.0
+hasfirstname,joshua,by sam,"houston""), recorded_at(freed person, ""emancipation by sam houston in 1863"").",33,0.47222222222222215,10,0.49970760233918127,0.0,0.0
+hassurname,houston,record,module:,25,0.4222222222222222,29,0.5238095238095238,0.0,0.0
+hassurname,houston,has_name,name,78,0.9008333333333334,18,0.0,0.0,0.0
+hassurname,houston,has_name,joshua houston,78,0.9008333333333334,67,0.557142857142857,0.0,0.5797386715376658
+hassurname,houston,has_surname,surname,95,0.9787878787878788,29,0.42857142857142855,0.0,0.0
+hassurname,houston,has_surname,houston,95,0.9787878787878788,100,1.0,0.0,1.0
+hassurname,houston,has_first_name,first_name,67,0.8674074074074074,35,0.5761904761904763,0.0,0.0
+hassurname,houston,has_first_name,joshua,67,0.8674074074074074,31,0.5317460317460317,0.0,0.0
+hassurname,houston,relationship record,module:,28,0.4543859649122807,29,0.5238095238095238,0.0,0.0
+hassurname,houston,has_interagent_relationship_type_to,relationship_type,31,0.5380952380952381,25,0.43557422969187676,0.0,0.0
+hassurname,houston,has_interagent_relationship_type_to,enslaver or owner,31,0.5380952380952381,25,0.4239028944911298,0.0,0.0
+hassurname,houston,or,"owner"")",17,0.5333333333333333,29,0.42857142857142855,0.0,0.0
+hassurname,houston,is_relationship_to,agent,21,0.5333333333333333,17,0.44761904761904764,0.0,0.0
+hassurname,houston,is_relationship_to,margaret lea houston,21,0.5333333333333333,52,0.4619047619047619,0.0,0.4494364165239821
+hassurname,houston,is_relationship_to,sam houston,21,0.5333333333333333,78,0.7835497835497836,0.0,0.5797386715376658
+hassurname,houston,lea,"houston""), is_relationship_to(joshua houston, ""sam houston"").",15,0.4777777777777778,21,0.8229508196721311,0.0,0.7765145304745155
+hassurname,houston,role record,module:,19,0.46060606060606063,29,0.5238095238095238,0.0,0.0
+hassurname,houston,has_participant_role,participant_role_type,40,0.5777777777777778,14,0.41269841269841273,0.0,0.0
+hassurname,houston,has_participant_role,construction worker,40,0.5777777777777778,38,0.6687552213868003,0.0,0.0
+hassurname,houston,has_participant_role,delegate,40,0.5777777777777778,13,0.4226190476190476,0.0,0.0
+hassurname,houston,record,module:,25,0.4222222222222222,29,0.5238095238095238,0.0,0.0
+hassurname,houston,has_sex,sex_type,59,0.8166666666666667,27,0.5119047619047619,0.0,0.0
+hassurname,houston,has_sex,male,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,houston,record,module:,25,0.4222222222222222,29,0.5238095238095238,0.0,0.0
+hassurname,houston,has_occupation,occupation,42,0.6190476190476191,59,0.7380952380952381,0.0,0.0
+hassurname,houston,has_occupation,slave,42,0.6190476190476191,17,0.0,0.0,0.0
+hassurname,houston,has_occupation,public office holder,42,0.6190476190476191,15,0.29523809523809524,0.0,0.0
+hassurname,houston,has_occupation,delegate,42,0.6190476190476191,13,0.4226190476190476,0.0,0.0
+hassurname,houston,office,"holder, delegate"").",12,0.4222222222222222,23,0.46365914786967416,0.0,0.0
+hassurname,houston,record,module:,25,0.4222222222222222,29,0.5238095238095238,0.0,0.0
+hassurname,houston,has_age,age,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,houston,has_age,80,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,houston,has_birthdate,date_of_birth,52,0.6871794871794871,20,0.3131868131868132,0.0,0.0
+hassurname,houston,has_birthdate,1822,52,0.6871794871794871,0,0.0,0.0,0.0
+hassurname,houston,has_deathdate,date_of_death,43,0.5615384615384615,20,0.3131868131868132,0.0,0.0
+hassurname,houston,has_deathdate,1902,43,0.5615384615384615,0,0.0,0.0,0.0
+hassurname,houston,status record,module:,35,0.5760683760683761,29,0.5238095238095238,0.0,0.0
+hassurname,houston,has_person_status,enslaved person,44,0.6735294117647058,27,0.3063492063492063,0.0,0.0
+hassurname,houston,has_person_status,freed person,44,0.6735294117647058,32,0.48412698412698413,0.0,0.0
+hassurname,houston,has_status_generating_event,event,43,0.6703703703703704,17,0.44761904761904764,0.0,0.0
+hassurname,houston,has_status_generating_event,ownership by sam houston,43,0.6703703703703704,45,0.49603174603174605,0.0,0.3799783615910079
+hassurname,houston,has_status_generating_event,emancipation by sam houston in 1863,43,0.6703703703703704,33,0.48571428571428577,0.0,0.3032160644503863
+hassurname,houston,by sam,"houston""), has_status_generating_event(freed person, ""emancipation by sam houston in 1863"")",38,0.48888888888888893,14,0.6923076923076922,0.0,0.4494364165239821
+hassurname,houston,recorded_at,event,19,0.41313131313131307,17,0.44761904761904764,0.0,0.0
+hassurname,houston,recorded_at,ownership by sam houston,19,0.41313131313131307,45,0.49603174603174605,0.0,0.3799783615910079
+hassurname,houston,recorded_at,emancipation by sam houston in 1863,19,0.41313131313131307,33,0.48571428571428577,0.0,0.3032160644503863
+hassurname,houston,by sam,"houston""), recorded_at(freed person, ""emancipation by sam houston in 1863"").",38,0.48888888888888893,17,0.6973684210526315,0.0,0.4494364165239821
+hasname,joshua houston,record,module:,15,0.0,19,0.4761904761904762,0.0,0.0
+hasname,joshua houston,has_name,name,93,0.9708333333333333,11,0.44047619047619047,0.0,0.0
+hasname,joshua houston,has_name,joshua houston,93,0.9708333333333333,100,1.0,0.0,1.0000000000000002
+hasname,joshua houston,has_surname,surname,78,0.9151515151515152,29,0.5476190476190476,0.0,0.0
+hasname,joshua houston,has_surname,houston,78,0.9151515151515152,67,0.557142857142857,0.0,0.5797386715376658
+hasname,joshua houston,has_first_name,first_name,67,0.5476190476190476,25,0.44761904761904764,0.0,0.0
+hasname,joshua houston,has_first_name,joshua,67,0.5476190476190476,60,0.8857142857142858,0.0,0.5797386715376658
+hasname,joshua houston,relationship record,module:,23,0.5106516290726817,19,0.4761904761904762,0.0,0.0
+hasname,joshua houston,has_interagent_relationship_type_to,relationship_type,29,0.6206349206349207,26,0.4271708683473389,0.0,0.0
+hasname,joshua houston,has_interagent_relationship_type_to,enslaver or owner,29,0.6206349206349207,39,0.5938375350140056,0.0,0.0
+hasname,joshua houston,or,"owner"")",0,0.0,19,0.4047619047619047,0.0,0.0
+hasname,joshua houston,is_relationship_to,agent,16,0.43121693121693117,21,0.4238095238095238,0.0,0.0
+hasname,joshua houston,is_relationship_to,margaret lea houston,16,0.43121693121693117,53,0.5865079365079365,0.0,0.2605556710562624
+hasname,joshua houston,is_relationship_to,sam houston,16,0.43121693121693117,80,0.7411255411255411,0.0,0.33609692727625756
+hasname,joshua houston,lea,"houston""), is_relationship_to(joshua houston, ""sam houston"").",20,0.4920634920634921,37,0.5600492403771092,0.0,0.7572644142929534
+hasname,joshua houston,role record,module:,11,0.41125541125541126,19,0.4761904761904762,0.0,0.0
+hasname,joshua houston,has_participant_role,participant_role_type,37,0.5904761904761905,17,0.4087301587301588,0.0,0.0
+hasname,joshua houston,has_participant_role,construction worker,37,0.5904761904761905,36,0.5808270676691729,0.0,0.0
+hasname,joshua houston,has_participant_role,delegate,37,0.5904761904761905,18,0.46428571428571425,0.0,0.0
+hasname,joshua houston,record,module:,15,0.0,19,0.4761904761904762,0.0,0.0
+hasname,joshua houston,has_sex,sex_type,57,0.8,18,0.3988095238095238,0.0,0.0
+hasname,joshua houston,has_sex,male,57,0.8,11,0.44047619047619047,0.0,0.0
+hasname,joshua houston,record,module:,15,0.0,19,0.4761904761904762,0.0,0.0
+hasname,joshua houston,has_occupation,occupation,38,0.6190476190476191,50,0.6206349206349207,0.0,0.0
+hasname,joshua houston,has_occupation,slave,38,0.6190476190476191,21,0.5142857142857143,0.0,0.0
+hasname,joshua houston,has_occupation,public office holder,38,0.6190476190476191,24,0.4690476190476191,0.0,0.0
+hasname,joshua houston,has_occupation,delegate,38,0.6190476190476191,18,0.46428571428571425,0.0,0.0
+hasname,joshua houston,office,"holder, delegate"").",15,0.4365079365079365,18,0.4067669172932331,0.0,0.0
+hasname,joshua houston,record,module:,15,0.0,19,0.4761904761904762,0.0,0.0
+hasname,joshua houston,has_age,age,71,0.8666666666666668,12,0.4682539682539682,0.0,0.0
+hasname,joshua houston,has_age,80,71,0.8666666666666668,0,0.0,0.0,0.0
+hasname,joshua houston,has_birthdate,date_of_birth,50,0.553113553113553,22,0.3644688644688645,0.0,0.0
+hasname,joshua houston,has_birthdate,1822,50,0.553113553113553,0,0.0,0.0,0.0
+hasname,joshua houston,has_deathdate,date_of_death,50,0.632967032967033,22,0.3644688644688645,0.0,0.0
+hasname,joshua houston,has_deathdate,1902,50,0.632967032967033,0,0.0,0.0,0.0
+hasname,joshua houston,status record,module:,30,0.442002442002442,19,0.4761904761904762,0.0,0.0
+hasname,joshua houston,has_person_status,enslaved person,42,0.6028011204481792,41,0.5539682539682539,0.0,0.0
+hasname,joshua houston,has_person_status,freed person,42,0.6028011204481792,31,0.45634920634920634,0.0,0.0
+hasname,joshua houston,has_status_generating_event,event,35,0.6375661375661376,11,0.0,0.0,0.0
+hasname,joshua houston,has_status_generating_event,ownership by sam houston,35,0.6375661375661376,63,0.6468253968253969,0.0,0.22028815056182974
+hasname,joshua houston,has_status_generating_event,emancipation by sam houston in 1863,35,0.6375661375661376,45,0.5484848484848485,0.0,0.1757860783933462
+hasname,joshua houston,by sam,"houston""), has_status_generating_event(freed person, ""emancipation by sam houston in 1863"")",46,0.6428571428571429,25,0.5366300366300366,0.0,0.2605556710562624
+hasname,joshua houston,recorded_at,event,11,0.41125541125541126,11,0.0,0.0,0.0
+hasname,joshua houston,recorded_at,ownership by sam houston,11,0.41125541125541126,63,0.6468253968253969,0.0,0.22028815056182974
+hasname,joshua houston,recorded_at,emancipation by sam houston in 1863,11,0.41125541125541126,45,0.5484848484848485,0.0,0.1757860783933462
+hasname,joshua houston,by sam,"houston""), recorded_at(freed person, ""emancipation by sam houston in 1863"").",46,0.6428571428571429,24,0.49196855775803144,0.0,0.2605556710562624
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,record,module:,30,0.48412698412698413,6,0.4523402523402524,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_name,name,36,0.5952380952380952,7,0.5947293447293448,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_name,joshua houston,36,0.5952380952380952,20,0.4621489621489621,0.0,0.10152852403842219
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_surname,surname,48,0.6168831168831169,10,0.4694749694749694,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_surname,houston,48,0.6168831168831169,11,0.525030525030525,0.0,0.1751280861929285
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_first_name,first_name,43,0.6726190476190476,13,0.5478632478632478,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_first_name,joshua,43,0.6726190476190476,8,0.4836182336182336,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,relationship record,module:,30,0.6135338345864662,6,0.4523402523402524,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_interagent_relationship_type_to,relationship_type,37,0.5666666666666667,19,0.4639265962795374,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_interagent_relationship_type_to,enslaver or owner,37,0.5666666666666667,24,0.546809535780124,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,or,"owner"")",12,0.5238095238095238,6,0.4518722018722019,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,is_relationship_to,agent,44,0.6474266474266474,7,0.5280626780626781,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,is_relationship_to,margaret lea houston,44,0.6474266474266474,25,0.517948717948718,0.0,0.07870893949125285
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,is_relationship_to,sam houston,44,0.6474266474266474,17,0.5315203315203315,0.0,0.25145803742726686
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,lea,"houston""), is_relationship_to(joshua houston, ""sam houston"").",12,0.4365079365079365,37,0.49135097797738,0.0,0.19042022343161477
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,role record,module:,24,0.46645021645021645,6,0.4523402523402524,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_participant_role,participant_role_type,47,0.6876623376623376,17,0.44851444851444855,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_participant_role,construction worker,47,0.6876623376623376,18,0.5058929374718848,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_participant_role,delegate,47,0.6876623376623376,11,0.502085877085877,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,record,module:,30,0.48412698412698413,6,0.4523402523402524,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_sex,sex_type,38,0.6238095238095238,8,0.3447293447293447,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_sex,male,38,0.6238095238095238,7,0.5113960113960114,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,record,module:,30,0.48412698412698413,6,0.4523402523402524,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_occupation,occupation,64,0.8074074074074075,13,0.4393162393162393,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_occupation,slave,64,0.8074074074074075,8,0.5475783475783476,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_occupation,public office holder,64,0.8074074074074075,20,0.5205840455840456,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_occupation,delegate,64,0.8074074074074075,11,0.502085877085877,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,office,"holder, delegate"").",10,0.4603174603174603,21,0.5058929374718848,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,record,module:,30,0.48412698412698413,6,0.4523402523402524,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_age,age,38,0.6190476190476191,3,0.3945868945868946,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_age,80,38,0.6190476190476191,0,0.0,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_birthdate,date_of_birth,37,0.6318681318681318,14,0.5255115255115256,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_birthdate,1822,37,0.6318681318681318,2,0.4195156695156695,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_deathdate,date_of_death,44,0.63003663003663,17,0.5255115255115256,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_deathdate,1902,44,0.63003663003663,2,0.4195156695156695,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,status record,module:,37,0.5366300366300366,6,0.4523402523402524,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_person_status,enslaved person,45,0.6675070028011204,21,0.5176638176638176,0.0,0.10152852403842219
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_person_status,freed person,45,0.6675070028011204,17,0.549015799015799,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_status_generating_event,event,39,0.5476190476190476,8,0.5475783475783476,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_status_generating_event,ownership by sam houston,39,0.5476190476190476,33,0.5419719169719169,0.0,0.24291930534577907
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,has_status_generating_event,emancipation by sam houston in 1863,39,0.5476190476190476,32,0.5250101750101751,0.0,0.1813613394793215
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,by sam,"houston""), has_status_generating_event(freed person, ""emancipation by sam houston in 1863"")",10,0.3253968253968254,43,0.6203840382944861,0.0,0.17098911065453837
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,recorded_at,event,32,0.47056277056277057,8,0.5475783475783476,0.0,0.0
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,recorded_at,ownership by sam houston,32,0.47056277056277057,33,0.5419719169719169,0.0,0.24291930534577907
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,recorded_at,emancipation by sam houston in 1863,32,0.47056277056277057,32,0.5250101750101751,0.0,0.1813613394793215
+hasdescription,born enslaved. free before 13th amendment. a skilled tradesman and school founder who was emancipated by sam houston.,by sam,"houston""), recorded_at(freed person, ""emancipation by sam houston in 1863"").",10,0.3253968253968254,46,0.6313637001243113,0.0,0.17098911065453837

@@ -1,0 +1,657 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,george freeman bragg,32,0.537878787878788,23,0.5388888888888889,0.0,0.0
+instance of,person,freeman,"bragg, 'george freeman bragg')",22,0.45598845598845594,17,0.4222222222222222,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,bragg,27,0.49242424242424243,18,0.45555555555555555,0.0,0.0
+instance of,person,freeman,"bragg, 'bragg')",22,0.45598845598845594,10,0.41111111111111115,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,george,40,0.5692640692640693,33,0.5555555555555555,0.0,0.0
+instance of,person,freeman,"bragg, 'george')",22,0.45598845598845594,18,0.4861111111111111,0.0,0.0
+instance of,person,has_alternate_name,alternate_name,34,0.5107744107744108,30,0.5714285714285715,0.0,0.0
+instance of,person,has_alternate_name,george freeman bragg,34,0.5107744107744108,23,0.5388888888888889,0.0,0.0
+instance of,person,freeman,"bragg, 'george freeman bragg')",22,0.45598845598845594,17,0.4222222222222222,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type,relationship_type,33,0.5340909090909091,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type,founder,33,0.5340909090909091,31,0.4365079365079365,0.0,0.0
+instance of,person,freeman,"bragg, 'founder')",22,0.45598845598845594,26,0.5588235294117647,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,w. e. b. dubois,34,0.5798460798460798,19,0.41111111111111115,0.0,0.0
+instance of,person,freeman,"bragg, 'w. e. b. dubois')",22,0.45598845598845594,13,0.30444444444444446,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,male,22,0.45598845598845594,20,0.47222222222222215,0.0,0.0
+instance of,person,freeman,"bragg, 'male')",22,0.45598845598845594,10,0.41269841269841273,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,educator,24,0.38311688311688313,29,0.5277777777777778,0.0,0.0
+instance of,person,has_occupation,minister,24,0.38311688311688313,29,0.3611111111111111,0.0,0.0
+instance of,person,has_occupation,writer,24,0.38311688311688313,33,0.4444444444444444,0.0,0.0
+instance of,person,has_occupation,and activist,24,0.38311688311688313,11,0.4166666666666667,0.0,0.0
+instance of,person,freeman,"bragg, 'educator, minister, writer, and activist')",22,0.45598845598845594,14,0.5111111111111111,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_age,77,33,0.45598845598845594,0,0.0,0.0,0.0
+instance of,person,freeman,"bragg, 77) (note: the age is calculated based on the death date march 12, 1940)",22,0.45598845598845594,9,0.49887482419127993,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_birthdate,unknown,33,0.5463869463869464,31,0.373015873015873,0.0,0.0
+instance of,person,freeman,"bragg, 'unknown')",22,0.45598845598845594,26,0.48366013071895425,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,march 12,33,0.39044289044289043,14,0.4305555555555555,0.0,0.0
+instance of,person,has_deathdate,1940,33,0.39044289044289043,0,0.0,0.0,0.0
+instance of,person,freeman,"bragg, 'march 12, 1940')",22,0.45598845598845594,7,0.40277777777777773,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,minister,29,0.449554367201426,29,0.3611111111111111,0.0,0.0
+instance of,person,has_person_status,educator,29,0.449554367201426,29,0.5277777777777778,0.0,0.0
+instance of,person,has_person_status,writer,29,0.449554367201426,33,0.4444444444444444,0.0,0.0
+instance of,person,has_person_status,and activist,29,0.449554367201426,11,0.4166666666666667,0.0,0.0
+instance of,person,freeman,"bragg, 'minister, educator, writer, and activist')",22,0.45598845598845594,14,0.5111111111111111,0.0,0.0
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,consecration,26,0.4799102132435466,44,0.6166666666666667,0.0,0.0
+instance of,person,has_status_generating_event,unknown,26,0.4799102132435466,31,0.373015873015873,0.0,0.0
+instance of,person,recorded_at,event,18,0.4545454545454546,36,0.5777777777777778,0.0,0.0
+instance of,person,recorded_at,unknown,18,0.4545454545454546,31,0.373015873015873,0.0,0.0
+instance of,person,recorded_at,unknown,18,0.4545454545454546,31,0.373015873015873,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,african-american,36,0.5162210338680927,27,0.4861111111111111,0.0,0.0
+instance of,person,freeman,"bragg, african-american)",22,0.45598845598845594,20,0.47222222222222215,0.0,0.0
+instance of,person,descriptor record,module:,29,0.5398523045581869,15,0.0,0.0,0.0
+instance of,person,has_ethnolinguistic_descriptor,ethnolinguistic_descriptor,34,0.5579124579124579,19,0.5235042735042735,0.0,0.0
+instance of,person,has_ethnolinguistic_descriptor,english-american,34,0.5579124579124579,27,0.45138888888888884,0.0,0.0
+instance of,person,freeman,"bragg, english-american)",22,0.45598845598845594,20,0.4444444444444444,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,minister,29,0.449554367201426,29,0.3611111111111111,0.0,0.0
+instance of,person,has_person_status,educator,29,0.449554367201426,29,0.5277777777777778,0.0,0.0
+instance of,person,has_person_status,writer,29,0.449554367201426,33,0.4444444444444444,0.0,0.0
+instance of,person,has_person_status,and activist,29,0.449554367201426,11,0.4166666666666667,0.0,0.0
+instance of,person,freeman,"bragg, 'minister, educator, writer, and activist')",22,0.45598845598845594,14,0.5111111111111111,0.0,0.0
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,consecration,26,0.4799102132435466,44,0.6166666666666667,0.0,0.0
+instance of,person,has_status_generating_event,unknown,26,0.4799102132435466,31,0.373015873015873,0.0,0.0
+instance of,person,recorded_at,event,18,0.4545454545454546,36,0.5777777777777778,0.0,0.0
+instance of,person,recorded_at,unknown,18,0.4545454545454546,31,0.373015873015873,0.0,0.0
+instance of,person,recorded_at,unknown,18,0.4545454545454546,31,0.373015873015873,0.0,0.0
+instance of,person,has_person_status,deceased,29,0.449554367201426,29,0.5277777777777778,0.0,0.0
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,march 12,26,0.4799102132435466,14,0.4305555555555555,0.0,0.0
+instance of,person,has_status_generating_event,1940,26,0.4799102132435466,0,0.0,0.0,0.0
+instance of,person,recorded_at,event,18,0.4545454545454546,36,0.5777777777777778,0.0,0.0
+instance of,person,recorded_at,march 12,18,0.4545454545454546,14,0.4305555555555555,0.0,0.0
+instance of,person,recorded_at,1940,18,0.4545454545454546,0,0.0,0.0,0.0
+instance of,person,freeman,"bragg, 'deceased') 3. has_status_generating_event(person_status, event): has_status_generating_event(deceased, 'march 12, 1940') 4. recorded_at(person_status_information, event): recorded_at(deceased, 'march 12, 1940') answer:  the ontology based on the text is provided in the form of module relations. the relations are populated with the information available in the text. the ontology includes name record module, interagent relationship record module, sex record module, occupation record module, age record module, person status record module, and race record module. the relations include has_name, has_surname, has_first_name, has_alternate_name, has_interagent_relationship_type, is_relationship_to, has_sex, has_occupation, has_age, has_birthdate, has_deathdate, has_person_status, has_status_generating_event, recorded_at, and has_race_or_color. the ontology is used to describe the agent george freeman bragg, and the relations provide information about his name, surname, first name, alternate name, interagent relationships, sex, occupation, age, birth and death dates, person status, and race. the ontology can be used for various applications such as data integration, data sharing, and data analysis.",22,0.45598845598845594,1,0.5571989409294257,0.0,0.06389371717059797
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_name,name,57,0.8055555555555556,50,0.6666666666666666,0.0,0.0
+hassex,male,has_name,george freeman bragg,57,0.8055555555555556,17,0.43333333333333335,0.0,0.0
+hassex,male,freeman,"bragg, 'george freeman bragg')",15,0.4365079365079365,12,0.5222222222222223,0.0,0.0
+hassex,male,has_surname,surname,59,0.6767676767676768,36,0.0,0.0,0.0
+hassex,male,has_surname,bragg,59,0.6767676767676768,22,0.48333333333333334,0.0,0.0
+hassex,male,freeman,"bragg, 'bragg')",15,0.4365079365079365,11,0.4388888888888889,0.0,0.0
+hassex,male,has_first_name,first_name,50,0.6507936507936508,29,0.0,0.0,0.0
+hassex,male,has_first_name,george,50,0.6507936507936508,20,0.47222222222222215,0.0,0.0
+hassex,male,freeman,"bragg, 'george')",15,0.4365079365079365,20,0.5416666666666666,0.0,0.0
+hassex,male,has_alternate_name,alternate_name,33,0.6296296296296297,33,0.6547619047619048,0.0,0.0
+hassex,male,has_alternate_name,george freeman bragg,33,0.6296296296296297,17,0.43333333333333335,0.0,0.0
+hassex,male,freeman,"bragg, 'george freeman bragg')",15,0.4365079365079365,12,0.5222222222222223,0.0,0.0
+hassex,male,relationship record,module:,24,0.44152046783625726,55,0.7535714285714287,0.0,0.0
+hassex,male,has_interagent_relationship_type,relationship_type,26,0.5972222222222222,19,0.5310457516339869,0.0,0.0
+hassex,male,has_interagent_relationship_type,founder,26,0.5972222222222222,18,0.46428571428571425,0.0,0.0
+hassex,male,freeman,"bragg, 'founder')",15,0.4365079365079365,19,0.4362745098039216,0.0,0.0
+hassex,male,is_relationship_to,agent,17,0.46296296296296297,44,0.6333333333333333,0.0,0.0
+hassex,male,is_relationship_to,w. e. b. dubois,17,0.46296296296296297,11,0.4388888888888889,0.0,0.0
+hassex,male,freeman,"bragg, 'w. e. b. dubois')",15,0.4365079365079365,14,0.5266666666666667,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_sex,sex_type,92,0.9666666666666667,17,0.4583333333333333,0.0,0.0
+hassex,male,has_sex,male,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,male,freeman,"bragg, 'male')",15,0.4365079365079365,44,0.44047619047619047,0.0,0.5797386715376658
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_occupation,occupation,30,0.5714285714285715,14,0.45,0.0,0.0
+hassex,male,has_occupation,educator,30,0.5714285714285715,17,0.4166666666666667,0.0,0.0
+hassex,male,has_occupation,minister,30,0.5714285714285715,33,0.5833333333333334,0.0,0.0
+hassex,male,has_occupation,writer,30,0.5714285714285715,20,0.47222222222222215,0.0,0.0
+hassex,male,has_occupation,and activist,30,0.5714285714285715,12,0.4444444444444444,0.0,0.0
+hassex,male,freeman,"bragg, 'educator, minister, writer, and activist')",15,0.4365079365079365,7,0.49222222222222217,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_age,age,62,0.8222222222222222,57,0.7222222222222222,0.0,0.0
+hassex,male,has_age,77,62,0.8222222222222222,0,0.0,0.0,0.0
+hassex,male,freeman,"bragg, 77) (note: the age is calculated based on the death date march 12, 1940)",15,0.4365079365079365,7,0.4848804500703235,0.0,0.0
+hassex,male,has_birthdate,date_of_birth,42,0.576923076923077,24,0.5512820512820512,0.0,0.0
+hassex,male,has_birthdate,unknown,42,0.576923076923077,0,0.0,0.0,0.0
+hassex,male,freeman,"bragg, 'unknown')",15,0.4365079365079365,10,0.4362745098039216,0.0,0.0
+hassex,male,has_deathdate,date_of_death,42,0.6581196581196581,24,0.5512820512820512,0.0,0.0
+hassex,male,has_deathdate,march 12,42,0.6581196581196581,33,0.5833333333333334,0.0,0.0
+hassex,male,has_deathdate,1940,42,0.6581196581196581,0,0.0,0.0,0.0
+hassex,male,freeman,"bragg, 'march 12, 1940')",15,0.4365079365079365,14,0.36111111111111116,0.0,0.0
+hassex,male,status record,module:,32,0.5747863247863249,55,0.7535714285714287,0.0,0.0
+hassex,male,has_person_status,minister,35,0.642483660130719,33,0.5833333333333334,0.0,0.0
+hassex,male,has_person_status,educator,35,0.642483660130719,17,0.4166666666666667,0.0,0.0
+hassex,male,has_person_status,writer,35,0.642483660130719,20,0.47222222222222215,0.0,0.0
+hassex,male,has_person_status,and activist,35,0.642483660130719,12,0.4444444444444444,0.0,0.0
+hassex,male,freeman,"bragg, 'minister, educator, writer, and activist')",15,0.4365079365079365,11,0.49222222222222217,0.0,0.0
+hassex,male,has_status_generating_event,event,30,0.6728395061728395,22,0.48333333333333334,0.0,0.0
+hassex,male,has_status_generating_event,consecration,30,0.6728395061728395,12,0.4444444444444444,0.0,0.0
+hassex,male,has_status_generating_event,unknown,30,0.6728395061728395,0,0.0,0.0,0.0
+hassex,male,recorded_at,event,12,0.41919191919191917,22,0.48333333333333334,0.0,0.0
+hassex,male,recorded_at,unknown,12,0.41919191919191917,0,0.0,0.0,0.0
+hassex,male,recorded_at,unknown,12,0.41919191919191917,0,0.0,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_race_or_color,race_or_color,35,0.6339869281045751,24,0.5512820512820512,0.0,0.0
+hassex,male,has_race_or_color,african-american,35,0.6339869281045751,20,0.5416666666666666,0.0,0.0
+hassex,male,freeman,"bragg, african-american)",15,0.4365079365079365,14,0.4305555555555556,0.0,0.0
+hassex,male,descriptor record,module:,17,0.31699346405228757,55,0.7535714285714287,0.0,0.0
+hassex,male,has_ethnolinguistic_descriptor,ethnolinguistic_descriptor,28,0.6,13,0.358974358974359,0.0,0.0
+hassex,male,has_ethnolinguistic_descriptor,english-american,28,0.6,20,0.5347222222222222,0.0,0.0
+hassex,male,freeman,"bragg, english-american)",15,0.4365079365079365,21,0.5138888888888888,0.0,0.0
+hassex,male,status record,module:,32,0.5747863247863249,55,0.7535714285714287,0.0,0.0
+hassex,male,has_person_status,minister,35,0.642483660130719,33,0.5833333333333334,0.0,0.0
+hassex,male,has_person_status,educator,35,0.642483660130719,17,0.4166666666666667,0.0,0.0
+hassex,male,has_person_status,writer,35,0.642483660130719,20,0.47222222222222215,0.0,0.0
+hassex,male,has_person_status,and activist,35,0.642483660130719,12,0.4444444444444444,0.0,0.0
+hassex,male,freeman,"bragg, 'minister, educator, writer, and activist')",15,0.4365079365079365,11,0.49222222222222217,0.0,0.0
+hassex,male,has_status_generating_event,event,30,0.6728395061728395,22,0.48333333333333334,0.0,0.0
+hassex,male,has_status_generating_event,consecration,30,0.6728395061728395,12,0.4444444444444444,0.0,0.0
+hassex,male,has_status_generating_event,unknown,30,0.6728395061728395,0,0.0,0.0,0.0
+hassex,male,recorded_at,event,12,0.41919191919191917,22,0.48333333333333334,0.0,0.0
+hassex,male,recorded_at,unknown,12,0.41919191919191917,0,0.0,0.0,0.0
+hassex,male,recorded_at,unknown,12,0.41919191919191917,0,0.0,0.0,0.0
+hassex,male,has_person_status,deceased,35,0.642483660130719,33,0.4166666666666667,0.0,0.0
+hassex,male,has_status_generating_event,event,30,0.6728395061728395,22,0.48333333333333334,0.0,0.0
+hassex,male,has_status_generating_event,march 12,30,0.6728395061728395,33,0.5833333333333334,0.0,0.0
+hassex,male,has_status_generating_event,1940,30,0.6728395061728395,0,0.0,0.0,0.0
+hassex,male,recorded_at,event,12,0.41919191919191917,22,0.48333333333333334,0.0,0.0
+hassex,male,recorded_at,march 12,12,0.41919191919191917,33,0.5833333333333334,0.0,0.0
+hassex,male,recorded_at,1940,12,0.41919191919191917,0,0.0,0.0,0.0
+hassex,male,freeman,"bragg, 'deceased') 3. has_status_generating_event(person_status, event): has_status_generating_event(deceased, 'march 12, 1940') 4. recorded_at(person_status_information, event): recorded_at(deceased, 'march 12, 1940') answer:  the ontology based on the text is provided in the form of module relations. the relations are populated with the information available in the text. the ontology includes name record module, interagent relationship record module, sex record module, occupation record module, age record module, person status record module, and race record module. the relations include has_name, has_surname, has_first_name, has_alternate_name, has_interagent_relationship_type, is_relationship_to, has_sex, has_occupation, has_age, has_birthdate, has_deathdate, has_person_status, has_status_generating_event, recorded_at, and has_race_or_color. the ontology is used to describe the agent george freeman bragg, and the relations provide information about his name, surname, first name, alternate name, interagent relationships, sex, occupation, age, birth and death dates, person status, and race. the ontology can be used for various applications such as data integration, data sharing, and data analysis.",15,0.4365079365079365,1,0.5010955902492468,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,george freeman bragg,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,freeman,"bragg, 'george freeman bragg')",24,0.42063492063492064,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,bragg,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,freeman,"bragg, 'bragg')",24,0.42063492063492064,0,0.0,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,george,44,0.6772486772486772,0,0.0,0.0,0.0
+hasparticipantrole,child,freeman,"bragg, 'george')",24,0.42063492063492064,0,0.0,0.0,0.0
+hasparticipantrole,child,has_alternate_name,alternate_name,44,0.6370370370370371,11,0.4238095238095238,0.0,0.0
+hasparticipantrole,child,has_alternate_name,george freeman bragg,44,0.6370370370370371,0,0.0,0.0,0.0
+hasparticipantrole,child,freeman,"bragg, 'george freeman bragg')",24,0.42063492063492064,0,0.0,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type,relationship_type,44,0.65625,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type,founder,44,0.65625,17,0.44761904761904764,0.0,0.0
+hasparticipantrole,child,freeman,"bragg, 'founder')",24,0.42063492063492064,9,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,w. e. b. dubois,44,0.6037037037037037,10,0.4222222222222222,0.0,0.0
+hasparticipantrole,child,freeman,"bragg, 'w. e. b. dubois')",24,0.42063492063492064,7,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,male,32,0.5317460317460317,22,0.48333333333333334,0.0,0.0
+hasparticipantrole,child,freeman,"bragg, 'male')",24,0.42063492063492064,11,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,educator,50,0.6566137566137565,15,0.3833333333333333,0.0,0.0
+hasparticipantrole,child,has_occupation,minister,50,0.6566137566137565,15,0.44166666666666665,0.0,0.0
+hasparticipantrole,child,has_occupation,writer,50,0.6566137566137565,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,has_occupation,and activist,50,0.6566137566137565,24,0.5055555555555555,0.0,0.0
+hasparticipantrole,child,freeman,"bragg, 'educator, minister, writer, and activist')",24,0.42063492063492064,11,0.44222222222222224,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_age,age,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_age,77,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,freeman,"bragg, 77) (note: the age is calculated based on the death date march 12, 1940)",24,0.42063492063492064,10,0.621097046413502,0.0,0.0
+hasparticipantrole,child,has_birthdate,date_of_birth,52,0.6937321937321936,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_birthdate,unknown,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,child,freeman,"bragg, 'unknown')",24,0.42063492063492064,0,0.0,0.0,0.0
+hasparticipantrole,child,has_deathdate,date_of_death,52,0.6866096866096866,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_deathdate,march 12,52,0.6866096866096866,31,0.5499999999999999,0.0,0.0
+hasparticipantrole,child,has_deathdate,1940,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,child,freeman,"bragg, 'march 12, 1940')",24,0.42063492063492064,14,0.49444444444444446,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,minister,46,0.6479302832244008,15,0.44166666666666665,0.0,0.0
+hasparticipantrole,child,has_person_status,educator,46,0.6479302832244008,15,0.3833333333333333,0.0,0.0
+hasparticipantrole,child,has_person_status,writer,46,0.6479302832244008,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,has_person_status,and activist,46,0.6479302832244008,24,0.5055555555555555,0.0,0.0
+hasparticipantrole,child,freeman,"bragg, 'minister, educator, writer, and activist')",24,0.42063492063492064,11,0.44222222222222224,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,consecration,40,0.5819304152637487,24,0.42777777777777776,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,unknown,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,recorded_at,event,28,0.36195286195286197,0,0.0,0.0,0.0
+hasparticipantrole,child,recorded_at,unknown,28,0.36195286195286197,0,0.0,0.0,0.0
+hasparticipantrole,child,recorded_at,unknown,28,0.36195286195286197,0,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_race_or_color,race_or_color,46,0.60239651416122,22,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_race_or_color,african-american,46,0.60239651416122,19,0.3416666666666666,0.0,0.0
+hasparticipantrole,child,freeman,"bragg, african-american)",24,0.42063492063492064,14,0.3277777777777778,0.0,0.0
+hasparticipantrole,child,descriptor record,module:,40,0.5653594771241829,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_ethnolinguistic_descriptor,ethnolinguistic_descriptor,42,0.5903133903133903,19,0.567948717948718,0.0,0.0
+hasparticipantrole,child,has_ethnolinguistic_descriptor,english-american,42,0.5903133903133903,19,0.4847222222222222,0.0,0.0
+hasparticipantrole,child,freeman,"bragg, english-american)",24,0.42063492063492064,14,0.3277777777777778,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,minister,46,0.6479302832244008,15,0.44166666666666665,0.0,0.0
+hasparticipantrole,child,has_person_status,educator,46,0.6479302832244008,15,0.3833333333333333,0.0,0.0
+hasparticipantrole,child,has_person_status,writer,46,0.6479302832244008,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,has_person_status,and activist,46,0.6479302832244008,24,0.5055555555555555,0.0,0.0
+hasparticipantrole,child,freeman,"bragg, 'minister, educator, writer, and activist')",24,0.42063492063492064,11,0.44222222222222224,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,consecration,40,0.5819304152637487,24,0.42777777777777776,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,unknown,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,recorded_at,event,28,0.36195286195286197,0,0.0,0.0,0.0
+hasparticipantrole,child,recorded_at,unknown,28,0.36195286195286197,0,0.0,0.0,0.0
+hasparticipantrole,child,recorded_at,unknown,28,0.36195286195286197,0,0.0,0.0,0.0
+hasparticipantrole,child,has_person_status,deceased,46,0.6479302832244008,31,0.5499999999999999,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,march 12,40,0.5819304152637487,31,0.5499999999999999,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,1940,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,recorded_at,event,28,0.36195286195286197,0,0.0,0.0,0.0
+hasparticipantrole,child,recorded_at,march 12,28,0.36195286195286197,31,0.5499999999999999,0.0,0.0
+hasparticipantrole,child,recorded_at,1940,28,0.36195286195286197,0,0.0,0.0,0.0
+hasparticipantrole,child,freeman,"bragg, 'deceased') 3. has_status_generating_event(person_status, event): has_status_generating_event(deceased, 'march 12, 1940') 4. recorded_at(person_status_information, event): recorded_at(deceased, 'march 12, 1940') answer:  the ontology based on the text is provided in the form of module relations. the relations are populated with the information available in the text. the ontology includes name record module, interagent relationship record module, sex record module, occupation record module, age record module, person status record module, and race record module. the relations include has_name, has_surname, has_first_name, has_alternate_name, has_interagent_relationship_type, is_relationship_to, has_sex, has_occupation, has_age, has_birthdate, has_deathdate, has_person_status, has_status_generating_event, recorded_at, and has_race_or_color. the ontology is used to describe the agent george freeman bragg, and the relations provide information about his name, surname, first name, alternate name, interagent relationships, sex, occupation, age, birth and death dates, person status, and race. the ontology can be used for various applications such as data integration, data sharing, and data analysis.",24,0.42063492063492064,1,0.5347028211448919,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,george freeman bragg,38,0.5675925925925926,29,0.5611111111111111,0.0,0.0
+hasparticipantrole,deceased person,freeman,"bragg, 'george freeman bragg')",24,0.42063492063492064,22,0.5222222222222221,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,bragg,41,0.6274651274651274,10,0.4222222222222222,0.0,0.0
+hasparticipantrole,deceased person,freeman,"bragg, 'bragg')",24,0.42063492063492064,20,0.4666666666666666,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,george,44,0.6772486772486772,19,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,freeman,"bragg, 'george')",24,0.42063492063492064,26,0.48055555555555557,0.0,0.0
+hasparticipantrole,deceased person,has_alternate_name,alternate_name,44,0.6370370370370371,28,0.43015873015873013,0.0,0.0
+hasparticipantrole,deceased person,has_alternate_name,george freeman bragg,44,0.6370370370370371,29,0.5611111111111111,0.0,0.0
+hasparticipantrole,deceased person,freeman,"bragg, 'george freeman bragg')",24,0.42063492063492064,22,0.5222222222222221,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type,relationship_type,44,0.65625,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type,founder,44,0.65625,27,0.5428571428571428,0.0,0.0
+hasparticipantrole,deceased person,freeman,"bragg, 'founder')",24,0.42063492063492064,25,0.48328664799253035,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,w. e. b. dubois,44,0.6037037037037037,20,0.4222222222222222,0.0,0.0
+hasparticipantrole,deceased person,freeman,"bragg, 'w. e. b. dubois')",24,0.42063492063492064,20,0.4393650793650794,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,male,32,0.5317460317460317,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,freeman,"bragg, 'male')",24,0.42063492063492064,21,0.3603174603174603,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,educator,50,0.6566137566137565,35,0.5861111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,minister,50,0.6566137566137565,26,0.4138888888888889,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,writer,50,0.6566137566137565,19,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,and activist,50,0.6566137566137565,30,0.45,0.0,0.0
+hasparticipantrole,deceased person,freeman,"bragg, 'educator, minister, writer, and activist')",24,0.42063492063492064,28,0.49959595959595954,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_age,age,40,0.5978835978835978,22,0.4333333333333333,0.0,0.0
+hasparticipantrole,deceased person,has_age,77,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,freeman,"bragg, 77) (note: the age is calculated based on the death date march 12, 1940)",24,0.42063492063492064,21,0.5606590315451075,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,date_of_birth,52,0.6937321937321936,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,unknown,52,0.6937321937321936,18,0.0,0.0,0.0
+hasparticipantrole,deceased person,freeman,"bragg, 'unknown')",24,0.42063492063492064,25,0.4173202614379085,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,date_of_death,52,0.6866096866096866,36,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,march 12,52,0.6866096866096866,17,0.4138888888888889,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,1940,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,freeman,"bragg, 'march 12, 1940')",24,0.42063492063492064,15,0.39444444444444443,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,minister,46,0.6479302832244008,26,0.4138888888888889,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,educator,46,0.6479302832244008,35,0.5861111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,writer,46,0.6479302832244008,19,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,and activist,46,0.6479302832244008,30,0.45,0.0,0.0
+hasparticipantrole,deceased person,freeman,"bragg, 'minister, educator, writer, and activist')",24,0.42063492063492064,25,0.49959595959595954,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,consecration,40,0.5819304152637487,44,0.5880952380952381,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,unknown,40,0.5819304152637487,18,0.0,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,event,28,0.36195286195286197,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,unknown,28,0.36195286195286197,18,0.0,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,unknown,28,0.36195286195286197,18,0.0,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,race_or_color,46,0.60239651416122,29,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,african-american,46,0.60239651416122,32,0.48194444444444445,0.0,0.0
+hasparticipantrole,deceased person,freeman,"bragg, african-american)",24,0.42063492063492064,26,0.4388888888888889,0.0,0.0
+hasparticipantrole,deceased person,descriptor record,module:,40,0.5653594771241829,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_ethnolinguistic_descriptor,ethnolinguistic_descriptor,42,0.5903133903133903,29,0.5005698005698006,0.0,0.0
+hasparticipantrole,deceased person,has_ethnolinguistic_descriptor,english-american,42,0.5903133903133903,32,0.5361111111111111,0.0,0.0
+hasparticipantrole,deceased person,freeman,"bragg, english-american)",24,0.42063492063492064,26,0.4908730158730159,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,minister,46,0.6479302832244008,26,0.4138888888888889,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,educator,46,0.6479302832244008,35,0.5861111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,writer,46,0.6479302832244008,19,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,and activist,46,0.6479302832244008,30,0.45,0.0,0.0
+hasparticipantrole,deceased person,freeman,"bragg, 'minister, educator, writer, and activist')",24,0.42063492063492064,25,0.49959595959595954,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,consecration,40,0.5819304152637487,44,0.5880952380952381,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,unknown,40,0.5819304152637487,18,0.0,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,event,28,0.36195286195286197,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,unknown,28,0.36195286195286197,18,0.0,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,unknown,28,0.36195286195286197,18,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,deceased,46,0.6479302832244008,70,0.9066666666666666,0.0,0.5797386715376658
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,march 12,40,0.5819304152637487,17,0.4138888888888889,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,1940,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,event,28,0.36195286195286197,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,march 12,28,0.36195286195286197,17,0.4138888888888889,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,1940,28,0.36195286195286197,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,freeman,"bragg, 'deceased') 3. has_status_generating_event(person_status, event): has_status_generating_event(deceased, 'march 12, 1940') 4. recorded_at(person_status_information, event): recorded_at(deceased, 'march 12, 1940') answer:  the ontology based on the text is provided in the form of module relations. the relations are populated with the information available in the text. the ontology includes name record module, interagent relationship record module, sex record module, occupation record module, age record module, person status record module, and race record module. the relations include has_name, has_surname, has_first_name, has_alternate_name, has_interagent_relationship_type, is_relationship_to, has_sex, has_occupation, has_age, has_birthdate, has_deathdate, has_person_status, has_status_generating_event, recorded_at, and has_race_or_color. the ontology is used to describe the agent george freeman bragg, and the relations provide information about his name, surname, first name, alternate name, interagent relationships, sex, occupation, age, birth and death dates, person status, and race. the ontology can be used for various applications such as data integration, data sharing, and data analysis.",24,0.42063492063492064,2,0.5152195745457866,0.0,0.11345857325689365
+hasdescriptiveoccupation,episcopalian clergy,record,module:,27,0.6138888888888889,23,0.4177109440267335,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_name,name,25,0.5555555555555555,17,0.3684210526315789,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_name,george freeman bragg,25,0.5555555555555555,36,0.5301169590643274,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,freeman,"bragg, 'george freeman bragg')",26,0.49603174603174605,29,0.44307992202729046,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_surname,surname,34,0.5474386724386724,23,0.5106516290726817,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_surname,bragg,34,0.5474386724386724,17,0.4175438596491228,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,freeman,"bragg, 'bragg')",26,0.49603174603174605,24,0.4654970760233918,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_first_name,first_name,32,0.5615079365079364,28,0.5210526315789473,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_first_name,george,32,0.5615079365079364,32,0.4795321637426901,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,freeman,"bragg, 'george')",26,0.49603174603174605,29,0.45248538011695905,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_alternate_name,alternate_name,38,0.5574074074074075,30,0.47034252297410184,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_alternate_name,george freeman bragg,38,0.5574074074074075,36,0.5301169590643274,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,freeman,"bragg, 'george freeman bragg')",26,0.49603174603174605,29,0.44307992202729046,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,relationship record,module:,33,0.6137539361223572,23,0.4177109440267335,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,28,0.6207899427713669,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_interagent_relationship_type,founder,43,0.5868055555555555,31,0.4177109440267335,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,freeman,"bragg, 'founder')",26,0.49603174603174605,22,0.4451324389404885,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,is_relationship_to,agent,38,0.6264245014245015,17,0.47485380116959064,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,is_relationship_to,w. e. b. dubois,38,0.6264245014245015,18,0.4090643274853801,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,freeman,"bragg, 'w. e. b. dubois')",26,0.49603174603174605,14,0.31485380116959066,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,record,module:,27,0.6138888888888889,23,0.4177109440267335,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_sex,sex_type,32,0.5742063492063493,22,0.4868421052631579,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_sex,male,32,0.5742063492063493,26,0.5248538011695906,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,freeman,"bragg, 'male')",26,0.49603174603174605,24,0.47343358395989976,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,record,module:,27,0.6138888888888889,23,0.4177109440267335,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_occupation,occupation,68,0.8045940170940171,34,0.5274853801169591,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_occupation,educator,68,0.8045940170940171,30,0.4868421052631579,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_occupation,minister,68,0.8045940170940171,30,0.4868421052631579,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_occupation,writer,68,0.8045940170940171,24,0.3128654970760234,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_occupation,and activist,68,0.8045940170940171,26,0.49415204678362573,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,freeman,"bragg, 'educator, minister, writer, and activist')",26,0.49603174603174605,23,0.49422402159244266,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,record,module:,27,0.6138888888888889,23,0.4177109440267335,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_age,age,26,0.5793650793650794,18,0.4239766081871345,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_age,77,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,freeman,"bragg, 77) (note: the age is calculated based on the death date march 12, 1940)",26,0.49603174603174605,22,0.5042268117551262,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_birthdate,date_of_birth,38,0.6286324786324786,25,0.48259109311740894,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_birthdate,unknown,38,0.6286324786324786,15,0.29699248120300753,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,freeman,"bragg, 'unknown')",26,0.49603174603174605,11,0.39860681114551083,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_deathdate,date_of_death,43,0.652065527065527,19,0.41592442645074224,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_deathdate,march 12,43,0.652065527065527,15,0.39985380116959063,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_deathdate,1940,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,freeman,"bragg, 'march 12, 1940')",26,0.49603174603174605,14,0.35716374269005846,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,status record,module:,32,0.540954415954416,23,0.4177109440267335,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_person_status,minister,39,0.6241830065359477,30,0.4868421052631579,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_person_status,educator,39,0.6241830065359477,30,0.4868421052631579,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_person_status,writer,39,0.6241830065359477,24,0.3128654970760234,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_person_status,and activist,39,0.6241830065359477,26,0.49415204678362573,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,freeman,"bragg, 'minister, educator, writer, and activist')",26,0.49603174603174605,26,0.49422402159244266,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_status_generating_event,event,39,0.5815696649029983,17,0.5017543859649123,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_status_generating_event,consecration,39,0.5815696649029983,32,0.5709064327485379,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_status_generating_event,unknown,39,0.5815696649029983,15,0.29699248120300753,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,recorded_at,event,34,0.5202020202020202,17,0.5017543859649123,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,recorded_at,unknown,34,0.5202020202020202,15,0.29699248120300753,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,recorded_at,unknown,34,0.5202020202020202,15,0.29699248120300753,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,record,module:,27,0.6138888888888889,23,0.4177109440267335,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_race_or_color,race_or_color,39,0.5977668845315903,31,0.5403894351262771,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_race_or_color,african-american,39,0.5977668845315903,34,0.5305799220272904,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,freeman,"bragg, african-american)",26,0.49603174603174605,28,0.5143274853801169,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,descriptor record,module:,54,0.6797385620915034,23,0.4177109440267335,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_ethnolinguistic_descriptor,ethnolinguistic_descriptor,44,0.6722222222222222,36,0.5865946918578496,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_ethnolinguistic_descriptor,english-american,44,0.6722222222222222,40,0.6342703349282296,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,freeman,"bragg, english-american)",26,0.49603174603174605,33,0.5881129104813315,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,status record,module:,32,0.540954415954416,23,0.4177109440267335,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_person_status,minister,39,0.6241830065359477,30,0.4868421052631579,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_person_status,educator,39,0.6241830065359477,30,0.4868421052631579,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_person_status,writer,39,0.6241830065359477,24,0.3128654970760234,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_person_status,and activist,39,0.6241830065359477,26,0.49415204678362573,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,freeman,"bragg, 'minister, educator, writer, and activist')",26,0.49603174603174605,26,0.49422402159244266,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_status_generating_event,event,39,0.5815696649029983,17,0.5017543859649123,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_status_generating_event,consecration,39,0.5815696649029983,32,0.5709064327485379,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_status_generating_event,unknown,39,0.5815696649029983,15,0.29699248120300753,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,recorded_at,event,34,0.5202020202020202,17,0.5017543859649123,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,recorded_at,unknown,34,0.5202020202020202,15,0.29699248120300753,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,recorded_at,unknown,34,0.5202020202020202,15,0.29699248120300753,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_person_status,deceased,39,0.6241830065359477,30,0.4868421052631579,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_status_generating_event,event,39,0.5815696649029983,17,0.5017543859649123,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_status_generating_event,march 12,39,0.5815696649029983,15,0.39985380116959063,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,has_status_generating_event,1940,39,0.5815696649029983,0,0.0,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,recorded_at,event,34,0.5202020202020202,17,0.5017543859649123,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,recorded_at,march 12,34,0.5202020202020202,15,0.39985380116959063,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,recorded_at,1940,34,0.5202020202020202,0,0.0,0.0,0.0
+hasdescriptiveoccupation,episcopalian clergy,freeman,"bragg, 'deceased') 3. has_status_generating_event(person_status, event): has_status_generating_event(deceased, 'march 12, 1940') 4. recorded_at(person_status_information, event): recorded_at(deceased, 'march 12, 1940') answer:  the ontology based on the text is provided in the form of module relations. the relations are populated with the information available in the text. the ontology includes name record module, interagent relationship record module, sex record module, occupation record module, age record module, person status record module, and race record module. the relations include has_name, has_surname, has_first_name, has_alternate_name, has_interagent_relationship_type, is_relationship_to, has_sex, has_occupation, has_age, has_birthdate, has_deathdate, has_person_status, has_status_generating_event, recorded_at, and has_race_or_color. the ontology is used to describe the agent george freeman bragg, and the relations provide information about his name, surname, first name, alternate name, interagent relationships, sex, occupation, age, birth and death dates, person status, and race. the ontology can be used for various applications such as data integration, data sharing, and data analysis.",26,0.49603174603174605,3,0.5139759835084835,0.0,0.0
+hasfirstname,george freeman,record,module:,22,0.4166666666666667,19,0.30952380952380953,0.0,0.0
+hasfirstname,george freeman,has_name,name,70,0.8736111111111112,11,0.44047619047619047,0.0,0.0
+hasfirstname,george freeman,has_name,george freeman bragg,70,0.8736111111111112,82,0.9400000000000001,0.0,0.7092972666062739
+hasfirstname,george freeman,freeman,"bragg, 'george freeman bragg')",32,0.5515873015873015,64,0.7031746031746032,0.0,0.4494364165239822
+hasfirstname,george freeman,has_surname,surname,70,0.8733164983164984,19,0.43650793650793646,0.0,0.0
+hasfirstname,george freeman,has_surname,bragg,70,0.8733164983164984,21,0.4936507936507937,0.0,0.0
+hasfirstname,george freeman,freeman,"bragg, 'bragg')",32,0.5515873015873015,34,0.5539682539682539,0.0,0.0
+hasfirstname,george freeman,has_first_name,first_name,92,0.9666666666666667,25,0.4785714285714286,0.0,0.0
+hasfirstname,george freeman,has_first_name,george,92,0.9666666666666667,60,0.8857142857142858,0.0,0.5797386715376658
+hasfirstname,george freeman,freeman,"bragg, 'george')",32,0.5515873015873015,40,0.5505952380952381,0.0,0.33609692727625756
+hasfirstname,george freeman,has_alternate_name,alternate_name,60,0.6759259259259259,29,0.5714285714285715,0.0,0.0
+hasfirstname,george freeman,has_alternate_name,george freeman bragg,60,0.6759259259259259,82,0.9400000000000001,0.0,0.7092972666062739
+hasfirstname,george freeman,freeman,"bragg, 'george freeman bragg')",32,0.5515873015873015,64,0.7031746031746032,0.0,0.4494364165239822
+hasfirstname,george freeman,relationship record,module:,32,0.5077276524644946,19,0.30952380952380953,0.0,0.0
+hasfirstname,george freeman,has_interagent_relationship_type,relationship_type,36,0.6030092592592592,26,0.4170868347338936,0.0,0.0
+hasfirstname,george freeman,has_interagent_relationship_type,founder,36,0.6030092592592592,29,0.43650793650793646,0.0,0.0
+hasfirstname,george freeman,freeman,"bragg, 'founder')",32,0.5515873015873015,32,0.5759414877061936,0.0,0.0
+hasfirstname,george freeman,is_relationship_to,agent,27,0.6203703703703703,32,0.5142857142857143,0.0,0.0
+hasfirstname,george freeman,is_relationship_to,w. e. b. dubois,27,0.6203703703703703,14,0.25873015873015875,0.0,0.0
+hasfirstname,george freeman,freeman,"bragg, 'w. e. b. dubois')",32,0.5515873015873015,21,0.445079365079365,0.0,0.0
+hasfirstname,george freeman,record,module:,22,0.4166666666666667,19,0.30952380952380953,0.0,0.0
+hasfirstname,george freeman,has_sex,sex_type,53,0.6349206349206349,18,0.46428571428571425,0.0,0.0
+hasfirstname,george freeman,has_sex,male,53,0.6349206349206349,22,0.44047619047619047,0.0,0.0
+hasfirstname,george freeman,freeman,"bragg, 'male')",32,0.5515873015873015,36,0.5238095238095238,0.0,0.0
+hasfirstname,george freeman,record,module:,22,0.4166666666666667,19,0.30952380952380953,0.0,0.0
+hasfirstname,george freeman,has_occupation,occupation,38,0.5873015873015873,25,0.44761904761904764,0.0,0.0
+hasfirstname,george freeman,has_occupation,educator,38,0.5873015873015873,27,0.5297619047619048,0.0,0.0
+hasfirstname,george freeman,has_occupation,minister,38,0.5873015873015873,18,0.46428571428571425,0.0,0.0
+hasfirstname,george freeman,has_occupation,writer,38,0.5873015873015873,30,0.4603174603174603,0.0,0.0
+hasfirstname,george freeman,has_occupation,and activist,38,0.5873015873015873,15,0.3849206349206349,0.0,0.0
+hasfirstname,george freeman,freeman,"bragg, 'educator, minister, writer, and activist')",32,0.5515873015873015,31,0.5601587301587302,0.0,0.0
+hasfirstname,george freeman,record,module:,22,0.4166666666666667,19,0.30952380952380953,0.0,0.0
+hasfirstname,george freeman,has_age,age,53,0.7972222222222223,24,0.6031746031746031,0.0,0.0
+hasfirstname,george freeman,has_age,77,53,0.7972222222222223,0,0.0,0.0,0.0
+hasfirstname,george freeman,freeman,"bragg, 77) (note: the age is calculated based on the death date march 12, 1940)",32,0.5515873015873015,19,0.5204394761356786,0.0,0.0
+hasfirstname,george freeman,has_birthdate,date_of_birth,64,0.8324786324786324,30,0.5311355311355311,0.0,0.0
+hasfirstname,george freeman,has_birthdate,unknown,64,0.8324786324786324,19,0.4047619047619047,0.0,0.0
+hasfirstname,george freeman,freeman,"bragg, 'unknown')",32,0.5515873015873015,26,0.4837535014005603,0.0,0.0
+hasfirstname,george freeman,has_deathdate,date_of_death,48,0.5982905982905983,37,0.513919413919414,0.0,0.0
+hasfirstname,george freeman,has_deathdate,march 12,48,0.5982905982905983,18,0.46428571428571425,0.0,0.0
+hasfirstname,george freeman,has_deathdate,1940,48,0.5982905982905983,0,0.0,0.0,0.0
+hasfirstname,george freeman,freeman,"bragg, 'march 12, 1940')",32,0.5515873015873015,26,0.501984126984127,0.0,0.0
+hasfirstname,george freeman,status record,module:,32,0.5427350427350427,19,0.30952380952380953,0.0,0.0
+hasfirstname,george freeman,has_person_status,minister,48,0.6857298474945533,18,0.46428571428571425,0.0,0.0
+hasfirstname,george freeman,has_person_status,educator,48,0.6857298474945533,27,0.5297619047619048,0.0,0.0
+hasfirstname,george freeman,has_person_status,writer,48,0.6857298474945533,30,0.4603174603174603,0.0,0.0
+hasfirstname,george freeman,has_person_status,and activist,48,0.6857298474945533,15,0.3849206349206349,0.0,0.0
+hasfirstname,george freeman,freeman,"bragg, 'minister, educator, writer, and activist')",32,0.5515873015873015,28,0.5323809523809523,0.0,0.0
+hasfirstname,george freeman,has_status_generating_event,event,41,0.5833333333333334,32,0.5142857142857143,0.0,0.0
+hasfirstname,george freeman,has_status_generating_event,consecration,41,0.5833333333333334,38,0.5246031746031746,0.0,0.0
+hasfirstname,george freeman,has_status_generating_event,unknown,41,0.5833333333333334,19,0.4047619047619047,0.0,0.0
+hasfirstname,george freeman,recorded_at,event,17,0.4823232323232323,32,0.5142857142857143,0.0,0.0
+hasfirstname,george freeman,recorded_at,unknown,17,0.4823232323232323,19,0.4047619047619047,0.0,0.0
+hasfirstname,george freeman,recorded_at,unknown,17,0.4823232323232323,19,0.4047619047619047,0.0,0.0
+hasfirstname,george freeman,record,module:,22,0.4166666666666667,19,0.30952380952380953,0.0,0.0
+hasfirstname,george freeman,has_race_or_color,race_or_color,41,0.6176470588235294,30,0.4478021978021978,0.0,0.0
+hasfirstname,george freeman,has_race_or_color,african-american,41,0.6176470588235294,33,0.5029761904761905,0.0,0.0
+hasfirstname,george freeman,freeman,"bragg, african-american)",32,0.5515873015873015,42,0.576984126984127,0.0,0.0
+hasfirstname,george freeman,descriptor record,module:,28,0.50359477124183,19,0.30952380952380953,0.0,0.0
+hasfirstname,george freeman,has_ethnolinguistic_descriptor,ethnolinguistic_descriptor,33,0.5611111111111111,25,0.442002442002442,0.0,0.0
+hasfirstname,george freeman,has_ethnolinguistic_descriptor,english-american,33,0.5611111111111111,40,0.5029761904761905,0.0,0.0
+hasfirstname,george freeman,freeman,"bragg, english-american)",32,0.5515873015873015,37,0.6103174603174603,0.0,0.0
+hasfirstname,george freeman,status record,module:,32,0.5427350427350427,19,0.30952380952380953,0.0,0.0
+hasfirstname,george freeman,has_person_status,minister,48,0.6857298474945533,18,0.46428571428571425,0.0,0.0
+hasfirstname,george freeman,has_person_status,educator,48,0.6857298474945533,27,0.5297619047619048,0.0,0.0
+hasfirstname,george freeman,has_person_status,writer,48,0.6857298474945533,30,0.4603174603174603,0.0,0.0
+hasfirstname,george freeman,has_person_status,and activist,48,0.6857298474945533,15,0.3849206349206349,0.0,0.0
+hasfirstname,george freeman,freeman,"bragg, 'minister, educator, writer, and activist')",32,0.5515873015873015,28,0.5323809523809523,0.0,0.0
+hasfirstname,george freeman,has_status_generating_event,event,41,0.5833333333333334,32,0.5142857142857143,0.0,0.0
+hasfirstname,george freeman,has_status_generating_event,consecration,41,0.5833333333333334,38,0.5246031746031746,0.0,0.0
+hasfirstname,george freeman,has_status_generating_event,unknown,41,0.5833333333333334,19,0.4047619047619047,0.0,0.0
+hasfirstname,george freeman,recorded_at,event,17,0.4823232323232323,32,0.5142857142857143,0.0,0.0
+hasfirstname,george freeman,recorded_at,unknown,17,0.4823232323232323,19,0.4047619047619047,0.0,0.0
+hasfirstname,george freeman,recorded_at,unknown,17,0.4823232323232323,19,0.4047619047619047,0.0,0.0
+hasfirstname,george freeman,has_person_status,deceased,48,0.6857298474945533,27,0.5297619047619048,0.0,0.0
+hasfirstname,george freeman,has_status_generating_event,event,41,0.5833333333333334,32,0.5142857142857143,0.0,0.0
+hasfirstname,george freeman,has_status_generating_event,march 12,41,0.5833333333333334,18,0.46428571428571425,0.0,0.0
+hasfirstname,george freeman,has_status_generating_event,1940,41,0.5833333333333334,0,0.0,0.0,0.0
+hasfirstname,george freeman,recorded_at,event,17,0.4823232323232323,32,0.5142857142857143,0.0,0.0
+hasfirstname,george freeman,recorded_at,march 12,17,0.4823232323232323,18,0.46428571428571425,0.0,0.0
+hasfirstname,george freeman,recorded_at,1940,17,0.4823232323232323,0,0.0,0.0,0.0
+hasfirstname,george freeman,freeman,"bragg, 'deceased') 3. has_status_generating_event(person_status, event): has_status_generating_event(deceased, 'march 12, 1940') 4. recorded_at(person_status_information, event): recorded_at(deceased, 'march 12, 1940') answer:  the ontology based on the text is provided in the form of module relations. the relations are populated with the information available in the text. the ontology includes name record module, interagent relationship record module, sex record module, occupation record module, age record module, person status record module, and race record module. the relations include has_name, has_surname, has_first_name, has_alternate_name, has_interagent_relationship_type, is_relationship_to, has_sex, has_occupation, has_age, has_birthdate, has_deathdate, has_person_status, has_status_generating_event, recorded_at, and has_race_or_color. the ontology is used to describe the agent george freeman bragg, and the relations provide information about his name, surname, first name, alternate name, interagent relationships, sex, occupation, age, birth and death dates, person status, and race. the ontology can be used for various applications such as data integration, data sharing, and data analysis.",32,0.5515873015873015,2,0.5276440896818876,0.0,0.04513477470908624
+hassurname,"bragg, jr.",record,module:,25,0.4222222222222222,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",has_name,name,78,0.9008333333333334,14,0.45,0.0,0.0
+hassurname,"bragg, jr.",has_name,george freeman bragg,78,0.9008333333333334,33,0.5166666666666667,0.0,0.2605556710562624
+hassurname,"bragg, jr.",freeman,"bragg, 'george freeman bragg')",24,0.4904761904761905,40,0.6888888888888888,0.0,0.41120705506761873
+hassurname,"bragg, jr.",has_surname,surname,95,0.9787878787878788,24,0.49523809523809526,0.0,0.0
+hassurname,"bragg, jr.",has_surname,bragg,95,0.9787878787878788,67,0.9,0.0,0.5797386715376658
+hassurname,"bragg, jr.",freeman,"bragg, 'bragg')",24,0.4904761904761905,64,0.8666666666666667,0.0,0.5797386715376658
+hassurname,"bragg, jr.",has_first_name,first_name,67,0.8674074074074074,20,0.39999999999999997,0.0,0.0
+hassurname,"bragg, jr.",has_first_name,george,67,0.8674074074074074,25,0.48888888888888893,0.0,0.0
+hassurname,"bragg, jr.",freeman,"bragg, 'george')",24,0.4904761904761905,62,0.86,0.0,0.33609692727625756
+hassurname,"bragg, jr.",has_alternate_name,alternate_name,57,0.6648148148148149,17,0.28095238095238095,0.0,0.0
+hassurname,"bragg, jr.",has_alternate_name,george freeman bragg,57,0.6648148148148149,33,0.5166666666666667,0.0,0.2605556710562624
+hassurname,"bragg, jr.",freeman,"bragg, 'george freeman bragg')",24,0.4904761904761905,40,0.6888888888888888,0.0,0.41120705506761873
+hassurname,"bragg, jr.",relationship record,module:,28,0.4543859649122807,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",has_interagent_relationship_type,relationship_type,33,0.544345238095238,15,0.4392156862745098,0.0,0.0
+hassurname,"bragg, jr.",has_interagent_relationship_type,founder,33,0.544345238095238,12,0.4142857142857143,0.0,0.0
+hassurname,"bragg, jr.",freeman,"bragg, 'founder')",24,0.4904761904761905,59,0.8541176470588235,0.0,0.33609692727625756
+hassurname,"bragg, jr.",is_relationship_to,agent,21,0.5333333333333333,27,0.5333333333333333,0.0,0.0
+hassurname,"bragg, jr.",is_relationship_to,w. e. b. dubois,21,0.5333333333333333,16,0.38888888888888884,0.0,0.0
+hassurname,"bragg, jr.",freeman,"bragg, 'w. e. b. dubois')",24,0.4904761904761905,46,0.8240000000000001,0.0,0.33609692727625756
+hassurname,"bragg, jr.",record,module:,25,0.4222222222222222,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",has_sex,sex_type,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",has_sex,male,59,0.8166666666666667,14,0.45,0.0,0.0
+hassurname,"bragg, jr.",freeman,"bragg, 'male')",24,0.4904761904761905,58,0.8400000000000001,0.0,0.33609692727625756
+hassurname,"bragg, jr.",record,module:,25,0.4222222222222222,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",has_occupation,occupation,42,0.6190476190476191,10,0.39999999999999997,0.0,0.0
+hassurname,"bragg, jr.",has_occupation,educator,42,0.6190476190476191,22,0.48333333333333334,0.0,0.0
+hassurname,"bragg, jr.",has_occupation,minister,42,0.6190476190476191,11,0.4083333333333334,0.0,0.0
+hassurname,"bragg, jr.",has_occupation,writer,42,0.6190476190476191,25,0.5111111111111111,0.0,0.0
+hassurname,"bragg, jr.",has_occupation,and activist,42,0.6190476190476191,18,0.45555555555555555,0.0,0.0
+hassurname,"bragg, jr.",freeman,"bragg, 'educator, minister, writer, and activist')",24,0.4904761904761905,27,0.6533333333333333,0.0,0.1757860783933462
+hassurname,"bragg, jr.",record,module:,25,0.4222222222222222,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",has_age,age,59,0.8166666666666667,31,0.6222222222222222,0.0,0.0
+hassurname,"bragg, jr.",has_age,77,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",freeman,"bragg, 77) (note: the age is calculated based on the death date march 12, 1940)",24,0.4904761904761905,18,0.5962025316455696,0.0,0.10152852403842219
+hassurname,"bragg, jr.",has_birthdate,date_of_birth,52,0.6871794871794871,17,0.4512820512820513,0.0,0.0
+hassurname,"bragg, jr.",has_birthdate,unknown,52,0.6871794871794871,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",freeman,"bragg, 'unknown')",24,0.4904761904761905,52,0.8223529411764706,0.0,0.33609692727625756
+hassurname,"bragg, jr.",has_deathdate,date_of_death,43,0.5615384615384615,9,0.3923076923076923,0.0,0.0
+hassurname,"bragg, jr.",has_deathdate,march 12,43,0.5615384615384615,22,0.44722222222222224,0.0,0.0
+hassurname,"bragg, jr.",has_deathdate,1940,43,0.5615384615384615,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",freeman,"bragg, 'march 12, 1940')",24,0.4904761904761905,47,0.8266666666666667,0.0,0.22028815056182968
+hassurname,"bragg, jr.",status record,module:,35,0.5760683760683761,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",has_person_status,minister,44,0.6735294117647058,11,0.4083333333333334,0.0,0.0
+hassurname,"bragg, jr.",has_person_status,educator,44,0.6735294117647058,22,0.48333333333333334,0.0,0.0
+hassurname,"bragg, jr.",has_person_status,writer,44,0.6735294117647058,25,0.5111111111111111,0.0,0.0
+hassurname,"bragg, jr.",has_person_status,and activist,44,0.6735294117647058,18,0.45555555555555555,0.0,0.0
+hassurname,"bragg, jr.",freeman,"bragg, 'minister, educator, writer, and activist')",24,0.4904761904761905,27,0.6533333333333333,0.0,0.1757860783933462
+hassurname,"bragg, jr.",has_status_generating_event,event,43,0.6703703703703704,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",has_status_generating_event,consecration,43,0.6703703703703704,18,0.45555555555555555,0.0,0.0
+hassurname,"bragg, jr.",has_status_generating_event,unknown,43,0.6703703703703704,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",recorded_at,event,19,0.41313131313131307,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",recorded_at,unknown,19,0.41313131313131307,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",recorded_at,unknown,19,0.41313131313131307,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",record,module:,25,0.4222222222222222,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",has_race_or_color,race_or_color,44,0.6509803921568628,26,0.5102564102564102,0.0,0.0
+hassurname,"bragg, jr.",has_race_or_color,african-american,44,0.6509803921568628,23,0.3847222222222222,0.0,0.0
+hassurname,"bragg, jr.",freeman,"bragg, african-american)",24,0.4904761904761905,47,0.8266666666666667,0.0,0.2605556710562624
+hassurname,"bragg, jr.",descriptor record,module:,22,0.49215686274509807,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",has_ethnolinguistic_descriptor,ethnolinguistic_descriptor,25,0.5492063492063491,11,0.4256410256410256,0.0,0.0
+hassurname,"bragg, jr.",has_ethnolinguistic_descriptor,english-american,25,0.5492063492063491,15,0.3847222222222222,0.0,0.0
+hassurname,"bragg, jr.",freeman,"bragg, english-american)",24,0.4904761904761905,47,0.8266666666666667,0.0,0.26055567105626243
+hassurname,"bragg, jr.",status record,module:,35,0.5760683760683761,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",has_person_status,minister,44,0.6735294117647058,11,0.4083333333333334,0.0,0.0
+hassurname,"bragg, jr.",has_person_status,educator,44,0.6735294117647058,22,0.48333333333333334,0.0,0.0
+hassurname,"bragg, jr.",has_person_status,writer,44,0.6735294117647058,25,0.5111111111111111,0.0,0.0
+hassurname,"bragg, jr.",has_person_status,and activist,44,0.6735294117647058,18,0.45555555555555555,0.0,0.0
+hassurname,"bragg, jr.",freeman,"bragg, 'minister, educator, writer, and activist')",24,0.4904761904761905,27,0.6533333333333333,0.0,0.1757860783933462
+hassurname,"bragg, jr.",has_status_generating_event,event,43,0.6703703703703704,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",has_status_generating_event,consecration,43,0.6703703703703704,18,0.45555555555555555,0.0,0.0
+hassurname,"bragg, jr.",has_status_generating_event,unknown,43,0.6703703703703704,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",recorded_at,event,19,0.41313131313131307,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",recorded_at,unknown,19,0.41313131313131307,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",recorded_at,unknown,19,0.41313131313131307,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",has_person_status,deceased,44,0.6735294117647058,11,0.4083333333333334,0.0,0.0
+hassurname,"bragg, jr.",has_status_generating_event,event,43,0.6703703703703704,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",has_status_generating_event,march 12,43,0.6703703703703704,22,0.44722222222222224,0.0,0.0
+hassurname,"bragg, jr.",has_status_generating_event,1940,43,0.6703703703703704,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",recorded_at,event,19,0.41313131313131307,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",recorded_at,march 12,19,0.41313131313131307,22,0.44722222222222224,0.0,0.0
+hassurname,"bragg, jr.",recorded_at,1940,19,0.41313131313131307,0,0.0,0.0,0.0
+hassurname,"bragg, jr.",freeman,"bragg, 'deceased') 3. has_status_generating_event(person_status, event): has_status_generating_event(deceased, 'march 12, 1940') 4. recorded_at(person_status_information, event): recorded_at(deceased, 'march 12, 1940') answer:  the ontology based on the text is provided in the form of module relations. the relations are populated with the information available in the text. the ontology includes name record module, interagent relationship record module, sex record module, occupation record module, age record module, person status record module, and race record module. the relations include has_name, has_surname, has_first_name, has_alternate_name, has_interagent_relationship_type, is_relationship_to, has_sex, has_occupation, has_age, has_birthdate, has_deathdate, has_person_status, has_status_generating_event, recorded_at, and has_race_or_color. the ontology is used to describe the agent george freeman bragg, and the relations provide information about his name, surname, first name, alternate name, interagent relationships, sex, occupation, age, birth and death dates, person status, and race. the ontology can be used for various applications such as data integration, data sharing, and data analysis.",24,0.4904761904761905,1,0.5987613743571015,0.0,0.03704165871208581
+hasname,"george freeman bragg, jr.",record,module:,15,0.0,12,0.405079365079365,0.0,0.0
+hasname,"george freeman bragg, jr.",has_name,name,93,0.9708333333333333,14,0.5122222222222222,0.0,0.0
+hasname,"george freeman bragg, jr.",has_name,george freeman bragg,93,0.9708333333333333,89,0.96,0.0,0.7765145304745156
+hasname,"george freeman bragg, jr.",freeman,"bragg, 'george freeman bragg')",29,0.35714285714285715,73,0.7347474747474747,0.0,0.7321049202512239
+hasname,"george freeman bragg, jr.",has_surname,surname,78,0.9151515151515152,19,0.5047619047619047,0.0,0.0
+hasname,"george freeman bragg, jr.",has_surname,bragg,78,0.9151515151515152,33,0.57,0.0,0.3799783615910079
+hasname,"george freeman bragg, jr.",freeman,"bragg, 'bragg')",29,0.35714285714285715,40,0.5888888888888889,0.0,0.3799783615910079
+hasname,"george freeman bragg, jr.",has_first_name,first_name,67,0.5476190476190476,23,0.5022222222222222,0.0,0.0
+hasname,"george freeman bragg, jr.",has_first_name,george,67,0.5476190476190476,39,0.8480000000000001,0.0,0.3799783615910079
+hasname,"george freeman bragg, jr.",freeman,"bragg, 'george')",29,0.35714285714285715,39,0.5576515151515151,0.0,0.5797386715376658
+hasname,"george freeman bragg, jr.",has_alternate_name,alternate_name,56,0.6746031746031745,26,0.5471428571428572,0.0,0.0
+hasname,"george freeman bragg, jr.",has_alternate_name,george freeman bragg,56,0.6746031746031745,89,0.96,0.0,0.7765145304745156
+hasname,"george freeman bragg, jr.",freeman,"bragg, 'george freeman bragg')",29,0.35714285714285715,73,0.7347474747474747,0.0,0.7321049202512239
+hasname,"george freeman bragg, jr.",relationship record,module:,23,0.5106516290726817,12,0.405079365079365,0.0,0.0
+hasname,"george freeman bragg, jr.",has_interagent_relationship_type,relationship_type,31,0.6259920634920636,19,0.3643137254901961,0.0,0.0
+hasname,"george freeman bragg, jr.",has_interagent_relationship_type,founder,31,0.6259920634920636,19,0.5047619047619047,0.0,0.0
+hasname,"george freeman bragg, jr.",freeman,"bragg, 'founder')",29,0.35714285714285715,38,0.5294117647058824,0.0,0.22028815056182968
+hasname,"george freeman bragg, jr.",is_relationship_to,agent,16,0.43121693121693117,20,0.5733333333333334,0.0,0.0
+hasname,"george freeman bragg, jr.",is_relationship_to,w. e. b. dubois,16,0.43121693121693117,25,0.37777777777777777,0.0,0.0
+hasname,"george freeman bragg, jr.",freeman,"bragg, 'w. e. b. dubois')",29,0.35714285714285715,32,0.5,0.0,0.22028815056182968
+hasname,"george freeman bragg, jr.",record,module:,15,0.0,12,0.405079365079365,0.0,0.0
+hasname,"george freeman bragg, jr.",has_sex,sex_type,57,0.8,12,0.44333333333333336,0.0,0.0
+hasname,"george freeman bragg, jr.",has_sex,male,57,0.8,14,0.5122222222222222,0.0,0.0
+hasname,"george freeman bragg, jr.",freeman,"bragg, 'male')",29,0.35714285714285715,36,0.5471428571428572,0.0,0.22028815056182974
+hasname,"george freeman bragg, jr.",record,module:,15,0.0,12,0.405079365079365,0.0,0.0
+hasname,"george freeman bragg, jr.",has_occupation,occupation,38,0.6190476190476191,17,0.47333333333333333,0.0,0.0
+hasname,"george freeman bragg, jr.",has_occupation,educator,38,0.6190476190476191,18,0.47000000000000003,0.0,0.0
+hasname,"george freeman bragg, jr.",has_occupation,minister,38,0.6190476190476191,18,0.3866666666666667,0.0,0.0
+hasname,"george freeman bragg, jr.",has_occupation,writer,38,0.6190476190476191,19,0.4288888888888889,0.0,0.0
+hasname,"george freeman bragg, jr.",has_occupation,and activist,38,0.6190476190476191,22,0.4155555555555555,0.0,0.0
+hasname,"george freeman bragg, jr.",freeman,"bragg, 'educator, minister, writer, and activist')",29,0.35714285714285715,32,0.5729824561403509,0.0,0.11521554337793123
+hasname,"george freeman bragg, jr.",record,module:,15,0.0,12,0.405079365079365,0.0,0.0
+hasname,"george freeman bragg, jr.",has_age,age,71,0.8666666666666668,14,0.5822222222222222,0.0,0.0
+hasname,"george freeman bragg, jr.",has_age,77,71,0.8666666666666668,0,0.0,0.0,0.0
+hasname,"george freeman bragg, jr.",freeman,"bragg, 77) (note: the age is calculated based on the death date march 12, 1940)",29,0.35714285714285715,23,0.5140828989823778,0.0,0.06654488326015778
+hasname,"george freeman bragg, jr.",has_birthdate,date_of_birth,50,0.553113553113553,26,0.4560683760683761,0.0,0.0
+hasname,"george freeman bragg, jr.",has_birthdate,unknown,50,0.553113553113553,12,0.28857142857142853,0.0,0.0
+hasname,"george freeman bragg, jr.",freeman,"bragg, 'unknown')",29,0.35714285714285715,33,0.46868347338935573,0.0,0.22028815056182974
+hasname,"george freeman bragg, jr.",has_deathdate,date_of_death,50,0.632967032967033,26,0.4560683760683761,0.0,0.0
+hasname,"george freeman bragg, jr.",has_deathdate,march 12,50,0.632967032967033,24,0.3866666666666667,0.0,0.0
+hasname,"george freeman bragg, jr.",has_deathdate,1940,50,0.632967032967033,0,0.0,0.0,0.0
+hasname,"george freeman bragg, jr.",freeman,"bragg, 'march 12, 1940')",29,0.35714285714285715,33,0.5418686868686868,0.0,0.14438355527738672
+hasname,"george freeman bragg, jr.",status record,module:,30,0.442002442002442,12,0.405079365079365,0.0,0.0
+hasname,"george freeman bragg, jr.",has_person_status,minister,42,0.6028011204481792,18,0.3866666666666667,0.0,0.0
+hasname,"george freeman bragg, jr.",has_person_status,educator,42,0.6028011204481792,18,0.47000000000000003,0.0,0.0
+hasname,"george freeman bragg, jr.",has_person_status,writer,42,0.6028011204481792,19,0.4288888888888889,0.0,0.0
+hasname,"george freeman bragg, jr.",has_person_status,and activist,42,0.6028011204481792,22,0.4155555555555555,0.0,0.0
+hasname,"george freeman bragg, jr.",freeman,"bragg, 'minister, educator, writer, and activist')",29,0.35714285714285715,29,0.5729824561403509,0.0,0.11521554337793123
+hasname,"george freeman bragg, jr.",has_status_generating_event,event,35,0.6375661375661376,20,0.5733333333333334,0.0,0.0
+hasname,"george freeman bragg, jr.",has_status_generating_event,consecration,35,0.6375661375661376,27,0.4055555555555556,0.0,0.0
+hasname,"george freeman bragg, jr.",has_status_generating_event,unknown,35,0.6375661375661376,12,0.28857142857142853,0.0,0.0
+hasname,"george freeman bragg, jr.",recorded_at,event,11,0.41125541125541126,20,0.5733333333333334,0.0,0.0
+hasname,"george freeman bragg, jr.",recorded_at,unknown,11,0.41125541125541126,12,0.28857142857142853,0.0,0.0
+hasname,"george freeman bragg, jr.",recorded_at,unknown,11,0.41125541125541126,12,0.28857142857142853,0.0,0.0
+hasname,"george freeman bragg, jr.",record,module:,15,0.0,12,0.405079365079365,0.0,0.0
+hasname,"george freeman bragg, jr.",has_race_or_color,race_or_color,42,0.6694677871148459,21,0.4560683760683761,0.0,0.0
+hasname,"george freeman bragg, jr.",has_race_or_color,african-american,42,0.6694677871148459,29,0.4816666666666667,0.0,0.0
+hasname,"george freeman bragg, jr.",freeman,"bragg, african-american)",29,0.35714285714285715,37,0.5211111111111112,0.0,0.1707761131901165
+hasname,"george freeman bragg, jr.",descriptor record,module:,17,0.3011204481792717,12,0.405079365079365,0.0,0.0
+hasname,"george freeman bragg, jr.",has_ethnolinguistic_descriptor,ethnolinguistic_descriptor,27,0.5603174603174603,24,0.4211721611721611,0.0,0.0
+hasname,"george freeman bragg, jr.",has_ethnolinguistic_descriptor,english-american,27,0.5603174603174603,29,0.44,0.0,0.0
+hasname,"george freeman bragg, jr.",freeman,"bragg, english-american)",29,0.35714285714285715,33,0.5488888888888889,0.0,0.17077611319011649
+hasname,"george freeman bragg, jr.",status record,module:,30,0.442002442002442,12,0.405079365079365,0.0,0.0
+hasname,"george freeman bragg, jr.",has_person_status,minister,42,0.6028011204481792,18,0.3866666666666667,0.0,0.0
+hasname,"george freeman bragg, jr.",has_person_status,educator,42,0.6028011204481792,18,0.47000000000000003,0.0,0.0
+hasname,"george freeman bragg, jr.",has_person_status,writer,42,0.6028011204481792,19,0.4288888888888889,0.0,0.0
+hasname,"george freeman bragg, jr.",has_person_status,and activist,42,0.6028011204481792,22,0.4155555555555555,0.0,0.0
+hasname,"george freeman bragg, jr.",freeman,"bragg, 'minister, educator, writer, and activist')",29,0.35714285714285715,29,0.5729824561403509,0.0,0.11521554337793123
+hasname,"george freeman bragg, jr.",has_status_generating_event,event,35,0.6375661375661376,20,0.5733333333333334,0.0,0.0
+hasname,"george freeman bragg, jr.",has_status_generating_event,consecration,35,0.6375661375661376,27,0.4055555555555556,0.0,0.0
+hasname,"george freeman bragg, jr.",has_status_generating_event,unknown,35,0.6375661375661376,12,0.28857142857142853,0.0,0.0
+hasname,"george freeman bragg, jr.",recorded_at,event,11,0.41125541125541126,20,0.5733333333333334,0.0,0.0
+hasname,"george freeman bragg, jr.",recorded_at,unknown,11,0.41125541125541126,12,0.28857142857142853,0.0,0.0
+hasname,"george freeman bragg, jr.",recorded_at,unknown,11,0.41125541125541126,12,0.28857142857142853,0.0,0.0
+hasname,"george freeman bragg, jr.",has_person_status,deceased,42,0.6028011204481792,18,0.47000000000000003,0.0,0.0
+hasname,"george freeman bragg, jr.",has_status_generating_event,event,35,0.6375661375661376,20,0.5733333333333334,0.0,0.0
+hasname,"george freeman bragg, jr.",has_status_generating_event,march 12,35,0.6375661375661376,24,0.3866666666666667,0.0,0.0
+hasname,"george freeman bragg, jr.",has_status_generating_event,1940,35,0.6375661375661376,0,0.0,0.0,0.0
+hasname,"george freeman bragg, jr.",recorded_at,event,11,0.41125541125541126,20,0.5733333333333334,0.0,0.0
+hasname,"george freeman bragg, jr.",recorded_at,march 12,11,0.41125541125541126,24,0.3866666666666667,0.0,0.0
+hasname,"george freeman bragg, jr.",recorded_at,1940,11,0.41125541125541126,0,0.0,0.0,0.0
+hasname,"george freeman bragg, jr.",freeman,"bragg, 'deceased') 3. has_status_generating_event(person_status, event): has_status_generating_event(deceased, 'march 12, 1940') 4. recorded_at(person_status_information, event): recorded_at(deceased, 'march 12, 1940') answer:  the ontology based on the text is provided in the form of module relations. the relations are populated with the information available in the text. the ontology includes name record module, interagent relationship record module, sex record module, occupation record module, age record module, person status record module, and race record module. the relations include has_name, has_surname, has_first_name, has_alternate_name, has_interagent_relationship_type, is_relationship_to, has_sex, has_occupation, has_age, has_birthdate, has_deathdate, has_person_status, has_status_generating_event, recorded_at, and has_race_or_color. the ontology is used to describe the agent george freeman bragg, and the relations provide information about his name, surname, first name, alternate name, interagent relationships, sex, occupation, age, birth and death dates, person status, and race. the ontology can be used for various applications such as data integration, data sharing, and data analysis.",29,0.35714285714285715,4,0.5210179859399252,0.0,0.057346887155489794

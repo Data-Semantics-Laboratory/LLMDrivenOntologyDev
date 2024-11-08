@@ -1,0 +1,424 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,are the relations for the,text:,28,0.4959307359307359,18,0.45555555555555555,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,madison hemings,32,0.537878787878788,29,0.5666666666666667,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,hemings,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,madison,40,0.5692640692640693,46,0.6428571428571429,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type,relationship_type,33,0.5340909090909091,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type,enslaved person,33,0.5340909090909091,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,thomas jefferson,34,0.5798460798460798,45,0.45138888888888884,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,male,22,0.45598845598845594,20,0.47222222222222215,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,farmer and carpenter,24,0.38311688311688313,23,0.4388888888888889,0.0,0.0
+instance of,person,and,carpenter'),29,0.44949494949494945,35,0.5934343434343434,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_age,?,33,0.45598845598845594,0,0.0,0.0,0.0
+instance of,person,not,mentioned),29,0.6161616161616161,38,0.48888888888888893,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_birthdate,?,33,0.5463869463869464,0,0.0,0.0,0.0
+instance of,person,date not,mentioned),42,0.654040404040404,38,0.48888888888888893,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,?,33,0.39044289044289043,0,0.0,0.0,0.0
+instance of,person,date not,mentioned),42,0.654040404040404,38,0.48888888888888893,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,enslaved person,29,0.449554367201426,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,?,26,0.4799102132435466,0,0.0,0.0,0.0
+instance of,person,not,mentioned),29,0.6161616161616161,38,0.48888888888888893,0.0,0.0
+instance of,person,recorded_at,event,18,0.4545454545454546,36,0.5777777777777778,0.0,0.0
+instance of,person,recorded_at,?,18,0.4545454545454546,0,0.0,0.0,0.0
+instance of,person,not,mentioned),29,0.6161616161616161,38,0.48888888888888893,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,african-american,36,0.5162210338680927,27,0.4861111111111111,0.0,0.0
+instance of,person,descriptor record,module:,29,0.5398523045581869,15,0.0,0.0,0.0
+instance of,person,has_ethnolinguistic_descriptor,ethnolinguistic_descriptor,34,0.5579124579124579,19,0.5235042735042735,0.0,0.0
+instance of,person,has_ethnolinguistic_descriptor,?,34,0.5579124579124579,0,0.0,0.0,0.0
+instance of,person,descriptor not,mentioned),32,0.6412337662337663,38,0.48888888888888893,0.0,0.0
+instance of,person,is no,"information available about madison hemings' ethnolinguistic descriptor. also, the birth and death dates are not mentioned in the text, so the relations for these modules are marked as?. if you don't know the answer, just say that you don't know, don't try to make up an answer.",50,0.5131313131313131,4,0.5627498001598722,0.0,0.0
+instance of,person,is no information available about madison,"hemings' ethnolinguistic descriptor. also, the birth and death dates are not mentioned in the text, so the relations for these modules are marked as?. if you don't know the answer, just say that you don't know, don't try to make up an answer.",27,0.5843311160384331,5,0.5082644628099173,0.0,0.0
+hasname,madison hemings,are the relations for the,text:,25,0.41047619047619044,10,0.0,0.0,0.0
+hasname,madison hemings,record,module:,15,0.0,27,0.5293650793650794,0.0,0.0
+hasname,madison hemings,has_name,name,93,0.9708333333333333,21,0.6722222222222222,0.0,0.0
+hasname,madison hemings,has_name,madison hemings,93,0.9708333333333333,100,1.0,0.0,1.0000000000000002
+hasname,madison hemings,has_surname,surname,78,0.9151515151515152,27,0.5492063492063491,0.0,0.0
+hasname,madison hemings,has_surname,hemings,78,0.9151515151515152,64,0.5293650793650794,0.0,0.5797386715376658
+hasname,madison hemings,has_first_name,first_name,67,0.5476190476190476,32,0.5,0.0,0.0
+hasname,madison hemings,has_first_name,madison,67,0.5476190476190476,64,0.8933333333333334,0.0,0.5797386715376658
+hasname,madison hemings,relationship record,module:,23,0.5106516290726817,27,0.5293650793650794,0.0,0.0
+hasname,madison hemings,has_interagent_relationship_type,relationship_type,31,0.6259920634920636,38,0.584640522875817,0.0,0.0
+hasname,madison hemings,has_interagent_relationship_type,enslaved person,31,0.6259920634920636,33,0.5222222222222223,0.0,0.0
+hasname,madison hemings,is_relationship_to,agent,16,0.43121693121693117,30,0.5111111111111111,0.0,0.0
+hasname,madison hemings,is_relationship_to,thomas jefferson,16,0.43121693121693117,39,0.5726851851851852,0.0,0.0
+hasname,madison hemings,record,module:,15,0.0,27,0.5293650793650794,0.0,0.0
+hasname,madison hemings,has_sex,sex_type,57,0.8,17,0.4611111111111111,0.0,0.0
+hasname,madison hemings,has_sex,male,57,0.8,32,0.65,0.0,0.0
+hasname,madison hemings,record,module:,15,0.0,27,0.5293650793650794,0.0,0.0
+hasname,madison hemings,has_occupation,occupation,38,0.6190476190476191,32,0.47222222222222227,0.0,0.0
+hasname,madison hemings,has_occupation,farmer and carpenter,38,0.6190476190476191,34,0.46269841269841266,0.0,0.0
+hasname,madison hemings,and,carpenter'),40,0.6507936507936508,23,0.3797979797979798,0.0,0.0
+hasname,madison hemings,record,module:,15,0.0,27,0.5293650793650794,0.0,0.0
+hasname,madison hemings,has_age,age,71,0.8666666666666668,22,0.4666666666666666,0.0,0.0
+hasname,madison hemings,has_age,?,71,0.8666666666666668,0,0.0,0.0,0.0
+hasname,madison hemings,not,mentioned),20,0.0,40,0.6746031746031745,0.0,0.0
+hasname,madison hemings,has_birthdate,date_of_birth,50,0.553113553113553,21,0.5094017094017094,0.0,0.0
+hasname,madison hemings,has_birthdate,?,50,0.553113553113553,0,0.0,0.0,0.0
+hasname,madison hemings,date not,mentioned),27,0.4900793650793651,40,0.6746031746031745,0.0,0.0
+hasname,madison hemings,has_deathdate,date_of_death,50,0.632967032967033,21,0.4393162393162393,0.0,0.0
+hasname,madison hemings,has_deathdate,?,50,0.632967032967033,0,0.0,0.0,0.0
+hasname,madison hemings,date not,mentioned),27,0.4900793650793651,40,0.6746031746031745,0.0,0.0
+hasname,madison hemings,status record,module:,30,0.442002442002442,27,0.5293650793650794,0.0,0.0
+hasname,madison hemings,has_person_status,enslaved person,42,0.6028011204481792,33,0.5222222222222223,0.0,0.0
+hasname,madison hemings,has_status_generating_event,event,35,0.6375661375661376,20,0.4222222222222222,0.0,0.0
+hasname,madison hemings,has_status_generating_event,?,35,0.6375661375661376,0,0.0,0.0,0.0
+hasname,madison hemings,not,mentioned),20,0.0,40,0.6746031746031745,0.0,0.0
+hasname,madison hemings,recorded_at,event,11,0.41125541125541126,20,0.4222222222222222,0.0,0.0
+hasname,madison hemings,recorded_at,?,11,0.41125541125541126,0,0.0,0.0,0.0
+hasname,madison hemings,not,mentioned),20,0.0,40,0.6746031746031745,0.0,0.0
+hasname,madison hemings,record,module:,15,0.0,27,0.5293650793650794,0.0,0.0
+hasname,madison hemings,has_race_or_color,race_or_color,42,0.6694677871148459,14,0.36581196581196584,0.0,0.0
+hasname,madison hemings,has_race_or_color,african-american,42,0.6694677871148459,39,0.5871031746031746,0.0,0.0
+hasname,madison hemings,descriptor record,module:,17,0.3011204481792717,27,0.5293650793650794,0.0,0.0
+hasname,madison hemings,has_ethnolinguistic_descriptor,ethnolinguistic_descriptor,27,0.5603174603174603,24,0.5504273504273504,0.0,0.0
+hasname,madison hemings,has_ethnolinguistic_descriptor,?,27,0.5603174603174603,0,0.0,0.0,0.0
+hasname,madison hemings,descriptor not,mentioned),19,0.30952380952380953,40,0.6746031746031745,0.0,0.0
+hasname,madison hemings,is no,"information available about madison hemings' ethnolinguistic descriptor. also, the birth and death dates are not mentioned in the text, so the relations for these modules are marked as?. if you don't know the answer, just say that you don't know, don't try to make up an answer.",33,0.5619047619047619,10,0.573541167066347,0.0,0.1185744234778398
+hasname,madison hemings,is no information available about madison,"hemings' ethnolinguistic descriptor. also, the birth and death dates are not mentioned in the text, so the relations for these modules are marked as?. if you don't know the answer, just say that you don't know, don't try to make up an answer.",17,0.4787456445993031,11,0.5539944903581268,0.0,0.0498364529349955
+hasfirstname,madison,are the relations for the,text:,38,0.5551851851851851,0,0.0,0.0,0.0
+hasfirstname,madison,record,module:,22,0.4166666666666667,29,0.5238095238095238,0.0,0.0
+hasfirstname,madison,has_name,name,70,0.8736111111111112,18,0.42857142857142855,0.0,0.0
+hasfirstname,madison,has_name,madison hemings,70,0.8736111111111112,64,0.8933333333333334,0.0,0.5797386715376658
+hasfirstname,madison,has_surname,surname,70,0.8733164983164984,29,0.0,0.0,0.0
+hasfirstname,madison,has_surname,hemings,70,0.8733164983164984,43,0.6309523809523809,0.0,0.0
+hasfirstname,madison,has_first_name,first_name,92,0.9666666666666667,35,0.5761904761904763,0.0,0.0
+hasfirstname,madison,has_first_name,madison,92,0.9666666666666667,100,1.0,0.0,1.0
+hasfirstname,madison,relationship record,module:,32,0.5077276524644946,29,0.5238095238095238,0.0,0.0
+hasfirstname,madison,has_interagent_relationship_type,relationship_type,36,0.6030092592592592,33,0.6028011204481792,0.0,0.0
+hasfirstname,madison,has_interagent_relationship_type,enslaved person,36,0.6030092592592592,45,0.446031746031746,0.0,0.0
+hasfirstname,madison,is_relationship_to,agent,27,0.6203703703703703,33,0.44761904761904764,0.0,0.0
+hasfirstname,madison,is_relationship_to,thomas jefferson,27,0.6203703703703703,43,0.44047619047619047,0.0,0.0
+hasfirstname,madison,record,module:,22,0.4166666666666667,29,0.5238095238095238,0.0,0.0
+hasfirstname,madison,has_sex,sex_type,53,0.6349206349206349,13,0.0,0.0,0.0
+hasfirstname,madison,has_sex,male,53,0.6349206349206349,36,0.5952380952380952,0.0,0.0
+hasfirstname,madison,record,module:,22,0.4166666666666667,29,0.5238095238095238,0.0,0.0
+hasfirstname,madison,has_occupation,occupation,38,0.5873015873015873,47,0.6571428571428571,0.0,0.0
+hasfirstname,madison,has_occupation,farmer and carpenter,38,0.5873015873015873,30,0.4238095238095238,0.0,0.0
+hasfirstname,madison,and,carpenter'),27,0.47222222222222215,22,0.48917748917748916,0.0,0.0
+hasfirstname,madison,record,module:,22,0.4166666666666667,29,0.5238095238095238,0.0,0.0
+hasfirstname,madison,has_age,age,53,0.7972222222222223,20,0.4920634920634921,0.0,0.0
+hasfirstname,madison,has_age,?,53,0.7972222222222223,0,0.0,0.0,0.0
+hasfirstname,madison,not,mentioned),13,0.47222222222222215,47,0.5738095238095239,0.0,0.0
+hasfirstname,madison,has_birthdate,date_of_birth,64,0.8324786324786324,20,0.442002442002442,0.0,0.0
+hasfirstname,madison,has_birthdate,?,64,0.8324786324786324,0,0.0,0.0,0.0
+hasfirstname,madison,date not,mentioned),30,0.5416666666666666,47,0.5738095238095239,0.0,0.0
+hasfirstname,madison,has_deathdate,date_of_death,48,0.5982905982905983,20,0.442002442002442,0.0,0.0
+hasfirstname,madison,has_deathdate,?,48,0.5982905982905983,0,0.0,0.0,0.0
+hasfirstname,madison,date not,mentioned),30,0.5416666666666666,47,0.5738095238095239,0.0,0.0
+hasfirstname,madison,status record,module:,32,0.5427350427350427,29,0.5238095238095238,0.0,0.0
+hasfirstname,madison,has_person_status,enslaved person,48,0.6857298474945533,45,0.446031746031746,0.0,0.0
+hasfirstname,madison,has_status_generating_event,event,41,0.5833333333333334,17,0.0,0.0,0.0
+hasfirstname,madison,has_status_generating_event,?,41,0.5833333333333334,0,0.0,0.0,0.0
+hasfirstname,madison,not,mentioned),13,0.47222222222222215,47,0.5738095238095239,0.0,0.0
+hasfirstname,madison,recorded_at,event,17,0.4823232323232323,17,0.0,0.0,0.0
+hasfirstname,madison,recorded_at,?,17,0.4823232323232323,0,0.0,0.0,0.0
+hasfirstname,madison,not,mentioned),13,0.47222222222222215,47,0.5738095238095239,0.0,0.0
+hasfirstname,madison,record,module:,22,0.4166666666666667,29,0.5238095238095238,0.0,0.0
+hasfirstname,madison,has_race_or_color,race_or_color,41,0.6176470588235294,20,0.47985347985347987,0.0,0.0
+hasfirstname,madison,has_race_or_color,african-american,41,0.6176470588235294,26,0.5386904761904762,0.0,0.0
+hasfirstname,madison,descriptor record,module:,28,0.50359477124183,29,0.5238095238095238,0.0,0.0
+hasfirstname,madison,has_ethnolinguistic_descriptor,ethnolinguistic_descriptor,33,0.5611111111111111,18,0.4084249084249085,0.0,0.0
+hasfirstname,madison,has_ethnolinguistic_descriptor,?,33,0.5611111111111111,0,0.0,0.0,0.0
+hasfirstname,madison,descriptor not,mentioned),31,0.5246031746031746,47,0.5738095238095239,0.0,0.0
+hasfirstname,madison,is no,"information available about madison hemings' ethnolinguistic descriptor. also, the birth and death dates are not mentioned in the text, so the relations for these modules are marked as?. if you don't know the answer, just say that you don't know, don't try to make up an answer.",35,0.5055555555555555,5,0.5322028091812264,0.0,0.0835588063999618
+hasfirstname,madison,is no information available about madison,"hemings' ethnolinguistic descriptor. also, the birth and death dates are not mentioned in the text, so the relations for these modules are marked as?. if you don't know the answer, just say that you don't know, don't try to make up an answer.",26,0.5924119241192412,6,0.5334513970877607,0.0,0.0
+hassurname,hemings,are the relations for the,text:,29,0.5022222222222222,17,0.44761904761904764,0.0,0.0
+hassurname,hemings,record,module:,25,0.4222222222222222,14,0.42857142857142855,0.0,0.0
+hassurname,hemings,has_name,name,78,0.9008333333333334,18,0.42857142857142855,0.0,0.0
+hassurname,hemings,has_name,madison hemings,78,0.9008333333333334,64,0.5293650793650794,0.0,0.5797386715376658
+hassurname,hemings,has_surname,surname,95,0.9787878787878788,14,0.42857142857142855,0.0,0.0
+hassurname,hemings,has_surname,hemings,95,0.9787878787878788,100,1.0,0.0,1.0
+hassurname,hemings,has_first_name,first_name,67,0.8674074074074074,24,0.46507936507936504,0.0,0.0
+hassurname,hemings,has_first_name,madison,67,0.8674074074074074,43,0.6309523809523809,0.0,0.0
+hassurname,hemings,relationship record,module:,28,0.4543859649122807,14,0.42857142857142855,0.0,0.0
+hassurname,hemings,has_interagent_relationship_type,relationship_type,33,0.544345238095238,33,0.6022408963585434,0.0,0.0
+hassurname,hemings,has_interagent_relationship_type,enslaved person,33,0.544345238095238,27,0.5428571428571428,0.0,0.0
+hassurname,hemings,is_relationship_to,agent,21,0.5333333333333333,33,0.5619047619047619,0.0,0.0
+hassurname,hemings,is_relationship_to,thomas jefferson,21,0.5333333333333333,26,0.5238095238095238,0.0,0.0
+hassurname,hemings,record,module:,25,0.4222222222222222,14,0.42857142857142855,0.0,0.0
+hassurname,hemings,has_sex,sex_type,59,0.8166666666666667,13,0.4226190476190476,0.0,0.0
+hassurname,hemings,has_sex,male,59,0.8166666666666667,18,0.42857142857142855,0.0,0.0
+hassurname,hemings,record,module:,25,0.4222222222222222,14,0.42857142857142855,0.0,0.0
+hassurname,hemings,has_occupation,occupation,42,0.6190476190476191,24,0.4142857142857143,0.0,0.0
+hassurname,hemings,has_occupation,farmer and carpenter,42,0.6190476190476191,15,0.4150793650793651,0.0,0.0
+hassurname,hemings,and,carpenter'),31,0.4777777777777778,22,0.48917748917748916,0.0,0.0
+hassurname,hemings,record,module:,25,0.4222222222222222,14,0.42857142857142855,0.0,0.0
+hassurname,hemings,has_age,age,59,0.8166666666666667,20,0.4920634920634921,0.0,0.0
+hassurname,hemings,has_age,?,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,hemings,not,mentioned),15,0.0,35,0.4904761904761905,0.0,0.0
+hassurname,hemings,has_birthdate,date_of_birth,52,0.6871794871794871,20,0.40659340659340665,0.0,0.0
+hassurname,hemings,has_birthdate,?,52,0.6871794871794871,0,0.0,0.0,0.0
+hassurname,hemings,date not,mentioned),22,0.48333333333333334,35,0.4904761904761905,0.0,0.0
+hassurname,hemings,has_deathdate,date_of_death,43,0.5615384615384615,10,0.40659340659340665,0.0,0.0
+hassurname,hemings,has_deathdate,?,43,0.5615384615384615,0,0.0,0.0,0.0
+hassurname,hemings,date not,mentioned),22,0.48333333333333334,35,0.4904761904761905,0.0,0.0
+hassurname,hemings,status record,module:,35,0.5760683760683761,14,0.42857142857142855,0.0,0.0
+hassurname,hemings,has_person_status,enslaved person,44,0.6735294117647058,27,0.5428571428571428,0.0,0.0
+hassurname,hemings,has_status_generating_event,event,43,0.6703703703703704,33,0.5619047619047619,0.0,0.0
+hassurname,hemings,has_status_generating_event,?,43,0.6703703703703704,0,0.0,0.0,0.0
+hassurname,hemings,not,mentioned),15,0.0,35,0.4904761904761905,0.0,0.0
+hassurname,hemings,recorded_at,event,19,0.41313131313131307,33,0.5619047619047619,0.0,0.0
+hassurname,hemings,recorded_at,?,19,0.41313131313131307,0,0.0,0.0,0.0
+hassurname,hemings,not,mentioned),15,0.0,35,0.4904761904761905,0.0,0.0
+hassurname,hemings,record,module:,25,0.4222222222222222,14,0.42857142857142855,0.0,0.0
+hassurname,hemings,has_race_or_color,race_or_color,44,0.6509803921568628,10,0.40659340659340665,0.0,0.0
+hassurname,hemings,has_race_or_color,african-american,44,0.6509803921568628,26,0.4275793650793651,0.0,0.0
+hassurname,hemings,descriptor record,module:,22,0.49215686274509807,14,0.42857142857142855,0.0,0.0
+hassurname,hemings,has_ethnolinguistic_descriptor,ethnolinguistic_descriptor,25,0.5492063492063491,30,0.5848595848595849,0.0,0.0
+hassurname,hemings,has_ethnolinguistic_descriptor,?,25,0.5492063492063491,0,0.0,0.0,0.0
+hassurname,hemings,descriptor not,mentioned),25,0.5047619047619047,35,0.4904761904761905,0.0,0.0
+hassurname,hemings,is no,"information available about madison hemings' ethnolinguistic descriptor. also, the birth and death dates are not mentioned in the text, so the relations for these modules are marked as?. if you don't know the answer, just say that you don't know, don't try to make up an answer.",27,0.5333333333333333,5,0.5322028091812264,0.0,0.0835588063999618
+hassurname,hemings,is no information available about madison,"hemings' ethnolinguistic descriptor. also, the birth and death dates are not mentioned in the text, so the relations for these modules are marked as?. if you don't know the answer, just say that you don't know, don't try to make up an answer.",20,0.5283391405342625,6,0.6763085399449036,0.0,0.08596365117892193
+hassex,male,are the relations for the,text:,26,0.4288888888888889,22,0.0,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_name,name,57,0.8055555555555556,50,0.6666666666666666,0.0,0.0
+hassex,male,has_name,madison hemings,57,0.8055555555555556,32,0.65,0.0,0.0
+hassex,male,has_surname,surname,59,0.6767676767676768,36,0.0,0.0,0.0
+hassex,male,has_surname,hemings,59,0.6767676767676768,18,0.42857142857142855,0.0,0.0
+hassex,male,has_first_name,first_name,50,0.6507936507936508,29,0.0,0.0,0.0
+hassex,male,has_first_name,madison,50,0.6507936507936508,36,0.5952380952380952,0.0,0.0
+hassex,male,relationship record,module:,24,0.44152046783625726,55,0.7535714285714287,0.0,0.0
+hassex,male,has_interagent_relationship_type,relationship_type,26,0.5972222222222222,19,0.5310457516339869,0.0,0.0
+hassex,male,has_interagent_relationship_type,enslaved person,26,0.5972222222222222,21,0.5388888888888889,0.0,0.0
+hassex,male,is_relationship_to,agent,17,0.46296296296296297,44,0.6333333333333333,0.0,0.0
+hassex,male,is_relationship_to,thomas jefferson,17,0.46296296296296297,30,0.6458333333333334,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_sex,sex_type,92,0.9666666666666667,17,0.4583333333333333,0.0,0.0
+hassex,male,has_sex,male,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_occupation,occupation,30,0.5714285714285715,14,0.45,0.0,0.0
+hassex,male,has_occupation,farmer and carpenter,30,0.5714285714285715,25,0.5222222222222223,0.0,0.0
+hassex,male,and,carpenter'),22,0.5,27,0.5606060606060607,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_age,age,62,0.8222222222222222,57,0.7222222222222222,0.0,0.0
+hassex,male,has_age,?,62,0.8222222222222222,0,0.0,0.0,0.0
+hassex,male,not,mentioned),0,0.0,29,0.5666666666666667,0.0,0.0
+hassex,male,has_birthdate,date_of_birth,42,0.576923076923077,24,0.5512820512820512,0.0,0.0
+hassex,male,has_birthdate,?,42,0.576923076923077,0,0.0,0.0,0.0
+hassex,male,date not,mentioned),29,0.5277777777777778,29,0.5666666666666667,0.0,0.0
+hassex,male,has_deathdate,date_of_death,42,0.6581196581196581,24,0.5512820512820512,0.0,0.0
+hassex,male,has_deathdate,?,42,0.6581196581196581,0,0.0,0.0,0.0
+hassex,male,date not,mentioned),29,0.5277777777777778,29,0.5666666666666667,0.0,0.0
+hassex,male,status record,module:,32,0.5747863247863249,55,0.7535714285714287,0.0,0.0
+hassex,male,has_person_status,enslaved person,35,0.642483660130719,21,0.5388888888888889,0.0,0.0
+hassex,male,has_status_generating_event,event,30,0.6728395061728395,22,0.48333333333333334,0.0,0.0
+hassex,male,has_status_generating_event,?,30,0.6728395061728395,0,0.0,0.0,0.0
+hassex,male,not,mentioned),0,0.0,29,0.5666666666666667,0.0,0.0
+hassex,male,recorded_at,event,12,0.41919191919191917,22,0.48333333333333334,0.0,0.0
+hassex,male,recorded_at,?,12,0.41919191919191917,0,0.0,0.0,0.0
+hassex,male,not,mentioned),0,0.0,29,0.5666666666666667,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_race_or_color,race_or_color,35,0.6339869281045751,24,0.5512820512820512,0.0,0.0
+hassex,male,has_race_or_color,african-american,35,0.6339869281045751,20,0.5416666666666666,0.0,0.0
+hassex,male,descriptor record,module:,17,0.31699346405228757,55,0.7535714285714287,0.0,0.0
+hassex,male,has_ethnolinguistic_descriptor,ethnolinguistic_descriptor,28,0.6,13,0.358974358974359,0.0,0.0
+hassex,male,has_ethnolinguistic_descriptor,?,28,0.6,0,0.0,0.0,0.0
+hassex,male,descriptor not,mentioned),10,0.3253968253968254,29,0.5666666666666667,0.0,0.0
+hassex,male,is no,"information available about madison hemings' ethnolinguistic descriptor. also, the birth and death dates are not mentioned in the text, so the relations for these modules are marked as?. if you don't know the answer, just say that you don't know, don't try to make up an answer.",18,0.45555555555555555,3,0.671462829736211,0.0,0.0
+hassex,male,is no information available about madison,"hemings' ethnolinguistic descriptor. also, the birth and death dates are not mentioned in the text, so the relations for these modules are marked as?. if you don't know the answer, just say that you don't know, don't try to make up an answer.",9,0.2940379403794038,3,0.5888429752066116,0.0,0.0
+hasage,age 29,are the relations for the,text:,26,0.44222222222222224,18,0.45555555555555555,0.0,0.0
+hasage,age 29,record,module:,17,0.0,15,0.0,0.0,0.0
+hasage,age 29,has_name,name,71,0.8736111111111112,40,0.611111111111111,0.0,0.0
+hasage,age 29,has_name,madison hemings,71,0.8736111111111112,19,0.48888888888888893,0.0,0.0
+hasage,age 29,has_surname,surname,59,0.5909090909090909,31,0.0,0.0,0.0
+hasage,age 29,has_surname,hemings,59,0.5909090909090909,15,0.4365079365079365,0.0,0.0
+hasage,age 29,has_first_name,first_name,50,0.5714285714285715,25,0.0,0.0,0.0
+hasage,age 29,has_first_name,madison,50,0.5714285714285715,15,0.4365079365079365,0.0,0.0
+hasage,age 29,relationship record,module:,24,0.44152046783625726,15,0.0,0.0,0.0
+hasage,age 29,has_interagent_relationship_type,relationship_type,32,0.6736111111111112,17,0.31699346405228757,0.0,0.0
+hasage,age 29,has_interagent_relationship_type,enslaved person,32,0.6736111111111112,29,0.45555555555555555,0.0,0.0
+hasage,age 29,is_relationship_to,agent,17,0.4444444444444444,55,0.79,0.0,0.0
+hasage,age 29,is_relationship_to,thomas jefferson,17,0.4444444444444444,18,0.45138888888888884,0.0,0.0
+hasage,age 29,record,module:,17,0.0,15,0.0,0.0,0.0
+hasage,age 29,has_sex,sex_type,62,0.8222222222222222,14,0.4305555555555555,0.0,0.0
+hasage,age 29,has_sex,male,62,0.8222222222222222,40,0.611111111111111,0.0,0.0
+hasage,age 29,record,module:,17,0.0,15,0.0,0.0,0.0
+hasage,age 29,has_occupation,occupation,40,0.6507936507936508,12,0.0,0.0,0.0
+hasage,age 29,has_occupation,farmer and carpenter,40,0.6507936507936508,23,0.5499999999999999,0.0,0.0
+hasage,age 29,and,carpenter'),22,0.5,24,0.5050505050505051,0.0,0.0
+hasage,age 29,record,module:,17,0.0,15,0.0,0.0,0.0
+hasage,age 29,has_age,age,92,0.9666666666666667,67,0.8833333333333334,0.0,0.5797386715376658
+hasage,age 29,has_age,?,92,0.9666666666666667,0,0.0,0.0,0.0
+hasage,age 29,not,mentioned),0,0.0,12,0.4222222222222222,0.0,0.0
+hasage,age 29,has_birthdate,date_of_birth,53,0.576923076923077,21,0.49572649572649574,0.0,0.0
+hasage,age 29,has_birthdate,?,53,0.576923076923077,0,0.0,0.0,0.0
+hasage,age 29,date not,mentioned),29,0.5277777777777778,12,0.4222222222222222,0.0,0.0
+hasage,age 29,has_deathdate,date_of_death,53,0.6726495726495726,21,0.49572649572649574,0.0,0.0
+hasage,age 29,has_deathdate,?,53,0.6726495726495726,0,0.0,0.0,0.0
+hasage,age 29,date not,mentioned),29,0.5277777777777778,12,0.4222222222222222,0.0,0.0
+hasage,age 29,status record,module:,32,0.46581196581196577,15,0.0,0.0,0.0
+hasage,age 29,has_person_status,enslaved person,35,0.6339869281045751,29,0.45555555555555555,0.0,0.0
+hasage,age 29,has_status_generating_event,event,36,0.8185185185185185,18,0.45555555555555555,0.0,0.0
+hasage,age 29,has_status_generating_event,?,36,0.8185185185185185,0,0.0,0.0,0.0
+hasage,age 29,not,mentioned),0,0.0,12,0.4222222222222222,0.0,0.0
+hasage,age 29,recorded_at,event,12,0.41919191919191917,18,0.45555555555555555,0.0,0.0
+hasage,age 29,recorded_at,?,12,0.41919191919191917,0,0.0,0.0,0.0
+hasage,age 29,not,mentioned),0,0.0,12,0.4222222222222222,0.0,0.0
+hasage,age 29,record,module:,17,0.0,15,0.0,0.0,0.0
+hasage,age 29,has_race_or_color,race_or_color,43,0.79640522875817,21,0.49572649572649574,0.0,0.0
+hasage,age 29,has_race_or_color,african-american,43,0.79640522875817,18,0.40972222222222227,0.0,0.0
+hasage,age 29,descriptor record,module:,17,0.31699346405228757,15,0.0,0.0,0.0
+hasage,age 29,has_ethnolinguistic_descriptor,ethnolinguistic_descriptor,28,0.6,12,0.3034188034188034,0.0,0.0
+hasage,age 29,has_ethnolinguistic_descriptor,?,28,0.6,0,0.0,0.0,0.0
+hasage,age 29,descriptor not,mentioned),10,0.3253968253968254,12,0.4222222222222222,0.0,0.0
+hasage,age 29,is no,"information available about madison hemings' ethnolinguistic descriptor. also, the birth and death dates are not mentioned in the text, so the relations for these modules are marked as?. if you don't know the answer, just say that you don't know, don't try to make up an answer.",18,0.45555555555555555,3,0.4770183852917666,0.0,0.0
+hasage,age 29,is no information available about madison,"hemings' ethnolinguistic descriptor. also, the birth and death dates are not mentioned in the text, so the relations for these modules are marked as?. if you don't know the answer, just say that you don't know, don't try to make up an answer.",13,0.4132791327913279,2,0.47773186409550045,0.0,0.0
+hasparticipantrole,registered person,are the relations for the,text:,33,0.5488888888888889,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,registered person,record,module:,25,0.48148148148148145,17,0.3011204481792717,0.0,0.0
+hasparticipantrole,registered person,has_name,name,38,0.5675925925925926,10,0.4362745098039216,0.0,0.0
+hasparticipantrole,registered person,has_name,madison hemings,38,0.5675925925925926,31,0.48328664799253035,0.0,0.0
+hasparticipantrole,registered person,has_surname,surname,41,0.6274651274651274,25,0.4239028944911298,0.0,0.0
+hasparticipantrole,registered person,has_surname,hemings,41,0.6274651274651274,25,0.5189075630252101,0.0,0.0
+hasparticipantrole,registered person,has_first_name,first_name,44,0.6772486772486772,30,0.5313725490196078,0.0,0.0
+hasparticipantrole,registered person,has_first_name,madison,44,0.6772486772486772,33,0.4239028944911298,0.0,0.0
+hasparticipantrole,registered person,relationship record,module:,38,0.5994152046783626,17,0.3011204481792717,0.0,0.0
+hasparticipantrole,registered person,has_interagent_relationship_type,relationship_type,44,0.65625,41,0.5602240896358542,0.0,0.0
+hasparticipantrole,registered person,has_interagent_relationship_type,enslaved person,44,0.65625,69,0.7328579916815211,0.0,0.33609692727625756
+hasparticipantrole,registered person,is_relationship_to,agent,44,0.6037037037037037,27,0.48104575163398694,0.0,0.0
+hasparticipantrole,registered person,is_relationship_to,thomas jefferson,44,0.6037037037037037,42,0.6232298474945533,0.0,0.0
+hasparticipantrole,registered person,record,module:,25,0.48148148148148145,17,0.3011204481792717,0.0,0.0
+hasparticipantrole,registered person,has_sex,sex_type,32,0.5317460317460317,32,0.5063725490196078,0.0,0.0
+hasparticipantrole,registered person,has_sex,male,32,0.5317460317460317,10,0.4362745098039216,0.0,0.0
+hasparticipantrole,registered person,record,module:,25,0.48148148148148145,17,0.3011204481792717,0.0,0.0
+hasparticipantrole,registered person,has_occupation,occupation,50,0.6566137566137565,22,0.5313725490196078,0.0,0.0
+hasparticipantrole,registered person,has_occupation,farmer and carpenter,50,0.6566137566137565,43,0.5627450980392158,0.0,0.0
+hasparticipantrole,registered person,and,carpenter'),19,0.46296296296296297,36,0.5828877005347594,0.0,0.0
+hasparticipantrole,registered person,record,module:,25,0.48148148148148145,17,0.3011204481792717,0.0,0.0
+hasparticipantrole,registered person,has_age,age,40,0.5978835978835978,20,0.42810457516339867,0.0,0.0
+hasparticipantrole,registered person,has_age,?,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,registered person,not,mentioned),19,0.46296296296296297,30,0.5313725490196078,0.0,0.0
+hasparticipantrole,registered person,has_birthdate,date_of_birth,52,0.6937321937321936,20,0.4309954751131222,0.0,0.0
+hasparticipantrole,registered person,has_birthdate,?,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,registered person,date not,mentioned),31,0.5740740740740741,30,0.5313725490196078,0.0,0.0
+hasparticipantrole,registered person,has_deathdate,date_of_death,52,0.6866096866096866,27,0.3476621417797889,0.0,0.0
+hasparticipantrole,registered person,has_deathdate,?,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,registered person,date not,mentioned),31,0.5740740740740741,30,0.5313725490196078,0.0,0.0
+hasparticipantrole,registered person,status record,module:,39,0.4995929995929996,17,0.3011204481792717,0.0,0.0
+hasparticipantrole,registered person,has_person_status,enslaved person,46,0.6479302832244008,69,0.7328579916815211,0.0,0.33609692727625756
+hasparticipantrole,registered person,has_status_generating_event,event,40,0.5819304152637487,27,0.48104575163398694,0.0,0.0
+hasparticipantrole,registered person,has_status_generating_event,?,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,registered person,not,mentioned),19,0.46296296296296297,30,0.5313725490196078,0.0,0.0
+hasparticipantrole,registered person,recorded_at,event,28,0.36195286195286197,27,0.48104575163398694,0.0,0.0
+hasparticipantrole,registered person,recorded_at,?,28,0.36195286195286197,0,0.0,0.0,0.0
+hasparticipantrole,registered person,not,mentioned),19,0.46296296296296297,30,0.5313725490196078,0.0,0.0
+hasparticipantrole,registered person,record,module:,25,0.48148148148148145,17,0.3011204481792717,0.0,0.0
+hasparticipantrole,registered person,has_race_or_color,race_or_color,46,0.60239651416122,27,0.4929110105580694,0.0,0.0
+hasparticipantrole,registered person,has_race_or_color,african-american,46,0.60239651416122,30,0.5355392156862745,0.0,0.0
+hasparticipantrole,registered person,descriptor record,module:,40,0.5653594771241829,17,0.3011204481792717,0.0,0.0
+hasparticipantrole,registered person,has_ethnolinguistic_descriptor,ethnolinguistic_descriptor,42,0.5903133903133903,42,0.5835847159376572,0.0,0.0
+hasparticipantrole,registered person,has_ethnolinguistic_descriptor,?,42,0.5903133903133903,0,0.0,0.0,0.0
+hasparticipantrole,registered person,descriptor not,mentioned),44,0.6232804232804233,30,0.5313725490196078,0.0,0.0
+hasparticipantrole,registered person,is no,"information available about madison hemings' ethnolinguistic descriptor. also, the birth and death dates are not mentioned in the text, so the relations for these modules are marked as?. if you don't know the answer, just say that you don't know, don't try to make up an answer.",26,0.337037037037037,11,0.549795457751446,0.0,0.0
+hasparticipantrole,registered person,is no information available about madison,"hemings' ethnolinguistic descriptor. also, the birth and death dates are not mentioned in the text, so the relations for these modules are marked as?. if you don't know the answer, just say that you don't know, don't try to make up an answer.",27,0.5259189771384892,12,0.5528277426673149,0.0,0.0
+hasdescriptiveoccupation,carpenter,are the relations for the,text:,37,0.5333760683760683,29,0.5407407407407407,0.0,0.0
+hasdescriptiveoccupation,carpenter,record,module:,27,0.6138888888888889,12,0.41798941798941797,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_name,name,25,0.5555555555555555,31,0.5740740740740741,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_name,madison hemings,25,0.5555555555555555,25,0.39999999999999997,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_surname,surname,34,0.5474386724386724,38,0.5052910052910052,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_surname,hemings,34,0.5474386724386724,25,0.5026455026455027,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_first_name,first_name,32,0.5615079365079364,32,0.5314814814814816,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_first_name,madison,32,0.5615079365079364,25,0.5026455026455027,0.0,0.0
+hasdescriptiveoccupation,carpenter,relationship record,module:,33,0.6137539361223572,12,0.41798941798941797,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,38,0.48322440087145974,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_interagent_relationship_type,enslaved person,43,0.5868055555555555,33,0.5777777777777778,0.0,0.0
+hasdescriptiveoccupation,carpenter,is_relationship_to,agent,38,0.6264245014245015,57,0.7481481481481481,0.0,0.0
+hasdescriptiveoccupation,carpenter,is_relationship_to,thomas jefferson,38,0.6264245014245015,32,0.5560185185185186,0.0,0.0
+hasdescriptiveoccupation,carpenter,record,module:,27,0.6138888888888889,12,0.41798941798941797,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_sex,sex_type,32,0.5742063492063493,35,0.5648148148148148,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_sex,male,32,0.5742063492063493,31,0.5740740740740741,0.0,0.0
+hasdescriptiveoccupation,carpenter,record,module:,27,0.6138888888888889,12,0.41798941798941797,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_occupation,occupation,68,0.8045940170940171,32,0.5518518518518518,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_occupation,farmer and carpenter,68,0.8045940170940171,62,0.6,0.0,0.44943641652398214
+hasdescriptiveoccupation,carpenter,and,carpenter'),15,0.5833333333333334,90,0.9636363636363636,0.0,1.0
+hasdescriptiveoccupation,carpenter,record,module:,27,0.6138888888888889,12,0.41798941798941797,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_age,age,26,0.5793650793650794,33,0.6296296296296297,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_age,?,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,carpenter,not,mentioned),15,0.4583333333333333,42,0.6148148148148148,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_birthdate,date_of_birth,38,0.6286324786324786,36,0.5007122507122507,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_birthdate,?,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,carpenter,date not,mentioned),31,0.4777777777777778,42,0.6148148148148148,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_deathdate,date_of_death,43,0.652065527065527,27,0.5007122507122507,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_deathdate,?,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,carpenter,date not,mentioned),31,0.4777777777777778,42,0.6148148148148148,0.0,0.0
+hasdescriptiveoccupation,carpenter,status record,module:,32,0.540954415954416,12,0.41798941798941797,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_person_status,enslaved person,39,0.6241830065359477,33,0.5777777777777778,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_status_generating_event,event,39,0.5815696649029983,43,0.6444444444444445,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_status_generating_event,?,39,0.5815696649029983,0,0.0,0.0,0.0
+hasdescriptiveoccupation,carpenter,not,mentioned),15,0.4583333333333333,42,0.6148148148148148,0.0,0.0
+hasdescriptiveoccupation,carpenter,recorded_at,event,34,0.5202020202020202,43,0.6444444444444445,0.0,0.0
+hasdescriptiveoccupation,carpenter,recorded_at,?,34,0.5202020202020202,0,0.0,0.0,0.0
+hasdescriptiveoccupation,carpenter,not,mentioned),15,0.4583333333333333,42,0.6148148148148148,0.0,0.0
+hasdescriptiveoccupation,carpenter,record,module:,27,0.6138888888888889,12,0.41798941798941797,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_race_or_color,race_or_color,39,0.5977668845315903,27,0.58005698005698,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_race_or_color,african-american,39,0.5977668845315903,40,0.5694444444444443,0.0,0.0
+hasdescriptiveoccupation,carpenter,descriptor record,module:,54,0.6797385620915034,12,0.41798941798941797,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_ethnolinguistic_descriptor,ethnolinguistic_descriptor,44,0.6722222222222222,29,0.5159544159544159,0.0,0.0
+hasdescriptiveoccupation,carpenter,has_ethnolinguistic_descriptor,?,44,0.6722222222222222,0,0.0,0.0,0.0
+hasdescriptiveoccupation,carpenter,descriptor not,mentioned),53,0.6874098124098125,42,0.6148148148148148,0.0,0.0
+hasdescriptiveoccupation,carpenter,is no,"information available about madison hemings' ethnolinguistic descriptor. also, the birth and death dates are not mentioned in the text, so the relations for these modules are marked as?. if you don't know the answer, just say that you don't know, don't try to make up an answer.",14,0.46388888888888885,6,0.5293098854249934,0.0,0.0
+hasdescriptiveoccupation,carpenter,is no information available about madison,"hemings' ethnolinguistic descriptor. also, the birth and death dates are not mentioned in the text, so the relations for these modules are marked as?. if you don't know the answer, just say that you don't know, don't try to make up an answer.",37,0.5302845528455284,6,0.5309152127333946,0.0,0.0
+haspersonstatus,free person,are the relations for the,text:,35,0.5555555555555555,12,0.43030303030303035,0.0,0.0
+haspersonstatus,free person,record,module:,19,0.45555555555555555,11,0.41125541125541126,0.0,0.0
+haspersonstatus,free person,has_name,name,43,0.6611111111111111,13,0.44696969696969696,0.0,0.0
+haspersonstatus,free person,has_name,madison hemings,43,0.6611111111111111,23,0.46262626262626255,0.0,0.0
+haspersonstatus,free person,has_surname,surname,46,0.6702020202020202,22,0.48917748917748916,0.0,0.0
+haspersonstatus,free person,has_surname,hemings,46,0.6702020202020202,22,0.48917748917748916,0.0,0.0
+haspersonstatus,free person,has_first_name,first_name,48,0.6599206349206349,38,0.5045454545454545,0.0,0.0
+haspersonstatus,free person,has_first_name,madison,48,0.6599206349206349,33,0.5670995670995671,0.0,0.0
+haspersonstatus,free person,relationship record,module:,29,0.48479532163742683,11,0.41125541125541126,0.0,0.0
+haspersonstatus,free person,has_interagent_relationship_type,relationship_type,43,0.6014520202020203,29,0.5216874628639334,0.0,0.0
+haspersonstatus,free person,has_interagent_relationship_type,enslaved person,43,0.6014520202020203,69,0.694949494949495,0.0,0.33609692727625756
+haspersonstatus,free person,is_relationship_to,agent,36,0.6259259259259259,25,0.43030303030303035,0.0,0.0
+haspersonstatus,free person,is_relationship_to,thomas jefferson,36,0.6259259259259259,44,0.5484307359307359,0.0,0.0
+haspersonstatus,free person,record,module:,19,0.45555555555555555,11,0.41125541125541126,0.0,0.0
+haspersonstatus,free person,has_sex,sex_type,36,0.6158730158730159,32,0.43813131313131315,0.0,0.0
+haspersonstatus,free person,has_sex,male,36,0.6158730158730159,13,0.44696969696969696,0.0,0.0
+haspersonstatus,free person,record,module:,19,0.45555555555555555,11,0.41125541125541126,0.0,0.0
+haspersonstatus,free person,has_occupation,occupation,41,0.6365079365079365,29,0.5242424242424243,0.0,0.0
+haspersonstatus,free person,has_occupation,farmer and carpenter,41,0.6365079365079365,45,0.6257575757575758,0.0,0.0
+haspersonstatus,free person,and,carpenter'),22,0.4666666666666666,36,0.5696969696969697,0.0,0.0
+haspersonstatus,free person,record,module:,19,0.45555555555555555,11,0.41125541125541126,0.0,0.0
+haspersonstatus,free person,has_age,age,36,0.6126984126984126,14,0.47474747474747475,0.0,0.0
+haspersonstatus,free person,has_age,?,36,0.6126984126984126,0,0.0,0.0,0.0
+haspersonstatus,free person,not,mentioned),22,0.4666666666666666,29,0.5045454545454545,0.0,0.0
+haspersonstatus,free person,has_birthdate,date_of_birth,50,0.6683760683760683,17,0.3900543900543901,0.0,0.0
+haspersonstatus,free person,has_birthdate,?,50,0.6683760683760683,0,0.0,0.0,0.0
+haspersonstatus,free person,date not,mentioned),35,0.5861111111111111,29,0.5045454545454545,0.0,0.0
+haspersonstatus,free person,has_deathdate,date_of_death,50,0.6207570207570208,17,0.3900543900543901,0.0,0.0
+haspersonstatus,free person,has_deathdate,?,50,0.6207570207570208,0,0.0,0.0,0.0
+haspersonstatus,free person,date not,mentioned),35,0.5861111111111111,29,0.5045454545454545,0.0,0.0
+haspersonstatus,free person,status record,module:,43,0.5094017094017094,11,0.41125541125541126,0.0,0.0
+haspersonstatus,free person,has_person_status,enslaved person,94,0.9725490196078431,69,0.694949494949495,0.0,0.33609692727625756
+haspersonstatus,free person,has_status_generating_event,event,43,0.637037037037037,38,0.5272727272727272,0.0,0.0
+haspersonstatus,free person,has_status_generating_event,?,43,0.637037037037037,0,0.0,0.0,0.0
+haspersonstatus,free person,not,mentioned),22,0.4666666666666666,29,0.5045454545454545,0.0,0.0
+haspersonstatus,free person,recorded_at,event,31,0.46262626262626255,38,0.5272727272727272,0.0,0.0
+haspersonstatus,free person,recorded_at,?,31,0.46262626262626255,0,0.0,0.0,0.0
+haspersonstatus,free person,not,mentioned),22,0.4666666666666666,29,0.5045454545454545,0.0,0.0
+haspersonstatus,free person,record,module:,19,0.45555555555555555,11,0.41125541125541126,0.0,0.0
+haspersonstatus,free person,has_race_or_color,race_or_color,38,0.530905695611578,33,0.47377622377622375,0.0,0.0
+haspersonstatus,free person,has_race_or_color,african-american,38,0.530905695611578,37,0.5223484848484848,0.0,0.0
+haspersonstatus,free person,descriptor record,module:,25,0.4176470588235294,11,0.41125541125541126,0.0,0.0
+haspersonstatus,free person,has_ethnolinguistic_descriptor,ethnolinguistic_descriptor,40,0.609090909090909,22,0.4156177156177156,0.0,0.0
+haspersonstatus,free person,has_ethnolinguistic_descriptor,?,40,0.609090909090909,0,0.0,0.0,0.0
+haspersonstatus,free person,descriptor not,mentioned),34,0.5765873015873016,29,0.5045454545454545,0.0,0.0
+haspersonstatus,free person,is no,"information available about madison hemings' ethnolinguistic descriptor. also, the birth and death dates are not mentioned in the text, so the relations for these modules are marked as?. if you don't know the answer, just say that you don't know, don't try to make up an answer.",20,0.48888888888888893,8,0.5283409635927622,0.0,0.0
+haspersonstatus,free person,is no information available about madison,"hemings' ethnolinguistic descriptor. also, the birth and death dates are not mentioned in the text, so the relations for these modules are marked as?. if you don't know the answer, just say that you don't know, don't try to make up an answer.",25,0.49281842818428184,8,0.5606060606060606,0.0,0.0

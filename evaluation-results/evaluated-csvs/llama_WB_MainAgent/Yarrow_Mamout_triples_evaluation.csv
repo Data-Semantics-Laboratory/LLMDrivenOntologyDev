@@ -1,0 +1,571 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,yarrow mamout,32,0.537878787878788,21,0.49572649572649574,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,mamout,27,0.49242424242424243,17,0.4444444444444444,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,yarrow,40,0.5692640692640693,33,0.5555555555555555,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,relationship_type,30,0.5269480519480519,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,enslaver,30,0.5269480519480519,29,0.5277777777777778,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,brooke beall,34,0.5798460798460798,22,0.47222222222222215,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,male,22,0.45598845598845594,20,0.47222222222222215,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,jack of all trades,24,0.38311688311688313,17,0.40740740740740744,0.0,0.0
+instance of,person,has_occupation,brickmaker,24,0.38311688311688313,25,0.4222222222222222,0.0,0.0
+instance of,person,has_occupation,charcoal burner,24,0.38311688311688313,29,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,basket weaver,24,0.38311688311688313,21,0.32905982905982906,0.0,0.0
+instance of,person,has_occupation,cart driver,24,0.38311688311688313,24,0.41919191919191917,0.0,0.0
+instance of,person,has_occupation,stevedore,24,0.38311688311688313,27,0.5,0.0,0.0
+instance of,person,of all,"trades, brickmaker, charcoal burner, basket weaver, cart driver, stevedore')",24,0.41919191919191917,10,0.566374269005848,0.33609692727625756,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_age,86,33,0.45598845598845594,0,0.0,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_birthdate,unknown,33,0.5463869463869464,31,0.373015873015873,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,january 19,33,0.39044289044289043,12,0.3444444444444444,0.0,0.0
+instance of,person,has_deathdate,1823,33,0.39044289044289043,0,0.0,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,enslaved person,29,0.449554367201426,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,has_person_status,free person,29,0.449554367201426,71,0.3383838383838384,0.0,0.5797386715376658
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,sale of estate of joseph dubreuil,26,0.4799102132435466,15,0.41919191919191917,0.0,0.0
+instance of,person,has_status_generating_event,manumission by brooke beall,26,0.4799102132435466,18,0.4259259259259259,0.0,0.0
+instance of,person,of estate of joseph,"dubreuil'), has_status_generating_event(free person, 'manumission by brooke beall')",47,0.5730234677603098,13,0.4882864792503347,0.41120705506761873,0.25969799324016246
+instance of,person,recorded_at,event,18,0.4545454545454546,36,0.5777777777777778,0.0,0.0
+instance of,person,recorded_at,sale of estate of joseph dubreuil,18,0.4545454545454546,15,0.41919191919191917,0.0,0.0
+instance of,person,recorded_at,manumission by brooke beall,18,0.4545454545454546,18,0.4259259259259259,0.0,0.0
+instance of,person,of estate of joseph,"dubreuil'), recorded_at(free person, 'manumission by brooke beall')",47,0.5730234677603098,16,0.5854063018242123,0.41120705506761873,0.25969799324016246
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,african-american,36,0.5162210338680927,27,0.4861111111111111,0.0,0.0
+instance of,person,descriptor record,module:,29,0.5398523045581869,15,0.0,0.0,0.0
+instance of,person,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,34,0.5579124579124579,19,0.5255555555555556,0.0,0.0
+instance of,person,has_ethnolinguistic_descriptor,fula,34,0.5579124579124579,0,0.0,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,devout muslim,29,0.449554367201426,21,0.49572649572649574,0.0,0.0
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,conversion to islam,26,0.4799102132435466,40,0.5654970760233918,0.0,0.0
+instance of,person,to,islam'),31,0.5303030303030303,15,0.4365079365079365,0.0,0.0
+instance of,person,recorded_at,event,18,0.4545454545454546,36,0.5777777777777778,0.0,0.0
+instance of,person,recorded_at,conversion to islam,18,0.4545454545454546,40,0.5654970760233918,0.0,0.0
+instance of,person,to,"islam')  note: the birth date is unknown. the death date is january 19, 1823. the age is 86. the occupation is jack of all trades, brickmaker, charcoal burner, basket weaver, cart driver, stevedore. the person status is enslaved person and free person. the race is african-american. the ethnolinguistic descriptor is fula. the status generating events are the sale of estate of joseph dubreuil and manumission by brooke beall. the recorded at events are the sale of estate of joseph dubreuil and manumission by brooke beall. the person status is devout muslim. the status generating event is conversion to islam. the recorded at event is conversion to islam.",31,0.5303030303030303,2,0.5030395136778115,0.0,0.132395121977182
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_name,name,57,0.8055555555555556,50,0.6666666666666666,0.0,0.0
+hassex,male,has_name,yarrow mamout,57,0.8055555555555556,24,0.4423076923076923,0.0,0.0
+hassex,male,has_surname,surname,59,0.6767676767676768,36,0.0,0.0,0.0
+hassex,male,has_surname,mamout,59,0.6767676767676768,40,0.611111111111111,0.0,0.0
+hassex,male,has_first_name,first_name,50,0.6507936507936508,29,0.0,0.0,0.0
+hassex,male,has_first_name,yarrow,50,0.6507936507936508,20,0.47222222222222215,0.0,0.0
+hassex,male,relationship record,module:,24,0.44152046783625726,55,0.7535714285714287,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,relationship_type,24,0.5936507936507937,19,0.5310457516339869,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,enslaver,24,0.5936507936507937,33,0.5972222222222222,0.0,0.0
+hassex,male,is_relationship_to,agent,17,0.46296296296296297,44,0.6333333333333333,0.0,0.0
+hassex,male,is_relationship_to,brooke beall,17,0.46296296296296297,25,0.4444444444444444,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_sex,sex_type,92,0.9666666666666667,17,0.4583333333333333,0.0,0.0
+hassex,male,has_sex,male,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_occupation,occupation,30,0.5714285714285715,14,0.45,0.0,0.0
+hassex,male,has_occupation,jack of all trades,30,0.5714285714285715,27,0.5370370370370371,0.0,0.0
+hassex,male,has_occupation,brickmaker,30,0.5714285714285715,43,0.0,0.0,0.0
+hassex,male,has_occupation,charcoal burner,30,0.5714285714285715,32,0.5444444444444444,0.0,0.0
+hassex,male,has_occupation,basket weaver,30,0.5714285714285715,24,0.5512820512820512,0.0,0.0
+hassex,male,has_occupation,cart driver,30,0.5714285714285715,27,0.44696969696969696,0.0,0.0
+hassex,male,has_occupation,stevedore,30,0.5714285714285715,15,0.4537037037037037,0.0,0.0
+hassex,male,of all,"trades, brickmaker, charcoal burner, basket weaver, cart driver, stevedore')",17,0.4444444444444444,10,0.5175438596491228,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_age,age,62,0.8222222222222222,57,0.7222222222222222,0.0,0.0
+hassex,male,has_age,86,62,0.8222222222222222,0,0.0,0.0,0.0
+hassex,male,has_birthdate,date_of_birth,42,0.576923076923077,24,0.5512820512820512,0.0,0.0
+hassex,male,has_birthdate,unknown,42,0.576923076923077,0,0.0,0.0,0.0
+hassex,male,has_deathdate,date_of_death,42,0.6581196581196581,24,0.5512820512820512,0.0,0.0
+hassex,male,has_deathdate,january 19,42,0.6581196581196581,14,0.45,0.0,0.0
+hassex,male,has_deathdate,1823,42,0.6581196581196581,0,0.0,0.0,0.0
+hassex,male,status record,module:,32,0.5747863247863249,55,0.7535714285714287,0.0,0.0
+hassex,male,has_person_status,enslaved person,35,0.642483660130719,21,0.5388888888888889,0.0,0.0
+hassex,male,has_person_status,free person,35,0.642483660130719,13,0.44696969696969696,0.0,0.0
+hassex,male,has_status_generating_event,event,30,0.6728395061728395,22,0.48333333333333334,0.0,0.0
+hassex,male,has_status_generating_event,sale of estate of joseph dubreuil,30,0.6728395061728395,16,0.6136363636363636,0.0,0.0
+hassex,male,has_status_generating_event,manumission by brooke beall,30,0.6728395061728395,19,0.5246913580246914,0.0,0.0
+hassex,male,of estate of joseph,"dubreuil'), has_status_generating_event(free person, 'manumission by brooke beall')",24,0.44152046783625726,7,0.48427041499330653,0.0,0.0
+hassex,male,recorded_at,event,12,0.41919191919191917,22,0.48333333333333334,0.0,0.0
+hassex,male,recorded_at,sale of estate of joseph dubreuil,12,0.41919191919191917,16,0.6136363636363636,0.0,0.0
+hassex,male,recorded_at,manumission by brooke beall,12,0.41919191919191917,19,0.5246913580246914,0.0,0.0
+hassex,male,of estate of joseph,"dubreuil'), recorded_at(free person, 'manumission by brooke beall')",24,0.44152046783625726,8,0.48714759535655056,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_race_or_color,race_or_color,35,0.6339869281045751,24,0.5512820512820512,0.0,0.0
+hassex,male,has_race_or_color,african-american,35,0.6339869281045751,20,0.5416666666666666,0.0,0.0
+hassex,male,descriptor record,module:,17,0.31699346405228757,55,0.7535714285714287,0.0,0.0
+hassex,male,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,28,0.6,14,0.36000000000000004,0.0,0.0
+hassex,male,has_ethnolinguistic_descriptor,fula,28,0.6,25,0.5,0.0,0.0
+hassex,male,status record,module:,32,0.5747863247863249,55,0.7535714285714287,0.0,0.0
+hassex,male,has_person_status,devout muslim,35,0.642483660130719,24,0.4423076923076923,0.0,0.0
+hassex,male,has_status_generating_event,event,30,0.6728395061728395,22,0.48333333333333334,0.0,0.0
+hassex,male,has_status_generating_event,conversion to islam,30,0.6728395061728395,9,0.43421052631578944,0.0,0.0
+hassex,male,to,islam'),0,0.0,18,0.42857142857142855,0.0,0.0
+hassex,male,recorded_at,event,12,0.41919191919191917,22,0.48333333333333334,0.0,0.0
+hassex,male,recorded_at,conversion to islam,12,0.41919191919191917,9,0.43421052631578944,0.0,0.0
+hassex,male,to,"islam')  note: the birth date is unknown. the death date is january 19, 1823. the age is 86. the occupation is jack of all trades, brickmaker, charcoal burner, basket weaver, cart driver, stevedore. the person status is enslaved person and free person. the race is african-american. the ethnolinguistic descriptor is fula. the status generating events are the sale of estate of joseph dubreuil and manumission by brooke beall. the recorded at events are the sale of estate of joseph dubreuil and manumission by brooke beall. the person status is devout muslim. the status generating event is conversion to islam. the recorded at event is conversion to islam.",0,0.0,1,0.5853596757852076,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,yarrow mamout,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,mamout,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,yarrow,44,0.6772486772486772,0,0.0,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,enslaver,42,0.6570105820105819,15,0.44166666666666665,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,brooke beall,44,0.6037037037037037,12,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,male,32,0.5317460317460317,22,0.48333333333333334,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,jack of all trades,50,0.6566137566137565,26,0.5037037037037037,0.0,0.0
+hasparticipantrole,child,has_occupation,brickmaker,50,0.6566137566137565,13,0.3666666666666667,0.0,0.0
+hasparticipantrole,child,has_occupation,charcoal burner,50,0.6566137566137565,30,0.6,0.0,0.0
+hasparticipantrole,child,has_occupation,basket weaver,50,0.6566137566137565,0,0.0,0.0,0.0
+hasparticipantrole,child,has_occupation,cart driver,50,0.6566137566137565,25,0.5272727272727272,0.0,0.0
+hasparticipantrole,child,has_occupation,stevedore,50,0.6566137566137565,14,0.43703703703703706,0.0,0.0
+hasparticipantrole,child,of all,"trades, brickmaker, charcoal burner, basket weaver, cart driver, stevedore')",17,0.40740740740740744,10,0.5552631578947369,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_age,age,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_age,86,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_birthdate,date_of_birth,52,0.6937321937321936,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_birthdate,unknown,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,child,has_deathdate,date_of_death,52,0.6866096866096866,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_deathdate,january 19,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,child,has_deathdate,1823,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,enslaved person,46,0.6479302832244008,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,child,has_person_status,free person,46,0.6479302832244008,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,sale of estate of joseph dubreuil,40,0.5819304152637487,16,0.4101010101010101,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,manumission by brooke beall,40,0.5819304152637487,12,0.41234567901234565,0.0,0.0
+hasparticipantrole,child,of estate of joseph,"dubreuil'), has_status_generating_event(free person, 'manumission by brooke beall')",32,0.44291283764967976,7,0.5327309236947791,0.0,0.0
+hasparticipantrole,child,recorded_at,event,28,0.36195286195286197,0,0.0,0.0,0.0
+hasparticipantrole,child,recorded_at,sale of estate of joseph dubreuil,28,0.36195286195286197,16,0.4101010101010101,0.0,0.0
+hasparticipantrole,child,recorded_at,manumission by brooke beall,28,0.36195286195286197,12,0.41234567901234565,0.0,0.0
+hasparticipantrole,child,of estate of joseph,"dubreuil'), recorded_at(free person, 'manumission by brooke beall')",32,0.44291283764967976,8,0.5365671641791044,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_race_or_color,race_or_color,46,0.60239651416122,22,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_race_or_color,african-american,46,0.60239651416122,19,0.3416666666666666,0.0,0.0
+hasparticipantrole,child,descriptor record,module:,40,0.5653594771241829,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,42,0.5903133903133903,13,0.46222222222222226,0.0,0.0
+hasparticipantrole,child,has_ethnolinguistic_descriptor,fula,42,0.5903133903133903,22,0.48333333333333334,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,devout muslim,46,0.6479302832244008,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,conversion to islam,40,0.5819304152637487,25,0.5017543859649123,0.0,0.0
+hasparticipantrole,child,to,islam'),20,0.5185185185185185,33,0.5619047619047619,0.0,0.0
+hasparticipantrole,child,recorded_at,event,28,0.36195286195286197,0,0.0,0.0,0.0
+hasparticipantrole,child,recorded_at,conversion to islam,28,0.36195286195286197,25,0.5017543859649123,0.0,0.0
+hasparticipantrole,child,to,"islam')  note: the birth date is unknown. the death date is january 19, 1823. the age is 86. the occupation is jack of all trades, brickmaker, charcoal burner, basket weaver, cart driver, stevedore. the person status is enslaved person and free person. the race is african-american. the ethnolinguistic descriptor is fula. the status generating events are the sale of estate of joseph dubreuil and manumission by brooke beall. the recorded at events are the sale of estate of joseph dubreuil and manumission by brooke beall. the person status is devout muslim. the status generating event is conversion to islam. the recorded at event is conversion to islam.",20,0.5185185185185185,2,0.5358662613981763,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,yarrow mamout,38,0.5675925925925926,21,0.47692307692307695,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,mamout,41,0.6274651274651274,19,0.41111111111111115,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,yarrow,44,0.6772486772486772,29,0.41111111111111115,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,enslaver,42,0.6570105820105819,35,0.5861111111111111,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,brooke beall,44,0.6037037037037037,22,0.45,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,male,32,0.5317460317460317,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,jack of all trades,50,0.6566137566137565,30,0.49259259259259264,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,brickmaker,50,0.6566137566137565,32,0.47222222222222227,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,charcoal burner,50,0.6566137566137565,33,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,basket weaver,50,0.6566137566137565,43,0.5731379731379732,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,cart driver,50,0.6566137566137565,38,0.48181818181818176,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,stevedore,50,0.6566137566137565,33,0.5777777777777778,0.0,0.0
+hasparticipantrole,deceased person,of all,"trades, brickmaker, charcoal burner, basket weaver, cart driver, stevedore')",17,0.40740740740740744,26,0.5253936122357175,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_age,age,40,0.5978835978835978,22,0.4333333333333333,0.0,0.0
+hasparticipantrole,deceased person,has_age,86,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,date_of_birth,52,0.6937321937321936,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,unknown,52,0.6937321937321936,18,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,date_of_death,52,0.6866096866096866,36,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,january 19,52,0.6866096866096866,16,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,1823,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,enslaved person,46,0.6479302832244008,73,0.7833333333333333,0.0,0.33609692727625756
+hasparticipantrole,deceased person,has_person_status,free person,46,0.6479302832244008,69,0.7319865319865321,0.0,0.33609692727625756
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,sale of estate of joseph dubreuil,40,0.5819304152637487,29,0.5232323232323233,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,manumission by brooke beall,40,0.5819304152637487,24,0.4848765432098765,0.0,0.0
+hasparticipantrole,deceased person,of estate of joseph,"dubreuil'), has_status_generating_event(free person, 'manumission by brooke beall')",32,0.44291283764967976,24,0.5462259293584595,0.0,0.1505569696020495
+hasparticipantrole,deceased person,recorded_at,event,28,0.36195286195286197,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,sale of estate of joseph dubreuil,28,0.36195286195286197,29,0.5232323232323233,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,manumission by brooke beall,28,0.36195286195286197,24,0.4848765432098765,0.0,0.0
+hasparticipantrole,deceased person,of estate of joseph,"dubreuil'), recorded_at(free person, 'manumission by brooke beall')",32,0.44291283764967976,32,0.6301824212271973,0.0,0.1505569696020495
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,race_or_color,46,0.60239651416122,29,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,african-american,46,0.60239651416122,32,0.48194444444444445,0.0,0.0
+hasparticipantrole,deceased person,descriptor record,module:,40,0.5653594771241829,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,42,0.5903133903133903,30,0.5051851851851852,0.0,0.0
+hasparticipantrole,deceased person,has_ethnolinguistic_descriptor,fula,42,0.5903133903133903,11,0.4388888888888889,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,devout muslim,46,0.6479302832244008,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,conversion to islam,40,0.5819304152637487,35,0.48479532163742683,0.0,0.0
+hasparticipantrole,deceased person,to,islam'),20,0.5185185185185185,9,0.3063492063492063,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,event,28,0.36195286195286197,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,conversion to islam,28,0.36195286195286197,35,0.48479532163742683,0.0,0.0
+hasparticipantrole,deceased person,to,"islam')  note: the birth date is unknown. the death date is january 19, 1823. the age is 86. the occupation is jack of all trades, brickmaker, charcoal burner, basket weaver, cart driver, stevedore. the person status is enslaved person and free person. the race is african-american. the ethnolinguistic descriptor is fula. the status generating events are the sale of estate of joseph dubreuil and manumission by brooke beall. the recorded at events are the sale of estate of joseph dubreuil and manumission by brooke beall. the person status is devout muslim. the status generating event is conversion to islam. the recorded at event is conversion to islam.",20,0.5185185185185185,4,0.51870989530564,0.0,0.07675457213311872
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,yarrow mamout,25,0.5555555555555555,11,0.4256410256410256,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,surname,34,0.5474386724386724,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,mamout,34,0.5474386724386724,18,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,first_name,32,0.5615079365079364,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,yarrow,32,0.5615079365079364,18,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,relationship record,module:,33,0.6137539361223572,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,27,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,enslaver,41,0.6037698412698412,77,0.875,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,agent,38,0.6264245014245015,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,brooke beall,38,0.6264245014245015,12,0.42777777777777776,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,sex_type,32,0.5742063492063493,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,male,32,0.5742063492063493,44,0.6722222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,jack of all trades,68,0.8045940170940171,26,0.337037037037037,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,brickmaker,68,0.8045940170940171,27,0.5333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,charcoal burner,68,0.8045940170940171,20,0.3444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,basket weaver,68,0.8045940170940171,44,0.49914529914529915,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,cart driver,68,0.8045940170940171,38,0.43030303030303035,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,stevedore,68,0.8045940170940171,43,0.5333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,of all,"trades, brickmaker, charcoal burner, basket weaver, cart driver, stevedore')",13,0.40277777777777773,12,0.45087719298245615,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,age,26,0.5793650793650794,50,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,86,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,date_of_birth,38,0.6286324786324786,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,unknown,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,date_of_death,43,0.652065527065527,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,january 19,43,0.652065527065527,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,1823,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,enslaved person,39,0.6241830065359477,50,0.6444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,free person,39,0.6241830065359477,12,0.43030303030303035,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,event,39,0.5815696649029983,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,sale of estate of joseph dubreuil,39,0.5815696649029983,21,0.5570707070707072,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,manumission by brooke beall,39,0.5815696649029983,12,0.32469135802469135,0.0,0.0
+hasdescriptiveoccupation,slave,of estate of joseph,"dubreuil'), has_status_generating_event(free person, 'manumission by brooke beall')",28,0.46807992202729043,9,0.6200803212851406,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,event,34,0.5202020202020202,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,sale of estate of joseph dubreuil,34,0.5202020202020202,21,0.5570707070707072,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,manumission by brooke beall,34,0.5202020202020202,12,0.32469135802469135,0.0,0.0
+hasdescriptiveoccupation,slave,of estate of joseph,"dubreuil'), recorded_at(free person, 'manumission by brooke beall')",28,0.46807992202729043,8,0.5365671641791044,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,race_or_color,39,0.5977668845315903,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,african-american,39,0.5977668845315903,19,0.5083333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,descriptor record,module:,54,0.6797385620915034,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,44,0.6722222222222222,13,0.46222222222222226,0.0,0.0
+hasdescriptiveoccupation,slave,has_ethnolinguistic_descriptor,fula,44,0.6722222222222222,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,devout muslim,39,0.6241830065359477,22,0.3512820512820513,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,event,39,0.5815696649029983,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,conversion to islam,39,0.5815696649029983,25,0.47485380116959064,0.0,0.0
+hasdescriptiveoccupation,slave,to,islam'),15,0.5138888888888888,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,event,34,0.5202020202020202,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,conversion to islam,34,0.5202020202020202,25,0.47485380116959064,0.0,0.0
+hasdescriptiveoccupation,slave,to,"islam')  note: the birth date is unknown. the death date is january 19, 1823. the age is 86. the occupation is jack of all trades, brickmaker, charcoal burner, basket weaver, cart driver, stevedore. the person status is enslaved person and free person. the race is african-american. the ethnolinguistic descriptor is fula. the status generating events are the sale of estate of joseph dubreuil and manumission by brooke beall. the recorded at events are the sale of estate of joseph dubreuil and manumission by brooke beall. the person status is devout muslim. the status generating event is conversion to islam. the recorded at event is conversion to islam.",15,0.5138888888888888,2,0.6025329280648429,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,record,module:,27,0.6138888888888889,14,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_name,name,25,0.5555555555555555,16,0.5634920634920635,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_name,yarrow mamout,25,0.5555555555555555,29,0.4810744810744811,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_surname,surname,34,0.5474386724386724,21,0.5174603174603174,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_surname,mamout,34,0.5474386724386724,22,0.4761904761904762,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_first_name,first_name,32,0.5615079365079364,26,0.5174603174603174,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_first_name,yarrow,32,0.5615079365079364,22,0.43650793650793646,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,relationship record,module:,33,0.6137539361223572,14,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,26,0.5107376283846872,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_interagent_relationship_type_to,enslaver,41,0.6037698412698412,21,0.48769841269841274,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,is_relationship_to,agent,38,0.6264245014245015,23,0.4698412698412698,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,is_relationship_to,brooke beall,38,0.6264245014245015,30,0.484920634920635,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,record,module:,27,0.6138888888888889,14,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_sex,sex_type,32,0.5742063492063493,14,0.44841269841269843,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_sex,male,32,0.5742063492063493,24,0.5198412698412698,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,record,module:,27,0.6138888888888889,14,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_occupation,occupation,68,0.8045940170940171,19,0.36984126984126986,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_occupation,jack of all trades,68,0.8045940170940171,26,0.5251322751322751,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_occupation,brickmaker,68,0.8045940170940171,26,0.5126984126984128,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_occupation,charcoal burner,68,0.8045940170940171,28,0.4507936507936508,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_occupation,basket weaver,68,0.8045940170940171,24,0.5286935286935287,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_occupation,cart driver,68,0.8045940170940171,25,0.4437229437229437,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_occupation,stevedore,68,0.8045940170940171,33,0.5312169312169313,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,of all,"trades, brickmaker, charcoal burner, basket weaver, cart driver, stevedore')",13,0.40277777777777773,25,0.48166248955722635,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,record,module:,27,0.6138888888888889,14,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_age,age,26,0.5793650793650794,17,0.42063492063492064,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_age,86,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_birthdate,date_of_birth,38,0.6286324786324786,24,0.4075702075702076,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_birthdate,unknown,38,0.6286324786324786,21,0.3968253968253968,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_deathdate,date_of_death,43,0.652065527065527,29,0.5286935286935287,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_deathdate,january 19,43,0.652065527065527,19,0.44682539682539685,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_deathdate,1823,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,status record,module:,32,0.540954415954416,14,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_person_status,enslaved person,39,0.6241830065359477,39,0.6142857142857142,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_person_status,free person,39,0.6241830065359477,50,0.6748436748436748,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_status_generating_event,event,39,0.5815696649029983,23,0.580952380952381,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_status_generating_event,sale of estate of joseph dubreuil,39,0.5815696649029983,26,0.5339105339105339,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_status_generating_event,manumission by brooke beall,39,0.5815696649029983,38,0.5225268558601891,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,of estate of joseph,"dubreuil'), has_status_generating_event(free person, 'manumission by brooke beall')",28,0.46807992202729043,25,0.5473919487473704,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,recorded_at,event,34,0.5202020202020202,23,0.580952380952381,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,recorded_at,sale of estate of joseph dubreuil,34,0.5202020202020202,26,0.5339105339105339,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,recorded_at,manumission by brooke beall,34,0.5202020202020202,38,0.5225268558601891,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,of estate of joseph,"dubreuil'), recorded_at(free person, 'manumission by brooke beall')",28,0.46807992202729043,30,0.5897125019161894,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,record,module:,27,0.6138888888888889,14,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_race_or_color,race_or_color,39,0.5977668845315903,24,0.4742368742368743,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_race_or_color,african-american,39,0.5977668845315903,38,0.5525793650793651,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,descriptor record,module:,54,0.6797385620915034,14,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,44,0.6722222222222222,17,0.39746031746031746,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_ethnolinguistic_descriptor,fula,44,0.6722222222222222,16,0.5317460317460317,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,status record,module:,32,0.540954415954416,14,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_person_status,devout muslim,39,0.6241830065359477,24,0.4075702075702076,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_status_generating_event,event,39,0.5815696649029983,23,0.580952380952381,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_status_generating_event,conversion to islam,39,0.5815696649029983,25,0.47566833751044274,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,to,islam'),15,0.5138888888888888,14,0.29365079365079366,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,recorded_at,event,34,0.5202020202020202,23,0.580952380952381,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,recorded_at,conversion to islam,34,0.5202020202020202,25,0.47566833751044274,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,to,"islam')  note: the birth date is unknown. the death date is january 19, 1823. the age is 86. the occupation is jack of all trades, brickmaker, charcoal burner, basket weaver, cart driver, stevedore. the person status is enslaved person and free person. the race is african-american. the ethnolinguistic descriptor is fula. the status generating events are the sale of estate of joseph dubreuil and manumission by brooke beall. the recorded at events are the sale of estate of joseph dubreuil and manumission by brooke beall. the person status is devout muslim. the status generating event is conversion to islam. the recorded at event is conversion to islam.",15,0.5138888888888888,6,0.49425869638635594,0.0,0.0
+hasfirstname,mamout,record,module:,22,0.4166666666666667,46,0.6428571428571429,0.0,0.0
+hasfirstname,mamout,has_name,name,70,0.8736111111111112,40,0.4444444444444444,0.0,0.0
+hasfirstname,mamout,has_name,yarrow mamout,70,0.8736111111111112,63,0.46581196581196577,0.0,0.5797386715376658
+hasfirstname,mamout,has_surname,surname,70,0.8733164983164984,31,0.0,0.0,0.0
+hasfirstname,mamout,has_surname,mamout,70,0.8733164983164984,100,1.0,0.0,1.0
+hasfirstname,mamout,has_first_name,first_name,92,0.9666666666666667,25,0.4222222222222222,0.0,0.0
+hasfirstname,mamout,has_first_name,yarrow,92,0.9666666666666667,33,0.5555555555555555,0.0,0.0
+hasfirstname,mamout,relationship record,module:,32,0.5077276524644946,46,0.6428571428571429,0.0,0.0
+hasfirstname,mamout,has_interagent_relationship_type_to,relationship_type,34,0.5949735449735449,26,0.4477124183006536,0.0,0.0
+hasfirstname,mamout,has_interagent_relationship_type_to,enslaver,34,0.5949735449735449,14,0.4305555555555555,0.0,0.0
+hasfirstname,mamout,is_relationship_to,agent,27,0.6203703703703703,36,0.5777777777777778,0.0,0.0
+hasfirstname,mamout,is_relationship_to,brooke beall,27,0.6203703703703703,11,0.4166666666666667,0.0,0.0
+hasfirstname,mamout,record,module:,22,0.4166666666666667,46,0.6428571428571429,0.0,0.0
+hasfirstname,mamout,has_sex,sex_type,53,0.6349206349206349,14,0.4305555555555555,0.0,0.0
+hasfirstname,mamout,has_sex,male,53,0.6349206349206349,40,0.611111111111111,0.0,0.0
+hasfirstname,mamout,record,module:,22,0.4166666666666667,46,0.6428571428571429,0.0,0.0
+hasfirstname,mamout,has_occupation,occupation,38,0.5873015873015873,38,0.6055555555555555,0.0,0.0
+hasfirstname,mamout,has_occupation,jack of all trades,38,0.5873015873015873,25,0.5555555555555555,0.0,0.0
+hasfirstname,mamout,has_occupation,brickmaker,38,0.5873015873015873,25,0.4222222222222222,0.0,0.0
+hasfirstname,mamout,has_occupation,charcoal burner,38,0.5873015873015873,29,0.5666666666666667,0.0,0.0
+hasfirstname,mamout,has_occupation,basket weaver,38,0.5873015873015873,21,0.49572649572649574,0.0,0.0
+hasfirstname,mamout,has_occupation,cart driver,38,0.5873015873015873,24,0.5050505050505051,0.0,0.0
+hasfirstname,mamout,has_occupation,stevedore,38,0.5873015873015873,13,0.4259259259259259,0.0,0.0
+hasfirstname,mamout,of all,"trades, brickmaker, charcoal burner, basket weaver, cart driver, stevedore')",22,0.3333333333333333,12,0.49970760233918127,0.0,0.0
+hasfirstname,mamout,record,module:,22,0.4166666666666667,46,0.6428571428571429,0.0,0.0
+hasfirstname,mamout,has_age,age,53,0.7972222222222223,22,0.5,0.0,0.0
+hasfirstname,mamout,has_age,86,53,0.7972222222222223,0,0.0,0.0,0.0
+hasfirstname,mamout,has_birthdate,date_of_birth,64,0.8324786324786324,32,0.46581196581196577,0.0,0.0
+hasfirstname,mamout,has_birthdate,unknown,64,0.8324786324786324,15,0.4365079365079365,0.0,0.0
+hasfirstname,mamout,has_deathdate,date_of_death,48,0.5982905982905983,32,0.46581196581196577,0.0,0.0
+hasfirstname,mamout,has_deathdate,january 19,48,0.5982905982905983,25,0.5111111111111111,0.0,0.0
+hasfirstname,mamout,has_deathdate,1823,48,0.5982905982905983,0,0.0,0.0,0.0
+hasfirstname,mamout,status record,module:,32,0.5427350427350427,46,0.6428571428571429,0.0,0.0
+hasfirstname,mamout,has_person_status,enslaved person,48,0.6857298474945533,19,0.41111111111111115,0.0,0.0
+hasfirstname,mamout,has_person_status,free person,48,0.6857298474945533,12,0.0,0.0,0.0
+hasfirstname,mamout,has_status_generating_event,event,41,0.5833333333333334,18,0.45555555555555555,0.0,0.0
+hasfirstname,mamout,has_status_generating_event,sale of estate of joseph dubreuil,41,0.5833333333333334,15,0.5303030303030303,0.0,0.0
+hasfirstname,mamout,has_status_generating_event,manumission by brooke beall,41,0.5833333333333334,24,0.6061728395061728,0.0,0.0
+hasfirstname,mamout,of estate of joseph,"dubreuil'), has_status_generating_event(free person, 'manumission by brooke beall')",32,0.4266081871345029,9,0.40093708165997316,0.0,0.0
+hasfirstname,mamout,recorded_at,event,17,0.4823232323232323,18,0.45555555555555555,0.0,0.0
+hasfirstname,mamout,recorded_at,sale of estate of joseph dubreuil,17,0.4823232323232323,15,0.5303030303030303,0.0,0.0
+hasfirstname,mamout,recorded_at,manumission by brooke beall,17,0.4823232323232323,24,0.6061728395061728,0.0,0.0
+hasfirstname,mamout,of estate of joseph,"dubreuil'), recorded_at(free person, 'manumission by brooke beall')",32,0.4266081871345029,11,0.49212271973466004,0.0,0.0
+hasfirstname,mamout,record,module:,22,0.4166666666666667,46,0.6428571428571429,0.0,0.0
+hasfirstname,mamout,has_race_or_color,race_or_color,41,0.6176470588235294,21,0.49572649572649574,0.0,0.0
+hasfirstname,mamout,has_race_or_color,african-american,41,0.6176470588235294,18,0.4861111111111111,0.0,0.0
+hasfirstname,mamout,descriptor record,module:,28,0.50359477124183,46,0.6428571428571429,0.0,0.0
+hasfirstname,mamout,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,33,0.5611111111111111,19,0.4288888888888889,0.0,0.0
+hasfirstname,mamout,has_ethnolinguistic_descriptor,fula,33,0.5611111111111111,20,0.47222222222222215,0.0,0.0
+hasfirstname,mamout,status record,module:,32,0.5427350427350427,46,0.6428571428571429,0.0,0.0
+hasfirstname,mamout,has_person_status,devout muslim,48,0.6857298474945533,32,0.4914529914529915,0.0,0.0
+hasfirstname,mamout,has_status_generating_event,event,41,0.5833333333333334,18,0.45555555555555555,0.0,0.0
+hasfirstname,mamout,has_status_generating_event,conversion to islam,41,0.5833333333333334,16,0.4795321637426901,0.0,0.0
+hasfirstname,mamout,to,islam'),14,0.0,31,0.5396825396825397,0.0,0.0
+hasfirstname,mamout,recorded_at,event,17,0.4823232323232323,18,0.45555555555555555,0.0,0.0
+hasfirstname,mamout,recorded_at,conversion to islam,17,0.4823232323232323,16,0.4795321637426901,0.0,0.0
+hasfirstname,mamout,to,"islam')  note: the birth date is unknown. the death date is january 19, 1823. the age is 86. the occupation is jack of all trades, brickmaker, charcoal burner, basket weaver, cart driver, stevedore. the person status is enslaved person and free person. the race is african-american. the ethnolinguistic descriptor is fula. the status generating events are the sale of estate of joseph dubreuil and manumission by brooke beall. the recorded at events are the sale of estate of joseph dubreuil and manumission by brooke beall. the person status is devout muslim. the status generating event is conversion to islam. the recorded at event is conversion to islam.",14,0.0,2,0.5585950692333671,0.0,0.0
+hassurname,yarrow,record,module:,25,0.4222222222222222,15,0.0,0.0,0.0
+hassurname,yarrow,has_name,name,78,0.9008333333333334,20,0.47222222222222215,0.0,0.0
+hassurname,yarrow,has_name,yarrow mamout,78,0.9008333333333334,63,0.8923076923076924,0.0,0.5797386715376658
+hassurname,yarrow,has_surname,surname,95,0.9787878787878788,15,0.4365079365079365,0.0,0.0
+hassurname,yarrow,has_surname,mamout,95,0.9787878787878788,33,0.5555555555555555,0.0,0.0
+hassurname,yarrow,has_first_name,first_name,67,0.8674074074074074,12,0.4222222222222222,0.0,0.0
+hassurname,yarrow,has_first_name,yarrow,67,0.8674074074074074,100,1.0,0.0,1.0
+hassurname,yarrow,relationship record,module:,28,0.4543859649122807,15,0.0,0.0,0.0
+hassurname,yarrow,has_interagent_relationship_type_to,relationship_type,31,0.5380952380952381,17,0.4477124183006536,0.0,0.0
+hassurname,yarrow,has_interagent_relationship_type_to,enslaver,31,0.5380952380952381,29,0.4305555555555555,0.0,0.0
+hassurname,yarrow,is_relationship_to,agent,21,0.5333333333333333,18,0.45555555555555555,0.0,0.0
+hassurname,yarrow,is_relationship_to,brooke beall,21,0.5333333333333333,22,0.5,0.0,0.0
+hassurname,yarrow,record,module:,25,0.4222222222222222,15,0.0,0.0,0.0
+hassurname,yarrow,has_sex,sex_type,59,0.8166666666666667,14,0.0,0.0,0.0
+hassurname,yarrow,has_sex,male,59,0.8166666666666667,20,0.47222222222222215,0.0,0.0
+hassurname,yarrow,record,module:,25,0.4222222222222222,15,0.0,0.0,0.0
+hassurname,yarrow,has_occupation,occupation,42,0.6190476190476191,25,0.3444444444444444,0.0,0.0
+hassurname,yarrow,has_occupation,jack of all trades,42,0.6190476190476191,17,0.48148148148148145,0.0,0.0
+hassurname,yarrow,has_occupation,brickmaker,42,0.6190476190476191,25,0.4222222222222222,0.0,0.0
+hassurname,yarrow,has_occupation,charcoal burner,42,0.6190476190476191,29,0.5666666666666667,0.0,0.0
+hassurname,yarrow,has_occupation,basket weaver,42,0.6190476190476191,21,0.49572649572649574,0.0,0.0
+hassurname,yarrow,has_occupation,cart driver,42,0.6190476190476191,35,0.5909090909090909,0.0,0.0
+hassurname,yarrow,has_occupation,stevedore,42,0.6190476190476191,13,0.4259259259259259,0.0,0.0
+hassurname,yarrow,of all,"trades, brickmaker, charcoal burner, basket weaver, cart driver, stevedore')",12,0.4222222222222222,12,0.489766081871345,0.0,0.0
+hassurname,yarrow,record,module:,25,0.4222222222222222,15,0.0,0.0,0.0
+hassurname,yarrow,has_age,age,59,0.8166666666666667,22,0.5,0.0,0.0
+hassurname,yarrow,has_age,86,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,yarrow,has_birthdate,date_of_birth,52,0.6871794871794871,21,0.49572649572649574,0.0,0.0
+hassurname,yarrow,has_birthdate,unknown,52,0.6871794871794871,31,0.5396825396825397,0.0,0.0
+hassurname,yarrow,has_deathdate,date_of_death,43,0.5615384615384615,21,0.49572649572649574,0.0,0.0
+hassurname,yarrow,has_deathdate,january 19,43,0.5615384615384615,25,0.5111111111111111,0.0,0.0
+hassurname,yarrow,has_deathdate,1823,43,0.5615384615384615,0,0.0,0.0,0.0
+hassurname,yarrow,status record,module:,35,0.5760683760683761,15,0.0,0.0,0.0
+hassurname,yarrow,has_person_status,enslaved person,44,0.6735294117647058,29,0.41111111111111115,0.0,0.0
+hassurname,yarrow,has_person_status,free person,44,0.6735294117647058,35,0.5050505050505051,0.0,0.0
+hassurname,yarrow,has_status_generating_event,event,43,0.6703703703703704,0,0.0,0.0,0.0
+hassurname,yarrow,has_status_generating_event,sale of estate of joseph dubreuil,43,0.6703703703703704,10,0.4646464646464647,0.0,0.0
+hassurname,yarrow,has_status_generating_event,manumission by brooke beall,43,0.6703703703703704,18,0.46913580246913583,0.0,0.0
+hassurname,yarrow,of estate of joseph,"dubreuil'), has_status_generating_event(free person, 'manumission by brooke beall')",21,0.3748538011695906,9,0.40093708165997316,0.0,0.0
+hassurname,yarrow,recorded_at,event,19,0.41313131313131307,0,0.0,0.0,0.0
+hassurname,yarrow,recorded_at,sale of estate of joseph dubreuil,19,0.41313131313131307,10,0.4646464646464647,0.0,0.0
+hassurname,yarrow,recorded_at,manumission by brooke beall,19,0.41313131313131307,18,0.46913580246913583,0.0,0.0
+hassurname,yarrow,of estate of joseph,"dubreuil'), recorded_at(free person, 'manumission by brooke beall')",21,0.3748538011695906,11,0.49212271973466004,0.0,0.0
+hassurname,yarrow,record,module:,25,0.4222222222222222,15,0.0,0.0,0.0
+hassurname,yarrow,has_race_or_color,race_or_color,44,0.6509803921568628,32,0.4914529914529915,0.0,0.0
+hassurname,yarrow,has_race_or_color,african-american,44,0.6509803921568628,27,0.4861111111111111,0.0,0.0
+hassurname,yarrow,descriptor record,module:,22,0.49215686274509807,15,0.0,0.0,0.0
+hassurname,yarrow,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,25,0.5492063492063491,13,0.4022222222222222,0.0,0.0
+hassurname,yarrow,has_ethnolinguistic_descriptor,fula,25,0.5492063492063491,20,0.47222222222222215,0.0,0.0
+hassurname,yarrow,status record,module:,35,0.5760683760683761,15,0.0,0.0,0.0
+hassurname,yarrow,has_person_status,devout muslim,44,0.6735294117647058,11,0.41452991452991456,0.0,0.0
+hassurname,yarrow,has_status_generating_event,event,43,0.6703703703703704,0,0.0,0.0,0.0
+hassurname,yarrow,has_status_generating_event,conversion to islam,43,0.6703703703703704,16,0.3128654970760234,0.0,0.0
+hassurname,yarrow,to,islam'),0,0.0,15,0.4365079365079365,0.0,0.0
+hassurname,yarrow,recorded_at,event,19,0.41313131313131307,0,0.0,0.0,0.0
+hassurname,yarrow,recorded_at,conversion to islam,19,0.41313131313131307,16,0.3128654970760234,0.0,0.0
+hassurname,yarrow,to,"islam')  note: the birth date is unknown. the death date is january 19, 1823. the age is 86. the occupation is jack of all trades, brickmaker, charcoal burner, basket weaver, cart driver, stevedore. the person status is enslaved person and free person. the race is african-american. the ethnolinguistic descriptor is fula. the status generating events are the sale of estate of joseph dubreuil and manumission by brooke beall. the recorded at events are the sale of estate of joseph dubreuil and manumission by brooke beall. the person status is devout muslim. the status generating event is conversion to islam. the recorded at event is conversion to islam.",0,0.0,2,0.5585950692333671,0.0,0.0
+hasname,mamout yarrow,record,module:,15,0.0,30,0.553113553113553,0.0,0.0
+hasname,mamout yarrow,has_name,name,93,0.9708333333333333,24,0.3846153846153846,0.0,0.0
+hasname,mamout yarrow,has_name,yarrow mamout,93,0.9708333333333333,46,0.5854700854700855,0.0,1.0000000000000002
+hasname,mamout yarrow,has_surname,surname,78,0.9151515151515152,20,0.442002442002442,0.0,0.0
+hasname,mamout yarrow,has_surname,mamout,78,0.9151515151515152,63,0.8923076923076924,0.0,0.5797386715376658
+hasname,mamout yarrow,has_first_name,first_name,67,0.5476190476190476,17,0.4512820512820513,0.0,0.0
+hasname,mamout yarrow,has_first_name,yarrow,67,0.5476190476190476,63,0.49572649572649574,0.0,0.5797386715376658
+hasname,mamout yarrow,relationship record,module:,23,0.5106516290726817,30,0.553113553113553,0.0,0.0
+hasname,mamout yarrow,has_interagent_relationship_type_to,relationship_type,29,0.6206349206349207,27,0.4309954751131222,0.0,0.0
+hasname,mamout yarrow,has_interagent_relationship_type_to,enslaver,29,0.6206349206349207,19,0.4679487179487179,0.0,0.0
+hasname,mamout yarrow,is_relationship_to,agent,16,0.43121693121693117,22,0.517948717948718,0.0,0.0
+hasname,mamout yarrow,is_relationship_to,brooke beall,16,0.43121693121693117,24,0.4935897435897436,0.0,0.0
+hasname,mamout yarrow,record,module:,15,0.0,30,0.553113553113553,0.0,0.0
+hasname,mamout yarrow,has_sex,sex_type,57,0.8,19,0.4679487179487179,0.0,0.0
+hasname,mamout yarrow,has_sex,male,57,0.8,24,0.5512820512820512,0.0,0.0
+hasname,mamout yarrow,record,module:,15,0.0,30,0.553113553113553,0.0,0.0
+hasname,mamout yarrow,has_occupation,occupation,38,0.6190476190476191,35,0.5615384615384615,0.0,0.0
+hasname,mamout yarrow,has_occupation,jack of all trades,38,0.6190476190476191,32,0.4871794871794872,0.0,0.0
+hasname,mamout yarrow,has_occupation,brickmaker,38,0.6190476190476191,26,0.5102564102564102,0.0,0.0
+hasname,mamout yarrow,has_occupation,charcoal burner,38,0.6190476190476191,36,0.5731379731379732,0.0,0.0
+hasname,mamout yarrow,has_occupation,basket weaver,38,0.6190476190476191,38,0.5854700854700855,0.0,0.0
+hasname,mamout yarrow,has_occupation,cart driver,38,0.6190476190476191,42,0.6130536130536131,0.0,0.0
+hasname,mamout yarrow,has_occupation,stevedore,38,0.6190476190476191,18,0.4102564102564103,0.0,0.0
+hasname,mamout yarrow,of all,"trades, brickmaker, charcoal burner, basket weaver, cart driver, stevedore')",15,0.4365079365079365,22,0.5002699055330634,0.0,0.0
+hasname,mamout yarrow,record,module:,15,0.0,30,0.553113553113553,0.0,0.0
+hasname,mamout yarrow,has_age,age,71,0.8666666666666668,12,0.47008547008547,0.0,0.0
+hasname,mamout yarrow,has_age,86,71,0.8666666666666668,0,0.0,0.0,0.0
+hasname,mamout yarrow,has_birthdate,date_of_birth,50,0.553113553113553,23,0.4551282051282051,0.0,0.0
+hasname,mamout yarrow,has_birthdate,unknown,50,0.553113553113553,30,0.3131868131868132,0.0,0.0
+hasname,mamout yarrow,has_deathdate,date_of_death,50,0.632967032967033,23,0.4551282051282051,0.0,0.0
+hasname,mamout yarrow,has_deathdate,january 19,50,0.632967032967033,35,0.5760683760683761,0.0,0.0
+hasname,mamout yarrow,has_deathdate,1823,50,0.632967032967033,0,0.0,0.0,0.0
+hasname,mamout yarrow,status record,module:,30,0.442002442002442,30,0.553113553113553,0.0,0.0
+hasname,mamout yarrow,has_person_status,enslaved person,42,0.6028011204481792,29,0.5247863247863248,0.0,0.0
+hasname,mamout yarrow,has_person_status,free person,42,0.6028011204481792,25,0.5011655011655012,0.0,0.0
+hasname,mamout yarrow,has_status_generating_event,event,35,0.6375661375661376,11,0.4256410256410256,0.0,0.0
+hasname,mamout yarrow,has_status_generating_event,sale of estate of joseph dubreuil,35,0.6375661375661376,22,0.49222999222999225,0.0,0.0
+hasname,mamout yarrow,has_status_generating_event,manumission by brooke beall,35,0.6375661375661376,40,0.6381766381766382,0.0,0.0
+hasname,mamout yarrow,of estate of joseph,"dubreuil'), has_status_generating_event(free person, 'manumission by brooke beall')",23,0.4177109440267335,17,0.44559005251776335,0.0,0.0
+hasname,mamout yarrow,recorded_at,event,11,0.41125541125541126,11,0.4256410256410256,0.0,0.0
+hasname,mamout yarrow,recorded_at,sale of estate of joseph dubreuil,11,0.41125541125541126,22,0.49222999222999225,0.0,0.0
+hasname,mamout yarrow,recorded_at,manumission by brooke beall,11,0.41125541125541126,40,0.6381766381766382,0.0,0.0
+hasname,mamout yarrow,of estate of joseph,"dubreuil'), recorded_at(free person, 'manumission by brooke beall')",23,0.4177109440267335,20,0.460730535357401,0.0,0.0
+hasname,mamout yarrow,record,module:,15,0.0,30,0.553113553113553,0.0,0.0
+hasname,mamout yarrow,has_race_or_color,race_or_color,42,0.6694677871148459,31,0.5230769230769231,0.0,0.0
+hasname,mamout yarrow,has_race_or_color,african-american,42,0.6694677871148459,21,0.49903846153846154,0.0,0.0
+hasname,mamout yarrow,descriptor record,module:,17,0.3011204481792717,30,0.553113553113553,0.0,0.0
+hasname,mamout yarrow,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,27,0.5603174603174603,26,0.4058974358974359,0.0,0.0
+hasname,mamout yarrow,has_ethnolinguistic_descriptor,fula,27,0.5603174603174603,24,0.3846153846153846,0.0,0.0
+hasname,mamout yarrow,status record,module:,30,0.442002442002442,30,0.553113553113553,0.0,0.0
+hasname,mamout yarrow,has_person_status,devout muslim,42,0.6028011204481792,31,0.4564102564102564,0.0,0.0
+hasname,mamout yarrow,has_status_generating_event,event,35,0.6375661375661376,11,0.4256410256410256,0.0,0.0
+hasname,mamout yarrow,has_status_generating_event,conversion to islam,35,0.6375661375661376,25,0.41592442645074224,0.0,0.0
+hasname,mamout yarrow,to,islam'),0,0.0,20,0.3131868131868132,0.0,0.0
+hasname,mamout yarrow,recorded_at,event,11,0.41125541125541126,11,0.4256410256410256,0.0,0.0
+hasname,mamout yarrow,recorded_at,conversion to islam,11,0.41125541125541126,25,0.41592442645074224,0.0,0.0
+hasname,mamout yarrow,to,"islam')  note: the birth date is unknown. the death date is january 19, 1823. the age is 86. the occupation is jack of all trades, brickmaker, charcoal burner, basket weaver, cart driver, stevedore. the person status is enslaved person and free person. the race is african-american. the ethnolinguistic descriptor is fula. the status generating events are the sale of estate of joseph dubreuil and manumission by brooke beall. the recorded at events are the sale of estate of joseph dubreuil and manumission by brooke beall. the person status is devout muslim. the status generating event is conversion to islam. the recorded at event is conversion to islam.",0,0.0,4,0.5450471514301302,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",record,module:,30,0.48412698412698413,6,0.5211815410490906,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_name,name,36,0.5952380952380952,5,0.5088300220750551,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_name,yarrow mamout,36,0.5952380952380952,12,0.5790611154849565,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_surname,surname,48,0.6168831168831169,9,0.5392620624408704,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_surname,mamout,48,0.6168831168831169,8,0.5132450331125827,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_first_name,first_name,43,0.6726190476190476,10,0.5050527348540593,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_first_name,yarrow,43,0.6726190476190476,8,0.4810522442972774,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",relationship record,module:,30,0.6135338345864662,6,0.5211815410490906,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_interagent_relationship_type_to,relationship_type,37,0.5666666666666667,15,0.5050080076180582,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_interagent_relationship_type_to,enslaver,37,0.5666666666666667,10,0.6843267108167771,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",is_relationship_to,agent,44,0.6474266474266474,6,0.5443708609271524,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",is_relationship_to,brooke beall,44,0.6474266474266474,11,0.533186166298749,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",record,module:,30,0.48412698412698413,6,0.5211815410490906,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_sex,sex_type,38,0.6238095238095238,8,0.485467255334805,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_sex,male,38,0.6238095238095238,5,0.5088300220750551,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",record,module:,30,0.48412698412698413,6,0.5211815410490906,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_occupation,occupation,64,0.8074074074074075,10,0.4926600441501104,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_occupation,jack of all trades,64,0.8074074074074075,15,0.48866813833701245,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_occupation,brickmaker,64,0.8074074074074075,10,0.43926206244087035,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_occupation,charcoal burner,64,0.8074074074074075,16,0.4970736401199978,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_occupation,basket weaver,64,0.8074074074074075,13,0.48815202457586565,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_occupation,cart driver,64,0.8074074074074075,12,0.525105358217941,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_occupation,stevedore,64,0.8074074074074075,11,0.5383860681873928,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",of all,"trades, brickmaker, charcoal burner, basket weaver, cart driver, stevedore')",10,0.41269841269841273,33,0.5733860036404477,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",record,module:,30,0.48412698412698413,6,0.5211815410490906,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_age,age,38,0.6190476190476191,4,0.562178072111847,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_age,86,38,0.6190476190476191,0,0.0,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_birthdate,date_of_birth,37,0.6318681318681318,11,0.518455054878896,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_birthdate,unknown,37,0.6318681318681318,8,0.44913276568905713,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_deathdate,date_of_death,44,0.63003663003663,11,0.518455054878896,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_deathdate,january 19,44,0.63003663003663,9,0.45099337748344376,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_deathdate,1823,44,0.63003663003663,3,0.5044150110375276,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",status record,module:,37,0.5366300366300366,6,0.5211815410490906,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_person_status,enslaved person,45,0.6675070028011204,18,0.6553348050036792,0.0,0.08694821918136365
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_person_status,free person,45,0.6675070028011204,14,0.5697371061609472,0.0,0.08694821918136365
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_status_generating_event,event,39,0.5476190476190476,6,0.611037527593819,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_status_generating_event,sale of estate of joseph dubreuil,39,0.5476190476190476,25,0.564359683137722,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_status_generating_event,manumission by brooke beall,39,0.5476190476190476,20,0.5371629466110702,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",of estate of joseph,"dubreuil'), has_status_generating_event(free person, 'manumission by brooke beall')",24,0.47034252297410184,30,0.5875232819699429,0.0,0.038949062993012526
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",recorded_at,event,32,0.47056277056277057,6,0.611037527593819,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",recorded_at,sale of estate of joseph dubreuil,32,0.47056277056277057,25,0.564359683137722,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",recorded_at,manumission by brooke beall,32,0.47056277056277057,20,0.5371629466110702,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",of estate of joseph,"dubreuil'), recorded_at(free person, 'manumission by brooke beall')",24,0.47034252297410184,28,0.5493206606882481,0.0,0.038949062993012526
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",record,module:,30,0.48412698412698413,6,0.5211815410490906,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_race_or_color,race_or_color,39,0.5896358543417367,11,0.4358219656232902,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_race_or_color,african-american,39,0.5896358543417367,16,0.5368574582150741,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",descriptor record,module:,58,0.6870525988173046,6,0.5211815410490906,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_ethnolinguistic_descriptor,etnolinguistic_descriptor,55,0.6265512265512265,20,0.5237166365643187,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_ethnolinguistic_descriptor,fula,55,0.6265512265512265,5,0.5088300220750551,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",status record,module:,37,0.5366300366300366,6,0.5211815410490906,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_person_status,devout muslim,45,0.6675070028011204,12,0.5008490405841399,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_status_generating_event,event,39,0.5476190476190476,6,0.611037527593819,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",has_status_generating_event,conversion to islam,39,0.5476190476190476,16,0.5407097582071441,0.0,0.06740570876247809
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",to,islam'),25,0.0,6,0.44913276568905713,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",recorded_at,event,32,0.47056277056277057,6,0.611037527593819,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",recorded_at,conversion to islam,32,0.47056277056277057,16,0.5407097582071441,0.0,0.06740570876247809
+hasdescription,"enslaved. free before 13th amendment. survived the middle passage and slavery to become a financially well-off and respected figure in georgetown, d.c.",to,"islam')  note: the birth date is unknown. the death date is january 19, 1823. the age is 86. the occupation is jack of all trades, brickmaker, charcoal burner, basket weaver, cart driver, stevedore. the person status is enslaved person and free person. the race is african-american. the ethnolinguistic descriptor is fula. the status generating events are the sale of estate of joseph dubreuil and manumission by brooke beall. the recorded at events are the sale of estate of joseph dubreuil and manumission by brooke beall. the person status is devout muslim. the status generating event is conversion to islam. the recorded at event is conversion to islam.",25,0.0,27,0.5930507189489859,0.0,0.14554320672763105

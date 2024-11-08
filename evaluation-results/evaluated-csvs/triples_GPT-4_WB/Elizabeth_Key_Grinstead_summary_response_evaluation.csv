@@ -1,0 +1,697 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,elizabeth key grinstead,32,0.537878787878788,21,0.4033816425120773,0.0,0.0
+instance of,person,key,"grinstead, ""elizabeth key grinstead"")",14,0.0,14,0.5082582582582583,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,grinstead,27,0.49242424242424243,27,0.5,0.0,0.0
+instance of,person,key,"grinstead, ""grinstead"")",14,0.0,21,0.5301932367149759,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,elizabeth,40,0.5692640692640693,13,0.4259259259259259,0.0,0.0
+instance of,person,key,"grinstead, ""elizabeth"").",14,0.0,13,0.5277777777777778,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,relationship_type,30,0.5269480519480519,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,father,30,0.5269480519480519,33,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,common-law husband,30,0.5269480519480519,17,0.48148148148148145,0.0,0.0
+instance of,person,key,"grinstead, ""father""), has_interagent_relationship_type_to(elizabeth key grinstead, ""common-law husband"")",14,0.0,11,0.5747863247863249,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,englishman,34,0.5798460798460798,38,0.48888888888888893,0.0,0.0
+instance of,person,is_relationship_to,william grinstead,34,0.5798460798460798,17,0.48366013071895425,0.0,0.0
+instance of,person,key,"grinstead, ""englishman""), is_relationship_to(elizabeth key grinstead, ""william grinstead"").",14,0.0,10,0.5775335775335776,0.0,0.0
+instance of,person,role record,module:,27,0.49242424242424243,15,0.0,0.0,0.0
+instance of,person,has_participant_role,participant_role_type,32,0.5668831168831169,22,0.5357142857142857,0.0,0.0
+instance of,person,has_participant_role,lawsuit participant,32,0.5668831168831169,24,0.44152046783625726,0.0,0.0
+instance of,person,key,"grinstead, ""lawsuit participant"").",14,0.0,15,0.511437908496732,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,female,22,0.45598845598845594,17,0.4444444444444444,0.0,0.0
+instance of,person,key,"grinstead, ""female"").",14,0.0,15,0.5357142857142857,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,slave,24,0.38311688311688313,18,0.0,0.0,0.0
+instance of,person,has_occupation,free woman,24,0.38311688311688313,38,0.6055555555555555,0.0,0.0
+instance of,person,key,"grinstead, ""slave""), has_occupation(elizabeth key grinstead, ""free woman"").",14,0.0,15,0.5822222222222222,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_age,not mentioned,33,0.45598845598845594,32,0.46581196581196577,0.0,0.0
+instance of,person,key,"grinstead, ""not mentioned"")",14,0.0,24,0.5395061728395062,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_birthdate,1630,33,0.5463869463869464,0,0.0,0.0,0.0
+instance of,person,key,"grinstead, ""1630"")",14,0.0,17,0.5462962962962963,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,not mentioned,33,0.39044289044289043,32,0.46581196581196577,0.0,0.0
+instance of,person,key,"grinstead, ""not mentioned"").",14,0.0,24,0.5373015873015873,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,mulatto,36,0.5162210338680927,15,0.4365079365079365,0.0,0.0
+instance of,person,key,"grinstead, ""mulatto"").",14,0.0,21,0.5328282828282828,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,enslaved person,29,0.449554367201426,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,has_person_status,free woman,29,0.449554367201426,38,0.6055555555555555,0.0,0.0
+instance of,person,key,"grinstead, ""enslaved person""), has_person_status(elizabeth key grinstead, ""free woman"")",14,0.0,13,0.5229885057471264,0.0,0.21951095080860836
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,lawsuit for freedom,26,0.4799102132435466,16,0.44152046783625726,0.0,0.0
+instance of,person,has_status_generating_event,lawsuit for freedom,26,0.4799102132435466,16,0.44152046783625726,0.0,0.0
+instance of,person,for,"freedom""), has_status_generating_event(free woman, ""lawsuit for freedom"")",14,0.0,10,0.5006088280060883,0.0,0.0
+instance of,person,recorded_at,event,18,0.4545454545454546,36,0.5777777777777778,0.0,0.0
+instance of,person,recorded_at,lawsuit for freedom,18,0.4545454545454546,16,0.44152046783625726,0.0,0.0
+instance of,person,recorded_at,lawsuit for freedom,18,0.4545454545454546,16,0.44152046783625726,0.0,0.0
+instance of,person,for,"freedom""), recorded_at(free woman, ""lawsuit for freedom"").",14,0.0,12,0.4952107279693487,0.0,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_name,name,57,0.8055555555555556,40,0.6388888888888888,0.0,0.0
+hassex,female,has_name,elizabeth key grinstead,57,0.8055555555555556,21,0.5301932367149759,0.0,0.0
+hassex,female,key,"grinstead, ""elizabeth key grinstead"")",22,0.0,19,0.5082582582582583,0.0,0.0
+hassex,female,has_surname,surname,59,0.6767676767676768,31,0.5396825396825397,0.0,0.0
+hassex,female,has_surname,grinstead,59,0.6767676767676768,27,0.4259259259259259,0.0,0.0
+hassex,female,key,"grinstead, ""grinstead"")",22,0.0,21,0.4734299516908213,0.0,0.0
+hassex,female,has_first_name,first_name,50,0.6507936507936508,38,0.6,0.0,0.0
+hassex,female,has_first_name,elizabeth,50,0.6507936507936508,40,0.6203703703703703,0.0,0.0
+hassex,female,key,"grinstead, ""elizabeth"").",22,0.0,27,0.5277777777777778,0.0,0.0
+hassex,female,relationship record,module:,24,0.44152046783625726,46,0.6428571428571429,0.0,0.0
+hassex,female,has_interagent_relationship_type_to,relationship_type,24,0.5936507936507937,26,0.4477124183006536,0.0,0.0
+hassex,female,has_interagent_relationship_type_to,father,24,0.5936507936507937,50,0.6666666666666666,0.0,0.0
+hassex,female,has_interagent_relationship_type_to,common-law husband,24,0.5936507936507937,17,0.4444444444444444,0.0,0.0
+hassex,female,key,"grinstead, ""father""), has_interagent_relationship_type_to(elizabeth key grinstead, ""common-law husband"")",22,0.0,9,0.4938034188034188,0.0,0.0
+hassex,female,is_relationship_to,agent,17,0.46296296296296297,36,0.45555555555555555,0.0,0.0
+hassex,female,is_relationship_to,englishman,17,0.46296296296296297,38,0.5111111111111111,0.0,0.0
+hassex,female,is_relationship_to,william grinstead,17,0.46296296296296297,17,0.4477124183006536,0.0,0.0
+hassex,female,key,"grinstead, ""englishman""), is_relationship_to(elizabeth key grinstead, ""william grinstead"").",22,0.0,10,0.5627594627594629,0.0,0.0
+hassex,female,role record,module:,12,0.41919191919191917,46,0.6428571428571429,0.0,0.0
+hassex,female,has_participant_role,participant_role_type,31,0.5499999999999999,22,0.4047619047619047,0.0,0.0
+hassex,female,has_participant_role,lawsuit participant,31,0.5499999999999999,8,0.3128654970760234,0.0,0.0
+hassex,female,key,"grinstead, ""lawsuit participant"").",22,0.0,15,0.5294117647058824,0.0,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_sex,sex_type,92,0.9666666666666667,29,0.5277777777777778,0.0,0.0
+hassex,female,has_sex,female,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,female,key,"grinstead, ""female"").",22,0.0,44,0.5476190476190476,0.0,0.5797386715376658
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_occupation,occupation,30,0.5714285714285715,12,0.4222222222222222,0.0,0.0
+hassex,female,has_occupation,slave,30,0.5714285714285715,36,0.5777777777777778,0.0,0.0
+hassex,female,has_occupation,free woman,30,0.5714285714285715,50,0.6,0.0,0.0
+hassex,female,key,"grinstead, ""slave""), has_occupation(elizabeth key grinstead, ""free woman"").",22,0.0,10,0.5733333333333334,0.0,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_age,age,62,0.8222222222222222,44,0.5,0.0,0.0
+hassex,female,has_age,not mentioned,62,0.8222222222222222,21,0.32905982905982906,0.0,0.0
+hassex,female,key,"grinstead, ""not mentioned"")",22,0.0,18,0.5370370370370371,0.0,0.0
+hassex,female,has_birthdate,date_of_birth,42,0.576923076923077,21,0.32905982905982906,0.0,0.0
+hassex,female,has_birthdate,1630,42,0.576923076923077,0,0.0,0.0,0.0
+hassex,female,key,"grinstead, ""1630"")",22,0.0,17,0.48148148148148145,0.0,0.0
+hassex,female,has_deathdate,date_of_death,42,0.6581196581196581,32,0.46581196581196577,0.0,0.0
+hassex,female,has_deathdate,not mentioned,42,0.6581196581196581,21,0.32905982905982906,0.0,0.0
+hassex,female,key,"grinstead, ""not mentioned"").",22,0.0,18,0.5357142857142857,0.0,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_race_or_color,race_or_color,35,0.6339869281045751,21,0.32905982905982906,0.0,0.0
+hassex,female,has_race_or_color,mulatto,35,0.6339869281045751,31,0.5317460317460317,0.0,0.0
+hassex,female,key,"grinstead, ""mulatto"").",22,0.0,21,0.5328282828282828,0.0,0.0
+hassex,female,status record,module:,32,0.5747863247863249,46,0.6428571428571429,0.0,0.0
+hassex,female,has_person_status,enslaved person,35,0.642483660130719,29,0.5611111111111111,0.0,0.0
+hassex,female,has_person_status,free woman,35,0.642483660130719,50,0.6,0.0,0.0
+hassex,female,key,"grinstead, ""enslaved person""), has_person_status(elizabeth key grinstead, ""free woman"")",22,0.0,9,0.4875478927203065,0.0,0.0
+hassex,female,has_status_generating_event,event,30,0.6728395061728395,36,0.45555555555555555,0.0,0.0
+hassex,female,has_status_generating_event,lawsuit for freedom,30,0.6728395061728395,24,0.44152046783625726,0.0,0.0
+hassex,female,has_status_generating_event,lawsuit for freedom,30,0.6728395061728395,24,0.44152046783625726,0.0,0.0
+hassex,female,for,"freedom""), has_status_generating_event(free woman, ""lawsuit for freedom"")",0,0.0,15,0.567275494672755,0.0,0.0
+hassex,female,recorded_at,event,12,0.41919191919191917,36,0.45555555555555555,0.0,0.0
+hassex,female,recorded_at,lawsuit for freedom,12,0.41919191919191917,24,0.44152046783625726,0.0,0.0
+hassex,female,recorded_at,lawsuit for freedom,12,0.41919191919191917,24,0.44152046783625726,0.0,0.0
+hassex,female,for,"freedom""), recorded_at(free woman, ""lawsuit for freedom"").",0,0.0,19,0.5731800766283525,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,elizabeth key grinstead,38,0.5675925925925926,21,0.46570048309178746,0.0,0.0
+hasparticipantrole,child,key,"grinstead, ""elizabeth key grinstead"")",10,0.0,14,0.44924924924924925,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,grinstead,41,0.6274651274651274,29,0.43703703703703706,0.0,0.0
+hasparticipantrole,child,key,"grinstead, ""grinstead"")",10,0.0,14,0.4956521739130435,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,elizabeth,44,0.6772486772486772,14,0.37407407407407406,0.0,0.0
+hasparticipantrole,child,key,"grinstead, ""elizabeth"").",10,0.0,14,0.46388888888888885,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,father,42,0.6570105820105819,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,common-law husband,42,0.6570105820105819,26,0.5037037037037037,0.0,0.0
+hasparticipantrole,child,key,"grinstead, ""father""), has_interagent_relationship_type_to(elizabeth key grinstead, ""common-law husband"")",10,0.0,7,0.4461538461538462,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,englishman,44,0.6037037037037037,13,0.3666666666666667,0.0,0.0
+hasparticipantrole,child,is_relationship_to,william grinstead,44,0.6037037037037037,27,0.5058823529411764,0.0,0.0
+hasparticipantrole,child,key,"grinstead, ""englishman""), is_relationship_to(elizabeth key grinstead, ""william grinstead"").",10,0.0,8,0.5313186813186813,0.0,0.0
+hasparticipantrole,child,role record,module:,28,0.4452861952861953,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant_role_type,95,0.9766666666666667,23,0.33174603174603173,0.0,0.0
+hasparticipantrole,child,has_participant_role,lawsuit participant,95,0.9766666666666667,17,0.3350877192982456,0.0,0.0
+hasparticipantrole,child,key,"grinstead, ""lawsuit participant"").",10,0.0,10,0.4516339869281046,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,female,32,0.5317460317460317,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,key,"grinstead, ""female"").",10,0.0,15,0.4984126984126984,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,slave,50,0.6566137566137565,20,0.0,0.0,0.0
+hasparticipantrole,child,has_occupation,free woman,50,0.6566137566137565,0,0.0,0.0,0.0
+hasparticipantrole,child,key,"grinstead, ""slave""), has_occupation(elizabeth key grinstead, ""free woman"").",10,0.0,10,0.5555555555555555,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_age,age,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_age,not mentioned,40,0.5978835978835978,22,0.0,0.0,0.0
+hasparticipantrole,child,key,"grinstead, ""not mentioned"")",10,0.0,12,0.49135802469135803,0.0,0.0
+hasparticipantrole,child,has_birthdate,date_of_birth,52,0.6937321937321936,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_birthdate,1630,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,child,key,"grinstead, ""1630"")",10,0.0,17,0.5037037037037037,0.0,0.0
+hasparticipantrole,child,has_deathdate,date_of_death,52,0.6866096866096866,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_deathdate,not mentioned,52,0.6866096866096866,22,0.0,0.0,0.0
+hasparticipantrole,child,key,"grinstead, ""not mentioned"").",10,0.0,12,0.4904761904761905,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_race_or_color,race_or_color,46,0.60239651416122,22,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_race_or_color,mulatto,46,0.60239651416122,17,0.44761904761904764,0.0,0.0
+hasparticipantrole,child,key,"grinstead, ""mulatto"").",10,0.0,15,0.496969696969697,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,enslaved person,46,0.6479302832244008,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,child,has_person_status,free woman,46,0.6479302832244008,0,0.0,0.0,0.0
+hasparticipantrole,child,key,"grinstead, ""enslaved person""), has_person_status(elizabeth key grinstead, ""free woman"")",10,0.0,7,0.5319923371647509,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,lawsuit for freedom,40,0.5819304152637487,17,0.3350877192982456,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,lawsuit for freedom,40,0.5819304152637487,17,0.3350877192982456,0.0,0.0
+hasparticipantrole,child,for,"freedom""), has_status_generating_event(free woman, ""lawsuit for freedom"")",10,0.46296296296296297,10,0.4359208523592086,0.0,0.0
+hasparticipantrole,child,recorded_at,event,28,0.36195286195286197,0,0.0,0.0,0.0
+hasparticipantrole,child,recorded_at,lawsuit for freedom,28,0.36195286195286197,17,0.3350877192982456,0.0,0.0
+hasparticipantrole,child,recorded_at,lawsuit for freedom,28,0.36195286195286197,17,0.3350877192982456,0.0,0.0
+hasparticipantrole,child,for,"freedom""), recorded_at(free woman, ""lawsuit for freedom"").",10,0.46296296296296297,10,0.3114942528735632,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,elizabeth key grinstead,38,0.5675925925925926,37,0.5526570048309178,0.0,0.0
+hasparticipantrole,deceased person,key,"grinstead, ""elizabeth key grinstead"")",10,0.0,31,0.5123123123123122,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,grinstead,41,0.6274651274651274,25,0.487037037037037,0.0,0.0
+hasparticipantrole,deceased person,key,"grinstead, ""grinstead"")",10,0.0,32,0.5156199677938809,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,elizabeth,44,0.6772486772486772,25,0.39999999999999997,0.0,0.0
+hasparticipantrole,deceased person,key,"grinstead, ""elizabeth"").",10,0.0,26,0.5101851851851852,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,father,42,0.6570105820105819,29,0.45555555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,common-law husband,42,0.6570105820105819,30,0.4703703703703704,0.0,0.0
+hasparticipantrole,deceased person,key,"grinstead, ""father""), has_interagent_relationship_type_to(elizabeth key grinstead, ""common-law husband"")",10,0.0,20,0.5356837606837607,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,englishman,44,0.6037037037037037,24,0.47222222222222227,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,william grinstead,44,0.6037037037037037,25,0.4732026143790849,0.0,0.0
+hasparticipantrole,deceased person,key,"grinstead, ""englishman""), is_relationship_to(elizabeth key grinstead, ""william grinstead"").",10,0.0,21,0.5159951159951159,0.0,0.0
+hasparticipantrole,deceased person,role record,module:,28,0.4452861952861953,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant_role_type,95,0.9766666666666667,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,lawsuit participant,95,0.9766666666666667,35,0.5719298245614035,0.0,0.0
+hasparticipantrole,deceased person,key,"grinstead, ""lawsuit participant"").",10,0.0,29,0.47342047930283226,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,female,32,0.5317460317460317,29,0.45555555555555555,0.0,0.0
+hasparticipantrole,deceased person,key,"grinstead, ""female"").",10,0.0,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,slave,50,0.6566137566137565,20,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,free woman,50,0.6566137566137565,40,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,key,"grinstead, ""slave""), has_occupation(elizabeth key grinstead, ""free woman"").",10,0.0,27,0.5638095238095239,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_age,age,40,0.5978835978835978,22,0.4333333333333333,0.0,0.0
+hasparticipantrole,deceased person,has_age,not mentioned,40,0.5978835978835978,29,0.5094017094017094,0.0,0.0
+hasparticipantrole,deceased person,key,"grinstead, ""not mentioned"")",10,0.0,33,0.4962962962962963,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,date_of_birth,52,0.6937321937321936,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,1630,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,key,"grinstead, ""1630"")",10,0.0,24,0.4703703703703704,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,date_of_death,52,0.6866096866096866,36,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,not mentioned,52,0.6866096866096866,29,0.5094017094017094,0.0,0.0
+hasparticipantrole,deceased person,key,"grinstead, ""not mentioned"").",10,0.0,33,0.5079365079365079,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,race_or_color,46,0.60239651416122,29,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,mulatto,46,0.60239651416122,18,0.40317460317460313,0.0,0.0
+hasparticipantrole,deceased person,key,"grinstead, ""mulatto"").",10,0.0,27,0.4520923520923521,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,enslaved person,46,0.6479302832244008,73,0.7833333333333333,0.0,0.33609692727625756
+hasparticipantrole,deceased person,has_person_status,free woman,46,0.6479302832244008,40,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,key,"grinstead, ""enslaved person""), has_person_status(elizabeth key grinstead, ""free woman"")",10,0.0,24,0.5552271483305966,0.0,0.12725898700975252
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,lawsuit for freedom,40,0.5819304152637487,29,0.5164578111946533,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,lawsuit for freedom,40,0.5819304152637487,29,0.5164578111946533,0.0,0.0
+hasparticipantrole,deceased person,for,"freedom""), has_status_generating_event(free woman, ""lawsuit for freedom"")",10,0.46296296296296297,20,0.5159056316590563,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,event,28,0.36195286195286197,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,lawsuit for freedom,28,0.36195286195286197,29,0.5164578111946533,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,lawsuit for freedom,28,0.36195286195286197,29,0.5164578111946533,0.0,0.0
+hasparticipantrole,deceased person,for,"freedom""), recorded_at(free woman, ""lawsuit for freedom"").",10,0.46296296296296297,25,0.5430887120542293,0.0,0.0
+hasdescriptiveoccupation,servant,record,module:,27,0.6138888888888889,14,0.0,0.0,0.0
+hasdescriptiveoccupation,servant,has_name,name,25,0.5555555555555555,18,0.46428571428571425,0.0,0.0
+hasdescriptiveoccupation,servant,has_name,elizabeth key grinstead,25,0.5555555555555555,27,0.5196687370600414,0.0,0.0
+hasdescriptiveoccupation,servant,key,"grinstead, ""elizabeth key grinstead"")",7,0.4583333333333333,23,0.5064350064350064,0.0,0.0
+hasdescriptiveoccupation,servant,has_surname,surname,34,0.5474386724386724,43,0.6309523809523809,0.0,0.0
+hasdescriptiveoccupation,servant,has_surname,grinstead,34,0.5474386724386724,38,0.5886243386243386,0.0,0.0
+hasdescriptiveoccupation,servant,key,"grinstead, ""grinstead"")",7,0.4583333333333333,33,0.5393374741200828,0.0,0.0
+hasdescriptiveoccupation,servant,has_first_name,first_name,32,0.5615079365079364,24,0.6047619047619048,0.0,0.0
+hasdescriptiveoccupation,servant,has_first_name,elizabeth,32,0.5615079365079364,38,0.5873015873015873,0.0,0.0
+hasdescriptiveoccupation,servant,key,"grinstead, ""elizabeth"").",7,0.4583333333333333,26,0.5357142857142857,0.0,0.0
+hasdescriptiveoccupation,servant,relationship record,module:,33,0.6137539361223572,14,0.0,0.0,0.0
+hasdescriptiveoccupation,servant,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,33,0.5361344537815126,0.0,0.0
+hasdescriptiveoccupation,servant,has_interagent_relationship_type_to,father,41,0.6037698412698412,31,0.0,0.0,0.0
+hasdescriptiveoccupation,servant,has_interagent_relationship_type_to,common-law husband,41,0.6037698412698412,24,0.2989417989417989,0.0,0.0
+hasdescriptiveoccupation,servant,key,"grinstead, ""father""), has_interagent_relationship_type_to(elizabeth key grinstead, ""common-law husband"")",7,0.4583333333333333,11,0.47161172161172155,0.0,0.0
+hasdescriptiveoccupation,servant,is_relationship_to,agent,38,0.6264245014245015,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,servant,is_relationship_to,englishman,38,0.6264245014245015,35,0.46507936507936504,0.0,0.0
+hasdescriptiveoccupation,servant,is_relationship_to,william grinstead,38,0.6264245014245015,25,0.5189075630252101,0.0,0.0
+hasdescriptiveoccupation,servant,key,"grinstead, ""englishman""), is_relationship_to(elizabeth key grinstead, ""william grinstead"").",7,0.4583333333333333,12,0.4743589743589743,0.0,0.0
+hasdescriptiveoccupation,servant,role record,module:,29,0.4873737373737373,14,0.0,0.0,0.0
+hasdescriptiveoccupation,servant,has_participant_role,participant_role_type,50,0.6805555555555555,29,0.42063492063492064,0.0,0.0
+hasdescriptiveoccupation,servant,has_participant_role,lawsuit participant,50,0.6805555555555555,38,0.4273182957393484,0.0,0.0
+hasdescriptiveoccupation,servant,key,"grinstead, ""lawsuit participant"").",7,0.4583333333333333,29,0.511204481792717,0.0,0.0
+hasdescriptiveoccupation,servant,record,module:,27,0.6138888888888889,14,0.0,0.0,0.0
+hasdescriptiveoccupation,servant,has_sex,sex_type,32,0.5742063492063493,40,0.6011904761904762,0.0,0.0
+hasdescriptiveoccupation,servant,has_sex,female,32,0.5742063492063493,31,0.5396825396825397,0.0,0.0
+hasdescriptiveoccupation,servant,key,"grinstead, ""female"").",7,0.4583333333333333,21,0.5476190476190476,0.0,0.0
+hasdescriptiveoccupation,servant,record,module:,27,0.6138888888888889,14,0.0,0.0,0.0
+hasdescriptiveoccupation,servant,has_occupation,occupation,68,0.8045940170940171,24,0.46507936507936504,0.0,0.0
+hasdescriptiveoccupation,servant,has_occupation,slave,68,0.8045940170940171,33,0.565079365079365,0.0,0.0
+hasdescriptiveoccupation,servant,has_occupation,free woman,68,0.8045940170940171,35,0.5738095238095239,0.0,0.0
+hasdescriptiveoccupation,servant,key,"grinstead, ""slave""), has_occupation(elizabeth key grinstead, ""free woman"").",7,0.4583333333333333,15,0.5549206349206349,0.0,0.0
+hasdescriptiveoccupation,servant,record,module:,27,0.6138888888888889,14,0.0,0.0,0.0
+hasdescriptiveoccupation,servant,has_age,age,26,0.5793650793650794,20,0.4920634920634921,0.0,0.0
+hasdescriptiveoccupation,servant,has_age,not mentioned,26,0.5793650793650794,30,0.442002442002442,0.0,0.0
+hasdescriptiveoccupation,servant,key,"grinstead, ""not mentioned"")",7,0.4583333333333333,29,0.5264550264550264,0.0,0.0
+hasdescriptiveoccupation,servant,has_birthdate,date_of_birth,38,0.6286324786324786,30,0.442002442002442,0.0,0.0
+hasdescriptiveoccupation,servant,has_birthdate,1630,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,servant,key,"grinstead, ""1630"")",7,0.4583333333333333,24,0.5634920634920635,0.0,0.0
+hasdescriptiveoccupation,servant,has_deathdate,date_of_death,43,0.652065527065527,30,0.442002442002442,0.0,0.0
+hasdescriptiveoccupation,servant,has_deathdate,not mentioned,43,0.652065527065527,30,0.442002442002442,0.0,0.0
+hasdescriptiveoccupation,servant,key,"grinstead, ""not mentioned"").",7,0.4583333333333333,29,0.5238095238095238,0.0,0.0
+hasdescriptiveoccupation,servant,record,module:,27,0.6138888888888889,14,0.0,0.0,0.0
+hasdescriptiveoccupation,servant,has_race_or_color,race_or_color,39,0.5977668845315903,20,0.442002442002442,0.0,0.0
+hasdescriptiveoccupation,servant,has_race_or_color,mulatto,39,0.5977668845315903,29,0.5238095238095238,0.0,0.0
+hasdescriptiveoccupation,servant,key,"grinstead, ""mulatto"").",7,0.4583333333333333,28,0.5432900432900433,0.0,0.0
+hasdescriptiveoccupation,servant,status record,module:,32,0.540954415954416,14,0.0,0.0,0.0
+hasdescriptiveoccupation,servant,has_person_status,enslaved person,39,0.6241830065359477,36,0.5492063492063491,0.0,0.0
+hasdescriptiveoccupation,servant,has_person_status,free woman,39,0.6241830065359477,35,0.5738095238095239,0.0,0.0
+hasdescriptiveoccupation,servant,key,"grinstead, ""enslaved person""), has_person_status(elizabeth key grinstead, ""free woman"")",7,0.4583333333333333,13,0.5506294471811713,0.0,0.0
+hasdescriptiveoccupation,servant,has_status_generating_event,event,39,0.5815696649029983,67,0.7904761904761904,0.0,0.0
+hasdescriptiveoccupation,servant,has_status_generating_event,lawsuit for freedom,39,0.5815696649029983,15,0.4273182957393484,0.0,0.0
+hasdescriptiveoccupation,servant,has_status_generating_event,lawsuit for freedom,39,0.5815696649029983,15,0.4273182957393484,0.0,0.0
+hasdescriptiveoccupation,servant,for,"freedom""), has_status_generating_event(free woman, ""lawsuit for freedom"")",7,0.4583333333333333,18,0.6033920417482062,0.0,0.0
+hasdescriptiveoccupation,servant,recorded_at,event,34,0.5202020202020202,67,0.7904761904761904,0.0,0.0
+hasdescriptiveoccupation,servant,recorded_at,lawsuit for freedom,34,0.5202020202020202,15,0.4273182957393484,0.0,0.0
+hasdescriptiveoccupation,servant,recorded_at,lawsuit for freedom,34,0.5202020202020202,15,0.4273182957393484,0.0,0.0
+hasdescriptiveoccupation,servant,for,"freedom""), recorded_at(free woman, ""lawsuit for freedom"").",7,0.4583333333333333,15,0.4668308702791461,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,elizabeth key grinstead,25,0.5555555555555555,21,0.46570048309178746,0.0,0.0
+hasdescriptiveoccupation,slave,key,"grinstead, ""elizabeth key grinstead"")",7,0.4583333333333333,19,0.5527027027027027,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,surname,34,0.5474386724386724,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,grinstead,34,0.5474386724386724,29,0.43703703703703706,0.0,0.0
+hasdescriptiveoccupation,slave,key,"grinstead, ""grinstead"")",7,0.4583333333333333,21,0.46570048309178746,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,first_name,32,0.5615079365079364,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,elizabeth,32,0.5615079365079364,43,0.6444444444444445,0.0,0.0
+hasdescriptiveoccupation,slave,key,"grinstead, ""elizabeth"").",7,0.4583333333333333,28,0.46388888888888885,0.0,0.0
+hasdescriptiveoccupation,slave,relationship record,module:,33,0.6137539361223572,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,27,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,father,41,0.6037698412698412,36,0.5777777777777778,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,common-law husband,41,0.6037698412698412,17,0.5037037037037037,0.0,0.0
+hasdescriptiveoccupation,slave,key,"grinstead, ""father""), has_interagent_relationship_type_to(elizabeth key grinstead, ""common-law husband"")",7,0.4583333333333333,7,0.5294871794871795,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,agent,38,0.6264245014245015,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,englishman,38,0.6264245014245015,27,0.3666666666666667,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,william grinstead,38,0.6264245014245015,27,0.5058823529411764,0.0,0.0
+hasdescriptiveoccupation,slave,key,"grinstead, ""englishman""), is_relationship_to(elizabeth key grinstead, ""william grinstead"").",7,0.4583333333333333,8,0.5313186813186813,0.0,0.0
+hasdescriptiveoccupation,slave,role record,module:,29,0.4873737373737373,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,participant_role_type,50,0.6805555555555555,15,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,lawsuit participant,50,0.6805555555555555,17,0.47485380116959064,0.0,0.0
+hasdescriptiveoccupation,slave,key,"grinstead, ""lawsuit participant"").",7,0.4583333333333333,15,0.5558823529411765,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,sex_type,32,0.5742063492063493,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,female,32,0.5742063492063493,36,0.5777777777777778,0.0,0.0
+hasdescriptiveoccupation,slave,key,"grinstead, ""female"").",7,0.4583333333333333,23,0.4698412698412698,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,slave,68,0.8045940170940171,100,1.0,0.0,1.0
+hasdescriptiveoccupation,slave,has_occupation,free woman,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,key,"grinstead, ""slave""), has_occupation(elizabeth key grinstead, ""free woman"").",7,0.4583333333333333,12,0.6222222222222222,0.0,0.23076792961123066
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,age,26,0.5793650793650794,50,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,not mentioned,26,0.5793650793650794,11,0.4256410256410256,0.0,0.0
+hasdescriptiveoccupation,slave,key,"grinstead, ""not mentioned"")",7,0.4583333333333333,19,0.45925925925925926,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,date_of_birth,38,0.6286324786324786,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,1630,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,key,"grinstead, ""1630"")",7,0.4583333333333333,17,0.4777777777777777,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,date_of_death,43,0.652065527065527,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,not mentioned,43,0.652065527065527,11,0.4256410256410256,0.0,0.0
+hasdescriptiveoccupation,slave,key,"grinstead, ""not mentioned"").",7,0.4583333333333333,18,0.4579365079365079,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,race_or_color,39,0.5977668845315903,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,mulatto,39,0.5977668845315903,33,0.5619047619047619,0.0,0.0
+hasdescriptiveoccupation,slave,key,"grinstead, ""mulatto"").",7,0.4583333333333333,22,0.46767676767676764,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,enslaved person,39,0.6241830065359477,50,0.6444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,free woman,39,0.6241830065359477,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,key,"grinstead, ""enslaved person""), has_person_status(elizabeth key grinstead, ""free woman"")",7,0.4583333333333333,11,0.6191570881226054,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,event,39,0.5815696649029983,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,lawsuit for freedom,39,0.5815696649029983,25,0.47485380116959064,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,lawsuit for freedom,39,0.5815696649029983,25,0.47485380116959064,0.0,0.0
+hasdescriptiveoccupation,slave,for,"freedom""), has_status_generating_event(free woman, ""lawsuit for freedom"")",7,0.4583333333333333,10,0.5349315068493151,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,event,34,0.5202020202020202,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,lawsuit for freedom,34,0.5202020202020202,25,0.47485380116959064,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,lawsuit for freedom,34,0.5202020202020202,25,0.47485380116959064,0.0,0.0
+hasdescriptiveoccupation,slave,for,"freedom""), recorded_at(free woman, ""lawsuit for freedom"").",7,0.4583333333333333,10,0.3114942528735632,0.0,0.0
+hasdescriptiveoccupation,litigant,record,module:,27,0.6138888888888889,13,0.0,0.0,0.0
+hasdescriptiveoccupation,litigant,has_name,name,25,0.5555555555555555,17,0.0,0.0,0.0
+hasdescriptiveoccupation,litigant,has_name,elizabeth key grinstead,25,0.5555555555555555,39,0.547463768115942,0.0,0.0
+hasdescriptiveoccupation,litigant,key,"grinstead, ""elizabeth key grinstead"")",7,0.4583333333333333,27,0.6137387387387387,0.0,0.0
+hasdescriptiveoccupation,litigant,has_surname,surname,34,0.5474386724386724,13,0.3452380952380952,0.0,0.0
+hasdescriptiveoccupation,litigant,has_surname,grinstead,34,0.5474386724386724,35,0.5648148148148148,0.0,0.0
+hasdescriptiveoccupation,litigant,key,"grinstead, ""grinstead"")",7,0.4583333333333333,32,0.5591787439613527,0.0,0.0
+hasdescriptiveoccupation,litigant,has_first_name,first_name,32,0.5615079365079364,33,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,litigant,has_first_name,elizabeth,32,0.5615079365079364,47,0.6481481481481481,0.0,0.0
+hasdescriptiveoccupation,litigant,key,"grinstead, ""elizabeth"").",7,0.4583333333333333,31,0.5555555555555555,0.0,0.0
+hasdescriptiveoccupation,litigant,relationship record,module:,33,0.6137539361223572,13,0.0,0.0,0.0
+hasdescriptiveoccupation,litigant,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,40,0.7146358543417367,0.0,0.0
+hasdescriptiveoccupation,litigant,has_interagent_relationship_type_to,father,41,0.6037698412698412,29,0.4305555555555555,0.0,0.0
+hasdescriptiveoccupation,litigant,has_interagent_relationship_type_to,common-law husband,41,0.6037698412698412,23,0.40277777777777773,0.0,0.0
+hasdescriptiveoccupation,litigant,key,"grinstead, ""father""), has_interagent_relationship_type_to(elizabeth key grinstead, ""common-law husband"")",7,0.4583333333333333,12,0.5673076923076923,0.0,0.0
+hasdescriptiveoccupation,litigant,is_relationship_to,agent,38,0.6264245014245015,46,0.5472222222222222,0.0,0.0
+hasdescriptiveoccupation,litigant,is_relationship_to,englishman,38,0.6264245014245015,44,0.6416666666666667,0.0,0.0
+hasdescriptiveoccupation,litigant,is_relationship_to,william grinstead,38,0.6264245014245015,40,0.667016806722689,0.0,0.0
+hasdescriptiveoccupation,litigant,key,"grinstead, ""englishman""), is_relationship_to(elizabeth key grinstead, ""william grinstead"").",7,0.4583333333333333,16,0.5709706959706959,0.0,0.0
+hasdescriptiveoccupation,litigant,role record,module:,29,0.4873737373737373,13,0.0,0.0,0.0
+hasdescriptiveoccupation,litigant,has_participant_role,participant_role_type,50,0.6805555555555555,34,0.623015873015873,0.0,0.0
+hasdescriptiveoccupation,litigant,has_participant_role,lawsuit participant,50,0.6805555555555555,52,0.5627192982456141,0.0,0.0
+hasdescriptiveoccupation,litigant,key,"grinstead, ""lawsuit participant"").",7,0.4583333333333333,33,0.6200980392156863,0.0,0.0
+hasdescriptiveoccupation,litigant,record,module:,27,0.6138888888888889,13,0.0,0.0,0.0
+hasdescriptiveoccupation,litigant,has_sex,sex_type,32,0.5742063492063493,12,0.4166666666666667,0.0,0.0
+hasdescriptiveoccupation,litigant,has_sex,female,32,0.5742063492063493,14,0.4305555555555555,0.0,0.0
+hasdescriptiveoccupation,litigant,key,"grinstead, ""female"").",7,0.4583333333333333,21,0.48769841269841274,0.0,0.0
+hasdescriptiveoccupation,litigant,record,module:,27,0.6138888888888889,13,0.0,0.0,0.0
+hasdescriptiveoccupation,litigant,has_occupation,occupation,68,0.8045940170940171,33,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,litigant,has_occupation,slave,68,0.8045940170940171,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,litigant,has_occupation,free woman,68,0.8045940170940171,22,0.48333333333333334,0.0,0.0
+hasdescriptiveoccupation,litigant,key,"grinstead, ""slave""), has_occupation(elizabeth key grinstead, ""free woman"").",7,0.4583333333333333,14,0.5772222222222222,0.0,0.0
+hasdescriptiveoccupation,litigant,record,module:,27,0.6138888888888889,13,0.0,0.0,0.0
+hasdescriptiveoccupation,litigant,has_age,age,26,0.5793650793650794,18,0.4861111111111111,0.0,0.0
+hasdescriptiveoccupation,litigant,has_age,not mentioned,26,0.5793650793650794,29,0.5192307692307693,0.0,0.0
+hasdescriptiveoccupation,litigant,key,"grinstead, ""not mentioned"")",7,0.4583333333333333,29,0.5462962962962963,0.0,0.0
+hasdescriptiveoccupation,litigant,has_birthdate,date_of_birth,38,0.6286324786324786,29,0.42414529914529914,0.0,0.0
+hasdescriptiveoccupation,litigant,has_birthdate,1630,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,litigant,key,"grinstead, ""1630"")",7,0.4583333333333333,23,0.5009259259259259,0.0,0.0
+hasdescriptiveoccupation,litigant,has_deathdate,date_of_death,43,0.652065527065527,29,0.42414529914529914,0.0,0.0
+hasdescriptiveoccupation,litigant,has_deathdate,not mentioned,43,0.652065527065527,29,0.5192307692307693,0.0,0.0
+hasdescriptiveoccupation,litigant,key,"grinstead, ""not mentioned"").",7,0.4583333333333333,28,0.5436507936507936,0.0,0.0
+hasdescriptiveoccupation,litigant,record,module:,27,0.6138888888888889,13,0.0,0.0,0.0
+hasdescriptiveoccupation,litigant,has_race_or_color,race_or_color,39,0.5977668845315903,10,0.4006410256410256,0.0,0.0
+hasdescriptiveoccupation,litigant,has_race_or_color,mulatto,39,0.5977668845315903,40,0.6071428571428571,0.0,0.0
+hasdescriptiveoccupation,litigant,key,"grinstead, ""mulatto"").",7,0.4583333333333333,27,0.5631313131313131,0.0,0.0
+hasdescriptiveoccupation,litigant,status record,module:,32,0.540954415954416,13,0.0,0.0,0.0
+hasdescriptiveoccupation,litigant,has_person_status,enslaved person,39,0.6241830065359477,26,0.4138888888888889,0.0,0.0
+hasdescriptiveoccupation,litigant,has_person_status,free woman,39,0.6241830065359477,22,0.48333333333333334,0.0,0.0
+hasdescriptiveoccupation,litigant,key,"grinstead, ""enslaved person""), has_person_status(elizabeth key grinstead, ""free woman"")",7,0.4583333333333333,13,0.5565818281335523,0.0,0.0
+hasdescriptiveoccupation,litigant,has_status_generating_event,event,39,0.5815696649029983,31,0.3833333333333333,0.0,0.0
+hasdescriptiveoccupation,litigant,has_status_generating_event,lawsuit for freedom,39,0.5815696649029983,22,0.4868421052631579,0.0,0.0
+hasdescriptiveoccupation,litigant,has_status_generating_event,lawsuit for freedom,39,0.5815696649029983,22,0.4868421052631579,0.0,0.0
+hasdescriptiveoccupation,litigant,for,"freedom""), has_status_generating_event(free woman, ""lawsuit for freedom"")",7,0.4583333333333333,15,0.4996194824961948,0.0,0.0
+hasdescriptiveoccupation,litigant,recorded_at,event,34,0.5202020202020202,31,0.3833333333333333,0.0,0.0
+hasdescriptiveoccupation,litigant,recorded_at,lawsuit for freedom,34,0.5202020202020202,22,0.4868421052631579,0.0,0.0
+hasdescriptiveoccupation,litigant,recorded_at,lawsuit for freedom,34,0.5202020202020202,22,0.4868421052631579,0.0,0.0
+hasdescriptiveoccupation,litigant,for,"freedom""), recorded_at(free woman, ""lawsuit for freedom"").",7,0.4583333333333333,12,0.36446360153256707,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,record,module:,27,0.6138888888888889,14,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_name,name,25,0.5555555555555555,16,0.5634920634920635,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_name,elizabeth key grinstead,25,0.5555555555555555,32,0.5764477068824895,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,key,"grinstead, ""elizabeth key grinstead"")",7,0.4583333333333333,31,0.5542355542355543,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_surname,surname,34,0.5474386724386724,21,0.5174603174603174,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_surname,grinstead,34,0.5474386724386724,27,0.5312169312169313,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,key,"grinstead, ""grinstead"")",7,0.4583333333333333,32,0.5764477068824895,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_first_name,first_name,32,0.5615079365079364,26,0.5174603174603174,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_first_name,elizabeth,32,0.5615079365079364,20,0.38095238095238093,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,key,"grinstead, ""elizabeth"").",7,0.4583333333333333,27,0.4900793650793651,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,relationship record,module:,33,0.6137539361223572,14,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,26,0.5107376283846872,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_interagent_relationship_type_to,father,41,0.6037698412698412,22,0.5357142857142857,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_interagent_relationship_type_to,common-law husband,41,0.6037698412698412,26,0.48346560846560843,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,key,"grinstead, ""father""), has_interagent_relationship_type_to(elizabeth key grinstead, ""common-law husband"")",7,0.4583333333333333,24,0.4861721611721612,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,is_relationship_to,agent,38,0.6264245014245015,23,0.4698412698412698,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,is_relationship_to,englishman,38,0.6264245014245015,32,0.44682539682539685,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,is_relationship_to,william grinstead,38,0.6264245014245015,26,0.49218020541549956,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,key,"grinstead, ""englishman""), is_relationship_to(elizabeth key grinstead, ""william grinstead"").",7,0.4583333333333333,25,0.49304029304029307,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,role record,module:,29,0.4873737373737373,14,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_participant_role,participant_role_type,50,0.6805555555555555,29,0.4603174603174603,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_participant_role,lawsuit participant,50,0.6805555555555555,25,0.43375104427736005,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,key,"grinstead, ""lawsuit participant"").",7,0.4583333333333333,29,0.524870554282319,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,record,module:,27,0.6138888888888889,14,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_sex,sex_type,32,0.5742063492063493,14,0.44841269841269843,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_sex,female,32,0.5742063492063493,37,0.6238095238095238,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,key,"grinstead, ""female"").",7,0.4583333333333333,38,0.5310245310245311,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,record,module:,27,0.6138888888888889,14,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_occupation,occupation,68,0.8045940170940171,19,0.36984126984126986,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_occupation,slave,68,0.8045940170940171,15,0.33174603174603173,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_occupation,free woman,68,0.8045940170940171,65,0.6436507936507937,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,key,"grinstead, ""slave""), has_occupation(elizabeth key grinstead, ""free woman"").",7,0.4583333333333333,33,0.4692551892551893,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,record,module:,27,0.6138888888888889,14,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_age,age,26,0.5793650793650794,17,0.42063492063492064,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_age,not mentioned,26,0.5793650793650794,29,0.4810744810744811,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,key,"grinstead, ""not mentioned"")",7,0.4583333333333333,33,0.5463302129968796,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_birthdate,date_of_birth,38,0.6286324786324786,24,0.4075702075702076,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_birthdate,1630,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,key,"grinstead, ""1630"")",7,0.4583333333333333,21,0.4841269841269842,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_deathdate,date_of_death,43,0.652065527065527,29,0.5286935286935287,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_deathdate,not mentioned,43,0.652065527065527,29,0.4810744810744811,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,key,"grinstead, ""not mentioned"").",7,0.4583333333333333,33,0.5405982905982906,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,record,module:,27,0.6138888888888889,14,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_race_or_color,race_or_color,39,0.5977668845315903,24,0.4742368742368743,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_race_or_color,mulatto,39,0.5977668845315903,21,0.4603174603174603,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,key,"grinstead, ""mulatto"").",7,0.4583333333333333,28,0.46440596440596443,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,status record,module:,32,0.540954415954416,14,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_person_status,enslaved person,39,0.6241830065359477,39,0.6142857142857142,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_person_status,free woman,39,0.6241830065359477,65,0.6436507936507937,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,key,"grinstead, ""enslaved person""), has_person_status(elizabeth key grinstead, ""free woman"")",7,0.4583333333333333,31,0.49556650246305417,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_status_generating_event,event,39,0.5815696649029983,23,0.580952380952381,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_status_generating_event,lawsuit for freedom,39,0.5815696649029983,50,0.5954469507101087,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,has_status_generating_event,lawsuit for freedom,39,0.5815696649029983,50,0.5954469507101087,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,for,"freedom""), has_status_generating_event(free woman, ""lawsuit for freedom"")",7,0.4583333333333333,36,0.616415467893478,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,recorded_at,event,34,0.5202020202020202,23,0.580952380952381,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,recorded_at,lawsuit for freedom,34,0.5202020202020202,50,0.5954469507101087,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,recorded_at,lawsuit for freedom,34,0.5202020202020202,50,0.5954469507101087,0.0,0.0
+hasdescriptiveoccupation,freedman / freedwoman,for,"freedom""), recorded_at(free woman, ""lawsuit for freedom"").",7,0.4583333333333333,43,0.6388528793247487,0.0,0.0
+hasfirstname,elizabeth,record,module:,22,0.4166666666666667,25,0.5026455026455027,0.0,0.0
+hasfirstname,elizabeth,has_name,name,70,0.8736111111111112,31,0.40740740740740744,0.0,0.0
+hasfirstname,elizabeth,has_name,elizabeth key grinstead,70,0.8736111111111112,56,0.8782608695652174,0.0,0.4494364165239821
+hasfirstname,elizabeth,key,"grinstead, ""elizabeth key grinstead"")",13,0.0,39,0.5995995995995996,0.0,0.3032160644503863
+hasfirstname,elizabeth,has_surname,surname,70,0.8733164983164984,25,0.5026455026455027,0.0,0.0
+hasfirstname,elizabeth,has_surname,grinstead,70,0.8733164983164984,22,0.5462962962962963,0.0,0.0
+hasfirstname,elizabeth,key,"grinstead, ""grinstead"")",13,0.0,19,0.3727858293075685,0.0,0.0
+hasfirstname,elizabeth,has_first_name,first_name,92,0.9666666666666667,32,0.5314814814814816,0.0,0.0
+hasfirstname,elizabeth,has_first_name,elizabeth,92,0.9666666666666667,100,1.0,0.0,1.0
+hasfirstname,elizabeth,key,"grinstead, ""elizabeth"").",13,0.0,55,0.45462962962962966,0.0,0.5797386715376658
+hasfirstname,elizabeth,relationship record,module:,32,0.5077276524644946,25,0.5026455026455027,0.0,0.0
+hasfirstname,elizabeth,has_interagent_relationship_type_to,relationship_type,34,0.5949735449735449,38,0.6176470588235294,0.0,0.0
+hasfirstname,elizabeth,has_interagent_relationship_type_to,father,34,0.5949735449735449,40,0.5185185185185185,0.0,0.0
+hasfirstname,elizabeth,has_interagent_relationship_type_to,common-law husband,34,0.5949735449735449,22,0.5,0.0,0.0
+hasfirstname,elizabeth,key,"grinstead, ""father""), has_interagent_relationship_type_to(elizabeth key grinstead, ""common-law husband"")",13,0.0,16,0.4721713471713471,0.0,0.21951095080860836
+hasfirstname,elizabeth,is_relationship_to,agent,27,0.6203703703703703,43,0.5407407407407407,0.0,0.0
+hasfirstname,elizabeth,is_relationship_to,englishman,27,0.6203703703703703,42,0.6185185185185186,0.0,0.0
+hasfirstname,elizabeth,is_relationship_to,william grinstead,27,0.6203703703703703,31,0.47657952069716775,0.0,0.0
+hasfirstname,elizabeth,key,"grinstead, ""englishman""), is_relationship_to(elizabeth key grinstead, ""william grinstead"").",13,0.0,18,0.5229955229955231,0.0,0.19360324687858615
+hasfirstname,elizabeth,role record,module:,17,0.44949494949494956,25,0.5026455026455027,0.0,0.0
+hasfirstname,elizabeth,has_participant_role,participant_role_type,44,0.6962962962962962,27,0.3783068783068783,0.0,0.0
+hasfirstname,elizabeth,has_participant_role,lawsuit participant,44,0.6962962962962962,29,0.46832358674463936,0.0,0.0
+hasfirstname,elizabeth,key,"grinstead, ""lawsuit participant"").",13,0.0,23,0.43420479302832243,0.0,0.0
+hasfirstname,elizabeth,record,module:,22,0.4166666666666667,25,0.5026455026455027,0.0,0.0
+hasfirstname,elizabeth,has_sex,sex_type,53,0.6349206349206349,24,0.4583333333333333,0.0,0.0
+hasfirstname,elizabeth,has_sex,female,53,0.6349206349206349,40,0.6203703703703703,0.0,0.0
+hasfirstname,elizabeth,key,"grinstead, ""female"").",13,0.0,20,0.46455026455026455,0.0,0.0
+hasfirstname,elizabeth,record,module:,22,0.4166666666666667,25,0.5026455026455027,0.0,0.0
+hasfirstname,elizabeth,has_occupation,occupation,38,0.5873015873015873,21,0.4740740740740741,0.0,0.0
+hasfirstname,elizabeth,has_occupation,slave,38,0.5873015873015873,43,0.6444444444444445,0.0,0.0
+hasfirstname,elizabeth,has_occupation,free woman,38,0.5873015873015873,21,0.4333333333333333,0.0,0.0
+hasfirstname,elizabeth,key,"grinstead, ""slave""), has_occupation(elizabeth key grinstead, ""free woman"").",13,0.0,21,0.5585185185185185,0.0,0.23076792961123066
+hasfirstname,elizabeth,record,module:,22,0.4166666666666667,25,0.5026455026455027,0.0,0.0
+hasfirstname,elizabeth,has_age,age,53,0.7972222222222223,33,0.48148148148148145,0.0,0.0
+hasfirstname,elizabeth,has_age,not mentioned,53,0.7972222222222223,27,0.4102564102564103,0.0,0.0
+hasfirstname,elizabeth,key,"grinstead, ""not mentioned"")",13,0.0,22,0.4469135802469135,0.0,0.0
+hasfirstname,elizabeth,has_birthdate,date_of_birth,64,0.8324786324786324,36,0.5133903133903134,0.0,0.0
+hasfirstname,elizabeth,has_birthdate,1630,64,0.8324786324786324,0,0.0,0.0,0.0
+hasfirstname,elizabeth,key,"grinstead, ""1630"")",13,0.0,15,0.38888888888888884,0.0,0.0
+hasfirstname,elizabeth,has_deathdate,date_of_death,48,0.5982905982905983,36,0.58005698005698,0.0,0.0
+hasfirstname,elizabeth,has_deathdate,not mentioned,48,0.5982905982905983,27,0.4102564102564103,0.0,0.0
+hasfirstname,elizabeth,key,"grinstead, ""not mentioned"").",13,0.0,22,0.4447089947089948,0.0,0.0
+hasfirstname,elizabeth,record,module:,22,0.4166666666666667,25,0.5026455026455027,0.0,0.0
+hasfirstname,elizabeth,has_race_or_color,race_or_color,41,0.6176470588235294,18,0.292022792022792,0.0,0.0
+hasfirstname,elizabeth,has_race_or_color,mulatto,41,0.6176470588235294,38,0.5873015873015873,0.0,0.0
+hasfirstname,elizabeth,key,"grinstead, ""mulatto"").",13,0.0,26,0.37542087542087543,0.0,0.0
+hasfirstname,elizabeth,status record,module:,32,0.5427350427350427,25,0.5026455026455027,0.0,0.0
+hasfirstname,elizabeth,has_person_status,enslaved person,48,0.6857298474945533,33,0.5703703703703703,0.0,0.0
+hasfirstname,elizabeth,has_person_status,free woman,48,0.6857298474945533,21,0.4333333333333333,0.0,0.0
+hasfirstname,elizabeth,key,"grinstead, ""enslaved person""), has_person_status(elizabeth key grinstead, ""free woman"")",13,0.0,19,0.5241744207261448,0.0,0.21951095080860833
+hasfirstname,elizabeth,has_status_generating_event,event,41,0.5833333333333334,43,0.5407407407407407,0.0,0.0
+hasfirstname,elizabeth,has_status_generating_event,lawsuit for freedom,41,0.5833333333333334,21,0.47290448343079916,0.0,0.0
+hasfirstname,elizabeth,has_status_generating_event,lawsuit for freedom,41,0.5833333333333334,21,0.47290448343079916,0.0,0.0
+hasfirstname,elizabeth,for,"freedom""), has_status_generating_event(free woman, ""lawsuit for freedom"")",27,0.611111111111111,10,0.4718417047184171,0.0,0.0
+hasfirstname,elizabeth,recorded_at,event,17,0.4823232323232323,43,0.5407407407407407,0.0,0.0
+hasfirstname,elizabeth,recorded_at,lawsuit for freedom,17,0.4823232323232323,21,0.47290448343079916,0.0,0.0
+hasfirstname,elizabeth,recorded_at,lawsuit for freedom,17,0.4823232323232323,21,0.47290448343079916,0.0,0.0
+hasfirstname,elizabeth,for,"freedom""), recorded_at(free woman, ""lawsuit for freedom"").",27,0.611111111111111,12,0.42113665389527455,0.0,0.0
+hassurname,key,record,module:,25,0.4222222222222222,20,0.0,0.0,0.0
+hassurname,key,has_name,name,78,0.9008333333333334,29,0.0,0.0,0.0
+hassurname,key,has_name,elizabeth key grinstead,78,0.9008333333333334,23,0.5990338164251208,0.0,0.4494364165239821
+hassurname,key,key,"grinstead, ""elizabeth key grinstead"")",15,0.0,15,0.4534534534534534,0.0,0.3032160644503863
+hassurname,key,has_surname,surname,95,0.9787878787878788,20,0.0,0.0,0.0
+hassurname,key,has_surname,grinstead,95,0.9787878787878788,17,0.0,0.0,0.0
+hassurname,key,key,"grinstead, ""grinstead"")",15,0.0,8,0.45893719806763283,0.0,0.0
+hassurname,key,has_first_name,first_name,67,0.8674074074074074,15,0.0,0.0,0.0
+hassurname,key,has_first_name,elizabeth,67,0.8674074074074074,17,0.48148148148148145,0.0,0.0
+hassurname,key,key,"grinstead, ""elizabeth"").",15,0.0,7,0.4583333333333333,0.0,0.0
+hassurname,key,relationship record,module:,28,0.4543859649122807,20,0.0,0.0,0.0
+hassurname,key,has_interagent_relationship_type_to,relationship_type,31,0.5380952380952381,20,0.4640522875816993,0.0,0.0
+hassurname,key,has_interagent_relationship_type_to,father,31,0.5380952380952381,22,0.0,0.0,0.0
+hassurname,key,has_interagent_relationship_type_to,common-law husband,31,0.5380952380952381,0,0.0,0.0,0.0
+hassurname,key,key,"grinstead, ""father""), has_interagent_relationship_type_to(elizabeth key grinstead, ""common-law husband"")",15,0.0,6,0.561965811965812,0.0,0.21951095080860836
+hassurname,key,is_relationship_to,agent,21,0.5333333333333333,25,0.5111111111111111,0.0,0.0
+hassurname,key,is_relationship_to,englishman,21,0.5333333333333333,15,0.4777777777777778,0.0,0.0
+hassurname,key,is_relationship_to,william grinstead,21,0.5333333333333333,10,0.0,0.0,0.0
+hassurname,key,key,"grinstead, ""englishman""), is_relationship_to(elizabeth key grinstead, ""william grinstead"").",15,0.0,6,0.4481074481074481,0.0,0.19360324687858615
+hassurname,key,role record,module:,19,0.46060606060606063,20,0.0,0.0,0.0
+hassurname,key,has_participant_role,participant_role_type,40,0.5777777777777778,17,0.0,0.0,0.0
+hassurname,key,has_participant_role,lawsuit participant,40,0.5777777777777778,0,0.0,0.0,0.0
+hassurname,key,key,"grinstead, ""lawsuit participant"").",15,0.0,5,0.4542483660130719,0.0,0.0
+hassurname,key,record,module:,25,0.4222222222222222,20,0.0,0.0,0.0
+hassurname,key,has_sex,sex_type,59,0.8166666666666667,36,0.6388888888888888,0.0,0.0
+hassurname,key,has_sex,female,59,0.8166666666666667,22,0.5,0.0,0.0
+hassurname,key,key,"grinstead, ""female"").",15,0.0,8,0.4603174603174603,0.0,0.0
+hassurname,key,record,module:,25,0.4222222222222222,20,0.0,0.0,0.0
+hassurname,key,has_occupation,occupation,42,0.6190476190476191,0,0.0,0.0,0.0
+hassurname,key,has_occupation,slave,42,0.6190476190476191,25,0.0,0.0,0.0
+hassurname,key,has_occupation,free woman,42,0.6190476190476191,15,0.4777777777777778,0.0,0.0
+hassurname,key,key,"grinstead, ""slave""), has_occupation(elizabeth key grinstead, ""free woman"").",15,0.0,8,0.4488888888888889,0.0,0.23076792961123066
+hassurname,key,record,module:,25,0.4222222222222222,20,0.0,0.0,0.0
+hassurname,key,has_age,age,59,0.8166666666666667,33,0.0,0.0,0.0
+hassurname,key,has_age,not mentioned,59,0.8166666666666667,12,0.47008547008547,0.0,0.0
+hassurname,key,key,"grinstead, ""not mentioned"")",15,0.0,7,0.4567901234567901,0.0,0.0
+hassurname,key,has_birthdate,date_of_birth,52,0.6871794871794871,12,0.47008547008547,0.0,0.0
+hassurname,key,has_birthdate,1630,52,0.6871794871794871,0,0.0,0.0,0.0
+hassurname,key,key,"grinstead, ""1630"")",15,0.0,10,0.46296296296296297,0.0,0.0
+hassurname,key,has_deathdate,date_of_death,43,0.5615384615384615,12,0.47008547008547,0.0,0.0
+hassurname,key,has_deathdate,not mentioned,43,0.5615384615384615,12,0.47008547008547,0.0,0.0
+hassurname,key,key,"grinstead, ""not mentioned"").",15,0.0,6,0.45634920634920634,0.0,0.0
+hassurname,key,record,module:,25,0.4222222222222222,20,0.0,0.0,0.0
+hassurname,key,has_race_or_color,race_or_color,44,0.6509803921568628,12,0.47008547008547,0.0,0.0
+hassurname,key,has_race_or_color,mulatto,44,0.6509803921568628,0,0.0,0.0,0.0
+hassurname,key,key,"grinstead, ""mulatto"").",15,0.0,8,0.4595959595959596,0.0,0.0
+hassurname,key,status record,module:,35,0.5760683760683761,20,0.0,0.0,0.0
+hassurname,key,has_person_status,enslaved person,44,0.6735294117647058,11,0.4666666666666666,0.0,0.0
+hassurname,key,has_person_status,free woman,44,0.6735294117647058,15,0.4777777777777778,0.0,0.0
+hassurname,key,key,"grinstead, ""enslaved person""), has_person_status(elizabeth key grinstead, ""free woman"")",15,0.0,7,0.4482758620689655,0.0,0.21951095080860833
+hassurname,key,has_status_generating_event,event,43,0.6703703703703704,25,0.5111111111111111,0.0,0.0
+hassurname,key,has_status_generating_event,lawsuit for freedom,43,0.6703703703703704,9,0.0,0.0,0.0
+hassurname,key,has_status_generating_event,lawsuit for freedom,43,0.6703703703703704,9,0.0,0.0,0.0
+hassurname,key,for,"freedom""), has_status_generating_event(free woman, ""lawsuit for freedom"")",15,0.4777777777777778,3,0.4490106544901065,0.0,0.0
+hassurname,key,recorded_at,event,19,0.41313131313131307,25,0.5111111111111111,0.0,0.0
+hassurname,key,recorded_at,lawsuit for freedom,19,0.41313131313131307,9,0.0,0.0,0.0
+hassurname,key,recorded_at,lawsuit for freedom,19,0.41313131313131307,9,0.0,0.0,0.0
+hassurname,key,for,"freedom""), recorded_at(free woman, ""lawsuit for freedom"").",15,0.4777777777777778,3,0.4501915708812261,0.0,0.0
+hasname,elizabeth key,record,module:,15,0.0,20,0.3131868131868132,0.0,0.0
+hasname,elizabeth key,has_name,name,93,0.9708333333333333,24,0.3846153846153846,0.0,0.0
+hasname,elizabeth key,has_name,elizabeth key grinstead,93,0.9708333333333333,72,0.9130434782608695,0.0,0.7092972666062739
+hasname,elizabeth key,key,"grinstead, ""elizabeth key grinstead"")",20,0.0,52,0.6299376299376299,0.0,0.4494364165239822
+hasname,elizabeth key,has_surname,surname,78,0.9151515151515152,20,0.47985347985347987,0.0,0.0
+hasname,elizabeth key,has_surname,grinstead,78,0.9151515151515152,27,0.5007122507122507,0.0,0.0
+hasname,elizabeth key,key,"grinstead, ""grinstead"")",20,0.0,22,0.46302489780750644,0.0,0.0
+hasname,elizabeth key,has_first_name,first_name,67,0.5476190476190476,26,0.48589743589743595,0.0,0.0
+hasname,elizabeth key,has_first_name,elizabeth,67,0.5476190476190476,82,0.9384615384615385,0.0,0.5797386715376658
+hasname,elizabeth key,key,"grinstead, ""elizabeth"").",20,0.0,49,0.46718559218559214,0.0,0.33609692727625756
+hasname,elizabeth key,relationship record,module:,23,0.5106516290726817,20,0.3131868131868132,0.0,0.0
+hasname,elizabeth key,has_interagent_relationship_type_to,relationship_type,29,0.6206349206349207,40,0.6119909502262444,0.0,0.0
+hasname,elizabeth key,has_interagent_relationship_type_to,father,29,0.6206349206349207,42,0.4914529914529915,0.0,0.0
+hasname,elizabeth key,has_interagent_relationship_type_to,common-law husband,29,0.6206349206349207,19,0.4266381766381766,0.0,0.0
+hasname,elizabeth key,key,"grinstead, ""father""), has_interagent_relationship_type_to(elizabeth key grinstead, ""common-law husband"")",20,0.0,22,0.4884615384615385,0.0,0.31799766166594773
+hasname,elizabeth key,is_relationship_to,agent,16,0.43121693121693117,33,0.49914529914529915,0.0,0.0
+hasname,elizabeth key,is_relationship_to,englishman,16,0.43121693121693117,35,0.5615384615384615,0.0,0.0
+hasname,elizabeth key,is_relationship_to,william grinstead,16,0.43121693121693117,33,0.4937154348919055,0.0,0.0
+hasname,elizabeth key,key,"grinstead, ""englishman""), is_relationship_to(elizabeth key grinstead, ""william grinstead"").",20,0.0,25,0.48595848595848595,0.0,0.2789425453258252
+hasname,elizabeth key,role record,module:,11,0.41125541125541126,20,0.3131868131868132,0.0,0.0
+hasname,elizabeth key,has_participant_role,participant_role_type,37,0.5904761904761905,29,0.4157509157509158,0.0,0.0
+hasname,elizabeth key,has_participant_role,lawsuit participant,37,0.5904761904761905,25,0.48259109311740894,0.0,0.0
+hasname,elizabeth key,key,"grinstead, ""lawsuit participant"").",20,0.0,21,0.4348919054801408,0.0,0.0
+hasname,elizabeth key,record,module:,15,0.0,20,0.3131868131868132,0.0,0.0
+hasname,elizabeth key,has_sex,sex_type,57,0.8,29,0.42414529914529914,0.0,0.0
+hasname,elizabeth key,has_sex,female,57,0.8,32,0.5747863247863249,0.0,0.0
+hasname,elizabeth key,key,"grinstead, ""female"").",20,0.0,24,0.4810744810744811,0.0,0.0
+hasname,elizabeth key,record,module:,15,0.0,20,0.3131868131868132,0.0,0.0
+hasname,elizabeth key,has_occupation,occupation,38,0.6190476190476191,17,0.3991452991452991,0.0,0.0
+hasname,elizabeth key,has_occupation,slave,38,0.6190476190476191,33,0.49914529914529915,0.0,0.0
+hasname,elizabeth key,has_occupation,free woman,38,0.6190476190476191,26,0.48589743589743595,0.0,0.0
+hasname,elizabeth key,key,"grinstead, ""slave""), has_occupation(elizabeth key grinstead, ""free woman"").",20,0.0,30,0.5962393162393163,0.0,0.3351757433279261
+hasname,elizabeth key,record,module:,15,0.0,20,0.3131868131868132,0.0,0.0
+hasname,elizabeth key,has_age,age,71,0.8666666666666668,25,0.44017094017094016,0.0,0.0
+hasname,elizabeth key,has_age,not mentioned,71,0.8666666666666668,23,0.37606837606837606,0.0,0.0
+hasname,elizabeth key,key,"grinstead, ""not mentioned"")",20,0.0,25,0.4563831230497897,0.0,0.0
+hasname,elizabeth key,has_birthdate,date_of_birth,50,0.553113553113553,31,0.4564102564102564,0.0,0.0
+hasname,elizabeth key,has_birthdate,1630,50,0.553113553113553,0,0.0,0.0,0.0
+hasname,elizabeth key,key,"grinstead, ""1630"")",20,0.0,19,0.42079772079772076,0.0,0.0
+hasname,elizabeth key,has_deathdate,date_of_death,50,0.632967032967033,31,0.5230769230769231,0.0,0.0
+hasname,elizabeth key,has_deathdate,not mentioned,50,0.632967032967033,23,0.37606837606837606,0.0,0.0
+hasname,elizabeth key,key,"grinstead, ""not mentioned"").",20,0.0,24,0.4532967032967033,0.0,0.0
+hasname,elizabeth key,record,module:,15,0.0,20,0.3131868131868132,0.0,0.0
+hasname,elizabeth key,has_race_or_color,race_or_color,42,0.6694677871148459,15,0.2692307692307692,0.0,0.0
+hasname,elizabeth key,has_race_or_color,mulatto,42,0.6694677871148459,30,0.553113553113553,0.0,0.0
+hasname,elizabeth key,key,"grinstead, ""mulatto"").",20,0.0,23,0.4039627039627039,0.0,0.0
+hasname,elizabeth key,status record,module:,30,0.442002442002442,20,0.3131868131868132,0.0,0.0
+hasname,elizabeth key,has_person_status,enslaved person,42,0.6028011204481792,43,0.6205128205128205,0.0,0.0
+hasname,elizabeth key,has_person_status,free woman,42,0.6028011204481792,26,0.48589743589743595,0.0,0.0
+hasname,elizabeth key,key,"grinstead, ""enslaved person""), has_person_status(elizabeth key grinstead, ""free woman"")",20,0.0,26,0.4504371745751056,0.0,0.31799766166594773
+hasname,elizabeth key,has_status_generating_event,event,35,0.6375661375661376,33,0.6102564102564102,0.0,0.0
+hasname,elizabeth key,has_status_generating_event,lawsuit for freedom,35,0.6375661375661376,31,0.5403894351262771,0.0,0.0
+hasname,elizabeth key,has_status_generating_event,lawsuit for freedom,35,0.6375661375661376,31,0.5403894351262771,0.0,0.0
+hasname,elizabeth key,for,"freedom""), has_status_generating_event(free woman, ""lawsuit for freedom"")",0,0.0,14,0.4499912188268353,0.0,0.0
+hasname,elizabeth key,recorded_at,event,11,0.41125541125541126,33,0.6102564102564102,0.0,0.0
+hasname,elizabeth key,recorded_at,lawsuit for freedom,11,0.41125541125541126,31,0.5403894351262771,0.0,0.0
+hasname,elizabeth key,recorded_at,lawsuit for freedom,11,0.41125541125541126,31,0.5403894351262771,0.0,0.0
+hasname,elizabeth key,for,"freedom""), recorded_at(free woman, ""lawsuit for freedom"").",0,0.0,17,0.41055113468906573,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",record,module:,30,0.48412698412698413,6,0.5174151809222899,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_name,name,36,0.5952380952380952,4,0.5063191153238547,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_name,elizabeth key grinstead,36,0.5952380952380952,16,0.5354138958095274,0.0,0.04639517780041314
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",key,"grinstead, ""elizabeth key grinstead"")",12,0.4682539682539682,19,0.5312481805372801,0.0,0.031300897535005465
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_surname,surname,48,0.6168831168831169,6,0.5348679756262694,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_surname,grinstead,48,0.6168831168831169,8,0.5327365279971915,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",key,"grinstead, ""grinstead"")",12,0.4682539682539682,15,0.5047839824163748,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_first_name,first_name,43,0.6726190476190476,8,0.4994031946638582,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_first_name,elizabeth,43,0.6726190476190476,7,0.517267860277339,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",key,"grinstead, ""elizabeth"").",12,0.4682539682539682,16,0.49270668773038445,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",relationship record,module:,30,0.6135338345864662,6,0.5174151809222899,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_interagent_relationship_type_to,relationship_type,37,0.5666666666666667,12,0.4871028980312504,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_interagent_relationship_type_to,father,37,0.5666666666666667,6,0.5650342285413376,0.0,0.10322968076161108
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_interagent_relationship_type_to,common-law husband,37,0.5666666666666667,12,0.5014744602422327,0.0,0.04639517780041315
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",key,"grinstead, ""father""), has_interagent_relationship_type_to(elizabeth key grinstead, ""common-law husband"")",12,0.4682539682539682,32,0.598141370406933,0.0,0.07217347840498156
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",is_relationship_to,agent,44,0.6474266474266474,5,0.5412322274881517,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",is_relationship_to,englishman,44,0.6474266474266474,8,0.5824644549763033,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",is_relationship_to,william grinstead,44,0.6474266474266474,11,0.5265019514914971,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",key,"grinstead, ""englishman""), is_relationship_to(elizabeth key grinstead, ""william grinstead"").",12,0.4682539682539682,30,0.598589266184053,0.0,0.019985601369687828
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",role record,module:,24,0.46645021645021645,6,0.5174151809222899,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_participant_role,participant_role_type,47,0.6876623376623376,13,0.46674471526367256,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_participant_role,lawsuit participant,47,0.6876623376623376,14,0.5143115490147169,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",key,"grinstead, ""lawsuit participant"").",12,0.4682539682539682,20,0.5370238633122802,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",record,module:,30,0.48412698412698413,6,0.5174151809222899,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_sex,sex_type,38,0.6238095238095238,6,0.4817008952080042,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_sex,female,38,0.6238095238095238,6,0.509478672985782,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",key,"grinstead, ""female"").",12,0.4682539682539682,13,0.4808169713382983,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",record,module:,30,0.48412698412698413,6,0.5174151809222899,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_occupation,occupation,64,0.8074074074074075,8,0.4994031946638582,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_occupation,slave,64,0.8074074074074075,5,0.5412322274881517,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_occupation,free woman,64,0.8074074074074075,8,0.5364402317008952,0.0,0.059846237987993746
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",key,"grinstead, ""slave""), has_occupation(elizabeth key grinstead, ""free woman"").",12,0.4682539682539682,27,0.584467423045622,0.0,0.049188195805307054
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",record,module:,30,0.48412698412698413,6,0.5174151809222899,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_age,age,38,0.6190476190476191,3,0.5602948920484465,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_age,not mentioned,38,0.6190476190476191,10,0.5333576376230406,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",key,"grinstead, ""not mentioned"")",12,0.4682539682539682,16,0.5147665437949799,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_birthdate,date_of_birth,37,0.6318681318681318,9,0.5115500613130944,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_birthdate,1630,37,0.6318681318681318,0,0.0,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",key,"grinstead, ""1630"")",12,0.4682539682539682,9,0.40289945266248584,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_deathdate,date_of_death,44,0.63003663003663,10,0.5115500613130944,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_deathdate,not mentioned,44,0.63003663003663,10,0.5333576376230406,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",key,"grinstead, ""not mentioned"").",12,0.4682539682539682,17,0.523780185059806,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",record,module:,30,0.48412698412698413,6,0.5174151809222899,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_race_or_color,race_or_color,39,0.5896358543417367,9,0.4812470310100642,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_race_or_color,mulatto,39,0.5896358543417367,6,0.5348679756262694,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",key,"grinstead, ""mulatto"").",12,0.4682539682539682,14,0.49333318215832556,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",status record,module:,37,0.5366300366300366,6,0.5174151809222899,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_person_status,enslaved person,45,0.6675070028011204,12,0.6189423004588881,0.0,0.059846237987993746
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_person_status,free woman,45,0.6675070028011204,8,0.5364402317008952,0.0,0.059846237987993746
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",key,"grinstead, ""enslaved person""), has_person_status(elizabeth key grinstead, ""free woman"")",12,0.4682539682539682,31,0.5998474218449102,0.0,0.07217347840498156
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_status_generating_event,event,39,0.5476190476190476,5,0.6078988941548183,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_status_generating_event,lawsuit for freedom,39,0.5476190476190476,15,0.5479291963452603,0.0,0.04639517780041314
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",has_status_generating_event,lawsuit for freedom,39,0.5476190476190476,15,0.5479291963452603,0.0,0.04639517780041314
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",for,"freedom""), has_status_generating_event(free woman, ""lawsuit for freedom"")",12,0.4682539682539682,29,0.5606976712009476,0.0,0.08667170679094018
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",recorded_at,event,32,0.47056277056277057,5,0.6078988941548183,0.0,0.0
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",recorded_at,lawsuit for freedom,32,0.47056277056277057,15,0.5479291963452603,0.0,0.04639517780041314
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",recorded_at,lawsuit for freedom,32,0.47056277056277057,15,0.5479291963452603,0.0,0.04639517780041314
+hasdescription,"enslaved. six years after key gained her freedom in a court case (by saying she had the legal status of her free father), virginia passed a law stating that a child's status was determined by that of the mother.",for,"freedom""), recorded_at(free woman, ""lawsuit for freedom"").",12,0.4682539682539682,28,0.5216695121230349,0.0,0.08667170679094018

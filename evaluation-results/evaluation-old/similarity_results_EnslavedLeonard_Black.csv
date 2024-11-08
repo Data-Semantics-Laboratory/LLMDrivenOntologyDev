@@ -1,0 +1,276 @@
+TSV Subject,TSV Predicate,TSV Value,TXT Predicate,TXT Value,Predicate FuzzyWuzzy Ratio,Predicate FuzzyWuzzy Token Set Ratio,Predicate Jaro-Winkler Similarity,Predicate Cosine Similarity,Value FuzzyWuzzy Ratio,Value FuzzyWuzzy Token Set Ratio,Value Jaro-Winkler Similarity,Value Cosine Similarity
+Leonard Black,instance of,Person,Name Record Module,,28,34,0.5107744107744108,0.0,0,0,0.0,0.0
+Leonard Black,instance of,Person,1. hasNameVariant,"hasNameVariant(Mary Black, ""Mary Black"")",21,22,0.4496434937611408,0.0,13,19,0.5055555555555555,0.0
+Leonard Black,instance of,Person,2. hasPreferredNameVariant,"hasPreferredNameVariant(Mary Black, ""Mary Black"")",16,17,0.4822843822843823,0.0,15,20,0.5784580498866213,0.0
+Leonard Black,instance of,Person,3. fullNameAsString,"string): fullNameAsString(Mary Black, ""Mary Black"")",20,28,0.35805422647527907,0.0,11,20,0.49836601307189543,0.0
+Leonard Black,instance of,Person,4. hasSurnameAsString,"string): hasSurnameAsString(Mary Black, ""Black"")",25,26,0.43088023088023086,0.0,11,19,0.5,0.0
+Leonard Black,instance of,Person,5. hasFirstnameAsString,"string): hasFirstnameAsString(Mary Black, ""Mary"")",29,30,0.5040466779597215,0.0,11,18,0.4994331065759637,0.0
+Leonard Black,instance of,Person,Origin Record Module,,32,26,0.5595959595959595,0.0,0,0,0.0,0.0
+Leonard Black,instance of,Person,1. refersToPlaceOfOrigin,"refersToPlaceOfOrigin(Mary Black, ""Dublin, Ireland"")",29,41,0.4998196248196248,0.0,17,19,0.594017094017094,0.0
+Leonard Black,instance of,Person,Race Record Module,,34,34,0.5774410774410774,0.0,0,0,0.0,0.0
+Leonard Black,instance of,Person,1. has_Race,"has_Race(Mary Black, ""Irish"")",36,38,0.49242424242424243,0.0,17,19,0.4233716475095785,0.0
+Leonard Black,instance of,Person,Age Record Module,,21,29,0.4496434937611408,0.0,0,0,0.0,0.0
+Leonard Black,instance of,Person,1. hasBirthDate,"hasBirthDate(Mary Black, ""May 23, 1955"")",31,32,0.3767676767676768,0.0,9,10,0.4138888888888889,0.0
+Leonard Black,instance of,Person,Sex Record Module,,21,21,0.4496434937611408,0.0,0,0,0.0,0.0
+Leonard Black,instance of,Person,1. hasSex,"hasSex(Mary Black, ""Female"")",20,21,0.42424242424242414,0.0,12,13,0.4246031746031746,0.0
+Leonard Black,instance of,Person,Person Status Record Module,,32,21,0.5495230078563412,0.0,0,0,0.0,0.0
+Leonard Black,instance of,Person,1. hasValue,"hasValue(Mary Black, ""Renowned Irish Folk Singer"")",27,29,0.404040404040404,0.0,18,19,0.5111111111111111,0.0
+Leonard Black,instance of,Person,Occupation Record Module,,29,23,0.5618686868686869,0.0,0,0,0.0,0.0
+Leonard Black,instance of,Person,1. hasValue,"hasValue(Mary Black, ""Singer"")",27,29,0.404040404040404,0.0,17,25,0.4222222222222222,0.0
+Leonard Black,instance of,Person,InterAgent Relationship Record Module,,29,33,0.5389935389935391,0.0,0,0,0.0,0.0
+Leonard Black,instance of,Person,1. hasInterAgentRelationshipType,"hasInterAgentRelationshipType(Mary Black, ""Husband"")",23,33,0.5340909090909091,0.0,14,15,0.5098290598290598,0.0
+Leonard Black,instance of,Person,2. isRelationshipTo,"isRelationshipTo(Mary Black, ""Joe O'Reilly"")",33,34,0.5494417862838915,0.0,12,17,0.5156565656565656,0.0
+Leonard Black,instance of,Person,3. isRelationshipFrom,"isRelationshipFrom(Joe O'Reilly, ""Mary Black"")",31,32,0.536075036075036,0.0,12,17,0.5140096618357488,0.0
+Leonard Black,instance of,Person,Participant Role Record Module,,29,29,0.49797979797979797,0.0,0,0,0.0,0.0
+Leonard Black,instance of,Person,1. hasParticipantRoleType,"hasParticipantRoleType(Mary Black, ""Singer"")",28,29,0.5574242424242425,0.0,16,22,0.6010101010101009,0.0
+Leonard Black,instance of,Person,2. roleProvidedBy,"roleProvidedBy(Mary Black, ""Various Music Compilations and Soundtracks"")",14,15,0.3719548425430778,0.0,15,16,0.5009259259259259,0.0
+Leonard Black,hasSex,Male,Name Record Module,,17,17,0.48148148148148145,0.0,0,0,0.0,0.0
+Leonard Black,hasSex,Male,1. hasNameVariant,"hasNameVariant(Mary Black, ""Mary Black"")",35,36,0.6339869281045751,0.0,14,14,0.5333333333333333,0.0
+Leonard Black,hasSex,Male,2. hasPreferredNameVariant,"hasPreferredNameVariant(Mary Black, ""Mary Black"")",25,26,0.6068376068376068,0.0,11,11,0.5136054421768708,0.0
+Leonard Black,hasSex,Male,3. fullNameAsString,"string): fullNameAsString(Mary Black, ""Mary Black"")",24,25,0.4795321637426901,0.0,11,16,0.49183006535947715,0.0
+Leonard Black,hasSex,Male,4. hasSurnameAsString,"string): hasSurnameAsString(Mary Black, ""Black"")",37,38,0.6904761904761904,0.0,12,10,0.5138888888888888,0.0
+Leonard Black,hasSex,Male,5. hasFirstnameAsString,"string): hasFirstnameAsString(Mary Black, ""Mary"")",28,36,0.6135265700483091,0.0,11,10,0.5136054421768708,0.0
+Leonard Black,hasSex,Male,Origin Record Module,,8,8,0.4055555555555556,0.0,0,0,0.0,0.0
+Leonard Black,hasSex,Male,1. refersToPlaceOfOrigin,"refersToPlaceOfOrigin(Mary Black, ""Dublin, Ireland"")",13,14,0.3055555555555555,0.0,14,16,0.5256410256410257,0.0
+Leonard Black,hasSex,Male,Race Record Module,,17,17,0.48148148148148145,0.0,0,0,0.0,0.0
+Leonard Black,hasSex,Male,1. has_Race,"has_Race(Mary Black, ""Irish"")",47,50,0.5909090909090909,0.0,18,14,0.5459770114942529,0.0
+Leonard Black,hasSex,Male,Age Record Module,,9,17,0.40849673202614384,0.0,0,0,0.0,0.0
+Leonard Black,hasSex,Male,1. hasBirthDate,"hasBirthDate(Mary Black, ""May 23, 1955"")",38,40,0.5666666666666667,0.0,14,10,0.5333333333333333,0.0
+Leonard Black,hasSex,Male,Sex Record Module,,26,26,0.5588235294117647,0.0,0,0,0.0,0.0
+Leonard Black,hasSex,Male,1. hasSex,"hasSex(Mary Black, ""Female"")",80,100,0.8888888888888888,1.0,25,29,0.5476190476190476,0.0
+Leonard Black,hasSex,Male,Person Status Record Module,,18,12,0.5216049382716049,0.0,0,0,0.0,0.0
+Leonard Black,hasSex,Male,1. hasValue,"hasValue(Mary Black, ""Renowned Irish Folk Singer"")",47,50,0.5909090909090909,0.0,15,12,0.5266666666666667,0.0
+Leonard Black,hasSex,Male,Occupation Record Module,,13,13,0.47222222222222215,0.0,0,0,0.0,0.0
+Leonard Black,hasSex,Male,1. hasValue,"hasValue(Mary Black, ""Singer"")",47,50,0.5909090909090909,0.0,24,20,0.5444444444444444,0.0
+Leonard Black,hasSex,Male,InterAgent Relationship Record Module,,14,9,0.41591591591591587,0.0,0,0,0.0,0.0
+Leonard Black,hasSex,Male,1. hasInterAgentRelationshipType,"hasInterAgentRelationshipType(Mary Black, ""Husband"")",21,27,0.5972222222222222,0.0,11,12,0.4914529914529915,0.0
+Leonard Black,hasSex,Male,2. isRelationshipTo,"isRelationshipTo(Mary Black, ""Joe O'Reilly"")",16,17,0.44152046783625726,0.0,17,14,0.5303030303030303,0.0
+Leonard Black,hasSex,Male,3. isRelationshipFrom,"isRelationshipFrom(Joe O'Reilly, ""Mary Black"")",15,15,0.43650793650793646,0.0,12,13,0.4939613526570048,0.0
+Leonard Black,hasSex,Male,Participant Role Record Module,,11,11,0.4666666666666666,0.0,0,0,0.0,0.0
+Leonard Black,hasSex,Male,1. hasParticipantRoleType,"hasParticipantRoleType(Mary Black, ""Singer"")",26,27,0.54,0.0,17,14,0.6060606060606061,0.0
+Leonard Black,hasSex,Male,2. roleProvidedBy,"roleProvidedBy(Mary Black, ""Various Music Compilations and Soundtracks"")",9,9,0.40849673202614384,0.0,8,11,0.5185185185185185,0.0
+Leonard Black,hasParticipantRole,Child,Name Record Module,,28,22,0.5,0.0,0,0,0.0,0.0
+Leonard Black,hasParticipantRole,Child,1. hasNameVariant,"hasNameVariant(Mary Black, ""Mary Black"")",51,53,0.6145969498910675,0.0,13,20,0.5583333333333332,0.0
+Leonard Black,hasParticipantRole,Child,2. hasPreferredNameVariant,"hasPreferredNameVariant(Mary Black, ""Mary Black"")",45,47,0.58005698005698,0.0,11,15,0.44263038548752826,0.0
+Leonard Black,hasParticipantRole,Child,3. fullNameAsString,"string): fullNameAsString(Mary Black, ""Mary Black"")",27,28,0.3803118908382066,0.0,7,10,0.4797385620915033,0.0
+Leonard Black,hasParticipantRole,Child,4. hasSurnameAsString,"string): hasSurnameAsString(Mary Black, ""Black"")",36,37,0.5687830687830688,0.0,11,15,0.3138888888888889,0.0
+Leonard Black,hasParticipantRole,Child,5. hasFirstnameAsString,"string): hasFirstnameAsString(Mary Black, ""Mary"")",34,40,0.5967793880837359,0.0,11,14,0.31360544217687075,0.0
+Leonard Black,hasParticipantRole,Child,Origin Record Module,,42,32,0.5388888888888889,0.0,0,0,0.0,0.0
+Leonard Black,hasParticipantRole,Child,1. refersToPlaceOfOrigin,"refersToPlaceOfOrigin(Mary Black, ""Dublin, Ireland"")",33,34,0.49074074074074076,0.0,11,15,0.3128205128205128,0.0
+Leonard Black,hasParticipantRole,Child,Race Record Module,,33,22,0.5,0.0,0,0,0.0,0.0
+Leonard Black,hasParticipantRole,Child,1. has_Race,"has_Race(Mary Black, ""Irish"")",41,43,0.6274651274651274,0.0,12,20,0.48965517241379314,0.0
+Leonard Black,hasParticipantRole,Child,Age Record Module,,23,23,0.4572984749455338,0.0,0,0,0.0,0.0
+Leonard Black,hasParticipantRole,Child,1. hasBirthDate,"hasBirthDate(Mary Black, ""May 23, 1955"")",48,50,0.662962962962963,0.0,13,20,0.5583333333333332,0.0
+Leonard Black,hasParticipantRole,Child,Sex Record Module,,23,23,0.4572984749455338,0.0,0,0,0.0,0.0
+Leonard Black,hasParticipantRole,Child,1. hasSex,"hasSex(Mary Black, ""Female"")",30,31,0.5,0.0,12,14,0.4904761904761905,0.0
+Leonard Black,hasParticipantRole,Child,Person Status Record Module,,40,22,0.5648148148148149,0.0,0,0,0.0,0.0
+Leonard Black,hasParticipantRole,Child,1. hasValue,"hasValue(Mary Black, ""Renowned Irish Folk Singer"")",41,43,0.6262626262626262,0.0,11,16,0.48,0.0
+Leonard Black,hasParticipantRole,Child,Occupation Record Module,,38,33,0.5686026936026937,0.0,0,0,0.0,0.0
+Leonard Black,hasParticipantRole,Child,1. hasValue,"hasValue(Mary Black, ""Singer"")",41,43,0.6262626262626262,0.0,11,19,0.48888888888888893,0.0
+Leonard Black,hasParticipantRole,Child,InterAgent Relationship Record Module,,33,25,0.5373450373450374,0.0,0,0,0.0,0.0
+Leonard Black,hasParticipantRole,Child,1. hasInterAgentRelationshipType,"hasInterAgentRelationshipType(Mary Black, ""Husband"")",36,45,0.5812856125356126,0.0,14,19,0.44145299145299144,0.0
+Leonard Black,hasParticipantRole,Child,2. isRelationshipTo,"isRelationshipTo(Mary Black, ""Joe O'Reilly"")",38,44,0.5384990253411306,0.0,12,18,0.444949494949495,0.0
+Leonard Black,hasParticipantRole,Child,3. isRelationshipFrom,"isRelationshipFrom(Joe O'Reilly, ""Mary Black"")",36,42,0.5439153439153439,0.0,12,17,0.44396135265700476,0.0
+Leonard Black,hasParticipantRole,Child,Participant Role Record Module,,62,62,0.688888888888889,0.0,0,0,0.0,0.0
+Leonard Black,hasParticipantRole,Child,1. hasParticipantRoleType,"hasParticipantRoleType(Mary Black, ""Singer"")",84,86,0.9066666666666666,0.0,12,18,0.556060606060606,0.0
+Leonard Black,hasParticipantRole,Child,2. roleProvidedBy,"roleProvidedBy(Mary Black, ""Various Music Compilations and Soundtracks"")",23,29,0.39063180827886707,0.0,10,11,0.43611111111111106,0.0
+Leonard Black,hasParticipantRole,Deceased Person,Name Record Module,,28,22,0.5,0.0,0,0,0.0,0.0
+Leonard Black,hasParticipantRole,Deceased Person,1. hasNameVariant,"hasNameVariant(Mary Black, ""Mary Black"")",51,53,0.6145969498910675,0.0,18,30,0.35000000000000003,0.0
+Leonard Black,hasParticipantRole,Deceased Person,2. hasPreferredNameVariant,"hasPreferredNameVariant(Mary Black, ""Mary Black"")",45,47,0.58005698005698,0.0,22,33,0.5313955885384457,0.0
+Leonard Black,hasParticipantRole,Deceased Person,3. fullNameAsString,"string): fullNameAsString(Mary Black, ""Mary Black"")",27,28,0.3803118908382066,0.0,15,33,0.39178338001867413,0.0
+Leonard Black,hasParticipantRole,Deceased Person,4. hasSurnameAsString,"string): hasSurnameAsString(Mary Black, ""Black"")",36,37,0.5687830687830688,0.0,16,31,0.44226190476190474,0.0
+Leonard Black,hasParticipantRole,Deceased Person,5. hasFirstnameAsString,"string): hasFirstnameAsString(Mary Black, ""Mary"")",34,40,0.5967793880837359,0.0,16,30,0.4412698412698413,0.0
+Leonard Black,hasParticipantRole,Deceased Person,Origin Record Module,,42,32,0.5388888888888889,0.0,0,0,0.0,0.0
+Leonard Black,hasParticipantRole,Deceased Person,1. refersToPlaceOfOrigin,"refersToPlaceOfOrigin(Mary Black, ""Dublin, Ireland"")",33,34,0.49074074074074076,0.0,21,32,0.49677544677544677,0.0
+Leonard Black,hasParticipantRole,Deceased Person,Race Record Module,,33,22,0.5,0.0,0,0,0.0,0.0
+Leonard Black,hasParticipantRole,Deceased Person,1. has_Race,"has_Race(Mary Black, ""Irish"")",41,43,0.6274651274651274,0.0,27,35,0.4264915161466886,0.0
+Leonard Black,hasParticipantRole,Deceased Person,Age Record Module,,23,23,0.4572984749455338,0.0,0,0,0.0,0.0
+Leonard Black,hasParticipantRole,Deceased Person,1. hasBirthDate,"hasBirthDate(Mary Black, ""May 23, 1955"")",48,50,0.662962962962963,0.0,18,24,0.4043650793650793,0.0
+Leonard Black,hasParticipantRole,Deceased Person,Sex Record Module,,23,23,0.4572984749455338,0.0,0,0,0.0,0.0
+Leonard Black,hasParticipantRole,Deceased Person,1. hasSex,"hasSex(Mary Black, ""Female"")",30,31,0.5,0.0,23,36,0.42936507936507934,0.0
+Leonard Black,hasParticipantRole,Deceased Person,Person Status Record Module,,40,22,0.5648148148148149,0.0,0,0,0.0,0.0
+Leonard Black,hasParticipantRole,Deceased Person,1. hasValue,"hasValue(Mary Black, ""Renowned Irish Folk Singer"")",41,43,0.6262626262626262,0.0,31,30,0.5411111111111112,0.0
+Leonard Black,hasParticipantRole,Deceased Person,Occupation Record Module,,38,33,0.5686026936026937,0.0,0,0,0.0,0.0
+Leonard Black,hasParticipantRole,Deceased Person,1. hasValue,"hasValue(Mary Black, ""Singer"")",41,43,0.6262626262626262,0.0,27,39,0.4222222222222222,0.0
+Leonard Black,hasParticipantRole,Deceased Person,InterAgent Relationship Record Module,,33,25,0.5373450373450374,0.0,0,0,0.0,0.0
+Leonard Black,hasParticipantRole,Deceased Person,1. hasInterAgentRelationshipType,"hasInterAgentRelationshipType(Mary Black, ""Husband"")",36,45,0.5812856125356126,0.0,24,25,0.4863247863247863,0.0
+Leonard Black,hasParticipantRole,Deceased Person,2. isRelationshipTo,"isRelationshipTo(Mary Black, ""Joe O'Reilly"")",38,44,0.5384990253411306,0.0,20,29,0.4467171717171717,0.0
+Leonard Black,hasParticipantRole,Deceased Person,3. isRelationshipFrom,"isRelationshipFrom(Joe O'Reilly, ""Mary Black"")",36,42,0.5439153439153439,0.0,23,28,0.5280193236714975,0.0
+Leonard Black,hasParticipantRole,Deceased Person,Participant Role Record Module,,62,62,0.688888888888889,0.0,0,0,0.0,0.0
+Leonard Black,hasParticipantRole,Deceased Person,1. hasParticipantRoleType,"hasParticipantRoleType(Mary Black, ""Singer"")",84,86,0.9066666666666666,0.0,20,33,0.4646464646464647,0.0
+Leonard Black,hasParticipantRole,Deceased Person,2. roleProvidedBy,"roleProvidedBy(Mary Black, ""Various Music Compilations and Soundtracks"")",23,29,0.39063180827886707,0.0,18,24,0.5074915824915824,0.0
+Leonard Black,hasDescriptiveOccupation,Slave,Name Record Module,,24,29,0.46494708994708994,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Slave,1. hasNameVariant,"hasNameVariant(Mary Black, ""Mary Black"")",39,40,0.5607298474945533,0.0,9,20,0.48333333333333334,0.0
+Leonard Black,hasDescriptiveOccupation,Slave,2. hasPreferredNameVariant,"hasPreferredNameVariant(Mary Black, ""Mary Black"")",36,37,0.5004273504273504,0.0,7,15,0.4802721088435374,0.0
+Leonard Black,hasDescriptiveOccupation,Slave,3. fullNameAsString,"string): fullNameAsString(Mary Black, ""Mary Black"")",28,29,0.45812447786132,0.0,11,15,0.4594771241830065,0.0
+Leonard Black,hasDescriptiveOccupation,Slave,4. hasSurnameAsString,"string): hasSurnameAsString(Mary Black, ""Black"")",36,45,0.5698051948051949,0.0,11,15,0.44305555555555554,0.0
+Leonard Black,hasDescriptiveOccupation,Slave,5. hasFirstnameAsString,"string): hasFirstnameAsString(Mary Black, ""Mary"")",38,43,0.5628019323671497,0.0,11,14,0.44263038548752826,0.0
+Leonard Black,hasDescriptiveOccupation,Slave,Origin Record Module,,27,36,0.4527777777777778,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Slave,1. refersToPlaceOfOrigin,"refersToPlaceOfOrigin(Mary Black, ""Dublin, Ireland"")",29,34,0.5111111111111111,0.0,11,15,0.44145299145299144,0.0
+Leonard Black,hasDescriptiveOccupation,Slave,Race Record Module,,24,33,0.46759259259259256,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Slave,1. has_Race,"has_Race(Mary Black, ""Irish"")",29,29,0.5429292929292929,0.0,12,20,0.48965517241379314,0.0
+Leonard Black,hasDescriptiveOccupation,Slave,Age Record Module,,20,34,0.42320261437908496,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Slave,1. hasBirthDate,"hasBirthDate(Mary Black, ""May 23, 1955"")",36,37,0.5944444444444444,0.0,9,15,0.4472222222222222,0.0
+Leonard Black,hasDescriptiveOccupation,Slave,Sex Record Module,,20,29,0.42320261437908496,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Slave,1. hasSex,"hasSex(Mary Black, ""Female"")",24,31,0.5370370370370371,0.0,24,21,0.48095238095238096,0.0
+Leonard Black,hasDescriptiveOccupation,Slave,Person Status Record Module,,24,31,0.470398428731762,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Slave,1. hasValue,"hasValue(Mary Black, ""Renowned Irish Folk Singer"")",23,29,0.48762626262626263,0.0,11,16,0.44222222222222224,0.0
+Leonard Black,hasDescriptiveOccupation,Slave,Occupation Record Module,,42,50,0.5176767676767676,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Slave,1. hasValue,"hasValue(Mary Black, ""Singer"")",23,29,0.48762626262626263,0.0,17,26,0.45555555555555555,0.0
+Leonard Black,hasDescriptiveOccupation,Slave,InterAgent Relationship Record Module,,30,36,0.5110467610467611,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Slave,1. hasInterAgentRelationshipType,"hasInterAgentRelationshipType(Mary Black, ""Husband"")",43,44,0.5545634920634921,0.0,11,15,0.44145299145299144,0.0
+Leonard Black,hasDescriptiveOccupation,Slave,2. isRelationshipTo,"isRelationshipTo(Mary Black, ""Joe O'Reilly"")",33,38,0.5578814460393408,0.0,12,18,0.444949494949495,0.0
+Leonard Black,hasDescriptiveOccupation,Slave,3. isRelationshipFrom,"isRelationshipFrom(Joe O'Reilly, ""Mary Black"")",31,36,0.5793650793650794,0.0,12,17,0.44396135265700476,0.0
+Leonard Black,hasDescriptiveOccupation,Slave,Participant Role Record Module,,33,37,0.5527777777777777,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Slave,1. hasParticipantRoleType,"hasParticipantRoleType(Mary Black, ""Singer"")",45,46,0.6305555555555555,0.0,12,18,0.444949494949495,0.0
+Leonard Black,hasDescriptiveOccupation,Slave,2. roleProvidedBy,"roleProvidedBy(Mary Black, ""Various Music Compilations and Soundtracks"")",20,20,0.367483660130719,0.0,8,11,0.5351851851851852,0.0
+Leonard Black,hasDescriptiveOccupation,Slave Narrative Author,Name Record Module,,24,29,0.46494708994708994,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Slave Narrative Author,1. hasNameVariant,"hasNameVariant(Mary Black, ""Mary Black"")",39,40,0.5607298474945533,0.0,26,38,0.5360722610722611,0.0
+Leonard Black,hasDescriptiveOccupation,Slave Narrative Author,2. hasPreferredNameVariant,"hasPreferredNameVariant(Mary Black, ""Mary Black"")",36,37,0.5004273504273504,0.0,25,36,0.4978354978354978,0.0
+Leonard Black,hasDescriptiveOccupation,Slave Narrative Author,3. fullNameAsString,"string): fullNameAsString(Mary Black, ""Mary Black"")",28,29,0.45812447786132,0.0,22,32,0.5451574569221628,0.0
+Leonard Black,hasDescriptiveOccupation,Slave Narrative Author,4. hasSurnameAsString,"string): hasSurnameAsString(Mary Black, ""Black"")",36,45,0.5698051948051949,0.0,23,34,0.5410353535353535,0.0
+Leonard Black,hasDescriptiveOccupation,Slave Narrative Author,5. hasFirstnameAsString,"string): hasFirstnameAsString(Mary Black, ""Mary"")",38,43,0.5628019323671497,0.0,23,33,0.5293135435992579,0.0
+Leonard Black,hasDescriptiveOccupation,Slave Narrative Author,Origin Record Module,,27,36,0.4527777777777778,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Slave Narrative Author,1. refersToPlaceOfOrigin,"refersToPlaceOfOrigin(Mary Black, ""Dublin, Ireland"")",29,34,0.5111111111111111,0.0,24,35,0.5161505161505162,0.0
+Leonard Black,hasDescriptiveOccupation,Slave Narrative Author,Race Record Module,,24,33,0.46759259259259256,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Slave Narrative Author,1. has_Race,"has_Race(Mary Black, ""Irish"")",29,29,0.5429292929292929,0.0,27,38,0.49979101358411704,0.0
+Leonard Black,hasDescriptiveOccupation,Slave Narrative Author,Age Record Module,,20,34,0.42320261437908496,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Slave Narrative Author,1. hasBirthDate,"hasBirthDate(Mary Black, ""May 23, 1955"")",36,37,0.5944444444444444,0.0,19,32,0.5104312354312355,0.0
+Leonard Black,hasDescriptiveOccupation,Slave Narrative Author,Sex Record Module,,20,29,0.42320261437908496,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Slave Narrative Author,1. hasSex,"hasSex(Mary Black, ""Female"")",24,31,0.5370370370370371,0.0,24,30,0.47056277056277057,0.0
+Leonard Black,hasDescriptiveOccupation,Slave Narrative Author,Person Status Record Module,,24,31,0.470398428731762,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Slave Narrative Author,1. hasValue,"hasValue(Mary Black, ""Renowned Irish Folk Singer"")",23,29,0.48762626262626263,0.0,28,32,0.4959307359307359,0.0
+Leonard Black,hasDescriptiveOccupation,Slave Narrative Author,Occupation Record Module,,42,50,0.5176767676767676,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Slave Narrative Author,1. hasValue,"hasValue(Mary Black, ""Singer"")",23,29,0.48762626262626263,0.0,31,33,0.5095959595959596,0.0
+Leonard Black,hasDescriptiveOccupation,Slave Narrative Author,InterAgent Relationship Record Module,,30,36,0.5110467610467611,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Slave Narrative Author,1. hasInterAgentRelationshipType,"hasInterAgentRelationshipType(Mary Black, ""Husband"")",43,44,0.5545634920634921,0.0,24,34,0.5234265734265734,0.0
+Leonard Black,hasDescriptiveOccupation,Slave Narrative Author,2. isRelationshipTo,"isRelationshipTo(Mary Black, ""Joe O'Reilly"")",33,38,0.5578814460393408,0.0,21,32,0.474941724941725,0.0
+Leonard Black,hasDescriptiveOccupation,Slave Narrative Author,3. isRelationshipFrom,"isRelationshipFrom(Joe O'Reilly, ""Mary Black"")",31,36,0.5793650793650794,0.0,21,31,0.4632191480017567,0.0
+Leonard Black,hasDescriptiveOccupation,Slave Narrative Author,Participant Role Record Module,,33,37,0.5527777777777777,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Slave Narrative Author,1. hasParticipantRoleType,"hasParticipantRoleType(Mary Black, ""Singer"")",45,46,0.6305555555555555,0.0,24,32,0.5631313131313131,0.0
+Leonard Black,hasDescriptiveOccupation,Slave Narrative Author,2. roleProvidedBy,"roleProvidedBy(Mary Black, ""Various Music Compilations and Soundtracks"")",20,20,0.367483660130719,0.0,28,29,0.5039983164983165,0.0
+Leonard Black,hasDescriptiveOccupation,Baptist Clergy,Name Record Module,,24,29,0.46494708994708994,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Baptist Clergy,1. hasNameVariant,"hasNameVariant(Mary Black, ""Mary Black"")",39,40,0.5607298474945533,0.0,26,36,0.4744708994708995,0.0
+Leonard Black,hasDescriptiveOccupation,Baptist Clergy,2. hasPreferredNameVariant,"hasPreferredNameVariant(Mary Black, ""Mary Black"")",36,37,0.5004273504273504,0.0,22,33,0.4606953892668179,0.0
+Leonard Black,hasDescriptiveOccupation,Baptist Clergy,3. fullNameAsString,"string): fullNameAsString(Mary Black, ""Mary Black"")",28,29,0.45812447786132,0.0,25,33,0.5762244291656057,0.0
+Leonard Black,hasDescriptiveOccupation,Baptist Clergy,4. hasSurnameAsString,"string): hasSurnameAsString(Mary Black, ""Black"")",36,45,0.5698051948051949,0.0,23,32,0.5408730158730158,0.0
+Leonard Black,hasDescriptiveOccupation,Baptist Clergy,5. hasFirstnameAsString,"string): hasFirstnameAsString(Mary Black, ""Mary"")",38,43,0.5628019323671497,0.0,25,35,0.5394557823129252,0.0
+Leonard Black,hasDescriptiveOccupation,Baptist Clergy,Origin Record Module,,27,36,0.4527777777777778,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Baptist Clergy,1. refersToPlaceOfOrigin,"refersToPlaceOfOrigin(Mary Black, ""Dublin, Ireland"")",29,34,0.5111111111111111,0.0,18,30,0.4571632071632072,0.0
+Leonard Black,hasDescriptiveOccupation,Baptist Clergy,Race Record Module,,24,33,0.46759259259259256,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Baptist Clergy,1. has_Race,"has_Race(Mary Black, ""Irish"")",29,29,0.5429292929292929,0.0,23,36,0.48522167487684725,0.0
+Leonard Black,hasDescriptiveOccupation,Baptist Clergy,Age Record Module,,20,34,0.42320261437908496,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Baptist Clergy,1. hasBirthDate,"hasBirthDate(Mary Black, ""May 23, 1955"")",36,37,0.5944444444444444,0.0,22,29,0.5656926406926407,0.0
+Leonard Black,hasDescriptiveOccupation,Baptist Clergy,Sex Record Module,,20,29,0.42320261437908496,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Baptist Clergy,1. hasSex,"hasSex(Mary Black, ""Female"")",24,31,0.5370370370370371,0.0,24,37,0.4523809523809524,0.0
+Leonard Black,hasDescriptiveOccupation,Baptist Clergy,Person Status Record Module,,24,31,0.470398428731762,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Baptist Clergy,1. hasValue,"hasValue(Mary Black, ""Renowned Irish Folk Singer"")",23,29,0.48762626262626263,0.0,25,23,0.41047619047619044,0.0
+Leonard Black,hasDescriptiveOccupation,Baptist Clergy,Occupation Record Module,,42,50,0.5176767676767676,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Baptist Clergy,1. hasValue,"hasValue(Mary Black, ""Singer"")",23,29,0.48762626262626263,0.0,27,35,0.49947089947089945,0.0
+Leonard Black,hasDescriptiveOccupation,Baptist Clergy,InterAgent Relationship Record Module,,30,36,0.5110467610467611,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Baptist Clergy,1. hasInterAgentRelationshipType,"hasInterAgentRelationshipType(Mary Black, ""Husband"")",43,44,0.5545634920634921,0.0,21,29,0.5445387945387945,0.0
+Leonard Black,hasDescriptiveOccupation,Baptist Clergy,2. isRelationshipTo,"isRelationshipTo(Mary Black, ""Joe O'Reilly"")",33,38,0.5578814460393408,0.0,28,37,0.4805194805194805,0.0
+Leonard Black,hasDescriptiveOccupation,Baptist Clergy,3. isRelationshipFrom,"isRelationshipFrom(Joe O'Reilly, ""Mary Black"")",31,36,0.5793650793650794,0.0,27,32,0.5105590062111801,0.0
+Leonard Black,hasDescriptiveOccupation,Baptist Clergy,Participant Role Record Module,,33,37,0.5527777777777777,0.0,0,0,0.0,0.0
+Leonard Black,hasDescriptiveOccupation,Baptist Clergy,1. hasParticipantRoleType,"hasParticipantRoleType(Mary Black, ""Singer"")",45,46,0.6305555555555555,0.0,28,37,0.5573593073593073,0.0
+Leonard Black,hasDescriptiveOccupation,Baptist Clergy,2. roleProvidedBy,"roleProvidedBy(Mary Black, ""Various Music Compilations and Soundtracks"")",20,20,0.367483660130719,0.0,19,29,0.4510582010582011,0.0
+Leonard Black,hasFirstName,Leonard,Name Record Module,,27,27,0.4314814814814814,0.0,0,0,0.0,0.0
+Leonard Black,hasFirstName,Leonard,1. hasNameVariant,"hasNameVariant(Mary Black, ""Mary Black"")",48,50,0.6290849673202614,0.0,17,31,0.3904761904761904,0.0
+Leonard Black,hasFirstName,Leonard,2. hasPreferredNameVariant,"hasPreferredNameVariant(Mary Black, ""Mary Black"")",42,49,0.5747863247863249,0.0,14,24,0.472108843537415,0.0
+Leonard Black,hasFirstName,Leonard,3. fullNameAsString,"string): fullNameAsString(Mary Black, ""Mary Black"")",26,33,0.4385964912280702,0.0,14,24,0.46661998132586363,0.0
+Leonard Black,hasFirstName,Leonard,4. hasSurnameAsString,"string): hasSurnameAsString(Mary Black, ""Black"")",42,50,0.6521164021164022,0.0,15,23,0.4682539682539682,0.0
+Leonard Black,hasFirstName,Leonard,5. hasFirstnameAsString,"string): hasFirstnameAsString(Mary Black, ""Mary"")",63,71,0.7983091787439612,0.0,14,22,0.46768707482993194,0.0
+Leonard Black,hasFirstName,Leonard,Origin Record Module,,19,19,0.35555555555555557,0.0,0,0,0.0,0.0
+Leonard Black,hasFirstName,Leonard,1. refersToPlaceOfOrigin,"refersToPlaceOfOrigin(Mary Black, ""Dublin, Ireland"")",22,34,0.3333333333333333,0.0,20,19,0.4701465201465201,0.0
+Leonard Black,hasFirstName,Leonard,Race Record Module,,20,20,0.3611111111111111,0.0,0,0,0.0,0.0
+Leonard Black,hasFirstName,Leonard,1. has_Race,"has_Race(Mary Black, ""Irish"")",43,55,0.6237373737373737,0.0,17,25,0.3995621237000548,0.0
+Leonard Black,hasFirstName,Leonard,Age Record Module,,14,21,0.26143790849673204,0.0,0,0,0.0,0.0
+Leonard Black,hasFirstName,Leonard,1. hasBirthDate,"hasBirthDate(Mary Black, ""May 23, 1955"")",59,62,0.7333333333333334,0.0,13,19,0.390079365079365,0.0
+Leonard Black,hasFirstName,Leonard,Sex Record Module,,14,21,0.26143790849673204,0.0,0,0,0.0,0.0
+Leonard Black,hasFirstName,Leonard,1. hasSex,"hasSex(Mary Black, ""Female"")",38,50,0.5925925925925926,0.0,17,26,0.40079365079365076,0.0
+Leonard Black,hasFirstName,Leonard,Person Status Record Module,,26,26,0.40740740740740744,0.0,0,0,0.0,0.0
+Leonard Black,hasFirstName,Leonard,1. hasValue,"hasValue(Mary Black, ""Renowned Irish Folk Singer"")",43,45,0.6237373737373737,0.0,14,19,0.5479365079365079,0.0
+Leonard Black,hasFirstName,Leonard,Occupation Record Module,,22,22,0.4083333333333334,0.0,0,0,0.0,0.0
+Leonard Black,hasFirstName,Leonard,1. hasValue,"hasValue(Mary Black, ""Singer"")",43,45,0.6237373737373737,0.0,16,24,0.3984126984126984,0.0
+Leonard Black,hasFirstName,Leonard,InterAgent Relationship Record Module,,20,20,0.3873873873873874,0.0,0,0,0.0,0.0
+Leonard Black,hasFirstName,Leonard,1. hasInterAgentRelationshipType,"hasInterAgentRelationshipType(Mary Black, ""Husband"")",32,37,0.5054563492063492,0.0,20,22,0.4701465201465201,0.0
+Leonard Black,hasFirstName,Leonard,2. isRelationshipTo,"isRelationshipTo(Mary Black, ""Joe O'Reilly"")",19,27,0.49415204678362573,0.0,20,26,0.5426406926406927,0.0
+Leonard Black,hasFirstName,Leonard,3. isRelationshipFrom,"isRelationshipFrom(Joe O'Reilly, ""Mary Black"")",30,31,0.48412698412698413,0.0,19,24,0.5409937888198758,0.0
+Leonard Black,hasFirstName,Leonard,Participant Role Record Module,,24,24,0.5111111111111111,0.0,0,0,0.0,0.0
+Leonard Black,hasFirstName,Leonard,1. hasParticipantRoleType,"hasParticipantRoleType(Mary Black, ""Singer"")",38,39,0.6205555555555555,0.0,12,17,0.47597402597402594,0.0
+Leonard Black,hasFirstName,Leonard,2. roleProvidedBy,"roleProvidedBy(Mary Black, ""Various Music Compilations and Soundtracks"")",14,14,0.3643790849673203,0.0,13,16,0.46124338624338623,0.0
+Leonard Black,hasSurname,Black,Name Record Module,,21,36,0.45740740740740743,0.0,0,0,0.0,0.0
+Leonard Black,hasSurname,Black,1. hasNameVariant,"hasNameVariant(Mary Black, ""Mary Black"")",44,54,0.6086834733893558,0.0,22,100,0.4083333333333334,0.5368927118515179
+Leonard Black,hasSurname,Black,2. hasPreferredNameVariant,"hasPreferredNameVariant(Mary Black, ""Mary Black"")",39,46,0.6087912087912087,0.0,19,100,0.40680272108843535,0.5368927118515179
+Leonard Black,hasSurname,Black,3. fullNameAsString,"string): fullNameAsString(Mary Black, ""Mary Black"")",34,36,0.4535087719298246,0.0,18,100,0.4797385620915033,0.5023287782256718
+Leonard Black,hasSurname,Black,4. hasSurnameAsString,"string): hasSurnameAsString(Mary Black, ""Black"")",65,67,0.8253968253968255,0.0,19,100,0.4069444444444445,0.6348087971775132
+Leonard Black,hasSurname,Black,5. hasFirstnameAsString,"string): hasFirstnameAsString(Mary Black, ""Mary"")",48,50,0.7159420289855073,0.0,19,100,0.40680272108843535,0.2789425453258252
+Leonard Black,hasSurname,Black,Origin Record Module,,20,27,0.48333333333333334,0.0,0,0,0.0,0.0
+Leonard Black,hasSurname,Black,1. refersToPlaceOfOrigin,"refersToPlaceOfOrigin(Mary Black, ""Dublin, Ireland"")",18,18,0.35555555555555557,0.0,18,100,0.5525641025641025,0.33517574332792605
+Leonard Black,hasSurname,Black,Race Record Module,,21,29,0.37777777777777777,0.0,0,0,0.0,0.0
+Leonard Black,hasSurname,Black,1. has_Race,"has_Race(Mary Black, ""Irish"")",48,60,0.6515151515151515,0.0,29,100,0.48965517241379314,0.3799783615910079
+Leonard Black,hasSurname,Black,Age Record Module,,15,30,0.2725490196078431,0.0,0,0,0.0,0.0
+Leonard Black,hasSurname,Black,1. hasBirthDate,"hasBirthDate(Mary Black, ""May 23, 1955"")",48,50,0.6666666666666666,0.0,22,100,0.6416666666666667,0.3032160644503863
+Leonard Black,hasSurname,Black,Sex Record Module,,22,22,0.3810457516339869,0.0,0,0,0.0,0.0
+Leonard Black,hasSurname,Black,1. hasSex,"hasSex(Mary Black, ""Female"")",53,56,0.6851851851851851,0.0,30,100,0.6595238095238095,0.3799783615910079
+Leonard Black,hasSurname,Black,Person Status Record Module,,27,22,0.5102292768959436,0.0,0,0,0.0,0.0
+Leonard Black,hasSurname,Black,1. hasValue,"hasValue(Mary Black, ""Renowned Irish Folk Singer"")",48,50,0.6515151515151515,0.0,18,100,0.6333333333333334,0.2789425453258252
+Leonard Black,hasSurname,Black,Occupation Record Module,,18,18,0.4361111111111111,0.0,0,0,0.0,0.0
+Leonard Black,hasSurname,Black,1. hasValue,"hasValue(Mary Black, ""Singer"")",48,50,0.6515151515151515,0.0,29,100,0.6555555555555556,0.3799783615910079
+Leonard Black,hasSurname,Black,InterAgent Relationship Record Module,,17,17,0.4117117117117117,0.0,0,0,0.0,0.0
+Leonard Black,hasSurname,Black,1. hasInterAgentRelationshipType,"hasInterAgentRelationshipType(Mary Black, ""Husband"")",33,34,0.544345238095238,0.0,18,100,0.3128205128205128,0.3799783615910079
+Leonard Black,hasSurname,Black,2. isRelationshipTo,"isRelationshipTo(Mary Black, ""Joe O'Reilly"")",14,21,0.37017543859649127,0.0,20,100,0.48181818181818187,0.33517574332792605
+Leonard Black,hasSurname,Black,3. isRelationshipFrom,"isRelationshipFrom(Joe O'Reilly, ""Mary Black"")",26,27,0.36349206349206353,0.0,20,100,0.4811594202898551,0.33517574332792605
+Leonard Black,hasSurname,Black,Participant Role Record Module,,20,20,0.48888888888888893,0.0,0,0,0.0,0.0
+Leonard Black,hasSurname,Black,1. hasParticipantRoleType,"hasParticipantRoleType(Mary Black, ""Singer"")",34,35,0.6123809523809524,0.0,20,100,0.444949494949495,0.3799783615910079
+Leonard Black,hasSurname,Black,2. roleProvidedBy,"roleProvidedBy(Mary Black, ""Various Music Compilations and Soundtracks"")",15,15,0.4392156862745098,0.0,13,100,0.6231481481481481,0.25969799324016246
+Leonard Black,hasName,Leonard Black,Name Record Module,,32,32,0.5145502645502645,0.0,0,0,0.0,0.0
+Leonard Black,hasName,Leonard Black,1. hasNameVariant,"hasNameVariant(Mary Black, ""Mary Black"")",58,61,0.8039215686274509,0.0,38,56,0.573076923076923,0.31125746752705374
+Leonard Black,hasName,Leonard Black,2. hasPreferredNameVariant,"hasPreferredNameVariant(Mary Black, ""Mary Black"")",42,44,0.6611721611721612,0.0,32,56,0.5690024261452833,0.31125746752705374
+Leonard Black,hasName,Leonard Black,3. fullNameAsString,"string): fullNameAsString(Mary Black, ""Mary Black"")",31,32,0.5106516290726817,0.0,31,56,0.5551030668677727,0.2912194185636897
+Leonard Black,hasName,Leonard Black,4. hasSurnameAsString,"string): hasSurnameAsString(Mary Black, ""Black"")",43,52,0.7142857142857143,0.0,33,56,0.41773504273504275,0.368023208756115
+Leonard Black,hasName,Leonard Black,5. hasFirstnameAsString,"string): hasFirstnameAsString(Mary Black, ""Mary"")",40,48,0.7060041407867494,0.0,32,56,0.41688470259898835,0.161713780662529
+Leonard Black,hasName,Leonard Black,Origin Record Module,,7,15,0.3976190476190476,0.0,0,0,0.0,0.0
+Leonard Black,hasName,Leonard Black,1. refersToPlaceOfOrigin,"refersToPlaceOfOrigin(Mary Black, ""Dublin, Ireland"")",19,20,0.4067460317460318,0.0,34,56,0.5343822843822844,0.19431434016858148
+Leonard Black,hasName,Leonard Black,Race Record Module,,16,16,0.4656084656084656,0.0,0,0,0.0,0.0
+Leonard Black,hasName,Leonard Black,1. has_Race,"has_Race(Mary Black, ""Irish"")",56,59,0.7229437229437229,0.0,43,56,0.556439728853522,0.22028815056182974
+Leonard Black,hasName,Leonard Black,Age Record Module,,8,25,0.4005602240896358,0.0,0,0,0.0,0.0
+Leonard Black,hasName,Leonard Black,1. hasBirthDate,"hasBirthDate(Mary Black, ""May 23, 1955"")",45,48,0.5428571428571428,0.0,34,56,0.527991452991453,0.1757860783933462
+Leonard Black,hasName,Leonard Black,Sex Record Module,,8,17,0.4005602240896358,0.0,0,0,0.0,0.0
+Leonard Black,hasName,Leonard Black,1. hasSex,"hasSex(Mary Black, ""Female"")",50,53,0.671957671957672,0.0,44,56,0.56013431013431,0.22028815056182974
+Leonard Black,hasName,Leonard Black,Person Status Record Module,,18,18,0.4021164021164021,0.0,0,0,0.0,0.0
+Leonard Black,hasName,Leonard Black,1. hasValue,"hasValue(Mary Black, ""Renowned Irish Folk Singer"")",56,59,0.7229437229437229,0.0,29,56,0.5821367521367522,0.161713780662529
+Leonard Black,hasName,Leonard Black,Occupation Record Module,,13,19,0.45634920634920634,0.0,0,0,0.0,0.0
+Leonard Black,hasName,Leonard Black,1. hasValue,"hasValue(Mary Black, ""Singer"")",56,59,0.7229437229437229,0.0,42,56,0.5529914529914529,0.22028815056182974
+Leonard Black,hasName,Leonard Black,InterAgent Relationship Record Module,,14,18,0.3921063921063921,0.0,0,0,0.0,0.0
+Leonard Black,hasName,Leonard Black,1. hasInterAgentRelationshipType,"hasInterAgentRelationshipType(Mary Black, ""Husband"")",26,32,0.5568452380952381,0.0,34,56,0.41483516483516486,0.22028815056182974
+Leonard Black,hasName,Leonard Black,2. isRelationshipTo,"isRelationshipTo(Mary Black, ""Joe O'Reilly"")",15,16,0.4177109440267335,0.0,39,56,0.5775058275058275,0.19431434016858148
+Leonard Black,hasName,Leonard Black,3. isRelationshipFrom,"isRelationshipFrom(Joe O'Reilly, ""Mary Black"")",21,22,0.41269841269841273,0.0,37,56,0.42068800764452935,0.19431434016858148
+Leonard Black,hasName,Leonard Black,Participant Role Record Module,,16,16,0.5095238095238095,0.0,0,0,0.0,0.0
+Leonard Black,hasName,Leonard Black,1. hasParticipantRoleType,"hasParticipantRoleType(Mary Black, ""Singer"")",31,32,0.5771428571428571,0.0,32,56,0.5472027972027972,0.22028815056182974
+Leonard Black,hasName,Leonard Black,2. roleProvidedBy,"roleProvidedBy(Mary Black, ""Various Music Compilations and Soundtracks"")",8,9,0.4005602240896358,0.0,24,56,0.5754014504014504,0.1505569696020495
+Leonard Black,hasDescription,Born Enslaved. Free before 13th Amendment. Published a narrative in 1847 describing his experiences of enslavement and flight and his decision to become a Baptist minister.,Name Record Module,,31,25,0.4783068783068783,0.0,0,0,0.0,0.0
+Leonard Black,hasDescription,Born Enslaved. Free before 13th Amendment. Published a narrative in 1847 describing his experiences of enslavement and flight and his decision to become a Baptist minister.,1. hasNameVariant,"hasNameVariant(Mary Black, ""Mary Black"")",45,47,0.6390056022408963,0.0,19,18,0.4409560723514212,0.0
+Leonard Black,hasDescription,Born Enslaved. Free before 13th Amendment. Published a narrative in 1847 describing his experiences of enslavement and flight and his decision to become a Baptist minister.,2. hasPreferredNameVariant,"hasPreferredNameVariant(Mary Black, ""Mary Black"")",35,41,0.5421245421245421,0.0,23,24,0.49326242124756875,0.0
+Leonard Black,hasDescription,Born Enslaved. Free before 13th Amendment. Published a narrative in 1847 describing his experiences of enslavement and flight and his decision to become a Baptist minister.,3. fullNameAsString,"string): fullNameAsString(Mary Black, ""Mary Black"")",36,38,0.575187969924812,0.0,21,23,0.47438820489436084,0.0
+Leonard Black,hasDescription,Born Enslaved. Free before 13th Amendment. Published a narrative in 1847 describing his experiences of enslavement and flight and his decision to become a Baptist minister.,4. hasSurnameAsString,"string): hasSurnameAsString(Mary Black, ""Black"")",46,47,0.5793650793650794,0.0,21,24,0.4749383368569415,0.0
+Leonard Black,hasDescription,Born Enslaved. Free before 13th Amendment. Published a narrative in 1847 describing his experiences of enslavement and flight and his decision to become a Baptist minister.,5. hasFirstnameAsString,"string): hasFirstnameAsString(Mary Black, ""Mary"")",43,44,0.6163561076604555,0.0,22,24,0.49640088593576964,0.0
+Leonard Black,hasDescription,Born Enslaved. Free before 13th Amendment. Published a narrative in 1847 describing his experiences of enslavement and flight and his decision to become a Baptist minister.,Origin Record Module,,24,35,0.47380952380952374,0.0,0,0,0.0,0.0
+Leonard Black,hasDescription,Born Enslaved. Free before 13th Amendment. Published a narrative in 1847 describing his experiences of enslavement and flight and his decision to become a Baptist minister.,1. refersToPlaceOfOrigin,"refersToPlaceOfOrigin(Mary Black, ""Dublin, Ireland"")",37,38,0.501984126984127,0.0,21,26,0.48005608470724753,0.0
+Leonard Black,hasDescription,Born Enslaved. Free before 13th Amendment. Published a narrative in 1847 describing his experiences of enslavement and flight and his decision to become a Baptist minister.,Race Record Module,,31,31,0.41164021164021164,0.0,0,0,0.0,0.0
+Leonard Black,hasDescription,Born Enslaved. Free before 13th Amendment. Published a narrative in 1847 describing his experiences of enslavement and flight and his decision to become a Baptist minister.,1. has_Race,"has_Race(Mary Black, ""Irish"")",32,33,0.5372294372294372,0.0,13,20,0.4084469393210372,0.0
+Leonard Black,hasDescription,Born Enslaved. Free before 13th Amendment. Published a narrative in 1847 describing his experiences of enslavement and flight and his decision to become a Baptist minister.,Age Record Module,,26,32,0.42366946778711484,0.0,0,0,0.0,0.0
+Leonard Black,hasDescription,Born Enslaved. Free before 13th Amendment. Published a narrative in 1847 describing his experiences of enslavement and flight and his decision to become a Baptist minister.,1. hasBirthDate,"hasBirthDate(Mary Black, ""May 23, 1955"")",34,36,0.5539682539682539,0.0,15,20,0.41015335355578025,0.0
+Leonard Black,hasDescription,Born Enslaved. Free before 13th Amendment. Published a narrative in 1847 describing his experiences of enslavement and flight and his decision to become a Baptist minister.,Sex Record Module,,26,26,0.42366946778711484,0.0,0,0,0.0,0.0
+Leonard Black,hasDescription,Born Enslaved. Free before 13th Amendment. Published a narrative in 1847 describing his experiences of enslavement and flight and his decision to become a Baptist minister.,1. hasSex,"hasSex(Mary Black, ""Female"")",35,36,0.5767195767195767,0.0,15,19,0.4559946377571837,0.0
+Leonard Black,hasDescription,Born Enslaved. Free before 13th Amendment. Published a narrative in 1847 describing his experiences of enslavement and flight and his decision to become a Baptist minister.,Person Status Record Module,,29,29,0.5105820105820106,0.0,0,0,0.0,0.0
+Leonard Black,hasDescription,Born Enslaved. Free before 13th Amendment. Published a narrative in 1847 describing his experiences of enslavement and flight and his decision to become a Baptist minister.,1. hasValue,"hasValue(Mary Black, ""Renowned Irish Folk Singer"")",32,33,0.5497835497835498,0.0,23,25,0.48569336778639105,0.0
+Leonard Black,hasDescription,Born Enslaved. Free before 13th Amendment. Published a narrative in 1847 describing his experiences of enslavement and flight and his decision to become a Baptist minister.,Occupation Record Module,,32,42,0.5244708994708994,0.0,0,0,0.0,0.0
+Leonard Black,hasDescription,Born Enslaved. Free before 13th Amendment. Published a narrative in 1847 describing his experiences of enslavement and flight and his decision to become a Baptist minister.,1. hasValue,"hasValue(Mary Black, ""Singer"")",32,33,0.5497835497835498,0.0,15,17,0.42764857881136953,0.0
+Leonard Black,hasDescription,Born Enslaved. Free before 13th Amendment. Published a narrative in 1847 describing his experiences of enslavement and flight and his decision to become a Baptist minister.,InterAgent Relationship Record Module,,24,35,0.5281853281853283,0.0,0,0,0.0,0.0
+Leonard Black,hasDescription,Born Enslaved. Free before 13th Amendment. Published a narrative in 1847 describing his experiences of enslavement and flight and his decision to become a Baptist minister.,1. hasInterAgentRelationshipType,"hasInterAgentRelationshipType(Mary Black, ""Husband"")",39,40,0.6089285714285715,0.0,23,29,0.5014436807582463,0.0
+Leonard Black,hasDescription,Born Enslaved. Free before 13th Amendment. Published a narrative in 1847 describing his experiences of enslavement and flight and his decision to become a Baptist minister.,2. isRelationshipTo,"isRelationshipTo(Mary Black, ""Joe O'Reilly"")",36,44,0.6135338345864662,0.0,20,26,0.4713008189351413,0.0
+Leonard Black,hasDescription,Born Enslaved. Free before 13th Amendment. Published a narrative in 1847 describing his experiences of enslavement and flight and his decision to become a Baptist minister.,3. isRelationshipFrom,"isRelationshipFrom(Joe O'Reilly, ""Mary Black"")",34,35,0.5968253968253968,0.0,21,26,0.4709828951803168,0.0
+Leonard Black,hasDescription,Born Enslaved. Free before 13th Amendment. Published a narrative in 1847 describing his experiences of enslavement and flight and his decision to become a Baptist minister.,Participant Role Record Module,,27,32,0.5492063492063491,0.0,0,0,0.0,0.0
+Leonard Black,hasDescription,Born Enslaved. Free before 13th Amendment. Published a narrative in 1847 describing his experiences of enslavement and flight and his decision to become a Baptist minister.,1. hasParticipantRoleType,"hasParticipantRoleType(Mary Black, ""Singer"")",41,42,0.650995670995671,0.0,22,23,0.46696901498101795,0.0
+Leonard Black,hasDescription,Born Enslaved. Free before 13th Amendment. Published a narrative in 1847 describing his experiences of enslavement and flight and his decision to become a Baptist minister.,2. roleProvidedBy,"roleProvidedBy(Mary Black, ""Various Music Compilations and Soundtracks"")",19,20,0.34033613445378147,0.0,29,33,0.5367627939479629,0.07244081925041986

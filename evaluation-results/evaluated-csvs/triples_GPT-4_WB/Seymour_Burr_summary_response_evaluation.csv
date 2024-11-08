@@ -1,0 +1,463 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,seymour burr,32,0.537878787878788,22,0.5,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,burr,27,0.49242424242424243,20,0.47222222222222215,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,seymour,40,0.5692640692640693,31,0.5396825396825397,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,relationship_type,30,0.5269480519480519,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,enslaver or owner,30,0.5269480519480519,35,0.642483660130719,0.0,0.0
+instance of,person,or,"owner"")",15,0.0,31,0.5396825396825397,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,brother of colonel aaron burr,34,0.5798460798460798,23,0.518199233716475,0.0,0.0
+instance of,person,of colonel aaron,"burr"").",30,0.47348484848484845,15,0.4365079365079365,0.2605556710562624,0.0
+instance of,person,role record,module:,27,0.49242424242424243,15,0.0,0.0,0.0
+instance of,person,has_participant_role,participant_role_type,32,0.5668831168831169,22,0.5357142857142857,0.0,0.0
+instance of,person,has_participant_role,soldier in the british and american armies,32,0.5668831168831169,17,0.5174603174603175,0.0,0.0
+instance of,person,in the british and american,"armies"").",32,0.5911896745230079,27,0.5,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,male,22,0.45598845598845594,20,0.47222222222222215,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,slave,24,0.38311688311688313,18,0.0,0.0,0.0
+instance of,person,has_occupation,soldier in the british and american armies,24,0.38311688311688313,17,0.5174603174603175,0.0,0.0
+instance of,person,in the british and american,"armies"").",32,0.5911896745230079,27,0.5,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_age,born between 1754 and 1762,33,0.45598845598845594,12,0.5235042735042735,0.0,0.0
+instance of,person,between 1754 and,"1762"").",22,0.4545454545454546,0,0.0,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,african-american,36,0.5162210338680927,27,0.4861111111111111,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,enslaved person,29,0.449554367201426,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,has_person_status,soldier,29,0.449554367201426,31,0.0,0.0,0.0
+instance of,person,has_person_status,free man,29,0.449554367201426,29,0.5138888888888888,0.0,0.0
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,escaped and enlisted in the british army,26,0.4799102132435466,17,0.5055555555555555,0.0,0.0
+instance of,person,has_status_generating_event,captured and returned to enslaver,26,0.4799102132435466,26,0.5126262626262627,0.0,0.0
+instance of,person,has_status_generating_event,payment of bounty money after enlisting in the american army,26,0.4799102132435466,15,0.5722222222222223,0.0,0.0
+instance of,person,and enlisted in the british,"army""), has_status_generating_event(soldier, ""captured and returned to enslaver""), has_status_generating_event(free man, ""payment of bounty money after enlisting in the american army"").",32,0.5495230078563412,6,0.5663663663663664,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_name,name,57,0.8055555555555556,50,0.6666666666666666,0.0,0.0
+hassex,male,has_name,seymour burr,57,0.8055555555555556,12,0.38888888888888884,0.0,0.0
+hassex,male,has_surname,surname,59,0.6767676767676768,36,0.0,0.0,0.0
+hassex,male,has_surname,burr,59,0.6767676767676768,0,0.0,0.0,0.0
+hassex,male,has_first_name,first_name,50,0.6507936507936508,29,0.0,0.0,0.0
+hassex,male,has_first_name,seymour,50,0.6507936507936508,18,0.46428571428571425,0.0,0.0
+hassex,male,relationship record,module:,24,0.44152046783625726,55,0.7535714285714287,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,relationship_type,24,0.5936507936507937,19,0.5310457516339869,0.0,0.0
+hassex,male,has_interagent_relationship_type_to,enslaver or owner,24,0.5936507936507937,19,0.5310457516339869,0.0,0.0
+hassex,male,or,"owner"")",0,0.0,18,0.46428571428571425,0.0,0.0
+hassex,male,is_relationship_to,agent,17,0.46296296296296297,44,0.6333333333333333,0.0,0.0
+hassex,male,is_relationship_to,brother of colonel aaron burr,17,0.46296296296296297,12,0.35632183908045983,0.0,0.0
+hassex,male,of colonel aaron,"burr"").",9,0.40972222222222227,0,0.0,0.0,0.0
+hassex,male,role record,module:,12,0.41919191919191917,55,0.7535714285714287,0.0,0.0
+hassex,male,has_participant_role,participant_role_type,31,0.5499999999999999,24,0.43253968253968256,0.0,0.0
+hassex,male,has_participant_role,soldier in the british and american armies,31,0.5499999999999999,13,0.5158730158730159,0.0,0.0
+hassex,male,in the british and american,"armies"").",18,0.4259259259259259,31,0.5833333333333334,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_sex,sex_type,92,0.9666666666666667,17,0.4583333333333333,0.0,0.0
+hassex,male,has_sex,male,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_occupation,occupation,30,0.5714285714285715,14,0.45,0.0,0.0
+hassex,male,has_occupation,slave,30,0.5714285714285715,44,0.6722222222222222,0.0,0.0
+hassex,male,has_occupation,soldier in the british and american armies,30,0.5714285714285715,13,0.5158730158730159,0.0,0.0
+hassex,male,in the british and american,"armies"").",18,0.4259259259259259,31,0.5833333333333334,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_age,age,62,0.8222222222222222,57,0.7222222222222222,0.0,0.0
+hassex,male,has_age,born between 1754 and 1762,62,0.8222222222222222,7,0.42948717948717946,0.0,0.0
+hassex,male,between 1754 and,"1762"").",9,0.40972222222222227,0,0.0,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_race_or_color,race_or_color,35,0.6339869281045751,24,0.5512820512820512,0.0,0.0
+hassex,male,has_race_or_color,african-american,35,0.6339869281045751,20,0.5416666666666666,0.0,0.0
+hassex,male,status record,module:,32,0.5747863247863249,55,0.7535714285714287,0.0,0.0
+hassex,male,has_person_status,enslaved person,35,0.642483660130719,21,0.5388888888888889,0.0,0.0
+hassex,male,has_person_status,soldier,35,0.642483660130719,36,0.5952380952380952,0.0,0.0
+hassex,male,has_person_status,free man,35,0.642483660130719,33,0.4583333333333333,0.0,0.0
+hassex,male,has_status_generating_event,event,30,0.6728395061728395,22,0.48333333333333334,0.0,0.0
+hassex,male,has_status_generating_event,escaped and enlisted in the british army,30,0.6728395061728395,14,0.49722222222222223,0.0,0.0
+hassex,male,has_status_generating_event,captured and returned to enslaver,30,0.6728395061728395,16,0.5202020202020202,0.0,0.0
+hassex,male,has_status_generating_event,payment of bounty money after enlisting in the american army,30,0.6728395061728395,12,0.48888888888888893,0.0,0.0
+hassex,male,and enlisted in the british,"army""), has_status_generating_event(soldier, ""captured and returned to enslaver""), has_status_generating_event(free man, ""payment of bounty money after enlisting in the american army"").",18,0.4259259259259259,4,0.5072072072072072,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,seymour burr,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,burr,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,seymour,44,0.6772486772486772,0,0.0,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,enslaver or owner,42,0.6570105820105819,9,0.4196078431372549,0.0,0.0
+hasparticipantrole,child,or,"owner"")",10,0.5185185185185185,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,brother of colonel aaron burr,44,0.6037037037037037,12,0.45670498084291183,0.0,0.0
+hasparticipantrole,child,of colonel aaron,"burr"").",24,0.46593915343915343,0,0.0,0.0,0.0
+hasparticipantrole,child,role record,module:,28,0.4452861952861953,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant_role_type,95,0.9766666666666667,23,0.33174603174603173,0.0,0.0
+hasparticipantrole,child,has_participant_role,soldier in the british and american armies,95,0.9766666666666667,13,0.46507936507936504,0.0,0.0
+hasparticipantrole,child,in the british and american,"armies"").",36,0.5648148148148149,14,0.43703703703703706,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,male,32,0.5317460317460317,22,0.48333333333333334,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,slave,50,0.6566137566137565,20,0.0,0.0,0.0
+hasparticipantrole,child,has_occupation,soldier in the british and american armies,50,0.6566137566137565,13,0.46507936507936504,0.0,0.0
+hasparticipantrole,child,in the british and american,"armies"").",36,0.5648148148148149,14,0.43703703703703706,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_age,age,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_age,born between 1754 and 1762,40,0.5978835978835978,6,0.0,0.0,0.0
+hasparticipantrole,child,between 1754 and,"1762"").",18,0.34027777777777773,0,0.0,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_race_or_color,race_or_color,46,0.60239651416122,22,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_race_or_color,african-american,46,0.60239651416122,19,0.3416666666666666,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,enslaved person,46,0.6479302832244008,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,child,has_person_status,soldier,46,0.6479302832244008,33,0.565079365079365,0.0,0.0
+hasparticipantrole,child,has_person_status,free man,46,0.6479302832244008,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,escaped and enlisted in the british army,40,0.5819304152637487,13,0.5499999999999999,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,captured and returned to enslaver,40,0.5819304152637487,11,0.4868686868686869,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,payment of bounty money after enlisting in the american army,40,0.5819304152637487,6,0.4055555555555556,0.0,0.0
+hasparticipantrole,child,and enlisted in the british,"army""), has_status_generating_event(soldier, ""captured and returned to enslaver""), has_status_generating_event(free man, ""payment of bounty money after enlisting in the american army"").",31,0.508641975308642,4,0.5423423423423422,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,seymour burr,38,0.5675925925925926,30,0.3666666666666667,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,burr,41,0.6274651274651274,11,0.0,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,seymour,44,0.6772486772486772,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,enslaver or owner,42,0.6570105820105819,44,0.5986928104575163,0.0,0.0
+hasparticipantrole,deceased person,or,"owner"")",10,0.5185185185185185,18,0.40317460317460313,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,brother of colonel aaron burr,44,0.6037037037037037,32,0.4741105637657362,0.0,0.0
+hasparticipantrole,deceased person,of colonel aaron,"burr"").",24,0.46593915343915343,9,0.0,0.0,0.0
+hasparticipantrole,deceased person,role record,module:,28,0.4452861952861953,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant_role_type,95,0.9766666666666667,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,soldier in the british and american armies,95,0.9766666666666667,32,0.5563492063492065,0.0,0.0
+hasparticipantrole,deceased person,in the british and american,"armies"").",36,0.5648148148148149,25,0.39999999999999997,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,male,32,0.5317460317460317,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,slave,50,0.6566137566137565,20,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,soldier in the british and american armies,50,0.6566137566137565,32,0.5563492063492065,0.0,0.0
+hasparticipantrole,deceased person,in the british and american,"armies"").",36,0.5648148148148149,25,0.39999999999999997,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_age,age,40,0.5978835978835978,22,0.4333333333333333,0.0,0.0
+hasparticipantrole,deceased person,has_age,born between 1754 and 1762,40,0.5978835978835978,24,0.4357753357753358,0.0,0.0
+hasparticipantrole,deceased person,between 1754 and,"1762"").",18,0.34027777777777773,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,race_or_color,46,0.60239651416122,29,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,african-american,46,0.60239651416122,32,0.48194444444444445,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,enslaved person,46,0.6479302832244008,73,0.7833333333333333,0.0,0.33609692727625756
+hasparticipantrole,deceased person,has_person_status,soldier,46,0.6479302832244008,36,0.5293650793650794,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,free man,46,0.6479302832244008,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,escaped and enlisted in the british army,40,0.5819304152637487,40,0.6182539682539682,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,captured and returned to enslaver,40,0.5819304152637487,38,0.643001443001443,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,payment of bounty money after enlisting in the american army,40,0.5819304152637487,24,0.5176767676767676,0.0,0.0
+hasparticipantrole,deceased person,and enlisted in the british,"army""), has_status_generating_event(soldier, ""captured and returned to enslaver""), has_status_generating_event(free man, ""payment of bounty money after enlisting in the american army"").",31,0.508641975308642,13,0.5381381381381382,0.0,0.0
+hasdescriptiveoccupation,labor,record,module:,27,0.6138888888888889,17,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,labor,has_name,name,25,0.5555555555555555,22,0.48333333333333334,0.0,0.0
+hasdescriptiveoccupation,labor,has_name,seymour burr,25,0.5555555555555555,24,0.5222222222222223,0.0,0.0
+hasdescriptiveoccupation,labor,has_surname,surname,34,0.5474386724386724,17,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,labor,has_surname,burr,34,0.5474386724386724,44,0.48333333333333334,0.0,0.0
+hasdescriptiveoccupation,labor,has_first_name,first_name,32,0.5615079365079364,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,labor,has_first_name,seymour,32,0.5615079365079364,33,0.5619047619047619,0.0,0.0
+hasdescriptiveoccupation,labor,relationship record,module:,33,0.6137539361223572,17,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,labor,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,27,0.511764705882353,0.0,0.0
+hasdescriptiveoccupation,labor,has_interagent_relationship_type_to,enslaver or owner,41,0.6037698412698412,36,0.5950980392156863,0.0,0.0
+hasdescriptiveoccupation,labor,or,"owner"")",8,0.5138888888888888,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,labor,is_relationship_to,agent,38,0.6264245014245015,20,0.4666666666666666,0.0,0.0
+hasdescriptiveoccupation,labor,is_relationship_to,brother of colonel aaron burr,38,0.6264245014245015,24,0.5626436781609195,0.0,0.0
+hasdescriptiveoccupation,labor,of colonel aaron,"burr"").",25,0.4861111111111111,33,0.5619047619047619,0.0,0.0
+hasdescriptiveoccupation,labor,role record,module:,29,0.4873737373737373,17,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,labor,has_participant_role,participant_role_type,50,0.6805555555555555,15,0.4984126984126984,0.0,0.0
+hasdescriptiveoccupation,labor,has_participant_role,soldier in the british and american armies,50,0.6805555555555555,13,0.46507936507936504,0.0,0.0
+hasdescriptiveoccupation,labor,in the british and american,"armies"").",39,0.5205365622032289,29,0.5407407407407407,0.0,0.0
+hasdescriptiveoccupation,labor,record,module:,27,0.6138888888888889,17,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,labor,has_sex,sex_type,32,0.5742063492063493,0,0.0,0.0,0.0
+hasdescriptiveoccupation,labor,has_sex,male,32,0.5742063492063493,22,0.48333333333333334,0.0,0.0
+hasdescriptiveoccupation,labor,record,module:,27,0.6138888888888889,17,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,labor,has_occupation,occupation,68,0.8045940170940171,27,0.3666666666666667,0.0,0.0
+hasdescriptiveoccupation,labor,has_occupation,slave,68,0.8045940170940171,40,0.6,0.0,0.0
+hasdescriptiveoccupation,labor,has_occupation,soldier in the british and american armies,68,0.8045940170940171,13,0.46507936507936504,0.0,0.0
+hasdescriptiveoccupation,labor,in the british and american,"armies"").",39,0.5205365622032289,29,0.5407407407407407,0.0,0.0
+hasdescriptiveoccupation,labor,record,module:,27,0.6138888888888889,17,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,labor,has_age,age,26,0.5793650793650794,25,0.5111111111111111,0.0,0.0
+hasdescriptiveoccupation,labor,has_age,born between 1754 and 1762,26,0.5793650793650794,19,0.5717948717948719,0.0,0.0
+hasdescriptiveoccupation,labor,between 1754 and,"1762"").",25,0.5069444444444445,0,0.0,0.0,0.0
+hasdescriptiveoccupation,labor,record,module:,27,0.6138888888888889,17,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,labor,has_race_or_color,race_or_color,39,0.5977668845315903,33,0.49914529914529915,0.0,0.0
+hasdescriptiveoccupation,labor,has_race_or_color,african-american,39,0.5977668845315903,19,0.5083333333333333,0.0,0.0
+hasdescriptiveoccupation,labor,status record,module:,32,0.540954415954416,17,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,labor,has_person_status,enslaved person,39,0.6241830065359477,30,0.5111111111111111,0.0,0.0
+hasdescriptiveoccupation,labor,has_person_status,soldier,39,0.6241830065359477,33,0.565079365079365,0.0,0.0
+hasdescriptiveoccupation,labor,has_person_status,free man,39,0.6241830065359477,15,0.44166666666666665,0.0,0.0
+hasdescriptiveoccupation,labor,has_status_generating_event,event,39,0.5815696649029983,0,0.0,0.0,0.0
+hasdescriptiveoccupation,labor,has_status_generating_event,escaped and enlisted in the british army,39,0.5815696649029983,13,0.31666666666666665,0.0,0.0
+hasdescriptiveoccupation,labor,has_status_generating_event,captured and returned to enslaver,39,0.5815696649029983,16,0.4868686868686869,0.0,0.0
+hasdescriptiveoccupation,labor,has_status_generating_event,payment of bounty money after enlisting in the american army,39,0.5815696649029983,12,0.5388888888888889,0.0,0.0
+hasdescriptiveoccupation,labor,and enlisted in the british,"army""), has_status_generating_event(soldier, ""captured and returned to enslaver""), has_status_generating_event(free man, ""payment of bounty money after enlisting in the american army"").",35,0.5007014590347924,5,0.5238738738738739,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,seymour burr,25,0.5555555555555555,24,0.5222222222222223,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,surname,34,0.5474386724386724,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,burr,34,0.5474386724386724,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,first_name,32,0.5615079365079364,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,seymour,32,0.5615079365079364,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,relationship record,module:,33,0.6137539361223572,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,27,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,enslaver or owner,41,0.6037698412698412,45,0.6313725490196078,0.0,0.0
+hasdescriptiveoccupation,slave,or,"owner"")",8,0.5138888888888888,17,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,agent,38,0.6264245014245015,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,brother of colonel aaron burr,38,0.6264245014245015,12,0.32298850574712645,0.0,0.0
+hasdescriptiveoccupation,slave,of colonel aaron,"burr"").",25,0.4861111111111111,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,role record,module:,29,0.4873737373737373,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,participant_role_type,50,0.6805555555555555,15,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,soldier in the british and american armies,50,0.6805555555555555,17,0.557142857142857,0.0,0.0
+hasdescriptiveoccupation,slave,in the british and american,"armies"").",39,0.5205365622032289,29,0.5407407407407407,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,sex_type,32,0.5742063492063493,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,male,32,0.5742063492063493,44,0.6722222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,slave,68,0.8045940170940171,100,1.0,0.0,1.0
+hasdescriptiveoccupation,slave,has_occupation,soldier in the british and american armies,68,0.8045940170940171,17,0.557142857142857,0.0,0.0
+hasdescriptiveoccupation,slave,in the british and american,"armies"").",39,0.5205365622032289,29,0.5407407407407407,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,age,26,0.5793650793650794,50,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,born between 1754 and 1762,26,0.5793650793650794,6,0.41282051282051285,0.0,0.0
+hasdescriptiveoccupation,slave,between 1754 and,"1762"").",25,0.5069444444444445,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,race_or_color,39,0.5977668845315903,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,african-american,39,0.5977668845315903,19,0.5083333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,enslaved person,39,0.6241830065359477,50,0.6444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,soldier,39,0.6241830065359477,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,free man,39,0.6241830065359477,15,0.44166666666666665,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,event,39,0.5815696649029983,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,escaped and enlisted in the british army,39,0.5815696649029983,13,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,captured and returned to enslaver,39,0.5815696649029983,26,0.4868686868686869,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,payment of bounty money after enlisting in the american army,39,0.5815696649029983,9,0.4777777777777778,0.0,0.0
+hasdescriptiveoccupation,slave,and enlisted in the british,"army""), has_status_generating_event(soldier, ""captured and returned to enslaver""), has_status_generating_event(free man, ""payment of bounty money after enlisting in the american army"").",35,0.5007014590347924,5,0.5423423423423422,0.0,0.0
+hasdescriptiveoccupation,soldier,record,module:,27,0.6138888888888889,43,0.6309523809523809,0.0,0.0
+hasdescriptiveoccupation,soldier,has_name,name,25,0.5555555555555555,18,0.46428571428571425,0.0,0.0
+hasdescriptiveoccupation,soldier,has_name,seymour burr,25,0.5555555555555555,32,0.5515873015873015,0.0,0.0
+hasdescriptiveoccupation,soldier,has_surname,surname,34,0.5474386724386724,29,0.5238095238095238,0.0,0.0
+hasdescriptiveoccupation,soldier,has_surname,burr,34,0.5474386724386724,18,0.0,0.0,0.0
+hasdescriptiveoccupation,soldier,has_first_name,first_name,32,0.5615079365079364,24,0.4904761904761905,0.0,0.0
+hasdescriptiveoccupation,soldier,has_first_name,seymour,32,0.5615079365079364,43,0.5238095238095238,0.0,0.0
+hasdescriptiveoccupation,soldier,relationship record,module:,33,0.6137539361223572,43,0.6309523809523809,0.0,0.0
+hasdescriptiveoccupation,soldier,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,25,0.5361344537815126,0.0,0.0
+hasdescriptiveoccupation,soldier,has_interagent_relationship_type_to,enslaver or owner,41,0.6037698412698412,33,0.5189075630252101,0.0,0.0
+hasdescriptiveoccupation,soldier,or,"owner"")",8,0.5138888888888888,43,0.6190476190476191,0.0,0.0
+hasdescriptiveoccupation,soldier,is_relationship_to,agent,38,0.6264245014245015,17,0.0,0.0,0.0
+hasdescriptiveoccupation,soldier,is_relationship_to,brother of colonel aaron burr,38,0.6264245014245015,22,0.48645320197044334,0.0,0.0
+hasdescriptiveoccupation,soldier,of colonel aaron,"burr"").",25,0.4861111111111111,14,0.0,0.0,0.0
+hasdescriptiveoccupation,soldier,role record,module:,29,0.4873737373737373,43,0.6309523809523809,0.0,0.0
+hasdescriptiveoccupation,soldier,has_participant_role,participant_role_type,50,0.6805555555555555,21,0.29365079365079366,0.0,0.0
+hasdescriptiveoccupation,soldier,has_participant_role,soldier in the british and american armies,50,0.6805555555555555,29,0.8333333333333334,0.0,0.2789425453258252
+hasdescriptiveoccupation,soldier,in the british and american,"armies"").",39,0.5205365622032289,25,0.5026455026455027,0.0,0.0
+hasdescriptiveoccupation,soldier,record,module:,27,0.6138888888888889,43,0.6309523809523809,0.0,0.0
+hasdescriptiveoccupation,soldier,has_sex,sex_type,32,0.5742063492063493,27,0.5119047619047619,0.0,0.0
+hasdescriptiveoccupation,soldier,has_sex,male,32,0.5742063492063493,36,0.5952380952380952,0.0,0.0
+hasdescriptiveoccupation,soldier,record,module:,27,0.6138888888888889,43,0.6309523809523809,0.0,0.0
+hasdescriptiveoccupation,soldier,has_occupation,occupation,68,0.8045940170940171,24,0.49523809523809526,0.0,0.0
+hasdescriptiveoccupation,soldier,has_occupation,slave,68,0.8045940170940171,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,soldier,has_occupation,soldier in the british and american armies,68,0.8045940170940171,29,0.8333333333333334,0.0,0.2789425453258252
+hasdescriptiveoccupation,soldier,in the british and american,"armies"").",39,0.5205365622032289,25,0.5026455026455027,0.0,0.0
+hasdescriptiveoccupation,soldier,record,module:,27,0.6138888888888889,43,0.6309523809523809,0.0,0.0
+hasdescriptiveoccupation,soldier,has_age,age,26,0.5793650793650794,20,0.0,0.0,0.0
+hasdescriptiveoccupation,soldier,has_age,born between 1754 and 1762,26,0.5793650793650794,12,0.4035409035409035,0.0,0.0
+hasdescriptiveoccupation,soldier,between 1754 and,"1762"").",25,0.5069444444444445,0,0.0,0.0,0.0
+hasdescriptiveoccupation,soldier,record,module:,27,0.6138888888888889,43,0.6309523809523809,0.0,0.0
+hasdescriptiveoccupation,soldier,has_race_or_color,race_or_color,39,0.5977668845315903,30,0.442002442002442,0.0,0.0
+hasdescriptiveoccupation,soldier,has_race_or_color,african-american,39,0.5977668845315903,26,0.4275793650793651,0.0,0.0
+hasdescriptiveoccupation,soldier,status record,module:,32,0.540954415954416,43,0.6309523809523809,0.0,0.0
+hasdescriptiveoccupation,soldier,has_person_status,enslaved person,39,0.6241830065359477,45,0.5492063492063491,0.0,0.0
+hasdescriptiveoccupation,soldier,has_person_status,soldier,39,0.6241830065359477,100,1.0,0.0,1.0
+hasdescriptiveoccupation,soldier,has_person_status,free man,39,0.6241830065359477,13,0.4226190476190476,0.0,0.0
+hasdescriptiveoccupation,soldier,has_status_generating_event,event,39,0.5815696649029983,17,0.0,0.0,0.0
+hasdescriptiveoccupation,soldier,has_status_generating_event,escaped and enlisted in the british army,39,0.5815696649029983,26,0.4797619047619048,0.0,0.0
+hasdescriptiveoccupation,soldier,has_status_generating_event,captured and returned to enslaver,39,0.5815696649029983,20,0.3953823953823954,0.0,0.0
+hasdescriptiveoccupation,soldier,has_status_generating_event,payment of bounty money after enlisting in the american army,39,0.5815696649029983,15,0.37936507936507935,0.0,0.0
+hasdescriptiveoccupation,soldier,and enlisted in the british,"army""), has_status_generating_event(soldier, ""captured and returned to enslaver""), has_status_generating_event(free man, ""payment of bounty money after enlisting in the american army"").",35,0.5007014590347924,7,0.5364221364221364,0.0,0.14372805723110713
+hasfirstname,seymour,record,module:,22,0.4166666666666667,43,0.42857142857142855,0.0,0.0
+hasfirstname,seymour,has_name,name,70,0.8736111111111112,18,0.42857142857142855,0.0,0.0
+hasfirstname,seymour,has_name,seymour burr,70,0.8736111111111112,74,0.9166666666666667,0.0,0.5797386715376658
+hasfirstname,seymour,has_surname,surname,70,0.8733164983164984,43,0.5238095238095238,0.0,0.0
+hasfirstname,seymour,has_surname,burr,70,0.8733164983164984,36,0.0,0.0,0.0
+hasfirstname,seymour,has_first_name,first_name,92,0.9666666666666667,24,0.32857142857142857,0.0,0.0
+hasfirstname,seymour,has_first_name,seymour,92,0.9666666666666667,100,1.0,0.0,1.0
+hasfirstname,seymour,relationship record,module:,32,0.5077276524644946,43,0.42857142857142855,0.0,0.0
+hasfirstname,seymour,has_interagent_relationship_type_to,relationship_type,34,0.5949735449735449,17,0.4239028944911298,0.0,0.0
+hasfirstname,seymour,has_interagent_relationship_type_to,enslaver or owner,34,0.5949735449735449,33,0.43557422969187676,0.0,0.0
+hasfirstname,seymour,or,"owner"")",14,0.5277777777777778,29,0.5238095238095238,0.0,0.0
+hasfirstname,seymour,is_relationship_to,agent,27,0.6203703703703703,17,0.44761904761904764,0.0,0.0
+hasfirstname,seymour,is_relationship_to,brother of colonel aaron burr,27,0.6203703703703703,22,0.3995621237000548,0.0,0.0
+hasfirstname,seymour,of colonel aaron,"burr"").",21,0.4444444444444444,29,0.0,0.0,0.0
+hasfirstname,seymour,role record,module:,17,0.44949494949494956,43,0.42857142857142855,0.0,0.0
+hasfirstname,seymour,has_participant_role,participant_role_type,44,0.6962962962962962,14,0.29365079365079366,0.0,0.0
+hasfirstname,seymour,has_participant_role,soldier in the british and american armies,44,0.6962962962962962,16,0.47222222222222215,0.0,0.0
+hasfirstname,seymour,in the british and american,"armies"").",36,0.5462962962962963,12,0.335978835978836,0.0,0.0
+hasfirstname,seymour,record,module:,22,0.4166666666666667,43,0.42857142857142855,0.0,0.0
+hasfirstname,seymour,has_sex,sex_type,53,0.6349206349206349,40,0.6011904761904762,0.0,0.0
+hasfirstname,seymour,has_sex,male,53,0.6349206349206349,18,0.46428571428571425,0.0,0.0
+hasfirstname,seymour,record,module:,22,0.4166666666666667,43,0.42857142857142855,0.0,0.0
+hasfirstname,seymour,has_occupation,occupation,38,0.5873015873015873,24,0.49523809523809526,0.0,0.0
+hasfirstname,seymour,has_occupation,slave,38,0.5873015873015873,33,0.44761904761904764,0.0,0.0
+hasfirstname,seymour,has_occupation,soldier in the british and american armies,38,0.5873015873015873,16,0.47222222222222215,0.0,0.0
+hasfirstname,seymour,in the british and american,"armies"").",36,0.5462962962962963,12,0.335978835978836,0.0,0.0
+hasfirstname,seymour,record,module:,22,0.4166666666666667,43,0.42857142857142855,0.0,0.0
+hasfirstname,seymour,has_age,age,53,0.7972222222222223,20,0.4920634920634921,0.0,0.0
+hasfirstname,seymour,has_age,born between 1754 and 1762,53,0.7972222222222223,12,0.4035409035409035,0.0,0.0
+hasfirstname,seymour,between 1754 and,"1762"").",21,0.4444444444444444,0,0.0,0.0,0.0
+hasfirstname,seymour,record,module:,22,0.4166666666666667,43,0.42857142857142855,0.0,0.0
+hasfirstname,seymour,has_race_or_color,race_or_color,41,0.6176470588235294,30,0.553113553113553,0.0,0.0
+hasfirstname,seymour,has_race_or_color,african-american,41,0.6176470588235294,17,0.30357142857142855,0.0,0.0
+hasfirstname,seymour,status record,module:,32,0.5427350427350427,43,0.42857142857142855,0.0,0.0
+hasfirstname,seymour,has_person_status,enslaved person,48,0.6857298474945533,27,0.4317460317460317,0.0,0.0
+hasfirstname,seymour,has_person_status,soldier,48,0.6857298474945533,43,0.5238095238095238,0.0,0.0
+hasfirstname,seymour,has_person_status,free man,48,0.6857298474945533,27,0.5119047619047619,0.0,0.0
+hasfirstname,seymour,has_status_generating_event,event,41,0.5833333333333334,17,0.44761904761904764,0.0,0.0
+hasfirstname,seymour,has_status_generating_event,escaped and enlisted in the british army,41,0.5833333333333334,13,0.2785714285714285,0.0,0.0
+hasfirstname,seymour,has_status_generating_event,captured and returned to enslaver,41,0.5833333333333334,15,0.3953823953823954,0.0,0.0
+hasfirstname,seymour,has_status_generating_event,payment of bounty money after enlisting in the american army,41,0.5833333333333334,15,0.5968253968253968,0.0,0.0
+hasfirstname,seymour,and enlisted in the british,"army""), has_status_generating_event(soldier, ""captured and returned to enslaver""), has_status_generating_event(free man, ""payment of bounty money after enlisting in the american army"").",31,0.46296296296296297,7,0.5364221364221364,0.0,0.0
+hassurname,burr,record,module:,25,0.4222222222222222,18,0.46428571428571425,0.0,0.0
+hassurname,burr,has_name,name,78,0.9008333333333334,0,0.0,0.0,0.0
+hassurname,burr,has_name,seymour burr,78,0.9008333333333334,50,0.5555555555555555,0.0,0.5797386715376658
+hassurname,burr,has_surname,surname,95,0.9787878787878788,36,0.5952380952380952,0.0,0.0
+hassurname,burr,has_surname,burr,95,0.9787878787878788,100,1.0,0.0,1.0
+hassurname,burr,has_first_name,first_name,67,0.8674074074074074,14,0.45,0.0,0.0
+hassurname,burr,has_first_name,seymour,67,0.8674074074074074,36,0.0,0.0,0.0
+hassurname,burr,relationship record,module:,28,0.4543859649122807,18,0.46428571428571425,0.0,0.0
+hassurname,burr,has_interagent_relationship_type_to,relationship_type,31,0.5380952380952381,10,0.4362745098039216,0.0,0.0
+hassurname,burr,has_interagent_relationship_type_to,enslaver or owner,31,0.5380952380952381,19,0.5392156862745098,0.0,0.0
+hassurname,burr,or,"owner"")",17,0.5333333333333333,18,0.46428571428571425,0.0,0.0
+hassurname,burr,is_relationship_to,agent,21,0.5333333333333333,0,0.0,0.0,0.0
+hassurname,burr,is_relationship_to,brother of colonel aaron burr,21,0.5333333333333333,24,0.617816091954023,0.0,0.33517574332792605
+hassurname,burr,of colonel aaron,"burr"").",23,0.3847222222222222,73,0.9142857142857143,0.0,1.0
+hassurname,burr,role record,module:,19,0.46060606060606063,18,0.46428571428571425,0.0,0.0
+hassurname,burr,has_participant_role,participant_role_type,40,0.5777777777777778,16,0.5317460317460317,0.0,0.0
+hassurname,burr,has_participant_role,soldier in the british and american armies,40,0.5777777777777778,13,0.49603174603174605,0.0,0.0
+hassurname,burr,in the british and american,"armies"").",32,0.5102292768959436,15,0.4537037037037037,0.0,0.0
+hassurname,burr,record,module:,25,0.4222222222222222,18,0.46428571428571425,0.0,0.0
+hassurname,burr,has_sex,sex_type,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,burr,has_sex,male,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,burr,record,module:,25,0.4222222222222222,18,0.46428571428571425,0.0,0.0
+hassurname,burr,has_occupation,occupation,42,0.6190476190476191,14,0.45,0.0,0.0
+hassurname,burr,has_occupation,slave,42,0.6190476190476191,0,0.0,0.0,0.0
+hassurname,burr,has_occupation,soldier in the british and american armies,42,0.6190476190476191,13,0.49603174603174605,0.0,0.0
+hassurname,burr,in the british and american,"armies"").",32,0.5102292768959436,15,0.4537037037037037,0.0,0.0
+hassurname,burr,record,module:,25,0.4222222222222222,18,0.46428571428571425,0.0,0.0
+hassurname,burr,has_age,age,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,burr,has_age,born between 1754 and 1762,59,0.8166666666666667,13,0.5256410256410257,0.0,0.0
+hassurname,burr,between 1754 and,"1762"").",15,0.3847222222222222,0,0.0,0.0,0.0
+hassurname,burr,record,module:,25,0.4222222222222222,18,0.46428571428571425,0.0,0.0
+hassurname,burr,has_race_or_color,race_or_color,44,0.6509803921568628,24,0.5512820512820512,0.0,0.0
+hassurname,burr,has_race_or_color,african-american,44,0.6509803921568628,20,0.4375,0.0,0.0
+hassurname,burr,status record,module:,35,0.5760683760683761,18,0.46428571428571425,0.0,0.0
+hassurname,burr,has_person_status,enslaved person,44,0.6735294117647058,11,0.0,0.0,0.0
+hassurname,burr,has_person_status,soldier,44,0.6735294117647058,18,0.0,0.0,0.0
+hassurname,burr,has_person_status,free man,44,0.6735294117647058,17,0.4583333333333333,0.0,0.0
+hassurname,burr,has_status_generating_event,event,43,0.6703703703703704,0,0.0,0.0,0.0
+hassurname,burr,has_status_generating_event,escaped and enlisted in the british army,43,0.6703703703703704,14,0.0,0.0,0.0
+hassurname,burr,has_status_generating_event,captured and returned to enslaver,43,0.6703703703703704,16,0.6136363636363636,0.0,0.0
+hassurname,burr,has_status_generating_event,payment of bounty money after enlisting in the american army,43,0.6703703703703704,12,0.6,0.0,0.0
+hassurname,burr,and enlisted in the british,"army""), has_status_generating_event(soldier, ""captured and returned to enslaver""), has_status_generating_event(free man, ""payment of bounty money after enlisting in the american army"").",22,0.4327160493827161,4,0.47762762762762767,0.0,0.0
+hasname,seymour burr,record,module:,15,0.0,32,0.4682539682539682,0.0,0.0
+hasname,seymour burr,has_name,name,93,0.9708333333333333,12,0.38888888888888884,0.0,0.0
+hasname,seymour burr,has_name,seymour burr,93,0.9708333333333333,100,1.0,0.0,1.0000000000000002
+hasname,seymour burr,has_surname,surname,78,0.9151515151515152,32,0.576984126984127,0.0,0.0
+hasname,seymour burr,has_surname,burr,78,0.9151515151515152,50,0.5555555555555555,0.0,0.5797386715376658
+hasname,seymour burr,has_first_name,first_name,67,0.5476190476190476,18,0.4055555555555556,0.0,0.0
+hasname,seymour burr,has_first_name,seymour,67,0.5476190476190476,74,0.9166666666666667,0.0,0.5797386715376658
+hasname,seymour burr,relationship record,module:,23,0.5106516290726817,32,0.4682539682539682,0.0,0.0
+hasname,seymour burr,has_interagent_relationship_type_to,relationship_type,29,0.6206349206349207,14,0.3643790849673203,0.0,0.0
+hasname,seymour burr,has_interagent_relationship_type_to,enslaver or owner,29,0.6206349206349207,41,0.5697945845004669,0.0,0.0
+hasname,seymour burr,or,"owner"")",0,0.0,21,0.44841269841269843,0.0,0.0
+hasname,seymour burr,is_relationship_to,agent,16,0.43121693121693117,12,0.42777777777777776,0.0,0.0
+hasname,seymour burr,is_relationship_to,brother of colonel aaron burr,16,0.43121693121693117,39,0.4653804050355775,0.0,0.19431434016858148
+hasname,seymour burr,of colonel aaron,"burr"").",17,0.4275793650793651,42,0.48412698412698413,0.0,0.5797386715376658
+hasname,seymour burr,role record,module:,11,0.41125541125541126,32,0.4682539682539682,0.0,0.0
+hasname,seymour burr,has_participant_role,participant_role_type,37,0.5904761904761905,12,0.3531746031746032,0.0,0.0
+hasname,seymour burr,has_participant_role,soldier in the british and american armies,37,0.5904761904761905,26,0.5773809523809524,0.0,0.0
+hasname,seymour burr,in the british and american,"armies"").",35,0.49982363315696654,10,0.4259259259259259,0.0,0.0
+hasname,seymour burr,record,module:,15,0.0,32,0.4682539682539682,0.0,0.0
+hasname,seymour burr,has_sex,sex_type,57,0.8,30,0.5416666666666666,0.0,0.0
+hasname,seymour burr,has_sex,male,57,0.8,12,0.38888888888888884,0.0,0.0
+hasname,seymour burr,record,module:,15,0.0,32,0.4682539682539682,0.0,0.0
+hasname,seymour burr,has_occupation,occupation,38,0.6190476190476191,18,0.45555555555555555,0.0,0.0
+hasname,seymour burr,has_occupation,slave,38,0.6190476190476191,24,0.5222222222222223,0.0,0.0
+hasname,seymour burr,has_occupation,soldier in the british and american armies,38,0.6190476190476191,26,0.5773809523809524,0.0,0.0
+hasname,seymour burr,in the british and american,"armies"").",35,0.49982363315696654,10,0.4259259259259259,0.0,0.0
+hasname,seymour burr,record,module:,15,0.0,32,0.4682539682539682,0.0,0.0
+hasname,seymour burr,has_age,age,71,0.8666666666666668,13,0.47222222222222215,0.0,0.0
+hasname,seymour burr,has_age,born between 1754 and 1762,71,0.8666666666666668,21,0.4696581196581197,0.0,0.0
+hasname,seymour burr,between 1754 and,"1762"").",17,0.30357142857142855,0,0.0,0.0,0.0
+hasname,seymour burr,record,module:,15,0.0,32,0.4682539682539682,0.0,0.0
+hasname,seymour burr,has_race_or_color,race_or_color,42,0.6694677871148459,32,0.547008547008547,0.0,0.0
+hasname,seymour burr,has_race_or_color,african-american,42,0.6694677871148459,14,0.3680555555555555,0.0,0.0
+hasname,seymour burr,status record,module:,30,0.442002442002442,32,0.4682539682539682,0.0,0.0
+hasname,seymour burr,has_person_status,enslaved person,42,0.6028011204481792,30,0.3666666666666667,0.0,0.0
+hasname,seymour burr,has_person_status,soldier,42,0.6028011204481792,32,0.5515873015873015,0.0,0.0
+hasname,seymour burr,has_person_status,free man,42,0.6028011204481792,20,0.4444444444444444,0.0,0.0
+hasname,seymour burr,has_status_generating_event,event,35,0.6375661375661376,12,0.42777777777777776,0.0,0.0
+hasname,seymour burr,has_status_generating_event,escaped and enlisted in the british army,35,0.6375661375661376,23,0.39444444444444443,0.0,0.0
+hasname,seymour burr,has_status_generating_event,captured and returned to enslaver,35,0.6375661375661376,27,0.5032467532467533,0.0,0.0
+hasname,seymour burr,has_status_generating_event,payment of bounty money after enlisting in the american army,35,0.6375661375661376,22,0.4333333333333333,0.0,0.0
+hasname,seymour burr,and enlisted in the british,"army""), has_status_generating_event(soldier, ""captured and returned to enslaver""), has_status_generating_event(free man, ""payment of bounty money after enlisting in the american army"").",24,0.4898589065255732,10,0.5374965874965875,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",record,module:,30,0.48412698412698413,5,0.4473033412259932,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",has_name,name,36,0.5952380952380952,4,0.507366482504604,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",has_name,seymour burr,36,0.5952380952380952,12,0.4961939840392879,0.0,0.13557974295261274
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",has_surname,surname,48,0.6168831168831169,6,0.5189862316934141,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",has_surname,burr,48,0.6168831168831169,4,0.47774708410067523,0.0,0.23386354854163652
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",has_first_name,first_name,43,0.6726190476190476,9,0.5017597708205442,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",has_first_name,seymour,43,0.6726190476190476,7,0.46343067613785843,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",relationship record,module:,30,0.6135338345864662,5,0.4473033412259932,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",has_interagent_relationship_type_to,relationship_type,37,0.5666666666666667,13,0.5217419564510887,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",has_interagent_relationship_type_to,enslaver or owner,37,0.5666666666666667,16,0.6140247535478279,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",or,"owner"")",12,0.5238095238095238,4,0.4478426729807945,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",is_relationship_to,agent,44,0.6474266474266474,4,0.5240331491712708,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",is_relationship_to,brother of colonel aaron burr,44,0.6474266474266474,23,0.5591541245951609,0.0,0.2441111095239061
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",of colonel aaron,"burr"").",27,0.42321428571428577,5,0.4478426729807945,0.0,0.23386354854163652
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",role record,module:,24,0.46645021645021645,5,0.4473033412259932,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",has_participant_role,participant_role_type,47,0.6876623376623376,14,0.4776194087211312,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",has_participant_role,soldier in the british and american armies,47,0.6876623376623376,28,0.5744584758396913,0.0,0.1832935811114438
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",in the british and american,"armies"").",34,0.4975749559082892,7,0.4626267941185069,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",record,module:,30,0.48412698412698413,5,0.4473033412259932,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",has_sex,sex_type,38,0.6238095238095238,5,0.4832719459791283,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",has_sex,male,38,0.6238095238095238,4,0.507366482504604,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",record,module:,30,0.48412698412698413,5,0.4473033412259932,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",has_occupation,occupation,64,0.8074074074074075,8,0.44806629834254147,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",has_occupation,slave,64,0.8074074074074075,5,0.5425414364640884,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",has_occupation,soldier in the british and american armies,64,0.8074074074074075,28,0.5744584758396913,0.0,0.1832935811114438
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",in the british and american,"armies"").",34,0.4975749559082892,7,0.4626267941185069,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",record,module:,30,0.48412698412698413,5,0.4473033412259932,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",has_age,age,38,0.6190476190476191,3,0.3925721301411909,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",has_age,born between 1754 and 1762,38,0.6190476190476191,15,0.4676221057436527,0.0,0.08198225149249269
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",between 1754 and,"1762"").",20,0.4226190476190476,2,0.26558800315706393,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",record,module:,30,0.48412698412698413,5,0.4473033412259932,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",has_race_or_color,race_or_color,39,0.5896358543417367,10,0.5081597960050999,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",has_race_or_color,african-american,39,0.5896358543417367,13,0.48411602209944754,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",status record,module:,37,0.5366300366300366,5,0.4473033412259932,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",has_person_status,enslaved person,45,0.6675070028011204,15,0.6498465316144874,0.0,0.13557974295261277
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",has_person_status,soldier,45,0.6675070028011204,7,0.5843199158116286,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",has_person_status,free man,45,0.6675070028011204,8,0.5563996316758747,0.0,0.06647320574198648
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",has_status_generating_event,event,39,0.5476190476190476,5,0.6092081031307551,0.0,0.0
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",has_status_generating_event,escaped and enlisted in the british army,39,0.5476190476190476,31,0.6069981583793739,0.0,0.18329358111144384
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",has_status_generating_event,captured and returned to enslaver,39,0.5476190476190476,22,0.559247516602489,0.0,0.0384314644508115
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",has_status_generating_event,payment of bounty money after enlisting in the american army,39,0.5476190476190476,37,0.6186913909527741,0.0,0.1475296899059455
+hasdescription,"enslaved. free before 13th amendment. possibly born in africa and later enslaved by the family of aaron burr's brother, burr earned his freedom by fighting in the revolutionary war.",and enlisted in the british,"army""), has_status_generating_event(soldier, ""captured and returned to enslaver""), has_status_generating_event(free man, ""payment of bounty money after enlisting in the american army"").",39,0.5392416225749559,40,0.6696398055514078,0.0,0.12885414540028783

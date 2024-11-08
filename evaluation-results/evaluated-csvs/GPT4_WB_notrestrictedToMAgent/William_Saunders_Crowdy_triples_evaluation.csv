@@ -1,0 +1,769 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,william saunders crowdy,32,0.537878787878788,28,0.4734299516908213,0.0,0.0
+instance of,person,saunders,"crowdy, 'william saunders crowdy')",42,0.537878787878788,20,0.511437908496732,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,crowdy,27,0.49242424242424243,33,0.5555555555555555,0.0,0.0
+instance of,person,saunders,"crowdy, 'crowdy')",42,0.537878787878788,17,0.48366013071895425,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,william,40,0.5692640692640693,0,0.0,0.0,0.0
+instance of,person,saunders,"crowdy, 'william')",42,0.537878787878788,17,0.48148148148148145,0.0,0.0
+instance of,person,has_alternate_name,alternate_name,34,0.5107744107744108,30,0.5714285714285715,0.0,0.0
+instance of,person,has_alternate_name,wilson,34,0.5107744107744108,50,0.6666666666666666,0.0,0.0
+instance of,person,saunders,"crowdy, 'wilson')",42,0.537878787878788,35,0.48366013071895425,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type,relationship_type,33,0.5340909090909091,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type,son,33,0.5340909090909091,67,0.0,0.0,0.0
+instance of,person,saunders,"crowdy, 'son')",42,0.537878787878788,40,0.5674603174603174,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,basil crowdy,34,0.5798460798460798,22,0.47222222222222215,0.0,0.0
+instance of,person,is_relationship_to,sarah ann,34,0.5798460798460798,27,0.5,0.0,0.0
+instance of,person,saunders,"crowdy, 'basil crowdy'), is_relationship_to(william saunders crowdy, 'sarah ann')",42,0.537878787878788,14,0.5246913580246914,0.0,0.0
+instance of,person,role record,module:,27,0.49242424242424243,15,0.0,0.0,0.0
+instance of,person,has_participant_role,participant_role_type,32,0.5668831168831169,22,0.5357142857142857,0.0,0.0
+instance of,person,has_participant_role,slave,32,0.5668831168831169,18,0.0,0.0,0.0
+instance of,person,has_participant_role,soldier,32,0.5668831168831169,31,0.0,0.0,0.0
+instance of,person,has_participant_role,preacher,32,0.5668831168831169,43,0.5138888888888888,0.0,0.0
+instance of,person,has_participant_role,entrepreneur,32,0.5668831168831169,33,0.5833333333333334,0.0,0.0
+instance of,person,has_participant_role,pastor,32,0.5668831168831169,50,0.6666666666666666,0.0,0.0
+instance of,person,saunders,"crowdy, 'slave'), has_participant_role(william saunders crowdy, 'soldier'), has_participant_role(william saunders crowdy, 'preacher'), has_participant_role(william saunders crowdy, 'entrepreneur'), has_participant_role(william saunders crowdy, 'pastor')",42,0.537878787878788,5,0.5634606938954766,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,male,22,0.45598845598845594,20,0.47222222222222215,0.0,0.0
+instance of,person,saunders,"crowdy, 'male')",42,0.537878787878788,19,0.48888888888888893,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,soldier,24,0.38311688311688313,31,0.0,0.0,0.0
+instance of,person,has_occupation,preacher,24,0.38311688311688313,43,0.5138888888888888,0.0,0.0
+instance of,person,has_occupation,entrepreneur,24,0.38311688311688313,33,0.5833333333333334,0.0,0.0
+instance of,person,has_occupation,pastor,24,0.38311688311688313,50,0.6666666666666666,0.0,0.0
+instance of,person,saunders,"crowdy, 'soldier'), has_occupation(william saunders crowdy, 'preacher'), has_occupation(william saunders crowdy, 'entrepreneur'), has_occupation(william saunders crowdy, 'pastor')",42,0.537878787878788,6,0.5667287399130975,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_age,61,33,0.45598845598845594,0,0.0,0.0,0.0
+instance of,person,saunders,"crowdy, 61)",42,0.537878787878788,24,0.5050505050505051,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_birthdate,august 11,33,0.5463869463869464,13,0.4259259259259259,0.0,0.0
+instance of,person,has_birthdate,1847,33,0.5463869463869464,0,0.0,0.0,0.0
+instance of,person,saunders,"crowdy, 'august 11, 1847')",42,0.537878787878788,12,0.42735042735042733,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,august 4,33,0.39044289044289043,14,0.4305555555555555,0.0,0.0
+instance of,person,has_deathdate,1908,33,0.39044289044289043,0,0.0,0.0,0.0
+instance of,person,saunders,"crowdy, 'august 4, 1908')",42,0.537878787878788,13,0.4288888888888889,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_race_or_color,race_or_color,36,0.5162210338680927,32,0.46581196581196577,0.0,0.0
+instance of,person,has_race_or_color,black,36,0.5162210338680927,0,0.0,0.0,0.0
+instance of,person,saunders,"crowdy, 'black')",42,0.537878787878788,18,0.4861111111111111,0.0,0.0
+instance of,person,descriptor record,module:,29,0.5398523045581869,15,0.0,0.0,0.0
+instance of,person,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,34,0.5579124579124579,19,0.5255555555555556,0.0,0.0
+instance of,person,has_ethnolinguistic_descriptor,black hebrew israelite,34,0.5579124579124579,21,0.47474747474747475,0.0,0.0
+instance of,person,saunders,"crowdy, 'black hebrew israelite')",42,0.537878787878788,15,0.41919191919191917,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,slave,29,0.449554367201426,18,0.0,0.0,0.0
+instance of,person,has_person_status,free man,29,0.449554367201426,29,0.5138888888888888,0.0,0.0
+instance of,person,saunders,"crowdy, 'slave'), has_person_status(william saunders crowdy, 'free man')",42,0.537878787878788,15,0.5833333333333334,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_name,name,57,0.8055555555555556,50,0.6666666666666666,0.0,0.0
+hassex,male,has_name,william saunders crowdy,57,0.8055555555555556,22,0.6413043478260869,0.0,0.0
+hassex,male,saunders,"crowdy, 'william saunders crowdy')",29,0.5138888888888888,16,0.5016339869281046,0.0,0.0
+hassex,male,has_surname,surname,59,0.6767676767676768,36,0.0,0.0,0.0
+hassex,male,has_surname,crowdy,59,0.6767676767676768,0,0.0,0.0,0.0
+hassex,male,saunders,"crowdy, 'crowdy')",29,0.5138888888888888,0,0.0,0.0,0.0
+hassex,male,has_first_name,first_name,50,0.6507936507936508,29,0.0,0.0,0.0
+hassex,male,has_first_name,william,50,0.6507936507936508,18,0.46428571428571425,0.0,0.0
+hassex,male,saunders,"crowdy, 'william')",29,0.5138888888888888,9,0.0,0.0,0.0
+hassex,male,has_alternate_name,alternate_name,33,0.6296296296296297,33,0.6547619047619048,0.0,0.0
+hassex,male,has_alternate_name,wilson,33,0.6296296296296297,20,0.47222222222222215,0.0,0.0
+hassex,male,saunders,"crowdy, 'wilson')",29,0.5138888888888888,10,0.0,0.0,0.0
+hassex,male,relationship record,module:,24,0.44152046783625726,55,0.7535714285714287,0.0,0.0
+hassex,male,has_interagent_relationship_type,relationship_type,26,0.5972222222222222,19,0.5310457516339869,0.0,0.0
+hassex,male,has_interagent_relationship_type,son,26,0.5972222222222222,0,0.0,0.0,0.0
+hassex,male,saunders,"crowdy, 'son')",29,0.5138888888888888,0,0.0,0.0,0.0
+hassex,male,is_relationship_to,agent,17,0.46296296296296297,44,0.6333333333333333,0.0,0.0
+hassex,male,is_relationship_to,basil crowdy,17,0.46296296296296297,25,0.5555555555555555,0.0,0.0
+hassex,male,is_relationship_to,sarah ann,17,0.46296296296296297,15,0.4537037037037037,0.0,0.0
+hassex,male,saunders,"crowdy, 'basil crowdy'), is_relationship_to(william saunders crowdy, 'sarah ann')",29,0.5138888888888888,7,0.595679012345679,0.0,0.0
+hassex,male,role record,module:,12,0.41919191919191917,55,0.7535714285714287,0.0,0.0
+hassex,male,has_participant_role,participant_role_type,31,0.5499999999999999,24,0.43253968253968256,0.0,0.0
+hassex,male,has_participant_role,slave,31,0.5499999999999999,44,0.6722222222222222,0.0,0.0
+hassex,male,has_participant_role,soldier,31,0.5499999999999999,36,0.5952380952380952,0.0,0.0
+hassex,male,has_participant_role,preacher,31,0.5499999999999999,33,0.4166666666666667,0.0,0.0
+hassex,male,has_participant_role,entrepreneur,31,0.5499999999999999,12,0.4444444444444444,0.0,0.0
+hassex,male,has_participant_role,pastor,31,0.5499999999999999,20,0.47222222222222215,0.0,0.0
+hassex,male,saunders,"crowdy, 'slave'), has_participant_role(william saunders crowdy, 'soldier'), has_participant_role(william saunders crowdy, 'preacher'), has_participant_role(william saunders crowdy, 'entrepreneur'), has_participant_role(william saunders crowdy, 'pastor')",29,0.5138888888888888,3,0.5886034255599473,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_sex,sex_type,92,0.9666666666666667,17,0.4583333333333333,0.0,0.0
+hassex,male,has_sex,male,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,male,saunders,"crowdy, 'male')",29,0.5138888888888888,42,0.0,0.0,0.5797386715376658
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_occupation,occupation,30,0.5714285714285715,14,0.45,0.0,0.0
+hassex,male,has_occupation,soldier,30,0.5714285714285715,36,0.5952380952380952,0.0,0.0
+hassex,male,has_occupation,preacher,30,0.5714285714285715,33,0.4166666666666667,0.0,0.0
+hassex,male,has_occupation,entrepreneur,30,0.5714285714285715,12,0.4444444444444444,0.0,0.0
+hassex,male,has_occupation,pastor,30,0.5714285714285715,20,0.47222222222222215,0.0,0.0
+hassex,male,saunders,"crowdy, 'soldier'), has_occupation(william saunders crowdy, 'preacher'), has_occupation(william saunders crowdy, 'entrepreneur'), has_occupation(william saunders crowdy, 'pastor')",29,0.5138888888888888,4,0.5074487895716946,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_age,age,62,0.8222222222222222,57,0.7222222222222222,0.0,0.0
+hassex,male,has_age,61,62,0.8222222222222222,0,0.0,0.0,0.0
+hassex,male,saunders,"crowdy, 61)",29,0.5138888888888888,0,0.0,0.0,0.0
+hassex,male,has_birthdate,date_of_birth,42,0.576923076923077,24,0.5512820512820512,0.0,0.0
+hassex,male,has_birthdate,august 11,42,0.576923076923077,15,0.4537037037037037,0.0,0.0
+hassex,male,has_birthdate,1847,42,0.576923076923077,0,0.0,0.0,0.0
+hassex,male,saunders,"crowdy, 'august 11, 1847')",29,0.5138888888888888,7,0.42948717948717946,0.0,0.0
+hassex,male,has_deathdate,date_of_death,42,0.6581196581196581,24,0.5512820512820512,0.0,0.0
+hassex,male,has_deathdate,august 4,42,0.6581196581196581,17,0.4583333333333333,0.0,0.0
+hassex,male,has_deathdate,1908,42,0.6581196581196581,0,0.0,0.0,0.0
+hassex,male,saunders,"crowdy, 'august 4, 1908')",29,0.5138888888888888,7,0.43,0.0,0.0
+hassex,male,record,module:,17,0.0,55,0.7535714285714287,0.0,0.0
+hassex,male,has_race_or_color,race_or_color,35,0.6339869281045751,24,0.5512820512820512,0.0,0.0
+hassex,male,has_race_or_color,black,35,0.6339869281045751,22,0.4666666666666666,0.0,0.0
+hassex,male,saunders,"crowdy, 'black')",29,0.5138888888888888,10,0.0,0.0,0.0
+hassex,male,descriptor record,module:,17,0.31699346405228757,55,0.7535714285714287,0.0,0.0
+hassex,male,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,28,0.6,14,0.36000000000000004,0.0,0.0
+hassex,male,has_ethnolinguistic_descriptor,black hebrew israelite,28,0.6,23,0.5176767676767676,0.0,0.0
+hassex,male,saunders,"crowdy, 'black hebrew israelite')",29,0.5138888888888888,16,0.5025252525252525,0.0,0.0
+hassex,male,status record,module:,32,0.5747863247863249,55,0.7535714285714287,0.0,0.0
+hassex,male,has_person_status,slave,35,0.642483660130719,44,0.6722222222222222,0.0,0.0
+hassex,male,has_person_status,free man,35,0.642483660130719,33,0.4583333333333333,0.0,0.0
+hassex,male,saunders,"crowdy, 'slave'), has_person_status(william saunders crowdy, 'free man')",29,0.5138888888888888,8,0.4861111111111111,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,william saunders crowdy,38,0.5675925925925926,21,0.5768115942028985,0.0,0.0
+hasparticipantrole,child,saunders,"crowdy, 'william saunders crowdy')",31,0.40277777777777773,21,0.5558823529411765,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,crowdy,41,0.6274651274651274,36,0.5777777777777778,0.0,0.0
+hasparticipantrole,child,saunders,"crowdy, 'crowdy')",31,0.40277777777777773,18,0.5058823529411764,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,william,44,0.6772486772486772,33,0.5619047619047619,0.0,0.0
+hasparticipantrole,child,saunders,"crowdy, 'william')",31,0.40277777777777773,26,0.5907407407407407,0.0,0.0
+hasparticipantrole,child,has_alternate_name,alternate_name,44,0.6370370370370371,11,0.4238095238095238,0.0,0.0
+hasparticipantrole,child,has_alternate_name,wilson,44,0.6370370370370371,36,0.5777777777777778,0.0,0.0
+hasparticipantrole,child,saunders,"crowdy, 'wilson')",31,0.40277777777777773,27,0.5058823529411764,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type,relationship_type,44,0.65625,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type,son,44,0.65625,0,0.0,0.0,0.0
+hasparticipantrole,child,saunders,"crowdy, 'son')",31,0.40277777777777773,21,0.5142857142857143,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,basil crowdy,44,0.6037037037037037,35,0.5222222222222223,0.0,0.0
+hasparticipantrole,child,is_relationship_to,sarah ann,44,0.6037037037037037,14,0.43703703703703706,0.0,0.0
+hasparticipantrole,child,saunders,"crowdy, 'basil crowdy'), is_relationship_to(william saunders crowdy, 'sarah ann')",31,0.40277777777777773,12,0.6205761316872428,0.0,0.0
+hasparticipantrole,child,role record,module:,28,0.4452861952861953,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant_role_type,95,0.9766666666666667,23,0.33174603174603173,0.0,0.0
+hasparticipantrole,child,has_participant_role,slave,95,0.9766666666666667,20,0.0,0.0,0.0
+hasparticipantrole,child,has_participant_role,soldier,95,0.9766666666666667,33,0.565079365079365,0.0,0.0
+hasparticipantrole,child,has_participant_role,preacher,95,0.9766666666666667,31,0.0,0.0,0.0
+hasparticipantrole,child,has_participant_role,entrepreneur,95,0.9766666666666667,0,0.0,0.0,0.0
+hasparticipantrole,child,has_participant_role,pastor,95,0.9766666666666667,0,0.0,0.0,0.0
+hasparticipantrole,child,saunders,"crowdy, 'slave'), has_participant_role(william saunders crowdy, 'soldier'), has_participant_role(william saunders crowdy, 'preacher'), has_participant_role(william saunders crowdy, 'entrepreneur'), has_participant_role(william saunders crowdy, 'pastor')",31,0.40277777777777773,4,0.5399209486166008,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,male,32,0.5317460317460317,22,0.48333333333333334,0.0,0.0
+hasparticipantrole,child,saunders,"crowdy, 'male')",31,0.40277777777777773,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,soldier,50,0.6566137566137565,33,0.565079365079365,0.0,0.0
+hasparticipantrole,child,has_occupation,preacher,50,0.6566137566137565,31,0.0,0.0,0.0
+hasparticipantrole,child,has_occupation,entrepreneur,50,0.6566137566137565,0,0.0,0.0,0.0
+hasparticipantrole,child,has_occupation,pastor,50,0.6566137566137565,0,0.0,0.0,0.0
+hasparticipantrole,child,saunders,"crowdy, 'soldier'), has_occupation(william saunders crowdy, 'preacher'), has_occupation(william saunders crowdy, 'entrepreneur'), has_occupation(william saunders crowdy, 'pastor')",31,0.40277777777777773,5,0.5426443202979515,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_age,age,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_age,61,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,saunders,"crowdy, 61)",31,0.40277777777777773,25,0.5272727272727272,0.0,0.0
+hasparticipantrole,child,has_birthdate,date_of_birth,52,0.6937321937321936,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_birthdate,august 11,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,child,has_birthdate,1847,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,child,saunders,"crowdy, 'august 11, 1847')",31,0.40277777777777773,13,0.49230769230769234,0.0,0.0
+hasparticipantrole,child,has_deathdate,date_of_death,52,0.6866096866096866,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_deathdate,august 4,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,child,has_deathdate,1908,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,child,saunders,"crowdy, 'august 4, 1908')",31,0.40277777777777773,13,0.49333333333333335,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_race_or_color,race_or_color,46,0.60239651416122,22,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_race_or_color,black,46,0.60239651416122,20,0.0,0.0,0.0
+hasparticipantrole,child,saunders,"crowdy, 'black')",31,0.40277777777777773,19,0.4847222222222222,0.0,0.0
+hasparticipantrole,child,descriptor record,module:,40,0.5653594771241829,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,42,0.5903133903133903,13,0.46222222222222226,0.0,0.0
+hasparticipantrole,child,has_ethnolinguistic_descriptor,black hebrew israelite,42,0.5903133903133903,30,0.46767676767676764,0.0,0.0
+hasparticipantrole,child,saunders,"crowdy, 'black hebrew israelite')",31,0.40277777777777773,21,0.5570707070707072,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,slave,46,0.6479302832244008,20,0.0,0.0,0.0
+hasparticipantrole,child,has_person_status,free man,46,0.6479302832244008,0,0.0,0.0,0.0
+hasparticipantrole,child,saunders,"crowdy, 'slave'), has_person_status(william saunders crowdy, 'free man')",31,0.40277777777777773,13,0.5564814814814815,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,william saunders crowdy,38,0.5675925925925926,37,0.5156199677938809,0.0,0.0
+hasparticipantrole,deceased person,saunders,"crowdy, 'william saunders crowdy')",31,0.40277777777777773,33,0.5341057635175283,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,crowdy,41,0.6274651274651274,29,0.32222222222222224,0.0,0.0
+hasparticipantrole,deceased person,saunders,"crowdy, 'crowdy')",31,0.40277777777777773,31,0.4176470588235294,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,william,44,0.6772486772486772,9,0.40317460317460313,0.0,0.0
+hasparticipantrole,deceased person,saunders,"crowdy, 'william')",31,0.40277777777777773,18,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_alternate_name,alternate_name,44,0.6370370370370371,28,0.43015873015873013,0.0,0.0
+hasparticipantrole,deceased person,has_alternate_name,wilson,44,0.6370370370370371,29,0.41111111111111115,0.0,0.0
+hasparticipantrole,deceased person,saunders,"crowdy, 'wilson')",31,0.40277777777777773,38,0.4732026143790849,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type,relationship_type,44,0.65625,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type,son,44,0.65625,33,0.4666666666666666,0.0,0.0
+hasparticipantrole,deceased person,saunders,"crowdy, 'son')",31,0.40277777777777773,41,0.4984126984126984,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,basil crowdy,44,0.6037037037037037,37,0.5404761904761904,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,sarah ann,44,0.6037037037037037,25,0.487037037037037,0.0,0.0
+hasparticipantrole,deceased person,saunders,"crowdy, 'basil crowdy'), is_relationship_to(william saunders crowdy, 'sarah ann')",31,0.40277777777777773,23,0.48271604938271606,0.0,0.0
+hasparticipantrole,deceased person,role record,module:,28,0.4452861952861953,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant_role_type,95,0.9766666666666667,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,slave,95,0.9766666666666667,20,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,soldier,95,0.9766666666666667,36,0.5293650793650794,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,preacher,95,0.9766666666666667,35,0.5861111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,entrepreneur,95,0.9766666666666667,37,0.5880952380952381,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,pastor,95,0.9766666666666667,29,0.5666666666666667,0.0,0.0
+hasparticipantrole,deceased person,saunders,"crowdy, 'slave'), has_participant_role(william saunders crowdy, 'soldier'), has_participant_role(william saunders crowdy, 'preacher'), has_participant_role(william saunders crowdy, 'entrepreneur'), has_participant_role(william saunders crowdy, 'pastor')",31,0.40277777777777773,11,0.5530961791831358,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,male,32,0.5317460317460317,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,saunders,"crowdy, 'male')",31,0.40277777777777773,27,0.4222222222222222,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,soldier,50,0.6566137566137565,36,0.5293650793650794,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,preacher,50,0.6566137566137565,35,0.5861111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,entrepreneur,50,0.6566137566137565,37,0.5880952380952381,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,pastor,50,0.6566137566137565,29,0.5666666666666667,0.0,0.0
+hasparticipantrole,deceased person,saunders,"crowdy, 'soldier'), has_occupation(william saunders crowdy, 'preacher'), has_occupation(william saunders crowdy, 'entrepreneur'), has_occupation(william saunders crowdy, 'pastor')",31,0.40277777777777773,15,0.539044072004966,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_age,age,40,0.5978835978835978,22,0.4333333333333333,0.0,0.0
+hasparticipantrole,deceased person,has_age,61,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,saunders,"crowdy, 61)",31,0.40277777777777773,23,0.3797979797979798,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,date_of_birth,52,0.6937321937321936,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,august 11,52,0.6937321937321936,25,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,1847,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,saunders,"crowdy, 'august 11, 1847')",31,0.40277777777777773,20,0.4357753357753358,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,date_of_death,52,0.6866096866096866,36,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,august 4,52,0.6866096866096866,26,0.525,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,1908,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,saunders,"crowdy, 'august 4, 1908')",31,0.40277777777777773,20,0.4393650793650794,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,race_or_color,46,0.60239651416122,29,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_race_or_color,black,46,0.60239651416122,10,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,saunders,"crowdy, 'black')",31,0.40277777777777773,19,0.33888888888888885,0.0,0.0
+hasparticipantrole,deceased person,descriptor record,module:,40,0.5653594771241829,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,42,0.5903133903133903,30,0.5051851851851852,0.0,0.0
+hasparticipantrole,deceased person,has_ethnolinguistic_descriptor,black hebrew israelite,42,0.5903133903133903,27,0.5073232323232323,0.0,0.0
+hasparticipantrole,deceased person,saunders,"crowdy, 'black hebrew israelite')",31,0.40277777777777773,25,0.4760942760942761,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,slave,46,0.6479302832244008,20,0.48888888888888893,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,free man,46,0.6479302832244008,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,saunders,"crowdy, 'slave'), has_person_status(william saunders crowdy, 'free man')",31,0.40277777777777773,25,0.5166666666666667,0.0,0.0
+hasdescriptiveoccupation,chef / cook,record,module:,27,0.6138888888888889,11,0.41125541125541126,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_name,name,25,0.5555555555555555,13,0.44696969696969696,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_name,william saunders crowdy,25,0.5555555555555555,24,0.5125164690382081,0.0,0.0
+hasdescriptiveoccupation,chef / cook,saunders,"crowdy, 'william saunders crowdy')",25,0.5555555555555555,22,0.41042780748663105,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_surname,surname,34,0.5474386724386724,11,0.41125541125541126,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_surname,crowdy,34,0.5474386724386724,24,0.41919191919191917,0.0,0.0
+hasdescriptiveoccupation,chef / cook,saunders,"crowdy, 'crowdy')",25,0.5555555555555555,29,0.5162210338680927,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_first_name,first_name,32,0.5615079365079364,10,0.396969696969697,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_first_name,william,32,0.5615079365079364,0,0.0,0.0,0.0
+hasdescriptiveoccupation,chef / cook,saunders,"crowdy, 'william')",25,0.5555555555555555,14,0.3686868686868687,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_alternate_name,alternate_name,38,0.5574074074074075,8,0.3874458874458875,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_alternate_name,wilson,38,0.5574074074074075,12,0.41919191919191917,0.0,0.0
+hasdescriptiveoccupation,chef / cook,saunders,"crowdy, 'wilson')",25,0.5555555555555555,21,0.4496434937611408,0.0,0.0
+hasdescriptiveoccupation,chef / cook,relationship record,module:,33,0.6137539361223572,11,0.41125541125541126,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,14,0.4331550802139037,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_interagent_relationship_type,son,43,0.5868055555555555,14,0.0,0.0,0.0
+hasdescriptiveoccupation,chef / cook,saunders,"crowdy, 'son')",25,0.5555555555555555,24,0.46645021645021645,0.0,0.0
+hasdescriptiveoccupation,chef / cook,is_relationship_to,agent,38,0.6264245014245015,12,0.43030303030303035,0.0,0.0
+hasdescriptiveoccupation,chef / cook,is_relationship_to,basil crowdy,38,0.6264245014245015,26,0.5075757575757576,0.0,0.0
+hasdescriptiveoccupation,chef / cook,is_relationship_to,sarah ann,38,0.6264245014245015,20,0.468013468013468,0.0,0.0
+hasdescriptiveoccupation,chef / cook,saunders,"crowdy, 'basil crowdy'), is_relationship_to(william saunders crowdy, 'sarah ann')",25,0.5555555555555555,13,0.48367938645716424,0.0,0.0
+hasdescriptiveoccupation,chef / cook,role record,module:,29,0.4873737373737373,11,0.41125541125541126,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_participant_role,participant_role_type,50,0.6805555555555555,12,0.42568542568542567,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_participant_role,slave,50,0.6805555555555555,12,0.43030303030303035,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_participant_role,soldier,50,0.6805555555555555,11,0.41125541125541126,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_participant_role,preacher,50,0.6805555555555555,32,0.43813131313131315,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_participant_role,entrepreneur,50,0.6805555555555555,9,0.39141414141414144,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_participant_role,pastor,50,0.6805555555555555,12,0.41919191919191917,0.0,0.0
+hasdescriptiveoccupation,chef / cook,saunders,"crowdy, 'slave'), has_participant_role(william saunders crowdy, 'soldier'), has_participant_role(william saunders crowdy, 'preacher'), has_participant_role(william saunders crowdy, 'entrepreneur'), has_participant_role(william saunders crowdy, 'pastor')",25,0.5555555555555555,6,0.5029644268774703,0.0,0.0
+hasdescriptiveoccupation,chef / cook,record,module:,27,0.6138888888888889,11,0.41125541125541126,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_sex,sex_type,32,0.5742063492063493,11,0.4053030303030303,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_sex,male,32,0.5742063492063493,13,0.44696969696969696,0.0,0.0
+hasdescriptiveoccupation,chef / cook,saunders,"crowdy, 'male')",25,0.5555555555555555,15,0.3797979797979798,0.0,0.0
+hasdescriptiveoccupation,chef / cook,record,module:,27,0.6138888888888889,11,0.41125541125541126,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_occupation,occupation,68,0.8045940170940171,29,0.46060606060606063,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_occupation,soldier,68,0.8045940170940171,11,0.41125541125541126,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_occupation,preacher,68,0.8045940170940171,32,0.43813131313131315,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_occupation,entrepreneur,68,0.8045940170940171,9,0.39141414141414144,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_occupation,pastor,68,0.8045940170940171,12,0.41919191919191917,0.0,0.0
+hasdescriptiveoccupation,chef / cook,saunders,"crowdy, 'soldier'), has_occupation(william saunders crowdy, 'preacher'), has_occupation(william saunders crowdy, 'entrepreneur'), has_occupation(william saunders crowdy, 'pastor')",25,0.5555555555555555,8,0.46565515490096493,0.0,0.0
+hasdescriptiveoccupation,chef / cook,record,module:,27,0.6138888888888889,11,0.41125541125541126,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_age,age,26,0.5793650793650794,14,0.47474747474747475,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_age,61,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,chef / cook,saunders,"crowdy, 61)",25,0.5555555555555555,18,0.4545454545454546,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_birthdate,date_of_birth,38,0.6286324786324786,17,0.3900543900543901,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_birthdate,august 11,38,0.6286324786324786,10,0.4006734006734007,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_birthdate,1847,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,chef / cook,saunders,"crowdy, 'august 11, 1847')",25,0.5555555555555555,16,0.4224941724941725,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_deathdate,date_of_death,43,0.652065527065527,17,0.3900543900543901,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_deathdate,august 4,43,0.652065527065527,11,0.4053030303030303,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_deathdate,1908,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,chef / cook,saunders,"crowdy, 'august 4, 1908')",25,0.5555555555555555,17,0.42454545454545456,0.0,0.0
+hasdescriptiveoccupation,chef / cook,record,module:,27,0.6138888888888889,11,0.41125541125541126,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_race_or_color,race_or_color,39,0.5977668845315903,42,0.5463869463869464,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_race_or_color,black,39,0.5977668845315903,25,0.43030303030303035,0.0,0.0
+hasdescriptiveoccupation,chef / cook,saunders,"crowdy, 'black')",25,0.5555555555555555,30,0.5223484848484848,0.0,0.0
+hasdescriptiveoccupation,chef / cook,descriptor record,module:,54,0.6797385620915034,11,0.41125541125541126,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,44,0.6722222222222222,22,0.35313131313131313,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_ethnolinguistic_descriptor,black hebrew israelite,44,0.6722222222222222,24,0.494949494949495,0.0,0.0
+hasdescriptiveoccupation,chef / cook,saunders,"crowdy, 'black hebrew israelite')",25,0.5555555555555555,18,0.5315656565656566,0.0,0.0
+hasdescriptiveoccupation,chef / cook,status record,module:,32,0.540954415954416,11,0.41125541125541126,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_person_status,slave,39,0.6241830065359477,12,0.43030303030303035,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_person_status,free man,39,0.6241830065359477,21,0.43813131313131315,0.0,0.0
+hasdescriptiveoccupation,chef / cook,saunders,"crowdy, 'slave'), has_person_status(william saunders crowdy, 'free man')",25,0.5555555555555555,17,0.4826238576238577,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,william saunders crowdy,25,0.5555555555555555,21,0.5746376811594204,0.0,0.0
+hasdescriptiveoccupation,slave,saunders,"crowdy, 'william saunders crowdy')",25,0.5555555555555555,15,0.4862745098039216,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,surname,34,0.5474386724386724,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,crowdy,34,0.5474386724386724,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,saunders,"crowdy, 'crowdy')",25,0.5555555555555555,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,first_name,32,0.5615079365079364,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,william,32,0.5615079365079364,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,saunders,"crowdy, 'william')",25,0.5555555555555555,17,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_alternate_name,alternate_name,38,0.5574074074074075,32,0.4936507936507937,0.0,0.0
+hasdescriptiveoccupation,slave,has_alternate_name,wilson,38,0.5574074074074075,18,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,saunders,"crowdy, 'wilson')",25,0.5555555555555555,9,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,relationship record,module:,33,0.6137539361223572,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,27,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type,son,43,0.5868055555555555,25,0.5111111111111111,0.0,0.0
+hasdescriptiveoccupation,slave,saunders,"crowdy, 'son')",25,0.5555555555555555,11,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,agent,38,0.6264245014245015,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,basil crowdy,38,0.6264245014245015,24,0.5055555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,sarah ann,38,0.6264245014245015,29,0.5407407407407407,0.0,0.0
+hasdescriptiveoccupation,slave,saunders,"crowdy, 'basil crowdy'), is_relationship_to(william saunders crowdy, 'sarah ann')",25,0.5555555555555555,9,0.5331275720164609,0.0,0.0
+hasdescriptiveoccupation,slave,role record,module:,29,0.4873737373737373,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,participant_role_type,50,0.6805555555555555,15,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,slave,50,0.6805555555555555,100,1.0,0.0,1.0
+hasdescriptiveoccupation,slave,has_participant_role,soldier,50,0.6805555555555555,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,preacher,50,0.6805555555555555,31,0.3833333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,entrepreneur,50,0.6805555555555555,12,0.42777777777777776,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,pastor,50,0.6805555555555555,18,0.41111111111111115,0.0,0.0
+hasdescriptiveoccupation,slave,saunders,"crowdy, 'slave'), has_participant_role(william saunders crowdy, 'soldier'), has_participant_role(william saunders crowdy, 'preacher'), has_participant_role(william saunders crowdy, 'entrepreneur'), has_participant_role(william saunders crowdy, 'pastor')",25,0.5555555555555555,4,0.6732542819499342,0.0,0.0808186489670161
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,sex_type,32,0.5742063492063493,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,male,32,0.5742063492063493,44,0.6722222222222222,0.0,0.0
+hasdescriptiveoccupation,slave,saunders,"crowdy, 'male')",25,0.5555555555555555,20,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,soldier,68,0.8045940170940171,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,preacher,68,0.8045940170940171,31,0.3833333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,entrepreneur,68,0.8045940170940171,12,0.42777777777777776,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,pastor,68,0.8045940170940171,18,0.41111111111111115,0.0,0.0
+hasdescriptiveoccupation,slave,saunders,"crowdy, 'soldier'), has_occupation(william saunders crowdy, 'preacher'), has_occupation(william saunders crowdy, 'entrepreneur'), has_occupation(william saunders crowdy, 'pastor')",25,0.5555555555555555,4,0.5241154562383613,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,age,26,0.5793650793650794,50,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,61,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,saunders,"crowdy, 61)",25,0.5555555555555555,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,date_of_birth,38,0.6286324786324786,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,august 11,38,0.6286324786324786,14,0.43703703703703706,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,1847,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,saunders,"crowdy, 'august 11, 1847')",25,0.5555555555555555,6,0.41282051282051285,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,date_of_death,43,0.652065527065527,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,august 4,43,0.652065527065527,15,0.44166666666666665,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,1908,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,saunders,"crowdy, 'august 4, 1908')",25,0.5555555555555555,7,0.41333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,race_or_color,39,0.5977668845315903,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_race_or_color,black,39,0.5977668845315903,40,0.6,0.0,0.0
+hasdescriptiveoccupation,slave,saunders,"crowdy, 'black')",25,0.5555555555555555,19,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,descriptor record,module:,54,0.6797385620915034,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,44,0.6722222222222222,13,0.46222222222222226,0.0,0.0
+hasdescriptiveoccupation,slave,has_ethnolinguistic_descriptor,black hebrew israelite,44,0.6722222222222222,22,0.5787878787878787,0.0,0.0
+hasdescriptiveoccupation,slave,saunders,"crowdy, 'black hebrew israelite')",25,0.5555555555555555,16,0.5636363636363636,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,slave,39,0.6241830065359477,100,1.0,0.0,1.0
+hasdescriptiveoccupation,slave,has_person_status,free man,39,0.6241830065359477,15,0.44166666666666665,0.0,0.0
+hasdescriptiveoccupation,slave,saunders,"crowdy, 'slave'), has_person_status(william saunders crowdy, 'free man')",25,0.5555555555555555,13,0.6898148148148149,0.0,0.23076792961123066
+hasdescriptiveoccupation,fugitive slave,record,module:,27,0.6138888888888889,29,0.43650793650793646,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_name,name,25,0.5555555555555555,22,0.44047619047619047,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_name,william saunders crowdy,25,0.5555555555555555,32,0.5564182194616977,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,saunders,"crowdy, 'william saunders crowdy')",25,0.5555555555555555,25,0.4257703081232493,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_surname,surname,34,0.5474386724386724,29,0.4761904761904762,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_surname,crowdy,34,0.5474386724386724,0,0.0,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,saunders,"crowdy, 'crowdy')",25,0.5555555555555555,6,0.37675070028011204,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_first_name,first_name,32,0.5615079365079364,42,0.565079365079365,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_first_name,william,32,0.5615079365079364,29,0.5476190476190476,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,saunders,"crowdy, 'william')",25,0.5555555555555555,19,0.4783068783068783,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_alternate_name,alternate_name,38,0.5574074074074075,29,0.5238095238095238,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_alternate_name,wilson,38,0.5574074074074075,20,0.4920634920634921,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,saunders,"crowdy, 'wilson')",25,0.5555555555555555,13,0.34033613445378147,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,relationship record,module:,33,0.6137539361223572,29,0.43650793650793646,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,26,0.53828197945845,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_interagent_relationship_type,son,43,0.5868055555555555,12,0.0,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,saunders,"crowdy, 'son')",25,0.5555555555555555,14,0.42857142857142855,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,is_relationship_to,agent,38,0.6264245014245015,21,0.4936507936507937,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,is_relationship_to,basil crowdy,38,0.6264245014245015,15,0.376984126984127,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,is_relationship_to,sarah ann,38,0.6264245014245015,17,0.45502645502645506,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,saunders,"crowdy, 'basil crowdy'), is_relationship_to(william saunders crowdy, 'sarah ann')",25,0.5555555555555555,15,0.3900646678424456,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,role record,module:,29,0.4873737373737373,29,0.43650793650793646,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_participant_role,participant_role_type,50,0.6805555555555555,23,0.5158730158730158,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_participant_role,slave,50,0.6805555555555555,53,0.5142857142857143,0.0,0.5797386715376658
+hasdescriptiveoccupation,fugitive slave,has_participant_role,soldier,50,0.6805555555555555,29,0.4761904761904762,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_participant_role,preacher,50,0.6805555555555555,27,0.3988095238095238,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_participant_role,entrepreneur,50,0.6805555555555555,23,0.48809523809523814,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_participant_role,pastor,50,0.6805555555555555,10,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,saunders,"crowdy, 'slave'), has_participant_role(william saunders crowdy, 'soldier'), has_participant_role(william saunders crowdy, 'preacher'), has_participant_role(william saunders crowdy, 'entrepreneur'), has_participant_role(william saunders crowdy, 'pastor')",25,0.5555555555555555,7,0.48851872764916243,0.0,0.04685369618760686
+hasdescriptiveoccupation,fugitive slave,record,module:,27,0.6138888888888889,29,0.43650793650793646,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_sex,sex_type,32,0.5742063492063493,18,0.41865079365079366,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_sex,male,32,0.5742063492063493,22,0.44047619047619047,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,saunders,"crowdy, 'male')",25,0.5555555555555555,21,0.43412698412698414,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,record,module:,27,0.6138888888888889,29,0.43650793650793646,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_occupation,occupation,68,0.8045940170940171,25,0.4785714285714286,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_occupation,soldier,68,0.8045940170940171,29,0.4761904761904762,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_occupation,preacher,68,0.8045940170940171,27,0.3988095238095238,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_occupation,entrepreneur,68,0.8045940170940171,23,0.48809523809523814,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_occupation,pastor,68,0.8045940170940171,10,0.41269841269841273,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,saunders,"crowdy, 'soldier'), has_occupation(william saunders crowdy, 'preacher'), has_occupation(william saunders crowdy, 'entrepreneur'), has_occupation(william saunders crowdy, 'pastor')",25,0.5555555555555555,10,0.4900505453578079,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,record,module:,27,0.6138888888888889,29,0.43650793650793646,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_age,age,26,0.5793650793650794,24,0.6031746031746031,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_age,61,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,saunders,"crowdy, 61)",25,0.5555555555555555,8,0.3874458874458875,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_birthdate,date_of_birth,38,0.6286324786324786,22,0.3644688644688645,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_birthdate,august 11,38,0.6286324786324786,35,0.5708994708994709,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_birthdate,1847,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,saunders,"crowdy, 'august 11, 1847')",25,0.5555555555555555,20,0.442002442002442,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_deathdate,date_of_death,43,0.652065527065527,22,0.4472527472527473,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_deathdate,august 4,43,0.652065527065527,36,0.594047619047619,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_deathdate,1908,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,saunders,"crowdy, 'august 4, 1908')",25,0.5555555555555555,21,0.445079365079365,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,record,module:,27,0.6138888888888889,29,0.43650793650793646,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_race_or_color,race_or_color,39,0.5977668845315903,15,0.43223443223443225,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_race_or_color,black,39,0.5977668845315903,21,0.0,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,saunders,"crowdy, 'black')",25,0.5555555555555555,20,0.4672619047619048,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,descriptor record,module:,54,0.6797385620915034,29,0.43650793650793646,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,44,0.6722222222222222,31,0.5194708994708995,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_ethnolinguistic_descriptor,black hebrew israelite,44,0.6722222222222222,28,0.4632034632034632,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,saunders,"crowdy, 'black hebrew israelite')",25,0.5555555555555555,21,0.37012987012987014,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,status record,module:,32,0.540954415954416,29,0.43650793650793646,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,has_person_status,slave,39,0.6241830065359477,53,0.5142857142857143,0.0,0.5797386715376658
+hasdescriptiveoccupation,fugitive slave,has_person_status,free man,39,0.6241830065359477,36,0.5952380952380952,0.0,0.0
+hasdescriptiveoccupation,fugitive slave,saunders,"crowdy, 'slave'), has_person_status(william saunders crowdy, 'free man')",25,0.5555555555555555,16,0.5249518999519,0.0,0.13378509294631244
+hasdescriptiveoccupation,church founder,record,module:,27,0.6138888888888889,29,0.4047619047619047,0.0,0.0
+hasdescriptiveoccupation,church founder,has_name,name,25,0.5555555555555555,22,0.0,0.0,0.0
+hasdescriptiveoccupation,church founder,has_name,william saunders crowdy,25,0.5555555555555555,32,0.5075914423740511,0.0,0.0
+hasdescriptiveoccupation,church founder,saunders,"crowdy, 'william saunders crowdy')",25,0.5555555555555555,33,0.5617802676626207,0.0,0.0
+hasdescriptiveoccupation,church founder,has_surname,surname,34,0.5474386724386724,38,0.5476190476190476,0.0,0.0
+hasdescriptiveoccupation,church founder,has_surname,crowdy,34,0.5474386724386724,40,0.5714285714285715,0.0,0.0
+hasdescriptiveoccupation,church founder,saunders,"crowdy, 'crowdy')",25,0.5555555555555555,32,0.542016806722689,0.0,0.0
+hasdescriptiveoccupation,church founder,has_first_name,first_name,32,0.5615079365079364,25,0.5047619047619047,0.0,0.0
+hasdescriptiveoccupation,church founder,has_first_name,william,32,0.5615079365079364,0,0.0,0.0,0.0
+hasdescriptiveoccupation,church founder,saunders,"crowdy, 'william')",25,0.5555555555555555,25,0.4783068783068783,0.0,0.0
+hasdescriptiveoccupation,church founder,has_alternate_name,alternate_name,38,0.5574074074074075,21,0.4761904761904762,0.0,0.0
+hasdescriptiveoccupation,church founder,has_alternate_name,wilson,38,0.5574074074074075,20,0.4920634920634921,0.0,0.0
+hasdescriptiveoccupation,church founder,saunders,"crowdy, 'wilson')",25,0.5555555555555555,32,0.4827264239028945,0.0,0.0
+hasdescriptiveoccupation,church founder,relationship record,module:,33,0.6137539361223572,29,0.4047619047619047,0.0,0.0
+hasdescriptiveoccupation,church founder,has_interagent_relationship_type,relationship_type,43,0.5868055555555555,26,0.4837535014005603,0.0,0.0
+hasdescriptiveoccupation,church founder,has_interagent_relationship_type,son,43,0.5868055555555555,24,0.0,0.0,0.0
+hasdescriptiveoccupation,church founder,saunders,"crowdy, 'son')",25,0.5555555555555555,36,0.5047619047619047,0.0,0.0
+hasdescriptiveoccupation,church founder,is_relationship_to,agent,38,0.6264245014245015,11,0.0,0.0,0.0
+hasdescriptiveoccupation,church founder,is_relationship_to,basil crowdy,38,0.6264245014245015,31,0.5246031746031746,0.0,0.0
+hasdescriptiveoccupation,church founder,is_relationship_to,sarah ann,38,0.6264245014245015,35,0.49338624338624343,0.0,0.0
+hasdescriptiveoccupation,church founder,saunders,"crowdy, 'basil crowdy'), is_relationship_to(william saunders crowdy, 'sarah ann')",25,0.5555555555555555,21,0.47924750146972367,0.0,0.0
+hasdescriptiveoccupation,church founder,role record,module:,29,0.4873737373737373,29,0.4047619047619047,0.0,0.0
+hasdescriptiveoccupation,church founder,has_participant_role,participant_role_type,50,0.6805555555555555,23,0.4047619047619047,0.0,0.0
+hasdescriptiveoccupation,church founder,has_participant_role,slave,50,0.6805555555555555,11,0.0,0.0,0.0
+hasdescriptiveoccupation,church founder,has_participant_role,soldier,50,0.6805555555555555,38,0.4047619047619047,0.0,0.0
+hasdescriptiveoccupation,church founder,has_participant_role,preacher,50,0.6805555555555555,45,0.594047619047619,0.0,0.0
+hasdescriptiveoccupation,church founder,has_participant_role,entrepreneur,50,0.6805555555555555,31,0.5246031746031746,0.0,0.0
+hasdescriptiveoccupation,church founder,has_participant_role,pastor,50,0.6805555555555555,20,0.3253968253968254,0.0,0.0
+hasdescriptiveoccupation,church founder,saunders,"crowdy, 'slave'), has_participant_role(william saunders crowdy, 'soldier'), has_participant_role(william saunders crowdy, 'preacher'), has_participant_role(william saunders crowdy, 'entrepreneur'), has_participant_role(william saunders crowdy, 'pastor')",25,0.5555555555555555,10,0.5317798143885101,0.0,0.0
+hasdescriptiveoccupation,church founder,record,module:,27,0.6138888888888889,29,0.4047619047619047,0.0,0.0
+hasdescriptiveoccupation,church founder,has_sex,sex_type,32,0.5742063492063493,9,0.3988095238095238,0.0,0.0
+hasdescriptiveoccupation,church founder,has_sex,male,32,0.5742063492063493,11,0.0,0.0,0.0
+hasdescriptiveoccupation,church founder,saunders,"crowdy, 'male')",25,0.5555555555555555,34,0.49682539682539684,0.0,0.0
+hasdescriptiveoccupation,church founder,record,module:,27,0.6138888888888889,29,0.4047619047619047,0.0,0.0
+hasdescriptiveoccupation,church founder,has_occupation,occupation,68,0.8045940170940171,33,0.5523809523809524,0.0,0.0
+hasdescriptiveoccupation,church founder,has_occupation,soldier,68,0.8045940170940171,38,0.4047619047619047,0.0,0.0
+hasdescriptiveoccupation,church founder,has_occupation,preacher,68,0.8045940170940171,45,0.594047619047619,0.0,0.0
+hasdescriptiveoccupation,church founder,has_occupation,entrepreneur,68,0.8045940170940171,31,0.5246031746031746,0.0,0.0
+hasdescriptiveoccupation,church founder,has_occupation,pastor,68,0.8045940170940171,20,0.3253968253968254,0.0,0.0
+hasdescriptiveoccupation,church founder,saunders,"crowdy, 'soldier'), has_occupation(william saunders crowdy, 'preacher'), has_occupation(william saunders crowdy, 'entrepreneur'), has_occupation(william saunders crowdy, 'pastor')",25,0.5555555555555555,13,0.5132195551189964,0.0,0.0
+hasdescriptiveoccupation,church founder,record,module:,27,0.6138888888888889,29,0.4047619047619047,0.0,0.0
+hasdescriptiveoccupation,church founder,has_age,age,26,0.5793650793650794,12,0.0,0.0,0.0
+hasdescriptiveoccupation,church founder,has_age,61,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,church founder,saunders,"crowdy, 61)",25,0.5555555555555555,32,0.46645021645021645,0.0,0.0
+hasdescriptiveoccupation,church founder,has_birthdate,date_of_birth,38,0.6286324786324786,22,0.3705738705738706,0.0,0.0
+hasdescriptiveoccupation,church founder,has_birthdate,august 11,38,0.6286324786324786,17,0.4047619047619047,0.0,0.0
+hasdescriptiveoccupation,church founder,has_birthdate,1847,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,church founder,saunders,"crowdy, 'august 11, 1847')",25,0.5555555555555555,20,0.4945054945054945,0.0,0.0
+hasdescriptiveoccupation,church founder,has_deathdate,date_of_death,43,0.652065527065527,22,0.4478021978021978,0.0,0.0
+hasdescriptiveoccupation,church founder,has_deathdate,august 4,43,0.652065527065527,18,0.41865079365079366,0.0,0.0
+hasdescriptiveoccupation,church founder,has_deathdate,1908,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,church founder,saunders,"crowdy, 'august 4, 1908')",25,0.5555555555555555,21,0.4980952380952381,0.0,0.0
+hasdescriptiveoccupation,church founder,record,module:,27,0.6138888888888889,29,0.4047619047619047,0.0,0.0
+hasdescriptiveoccupation,church founder,has_race_or_color,race_or_color,39,0.5977668845315903,37,0.4472527472527473,0.0,0.0
+hasdescriptiveoccupation,church founder,has_race_or_color,black,39,0.5977668845315903,11,0.4238095238095238,0.0,0.0
+hasdescriptiveoccupation,church founder,saunders,"crowdy, 'black')",25,0.5555555555555555,27,0.4898809523809524,0.0,0.0
+hasdescriptiveoccupation,church founder,descriptor record,module:,54,0.6797385620915034,29,0.4047619047619047,0.0,0.0
+hasdescriptiveoccupation,church founder,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,44,0.6722222222222222,26,0.4980952380952381,0.0,0.0
+hasdescriptiveoccupation,church founder,has_ethnolinguistic_descriptor,black hebrew israelite,44,0.6722222222222222,28,0.45598845598845594,0.0,0.0
+hasdescriptiveoccupation,church founder,saunders,"crowdy, 'black hebrew israelite')",25,0.5555555555555555,26,0.5644540644540644,0.0,0.0
+hasdescriptiveoccupation,church founder,status record,module:,32,0.540954415954416,29,0.4047619047619047,0.0,0.0
+hasdescriptiveoccupation,church founder,has_person_status,slave,39,0.6241830065359477,11,0.0,0.0,0.0
+hasdescriptiveoccupation,church founder,has_person_status,free man,39,0.6241830065359477,27,0.5297619047619048,0.0,0.0
+hasdescriptiveoccupation,church founder,saunders,"crowdy, 'slave'), has_person_status(william saunders crowdy, 'free man')",25,0.5555555555555555,21,0.48439153439153443,0.0,0.0
+hasfirstname,william saunders,record,module:,22,0.4166666666666667,26,0.4275793650793651,0.0,0.0
+hasfirstname,william saunders,has_name,name,70,0.8736111111111112,30,0.5416666666666666,0.0,0.0
+hasfirstname,william saunders,has_name,william saunders crowdy,70,0.8736111111111112,82,0.9391304347826087,0.0,0.7092972666062739
+hasfirstname,william saunders,saunders,"crowdy, 'william saunders crowdy')",30,0.5472222222222222,64,0.6776960784313726,0.0,0.4494364165239822
+hasfirstname,william saunders,has_surname,surname,70,0.8733164983164984,35,0.5386904761904762,0.0,0.0
+hasfirstname,william saunders,has_surname,crowdy,70,0.8733164983164984,18,0.40972222222222227,0.0,0.0
+hasfirstname,william saunders,saunders,"crowdy, 'crowdy')",30,0.5472222222222222,18,0.411764705882353,0.0,0.0
+hasfirstname,william saunders,has_first_name,first_name,92,0.9666666666666667,31,0.5472222222222222,0.0,0.0
+hasfirstname,william saunders,has_first_name,william,92,0.9666666666666667,61,0.8875,0.0,0.5797386715376658
+hasfirstname,william saunders,saunders,"crowdy, 'william')",30,0.5472222222222222,41,0.4583333333333333,0.0,0.33609692727625756
+hasfirstname,william saunders,has_alternate_name,alternate_name,60,0.6759259259259259,27,0.4900793650793651,0.0,0.0
+hasfirstname,william saunders,has_alternate_name,wilson,60,0.6759259259259259,45,0.8006944444444445,0.0,0.0
+hasfirstname,william saunders,saunders,"crowdy, 'wilson')",30,0.5472222222222222,30,0.4688725490196079,0.0,0.0
+hasfirstname,william saunders,relationship record,module:,32,0.5077276524644946,26,0.4275793650793651,0.0,0.0
+hasfirstname,william saunders,has_interagent_relationship_type,relationship_type,36,0.6030092592592592,24,0.5211834733893558,0.0,0.0
+hasfirstname,william saunders,has_interagent_relationship_type,son,36,0.6030092592592592,21,0.0,0.0,0.0
+hasfirstname,william saunders,saunders,"crowdy, 'son')",30,0.5472222222222222,27,0.5119047619047619,0.0,0.0
+hasfirstname,william saunders,is_relationship_to,agent,27,0.6203703703703703,19,0.42083333333333334,0.0,0.0
+hasfirstname,william saunders,is_relationship_to,basil crowdy,27,0.6203703703703703,29,0.5307539682539683,0.0,0.0
+hasfirstname,william saunders,is_relationship_to,sarah ann,27,0.6203703703703703,32,0.48148148148148145,0.0,0.0
+hasfirstname,william saunders,saunders,"crowdy, 'basil crowdy'), is_relationship_to(william saunders crowdy, 'sarah ann')",30,0.5472222222222222,33,0.5159465020576132,0.0,0.2688049757854223
+hasfirstname,william saunders,role record,module:,17,0.44949494949494956,26,0.4275793650793651,0.0,0.0
+hasfirstname,william saunders,has_participant_role,participant_role_type,44,0.6962962962962962,27,0.4950396825396825,0.0,0.0
+hasfirstname,william saunders,has_participant_role,slave,44,0.6962962962962962,29,0.5083333333333333,0.0,0.0
+hasfirstname,william saunders,has_participant_role,soldier,44,0.6962962962962962,35,0.30357142857142855,0.0,0.0
+hasfirstname,william saunders,has_participant_role,preacher,44,0.6962962962962962,25,0.5208333333333334,0.0,0.0
+hasfirstname,william saunders,has_participant_role,entrepreneur,44,0.6962962962962962,21,0.4444444444444444,0.0,0.0
+hasfirstname,william saunders,has_participant_role,pastor,44,0.6962962962962962,27,0.4861111111111111,0.0,0.0
+hasfirstname,william saunders,saunders,"crowdy, 'slave'), has_participant_role(william saunders crowdy, 'soldier'), has_participant_role(william saunders crowdy, 'preacher'), has_participant_role(william saunders crowdy, 'entrepreneur'), has_participant_role(william saunders crowdy, 'pastor')",30,0.5472222222222222,12,0.5210803689064559,0.0,0.5103409316540434
+hasfirstname,william saunders,record,module:,22,0.4166666666666667,26,0.4275793650793651,0.0,0.0
+hasfirstname,william saunders,has_sex,sex_type,53,0.6349206349206349,17,0.3958333333333333,0.0,0.0
+hasfirstname,william saunders,has_sex,male,53,0.6349206349206349,30,0.5347222222222222,0.0,0.0
+hasfirstname,william saunders,saunders,"crowdy, 'male')",30,0.5472222222222222,26,0.48194444444444445,0.0,0.0
+hasfirstname,william saunders,record,module:,22,0.4166666666666667,26,0.4275793650793651,0.0,0.0
+hasfirstname,william saunders,has_occupation,occupation,38,0.5873015873015873,15,0.4666666666666666,0.0,0.0
+hasfirstname,william saunders,has_occupation,soldier,38,0.5873015873015873,35,0.30357142857142855,0.0,0.0
+hasfirstname,william saunders,has_occupation,preacher,38,0.5873015873015873,25,0.5208333333333334,0.0,0.0
+hasfirstname,william saunders,has_occupation,entrepreneur,38,0.5873015873015873,21,0.4444444444444444,0.0,0.0
+hasfirstname,william saunders,has_occupation,pastor,38,0.5873015873015873,27,0.4861111111111111,0.0,0.0
+hasfirstname,william saunders,saunders,"crowdy, 'soldier'), has_occupation(william saunders crowdy, 'preacher'), has_occupation(william saunders crowdy, 'entrepreneur'), has_occupation(william saunders crowdy, 'pastor')",30,0.5472222222222222,16,0.5506284916201117,0.0,0.4889709789176236
+hasfirstname,william saunders,record,module:,22,0.4166666666666667,26,0.4275793650793651,0.0,0.0
+hasfirstname,william saunders,has_age,age,53,0.7972222222222223,21,0.46527777777777773,0.0,0.0
+hasfirstname,william saunders,has_age,61,53,0.7972222222222223,0,0.0,0.0,0.0
+hasfirstname,william saunders,saunders,"crowdy, 61)",30,0.5472222222222222,15,0.4356060606060606,0.0,0.0
+hasfirstname,william saunders,has_birthdate,date_of_birth,64,0.8324786324786324,21,0.36164529914529914,0.0,0.0
+hasfirstname,william saunders,has_birthdate,august 11,64,0.8324786324786324,24,0.48148148148148145,0.0,0.0
+hasfirstname,william saunders,has_birthdate,1847,64,0.8324786324786324,0,0.0,0.0,0.0
+hasfirstname,william saunders,saunders,"crowdy, 'august 11, 1847')",30,0.5472222222222222,24,0.4797008547008548,0.0,0.0
+hasfirstname,william saunders,has_deathdate,date_of_death,48,0.5982905982905983,21,0.4358974358974359,0.0,0.0
+hasfirstname,william saunders,has_deathdate,august 4,48,0.5982905982905983,25,0.5,0.0,0.0
+hasfirstname,william saunders,has_deathdate,1908,48,0.5982905982905983,0,0.0,0.0,0.0
+hasfirstname,william saunders,saunders,"crowdy, 'august 4, 1908')",30,0.5472222222222222,24,0.48277777777777775,0.0,0.0
+hasfirstname,william saunders,record,module:,22,0.4166666666666667,26,0.4275793650793651,0.0,0.0
+hasfirstname,william saunders,has_race_or_color,race_or_color,41,0.6176470588235294,21,0.36164529914529914,0.0,0.0
+hasfirstname,william saunders,has_race_or_color,black,41,0.6176470588235294,19,0.5083333333333333,0.0,0.0
+hasfirstname,william saunders,saunders,"crowdy, 'black')",30,0.5472222222222222,19,0.4166666666666667,0.0,0.0
+hasfirstname,william saunders,descriptor record,module:,28,0.50359477124183,26,0.4275793650793651,0.0,0.0
+hasfirstname,william saunders,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,33,0.5611111111111111,29,0.575,0.0,0.0
+hasfirstname,william saunders,has_ethnolinguistic_descriptor,black hebrew israelite,33,0.5611111111111111,32,0.49621212121212127,0.0,0.0
+hasfirstname,william saunders,saunders,"crowdy, 'black hebrew israelite')",30,0.5472222222222222,29,0.45580808080808083,0.0,0.0
+hasfirstname,william saunders,status record,module:,32,0.5427350427350427,26,0.4275793650793651,0.0,0.0
+hasfirstname,william saunders,has_person_status,slave,48,0.6857298474945533,29,0.5083333333333333,0.0,0.0
+hasfirstname,william saunders,has_person_status,free man,48,0.6857298474945533,25,0.5,0.0,0.0
+hasfirstname,william saunders,saunders,"crowdy, 'slave'), has_person_status(william saunders crowdy, 'free man')",30,0.5472222222222222,36,0.5231481481481481,0.0,0.3351757433279261
+hassurname,crowdy,record,module:,25,0.4222222222222222,31,0.5396825396825397,0.0,0.0
+hassurname,crowdy,has_name,name,78,0.9008333333333334,0,0.0,0.0,0.0
+hassurname,crowdy,has_name,william saunders crowdy,78,0.9008333333333334,41,0.4734299516908213,0.0,0.4494364165239821
+hassurname,crowdy,saunders,"crowdy, 'william saunders crowdy')",44,0.7154761904761905,30,0.8352941176470589,0.0,0.7092972666062738
+hassurname,crowdy,has_surname,surname,95,0.9787878787878788,15,0.4365079365079365,0.0,0.0
+hassurname,crowdy,has_surname,crowdy,95,0.9787878787878788,100,1.0,0.0,1.0
+hassurname,crowdy,saunders,"crowdy, 'crowdy')",44,0.7154761904761905,52,0.8705882352941177,0.0,1.0
+hassurname,crowdy,has_first_name,first_name,67,0.8674074074074074,12,0.4222222222222222,0.0,0.0
+hassurname,crowdy,has_first_name,william,67,0.8674074074074074,15,0.0,0.0,0.0
+hassurname,crowdy,saunders,"crowdy, 'william')",44,0.7154761904761905,50,0.8666666666666666,0.0,0.5797386715376658
+hassurname,crowdy,has_alternate_name,alternate_name,57,0.6648148148148149,10,0.41269841269841273,0.0,0.0
+hassurname,crowdy,has_alternate_name,wilson,57,0.6648148148148149,17,0.4444444444444444,0.0,0.0
+hassurname,crowdy,saunders,"crowdy, 'wilson')",44,0.7154761904761905,52,0.8705882352941177,0.0,0.5797386715376658
+hassurname,crowdy,relationship record,module:,28,0.4543859649122807,31,0.5396825396825397,0.0,0.0
+hassurname,crowdy,has_interagent_relationship_type,relationship_type,33,0.544345238095238,26,0.48366013071895425,0.0,0.0
+hassurname,crowdy,has_interagent_relationship_type,son,33,0.544345238095238,22,0.5,0.0,0.0
+hassurname,crowdy,saunders,"crowdy, 'son')",44,0.7154761904761905,60,0.8857142857142858,0.0,0.5797386715376658
+hassurname,crowdy,is_relationship_to,agent,21,0.5333333333333333,0,0.0,0.0,0.0
+hassurname,crowdy,is_relationship_to,basil crowdy,21,0.5333333333333333,67,0.0,0.0,0.5797386715376658
+hassurname,crowdy,is_relationship_to,sarah ann,21,0.5333333333333333,13,0.4259259259259259,0.0,0.0
+hassurname,crowdy,saunders,"crowdy, 'basil crowdy'), is_relationship_to(william saunders crowdy, 'sarah ann')",44,0.7154761904761905,14,0.691358024691358,0.0,0.6569729210330907
+hassurname,crowdy,role record,module:,19,0.46060606060606063,31,0.5396825396825397,0.0,0.0
+hassurname,crowdy,has_participant_role,participant_role_type,40,0.5777777777777778,30,0.30952380952380953,0.0,0.0
+hassurname,crowdy,has_participant_role,slave,40,0.5777777777777778,0,0.0,0.0,0.0
+hassurname,crowdy,has_participant_role,soldier,40,0.5777777777777778,31,0.5396825396825397,0.0,0.0
+hassurname,crowdy,has_participant_role,preacher,40,0.5777777777777778,29,0.4305555555555555,0.0,0.0
+hassurname,crowdy,has_participant_role,entrepreneur,40,0.5777777777777778,11,0.4166666666666667,0.0,0.0
+hassurname,crowdy,has_participant_role,pastor,40,0.5777777777777778,17,0.4444444444444444,0.0,0.0
+hassurname,crowdy,saunders,"crowdy, 'slave'), has_participant_role(william saunders crowdy, 'soldier'), has_participant_role(william saunders crowdy, 'preacher'), has_participant_role(william saunders crowdy, 'entrepreneur'), has_participant_role(william saunders crowdy, 'pastor')",44,0.7154761904761905,5,0.6745718050065875,0.0,0.4390483986982041
+hassurname,crowdy,record,module:,25,0.4222222222222222,31,0.5396825396825397,0.0,0.0
+hassurname,crowdy,has_sex,sex_type,59,0.8166666666666667,14,0.4305555555555555,0.0,0.0
+hassurname,crowdy,has_sex,male,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,crowdy,saunders,"crowdy, 'male')",44,0.7154761904761905,57,0.88,0.0,0.5797386715376658
+hassurname,crowdy,record,module:,25,0.4222222222222222,31,0.5396825396825397,0.0,0.0
+hassurname,crowdy,has_occupation,occupation,42,0.6190476190476191,25,0.3444444444444444,0.0,0.0
+hassurname,crowdy,has_occupation,soldier,42,0.6190476190476191,31,0.5396825396825397,0.0,0.0
+hassurname,crowdy,has_occupation,preacher,42,0.6190476190476191,29,0.4305555555555555,0.0,0.0
+hassurname,crowdy,has_occupation,entrepreneur,42,0.6190476190476191,11,0.4166666666666667,0.0,0.0
+hassurname,crowdy,has_occupation,pastor,42,0.6190476190476191,17,0.4444444444444444,0.0,0.0
+hassurname,crowdy,saunders,"crowdy, 'soldier'), has_occupation(william saunders crowdy, 'preacher'), has_occupation(william saunders crowdy, 'entrepreneur'), has_occupation(william saunders crowdy, 'pastor')",44,0.7154761904761905,6,0.6778398510242086,0.0,0.455147414572374
+hassurname,crowdy,record,module:,25,0.4222222222222222,31,0.5396825396825397,0.0,0.0
+hassurname,crowdy,has_age,age,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,crowdy,has_age,61,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,crowdy,saunders,"crowdy, 61)",44,0.7154761904761905,71,0.9090909090909091,0.0,0.5797386715376658
+hassurname,crowdy,has_birthdate,date_of_birth,52,0.6871794871794871,11,0.32905982905982906,0.0,0.0
+hassurname,crowdy,has_birthdate,august 11,52,0.6871794871794871,0,0.0,0.0,0.0
+hassurname,crowdy,has_birthdate,1847,52,0.6871794871794871,0,0.0,0.0,0.0
+hassurname,crowdy,saunders,"crowdy, 'august 11, 1847')",44,0.7154761904761905,38,0.8461538461538461,0.0,0.3799783615910079
+hassurname,crowdy,has_deathdate,date_of_death,43,0.5615384615384615,21,0.32905982905982906,0.0,0.0
+hassurname,crowdy,has_deathdate,august 4,43,0.5615384615384615,0,0.0,0.0,0.0
+hassurname,crowdy,has_deathdate,1908,43,0.5615384615384615,0,0.0,0.0,0.0
+hassurname,crowdy,saunders,"crowdy, 'august 4, 1908')",44,0.7154761904761905,39,0.8480000000000001,0.0,0.4494364165239821
+hassurname,crowdy,record,module:,25,0.4222222222222222,31,0.5396825396825397,0.0,0.0
+hassurname,crowdy,has_race_or_color,race_or_color,44,0.6509803921568628,32,0.46581196581196577,0.0,0.0
+hassurname,crowdy,has_race_or_color,black,44,0.6509803921568628,18,0.0,0.0,0.0
+hassurname,crowdy,saunders,"crowdy, 'black')",44,0.7154761904761905,55,0.875,0.0,0.5797386715376658
+hassurname,crowdy,descriptor record,module:,22,0.49215686274509807,31,0.5396825396825397,0.0,0.0
+hassurname,crowdy,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,25,0.5492063492063491,19,0.4711111111111111,0.0,0.0
+hassurname,crowdy,has_ethnolinguistic_descriptor,black hebrew israelite,25,0.5492063492063491,21,0.5454545454545454,0.0,0.0
+hassurname,crowdy,saunders,"crowdy, 'black hebrew israelite')",44,0.7154761904761905,31,0.8363636363636363,0.0,0.3799783615910079
+hassurname,crowdy,status record,module:,35,0.5760683760683761,31,0.5396825396825397,0.0,0.0
+hassurname,crowdy,has_person_status,slave,44,0.6735294117647058,0,0.0,0.0,0.0
+hassurname,crowdy,has_person_status,free man,44,0.6735294117647058,14,0.4305555555555555,0.0,0.0
+hassurname,crowdy,saunders,"crowdy, 'slave'), has_person_status(william saunders crowdy, 'free man')",44,0.7154761904761905,15,0.6944444444444443,0.0,0.5023287782256718
+hasname,william saunders crowdy,record,module:,15,0.0,20,0.5772256728778468,0.0,0.0
+hasname,william saunders crowdy,has_name,name,93,0.9708333333333333,22,0.6268115942028986,0.0,0.0
+hasname,william saunders crowdy,has_name,william saunders crowdy,93,0.9708333333333333,100,1.0,0.0,1.0000000000000002
+hasname,william saunders crowdy,saunders,"crowdy, 'william saunders crowdy')",40,0.6071428571428571,81,0.747229326513214,0.0,0.9428090415820636
+hasname,william saunders crowdy,has_surname,surname,78,0.9151515151515152,27,0.5948930296756383,0.0,0.0
+hasname,william saunders crowdy,has_surname,crowdy,78,0.9151515151515152,41,0.4734299516908213,0.0,0.4494364165239821
+hasname,william saunders crowdy,saunders,"crowdy, 'crowdy')",40,0.6071428571428571,45,0.5661646301032491,0.0,0.4494364165239821
+hasname,william saunders crowdy,has_first_name,first_name,67,0.5476190476190476,24,0.5091787439613525,0.0,0.0
+hasname,william saunders crowdy,has_first_name,william,67,0.5476190476190476,47,0.8608695652173913,0.0,0.4494364165239821
+hasname,william saunders crowdy,saunders,"crowdy, 'william')",40,0.6071428571428571,34,0.4822866344605475,0.0,0.7092972666062739
+hasname,william saunders crowdy,has_alternate_name,alternate_name,56,0.6746031746031745,22,0.458592132505176,0.0,0.0
+hasname,william saunders crowdy,has_alternate_name,wilson,56,0.6746031746031745,34,0.6835748792270531,0.0,0.0
+hasname,william saunders crowdy,saunders,"crowdy, 'wilson')",40,0.6071428571428571,30,0.48113810741687973,0.0,0.2605556710562624
+hasname,william saunders crowdy,relationship record,module:,23,0.5106516290726817,20,0.5772256728778468,0.0,0.0
+hasname,william saunders crowdy,has_interagent_relationship_type,relationship_type,31,0.6259920634920636,25,0.48113810741687973,0.0,0.0
+hasname,william saunders crowdy,has_interagent_relationship_type,son,31,0.6259920634920636,15,0.5845410628019324,0.0,0.0
+hasname,william saunders crowdy,saunders,"crowdy, 'son')",40,0.6071428571428571,32,0.4520358868184955,0.0,0.26055567105626243
+hasname,william saunders crowdy,is_relationship_to,agent,16,0.43121693121693117,14,0.4956521739130435,0.0,0.0
+hasname,william saunders crowdy,is_relationship_to,basil crowdy,16,0.43121693121693117,51,0.5464975845410628,0.0,0.2605556710562624
+hasname,william saunders crowdy,is_relationship_to,sarah ann,16,0.43121693121693117,25,0.4576489533011272,0.0,0.0
+hasname,william saunders crowdy,saunders,"crowdy, 'basil crowdy'), is_relationship_to(william saunders crowdy, 'sarah ann')",40,0.6071428571428571,44,0.5812437696495667,0.0,0.6639925549631843
+hasname,william saunders crowdy,role record,module:,11,0.41125541125541126,20,0.5772256728778468,0.0,0.0
+hasname,william saunders crowdy,has_participant_role,participant_role_type,37,0.5904761904761905,32,0.5325511847250978,0.0,0.0
+hasname,william saunders crowdy,has_participant_role,slave,37,0.5904761904761905,21,0.5746376811594204,0.0,0.0
+hasname,william saunders crowdy,has_participant_role,soldier,37,0.5904761904761905,27,0.650448585231194,0.0,0.0
+hasname,william saunders crowdy,has_participant_role,preacher,37,0.5904761904761905,19,0.5018115942028986,0.0,0.0
+hasname,william saunders crowdy,has_participant_role,entrepreneur,37,0.5904761904761905,23,0.4113526570048309,0.0,0.0
+hasname,william saunders crowdy,has_participant_role,pastor,37,0.5904761904761905,21,0.5434782608695653,0.0,0.0
+hasname,william saunders crowdy,saunders,"crowdy, 'slave'), has_participant_role(william saunders crowdy, 'soldier'), has_participant_role(william saunders crowdy, 'preacher'), has_participant_role(william saunders crowdy, 'entrepreneur'), has_participant_role(william saunders crowdy, 'pastor')",40,0.6071428571428571,17,0.5520421607378129,0.0,0.7563178474443434
+hasname,william saunders crowdy,record,module:,15,0.0,20,0.5772256728778468,0.0,0.0
+hasname,william saunders crowdy,has_sex,sex_type,57,0.8,19,0.44565217391304346,0.0,0.0
+hasname,william saunders crowdy,has_sex,male,57,0.8,22,0.6413043478260869,0.0,0.0
+hasname,william saunders crowdy,saunders,"crowdy, 'male')",40,0.6071428571428571,32,0.4951000690131125,0.0,0.2605556710562624
+hasname,william saunders crowdy,record,module:,15,0.0,20,0.5772256728778468,0.0,0.0
+hasname,william saunders crowdy,has_occupation,occupation,38,0.6190476190476191,12,0.44130434782608696,0.0,0.0
+hasname,william saunders crowdy,has_occupation,soldier,38,0.6190476190476191,27,0.650448585231194,0.0,0.0
+hasname,william saunders crowdy,has_occupation,preacher,38,0.6190476190476191,19,0.5018115942028986,0.0,0.0
+hasname,william saunders crowdy,has_occupation,entrepreneur,38,0.6190476190476191,23,0.4113526570048309,0.0,0.0
+hasname,william saunders crowdy,has_occupation,pastor,38,0.6190476190476191,21,0.5434782608695653,0.0,0.0
+hasname,william saunders crowdy,saunders,"crowdy, 'soldier'), has_occupation(william saunders crowdy, 'preacher'), has_occupation(william saunders crowdy, 'entrepreneur'), has_occupation(william saunders crowdy, 'pastor')",40,0.6071428571428571,23,0.5645696704720266,0.0,0.7473558633804748
+hasname,william saunders crowdy,record,module:,15,0.0,20,0.5772256728778468,0.0,0.0
+hasname,william saunders crowdy,has_age,age,71,0.8666666666666668,15,0.45893719806763283,0.0,0.0
+hasname,william saunders crowdy,has_age,61,71,0.8666666666666668,0,0.0,0.0,0.0
+hasname,william saunders crowdy,saunders,"crowdy, 61)",40,0.6071428571428571,35,0.35660957400087834,0.0,0.2605556710562624
+hasname,william saunders crowdy,has_birthdate,date_of_birth,50,0.553113553113553,17,0.41053511705685625,0.0,0.0
+hasname,william saunders crowdy,has_birthdate,august 11,50,0.553113553113553,25,0.4561191626409018,0.0,0.0
+hasname,william saunders crowdy,has_birthdate,1847,50,0.553113553113553,0,0.0,0.0,0.0
+hasname,william saunders crowdy,saunders,"crowdy, 'august 11, 1847')",40,0.6071428571428571,24,0.4769071508201943,0.0,0.1707761131901165
+hasname,william saunders crowdy,has_deathdate,date_of_death,50,0.632967032967033,22,0.41053511705685625,0.0,0.0
+hasname,william saunders crowdy,has_deathdate,august 4,50,0.632967032967033,26,0.47463768115942023,0.0,0.0
+hasname,william saunders crowdy,has_deathdate,1908,50,0.632967032967033,0,0.0,0.0,0.0
+hasname,william saunders crowdy,saunders,"crowdy, 'august 4, 1908')",40,0.6071428571428571,25,0.48049689440993787,0.0,0.20199309249791833
+hasname,william saunders crowdy,record,module:,15,0.0,20,0.5772256728778468,0.0,0.0
+hasname,william saunders crowdy,has_race_or_color,race_or_color,42,0.6694677871148459,28,0.47141264532568883,0.0,0.0
+hasname,william saunders crowdy,has_race_or_color,black,42,0.6694677871148459,21,0.4956521739130435,0.0,0.0
+hasname,william saunders crowdy,saunders,"crowdy, 'black')",40,0.6071428571428571,31,0.4341787439613527,0.0,0.2605556710562624
+hasname,william saunders crowdy,descriptor record,module:,17,0.3011204481792717,20,0.5772256728778468,0.0,0.0
+hasname,william saunders crowdy,has_ethnolinguistic_descriptor,etnolinguistic_descriptor,27,0.5603174603174603,38,0.5668673355629877,0.0,0.0
+hasname,william saunders crowdy,has_ethnolinguistic_descriptor,black hebrew israelite,27,0.5603174603174603,31,0.5382081686429513,0.0,0.0
+hasname,william saunders crowdy,saunders,"crowdy, 'black hebrew israelite')",40,0.6071428571428571,29,0.4895696091348265,0.0,0.1707761131901165
+hasname,william saunders crowdy,status record,module:,30,0.442002442002442,20,0.5772256728778468,0.0,0.0
+hasname,william saunders crowdy,has_person_status,slave,42,0.6028011204481792,21,0.5746376811594204,0.0,0.0
+hasname,william saunders crowdy,has_person_status,free man,42,0.6028011204481792,19,0.48079710144927534,0.0,0.0
+hasname,william saunders crowdy,saunders,"crowdy, 'slave'), has_person_status(william saunders crowdy, 'free man')",40,0.6071428571428571,48,0.5761732229123533,0.0,0.6194000100245768
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",record,module:,30,0.48412698412698413,6,0.5205947357846091,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_name,name,36,0.5952380952380952,5,0.5084388185654009,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_name,william saunders crowdy,36,0.5952380952380952,17,0.5391278140315013,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",saunders,"crowdy, 'william saunders crowdy')",36,0.6150793650793651,22,0.5121529624508031,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_surname,surname,48,0.6168831168831169,8,0.5385774562989752,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_surname,crowdy,48,0.6168831168831169,6,0.48832630098452884,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",saunders,"crowdy, 'crowdy')",36,0.6150793650793651,10,0.4828327955654836,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_first_name,first_name,43,0.6726190476190476,10,0.504172526957337,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_first_name,william,43,0.6726190476190476,7,0.5205947357846091,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",saunders,"crowdy, 'william')",36,0.6150793650793651,14,0.47927131471435275,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_alternate_name,alternate_name,44,0.582010582010582,14,0.5420781749895675,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_alternate_name,wilson,44,0.582010582010582,6,0.5682137834036568,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",saunders,"crowdy, 'wilson')",36,0.6150793650793651,13,0.4618153006090459,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",relationship record,module:,30,0.6135338345864662,6,0.5205947357846091,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_interagent_relationship_type,relationship_type,39,0.5755952380952382,14,0.48745632625007157,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_interagent_relationship_type,son,39,0.5755952380952382,4,0.5618846694796061,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",saunders,"crowdy, 'son')",36,0.6150793650793651,9,0.4258589511754069,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",is_relationship_to,agent,44,0.6474266474266474,6,0.5438818565400844,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",is_relationship_to,basil crowdy,44,0.6474266474266474,9,0.49887482419127993,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",is_relationship_to,sarah ann,44,0.6474266474266474,11,0.5375058602906705,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",saunders,"crowdy, 'basil crowdy'), is_relationship_to(william saunders crowdy, 'sarah ann')",36,0.6150793650793651,33,0.5667738262674972,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",role record,module:,24,0.46645021645021645,6,0.5205947357846091,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_participant_role,participant_role_type,47,0.6876623376623376,15,0.44751858549326906,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_participant_role,slave,47,0.6876623376623376,6,0.5438818565400844,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_participant_role,soldier,47,0.6876623376623376,8,0.5861965039180229,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_participant_role,preacher,47,0.6876623376623376,10,0.4969107896323086,0.0,0.12479481351004777
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_participant_role,entrepreneur,47,0.6876623376623376,14,0.54088351873162,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_participant_role,pastor,47,0.6876623376623376,6,0.48832630098452884,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",saunders,"crowdy, 'slave'), has_participant_role(william saunders crowdy, 'soldier'), has_participant_role(william saunders crowdy, 'preacher'), has_participant_role(william saunders crowdy, 'entrepreneur'), has_participant_role(william saunders crowdy, 'pastor')",36,0.6150793650793651,37,0.6291617329041655,0.0,0.01008574822597279
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",record,module:,30,0.48412698412698413,6,0.5205947357846091,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_sex,sex_type,38,0.6238095238095238,6,0.3417721518987342,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_sex,male,38,0.6238095238095238,5,0.5084388185654009,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",saunders,"crowdy, 'male')",36,0.6150793650793651,12,0.44946937731747855,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",record,module:,30,0.48412698412698413,6,0.5205947357846091,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_occupation,occupation,64,0.8074074074074075,10,0.5412095639943741,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_occupation,soldier,64,0.8074074074074075,8,0.5861965039180229,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_occupation,preacher,64,0.8074074074074075,10,0.4969107896323086,0.0,0.12479481351004777
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_occupation,entrepreneur,64,0.8074074074074075,14,0.54088351873162,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_occupation,pastor,64,0.8074074074074075,6,0.48832630098452884,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",saunders,"crowdy, 'soldier'), has_occupation(william saunders crowdy, 'preacher'), has_occupation(william saunders crowdy, 'entrepreneur'), has_occupation(william saunders crowdy, 'pastor')",36,0.6150793650793651,37,0.6446486819527794,0.0,0.013020295333686812
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",record,module:,30,0.48412698412698413,6,0.5205947357846091,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_age,age,38,0.6190476190476191,4,0.5618846694796061,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_age,61,38,0.6190476190476191,0,0.0,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",saunders,"crowdy, 61)",36,0.6150793650793651,8,0.4649843827059017,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_birthdate,date_of_birth,37,0.6318681318681318,11,0.5108406361570919,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_birthdate,august 11,37,0.6318681318681318,7,0.4645033822249012,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_birthdate,1847,37,0.6318681318681318,0,0.0,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",saunders,"crowdy, 'august 11, 1847')",36,0.6150793650793651,14,0.4239532619279454,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_deathdate,date_of_death,44,0.63003663003663,12,0.5173792452273465,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_deathdate,august 4,44,0.63003663003663,7,0.4969107896323086,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_deathdate,1908,44,0.63003663003663,0,0.0,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",saunders,"crowdy, 'august 4, 1908')",36,0.6150793650793651,14,0.4316455696202531,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",record,module:,30,0.48412698412698413,6,0.5205947357846091,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_race_or_color,race_or_color,39,0.5896358543417367,9,0.5476822755303768,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_race_or_color,black,39,0.5896358543417367,5,0.539662447257384,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",saunders,"crowdy, 'black')",36,0.6150793650793651,13,0.3960970464135021,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",descriptor record,module:,58,0.6870525988173046,6,0.5205947357846091,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_ethnolinguistic_descriptor,etnolinguistic_descriptor,55,0.6265512265512265,21,0.5580884241423593,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_ethnolinguistic_descriptor,black hebrew israelite,55,0.6265512265512265,20,0.5209456322047927,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",saunders,"crowdy, 'black hebrew israelite')",36,0.6150793650793651,22,0.5097862756090604,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",status record,module:,37,0.5366300366300366,6,0.5205947357846091,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_person_status,slave,45,0.6675070028011204,6,0.5438818565400844,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",has_person_status,free man,45,0.6675070028011204,10,0.5585443037974683,0.0,0.0
+hasdescription,"enslaved. founded the church of god and saints of christ, was arrested 22 times while traveling as an itinerant preacher, and built the church infrastructure.",saunders,"crowdy, 'slave'), has_person_status(william saunders crowdy, 'free man')",36,0.6150793650793651,30,0.5537326967207047,0.0,0.0

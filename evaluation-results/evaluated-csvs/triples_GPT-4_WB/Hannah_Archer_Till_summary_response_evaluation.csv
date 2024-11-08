@@ -1,0 +1,521 @@
+Truth Predicate,Truth Object,Generated Predicate,Generated Object,Predicate Fuzzy Ratio,Predicate Jaro-Winkler,Object Fuzzy Ratio,Object Jaro-Winkler,Predicate Cosine Similarity,Object Cosine Similarity
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_name,name,32,0.537878787878788,20,0.47222222222222215,0.0,0.0
+instance of,person,has_name,hannah archer till,32,0.537878787878788,17,0.3148148148148148,0.0,0.0
+instance of,person,archer,"till, ""hannah archer till"")",35,0.5909090909090909,12,0.4012345679012346,0.0,0.0
+instance of,person,has_surname,surname,27,0.49242424242424243,31,0.5396825396825397,0.0,0.0
+instance of,person,has_surname,till,27,0.49242424242424243,0,0.0,0.0,0.0
+instance of,person,archer,"till, ""till"")",35,0.5909090909090909,0,0.0,0.0,0.0
+instance of,person,has_first_name,first_name,40,0.5692640692640693,38,0.6,0.0,0.0
+instance of,person,has_first_name,hannah,40,0.5692640692640693,17,0.4444444444444444,0.0,0.0
+instance of,person,archer,"till, ""hannah"").",35,0.5909090909090909,9,0.40972222222222227,0.0,0.0
+instance of,person,relationship record,module:,33,0.5494417862838915,15,0.0,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,relationship_type,30,0.5269480519480519,26,0.5758169934640524,0.0,0.0
+instance of,person,has_interagent_relationship_type_to,enslaver or owner,30,0.5269480519480519,35,0.642483660130719,0.0,0.0
+instance of,person,archer,"till, ""enslaver or owner"")",35,0.5909090909090909,25,0.6085470085470086,0.0,0.0
+instance of,person,is_relationship_to,agent,34,0.5798460798460798,36,0.5777777777777778,0.0,0.0
+instance of,person,is_relationship_to,george washington,34,0.5798460798460798,43,0.642483660130719,0.0,0.0
+instance of,person,is_relationship_to,marquis de lafayette,34,0.5798460798460798,15,0.4388888888888889,0.0,0.0
+instance of,person,archer,"till, ""george washington""), is_relationship_to(hannah archer till, ""marquis de lafayette"").",35,0.5909090909090909,10,0.5775335775335776,0.0,0.0
+instance of,person,role record,module:,27,0.49242424242424243,15,0.0,0.0,0.0
+instance of,person,has_participant_role,participant_role_type,32,0.5668831168831169,22,0.5357142857142857,0.0,0.0
+instance of,person,has_participant_role,participant in the american revolutionary war,32,0.5668831168831169,20,0.5018518518518519,0.0,0.0
+instance of,person,archer,"till, ""participant in the american revolutionary war"").",35,0.5909090909090909,16,0.49646464646464644,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_sex,sex_type,22,0.45598845598845594,29,0.3611111111111111,0.0,0.0
+instance of,person,has_sex,female,22,0.45598845598845594,17,0.4444444444444444,0.0,0.0
+instance of,person,archer,"till, ""female"").",35,0.5909090909090909,9,0.40972222222222227,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_occupation,occupation,24,0.38311688311688313,38,0.48888888888888893,0.0,0.0
+instance of,person,has_occupation,enslaved cook and servant,24,0.38311688311688313,26,0.5255555555555556,0.0,0.0
+instance of,person,archer,"till, ""enslaved cook and servant"").",35,0.5909090909090909,20,0.5103174603174603,0.0,0.0
+instance of,person,record,module:,24,0.41919191919191917,15,0.0,0.0,0.0
+instance of,person,has_age,age,33,0.45598845598845594,22,0.5,0.0,0.0
+instance of,person,has_age,105,33,0.45598845598845594,0,0.0,0.0,0.0
+instance of,person,archer,"till, 105)",35,0.5909090909090909,0,0.0,0.0,0.0
+instance of,person,has_birthdate,date_of_birth,33,0.5463869463869464,21,0.49572649572649574,0.0,0.0
+instance of,person,has_birthdate,1721,33,0.5463869463869464,0,0.0,0.0,0.0
+instance of,person,archer,"till, ""1721"")",35,0.5909090909090909,0,0.0,0.0,0.0
+instance of,person,has_deathdate,date_of_death,33,0.39044289044289043,21,0.49572649572649574,0.0,0.0
+instance of,person,has_deathdate,1826,33,0.39044289044289043,0,0.0,0.0,0.0
+instance of,person,archer,"till, ""1826"").",35,0.5909090909090909,0,0.0,0.0,0.0
+instance of,person,status record,module:,42,0.6773226773226773,15,0.0,0.0,0.0
+instance of,person,has_person_status,enslaved person,29,0.449554367201426,57,0.45555555555555555,0.0,0.5797386715376658
+instance of,person,has_person_status,free person,29,0.449554367201426,71,0.3383838383838384,0.0,0.5797386715376658
+instance of,person,archer,"till, ""enslaved person""), has_person_status(hannah archer till, ""free person"")",35,0.5909090909090909,14,0.5256410256410257,0.0,0.4285693450091423
+instance of,person,has_status_generating_event,event,26,0.4799102132435466,36,0.5777777777777778,0.0,0.0
+instance of,person,has_status_generating_event,sold multiple times,26,0.4799102132435466,24,0.4795321637426901,0.0,0.0
+instance of,person,has_status_generating_event,purchase of freedom in 1778,26,0.4799102132435466,30,0.6061728395061728,0.0,0.0
+instance of,person,multiple,"times""), has_status_generating_event(free person, ""purchase of freedom in 1778"")",21,0.43813131313131315,14,0.48888888888888893,0.0,0.24395572500006343
+instance of,person,recorded_at,event,18,0.4545454545454546,36,0.5777777777777778,0.0,0.0
+instance of,person,recorded_at,sold multiple times,18,0.4545454545454546,24,0.4795321637426901,0.0,0.0
+instance of,person,recorded_at,purchase of freedom in 1778,18,0.4545454545454546,30,0.6061728395061728,0.0,0.0
+instance of,person,multiple,"times""), recorded_at(free person, ""purchase of freedom in 1778"").",21,0.43813131313131315,17,0.5863247863247864,0.0,0.24395572500006343
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_name,name,57,0.8055555555555556,40,0.6388888888888888,0.0,0.0
+hassex,female,has_name,hannah archer till,57,0.8055555555555556,17,0.48148148148148145,0.0,0.0
+hassex,female,archer,"till, ""hannah archer till"")",33,0.5555555555555555,12,0.30246913580246915,0.0,0.0
+hassex,female,has_surname,surname,59,0.6767676767676768,31,0.5396825396825397,0.0,0.0
+hassex,female,has_surname,till,59,0.6767676767676768,20,0.47222222222222215,0.0,0.0
+hassex,female,archer,"till, ""till"")",33,0.5555555555555555,11,0.41452991452991456,0.0,0.0
+hassex,female,has_first_name,first_name,50,0.6507936507936508,38,0.6,0.0,0.0
+hassex,female,has_first_name,hannah,50,0.6507936507936508,17,0.4444444444444444,0.0,0.0
+hassex,female,archer,"till, ""hannah"").",33,0.5555555555555555,9,0.3194444444444444,0.0,0.0
+hassex,female,relationship record,module:,24,0.44152046783625726,46,0.6428571428571429,0.0,0.0
+hassex,female,has_interagent_relationship_type_to,relationship_type,24,0.5936507936507937,26,0.4477124183006536,0.0,0.0
+hassex,female,has_interagent_relationship_type_to,enslaver or owner,24,0.5936507936507937,26,0.5506535947712418,0.0,0.0
+hassex,female,archer,"till, ""enslaver or owner"")",33,0.5555555555555555,19,0.5235042735042735,0.0,0.0
+hassex,female,is_relationship_to,agent,17,0.46296296296296297,36,0.45555555555555555,0.0,0.0
+hassex,female,is_relationship_to,george washington,17,0.46296296296296297,17,0.4477124183006536,0.0,0.0
+hassex,female,is_relationship_to,marquis de lafayette,17,0.46296296296296297,31,0.5388888888888889,0.0,0.0
+hassex,female,archer,"till, ""george washington""), is_relationship_to(hannah archer till, ""marquis de lafayette"").",33,0.5555555555555555,10,0.4035409035409035,0.0,0.0
+hassex,female,role record,module:,12,0.41919191919191917,46,0.6428571428571429,0.0,0.0
+hassex,female,has_participant_role,participant_role_type,31,0.5499999999999999,22,0.4047619047619047,0.0,0.0
+hassex,female,has_participant_role,participant in the american revolutionary war,31,0.5499999999999999,16,0.5018518518518519,0.0,0.0
+hassex,female,archer,"till, ""participant in the american revolutionary war"").",33,0.5555555555555555,13,0.5080808080808081,0.0,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_sex,sex_type,92,0.9666666666666667,29,0.5277777777777778,0.0,0.0
+hassex,female,has_sex,female,92,0.9666666666666667,100,1.0,0.0,1.0
+hassex,female,archer,"till, ""female"").",33,0.5555555555555555,55,0.6805555555555555,0.0,0.5797386715376658
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_occupation,occupation,30,0.5714285714285715,12,0.4222222222222222,0.0,0.0
+hassex,female,has_occupation,enslaved cook and servant,30,0.5714285714285715,19,0.5255555555555556,0.0,0.0
+hassex,female,archer,"till, ""enslaved cook and servant"").",33,0.5555555555555555,15,0.5103174603174603,0.0,0.0
+hassex,female,record,module:,17,0.0,46,0.6428571428571429,0.0,0.0
+hassex,female,has_age,age,62,0.8222222222222222,44,0.5,0.0,0.0
+hassex,female,has_age,105,62,0.8222222222222222,0,0.0,0.0,0.0
+hassex,female,archer,"till, 105)",33,0.5555555555555555,12,0.4222222222222222,0.0,0.0
+hassex,female,has_birthdate,date_of_birth,42,0.576923076923077,21,0.32905982905982906,0.0,0.0
+hassex,female,has_birthdate,1721,42,0.576923076923077,0,0.0,0.0,0.0
+hassex,female,archer,"till, ""1721"")",33,0.5555555555555555,11,0.41452991452991456,0.0,0.0
+hassex,female,has_deathdate,date_of_death,42,0.6581196581196581,32,0.46581196581196577,0.0,0.0
+hassex,female,has_deathdate,1826,42,0.6581196581196581,0,0.0,0.0,0.0
+hassex,female,archer,"till, ""1826"").",33,0.5555555555555555,10,0.41269841269841273,0.0,0.0
+hassex,female,status record,module:,32,0.5747863247863249,46,0.6428571428571429,0.0,0.0
+hassex,female,has_person_status,enslaved person,35,0.642483660130719,29,0.5611111111111111,0.0,0.0
+hassex,female,has_person_status,free person,35,0.642483660130719,35,0.5909090909090909,0.0,0.0
+hassex,female,archer,"till, ""enslaved person""), has_person_status(hannah archer till, ""free person"")",33,0.5555555555555555,10,0.48931623931623935,0.0,0.0
+hassex,female,has_status_generating_event,event,30,0.6728395061728395,36,0.45555555555555555,0.0,0.0
+hassex,female,has_status_generating_event,sold multiple times,30,0.6728395061728395,24,0.44152046783625726,0.0,0.0
+hassex,female,has_status_generating_event,purchase of freedom in 1778,30,0.6728395061728395,18,0.5216049382716049,0.0,0.0
+hassex,female,multiple,"times""), has_status_generating_event(free person, ""purchase of freedom in 1778"")",14,0.4305555555555555,9,0.4986111111111111,0.0,0.0
+hassex,female,recorded_at,event,12,0.41919191919191917,36,0.45555555555555555,0.0,0.0
+hassex,female,recorded_at,sold multiple times,12,0.41919191919191917,24,0.44152046783625726,0.0,0.0
+hassex,female,recorded_at,purchase of freedom in 1778,12,0.41919191919191917,18,0.5216049382716049,0.0,0.0
+hassex,female,multiple,"times""), recorded_at(free person, ""purchase of freedom in 1778"").",14,0.4305555555555555,11,0.5700854700854702,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_name,name,38,0.5675925925925926,0,0.0,0.0,0.0
+hasparticipantrole,child,has_name,hannah archer till,38,0.5675925925925926,35,0.4185185185185185,0.0,0.0
+hasparticipantrole,child,archer,"till, ""hannah archer till"")",33,0.46296296296296297,25,0.45925925925925926,0.0,0.0
+hasparticipantrole,child,has_surname,surname,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,child,has_surname,till,41,0.6274651274651274,44,0.6333333333333333,0.0,0.0
+hasparticipantrole,child,archer,"till, ""till"")",33,0.46296296296296297,22,0.517948717948718,0.0,0.0
+hasparticipantrole,child,has_first_name,first_name,44,0.6772486772486772,13,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_first_name,hannah,44,0.6772486772486772,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,archer,"till, ""hannah"").",33,0.46296296296296297,19,0.4847222222222222,0.0,0.0
+hasparticipantrole,child,relationship record,module:,38,0.5994152046783626,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,18,0.33921568627450976,0.0,0.0
+hasparticipantrole,child,has_interagent_relationship_type_to,enslaver or owner,42,0.6570105820105819,9,0.4196078431372549,0.0,0.0
+hasparticipantrole,child,archer,"till, ""enslaver or owner"")",33,0.46296296296296297,13,0.49230769230769234,0.0,0.0
+hasparticipantrole,child,is_relationship_to,agent,44,0.6037037037037037,0,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,george washington,44,0.6037037037037037,18,0.0,0.0,0.0
+hasparticipantrole,child,is_relationship_to,marquis de lafayette,44,0.6037037037037037,16,0.47222222222222215,0.0,0.0
+hasparticipantrole,child,archer,"till, ""george washington""), is_relationship_to(hannah archer till, ""marquis de lafayette"").",33,0.46296296296296297,10,0.43321123321123317,0.0,0.0
+hasparticipantrole,child,role record,module:,28,0.4452861952861953,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant_role_type,95,0.9766666666666667,23,0.33174603174603173,0.0,0.0
+hasparticipantrole,child,has_participant_role,participant in the american revolutionary war,95,0.9766666666666667,16,0.4444444444444444,0.0,0.0
+hasparticipantrole,child,archer,"till, ""participant in the american revolutionary war"").",33,0.46296296296296297,13,0.4575757575757576,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_sex,sex_type,32,0.5317460317460317,0,0.0,0.0,0.0
+hasparticipantrole,child,has_sex,female,32,0.5317460317460317,18,0.45555555555555555,0.0,0.0
+hasparticipantrole,child,archer,"till, ""female"").",33,0.46296296296296297,19,0.5083333333333333,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_occupation,occupation,50,0.6566137566137565,27,0.43333333333333335,0.0,0.0
+hasparticipantrole,child,has_occupation,enslaved cook and servant,50,0.6566137566137565,13,0.46222222222222226,0.0,0.0
+hasparticipantrole,child,archer,"till, ""enslaved cook and servant"").",33,0.46296296296296297,15,0.4714285714285715,0.0,0.0
+hasparticipantrole,child,record,module:,25,0.48148148148148145,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_age,age,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,has_age,105,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,child,archer,"till, 105)",33,0.46296296296296297,27,0.5333333333333333,0.0,0.0
+hasparticipantrole,child,has_birthdate,date_of_birth,52,0.6937321937321936,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_birthdate,1721,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,child,archer,"till, ""1721"")",33,0.46296296296296297,22,0.517948717948718,0.0,0.0
+hasparticipantrole,child,has_deathdate,date_of_death,52,0.6866096866096866,11,0.4256410256410256,0.0,0.0
+hasparticipantrole,child,has_deathdate,1826,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,child,archer,"till, ""1826"").",33,0.46296296296296297,21,0.5142857142857143,0.0,0.0
+hasparticipantrole,child,status record,module:,39,0.4995929995929996,17,0.3952380952380952,0.0,0.0
+hasparticipantrole,child,has_person_status,enslaved person,46,0.6479302832244008,20,0.5111111111111111,0.0,0.0
+hasparticipantrole,child,has_person_status,free person,46,0.6479302832244008,0,0.0,0.0,0.0
+hasparticipantrole,child,archer,"till, ""enslaved person""), has_person_status(hannah archer till, ""free person"")",33,0.46296296296296297,10,0.45042735042735044,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,event,40,0.5819304152637487,0,0.0,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,sold multiple times,40,0.5819304152637487,17,0.47485380116959064,0.0,0.0
+hasparticipantrole,child,has_status_generating_event,purchase of freedom in 1778,40,0.5819304152637487,19,0.5703703703703703,0.0,0.0
+hasparticipantrole,child,multiple,"times""), has_status_generating_event(free person, ""purchase of freedom in 1778"")",38,0.40277777777777773,7,0.30833333333333335,0.0,0.0
+hasparticipantrole,child,recorded_at,event,28,0.36195286195286197,0,0.0,0.0,0.0
+hasparticipantrole,child,recorded_at,sold multiple times,28,0.36195286195286197,17,0.47485380116959064,0.0,0.0
+hasparticipantrole,child,recorded_at,purchase of freedom in 1778,28,0.36195286195286197,19,0.5703703703703703,0.0,0.0
+hasparticipantrole,child,multiple,"times""), recorded_at(free person, ""purchase of freedom in 1778"").",38,0.40277777777777773,9,0.43760683760683755,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_name,name,38,0.5675925925925926,21,0.37777777777777777,0.0,0.0
+hasparticipantrole,deceased person,has_name,hannah archer till,38,0.5675925925925926,24,0.40370370370370373,0.0,0.0
+hasparticipantrole,deceased person,archer,"till, ""hannah archer till"")",33,0.46296296296296297,19,0.3728395061728395,0.0,0.0
+hasparticipantrole,deceased person,has_surname,surname,41,0.6274651274651274,27,0.4317460317460317,0.0,0.0
+hasparticipantrole,deceased person,has_surname,till,41,0.6274651274651274,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,archer,"till, ""till"")",33,0.46296296296296297,7,0.3811965811965812,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,first_name,44,0.6772486772486772,24,0.38888888888888884,0.0,0.0
+hasparticipantrole,deceased person,has_first_name,hannah,44,0.6772486772486772,19,0.41111111111111115,0.0,0.0
+hasparticipantrole,deceased person,archer,"till, ""hannah"").",33,0.46296296296296297,13,0.3513888888888889,0.0,0.0
+hasparticipantrole,deceased person,relationship record,module:,38,0.5994152046783626,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,relationship_type,42,0.6570105820105819,31,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,has_interagent_relationship_type_to,enslaver or owner,42,0.6570105820105819,44,0.5986928104575163,0.0,0.0
+hasparticipantrole,deceased person,archer,"till, ""enslaver or owner"")",33,0.46296296296296297,34,0.5746438746438747,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,agent,44,0.6037037037037037,30,0.3444444444444444,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,george washington,44,0.6037037037037037,38,0.530905695611578,0.0,0.0
+hasparticipantrole,deceased person,is_relationship_to,marquis de lafayette,44,0.6037037037037037,29,0.46269841269841266,0.0,0.0
+hasparticipantrole,deceased person,archer,"till, ""george washington""), is_relationship_to(hannah archer till, ""marquis de lafayette"").",33,0.46296296296296297,17,0.4968586968586968,0.0,0.0
+hasparticipantrole,deceased person,role record,module:,28,0.4452861952861953,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant_role_type,95,0.9766666666666667,28,0.5047619047619047,0.0,0.0
+hasparticipantrole,deceased person,has_participant_role,participant in the american revolutionary war,95,0.9766666666666667,27,0.4962962962962963,0.0,0.0
+hasparticipantrole,deceased person,archer,"till, ""participant in the american revolutionary war"").",33,0.46296296296296297,23,0.4828282828282828,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_sex,sex_type,32,0.5317460317460317,35,0.5055555555555555,0.0,0.0
+hasparticipantrole,deceased person,has_sex,female,32,0.5317460317460317,29,0.45555555555555555,0.0,0.0
+hasparticipantrole,deceased person,archer,"till, ""female"").",33,0.46296296296296297,19,0.33888888888888885,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,occupation,50,0.6566137566137565,32,0.5444444444444444,0.0,0.0
+hasparticipantrole,deceased person,has_occupation,enslaved cook and servant,50,0.6566137566137565,40,0.6673504273504274,0.0,0.0
+hasparticipantrole,deceased person,archer,"till, ""enslaved cook and servant"").",33,0.46296296296296297,32,0.6434676434676435,0.0,0.0
+hasparticipantrole,deceased person,record,module:,25,0.48148148148148145,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_age,age,40,0.5978835978835978,22,0.4333333333333333,0.0,0.0
+hasparticipantrole,deceased person,has_age,105,40,0.5978835978835978,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,archer,"till, 105)",33,0.46296296296296297,8,0.3888888888888889,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,date_of_birth,52,0.6937321937321936,29,0.44145299145299144,0.0,0.0
+hasparticipantrole,deceased person,has_birthdate,1721,52,0.6937321937321936,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,archer,"till, ""1721"")",33,0.46296296296296297,7,0.3811965811965812,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,date_of_death,52,0.6866096866096866,36,0.505982905982906,0.0,0.0
+hasparticipantrole,deceased person,has_deathdate,1826,52,0.6866096866096866,0,0.0,0.0,0.0
+hasparticipantrole,deceased person,archer,"till, ""1826"").",33,0.46296296296296297,7,0.37936507936507935,0.0,0.0
+hasparticipantrole,deceased person,status record,module:,39,0.4995929995929996,18,0.47301587301587295,0.0,0.0
+hasparticipantrole,deceased person,has_person_status,enslaved person,46,0.6479302832244008,73,0.7833333333333333,0.0,0.33609692727625756
+hasparticipantrole,deceased person,has_person_status,free person,46,0.6479302832244008,69,0.7319865319865321,0.0,0.33609692727625756
+hasparticipantrole,deceased person,archer,"till, ""enslaved person""), has_person_status(hannah archer till, ""free person"")",33,0.46296296296296297,28,0.6008547008547009,0.0,0.2484582227373677
+hasparticipantrole,deceased person,has_status_generating_event,event,40,0.5819304152637487,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,sold multiple times,40,0.5819304152637487,35,0.5164578111946533,0.0,0.0
+hasparticipantrole,deceased person,has_status_generating_event,purchase of freedom in 1778,40,0.5819304152637487,38,0.637037037037037,0.0,0.0
+hasparticipantrole,deceased person,multiple,"times""), has_status_generating_event(free person, ""purchase of freedom in 1778"")",38,0.40277777777777773,23,0.5388888888888889,0.0,0.1414305679255449
+hasparticipantrole,deceased person,recorded_at,event,28,0.36195286195286197,30,0.5111111111111111,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,sold multiple times,28,0.36195286195286197,35,0.5164578111946533,0.0,0.0
+hasparticipantrole,deceased person,recorded_at,purchase of freedom in 1778,28,0.36195286195286197,38,0.637037037037037,0.0,0.0
+hasparticipantrole,deceased person,multiple,"times""), recorded_at(free person, ""purchase of freedom in 1778"").",38,0.40277777777777773,30,0.6102564102564103,0.0,0.1414305679255449
+hasdescriptiveoccupation,chef / cook,record,module:,27,0.6138888888888889,11,0.41125541125541126,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_name,name,25,0.5555555555555555,13,0.44696969696969696,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_name,hannah archer till,25,0.5555555555555555,28,0.4452861952861953,0.0,0.0
+hasdescriptiveoccupation,chef / cook,archer,"till, ""hannah archer till"")",20,0.5472222222222222,21,0.4205948372615039,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_surname,surname,34,0.5474386724386724,11,0.41125541125541126,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_surname,till,34,0.5474386724386724,0,0.0,0.0,0.0
+hasdescriptiveoccupation,chef / cook,archer,"till, ""till"")",20,0.5472222222222222,8,0.3892773892773893,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_first_name,first_name,32,0.5615079365079364,10,0.396969696969697,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_first_name,hannah,32,0.5615079365079364,12,0.41919191919191917,0.0,0.0
+hasdescriptiveoccupation,chef / cook,archer,"till, ""hannah"").",20,0.5472222222222222,7,0.268939393939394,0.0,0.0
+hasdescriptiveoccupation,chef / cook,relationship record,module:,33,0.6137539361223572,11,0.41125541125541126,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,14,0.4331550802139037,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_interagent_relationship_type_to,enslaver or owner,41,0.6037698412698412,29,0.5162210338680927,0.0,0.0
+hasdescriptiveoccupation,chef / cook,archer,"till, ""enslaver or owner"")",20,0.5472222222222222,22,0.4822843822843823,0.0,0.0
+hasdescriptiveoccupation,chef / cook,is_relationship_to,agent,38,0.6264245014245015,12,0.43030303030303035,0.0,0.0
+hasdescriptiveoccupation,chef / cook,is_relationship_to,george washington,38,0.6264245014245015,21,0.4496434937611408,0.0,0.0
+hasdescriptiveoccupation,chef / cook,is_relationship_to,marquis de lafayette,38,0.6264245014245015,13,0.36313131313131314,0.0,0.0
+hasdescriptiveoccupation,chef / cook,archer,"till, ""george washington""), is_relationship_to(hannah archer till, ""marquis de lafayette"").",20,0.5472222222222222,10,0.4815739815739815,0.0,0.0
+hasdescriptiveoccupation,chef / cook,role record,module:,29,0.4873737373737373,11,0.41125541125541126,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_participant_role,participant_role_type,50,0.6805555555555555,12,0.42568542568542567,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_participant_role,participant in the american revolutionary war,50,0.6805555555555555,25,0.44848484848484843,0.0,0.0
+hasdescriptiveoccupation,chef / cook,archer,"till, ""participant in the american revolutionary war"").",20,0.5472222222222222,21,0.4404040404040404,0.0,0.0
+hasdescriptiveoccupation,chef / cook,record,module:,27,0.6138888888888889,11,0.41125541125541126,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_sex,sex_type,32,0.5742063492063493,11,0.4053030303030303,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_sex,female,32,0.5742063492063493,12,0.3383838383838384,0.0,0.0
+hasdescriptiveoccupation,chef / cook,archer,"till, ""female"").",20,0.5472222222222222,7,0.37563131313131315,0.0,0.0
+hasdescriptiveoccupation,chef / cook,record,module:,27,0.6138888888888889,11,0.41125541125541126,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_occupation,occupation,68,0.8045940170940171,29,0.46060606060606063,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_occupation,enslaved cook and servant,68,0.8045940170940171,33,0.4959307359307359,0.0,0.22028815056182968
+hasdescriptiveoccupation,chef / cook,archer,"till, ""enslaved cook and servant"").",20,0.5472222222222222,26,0.5645021645021645,0.0,0.19431434016858148
+hasdescriptiveoccupation,chef / cook,record,module:,27,0.6138888888888889,11,0.41125541125541126,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_age,age,26,0.5793650793650794,14,0.47474747474747475,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_age,105,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,chef / cook,archer,"till, 105)",20,0.5472222222222222,10,0.396969696969697,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_birthdate,date_of_birth,38,0.6286324786324786,17,0.3900543900543901,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_birthdate,1721,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,chef / cook,archer,"till, ""1721"")",20,0.5472222222222222,8,0.3892773892773893,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_deathdate,date_of_death,43,0.652065527065527,17,0.3900543900543901,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_deathdate,1826,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,chef / cook,archer,"till, ""1826"").",20,0.5472222222222222,8,0.3874458874458875,0.0,0.0
+hasdescriptiveoccupation,chef / cook,status record,module:,32,0.540954415954416,11,0.41125541125541126,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_person_status,enslaved person,39,0.6241830065359477,23,0.4909090909090909,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_person_status,free person,39,0.6241830065359477,27,0.49242424242424243,0.0,0.0
+hasdescriptiveoccupation,chef / cook,archer,"till, ""enslaved person""), has_person_status(hannah archer till, ""free person"")",20,0.5472222222222222,13,0.48523698523698516,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_status_generating_event,event,39,0.5815696649029983,12,0.43030303030303035,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_status_generating_event,sold multiple times,39,0.5815696649029983,13,0.3657628920786815,0.0,0.0
+hasdescriptiveoccupation,chef / cook,has_status_generating_event,purchase of freedom in 1778,39,0.5815696649029983,32,0.5911896745230079,0.0,0.0
+hasdescriptiveoccupation,chef / cook,multiple,"times""), has_status_generating_event(free person, ""purchase of freedom in 1778"")",19,0.47222222222222215,18,0.42904040404040406,0.0,0.0
+hasdescriptiveoccupation,chef / cook,recorded_at,event,34,0.5202020202020202,12,0.43030303030303035,0.0,0.0
+hasdescriptiveoccupation,chef / cook,recorded_at,sold multiple times,34,0.5202020202020202,13,0.3657628920786815,0.0,0.0
+hasdescriptiveoccupation,chef / cook,recorded_at,purchase of freedom in 1778,34,0.5202020202020202,32,0.5911896745230079,0.0,0.0
+hasdescriptiveoccupation,chef / cook,multiple,"times""), recorded_at(free person, ""purchase of freedom in 1778"").",19,0.47222222222222215,21,0.4917832167832168,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,name,25,0.5555555555555555,44,0.6333333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,has_name,hannah archer till,25,0.5555555555555555,17,0.5037037037037037,0.0,0.0
+hasdescriptiveoccupation,slave,archer,"till, ""hannah archer till"")",20,0.5472222222222222,19,0.49135802469135803,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,surname,34,0.5474386724386724,50,0.6761904761904761,0.0,0.0
+hasdescriptiveoccupation,slave,has_surname,till,34,0.5474386724386724,22,0.48333333333333334,0.0,0.0
+hasdescriptiveoccupation,slave,archer,"till, ""till"")",20,0.5472222222222222,11,0.4256410256410256,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,first_name,32,0.5615079365079364,40,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_first_name,hannah,32,0.5615079365079364,18,0.45555555555555555,0.0,0.0
+hasdescriptiveoccupation,slave,archer,"till, ""hannah"").",20,0.5472222222222222,19,0.5083333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,relationship record,module:,33,0.6137539361223572,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,relationship_type,41,0.6037698412698412,27,0.48104575163398694,0.0,0.0
+hasdescriptiveoccupation,slave,has_interagent_relationship_type_to,enslaver or owner,41,0.6037698412698412,45,0.6313725490196078,0.0,0.0
+hasdescriptiveoccupation,slave,archer,"till, ""enslaver or owner"")",20,0.5472222222222222,32,0.5974358974358974,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,agent,38,0.6264245014245015,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,george washington,38,0.6264245014245015,9,0.33921568627450976,0.0,0.0
+hasdescriptiveoccupation,slave,is_relationship_to,marquis de lafayette,38,0.6264245014245015,32,0.47222222222222215,0.0,0.0
+hasdescriptiveoccupation,slave,archer,"till, ""george washington""), is_relationship_to(hannah archer till, ""marquis de lafayette"").",20,0.5472222222222222,8,0.5313186813186813,0.0,0.0
+hasdescriptiveoccupation,slave,role record,module:,29,0.4873737373737373,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,participant_role_type,50,0.6805555555555555,15,0.4158730158730159,0.0,0.0
+hasdescriptiveoccupation,slave,has_participant_role,participant in the american revolutionary war,50,0.6805555555555555,8,0.48148148148148145,0.0,0.0
+hasdescriptiveoccupation,slave,archer,"till, ""participant in the american revolutionary war"").",20,0.5472222222222222,10,0.5515151515151515,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,sex_type,32,0.5742063492063493,31,0.5499999999999999,0.0,0.0
+hasdescriptiveoccupation,slave,has_sex,female,32,0.5742063492063493,36,0.5777777777777778,0.0,0.0
+hasdescriptiveoccupation,slave,archer,"till, ""female"").",20,0.5472222222222222,29,0.5083333333333333,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,occupation,68,0.8045940170940171,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_occupation,enslaved cook and servant,68,0.8045940170940171,33,0.6,0.0,0.0
+hasdescriptiveoccupation,slave,archer,"till, ""enslaved cook and servant"").",20,0.5472222222222222,25,0.580952380952381,0.0,0.0
+hasdescriptiveoccupation,slave,record,module:,27,0.6138888888888889,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,age,26,0.5793650793650794,50,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_age,105,26,0.5793650793650794,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,archer,"till, 105)",20,0.5472222222222222,13,0.43333333333333335,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,date_of_birth,38,0.6286324786324786,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_birthdate,1721,38,0.6286324786324786,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,archer,"till, ""1721"")",20,0.5472222222222222,11,0.4256410256410256,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,date_of_death,43,0.652065527065527,22,0.517948717948718,0.0,0.0
+hasdescriptiveoccupation,slave,has_deathdate,1826,43,0.652065527065527,0,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,archer,"till, ""1826"").",20,0.5472222222222222,11,0.4238095238095238,0.0,0.0
+hasdescriptiveoccupation,slave,status record,module:,32,0.540954415954416,33,0.44761904761904764,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,enslaved person,39,0.6241830065359477,50,0.6444444444444444,0.0,0.0
+hasdescriptiveoccupation,slave,has_person_status,free person,39,0.6241830065359477,12,0.43030303030303035,0.0,0.0
+hasdescriptiveoccupation,slave,archer,"till, ""enslaved person""), has_person_status(hannah archer till, ""free person"")",20,0.5472222222222222,12,0.5547008547008546,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,event,39,0.5815696649029983,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,sold multiple times,39,0.5815696649029983,25,0.5859649122807017,0.0,0.0
+hasdescriptiveoccupation,slave,has_status_generating_event,purchase of freedom in 1778,39,0.5815696649029983,12,0.45925925925925926,0.0,0.0
+hasdescriptiveoccupation,slave,multiple,"times""), has_status_generating_event(free person, ""purchase of freedom in 1778"")",19,0.47222222222222215,9,0.45,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,event,34,0.5202020202020202,40,0.0,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,sold multiple times,34,0.5202020202020202,25,0.5859649122807017,0.0,0.0
+hasdescriptiveoccupation,slave,recorded_at,purchase of freedom in 1778,34,0.5202020202020202,12,0.45925925925925926,0.0,0.0
+hasdescriptiveoccupation,slave,multiple,"times""), recorded_at(free person, ""purchase of freedom in 1778"").",19,0.47222222222222215,9,0.43760683760683755,0.0,0.0
+hasfirstname,hannah,record,module:,22,0.4166666666666667,0,0.0,0.0,0.0
+hasfirstname,hannah,has_name,name,70,0.8736111111111112,40,0.4444444444444444,0.0,0.0
+hasfirstname,hannah,has_name,hannah archer till,70,0.8736111111111112,50,0.8666666666666666,0.0,0.44943641652398214
+hasfirstname,hannah,archer,"till, ""hannah archer till"")",33,0.47222222222222215,36,0.7407407407407408,0.0,0.3032160644503863
+hasfirstname,hannah,has_surname,surname,70,0.8733164983164984,31,0.5396825396825397,0.0,0.0
+hasfirstname,hannah,has_surname,till,70,0.8733164983164984,0,0.0,0.0,0.0
+hasfirstname,hannah,archer,"till, ""till"")",33,0.47222222222222215,0,0.0,0.0,0.0
+hasfirstname,hannah,has_first_name,first_name,92,0.9666666666666667,25,0.5111111111111111,0.0,0.0
+hasfirstname,hannah,has_first_name,hannah,92,0.9666666666666667,100,1.0,0.0,1.0
+hasfirstname,hannah,archer,"till, ""hannah"").",33,0.47222222222222215,55,0.7916666666666666,0.0,0.5797386715376658
+hasfirstname,hannah,relationship record,module:,32,0.5077276524644946,0,0.0,0.0,0.0
+hasfirstname,hannah,has_interagent_relationship_type_to,relationship_type,34,0.5949735449735449,26,0.5588235294117647,0.0,0.0
+hasfirstname,hannah,has_interagent_relationship_type_to,enslaver or owner,34,0.5949735449735449,17,0.31699346405228757,0.0,0.0
+hasfirstname,hannah,archer,"till, ""enslaver or owner"")",33,0.47222222222222215,12,0.3034188034188034,0.0,0.0
+hasfirstname,hannah,is_relationship_to,agent,27,0.6203703703703703,36,0.5777777777777778,0.0,0.0
+hasfirstname,hannah,is_relationship_to,george washington,27,0.6203703703703703,26,0.48366013071895425,0.0,0.0
+hasfirstname,hannah,is_relationship_to,marquis de lafayette,27,0.6203703703703703,15,0.4777777777777778,0.0,0.0
+hasfirstname,hannah,archer,"till, ""george washington""), is_relationship_to(hannah archer till, ""marquis de lafayette"").",33,0.47222222222222215,12,0.6330891330891331,0.0,0.2097553962782169
+hasfirstname,hannah,role record,module:,17,0.44949494949494956,0,0.0,0.0,0.0
+hasfirstname,hannah,has_participant_role,participant_role_type,44,0.6962962962962962,15,0.43650793650793646,0.0,0.0
+hasfirstname,hannah,has_participant_role,participant in the american revolutionary war,44,0.6962962962962962,20,0.5814814814814815,0.0,0.0
+hasfirstname,hannah,archer,"till, ""participant in the american revolutionary war"").",33,0.47222222222222215,16,0.5747474747474748,0.0,0.0
+hasfirstname,hannah,record,module:,22,0.4166666666666667,0,0.0,0.0,0.0
+hasfirstname,hannah,has_sex,sex_type,53,0.6349206349206349,0,0.0,0.0,0.0
+hasfirstname,hannah,has_sex,female,53,0.6349206349206349,17,0.4444444444444444,0.0,0.0
+hasfirstname,hannah,archer,"till, ""female"").",33,0.47222222222222215,9,0.40972222222222227,0.0,0.0
+hasfirstname,hannah,record,module:,22,0.4166666666666667,0,0.0,0.0,0.0
+hasfirstname,hannah,has_occupation,occupation,38,0.5873015873015873,25,0.4222222222222222,0.0,0.0
+hasfirstname,hannah,has_occupation,enslaved cook and servant,38,0.5873015873015873,19,0.4288888888888889,0.0,0.0
+hasfirstname,hannah,archer,"till, ""enslaved cook and servant"").",33,0.47222222222222215,15,0.2968253968253968,0.0,0.0
+hasfirstname,hannah,record,module:,22,0.4166666666666667,0,0.0,0.0,0.0
+hasfirstname,hannah,has_age,age,53,0.7972222222222223,22,0.5,0.0,0.0
+hasfirstname,hannah,has_age,105,53,0.7972222222222223,0,0.0,0.0,0.0
+hasfirstname,hannah,archer,"till, 105)",33,0.47222222222222215,0,0.0,0.0,0.0
+hasfirstname,hannah,has_birthdate,date_of_birth,64,0.8324786324786324,21,0.41452991452991456,0.0,0.0
+hasfirstname,hannah,has_birthdate,1721,64,0.8324786324786324,0,0.0,0.0,0.0
+hasfirstname,hannah,archer,"till, ""1721"")",33,0.47222222222222215,0,0.0,0.0,0.0
+hasfirstname,hannah,has_deathdate,date_of_death,48,0.5982905982905983,32,0.41452991452991456,0.0,0.0
+hasfirstname,hannah,has_deathdate,1826,48,0.5982905982905983,0,0.0,0.0,0.0
+hasfirstname,hannah,archer,"till, ""1826"").",33,0.47222222222222215,0,0.0,0.0,0.0
+hasfirstname,hannah,status record,module:,32,0.5427350427350427,0,0.0,0.0,0.0
+hasfirstname,hannah,has_person_status,enslaved person,48,0.6857298474945533,19,0.32222222222222224,0.0,0.0
+hasfirstname,hannah,has_person_status,free person,48,0.6857298474945533,12,0.0,0.0,0.0
+hasfirstname,hannah,archer,"till, ""enslaved person""), has_person_status(hannah archer till, ""free person"")",33,0.47222222222222215,14,0.5658119658119659,0.0,0.2011946755849157
+hasfirstname,hannah,has_status_generating_event,event,41,0.5833333333333334,18,0.45555555555555555,0.0,0.0
+hasfirstname,hannah,has_status_generating_event,sold multiple times,41,0.5833333333333334,0,0.0,0.0,0.0
+hasfirstname,hannah,has_status_generating_event,purchase of freedom in 1778,41,0.5833333333333334,18,0.46913580246913583,0.0,0.0
+hasfirstname,hannah,multiple,"times""), has_status_generating_event(free person, ""purchase of freedom in 1778"")",20,0.4305555555555555,12,0.5652777777777778,0.0,0.0
+hasfirstname,hannah,recorded_at,event,17,0.4823232323232323,18,0.45555555555555555,0.0,0.0
+hasfirstname,hannah,recorded_at,sold multiple times,17,0.4823232323232323,0,0.0,0.0,0.0
+hasfirstname,hannah,recorded_at,purchase of freedom in 1778,17,0.4823232323232323,18,0.46913580246913583,0.0,0.0
+hasfirstname,hannah,multiple,"times""), recorded_at(free person, ""purchase of freedom in 1778"").",20,0.4305555555555555,8,0.4547008547008547,0.0,0.0
+hassurname,till,record,module:,25,0.4222222222222222,18,0.46428571428571425,0.0,0.0
+hassurname,till,has_name,name,78,0.9008333333333334,0,0.0,0.0,0.0
+hassurname,till,has_name,hannah archer till,78,0.9008333333333334,36,0.0,0.0,0.4494364165239821
+hassurname,till,archer,"till, ""hannah archer till"")",38,0.48888888888888893,26,0.8296296296296296,0.0,0.7092972666062738
+hassurname,till,has_surname,surname,95,0.9787878787878788,0,0.0,0.0,0.0
+hassurname,till,has_surname,till,95,0.9787878787878788,100,1.0,0.0,1.0
+hassurname,till,archer,"till, ""till"")",38,0.48888888888888893,47,0.8615384615384615,0.0,1.0
+hassurname,till,has_first_name,first_name,67,0.8674074074074074,14,0.39999999999999997,0.0,0.0
+hassurname,till,has_first_name,hannah,67,0.8674074074074074,0,0.0,0.0,0.0
+hassurname,till,archer,"till, ""hannah"").",38,0.48888888888888893,40,0.85,0.0,0.5797386715376658
+hassurname,till,relationship record,module:,28,0.4543859649122807,18,0.46428571428571425,0.0,0.0
+hassurname,till,has_interagent_relationship_type_to,relationship_type,31,0.5380952380952381,19,0.5310457516339869,0.0,0.0
+hassurname,till,has_interagent_relationship_type_to,enslaver or owner,31,0.5380952380952381,10,0.4362745098039216,0.0,0.0
+hassurname,till,archer,"till, ""enslaver or owner"")",38,0.48888888888888893,27,0.8307692307692308,0.0,0.3799783615910079
+hassurname,till,is_relationship_to,agent,21,0.5333333333333333,22,0.0,0.0,0.0
+hassurname,till,is_relationship_to,george washington,21,0.5333333333333333,10,0.0,0.0,0.0
+hassurname,till,is_relationship_to,marquis de lafayette,21,0.5333333333333333,17,0.5333333333333333,0.0,0.0
+hassurname,till,archer,"till, ""george washington""), is_relationship_to(hannah archer till, ""marquis de lafayette"").",38,0.48888888888888893,8,0.6813186813186812,0.0,0.4494364165239821
+hassurname,till,role record,module:,19,0.46060606060606063,18,0.46428571428571425,0.0,0.0
+hassurname,till,has_participant_role,participant_role_type,40,0.5777777777777778,24,0.5317460317460317,0.0,0.0
+hassurname,till,has_participant_role,participant in the american revolutionary war,40,0.5777777777777778,12,0.5148148148148147,0.0,0.0
+hassurname,till,archer,"till, ""participant in the american revolutionary war"").",38,0.48888888888888893,14,0.6909090909090909,0.0,0.2789425453258252
+hassurname,till,record,module:,25,0.4222222222222222,18,0.46428571428571425,0.0,0.0
+hassurname,till,has_sex,sex_type,59,0.8166666666666667,17,0.0,0.0,0.0
+hassurname,till,has_sex,female,59,0.8166666666666667,20,0.47222222222222215,0.0,0.0
+hassurname,till,archer,"till, ""female"").",38,0.48888888888888893,40,0.85,0.0,0.5797386715376658
+hassurname,till,record,module:,25,0.4222222222222222,18,0.46428571428571425,0.0,0.0
+hassurname,till,has_occupation,occupation,42,0.6190476190476191,29,0.0,0.0,0.0
+hassurname,till,has_occupation,enslaved cook and servant,42,0.6190476190476191,7,0.43,0.0,0.0
+hassurname,till,archer,"till, ""enslaved cook and servant"").",38,0.48888888888888893,21,0.822857142857143,0.0,0.33517574332792605
+hassurname,till,record,module:,25,0.4222222222222222,18,0.46428571428571425,0.0,0.0
+hassurname,till,has_age,age,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,till,has_age,105,59,0.8166666666666667,0,0.0,0.0,0.0
+hassurname,till,archer,"till, 105)",38,0.48888888888888893,57,0.88,0.0,0.5797386715376658
+hassurname,till,has_birthdate,date_of_birth,52,0.6871794871794871,24,0.4423076923076923,0.0,0.0
+hassurname,till,has_birthdate,1721,52,0.6871794871794871,0,0.0,0.0,0.0
+hassurname,till,archer,"till, ""1721"")",38,0.48888888888888893,47,0.8615384615384615,0.0,0.5797386715376658
+hassurname,till,has_deathdate,date_of_death,43,0.5615384615384615,12,0.4423076923076923,0.0,0.0
+hassurname,till,has_deathdate,1826,43,0.5615384615384615,0,0.0,0.0,0.0
+hassurname,till,archer,"till, ""1826"").",38,0.48888888888888893,44,0.8571428571428571,0.0,0.5797386715376658
+hassurname,till,status record,module:,35,0.5760683760683761,18,0.46428571428571425,0.0,0.0
+hassurname,till,has_person_status,enslaved person,44,0.6735294117647058,11,0.4388888888888889,0.0,0.0
+hassurname,till,has_person_status,free person,44,0.6735294117647058,0,0.0,0.0,0.0
+hassurname,till,archer,"till, ""enslaved person""), has_person_status(hannah archer till, ""free person"")",38,0.48888888888888893,10,0.6837606837606837,0.0,0.4285693450091423
+hassurname,till,has_status_generating_event,event,43,0.6703703703703704,22,0.0,0.0,0.0
+hassurname,till,has_status_generating_event,sold multiple times,43,0.6703703703703704,26,0.5701754385964912,0.0,0.0
+hassurname,till,has_status_generating_event,purchase of freedom in 1778,43,0.6703703703703704,6,0.0,0.0,0.0
+hassurname,till,multiple,"times""), has_status_generating_event(free person, ""purchase of freedom in 1778"")",22,0.48333333333333334,5,0.5083333333333333,0.0,0.0
+hassurname,till,recorded_at,event,19,0.41313131313131307,22,0.0,0.0,0.0
+hassurname,till,recorded_at,sold multiple times,19,0.41313131313131307,26,0.5701754385964912,0.0,0.0
+hassurname,till,recorded_at,purchase of freedom in 1778,19,0.41313131313131307,6,0.0,0.0,0.0
+hassurname,till,multiple,"times""), recorded_at(free person, ""purchase of freedom in 1778"").",22,0.48333333333333334,6,0.5102564102564102,0.0,0.0
+hasname,hannah till,record,module:,15,0.0,11,0.0,0.0,0.0
+hasname,hannah till,has_name,name,93,0.9708333333333333,27,0.393939393939394,0.0,0.0
+hasname,hannah till,has_name,hannah archer till,93,0.9708333333333333,76,0.9222222222222222,0.0,0.7092972666062739
+hasname,hannah till,archer,"till, ""hannah archer till"")",31,0.5396825396825397,58,0.6509539842873177,0.0,0.8032002037467098
+hasname,hannah till,has_surname,surname,78,0.9151515151515152,22,0.32251082251082247,0.0,0.0
+hasname,hannah till,has_surname,till,78,0.9151515151515152,53,0.0,0.0,0.5797386715376658
+hasname,hannah till,archer,"till, ""till"")",31,0.5396825396825397,42,0.6130536130536131,0.0,0.5797386715376658
+hasname,hannah till,has_first_name,first_name,67,0.5476190476190476,19,0.41313131313131307,0.0,0.0
+hasname,hannah till,has_first_name,hannah,67,0.5476190476190476,71,0.9090909090909091,0.0,0.5797386715376658
+hasname,hannah till,archer,"till, ""hannah"").",31,0.5396825396825397,44,0.7443181818181818,0.0,1.0000000000000002
+hasname,hannah till,relationship record,module:,23,0.5106516290726817,11,0.0,0.0,0.0
+hasname,hannah till,has_interagent_relationship_type_to,relationship_type,29,0.6206349206349207,29,0.4661319073083779,0.0,0.0
+hasname,hannah till,has_interagent_relationship_type_to,enslaver or owner,29,0.6206349206349207,21,0.36631016042780745,0.0,0.0
+hasname,hannah till,archer,"till, ""enslaver or owner"")",31,0.5396825396825397,22,0.4923409923409923,0.0,0.22028815056182974
+hasname,hannah till,is_relationship_to,agent,16,0.43121693121693117,38,0.6242424242424242,0.0,0.0
+hasname,hannah till,is_relationship_to,george washington,16,0.43121693121693117,21,0.449554367201426,0.0,0.0
+hasname,hannah till,is_relationship_to,marquis de lafayette,16,0.43121693121693117,19,0.5015151515151516,0.0,0.0
+hasname,hannah till,archer,"till, ""george washington""), is_relationship_to(hannah archer till, ""marquis de lafayette"").",31,0.5396825396825397,22,0.5554445554445554,0.0,0.4888908902652617
+hasname,hannah till,role record,module:,11,0.41125541125541126,11,0.0,0.0,0.0
+hasname,hannah till,has_participant_role,participant_role_type,37,0.5904761904761905,25,0.49927849927849927,0.0,0.0
+hasname,hannah till,has_participant_role,participant in the american revolutionary war,37,0.5904761904761905,25,0.510016835016835,0.0,0.0
+hasname,hannah till,archer,"till, ""participant in the american revolutionary war"").",31,0.5396825396825397,21,0.5303030303030303,0.0,0.161713780662529
+hasname,hannah till,record,module:,15,0.0,11,0.0,0.0,0.0
+hasname,hannah till,has_sex,sex_type,57,0.8,11,0.4053030303030303,0.0,0.0
+hasname,hannah till,has_sex,female,57,0.8,24,0.41919191919191917,0.0,0.0
+hasname,hannah till,archer,"till, ""female"").",31,0.5396825396825397,30,0.47348484848484845,0.0,0.33609692727625756
+hasname,hannah till,record,module:,15,0.0,11,0.0,0.0,0.0
+hasname,hannah till,has_occupation,occupation,38,0.6190476190476191,29,0.5242424242424243,0.0,0.0
+hasname,hannah till,has_occupation,enslaved cook and servant,38,0.6190476190476191,22,0.48484848484848486,0.0,0.0
+hasname,hannah till,archer,"till, ""enslaved cook and servant"").",31,0.5396825396825397,17,0.4692640692640693,0.0,0.19431434016858148
+hasname,hannah till,record,module:,15,0.0,11,0.0,0.0,0.0
+hasname,hannah till,has_age,age,71,0.8666666666666668,14,0.47474747474747475,0.0,0.0
+hasname,hannah till,has_age,105,71,0.8666666666666668,0,0.0,0.0,0.0
+hasname,hannah till,archer,"till, 105)",31,0.5396825396825397,38,0.396969696969697,0.0,0.33609692727625756
+hasname,hannah till,has_birthdate,date_of_birth,50,0.553113553113553,25,0.5011655011655012,0.0,0.0
+hasname,hannah till,has_birthdate,1721,50,0.553113553113553,0,0.0,0.0,0.0
+hasname,hannah till,archer,"till, ""1721"")",31,0.5396825396825397,33,0.3892773892773893,0.0,0.33609692727625756
+hasname,hannah till,has_deathdate,date_of_death,50,0.632967032967033,25,0.4452214452214452,0.0,0.0
+hasname,hannah till,has_deathdate,1826,50,0.632967032967033,0,0.0,0.0,0.0
+hasname,hannah till,archer,"till, ""1826"").",31,0.5396825396825397,32,0.2748917748917749,0.0,0.33609692727625756
+hasname,hannah till,status record,module:,30,0.442002442002442,11,0.0,0.0,0.0
+hasname,hannah till,has_person_status,enslaved person,42,0.6028011204481792,23,0.3767676767676768,0.0,0.0
+hasname,hannah till,has_person_status,free person,42,0.6028011204481792,9,0.393939393939394,0.0,0.0
+hasname,hannah till,archer,"till, ""enslaved person""), has_person_status(hannah archer till, ""free person"")",31,0.5396825396825397,25,0.5124320124320124,0.0,0.4651005455624053
+hasname,hannah till,has_status_generating_event,event,35,0.6375661375661376,25,0.5272727272727272,0.0,0.0
+hasname,hannah till,has_status_generating_event,sold multiple times,35,0.6375661375661376,27,0.4392344497607656,0.0,0.0
+hasname,hannah till,has_status_generating_event,purchase of freedom in 1778,35,0.6375661375661376,21,0.5039281705948372,0.0,0.0
+hasname,hannah till,multiple,"times""), has_status_generating_event(free person, ""purchase of freedom in 1778"")",27,0.4226190476190476,15,0.48409090909090907,0.0,0.0
+hasname,hannah till,recorded_at,event,11,0.41125541125541126,25,0.5272727272727272,0.0,0.0
+hasname,hannah till,recorded_at,sold multiple times,11,0.41125541125541126,27,0.4392344497607656,0.0,0.0
+hasname,hannah till,recorded_at,purchase of freedom in 1778,11,0.41125541125541126,21,0.5039281705948372,0.0,0.0
+hasname,hannah till,multiple,"times""), recorded_at(free person, ""purchase of freedom in 1778"").",27,0.4226190476190476,13,0.3771561771561771,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",record,module:,30,0.48412698412698413,6,0.44668630338733434,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",has_name,name,36,0.5952380952380952,4,0.5902061855670103,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",has_name,hannah archer till,36,0.5952380952380952,15,0.549446353570065,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",archer,"till, ""hannah archer till"")",30,0.5968253968253968,18,0.5118753147290426,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",has_surname,surname,48,0.6168831168831169,6,0.4626902307314678,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",has_surname,till,48,0.6168831168831169,4,0.5902061855670103,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",archer,"till, ""till"")",30,0.5968253968253968,10,0.43141833348018915,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",has_first_name,first_name,43,0.6726190476190476,9,0.5376861397479954,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",has_first_name,hannah,43,0.6726190476190476,6,0.5658648339060709,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",archer,"till, ""hannah"").",30,0.5968253968253968,12,0.46506300114547533,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",relationship record,module:,30,0.6135338345864662,6,0.44668630338733434,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",has_interagent_relationship_type_to,relationship_type,37,0.5666666666666667,13,0.4890409772156285,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",has_interagent_relationship_type_to,enslaver or owner,37,0.5666666666666667,16,0.5390135435617546,0.0,0.05524402556623145
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",archer,"till, ""enslaver or owner"")",30,0.5968253968253968,16,0.5016701511546873,0.0,0.04670634944248729
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",is_relationship_to,agent,44,0.6474266474266474,5,0.5419243986254295,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",is_relationship_to,george washington,44,0.6474266474266474,16,0.5390135435617546,0.0,0.1751280861929285
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",is_relationship_to,marquis de lafayette,44,0.6474266474266474,15,0.5161130202367316,0.0,0.055244025566231446
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",archer,"till, ""george washington""), is_relationship_to(hannah archer till, ""marquis de lafayette"").",30,0.5968253968253968,34,0.5724801429956069,0.0,0.08211691476131916
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",role record,module:,24,0.46645021645021645,6,0.44668630338733434,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",has_participant_role,participant_role_type,47,0.6876623376623376,14,0.48979299623629524,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",has_participant_role,participant in the american revolutionary war,47,0.6876623376623376,24,0.5353863776544189,0.0,0.07870893949125285
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",archer,"till, ""participant in the american revolutionary war"").",30,0.5968253968253968,26,0.5165104654795377,0.0,0.07186602465554431
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",record,module:,30,0.48412698412698413,6,0.44668630338733434,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",has_sex,sex_type,38,0.6238095238095238,6,0.34020618556701027,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",has_sex,female,38,0.6238095238095238,6,0.5103092783505154,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",archer,"till, ""female"").",30,0.5968253968253968,12,0.46506300114547533,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",record,module:,30,0.48412698412698413,6,0.44668630338733434,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",has_occupation,occupation,64,0.8074074074074075,8,0.48345606283750614,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",has_occupation,enslaved cook and servant,64,0.8074074074074075,23,0.5279037800687285,0.0,0.22902651745483457
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",archer,"till, ""enslaved cook and servant"").",30,0.5968253968253968,24,0.537260677466863,0.0,0.19376871167419438
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",record,module:,30,0.48412698412698413,6,0.44668630338733434,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",has_age,age,38,0.6190476190476191,3,0.5607101947308132,0.0,0.12291844526862812
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",has_age,105,38,0.6190476190476191,2,0.44616265750286366,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",archer,"till, 105)",30,0.5968253968253968,8,0.3769759450171821,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",has_birthdate,date_of_birth,37,0.6318681318681318,10,0.5130728378151058,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",has_birthdate,1721,37,0.6318681318681318,3,0.4183848797250859,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",archer,"till, ""1721"")",30,0.5968253968253968,9,0.33082209886333597,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",has_deathdate,date_of_death,44,0.63003663003663,11,0.5130728378151058,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",has_deathdate,1826,44,0.63003663003663,2,0.4183848797250859,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",archer,"till, ""1826"").",30,0.5968253968253968,9,0.36917034855179187,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",status record,module:,37,0.5366300366300366,6,0.44668630338733434,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",has_person_status,enslaved person,45,0.6675070028011204,13,0.5018327605956472,0.0,0.07126057616750975
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",has_person_status,free person,45,0.6675070028011204,10,0.5202124336144954,0.0,0.07126057616750975
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",archer,"till, ""enslaved person""), has_person_status(hannah archer till, ""free person"")",30,0.5968253968253968,30,0.5489058294179677,0.0,0.050843360649320664
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",has_status_generating_event,event,39,0.5476190476190476,5,0.5419243986254295,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",has_status_generating_event,sold multiple times,39,0.5476190476190476,15,0.5039258242635091,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",has_status_generating_event,purchase of freedom in 1778,39,0.5476190476190476,19,0.5215268376780404,0.0,0.1419780566742826
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",multiple,"times""), has_status_generating_event(free person, ""purchase of freedom in 1778"")",18,0.41865079365079366,29,0.5476582418800576,0.0,0.13500598763118582
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",recorded_at,event,32,0.47056277056277057,5,0.5419243986254295,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",recorded_at,sold multiple times,32,0.47056277056277057,15,0.5039258242635091,0.0,0.0
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",recorded_at,purchase of freedom in 1778,32,0.47056277056277057,19,0.5215268376780404,0.0,0.1419780566742826
+hasdescription,"born enslaved. free before 13th amendment. a skilled cook who worked both for george washington and lafayette, she bought her freedom and later lived in philadelphia until the age of 102 or 104.",multiple,"times""), recorded_at(free person, ""purchase of freedom in 1778"").",18,0.41865079365079366,30,0.5256379157531371,0.0,0.13500598763118576
