@@ -8,7 +8,7 @@ from openai import OpenAI
 client = OpenAI(api_key= "YOUR API KEY")
 
 
-# Function to generate summaries based on a query prompt using GPT-3
+# Function to generate summaries based on a query prompt using GPT-4
 def generate_summary_with_modules(query, text_chunks, module_file_path):
     # Read module file content
     with open(module_file_path, "r", encoding="utf-8") as module_file:
@@ -121,10 +121,10 @@ def process_text_files(folder_path, module_file_path):
 # Example usage
 if __name__ == "__main__":
     # Path to the folder containing input text files
-    folder_path = "/Users/adrita/Downloads/OntoLLM/Text_files"
+    folder_path = "/Users/adrita/Text_files"
 
     # Path to the module file containing relevant information
-    module_file_path = "/Users/adrita/Downloads/OntoLLM/Enslaved_Schema_Relationships.txt"
+    module_file_path = "/Users/adrita/Enslaved_Schema_Relationships.txt"
 
     # Process text files and generate summaries
     process_text_files(folder_path, module_file_path) 
