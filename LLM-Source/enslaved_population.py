@@ -24,7 +24,7 @@ def populate_ontology(file_name, text_file, module_content, query):
     # Extract the generated response text from the response
     response_text = response.choices[0].message.content.strip()
 
-    # Save the holistic summary to a file
+    # Save the triples to a file
     response_file_path = os.path.join("EnslavedOntoLLM/responses", f"{os.path.splitext(file_name)[0]}_response.txt")
     with open(response_file_path, "w", encoding="utf-8") as response_file:
         response_file.write(response_text)
@@ -108,7 +108,7 @@ if __name__ == "__main__":
     folder_path = "EnslavedOntoLLM/summaries"
 
     # Path to the module file containing relevant information
-    module_file_path = "/Users/adrita/Downloads/OntoLLM/Enslaved_Schema_Relationships.txt"
+    module_file_path = "/Users/adrita/Enslaved_Schema_Relationships.txt"
 
     # Process text files and generate summaries
     process_text_files(folder_path, module_file_path) 
