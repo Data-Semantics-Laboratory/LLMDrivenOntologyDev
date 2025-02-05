@@ -105,10 +105,10 @@ def process_text_files(folder_path, module_file_path):
 # Example usage
 if __name__ == "__main__":
     # Path to the folder containing input text files
-    folder_path = "EnslavedOntoLLM/summaries"
+    folder_path = "/Users/adrita/EnslavedOntoLLM/summaries"
 
     # Path to the module file containing relevant information
-    module_file_path = "/Users/adrita/Enslaved_Schema_Relationships.txt"
+    module_file_path = "/Users/adrita/EnslavedOntoLLM/Enslaved_Schema_Relationships.txt"
 
     # Process text files and generate summaries
     process_text_files(folder_path, module_file_path) 
