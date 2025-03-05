@@ -1,7 +1,7 @@
 # Summarizing and Populating Ontologies using LLMs  
 
 ## Overview  
-This repository contains Python scripts for summarizing large text files of individual enslaved persons, crawled from Wikipedia, and using these summaries to populate two ontologies: **Wikibase** and **Enslaved**. The text files are stored in WikipediaData/wikitextForSlavesOnWikiandEnslaved.  
+This repository contains Python scripts for summarizing large text files of individual enslaved persons, crawled from Wikipedia, and using these summaries to populate two ontologies: **Wikibase** and **Enslaved**. The text files are stored in the `WikipediaData/wikitextForSlavesOnWikiandEnslaved` directory.  
 We used two methods for this purpose: **Text Summarization** and **RAG**
 
 ## Text Summarization :
