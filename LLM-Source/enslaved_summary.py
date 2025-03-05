@@ -82,7 +82,7 @@ def generate_holistic_summary(file_name, context, module_content, holistic_query
 
 # Main function to process text files and generate summaries
 def process_text_files(folder_path, module_file_path):
-    # Create the responses folder if it doesn't exist
+    # Create the summaries folder if it doesn't exist
     os.makedirs("EnslavedOntoLLM/summaries", exist_ok=True)
 
     # Define your query prompt
