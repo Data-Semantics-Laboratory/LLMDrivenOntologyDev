@@ -17,21 +17,21 @@ def populate_ontology(file_name, text_file, module_content, query):
     response = client.chat.completions.create(
         model="gpt-4",
         messages=[{"role": "user", "content": f"{query}\n{text_file}"}],
-        temperature=0,  # Adjust the temperature for generating diverse responses
+        temperature=0,  # Adjust the temperature for generating diverse triples
     )
 
     # Extract the generated response text from the response
     response_text = response.choices[0].message.content.strip()
 
     # Save the triples to a file
-    response_file_path = os.path.join("WBOntoLLM/responses", f"{os.path.splitext(file_name)[0]}_response.txt")
+    response_file_path = os.path.join("WBOntoLLM/triples", f"{os.path.splitext(file_name)[0]}_response.txt")
     with open(response_file_path, "w", encoding="utf-8") as response_file:
         response_file.write(response_text)
 
-# Main function to process text files and generate summaries
+# Main function to populate the ontology
 def process_text_files(folder_path, module_file_path):
-    # Create the responses folder if it doesn't exist
-    os.makedirs("WBOntoLLM/responses", exist_ok=True)
+    # Create the triples folder if it doesn't exist
+    os.makedirs("WBOntoLLM/triples", exist_ok=True)
 
     # Read module file content
     with open(module_file_path, "r", encoding="utf-8") as module_file:
