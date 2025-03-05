@@ -64,7 +64,7 @@ python enslaved_population.py
 - A module file with ontology schema relationships (`Enslaved_Schema_Relationships.txt`).  
 
 **Outputs:**  
-- Ontology-populated text files stored in `EnslavedOntoLLM/responses`.  
+- Ontology-populated text files stored in `EnslavedOntoLLM/triples`.  
 
 #### **For Wikibase Ontology**  
 The `wb_population.py` script performs the same function as `enslaved_population.py`, but for the Wikibase ontology.  
@@ -78,7 +78,7 @@ python wb_population.py
 - A module file with ontology schema relationships (`WB_Schema_Relationships.txt`).  
 
 **Outputs:**  
-- Ontology-populated text files stored in `WBOntoLLM/responses`.  
+- Ontology-populated text files stored in `WBOntoLLM/triples`.  
 
 ## Configuration  
 All scripts require an OpenAI API key. Set your API key in the scripts:  
