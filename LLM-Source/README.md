@@ -1,69 +1,123 @@
-# Summerizing and Populating the ontologies using LLMs
+# Summarizing and Populating Ontologies using LLMs  
 
-## Overview
-This repository contains Python scripts for summarizing large text files of individual enslaved persons, crawled from Wikipedia, and using these summaries to populate two ontologies: Wikibase and Enslaved.
-1. **enslaved_summary.py** - Generates structured and holistic summaries of input text files.
-2. **enslaved_population.py** - Populates ontology modules based on the extracted summaries.
+## Overview  
+This repository contains Python scripts for summarizing large text files of individual enslaved persons, crawled from Wikipedia, and using these summaries to populate two ontologies: **Wikibase** and **Enslaved**.  
 
-## Installation
-To use these scripts, ensure you have Python installed along with the required dependencies. Install OpenAI's Python library if not already installed:
+### Scripts:  
+- **`enslaved_summary.py`** - Generates structured and holistic summaries for the Enslaved ontology.  
+- **`enslaved_population.py`** - Populates the Enslaved ontology modules using extracted summaries.  
+- **`wb_summary.py`** - Generates structured and holistic summaries for the Wikibase ontology.  
+- **`wb_population.py`** - Populates the Wikibase ontology modules using extracted summaries.  
+
+## Installation  
+Ensure Python is installed, along with the required dependencies. Install OpenAI's Python library if not already installed:  
 
 ```sh
 pip install openai
 ```
 
-## Usage
+## Usage  
 
-### 1. Generating Summaries
-The `enslaved_summary.py` script processes the text files and generates structured summaries based on predefined ontology modules.
+### Generating Summaries  
 
-#### **Running the script:**
+#### **For Enslaved Ontology**  
+The `enslaved_summary.py` script processes text files and generates structured summaries based on predefined ontology modules.  
+
+**Running the script:**  
 ```sh
 python enslaved_summary.py
-```
-#### **Inputs:**
-- A folder containing text files (`Absalom Jones.txt`) to be processed.
-- A module file defining relevant ontology relationships (`Enslaved_Schema_Relationships.txt`).
+```  
+**Inputs:**  
+- A folder containing text files (e.g., `Absalom Jones.txt`) to be processed.  
+- A module file defining relevant ontology relationships (`Enslaved_Schema_Relationships.txt`).  
 
-#### **Outputs:**
-- Summarized files stored in the `EnslavedOntoLLM/summaries` directory.
+**Outputs:**  
+- Summarized files stored in the `EnslavedOntoLLM/summaries` directory.  
 
-### 2. Populating Ontology Modules
-The `enslaved_population.py` script extracts structured knowledge from the summaries and maps it to ontology relationships.
+#### **For Wikibase Ontology**  
+The `wb_summary.py` script performs the same function as `enslaved_summary.py`, but for the Wikibase ontology.  
 
-#### **Running the script:**
+**Running the script:**  
+```sh
+python wb_summary.py
+```  
+**Inputs:**  
+- A folder containing text files (e.g., `Absalom Jones.txt`) to be processed.  
+- A module file defining relevant ontology relationships (`WB_Schema_Relationships.txt`).  
+
+**Outputs:**  
+- Summarized files stored in the `WBOntoLLM/summaries` directory.  
+
+### Populating Ontology Modules  
+
+#### **For Enslaved Ontology**  
+The `enslaved_population.py` script extracts structured knowledge from the summaries and maps it to ontology relationships.  
+
+**Running the script:**  
 ```sh
 python enslaved_population.py
-```
-#### **Inputs:**
-- Summarized text files from `EnslavedOntoLLM/summaries`.
-- A module file with ontology schema relationships (`Enslaved_Schema_Relationships.txt`).
+```  
+**Inputs:**  
+- Summarized text files from `EnslavedOntoLLM/summaries`.  
+- A module file with ontology schema relationships (`Enslaved_Schema_Relationships.txt`).  
 
-#### **Outputs:**
-- Ontology-populated text files stored in `EnslavedOntoLLM/responses`.
+**Outputs:**  
+- Ontology-populated text files stored in `EnslavedOntoLLM/responses`.  
 
-## Configuration
-Both scripts require an OpenAI API key. Set your API key in the scripts:
+#### **For Wikibase Ontology**  
+The `wb_population.py` script performs the same function as `enslaved_population.py`, but for the Wikibase ontology.  
+
+**Running the script:**  
+```sh
+python wb_population.py
+```  
+**Inputs:**  
+- Summarized text files from `WBOntoLLM/summaries`.  
+- A module file with ontology schema relationships (`WB_Schema_Relationships.txt`).  
+
+**Outputs:**  
+- Ontology-populated text files stored in `WBOntoLLM/responses`.  
+
+## Configuration  
+All scripts require an OpenAI API key. Set your API key in the scripts:  
+
 ```python
 client = OpenAI(api_key="YOUR_API_KEY")
 ```
 
+## Example Outputs  
 
-## Example Summary Output Format
+### **Summary Output Format**  
 ```
 The text provides information about Absalom Jones, who was born on November 7, 1746, and died on February 13, 1818. [...]
 ```
 
-## Example Ontology Output Format
+### **Ontology Output Format**  
+#### **For Enslaved Ontology**  
 ```
-hasNameVariant(Absalom Jones, "Absalom Jones")
-hasBirthDate(Absalom Jones, "November 7, 1746")
-isRelationshipTo(Absalom Jones, "Mr. Wynkop")
+Name Record Module:
+1. hasNameVariant(Absalom Jones, "Absalom Jones")
+2. hasPreferredNameVariant(Absalom Jones, "Absalom Jones")
+3. fullNameAsString(Absalom Jones, "Absalom Jones")
+4. hasSurnameAsString(Absalom Jones, "Jones")
+5. hasFirstnameAsString(Absalom Jones, "Absalom")
+
 ```
 
-## Contact
-For queries or contributions, feel free to open an issue or submit a pull request.
+#### **For Wikibase Ontology**  
+```
+Name Record Module: 
+1. has_Name(Agent, Name): has_Name(Absalom Jones, "Absalom Jones")
+2. has_Surname(Agent, Surname): has_Surname(Absalom Jones, "Jones")
+3. has_First_Name(Agent, First_Name): has_First_Name(Absalom Jones, "Absalom").
+  
+```
+
+## Contact  
+For queries or contributions, feel free to open an issue or submit a pull request.  
 
 ---
-**Developed by:** Adrita
+
+**Developed by:** Adrita  
+
 
