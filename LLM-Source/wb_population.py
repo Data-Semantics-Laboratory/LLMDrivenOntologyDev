@@ -17,7 +17,7 @@ def populate_ontology(file_name, text_file, module_content, query):
     response = client.chat.completions.create(
         model="gpt-4",
         messages=[{"role": "user", "content": f"{query}\n{text_file}"}],
-        temperature=0,  # Adjust the temperature for generating diverse triples
+        temperature=0,  # Adjust the temperature for generating diverse responses
     )
 
     # Extract the generated response text from the response
