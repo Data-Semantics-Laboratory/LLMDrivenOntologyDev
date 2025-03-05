@@ -2,9 +2,9 @@
 
 ## Overview  
 This repository contains Python scripts for summarizing large text files of individual enslaved persons, crawled from Wikipedia, and using these summaries to populate two ontologies: **Wikibase** and **Enslaved**.  
-We used two methods for this purpose: text summarization and RAG
+We used two methods for this purpose: **Text Summarization** and **RAG**
 
-## Text summarization :
+## Text Summarization :
 ### Scripts:  
 - **`enslaved_summary.py`** - Generates structured and holistic summaries for the Enslaved ontology.  
 - **`enslaved_population.py`** - Populates the Enslaved ontology modules using extracted summaries.  
